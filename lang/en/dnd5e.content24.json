@@ -1,0 +1,3451 @@
+{
+    "label": "Content24",
+    "folders": {
+        "Chapter 3": "Chapter 3",
+        "Magic Items": "Magic Items",
+        "Monsters": "Monsters",
+        "Gameplay Toolbox": "Gameplay Toolbox",
+        "Chapter 2": "Chapter 2",
+        "DM's Toolbox": "DM's Toolbox",
+        "Chapter 1": "Chapter 1",
+        "Chapter 5": "Chapter 5",
+        "Appendices": "Appendices",
+        "Chapter 7": "Chapter 7",
+        "Chapter 6": "Chapter 6",
+        "Chapter 4": "Chapter 4"
+    },
+    "entries": {
+        "07PtjpMxiRIhkBEp": {
+            "name": "Lair Actions (2014)"
+        },
+        "09MGKnX2pmlDjmdl": {
+            "name": "Mages"
+        },
+        "0B1fxfmw0a48tPsc": {
+            "name": "Flying Movement"
+        },
+        "0B3uI9PTzjAVI0vv": {
+            "name": "Gelatinous Cube"
+        },
+        "0Dgs9HZmRIFKVeca": {
+            "name": "Armor Class"
+        },
+        "0H7Jo2EpoR64vzip": {
+            "name": "Bronze Dragons"
+        },
+        "0Hx2Lxtr8a0LPqlV": {
+            "name": "Ally"
+        },
+        "0LBrn5XGigZKGfIe": {
+            "name": "Special Purpose (2014)"
+        },
+        "0T8giAslc7JILSGC": {
+            "name": "Ogre Zombie"
+        },
+        "0a2umg2mJMAzM9Q3": {
+            "name": "Concentration"
+        },
+        "0a5PV83ad5JizhIz": {
+            "name": "An Ongoing Game"
+        },
+        "0biNngDZ84Ip8R4f": {
+            "name": "Immunity"
+        },
+        "0fW9x56xf2hWWEZX": {
+            "name": "Ghoul"
+        },
+        "0qRJvElPfvgHGz78": {
+            "name": "Rat"
+        },
+        "0r3UkdVTPBHa78ea": {
+            "name": "Proficiency"
+        },
+        "0t4AB2dun7hpADVS": {
+            "name": "Mounted Combat"
+        },
+        "0wZfG9paOUWsIK3C": {
+            "name": "Pirate"
+        },
+        "12ZJOcieI7vPpryj": {
+            "name": "Cover"
+        },
+        "13bD8Xxw7q0lmKWa": {
+            "name": "Hippopotamus"
+        },
+        "14Q0pyxQsCAWoZzo": {
+            "name": "Awakened Plants"
+        },
+        "1Atgt2aMSTqlG5eB": {
+            "name": "Quasit"
+        },
+        "1FyvNuYRqfEBdGNl": {
+            "name": "Stirge"
+        },
+        "1HjQuidJ5OdJh2Nd": {
+            "name": "Doppelganger"
+        },
+        "1Hp2MOUaAODie8ex": {
+            "name": "Ogres"
+        },
+        "1PnjDBKbQJIVyc2t": {
+            "name": "Carrying Capacity"
+        },
+        "1U0myNrOvIVBUdJV": {
+            "name": "Long Jump"
+        },
+        "1gKMIAfGAHAyBvLK": {
+            "name": "Behir"
+        },
+        "1gZk82d5dqtIeB4K": {
+            "name": "Copper Dragons"
+        },
+        "1oT7t6tHE4kZuSN1": {
+            "name": "Plants (2014)"
+        },
+        "1s2swI3UsjUUgbt2": {
+            "name": "Short Rest"
+        },
+        "1uUpd2TSpFjkisSO": {
+            "name": "Gnolls"
+        },
+        "243xmBDKcM1W2QEm": {
+            "name": "Hit Points"
+        },
+        "24I7GDO2vVahRan1": {
+            "name": "Lightly Obscured"
+        },
+        "2D2IoGRcYJh3UBtK": {
+            "name": "Giant Constrictor Snake"
+        },
+        "2DfEnIm8DZ3RUXYD": {
+            "name": "Planetar"
+        },
+        "2NJl3sJS76BRyxUo": {
+            "name": "Giant Goat"
+        },
+        "2TZKy9YbMN3ZY3h8": {
+            "name": "Ending a Grapple"
+        },
+        "2Uvc5myrDs18Cf19": {
+            "name": "Unarmed Strike"
+        },
+        "2VqLyxMyMxgXe2wC": {
+            "name": "Reactions"
+        },
+        "2Znoovi4GcwAOuxa": {
+            "name": "Chuul"
+        },
+        "2aaJXJuiIZticCNi": {
+            "name": "Attunement"
+        },
+        "2bADxJuWILSLbKnL": {
+            "name": "Lemure"
+        },
+        "2dMF1Nsw7ysf6X6e": {
+            "name": "Critical Hit"
+        },
+        "2fu2CXsDg8gQmGGw": {
+            "name": "Bonus Actions"
+        },
+        "2g3T7ee3yYp1XSl8": {
+            "name": "Melee Attacks"
+        },
+        "2l5215aIscQ8Y1di": {
+            "name": "Abilities (2014)"
+        },
+        "2nJWForKrOIXzELQ": {
+            "name": "Trinkets"
+        },
+        "2umstdyMUtPaf6vB": {
+            "name": "Damage at 0 Hit Points"
+        },
+        "2xCqDBEM46bLXD4q": {
+            "name": "Zombies"
+        },
+        "310T6po5xJuu8FoZ": {
+            "name": "Dexterity Checks"
+        },
+        "37WXMK2WwtcRDkdm": {
+            "name": "Goat"
+        },
+        "38hXYxwxxyWdZLG7": {
+            "name": "Charisma Checks"
+        },
+        "39KwfdzA13BzHkac": {
+            "name": "Fungi"
+        },
+        "39LFrlef94JIYO8m": {
+            "name": "Bludgeoning"
+        },
+        "3CtaZvXT0QtPFi3T": {
+            "name": "Gray Ooze"
+        },
+        "3EEBc1Q3WgEvIOag": {
+            "name": "Killer Whale"
+        },
+        "3Il3CvacAVpf6Rch": {
+            "name": "Warriors"
+        },
+        "3LkAmY7ENZwUBBdM": {
+            "name": "Ammunition (2014)"
+        },
+        "3OaVYG2opAydAD8R": {
+            "name": "Owlbears"
+        },
+        "3Poomjri6b55DDUC": {
+            "name": "Occupied Space"
+        },
+        "3RRDH9XNKf1LHgWl": {
+            "name": "Cantrip"
+        },
+        "3TpDSG1lYJiOmnGl": {
+            "name": "Nalfeshnee"
+        },
+        "3WSN4TTWARjvUkgR": {
+            "name": "Ankheg"
+        },
+        "3YJIuyCMmuUrfmuX": {
+            "name": "Dodge"
+        },
+        "3aopi18MGbDzmWZ5": {
+            "name": "Red Dragons"
+        },
+        "3jj30B8y8b0KajI2": {
+            "name": "Clay Golem"
+        },
+        "3lN8zNGucKxT5vRS": {
+            "name": "Berserkers"
+        },
+        "3p5w6mH7RBWrEcJK": {
+            "name": "Black Bear"
+        },
+        "40R28GfmcwWg3Yft": {
+            "name": "Saber-Toothed Tiger"
+        },
+        "445bqbUoIKHvwBlJ": {
+            "name": "Giant Owl"
+        },
+        "4AEfQUDZXzv0lAoA": {
+            "name": "Activating a Magic Item"
+        },
+        "4AXnTyno7dLBB6Ct": {
+            "name": "Initiative"
+        },
+        "4H9SLM95OCLfFizz": {
+            "name": "Casting a Spell at a Highler Level"
+        },
+        "4MfrpERNiQXmvgCI": {
+            "name": "Stealth"
+        },
+        "4R5H8iIsdFQTsj3X": {
+            "name": "Persuasion"
+        },
+        "4V59Q1dlWjNhpJGo": {
+            "name": "Influence"
+        },
+        "4VHHI2gJ1jEsppfg": {
+            "name": "Intimidation"
+        },
+        "4dfREIDjG5N4fvxd": {
+            "name": "Darkness"
+        },
+        "4i3G895hy99piand": {
+            "name": "Incapacitated"
+        },
+        "4km6CWhHArWi0klF": {
+            "name": "Fiend Patron",
+            "description": "<blockquote><p>Make a Deal with the Lower Planes</p></blockquote><p>Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims (@UUID[Compendium.dnd5e.classes24.Item.phbwlkFiendPatro]{Fiend Patron} subclass).</p>"
+        },
+        "4lDNRk5n5HMopbPT": {
+            "name": "Mutual Respect"
+        },
+        "4nItoON53aHTT6Np": {
+            "name": "Giant Frog"
+        },
+        "4pciwmCodavbh37k": {
+            "name": "Giant Fire Beetle"
+        },
+        "4tGjZ082H9TPphMu": {
+            "name": "Mammoth"
+        },
+        "4xsFUooHDEdfhw6g": {
+            "name": "Cold"
+        },
+        "4zCNgk0JSKVzv9Y9": {
+            "name": "Dwarf"
+        },
+        "4zDsxjBjYcZYxznI": {
+            "name": "Legal Information"
+        },
+        "53c9JMqckHagYYB5": {
+            "name": "Swimming"
+        },
+        "586Z9tTrDDbK6Liz": {
+            "name": "Fire Giant"
+        },
+        "5EAxqsbHGxNrxEA7": {
+            "name": "Preparing a Session"
+        },
+        "5GJRlwRj1ceTGf4k": {
+            "name": "Shadow"
+        },
+        "5HnIk6HsrSxkvkz5": {
+            "name": "Ranger Spell List"
+        },
+        "5MKyFnOiAVifvbuI": {
+            "name": "Ability Score and Modifier"
+        },
+        "5N2ZXYIqYXegb76E": {
+            "name": "Phase Spider"
+        },
+        "5NXvjb1HLEYfUSf0": {
+            "name": "Respect for the Players"
+        },
+        "5S8i59qskkd9GGcJ": {
+            "name": "Help"
+        },
+        "5SOuMdlM08DPALos": {
+            "name": "Giant Centipede"
+        },
+        "5VW4pbLF5nwdO7II": {
+            "name": "Quasit"
+        },
+        "5ZJNwEPlsGurecg5": {
+            "name": "Unseen Attackers and Targets"
+        },
+        "5ay66aAVgkgRH7qH": {
+            "name": "Step 1: Choose a Class"
+        },
+        "5cn1ZTLgQq95vfZx": {
+            "name": "Search"
+        },
+        "5gIc77Hzm2rqC84x": {
+            "name": "Weasel"
+        },
+        "5hyEitPd1Kb27fP5": {
+            "name": "Hazard"
+        },
+        "5tcK9buXWDOw8yHH": {
+            "name": "Radiant"
+        },
+        "5wkqEqhbBD5kDeE7": {
+            "name": "Attack Rolls"
+        },
+        "625c7JbLfS3us1WI": {
+            "name": "Hydra"
+        },
+        "63gRBbKNthvnmFmh": {
+            "name": "Actions"
+        },
+        "65CntoJ7zvQIx01s": {
+            "name": "Bearded Devil"
+        },
+        "69IzOHUyHlEqHA48": {
+            "name": "One Thing at a Time"
+        },
+        "69nu4Sk3V5O15GFf": {
+            "name": "Expertise"
+        },
+        "6AnqLUowgdsqMFvz": {
+            "name": "Wizard Spell List"
+        },
+        "6DOoBgg7okm9gBc6": {
+            "name": "Line"
+        },
+        "6Icem7G3CICdNOkM": {
+            "name": "Curing Madness (2014)"
+        },
+        "6JpV8RWOi2AG8BdK": {
+            "name": "Hirelings"
+        },
+        "6KI7zSxbWs0IsiRv": {
+            "name": "Owl"
+        },
+        "6PrDrnPObjKa4Sum": {
+            "name": "Introduction"
+        },
+        "6TMM8zFvQhhlHNJ6": {
+            "name": "Things You Need"
+        },
+        "6ThVICG0QSRy7L0F": {
+            "name": "Step 4: Alignment"
+        },
+        "6UXTNWMCQ0nSlwwx": {
+            "name": "Verbal (V)"
+        },
+        "6WJRdQlCExNsBZMz": {
+            "name": "Modifiers to the Roll (2014)"
+        },
+        "6Xu0DgMDkEhIlqgg": {
+            "name": "Sprite"
+        },
+        "6YfqSe0sucLuGL3j": {
+            "name": "Target"
+        },
+        "6bTHn7pZek9YX2tv": {
+            "name": "Beasts (2014)"
+        },
+        "6c0Aa15WAeqtY3hl": {
+            "name": "Imp"
+        },
+        "6cLtjbHn4KV2R7G9": {
+            "name": "Long Rest"
+        },
+        "6dGAuELNaC2dHzcU": {
+            "name": "Unicorn"
+        },
+        "6dXTwUjnG05rZC1o": {
+            "name": "Intelligence Saving Throw"
+        },
+        "6l6nBKip4LqB1sCU": {
+            "name": "Dash"
+        },
+        "6tqz947qO8vPyxvD": {
+            "name": "Difficult Terrain"
+        },
+        "6uMySCQYSC9akp91": {
+            "name": "Nightmare"
+        },
+        "6vtLuQT9lwZ9N299": {
+            "name": "Petrified"
+        },
+        "6zGMb84U7IQkPCmn": {
+            "name": "Saving Throws"
+        },
+        "6zVOeLyq4iMnrQT4": {
+            "name": "Underwater Combat"
+        },
+        "72JPQib8zeo3bhZJ": {
+            "name": "K-O"
+        },
+        "75LcKiIsCIrohlPV": {
+            "name": "Rust Monster"
+        },
+        "77jn4POOPOWB3Iq8": {
+            "name": "Temporary Hit Points"
+        },
+        "7CjrSnTgojI1OMuu": {
+            "name": "Cloaker"
+        },
+        "7DAvTQlrw7OTsgpX": {
+            "name": "Acolyte"
+        },
+        "7MN2Hp5KnjtddH3m": {
+            "name": "Weapon Masteries"
+        },
+        "7OEqZFJzetIk928C": {
+            "name": "Cultist"
+        },
+        "7PsCDnXY0pGjXrXN": {
+            "name": "Draft Horse"
+        },
+        "7ZwTS15VL3A4r2R0": {
+            "name": "Assassin"
+        },
+        "7iLsgz6RUQJVpUsH": {
+            "name": "Overview"
+        },
+        "7mCbWff8VVEzpG2D": {
+            "name": "Your Turn"
+        },
+        "7moTWd8pOCzvlES1": {
+            "name": "Casting Time"
+        },
+        "7qSj8lqMAP0FBNKK": {
+            "name": "Properties"
+        },
+        "7vQ1hLQ5fS6SSUqF": {
+            "name": "Darkvision"
+        },
+        "7z1LXGGkXpHuzkFh": {
+            "name": "Elementals (2014)"
+        },
+        "80h94evzbL3MwLk1": {
+            "name": "Hunter",
+            "description": "<blockquote><p>Protect Nature and People from Destruction</p></blockquote><p>You stalk prey in the wilds and elsewhere, using your abilities as a @UUID[Compendium.dnd5e.classes24.Item.phbrgrHunter0000]{Hunter} to protect nature and people everywhere from forces that would destroy them.</p>"
+        },
+        "80kEKa3Nic5cGn3f": {
+            "name": "Zombies"
+        },
+        "82BB8JUr7qEyo0jN": {
+            "name": "Alignment"
+        },
+        "849AYEWw9FHD6JNz": {
+            "name": "Abjuration"
+        },
+        "89QDRHWkdYr89DSG": {
+            "name": "Pony"
+        },
+        "8BG05mA0mEzwmrHU": {
+            "name": "Instant Death"
+        },
+        "8DajfNll90eeKcmB": {
+            "name": "Saving Throws"
+        },
+        "8Dkn6nfrJruZzH83": {
+            "name": "Choose a Character Sheet"
+        },
+        "8Ee3YGY7XA0ne3my": {
+            "name": "Triceratops"
+        },
+        "8HxbRceQQUAhyWRt": {
+            "name": "Point of Origin"
+        },
+        "8R5SMbAGbECNgO8z": {
+            "name": "Insight"
+        },
+        "8TSg6dtVxOVPzvuY": {
+            "name": "Hit Points"
+        },
+        "8bi3eca7gmGQcWcY": {
+            "name": "Rhinoceros"
+        },
+        "8gPSPovZD9reqFet": {
+            "name": "Surprise"
+        },
+        "8h5EEu5HRIvcJrIz": {
+            "name": "Piranha"
+        },
+        "8hAsl8JueZ3GvyS2": {
+            "name": "Scribing Spell Scrolls"
+        },
+        "8hYWLKgyyPtzb5rh": {
+            "name": "Will-o'-Wisp"
+        },
+        "8i9W8vECXrwMunQC": {
+            "name": "Alignment"
+        },
+        "8kIKiDSHasHd3MBv": {
+            "name": "Basilisk"
+        },
+        "8t4u8CWYbxubXflR": {
+            "name": "Human"
+        },
+        "8wdbi5nuj0XAXcuL": {
+            "name": "Settlement Tracker"
+        },
+        "8xJzZVelP2AmQGfU": {
+            "name": "Ready"
+        },
+        "8yD9Jgp404hfZ9ie": {
+            "name": "Paladin Spell List"
+        },
+        "8ypc00V48Je5p3JY": {
+            "name": "Knight"
+        },
+        "93uaingTESo8N1qL": {
+            "name": "Frightened"
+        },
+        "95agSnEGTdAmKhyC": {
+            "name": "Piercing"
+        },
+        "988C2hQNyvqkdbND": {
+            "name": "Passive Perception"
+        },
+        "9DPXJOLEsspMYK0D": {
+            "name": "Attacks Rolls and Damage"
+        },
+        "9Ek1sZ0PfUSb0o6k": {
+            "name": "Vampires"
+        },
+        "9F7Ln8GBlGs029fD": {
+            "name": "Strength Saving Throw"
+        },
+        "9FyghudYFV5QJOuG": {
+            "name": "Charisma"
+        },
+        "9GYj3Sr9FWtCb6SC": {
+            "name": "Underwater Combat"
+        },
+        "9LJZhqvCburpags3": {
+            "name": "Damage Threshold"
+        },
+        "9LRNZCkYL93PbLsb": {
+            "name": "Ability Checks"
+        },
+        "9Otf0bjl7X3tubNv": {
+            "name": "Simultaneous Effects"
+        },
+        "9SaxFJ9bM3SutaMC": {
+            "name": "Lightning"
+        },
+        "9SzoRkB9GUlofZEB": {
+            "name": "Hit Point Dice"
+        },
+        "9W9uFO42HWgyS24L": {
+            "name": "Shield Guardian"
+        },
+        "9ZWCknaXCOdhyOrX": {
+            "name": "Moving Around Other Creatures"
+        },
+        "9fI6fUNcF9NVJuBo": {
+            "name": "Flesh Golem"
+        },
+        "9gW8NWa2ETg8tO9V": {
+            "name": "Travel Stage"
+        },
+        "9gz1xBZF5YsMScrk": {
+            "name": "Components"
+        },
+        "9iCIjvYzMdxWPtd1": {
+            "name": "Disclaimer"
+        },
+        "9jV1fFF163dr68vd": {
+            "name": "Tags (2014)"
+        },
+        "9mp0SRsptjvJcq1e": {
+            "name": "Duration"
+        },
+        "9o8NbQ1Ph2xCxlQh": {
+            "name": "Step 3: Ability Scores"
+        },
+        "9tzB6KQDTIuw1FlZ": {
+            "name": "Difficult Terrain"
+        },
+        "9wPwyBWpNGzAL7yb": {
+            "name": "Worgs"
+        },
+        "A34CXe4HdzXHoBEl": {
+            "name": "Paladin",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbpdnPaladin000 inline classes=\"free-rules-embed\"]</p> <aside class=\"notable\"><h3>Breaking Your Oath</h3><p>A Paladin tries to hold to the highest standards of conduct, but even the most dedicated are fallible. Sometimes a Paladin transgresses their oath.</p><p>A Paladin who has broken a vow typically seeks absolution, spending an all-night vigil as a sign of penitence or undertaking a fast. After a rite of forgiveness, the Paladin starts fresh.</p><p>If your Paladin unrepentantly violates their oath, talk to your GM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one.</p></aside><h2>Becoming a Paladin …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Paladin Traits table.</p></li><li><p>Gain the Paladin's level 1 features, which are listed in the Paladin Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.</p></li><li><p>Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>"
+        },
+        "A3x6KhVM3eWRVkfi": {
+            "name": "Purple Worm"
+        },
+        "A6k5fS0kFqPXTW3v": {
+            "name": "Spell Level"
+        },
+        "AEAFZ04se5eTU3zO": {
+            "name": "Black Dragons"
+        },
+        "AK8mgYdk1zOiIU0w": {
+            "name": "College of Lore",
+            "description": "<blockquote><p>Plumb the Depths of Magical Knowledge</p></blockquote><p>Bards of the @UUID[Compendium.dnd5e.classes24.Item.phbbrdLore000000]{College of Lore} collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</p>"
+        },
+        "AKYkasQ56Pnatfmz": {
+            "name": "Spellcasting Focus"
+        },
+        "AMFpeeVHTKXvGbHA": {
+            "name": "Sentient Magic Items"
+        },
+        "AOXn3Mv5vPZwo0Uf": {
+            "name": "Giants (2014)"
+        },
+        "AQ1oTG7jHy5kZuN9": {
+            "name": "Heroic Inspiration"
+        },
+        "AT1WFd5AeDretysm": {
+            "name": "Tarrasque"
+        },
+        "AW6HpJZHqxfESXaq": {
+            "name": "Temporary Hit Points"
+        },
+        "AXXqca9xNbd6xnJ6": {
+            "name": "Slaadi"
+        },
+        "AXb6rgRnpN7qGWWX": {
+            "name": "Scout"
+        },
+        "AcSox4ZVvskoypvI": {
+            "name": "Archelon"
+        },
+        "AeH5eDS4YeM9RETC": {
+            "name": "Material (M)"
+        },
+        "AgCaArPy6j8On17a": {
+            "name": "Knights"
+        },
+        "Agsv3qZNLTNij9mm": {
+            "name": "Round Down"
+        },
+        "AoykthgwEP3T0XsL": {
+            "name": "Saving Throws"
+        },
+        "AvvBLEHNl7kuwPkN": {
+            "name": "Acrobatics"
+        },
+        "AwNgUID2m7TDvXYA": {
+            "name": "Iron Golem"
+        },
+        "BGxcIHsXjLEtJUer": {
+            "name": "Introduction"
+        },
+        "BH8qd9cOgCVNuKCv": {
+            "name": "School of Magic"
+        },
+        "BIlnr0xYhqt4TGsi": {
+            "name": "Suffocating"
+        },
+        "BKUAxXuPEzxiEOeL": {
+            "name": "Total Cover"
+        },
+        "BKZ4ViHHUMxaqPz4": {
+            "name": "Gnome"
+        },
+        "BMoxmXB8pX6bOBus": {
+            "name": "Challenge Rating"
+        },
+        "BNxLbtJofbNGzjsp": {
+            "name": "Hostile"
+        },
+        "BOqXIilnnBRsQabZ": {
+            "name": "Bandit"
+        },
+        "BPD7ScnLyuPwl145": {
+            "name": "Push"
+        },
+        "BRPgUa1VGeHBz5BR": {
+            "name": "Mages"
+        },
+        "BRyYSNRwXDseFWPv": {
+            "name": "Pseudodragon"
+        },
+        "BXlHhE4ZoiFwiXLK": {
+            "name": "Hide"
+        },
+        "BY9PswYVqCcQbMAx": {
+            "name": "Glabrezu"
+        },
+        "Bb3ZEkljniXdO5Zr": {
+            "name": "Gray Ooze"
+        },
+        "Bcq4yzQxVc6hDwxv": {
+            "name": "Water Elemental"
+        },
+        "BhPCJ7FryjIRAzap": {
+            "name": "Modifying Creatures (2014)"
+        },
+        "Bi9wBpwMEF1hsQNY": {
+            "name": "Rules for the Virtual Table"
+        },
+        "BiqRuwpBfYi32N2p": {
+            "name": "Thief",
+            "description": "<blockquote><p>Hunt for Treasure as a Classic Adventurer</p></blockquote><p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer (@UUID[Compendium.dnd5e.classes24.Item.phbrgeThief00000]{Thief subclass}). In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p>"
+        },
+        "Bm2ZYgxlO9mRp8Py": {
+            "name": "Bulette"
+        },
+        "BoFqf2ThVjLvZ4H1": {
+            "name": "Cat"
+        },
+        "Brc9AnUXBeg0MTX6": {
+            "name": "Passive Perception"
+        },
+        "BuIBCfux6QYAah3q": {
+            "name": "Overview"
+        },
+        "C1UeVOEjn0EDuIPn": {
+            "name": "Campaign Journal"
+        },
+        "C1awOyZh78pq1xmY": {
+            "name": "Legendary Actions (2014)"
+        },
+        "C5AnYUB2Vhu0urqS": {
+            "name": "Mephits"
+        },
+        "CI6KiNhPoh5AL0sD": {
+            "name": "Armor, Weapon, and Tool Proficiencies (2014)"
+        },
+        "CIKNTZvYHNPixLRp": {
+            "name": "Travel"
+        },
+        "CPaeyRoFFSZ5BSU4": {
+            "name": "Range"
+        },
+        "CUSrUMAS8EvE3buX": {
+            "name": "Wisdom Checks"
+        },
+        "CXVzERHdP4qLhJXM": {
+            "name": "Religion"
+        },
+        "CZhyuaLCB8xtFYyA": {
+            "name": "Sea Hag"
+        },
+        "CeXh0qTXx51SiKq3": {
+            "name": "Tracking Monsters' Hit Points"
+        },
+        "Ci0k7DXfjeh9FjN3": {
+            "name": "Erinyes"
+        },
+        "CmKJpbyrDuVrAkIs": {
+            "name": "Crafting Magic Items"
+        },
+        "CpD1zLLviYjS9FBX": {
+            "name": "Attunement"
+        },
+        "CsuPeVqOrFXTv1R7": {
+            "name": "Green Hag"
+        },
+        "CszG4ZiW2V02je4W": {
+            "name": "Crawling Claws"
+        },
+        "D2BdqS1GeD5rcZ6q": {
+            "name": "Undead (2014)"
+        },
+        "D2kEU89bgQra3Ovs": {
+            "name": "Imp"
+        },
+        "D7PYxDa5AJ5kInPo": {
+            "name": "Medusa"
+        },
+        "D8K6ansoz1q6P37s": {
+            "name": "Mounts and Vehicles"
+        },
+        "DABoaeeF6w31UCsj": {
+            "name": "Spells (2014)"
+        },
+        "DCBrQduxfNUmcvsi": {
+            "name": "Overview"
+        },
+        "DE7Ff0cOkQgid3fG": {
+            "name": "Starting at Higher Levels"
+        },
+        "DHkkEOXbxYvM9oDP": {
+            "name": "Deva"
+        },
+        "DHw4tAz06WzLz07b": {
+            "name": "Cultist Fanatic"
+        },
+        "DOKv3OuN2jzjOnX8": {
+            "name": "Speed"
+        },
+        "DZ7AhdQ94xggG4bj": {
+            "name": "Detecting and Disabling a Trap (2014)"
+        },
+        "DksBBFbqPY2FCReT": {
+            "name": "Experience Points"
+        },
+        "DktMoFqpU9kz4H08": {
+            "name": "Giant Badger"
+        },
+        "DmKKsAs8j6WW7lQ2": {
+            "name": "Darkmantle"
+        },
+        "DqqAOr5JnX71OCOw": {
+            "name": "Cone"
+        },
+        "DrdLFfrbGG5cZy9L": {
+            "name": "Gnoll"
+        },
+        "DuWeRS7go1xB5h9h": {
+            "name": "Ending Combat"
+        },
+        "Duq9xnLywFNK3gv1": {
+            "name": "Dragonborn"
+        },
+        "DyAsc0h0MqTSHzz4": {
+            "name": "Monsters and Death"
+        },
+        "Dyw6b9rQIdbkIIQD": {
+            "name": "Improvised Weapons"
+        },
+        "E5RLxiNJHNfev2XP": {
+            "name": "Weretiger"
+        },
+        "E5iDh5xWQ2KCEMgV": {
+            "name": "Storm Giant"
+        },
+        "E96ZlrCHriUorDx1": {
+            "name": "Pteranodon"
+        },
+        "E9fzdKGx4UxrtOG7": {
+            "name": "Movement and Position"
+        },
+        "ECu9eaTCA5POlB30": {
+            "name": "Magic Item Categories"
+        },
+        "EIknqkxeOWwz7Qk5": {
+            "name": "Skill"
+        },
+        "ELp83NN658cUf6RO": {
+            "name": "Invisible Stalker"
+        },
+        "EOW6yQHLKlXre3jn": {
+            "name": "Mastery Properties"
+        },
+        "ER8CKDUWLsFXuARJ": {
+            "name": "Dexterity"
+        },
+        "ETIKPy6ZKDgCpDI7": {
+            "name": "Vehicles"
+        },
+        "EZn4p80bsBA4HbN8": {
+            "name": "Black Dragons"
+        },
+        "EbGnSXpG5SdKusf9": {
+            "name": "Ability Checks"
+        },
+        "EhvyvdbH2bjgComK": {
+            "name": "Crab"
+        },
+        "EjR3KL7KLTwjWBS0": {
+            "name": "Bonus Action"
+        },
+        "EjbXjvyQAMlDyANI": {
+            "name": "Stunned"
+        },
+        "ElHKBJeiJPC7gj6k": {
+            "name": "Fiends (2014)"
+        },
+        "EnsZoNfQh0jVS5Y1": {
+            "name": "Triggering a Trap (2014)"
+        },
+        "Eqctro3hPZWecGfP": {
+            "name": "Incubus"
+        },
+        "ErMux8IckCUdaQeU": {
+            "name": "The Basics"
+        },
+        "F5Nlk4mkB1nUUaob": {
+            "name": "Evoker",
+            "description": "<blockquote><p>Create Explosive Elemental Effects</p></blockquote><p>Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some @UUID[Compendium.dnd5e.classes24.Item.phbwzdEvoker0000]{Evokers} find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.</p>"
+        },
+        "FA4hxx49eazhISIt": {
+            "name": "Eldritch Invocation Options"
+        },
+        "FDv1NYEzGuK8yk6M": {
+            "name": "Pit Fiend"
+        },
+        "FJ5occovKENUe5Oq": {
+            "name": "Blood Hawk"
+        },
+        "FQTS08uH74A6psL2": {
+            "name": "Two-Weapon Fighting (2014)"
+        },
+        "FUH9AHeKlTFzC1L9": {
+            "name": "Initiative"
+        },
+        "FZFvLNOX0lHaHZ1k": {
+            "name": "Dehydration"
+        },
+        "FiOvoBCuCpgyMjAX": {
+            "name": "Short-Term Madness (2014)"
+        },
+        "FjWqT5iyJ89kohdA": {
+            "name": "Rituals"
+        },
+        "FjXRWwrGzsLmI83j": {
+            "name": "Complex Traps (2014)"
+        },
+        "FsbanAqpAEtJoecr": {
+            "name": "Overview"
+        },
+        "FvDonO0qOQWp1RIw": {
+            "name": "Glossary Conventions"
+        },
+        "FximlEBSWq8TLAtX": {
+            "name": "Long-Term Madness (2014)"
+        },
+        "G2fA16d9pkedAKnr": {
+            "name": "Mage"
+        },
+        "G3d4GDT0FWo30AdL": {
+            "name": "Steam Mephit"
+        },
+        "G5uYpVQgKpPIkFQY": {
+            "name": "Knights"
+        },
+        "G80AIQr04sxdVpw4": {
+            "name": "Targets"
+        },
+        "GBHy7deHQGI2YVBb": {
+            "name": "Ogre"
+        },
+        "GCvg8n7Q7ltSPRxe": {
+            "name": "Other Tools"
+        },
+        "GDvf4czpKOh0rzEs": {
+            "name": "Giant Boar"
+        },
+        "GLwN36E4WXn3Cp4Z": {
+            "name": "Magic"
+        },
+        "GM6UQ2SSCRaT8OGu": {
+            "name": "Octopus"
+        },
+        "GOlh1UMmEIjEQcSE": {
+            "name": "X/Day (2014)"
+        },
+        "GTk6emvzNxl8Oosl": {
+            "name": "Melee Attacks"
+        },
+        "GUqJfLCvwMdf3yNq": {
+            "name": "Satyrs"
+        },
+        "GcIebWGnwi7i7oaF": {
+            "name": "\"The Next Dawn\""
+        },
+        "GeYmM7BVfSCAga4o": {
+            "name": "Medicine"
+        },
+        "GhZmhPTyPgB8ry5C": {
+            "name": "Efreeti"
+        },
+        "GkLx8qGH75yHKX8x": {
+            "name": "Baboon"
+        },
+        "GvRPKO7EAbXB7TXM": {
+            "name": "Path of the Berserker",
+            "description": "<blockquote><p>Channel Rage into Violent Fury</p></blockquote><p>Barbarians who walk the @UUID[Compendium.dnd5e.classes24.Item.phbbrbBerserker0]{Path of the Berserker} direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.</p>"
+        },
+        "GxfrwkJbrIvn7reC": {
+            "name": "Epic Boon Feats"
+        },
+        "H0gs01OOjU1EJBp9": {
+            "name": "Creature Type"
+        },
+        "H5vEeQNCOqMvmsSt": {
+            "name": "Bullywug Warrior"
+        },
+        "HANU4fJW9LI4MIC8": {
+            "name": "Objects and Damage Types"
+        },
+        "HBCtsDayuQfxwqV9": {
+            "name": "Armor Training"
+        },
+        "HE0kTsH3SdDpczmv": {
+            "name": "Hezrou"
+        },
+        "HH30QWMfofHvHCST": {
+            "name": "Hill Giant"
+        },
+        "HIgtnVFNmcAB77dd": {
+            "name": "Badger"
+        },
+        "HPEbNLJucJDVsnUZ": {
+            "name": "Damage Roll"
+        },
+        "HQ1QoVmxUAsjDiOO": {
+            "name": "Night Hag"
+        },
+        "HWHRQVBVG7K0RVVW": {
+            "name": "Creature Size"
+        },
+        "HWs8kEojffqwTSJz": {
+            "name": "Poisoned"
+        },
+        "HXrP0VKGl6qyA7N5": {
+            "name": "Gibbering Mouther"
+        },
+        "HcsgkUS97Zs9Ov9X": {
+            "name": "Earth Elemental"
+        },
+        "HdDBchzgJSumNmtU": {
+            "name": "Djinni"
+        },
+        "HeMQGYJNLFGaDjUJ": {
+            "name": "Wyvern"
+        },
+        "Hfq86WdpWcb3vhql": {
+            "name": "Lich"
+        },
+        "HhqeIiSj8sE1v1qZ": {
+            "name": "Speed"
+        },
+        "HiJGoeVyu4nhm6a3": {
+            "name": "Hover"
+        },
+        "HiXixxLYesv6Ff3t": {
+            "name": "Command Word (2014)"
+        },
+        "HjKXuB8ndjcqOds7": {
+            "name": "Range"
+        },
+        "Hni8DjqLzoqsVjb6": {
+            "name": "Push, Drag, or Lift"
+        },
+        "HoD2MwzmVbMqj9se": {
+            "name": "Divination"
+        },
+        "Hu6UgMgAPFIWjBkN": {
+            "name": "Possession"
+        },
+        "HwVckgQCUMSXFgQx": {
+            "name": "Silver Dragon Wyrmling"
+        },
+        "HyRrFlQhYbgRttRR": {
+            "name": "Cursed Items"
+        },
+        "I5mX89tfojsyQmdA": {
+            "name": "Halfling"
+        },
+        "I6OMMWUaYCWR9xip": {
+            "name": "Poison Types (2014)"
+        },
+        "IBY1k8SwRJgBSuEK": {
+            "name": "Overview"
+        },
+        "ICketFqbFslqKiX9": {
+            "name": "Healing"
+        },
+        "IJXSi0n0LwKyq6RO": {
+            "name": "Introduction"
+        },
+        "IL73rq9BlQowdon7": {
+            "name": "Armor Class"
+        },
+        "ILpAVXkFHoS8OQ8y": {
+            "name": "Senses"
+        },
+        "IMnpuysdrSalmZJg": {
+            "name": "Topple"
+        },
+        "IMrvogdwbM9y1eDJ": {
+            "name": "Gray Oozes"
+        },
+        "IO3FQv6plccdlyiN": {
+            "name": "Flying Snake"
+        },
+        "IQhbKRPe1vCPdh8v": {
+            "name": "Acid"
+        },
+        "IT9XH2oNs3kN5fG5": {
+            "name": "A-B"
+        },
+        "IYWewSailtmv6qEb": {
+            "name": "Transmutation"
+        },
+        "Ia0dhEMIJJ7PVLVn": {
+            "name": "Scouts"
+        },
+        "Ien9YD2TwbezGYBh": {
+            "name": "Wight"
+        },
+        "IiOTDqJ2YtRPmuFE": {
+            "name": "Spell"
+        },
+        "Ik0x5qoE14RYE6nj": {
+            "name": "Indefinite Madness (2014)"
+        },
+        "IzCvcbHgZ8uPj9TU": {
+            "name": "Guard"
+        },
+        "JEZp7QApVjyNgqrQ": {
+            "name": "Other Activity on Your Turn (2014)"
+        },
+        "JEinwUMBhr5bP8PP": {
+            "name": "Encounter"
+        },
+        "JL8LePEJQYFdNuLL": {
+            "name": "Death Saving Throws"
+        },
+        "JLuw5ep1YQkig2T5": {
+            "name": "Curses"
+        },
+        "JPdmXY7WGZdIPlJo": {
+            "name": "Sphinxes"
+        },
+        "Jc6zaXWczN31hE7N": {
+            "name": "Copper Dragons"
+        },
+        "Jdt7inWc4MIXwmRy": {
+            "name": "Bat"
+        },
+        "JfDoHJpnBWjJJeRz": {
+            "name": "Reef Shark"
+        },
+        "JlXXtzdFo7W6Zcj7": {
+            "name": "Giant Ape"
+        },
+        "Jqn0MEvq6fduYNo6": {
+            "name": "Dash"
+        },
+        "JwK8XOkGSX9xE5Dc": {
+            "name": "Cone"
+        },
+        "JwqYf9qb6gJAWZKs": {
+            "name": "Variant: Encumbrance (2014)"
+        },
+        "JxboWb0XHo2GwqD0": {
+            "name": "Moving Between Attacks"
+        },
+        "K2lVWIOvfzThf9xe": {
+            "name": "A Clear Path to the Target"
+        },
+        "K9SWarlAwdXslP7x": {
+            "name": "Owlbear"
+        },
+        "KDWLIurYLocdvkK4": {
+            "name": "Homunculus"
+        },
+        "KQj16GboSsgX6Jhe": {
+            "name": "Worg"
+        },
+        "KUQjsYx3HISWxjO2": {
+            "name": "Spellcasting Ability"
+        },
+        "KUyN4eK1xTBzXsjP": {
+            "name": "Inhaled"
+        },
+        "KWbzkTnSU0FxRxoU": {
+            "name": "Ghost"
+        },
+        "KWmHLFi39glwuXQ7": {
+            "name": "Armor Class"
+        },
+        "KXTWkTyyCY4sFLZ3": {
+            "name": "Black Pudding"
+        },
+        "KbQ1k0OIowtZeQgp": {
+            "name": "Grappled"
+        },
+        "Kh16IbKZRyEer1ju": {
+            "name": "Creating Sentient Magic Items (2014)"
+        },
+        "KnrD3u2AnQfmtOWj": {
+            "name": "Help"
+        },
+        "Kuj7Lkfn8ZckcNGH": {
+            "name": "Lifting and Carrying"
+        },
+        "KxUXbMrUCIAhv4AF": {
+            "name": "Climbing, Swimming, and Crawling"
+        },
+        "Kzvd8PBUBkJG5zSg": {
+            "name": "Succubus"
+        },
+        "L0FocVGFlfjnoePN": {
+            "name": "Swarm of Ravens"
+        },
+        "L30mSCHBdIu0HYSW": {
+            "name": "Parts of a Stat Block"
+        },
+        "L90M4NKEpO6sIkui": {
+            "name": "Enemy"
+        },
+        "LCcejwk69VOyK5Eb": {
+            "name": "Wisdom Saving Throw"
+        },
+        "LKcAv2xpFiGs8zUr": {
+            "name": "Gnoll Warrior"
+        },
+        "LLLopR0IZOleE1xT": {
+            "name": "Psionics (2014)"
+        },
+        "LUL48OUq6SJeMGc7": {
+            "name": "Injury"
+        },
+        "LY1ywDGQxNYk4q8B": {
+            "name": "Merrow"
+        },
+        "LctvYhAwwujfBccv": {
+            "name": "Dexterity Saving Throw"
+        },
+        "LgpZdAOhTnSHGCNa": {
+            "name": "Sphere"
+        },
+        "LhvuDQEyrCdg5EfU": {
+            "name": "Druid Spell List"
+        },
+        "LlG9vEb9l9r0PJuM": {
+            "name": "Cult Members"
+        },
+        "LmJS4wMt04wihw1Q": {
+            "name": "Gelatinous Cube"
+        },
+        "LrDxITNV8raUt37y": {
+            "name": "Spellcasting (2014)"
+        },
+        "Ls3RwFhjHWdrOSAK": {
+            "name": "Wolf"
+        },
+        "Lw1NWxwPXcogtFng": {
+            "name": "Sphinxes"
+        },
+        "Lw9aodFTlNhXLpyx": {
+            "name": "Rolling 1 or 20 (2014)"
+        },
+        "LxNKnBjL1rx6MQUO": {
+            "name": "Travel Pace"
+        },
+        "M1mfkIm7eKnJA45P": {
+            "name": "Magmin"
+        },
+        "M6gKJjmLDllg2rjI": {
+            "name": "Fire Elemental"
+        },
+        "M7bvUVFcncRjraJP": {
+            "name": "Commoner"
+        },
+        "MAxtfJyvJV7EpzWN": {
+            "name": "Lightly Obscured"
+        },
+        "MFmZUIbvV3cIl5a6": {
+            "name": "Wraith"
+        },
+        "MFpyvUIdcBpC9kIE": {
+            "name": "Mounting and Dismounting"
+        },
+        "MGw7hOo14k9MWvyy": {
+            "name": "Resistance and Vulnerability"
+        },
+        "MK3tMrY7pZgPQZo8": {
+            "name": "Tools"
+        },
+        "MQIZ1zRLWRcNOtPN": {
+            "name": "Invisible"
+        },
+        "MYQ51erE4wBEAOvy": {
+            "name": "Charisma Saving Throw"
+        },
+        "MjPLUclFHalyuLor": {
+            "name": "Wraith"
+        },
+        "MpA4jnwD17Q0RPg7": {
+            "name": "Constitution"
+        },
+        "Ms00uWg0w77sWI4C": {
+            "name": "Reactions"
+        },
+        "NC2baa46dbJyUkUK": {
+            "name": "Guardian Naga"
+        },
+        "NC8c3St0SoWBP6K8": {
+            "name": "Kobolds"
+        },
+        "NGmwolHLA5ppbIZY": {
+            "name": "Long Rest"
+        },
+        "NJONx1Rup0q8vfYP": {
+            "name": "Remorhaz"
+        },
+        "NLRXcgrpRCfsA5mO": {
+            "name": "Charges (2014)"
+        },
+        "NSU7TjeJbJ0vVQaZ": {
+            "name": "Speed"
+        },
+        "NTrXiS2nr1jrYq0F": {
+            "name": "Carrion Crawler"
+        },
+        "NVPIUDJEdFDaErTg": {
+            "name": "Mounts and Cargo"
+        },
+        "NcSh8lVwlfk58VAO": {
+            "name": "Long Jump"
+        },
+        "NhqYPD69TqlVJpKV": {
+            "name": "Pseudodragon"
+        },
+        "NmdLIJPXEMZIWWQa": {
+            "name": "Recharge X–Y (2014)"
+        },
+        "Nuz0Wx4a4aAPcC34": {
+            "name": "Study"
+        },
+        "O1kCtOyXyxlJ1hz9": {
+            "name": "Step 5: Character Creation Details"
+        },
+        "O6hamUbI9kVASN8b": {
+            "name": "Vision and Light (Revisit)"
+        },
+        "O8rRo03FXskNIFlr": {
+            "name": "Spy"
+        },
+        "OA8oAxiFp2tj27i4": {
+            "name": "Drider"
+        },
+        "OFsRUt3pWljgm8VC": {
+            "name": "Fey (2014)"
+        },
+        "OI716HLJMqdzlKdZ": {
+            "name": "Pirate Captain"
+        },
+        "OJaSAdru9P6LEOJX": {
+            "name": "Giant Crocodile"
+        },
+        "OP0YhS6iOm4yfPIt": {
+            "name": "Dead"
+        },
+        "OQQ7hAp6OAxX1rXY": {
+            "name": "Slow"
+        },
+        "OQm0oXqDIN8O51fv": {
+            "name": "Mephits"
+        },
+        "ORyQoMthsD5YZa49": {
+            "name": "Bandits"
+        },
+        "OTvyXXmnLKlZF3WE": {
+            "name": "Lion"
+        },
+        "OZ69A7wRsDxfLscr": {
+            "name": "Hell Hound"
+        },
+        "OhSIWaQ61dOp7S8M": {
+            "name": "Reaction"
+        },
+        "Ok4iCgD25ENgoRxE": {
+            "name": "How to Use Template Items"
+        },
+        "Omk66TpbyCBK4VAo": {
+            "name": "Giant Wolf Spider"
+        },
+        "On6Sg3vUokAkXBB5": {
+            "name": "Area of Effect"
+        },
+        "Ov7ABm1qqgQNnydN": {
+            "name": "Hiding"
+        },
+        "OvbcRgsvwDy7joy4": {
+            "name": "Hazards"
+        },
+        "P2NwvmLhmPGu7iQB": {
+            "name": "Weapon Attack"
+        },
+        "P8IgUhHYBAq0Zcwp": {
+            "name": "Monk",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbmnkMonk000000 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Monk …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Monk Traits table.</p></li><li><p>Gain the Monk's level 1 features, which are listed in the Monk Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the Hit Point Die trait from the Core Monk Traits table.</p></li><li><p>Gain the Monk's level 1 features, which are listed in the Monk Features table.</p></li></ul>"
+        },
+        "P8Y4w7CygkEhsZ81": {
+            "name": "Saving Throws and Damage"
+        },
+        "PFbzoMBviI2DD9QP": {
+            "name": "Hit Points"
+        },
+        "PMD05f22oIhFXfR1": {
+            "name": "Bullywugs"
+        },
+        "PPnaXKPsQvAZp0J4": {
+            "name": "Graze"
+        },
+        "PjXBMVcEaWuKjder": {
+            "name": "Knocking Out a Creature"
+        },
+        "PnqnUJNaPQUZPlLR": {
+            "name": "Criminal"
+        },
+        "PqHSxFUwaXHL7kSz": {
+            "name": "Activating an Item (2014)"
+        },
+        "PsUeY10v8e07V3g2": {
+            "name": "Curses and Magical Contagions"
+        },
+        "PxYak7E7jGQMxuzh": {
+            "name": "Constitution Checks"
+        },
+        "PyQgGFRDNLr0DznN": {
+            "name": "Object"
+        },
+        "QSJdmYIwWUqBtNuw": {
+            "name": "Animated Objects"
+        },
+        "QSlsqIPbYl4uICvq": {
+            "name": "Scout"
+        },
+        "QUwo5emFmozN6HR0": {
+            "name": "Hawk"
+        },
+        "QV5odPhFTckpZOZN": {
+            "name": "Merfolk"
+        },
+        "QXzCEhyjXN2tBrTA": {
+            "name": "Hippogriff"
+        },
+        "Qf9tGqO5R7yYSz8u": {
+            "name": "Constitution Saving Throw"
+        },
+        "QkZq96gbQRbKYqaE": {
+            "name": "F-J"
+        },
+        "QujrWUUaJVhoy2Av": {
+            "name": "Dragon Turtle"
+        },
+        "QxCrRcgMdUd3gfzz": {
+            "name": "Prone"
+        },
+        "R9HVIaiL5SqZ1iw9": {
+            "name": "Raven"
+        },
+        "RBYPyE5z5hAZSbH6": {
+            "name": "Range"
+        },
+        "RBoaA6zRfVsmokCc": {
+            "name": "Warhorse"
+        },
+        "REGxFxNrTLFswtA1": {
+            "name": "Silver Dragons"
+        },
+        "RH9YYPySDKpPC1V4": {
+            "name": "Cloud Giant"
+        },
+        "RLB1MPQRqYDR0CtI": {
+            "name": "Traps"
+        },
+        "RP1WL9FXI3aknlxZ": {
+            "name": "Reaction and Bonus Action Triggers"
+        },
+        "RVcWSqblHIs7SUzn": {
+            "name": "Friendly"
+        },
+        "RXTLVpAwcGm1qtKf": {
+            "name": "Breaking Objects"
+        },
+        "RXdpcdlHks9CDB6g": {
+            "name": "Death Dog"
+        },
+        "RcwElV4GAcVXKWxo": {
+            "name": "Initiative"
+        },
+        "RhVgQfF29CyStS22": {
+            "name": "Heavily Encumbered (2014)"
+        },
+        "Rk5nUGsGWHkSzPub": {
+            "name": "Attack Rolls and Damage"
+        },
+        "RnMokVPyKGbbL8vi": {
+            "name": "Bright Light"
+        },
+        "RnxZoTglPnLc6UPb": {
+            "name": "Paralyzed"
+        },
+        "RpvmpJcaWKJjfsfn": {
+            "name": "Food and Water"
+        },
+        "Rx08X1mW6m5uYldI": {
+            "name": "Red Dragons"
+        },
+        "S48JxKMOF2ZmAfav": {
+            "name": "Conflict (2014)"
+        },
+        "S7rB7SAOoNmKJr5F": {
+            "name": "Swarm of Piranhas"
+        },
+        "S9aclVOCbusLE3kC": {
+            "name": "Ranged Attacks"
+        },
+        "SGPAyMHJnd0MZC31": {
+            "name": "Shape-Shifting"
+        },
+        "SdK1Y86NLlPhjhMl": {
+            "name": "Alignment (2014)"
+        },
+        "SdUF7NzQS4SIlQ0N": {
+            "name": "Giant Shark"
+        },
+        "SehPXk24ySBVOwCZ": {
+            "name": "Enchantment"
+        },
+        "SiK8FIXEn3NIWZ9B": {
+            "name": "Pegasus"
+        },
+        "SkHptN2PTzFGDaEj": {
+            "name": "Cleric Spell List"
+        },
+        "Sl4bniSPSbyrakM2": {
+            "name": "Grappling"
+        },
+        "SsIXfzS2ZttwAaKj": {
+            "name": "Action"
+        },
+        "St3ANvrKOgxECnTn": {
+            "name": "Stat Block"
+        },
+        "Su6wbb0O9UN4ZDIH": {
+            "name": "Spell Slots"
+        },
+        "Sx4qcQcPDQULERBu": {
+            "name": "Silver Dragons"
+        },
+        "T1ln1l6uKkkMuieP": {
+            "name": "Line"
+        },
+        "T47eTnRd4tadGFU9": {
+            "name": "Tough Boss"
+        },
+        "T5CJwxjhBbi6oqaM": {
+            "name": "Celestials (2014)"
+        },
+        "TMIN963hG773yZzO": {
+            "name": "Combining Spell Effects"
+        },
+        "TRq83k2geRVaXrYB": {
+            "name": "S"
+        },
+        "TVskfAu471arcBTq": {
+            "name": "Nobles"
+        },
+        "TWyKMhZJZGqQ6uls": {
+            "name": "Conjuration"
+        },
+        "TX0yPEFTn79AMZ8P": {
+            "name": "Monstrosities (2014)"
+        },
+        "TabtuHu8HUGNVtzE": {
+            "name": "Gladiator"
+        },
+        "TeF6CKMDRpYpsLd4": {
+            "name": "The Schools of Magic"
+        },
+        "Tg6q9tEwUMz6alIf": {
+            "name": "Warrior Infantry"
+        },
+        "Tu30XV5UKGAdgz4Z": {
+            "name": "Strength Checks"
+        },
+        "TwMrfWrYo0ZAnWB3": {
+            "name": "Goblins"
+        },
+        "U7bhM9YCza7I0ZyU": {
+            "name": "Overview"
+        },
+        "U8YNCNPoZS2NeQwD": {
+            "name": "Giant Hyena"
+        },
+        "UCOh3zlvGxyk5jLr": {
+            "name": "Druid",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbdrdDruid00000 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Druid …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Druid Traits table.</p></li><li><p>Gain the Druid's level 1 features, which are listed in the Druid Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.</p></li><li><p>Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>"
+        },
+        "UD0pbakMWgZIvj5c": {
+            "name": "Game Expectations"
+        },
+        "UDlogfdiT2uYEZz4": {
+            "name": "Utilize"
+        },
+        "UEPAcZFzQ5x196zE": {
+            "name": "Consumables (2014)"
+        },
+        "UIKLZmiLuENHk1wn": {
+            "name": "Condition"
+        },
+        "UJnZTn2SUWeTfPu9": {
+            "name": "Swarm of Rats"
+        },
+        "ULDpodOdTxTTiNEx": {
+            "name": "Cleave"
+        },
+        "UQ65OwIyGK65eiOK": {
+            "name": "Attunement"
+        },
+        "URxmJwlkoRnD517f": {
+            "name": "Attack Rolls"
+        },
+        "UY4RGoKw9rOeazur": {
+            "name": "Darkness"
+        },
+        "UZWKjrHZF5pEEqbA": {
+            "name": "Falling Unconscious"
+        },
+        "UfAEdm3LbTzvQHC5": {
+            "name": "Poison"
+        },
+        "Uk3xhCTvEfx8BN1O": {
+            "name": "Resistance"
+        },
+        "UqOqk409VNapbgEM": {
+            "name": "Toughs"
+        },
+        "Ur7xWFlpVK5X8ueP": {
+            "name": "Encumbered (2014)"
+        },
+        "Uv5sBiJUmczYDNTf": {
+            "name": "Giant Vulture"
+        },
+        "V1BkwK2HQrtEfa4d": {
+            "name": "Dodge"
+        },
+        "V5baGKbVj377IR8d": {
+            "name": "Axe Beak"
+        },
+        "V6OhuMIts22zPe8X": {
+            "name": "Sprite"
+        },
+        "V8pqIWlaL9GhY61t": {
+            "name": "Bard",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrdBard000000 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Bard …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Bard Traits table.</p></li><li><p>Gain the Bard's level 1 features, which are listed in the Bard Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.</p></li><li><p>Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>"
+        },
+        "VFprtr4VdsEvQjr2": {
+            "name": "Boar"
+        },
+        "VICfYukXoYkWJ1yn": {
+            "name": "Cultists"
+        },
+        "VKK4nyjpJeLwKWlc": {
+            "name": "Hyena"
+        },
+        "VNSwzt3GIwcM3Iil": {
+            "name": "Nonplayer Character (NPC)"
+        },
+        "VOWtRob5c30WnPly": {
+            "name": "T-W"
+        },
+        "VWG9qe8PUNtS28Pw": {
+            "name": "Crawling"
+        },
+        "VYmVmSUznIAKRkCf": {
+            "name": "Shadow"
+        },
+        "VfZ5mH2ZuyFq82Ga": {
+            "name": "Sorcerer Spell List"
+        },
+        "Vlri6Mp6grn9wt3g": {
+            "name": "Saving Throw"
+        },
+        "Vsc9EKUUGboSI6jy": {
+            "name": "Sage"
+        },
+        "VtyVX7M159v6UVqG": {
+            "name": "Death Saving Throw"
+        },
+        "Vz5QcYKA74tWkDqy": {
+            "name": "Level Advancement"
+        },
+        "Vzpho8zJkNsHQU7y": {
+            "name": "Barbed Devil"
+        },
+        "W0eyiV1FBmngb6Qh": {
+            "name": "Necromancy"
+        },
+        "W16gTtESSKym2RPY": {
+            "name": "Berserker"
+        },
+        "W5mRHhmNWTWBooI5": {
+            "name": "Magic Item Resilience"
+        },
+        "W7f7PcRubNUMIq2S": {
+            "name": "Cover"
+        },
+        "W8uJrd1D8NeOuawp": {
+            "name": "Attack Roll"
+        },
+        "WBKZhIrHuXCQJThk": {
+            "name": "Wearing and Wielding Items"
+        },
+        "WIA5bs3P45PmO3OS": {
+            "name": "Space (2014)"
+        },
+        "WK7w7PlQ02LoGhOb": {
+            "name": "Bone Devil"
+        },
+        "WKL34lGhm9cZOavY": {
+            "name": "Combat Encounters"
+        },
+        "WUNl1zE74grQUcLv": {
+            "name": "Panther"
+        },
+        "Whmua4WYwTPfvjm8": {
+            "name": "Ability Scores"
+        },
+        "WnWpnZ03SftzmcfW": {
+            "name": "Swarm of Bats"
+        },
+        "WuSY8kEg0E7DusN5": {
+            "name": "Zombie"
+        },
+        "WzWWcTIppki35YvF": {
+            "name": "Intelligence"
+        },
+        "X1H2rUg0Z2D8BYVm": {
+            "name": "Stat Block Overview"
+        },
+        "X25yEyfkwDA2Qtl8": {
+            "name": "Druid"
+        },
+        "XBQqXCoTbvp5Dika": {
+            "name": "Ability Check"
+        },
+        "XJAhidsdr94Oxcii": {
+            "name": "Coins"
+        },
+        "XNMSV5yRjDCwGZNU": {
+            "name": "Ettercap"
+        },
+        "XSkwrMRz9FDvovd1": {
+            "name": "Metamagic Options"
+        },
+        "XV5BjYEJaMWINegZ": {
+            "name": "Chimera"
+        },
+        "XW2WF8vjTcmnKF17": {
+            "name": "Stone Golem"
+        },
+        "XecjLLzc76kP0qKM": {
+            "name": "Frost Giant"
+        },
+        "XvhPdtq14MUqgYVO": {
+            "name": "Stirges"
+        },
+        "Y0vsJYSWeQcFpJ27": {
+            "name": "Ingested"
+        },
+        "Y7nmbQAruWOs7WRM": {
+            "name": "Investigation"
+        },
+        "YAhGI1Pyff166NF9": {
+            "name": "Statistics for Objects"
+        },
+        "YD1uHIdQFEjpRZY9": {
+            "name": "Character Species"
+        },
+        "YIKbDv4zYqbE5teJ": {
+            "name": "Psychic"
+        },
+        "YKvIouWZhOP2prWL": {
+            "name": "Animated Objects"
+        },
+        "YSB1QtxZW2BI9f4Y": {
+            "name": "Spell Level"
+        },
+        "YSFOauOValBylNc7": {
+            "name": "Armor Class"
+        },
+        "YSLWJcQCP6kzsPql": {
+            "name": "Grappling"
+        },
+        "YcOK2OcfuipNi24h": {
+            "name": "Monster Entries"
+        },
+        "YkuKTIH2YaYW8lTS": {
+            "name": "Heavily Obscured"
+        },
+        "Yljd0J36zC8eibW5": {
+            "name": "Targeting Yourself"
+        },
+        "YmOt8HderKveA19K": {
+            "name": "Surprise"
+        },
+        "Ysgeru1iCA7CCe3x": {
+            "name": "Circle of Land",
+            "description": "<blockquote><p>Celebrate Connection to the Natural World</p></blockquote><p>The @UUID[Compendium.dnd5e.classes24.Item.phbdrdCirland000]{Circle of the Land} comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of their communities.</p>"
+        },
+        "YwNA2I9Rzi4p8kjr": {
+            "name": "Size"
+        },
+        "Z6lIT7pPpdBRIMP0": {
+            "name": "Chain Devil"
+        },
+        "ZJYZERJF2fjKJGoP": {
+            "name": "Illusions"
+        },
+        "ZOPRfI48NyjoloEF": {
+            "name": "Disengage"
+        },
+        "ZWYqwR5xKGfLQH9u": {
+            "name": "Grapple Rules for Monsters (2014)"
+        },
+        "Za4Q2V2fpuIMkSXH": {
+            "name": "Damage Types"
+        },
+        "Zh9j3VBgGnsvq9x4": {
+            "name": "Guards"
+        },
+        "ZxlZRBBDl8EypJmR": {
+            "name": "Dire Wolf"
+        },
+        "a0EgLIjt1P7mtHux": {
+            "name": "Wereboar"
+        },
+        "a1W1UdaRwUndfdeS": {
+            "name": "Tracking Initiative"
+        },
+        "a4CjDIEMeSbRaEjA": {
+            "name": "Climbing"
+        },
+        "a5EpOcLCNws9jXXz": {
+            "name": "Incubus"
+        },
+        "a5txJkdnuJmV5xH3": {
+            "name": "Ankylosaurus"
+        },
+        "a7JosG8Vd7Q98yD0": {
+            "name": "How to Run a Session"
+        },
+        "aAQul39LLxv4sSUm": {
+            "name": "Ranged Attacks"
+        },
+        "aCqYOSQyjLzFs3FP": {
+            "name": "Tyrannosaurus Rex"
+        },
+        "aFgWcIHzszJvMczu": {
+            "name": "Stone Giant"
+        },
+        "aGYpgynZ3nkBCPaT": {
+            "name": "Life Domain",
+            "description": "<blockquote><p>Soothe the Hurts of the World</p></blockquote><p>The @UUID[Compendium.dnd5e.classes24.Item.phbclcLifeDomain]{Life Domain} focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.</p><p>Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.</p>"
+        },
+        "aZNE3q6npBVVLIa1": {
+            "name": "Bugbear Warrior"
+        },
+        "aZiLko1zh4zt4P23": {
+            "name": "Blue Dragons"
+        },
+        "aa7MouLFWuPhlFxo": {
+            "name": "Pirates"
+        },
+        "aaJOlRhI1H6vAxt9": {
+            "name": "Jumping"
+        },
+        "aaZQf95dvNIjftAW": {
+            "name": "Art"
+        },
+        "acPyA6A4DQBSnuZB": {
+            "name": "Cleric",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbclcCleric0000 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Cleric …</h2><h3>As a Level 1 Character</h3><p>Gain all the traits in the Core Cleric Traits table.</p><ul><li><p>Gain the Cleric's level 1 features, which are listed in the Cleric Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.</p></li><li><p>Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>"
+        },
+        "adlJqek4sIyJePKO": {
+            "name": "Armor Table"
+        },
+        "aeJoiagWfLPkJSFM": {
+            "name": "Special Traits (2014)"
+        },
+        "afXMgkmowwBgHJ5D": {
+            "name": "C"
+        },
+        "afnB0KZZk2hKtjv4": {
+            "name": "Difficulty Class"
+        },
+        "ahMxQJTGDhq08GWQ": {
+            "name": "Attitude"
+        },
+        "ajpmD0clrJLcZI2V": {
+            "name": "Commoner"
+        },
+        "aqxr51qyAtsTzrPn": {
+            "name": "Centaur"
+        },
+        "avHnt4RvYYnzhDDj": {
+            "name": "Dropping to 0 Hit Points"
+        },
+        "b21ZhbjLPDZojvRz": {
+            "name": "Slaad Tadpole"
+        },
+        "b2QVn25z2N1ykWpf": {
+            "name": "Gaining Spells"
+        },
+        "b9TbOuyLSTeOyEnG": {
+            "name": "Elephant"
+        },
+        "bCU0JHnmZsZf1SHp": {
+            "name": "Vulnerability"
+        },
+        "bM4hvojHpH6eqAtX": {
+            "name": "Skills"
+        },
+        "bTUDs1G1E2Rxoq9k": {
+            "name": "Horned Devil"
+        },
+        "bV8akkBdVUUG21CO": {
+            "name": "Being Prone"
+        },
+        "bcPsR1qaLLv7uBGe": {
+            "name": "Normal Travel Pace"
+        },
+        "be7g0q1xBAwb8drv": {
+            "name": "Truesight"
+        },
+        "bgTL13d21Sxf05VY": {
+            "name": "Goblin Boss"
+        },
+        "bghE3dOp2KMcc3b3": {
+            "name": "Going Mad (2014)"
+        },
+        "bknXiPFh6tIrFBaM": {
+            "name": "Overview"
+        },
+        "boTjWmd9sj4Ff62o": {
+            "name": "Allosaurus"
+        },
+        "bqLhFAoXv884wD4A": {
+            "name": "Solar"
+        },
+        "cNflBe0pZX8eAFB4": {
+            "name": "Experience Points"
+        },
+        "cSVasXKNN05bQklo": {
+            "name": "P-Q"
+        },
+        "cfaxLaO73jh8D8fE": {
+            "name": "Werewolf"
+        },
+        "cfhVAnmKmLQ5RUmD": {
+            "name": "Adventuring Gear Table"
+        },
+        "cgzIC1ecG03D97Fg": {
+            "name": "Oozes (2014)"
+        },
+        "cpCaIOAmJIyrHlKu": {
+            "name": "Overview"
+        },
+        "ctUkLYO5q6VwPx1s": {
+            "name": "The Order of Combat"
+        },
+        "cvBRoWNl38kmSVAd": {
+            "name": "Toughs"
+        },
+        "cyCc2YhnD2TrMreG": {
+            "name": "Dim Light"
+        },
+        "czh3ZaFg7XKlcxYk": {
+            "name": "Ape"
+        },
+        "d1DCajODZHrrhjvj": {
+            "name": "Campaign Conflicts"
+        },
+        "dCnwfsBJ3GawLyxe": {
+            "name": "Marilith"
+        },
+        "dRfDIwuaHmUQ06uA": {
+            "name": "Cube"
+        },
+        "dSMhNOxGIJglsjnX": {
+            "name": "Weapon"
+        },
+        "dVYKuX6CBe48Rcav": {
+            "name": "Dice"
+        },
+        "dWO90EG5camfT34z": {
+            "name": "Huge and Gargantuan Objects"
+        },
+        "dWQ2ZTLOuKr3PMAx": {
+            "name": "Weapons"
+        },
+        "dWVioXxEGjcPsI9Y": {
+            "name": "Spell Descriptions"
+        },
+        "dc3D4WGYznFa3HCM": {
+            "name": "Using Different Speeds"
+        },
+        "dgJg7tuZWjBsn7hN": {
+            "name": "Mastiff"
+        },
+        "di6PPvo499vRq1NT": {
+            "name": "Every DM is Unique"
+        },
+        "dmgDmsToolbox000": {
+            "name": "Gameplay Toolbox"
+        },
+        "dmgEnsuringFunFo": {
+            "name": "Ensuring Fun for All"
+        },
+        "dmgFoundryRefere": {
+            "name": "Foundry References"
+        },
+        "dmgMagicItemList": {
+            "name": "Magic Item Lists"
+        },
+        "dmgMagicItems000": {
+            "name": "Magic Items"
+        },
+        "dmgRunningCombat": {
+            "name": "Running Combat"
+        },
+        "dmgTheBasics0000": {
+            "name": "The Basics"
+        },
+        "dmgTrackingSheet": {
+            "name": "Tracking Sheets"
+        },
+        "dpHJXYLigIdEseIb": {
+            "name": "Resting"
+        },
+        "dqLeGdpHtb8FfcxX": {
+            "name": "Restrained"
+        },
+        "drO5qYnEcAOnbdGl": {
+            "name": "Roleplaying"
+        },
+        "dtrk5pI0tl7LIEyr": {
+            "name": "Specter"
+        },
+        "dw8zIx4aur7rRtx3": {
+            "name": "Oath of Devotion",
+            "description": "<blockquote><p>Uphold the Ideals of Justice and Order</p></blockquote><p>The @UUID[Compendium.dnd5e.classes24.Item.phbpdnOathOfDevo]{Oath of Devotion} binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.</p><p>Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.</p><p>These paladins share the following tenets:</p><ul><li><p>Let your word be your promise.</p></li><li><p>Protect the weak and never fear to act.</p></li><li><p>Let your honorable deeds be an example.</p></li></ul>"
+        },
+        "e3DmlL7JEghucu8V": {
+            "name": "Adventure"
+        },
+        "e3scXeedo3gCxvre": {
+            "name": "Grick"
+        },
+        "eC7HENHOpIGQoctq": {
+            "name": "Ettin"
+        },
+        "eFAISahBloR2X8MX": {
+            "name": "Travel Pace"
+        },
+        "eFGs6u803PtWG5k7": {
+            "name": "Hobgoblins"
+        },
+        "eFTWzngD8dKWQuUR": {
+            "name": "Force"
+        },
+        "eFfvGebpwsVHuEws": {
+            "name": "Occult Symbols"
+        },
+        "eNvzQabiTqTtfzis": {
+            "name": "Opportunity Attacks"
+        },
+        "eSsITWhcNMkoa9WP": {
+            "name": "Emanation"
+        },
+        "eX6eSNKZ3LKGwrVz": {
+            "name": "Damage"
+        },
+        "eYX5eimGuYhHPoj4": {
+            "name": "Indifferent"
+        },
+        "earBo4vQPC1ti4g7": {
+            "name": "Malnutrition"
+        },
+        "eeg9raqppRQ13zOy": {
+            "name": "Griffon"
+        },
+        "eihqNjwpZ3HM4IqY": {
+            "name": "Time (2014)"
+        },
+        "ekZwZ0nOC3431PY3": {
+            "name": "R"
+        },
+        "elcWGQGyU3lvuU5z": {
+            "name": "Giant Eagle"
+        },
+        "eoatHdLIlkdTpEee": {
+            "name": "Giant Spider"
+        },
+        "epDAUqo0kTTrTpYR": {
+            "name": "Magic Items A-Z"
+        },
+        "eqXkPKiwiACNXkfw": {
+            "name": "Type"
+        },
+        "f1S66aQJi4PmOng6": {
+            "name": "Fire"
+        },
+        "f4fZHwBvpbpzRyn4": {
+            "name": "Attack"
+        },
+        "f67yi5VSl1jEeHpN": {
+            "name": "Food, Drink, and Lodging"
+        },
+        "fEe7XSeW72md375c": {
+            "name": "Giant Wasp"
+        },
+        "fFrHBgqKUMY0Nnco": {
+            "name": "Disadvantage"
+        },
+        "fJVuu8cS9oxNWGTC": {
+            "name": "Healing"
+        },
+        "fPkZQ7TkKCCA3nTc": {
+            "name": "Sap"
+        },
+        "fWDbFyRcjabZV9lW": {
+            "name": "Adventuring Gear"
+        },
+        "fZCRaKEJd4KoQCqH": {
+            "name": "Unconscious"
+        },
+        "fgzoeAJE4EEUSOYQ": {
+            "name": "Ranger",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwzdWizard0000 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Ranger Traits table.</p></li><li><p>Gain the Ranger's level 1 features, which are listed in the Ranger Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.</p></li><li><p>Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>"
+        },
+        "fhipU7AVeuhyW2uu": {
+            "name": "Kobolds"
+        },
+        "flJnTPWIwTrAzqTi": {
+            "name": "Armor"
+        },
+        "fm8Yzam5Wxb7OeQh": {
+            "name": "Deer"
+        },
+        "fsqRUA4acVXH4I3O": {
+            "name": "Sorcerer",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbscrSorcerer00 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Sorcerer …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Sorcerer Traits table.</p></li><li><p>Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the Hit Point Die from the Core Sorcerer Traits table.</p></li><li><p>Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>"
+        },
+        "fwJOeFAJn8DkwebA": {
+            "name": "Rolling 1 or 20"
+        },
+        "fxV4PwLNMDkDWR1v": {
+            "name": "Giant Lizard"
+        },
+        "fznVlCTAdPJUaHM0": {
+            "name": "Polar Bear"
+        },
+        "g6utOXxz572cn6zQ": {
+            "name": "Troll"
+        },
+        "g7DDgHsdjxZUqGD2": {
+            "name": "Burrow Speed"
+        },
+        "g7cMRWzsgAsEF7zC": {
+            "name": "Wizard",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwzdWizard0000 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Wizard …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Wizard Traits table.</p></li><li><p>Gain the Wizard's level 1 features, which are listed in the Wizard Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the Hit Point Die from the Core Wizard Traits table.</p></li><li><p>Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul><p><strong>Expanding and Replacing a Spellbook</strong></p><aside class=\"notable\"><p>The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.</p><p><strong>Copying a Spell into the Book.</strong> When you find a level 1+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.</p><p><strong>Copying the Book.</strong> You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p><p>If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p></aside>"
+        },
+        "gAvV8TLyS8UGq00x": {
+            "name": "Suffocation"
+        },
+        "gFL1VhSEljL1zvje": {
+            "name": "Critical Hits"
+        },
+        "gJV8iDqdNhRMLi5r": {
+            "name": "Rogue",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgeRogue00000 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Rogue …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Rogue Traits table.</p></li><li><p>Gain the Rogue's level 1 features, which are listed in the Rogue Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue's skill list, proficiency with Thieves' Tools, and training with Light armor.</p></li><li><p>Gain the Rogue's level 1 features, which are listed in the Rogue Features table.</p></li></ul>"
+        },
+        "gMTdiYGmbiwDyymt": {
+            "name": "Telepathy"
+        },
+        "gOAIRFCyPUx42axn": {
+            "name": "Longer Casting Times"
+        },
+        "gOLiYqsAJ4E2JpDK": {
+            "name": "Making an Attack"
+        },
+        "gTBHin4uKrs9cjjW": {
+            "name": "Monster"
+        },
+        "geTidcFIYWuUvD2L": {
+            "name": "Telepathy"
+        },
+        "gi8IKhtOlBVhMJrN": {
+            "name": "Spell Scroll"
+        },
+        "gk15WhvhQVgUn3UG": {
+            "name": "Swarm of Venomous Snakes"
+        },
+        "goSlSnDEGaHdlsQF": {
+            "name": "Goblins"
+        },
+        "gozuPqBLq5CdFCRn": {
+            "name": "Giant Venomous Snake"
+        },
+        "gxjZq9Df96FZIl6y": {
+            "name": "Spell Attack"
+        },
+        "gzTUYPi9wHg0WMP0": {
+            "name": "Bugbears"
+        },
+        "h3BTeEccSFxjFvqd": {
+            "name": "Monster Conversions"
+        },
+        "h3bYSPge8IOqne1N": {
+            "name": "Arcana"
+        },
+        "h9Qhn4HyJyAnK5b9": {
+            "name": "Draconic Sorcery",
+            "description": "<blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor (@UUID[Compendium.dnd5e.classes24.Item.phbscrDraconicSo]{Draconic Sorcery} subclass).</p>"
+        },
+        "h9aXxE75mHc8X6TY": {
+            "name": "Spider"
+        },
+        "h9oGyt2Wh9mp0xbg": {
+            "name": "Elf"
+        },
+        "hFW5BR2yHHwwgurD": {
+            "name": "Difficult Terrain"
+        },
+        "hI7OOqGZHYjIVUAm": {
+            "name": "Identifying a Magic Item"
+        },
+        "hOHBUNv71AbHmuOU": {
+            "name": "Animated Flying Sword"
+        },
+        "hTXYRfVTvcL9LYiB": {
+            "name": "Character Sheet"
+        },
+        "hUYdZhpfslWujrSp": {
+            "name": "Scorpion"
+        },
+        "hVbvqQwDSShAl7hM": {
+            "name": "Advantage/Disadvantage"
+        },
+        "hYT7Z06yDNBcMtGe": {
+            "name": "Performance"
+        },
+        "hd26AqKrCqtcQBWy": {
+            "name": "Damage Rolls"
+        },
+        "hg3adn9O1O5Z2QxL": {
+            "name": "Vex"
+        },
+        "hgDr94CWfS8WxtsX": {
+            "name": "Player or DM?"
+        },
+        "hgZ5ZN4B3y7tmFlt": {
+            "name": "Reach"
+        },
+        "hlPFubXjQG9gnnd5": {
+            "name": "Damage Threshold"
+        },
+        "hrdqMF8hRXJdNzJx": {
+            "name": "Shoving a Creature"
+        },
+        "hsa2gVukJJ9SwJT0": {
+            "name": "Giant Toad"
+        },
+        "huvjxSJunu6ndZoW": {
+            "name": "Darkmantle"
+        },
+        "hv0J61IAfofuhy3Q": {
+            "name": "Half Cover"
+        },
+        "hwTLpAtSS5OqQsI1": {
+            "name": "Dropping Prone"
+        },
+        "i1YfxyzK7FmZLYvf": {
+            "name": "D-E"
+        },
+        "i3ijpxEn5LuSO7C0": {
+            "name": "Cylinder"
+        },
+        "iBFe4NyaCUinDoz3": {
+            "name": "Casting Spells"
+        },
+        "iE49waOfpKA4oHnC": {
+            "name": "Black Dragon Wyrmling"
+        },
+        "iFzQs4AenN8ALRvw": {
+            "name": "Humanoids (2014)"
+        },
+        "iGrx8vJIixPLomRP": {
+            "name": "Air Elemental"
+        },
+        "iHbj5aJvc1T7i5YI": {
+            "name": "Gaining a Level"
+        },
+        "iIEI87J7lr2sqtb5": {
+            "name": "Water"
+        },
+        "iIIDUsmSOkL0xNzF": {
+            "name": "Magic"
+        },
+        "iO8aSj3dYKzVEMhF": {
+            "name": "What Does a DM Do?"
+        },
+        "iP1hYT7zzOyrzS7j": {
+            "name": "Your Turn"
+        },
+        "iPB8mGKuQx3X0Z2J": {
+            "name": "Wearing and Wielding Items"
+        },
+        "iSNOtO9OQxN8Buf3": {
+            "name": "Communication (2014)"
+        },
+        "iUTxd2FG3EnoTpsm": {
+            "name": "Mummies"
+        },
+        "iWbAQD1GN6bn7JeU": {
+            "name": "Vampire Familiar"
+        },
+        "ibFcHkHH1icuT3l8": {
+            "name": "Artisan Tools"
+        },
+        "ibiVEbFYaeqWBzGZ": {
+            "name": "Riding Horse"
+        },
+        "ieRVzfbn2KW6VRTD": {
+            "name": "Jackal"
+        },
+        "iqWQPnNMz8f1rsQ8": {
+            "name": "Languages"
+        },
+        "iqsmMHk7FSpiNkQy": {
+            "name": "Thunder"
+        },
+        "j39OCLFX4okynRIO": {
+            "name": "Vision and Light"
+        },
+        "j4c5BbPA97hDIgoY": {
+            "name": "Player Character"
+        },
+        "j8aPJPiRHIGUSWHz": {
+            "name": "Travel Pace"
+        },
+        "jDgvwqagylAaxKt3": {
+            "name": "Brass Dragons"
+        },
+        "jIvbJXZXcU4Wuzh0": {
+            "name": "Vulnerabilities, Resistances, and Immunities"
+        },
+        "jLAG02U8x7MGm3u0": {
+            "name": "Healing"
+        },
+        "jQGAJZBZTqDFod8d": {
+            "name": "Constructs (2014)"
+        },
+        "jQvnBOQd03L1jGrX": {
+            "name": "Giant Weasel"
+        },
+        "jSQtPgNm0i4f3Qi3": {
+            "name": "Exhaustion"
+        },
+        "jVOgf7DNEhkzYNIe": {
+            "name": "Damage Types"
+        },
+        "jZD5mCTnMPJ9jW67": {
+            "name": "Cantrips"
+        },
+        "jZFp4R7tXsIqkiG3": {
+            "name": "Cylinder"
+        },
+        "jayo7XVgGnRCpTW0": {
+            "name": "Food"
+        },
+        "jgLx11VRi8tFOpkX": {
+            "name": "Otyugh"
+        },
+        "jh5Ng0qYr1y78DqO": {
+            "name": "Giant Crab"
+        },
+        "jlSMyO89AI0ZtQjd": {
+            "name": "Overview"
+        },
+        "jqKn0BtJJlHPShTp": {
+            "name": "Minotaur of Baphomet"
+        },
+        "juxlYZeL7OUeznLt": {
+            "name": "Venomous Snake"
+        },
+        "jxgi4EtQj7G0LkD9": {
+            "name": "Campaign"
+        },
+        "jxiVjzp16SwzKsaX": {
+            "name": "Giant Octopus"
+        },
+        "k2DYpVkdt5bbCamK": {
+            "name": "Noble"
+        },
+        "k2IRXZwGk9W0PM2S": {
+            "name": "Dragons (2014)"
+        },
+        "k5wOYXdWPzcWwds1": {
+            "name": "Poison"
+        },
+        "k8p9t7XRMLmgWKZr": {
+            "name": "Giant Bat"
+        },
+        "kCw8NHo2ppAOUoch": {
+            "name": "Seahorse"
+        },
+        "kGp1RNuxL2SELLRC": {
+            "name": "Evocation"
+        },
+        "kNa8rJFbtaTM3Rmk": {
+            "name": "Truesight"
+        },
+        "kRBZbdWMGW9K3wdY": {
+            "name": "History"
+        },
+        "kREHL5pgNUOhay9f": {
+            "name": "Falling"
+        },
+        "kS19vAy9DQYUpp2X": {
+            "name": "Critical Hits"
+        },
+        "kV4IIZoaMJUR4La9": {
+            "name": "A Legendary Creature's Lair (2014)"
+        },
+        "kXnCEqqGUWRZeZDj": {
+            "name": "Contact"
+        },
+        "kdlgZOpRMB6bGCod": {
+            "name": "Instantaneous"
+        },
+        "khL20BavkkD4YZGY": {
+            "name": "Kobold Warrior"
+        },
+        "khOKcrcql9Cssgnb": {
+            "name": "Slow Travel Pace"
+        },
+        "khmR2xFk1NxoQUgZ": {
+            "name": "Controlling a Mount"
+        },
+        "kkgGDm3VQW8EGsnV": {
+            "name": "Adventuring Equipment"
+        },
+        "klOVUV5G1U7iaKoG": {
+            "name": "Necrotic"
+        },
+        "klXWp4c90n7Kt5LB": {
+            "name": "Stable"
+        },
+        "knvt7pCk5slbRRf0": {
+            "name": "Sphinx of Wonder"
+        },
+        "kps2oSHEpq6gRHB3": {
+            "name": "Minotaur of Baphomet"
+        },
+        "kqE5GUlHs8pLCwvw": {
+            "name": "Ogre"
+        },
+        "kr2tx1DFAcwGmzKR": {
+            "name": "Hobgoblin Captain"
+        },
+        "ktLVwvt2KkJVB9eS": {
+            "name": "Goblin Warrior"
+        },
+        "kuZyElxlfV9F7mM5": {
+            "name": "Creating a Background"
+        },
+        "kwj04a1za8L4cqPw": {
+            "name": "Melee and Ranged Attacks"
+        },
+        "l0uao3UVco5ptQso": {
+            "name": "Nick"
+        },
+        "l4PycBAExkT2g62X": {
+            "name": "Goliath"
+        },
+        "l4Z4cLJmlegyfY6c": {
+            "name": "Senses (2014)"
+        },
+        "l4eqkEUGLVS2jBhO": {
+            "name": "Create Your Character"
+        },
+        "l8iMjw1XZgyqWFFf": {
+            "name": "Soldier"
+        },
+        "lCwPWK4ODxw2IV1x": {
+            "name": "Falling"
+        },
+        "lLRnYAv64F7SfrJd": {
+            "name": "Mimic"
+        },
+        "lMuD6KCu5kYWyvNY": {
+            "name": "Harpy"
+        },
+        "lMvm5fxnuHBDhxD2": {
+            "name": "Bugbear Stalker"
+        },
+        "lTHYTnUozD9zcWVu": {
+            "name": "Priests"
+        },
+        "lTZn2r3AIookCsvp": {
+            "name": "Copper Dragon Wyrmling"
+        },
+        "lXqvtf9mIp8RYjFr": {
+            "name": "Overview"
+        },
+        "ld6ImmsNezopmAiG": {
+            "name": "Dretch"
+        },
+        "ldmA1PbnEGVkmE11": {
+            "name": "Darkvision"
+        },
+        "lhJH1uwqdttA5lii": {
+            "name": "Brown Bear"
+        },
+        "lj8TIvxtNvsoETJj": {
+            "name": "Rolling Initiative"
+        },
+        "ljqhJx8Qxu2ivo69": {
+            "name": "Use an Object"
+        },
+        "lnvPSdpmEDhJ5R3m": {
+            "name": "Blink Dog"
+        },
+        "lvs9RRDi1UA1Lff8": {
+            "name": "Advantage"
+        },
+        "m4ErwsuDpgi9Hu0V": {
+            "name": "Challenge"
+        },
+        "mDah1TlOfj7AO685": {
+            "name": "Treant"
+        },
+        "mGuNH8XAxdLVXBbu": {
+            "name": "Spirit Naga"
+        },
+        "mI5uYW2EOiR5fIG6": {
+            "name": "Blink Dog"
+        },
+        "mPBGM1vguT5IPzxT": {
+            "name": "Burning"
+        },
+        "mW4OVjI55EMQbcUE": {
+            "name": "Vrock"
+        },
+        "mWcROUZcRLMN8Hxl": {
+            "name": "Balor"
+        },
+        "mZUN05Y3B77gCkk6": {
+            "name": "Noble"
+        },
+        "mhsrVbdk7Nxzll72": {
+            "name": "Spellcasting"
+        },
+        "mju7ANQw1s3x7aCb": {
+            "name": "Wererat"
+        },
+        "mkv392EfPeTaa3de": {
+            "name": "Rakshasa"
+        },
+        "mlywbrr1G8qdxbE7": {
+            "name": "Damage Rolls"
+        },
+        "mmAppendixAAnima": {
+            "name": "Animals"
+        },
+        "mmAppendixMonste": {
+            "name": "Appendix: Monster Details"
+        },
+        "mmMonsterManual0": {
+            "name": "Monsters"
+        },
+        "mmMonsterManual1": {
+            "name": "How to Use a Monster"
+        },
+        "mmMonstersAtoZ00": {
+            "name": "Monsters A to Z"
+        },
+        "mnYg929awNFAxcse": {
+            "name": "White Dragons"
+        },
+        "mpnTe02usA9fgzCr": {
+            "name": "Fast Travel Pace"
+        },
+        "mqVZ2fz0L7a9VeKJ": {
+            "name": "Deception"
+        },
+        "n1Ocpbyhr6HhgbCG": {
+            "name": "Dim Light"
+        },
+        "n47iwiqPFPn2zRqX": {
+            "name": "Brewing Potions of Healing"
+        },
+        "n76bIbxf1pulhlA1": {
+            "name": "Giant Scorpion"
+        },
+        "n8TUtOLRih6gVCii": {
+            "name": "Giant Rat"
+        },
+        "nI9tN6Oq7fCV7hcA": {
+            "name": "Ready"
+        },
+        "nLHvph6iAlDVom9f": {
+            "name": "Overview"
+        },
+        "nM9DcYQzVicWFffF": {
+            "name": "Succubus"
+        },
+        "nUPv6C66Ur64BIUH": {
+            "name": "Strength"
+        },
+        "nXprTG3DeAMemuUe": {
+            "name": "Lamia"
+        },
+        "ndoKj9SzjOvxOI3J": {
+            "name": "Hit Points"
+        },
+        "neFAvivqaFHAKD49": {
+            "name": "Giant Elk"
+        },
+        "niL3uQqxKnfsgmDI": {
+            "name": "Per Day"
+        },
+        "nkEPI89CiQnOaLYh": {
+            "name": "Heroic Inspiration"
+        },
+        "npdEWb2egUPnB5Fa": {
+            "name": "Sphere"
+        },
+        "nteEPAs5mlT6Z0Fl": {
+            "name": "Save"
+        },
+        "nwzDl2CYXW4X0Rgx": {
+            "name": "Bandits"
+        },
+        "nxPH59t3iNtWJxnU": {
+            "name": "D20 Test"
+        },
+        "oIre3TldjyfnGzQr": {
+            "name": "Champion",
+            "description": "<blockquote><p>Pursue Physical Excellence in Combat</p></blockquote><p>A @UUID[Compendium.dnd5e.classes24.Item.phbftrChampion00]{Champion} focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.</p>"
+        },
+        "oNQWvyRZkTOJ8PBq": {
+            "name": "Diseases (2014)"
+        },
+        "oONHbeR1vPpfU1aT": {
+            "name": "Size and Strength"
+        },
+        "oXm4zg000veQxNUk": {
+            "name": "Large Vehicles"
+        },
+        "oezg742GlxmEwT85": {
+            "name": "Known and Prepared Spells"
+        },
+        "of3oLVlwvYX6ybm5": {
+            "name": "Ochre Jelly"
+        },
+        "olGFjcp4lo32fJWk": {
+            "name": "Kraken"
+        },
+        "otAeQs0TLHYIBNuj": {
+            "name": "Origin Feats"
+        },
+        "ow58p27ctAnr4VPH": {
+            "name": "Concentration"
+        },
+        "ozHhbP8JVHCJAx0b": {
+            "name": "Flying"
+        },
+        "ozStXaLUa5m3Qdnu": {
+            "name": "Tiger"
+        },
+        "p4HBDVcNg2OX9pct": {
+            "name": "Constrictor Snake"
+        },
+        "p5qUBMQO7shfNeCD": {
+            "name": "Cube"
+        },
+        "pBcRxpYx5FCVGThO": {
+            "name": "Fly Speed"
+        },
+        "pGXkTaY8kLgqQuDa": {
+            "name": "Cover"
+        },
+        "pMjvawJX5WY4VLKK": {
+            "name": "Gorgon"
+        },
+        "pc8cX3dReRJJEsiQ": {
+            "name": "Shambling Mound"
+        },
+        "pdWbT1UdTD148Nji": {
+            "name": "Dryad"
+        },
+        "phbActions000000": {
+            "name": "Actions"
+        },
+        "phbAppendixBackg": {
+            "name": "Appendix: Background Details"
+        },
+        "phbAppendixCRule": {
+            "name": "Rules Glossary"
+        },
+        "phbAppendixClass": {
+            "name": "Appendix: Class Details"
+        },
+        "phbAppendixDRule": {
+            "name": "Appendix D: Rule References"
+        },
+        "phbAppendixSpeci": {
+            "name": "Appendix: Species Details"
+        },
+        "phbBackgroundDes": {
+            "name": "Character Backgrounds"
+        },
+        "phbBarbarian0000": {
+            "name": "Barbarian"
+        },
+        "phbBard000000000": {
+            "name": "Bard"
+        },
+        "phbCharacterClas": {
+            "name": "Classes"
+        },
+        "phbCharacterOrig": {
+            "name": "Character Origins"
+        },
+        "phbCleric0000000": {
+            "name": "Cleric"
+        },
+        "phbCombat0000000": {
+            "name": "Combat"
+        },
+        "phbConditions000": {
+            "name": "Conditions"
+        },
+        "phbCraftingEquip": {
+            "name": "Crafting Nonmagical Items"
+        },
+        "phbCreatingAChar": {
+            "name": "Character Creation"
+        },
+        "phbCredits000000": {
+            "name": "Legal Information"
+        },
+        "phbD20Tests00000": {
+            "name": "D20 Tests"
+        },
+        "phbDamageAndHeal": {
+            "name": "Damage and Healing"
+        },
+        "phbDruid00000000": {
+            "name": "Druid"
+        },
+        "phbEquipment0000": {
+            "name": "Equipment"
+        },
+        "phbExploration00": {
+            "name": "Exploration"
+        },
+        "phbFeats00000000": {
+            "name": "Feats"
+        },
+        "phbFighter000000": {
+            "name": "Fighter"
+        },
+        "phbIntroduction0": {
+            "name": "Introduction"
+        },
+        "phbMagicItems000": {
+            "name": "Magic Items"
+        },
+        "phbMonk000000000": {
+            "name": "Monk"
+        },
+        "phbMountsAndVehi": {
+            "name": "Mounts and Vehicles"
+        },
+        "phbPaladin000000": {
+            "name": "Paladin"
+        },
+        "phbPlayingTheGam": {
+            "name": "Playing the Game"
+        },
+        "phbRanger0000000": {
+            "name": "Ranger"
+        },
+        "phbRogue00000000": {
+            "name": "Rogue"
+        },
+        "phbServices00000": {
+            "name": "Lifestyle Expenses"
+        },
+        "phbSocialInterac": {
+            "name": "Social Interaction"
+        },
+        "phbSorcerer00000": {
+            "name": "Sorcerer"
+        },
+        "phbSpeciesDescri": {
+            "name": "Character Species"
+        },
+        "phbSpells0000000": {
+            "name": "Spells"
+        },
+        "phbWarlock000000": {
+            "name": "Warlock"
+        },
+        "phbWizard0000000": {
+            "name": "Wizard"
+        },
+        "phbbgAcolyte0000": {
+            "name": "Acolyte"
+        },
+        "phbbgCriminal000": {
+            "name": "Criminal"
+        },
+        "phbbgSage0000000": {
+            "name": "Sage"
+        },
+        "phbbgSoldier0000": {
+            "name": "Soldier"
+        },
+        "phbbrbBarbarian0": {
+            "name": "Barbarian"
+        },
+        "phbbrdBard000000": {
+            "name": "Bard"
+        },
+        "phbclcCleric0000": {
+            "name": "Cleric"
+        },
+        "phbdrdDruid00000": {
+            "name": "Druid"
+        },
+        "phbftrFighter000": {
+            "name": "Fighter"
+        },
+        "phbmnkMonk000000": {
+            "name": "Monk"
+        },
+        "phbpdnPaladin000": {
+            "name": "Paladin"
+        },
+        "phbrgeRogue00000": {
+            "name": "Rogue"
+        },
+        "phbrgrRanger0000": {
+            "name": "Ranger"
+        },
+        "phbscrSorcerer00": {
+            "name": "Sorcerer"
+        },
+        "phbspAbyssalTief": {
+            "name": "Tiefling, Abyssal"
+        },
+        "phbspChthonicTie": {
+            "name": "Tiefling, Chthonic"
+        },
+        "phbspDragonborn0": {
+            "name": "Dragonborn"
+        },
+        "phbspDrow0000000": {
+            "name": "Elf, Drow"
+        },
+        "phbspDwarf000000": {
+            "name": "Dwarf"
+        },
+        "phbspElf00000000": {
+            "name": "Elf"
+        },
+        "phbspGnome000000": {
+            "name": "Gnome"
+        },
+        "phbspGoliath0000": {
+            "name": "Goliath"
+        },
+        "phbspHalfling000": {
+            "name": "Halfling"
+        },
+        "phbspHighElf0000": {
+            "name": "Elf, High"
+        },
+        "phbspHuman000000": {
+            "name": "Human"
+        },
+        "phbspInfernalTie": {
+            "name": "Tiefling, Infernal"
+        },
+        "phbspOrc00000000": {
+            "name": "Orc"
+        },
+        "phbspTiefling000": {
+            "name": "Tiefling"
+        },
+        "phbspWoodElf0000": {
+            "name": "Elf, Wood"
+        },
+        "phbwlkWarlock000": {
+            "name": "Warlock"
+        },
+        "phbwzdWizard0000": {
+            "name": "Wizard"
+        },
+        "pkcKu5qmduJzTjMl": {
+            "name": "Bullywug Bog Sage"
+        },
+        "plHuoNdS0j3umPNS": {
+            "name": "Hiding"
+        },
+        "pm1ZyudVsOl0ve5C": {
+            "name": "Skeleton"
+        },
+        "pmRC7bgPJLoFkaph": {
+            "name": "Grimlock"
+        },
+        "pyo2jnYvavIGyg0s": {
+            "name": "Innate Spellcasting (2014)"
+        },
+        "q2zX8PdjPV8FRmAs": {
+            "name": "Manticore"
+        },
+        "q4iARGB5cUXXX1Al": {
+            "name": "Magical Effect"
+        },
+        "q6Bs0h1U9weuUqHk": {
+            "name": "Ritual"
+        },
+        "q8azjjql1Ya5DeR2": {
+            "name": "Traps in Play (2014)"
+        },
+        "qAFzmGZKhVvAEUF3": {
+            "name": "Attack Rolls"
+        },
+        "qDuny4owDodH8RDQ": {
+            "name": "Magic Item Rarity"
+        },
+        "qEZvxW0NM7ixSQP5": {
+            "name": "Ranged Attacks in Close Combat"
+        },
+        "qKmqbRFE9n2Up5bF": {
+            "name": "Equipment"
+        },
+        "qOKtJt8CB2qRaTNA": {
+            "name": "Temporary Hit Points"
+        },
+        "qUxclCvBClnEafEY": {
+            "name": "Orc"
+        },
+        "qgqsaCYASrFoI4Uf": {
+            "name": "Cultists"
+        },
+        "qha7pVaUwH2gYdk1": {
+            "name": "Warrior of the Open Hand",
+            "description": "<blockquote><p>Master Unarmed Combat Techniques</p></blockquote><p>@UUID[Compendium.dnd5e.classes24.Item.phbmnkOpenHandWa]{Warriors of the Open Hand} are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.</p>"
+        },
+        "qlRw66tJhk0zLnwq": {
+            "name": "Deafened"
+        },
+        "qn7hUk5eNskZNKk9": {
+            "name": "Hobgoblin Warrior"
+        },
+        "qsBGDPv1hDjzIPnc": {
+            "name": "Damage Types"
+        },
+        "qt6cd0mBRQhsElwd": {
+            "name": "Creature"
+        },
+        "quXy2WM17LbbHjxu": {
+            "name": "Pirates"
+        },
+        "qvBU4XhGZuOrb8LT": {
+            "name": "Trap Effects (2014)"
+        },
+        "qwUNgUNilEmZkSC9": {
+            "name": "Somatic (S)"
+        },
+        "qzS0AMZVduN1xVts": {
+            "name": "Camel"
+        },
+        "r0pe2hVhtdgniAJ0": {
+            "name": "Guards"
+        },
+        "r1CgZXLcqFop6Dlx": {
+            "name": "Stabilizing a Creature"
+        },
+        "r4enn4AeiBqu2FNk": {
+            "name": "Fear and Mental Stress"
+        },
+        "r64UrNusMhwJVnxb": {
+            "name": "Tremorsense"
+        },
+        "rCW1BWWOS7a0ibg1": {
+            "name": "Berserkers"
+        },
+        "rIR7ttYDUpH3tMzv": {
+            "name": "Athletics"
+        },
+        "rLJdvz4Mde8GkEYQ": {
+            "name": "Multiple Items of the Same Kind"
+        },
+        "rT7WsIIPWp54Zvsg": {
+            "name": "Character Backgrounds"
+        },
+        "raPwIkqKSv60ELmy": {
+            "name": "High Jump"
+        },
+        "rd9pCH8yFraSGN34": {
+            "name": "Paired Items"
+        },
+        "refKbEYwscmjfGrH": {
+            "name": "Duration"
+        },
+        "riHODSUMg7fpAh5e": {
+            "name": "Half-Dragon"
+        },
+        "rnyO7BzCzqqz7ZI5": {
+            "name": "Ghast"
+        },
+        "rpcSorH8nprBzFup": {
+            "name": "Roc"
+        },
+        "rqhOsUY4wWa1oHTy": {
+            "name": "Hide"
+        },
+        "rwZa7b0CHh2n6mmA": {
+            "name": "Initiative"
+        },
+        "s0ZHwT4gTb5fuw4w": {
+            "name": "Madness Effects (2014)"
+        },
+        "sBAdGkDN7y7GmHKc": {
+            "name": "Multiattack (2014)"
+        },
+        "sIPPXW1mYE3O4xdc": {
+            "name": "The Six Abilities"
+        },
+        "sLBr24g1xnsSApaG": {
+            "name": "Interacting with Objects"
+        },
+        "sLw1gfc1aLg7djmZ": {
+            "name": "Intelligence Checks"
+        },
+        "sROdfuMVLjteRbir": {
+            "name": "Introduction"
+        },
+        "sSzagq8GvYXpfmfs": {
+            "name": "Warlock Spell List"
+        },
+        "saRwXXdZ2trLoGHZ": {
+            "name": "Recharge after a Short or Long Rest (2014)"
+        },
+        "sacjsfm9ZXnw4Tqc": {
+            "name": "Blindsight"
+        },
+        "sbHImaCB8ZMEHYkb": {
+            "name": "Fighting Style Feats"
+        },
+        "sh9GYVdAi8hfH1ru": {
+            "name": "Hit Points"
+        },
+        "shZaSIlFPpHufPFn": {
+            "name": "Bloodied"
+        },
+        "smEk7kvVyslFozrB": {
+            "name": "Illusion"
+        },
+        "spellsDevotion00": {
+            "name": "Oath of Devotion Spells"
+        },
+        "spellsDraconic00": {
+            "name": "Draconic Spells"
+        },
+        "spellsFiend00000": {
+            "name": "Fiend Spells"
+        },
+        "spellsLandArid00": {
+            "name": "Circle of the Land, Arid Spells"
+        },
+        "spellsLandPolar0": {
+            "name": "Circle of the Land, Polar Spells"
+        },
+        "spellsLandTemper": {
+            "name": "Circle of the Land, Temperate Spells"
+        },
+        "spellsLandTropic": {
+            "name": "Circle of the Land, Tropical Spells"
+        },
+        "spellsLife000000": {
+            "name": "Life Domain Spells"
+        },
+        "suHSIeLVLizTYPgT": {
+            "name": "Werebear"
+        },
+        "suz7Du1BGcefHMl0": {
+            "name": "Gargoyle"
+        },
+        "sy6xon5AxuIZV1ca": {
+            "name": "High Jump"
+        },
+        "sz2XKQ5lgsdPEJOa": {
+            "name": "Slashing"
+        },
+        "t0mlUZQbdH2B2mHU": {
+            "name": "Lizard"
+        },
+        "t1WP9VEevo4TOTXw": {
+            "name": "Step 2: Character Origin"
+        },
+        "t3EzDU5b9BVAIEVi": {
+            "name": "Survival"
+        },
+        "t9hzKBCxFAkt0w1p": {
+            "name": "Azer Sentinel"
+        },
+        "tVyTG8DkzYAi7wxc": {
+            "name": "Interacting with Objects Around You"
+        },
+        "tYgbSVxqZY9RZ7B5": {
+            "name": "Doppelganger"
+        },
+        "tZtIR5GiKLh8uwaf": {
+            "name": "Worg"
+        },
+        "tdtmXZbUIOZGSnKT": {
+            "name": "Blindsight"
+        },
+        "ttyP63f4ZpvFn6J4": {
+            "name": "Bugbears"
+        },
+        "twYp1c1osDo89qDM": {
+            "name": "Crocodile"
+        },
+        "u46Rva9Nrm9bG1Mu": {
+            "name": "Spellcasting Ability"
+        },
+        "u4GQCzoBig20yRLj": {
+            "name": "Attack"
+        },
+        "u7L682ldreJy4PlC": {
+            "name": "Red Dragon Wyrmling"
+        },
+        "uDogReMO6QtH6NDw": {
+            "name": "Blinded"
+        },
+        "uEwjgKGuCRTNADYv": {
+            "name": "Knocking a Creature Out"
+        },
+        "uQWQpRKQ1kWhuvjZ": {
+            "name": "Forced March (2014)"
+        },
+        "uSMwwTTplaQEO9fd": {
+            "name": "Couatl"
+        },
+        "uTXM3EuuC8wNemmc": {
+            "name": "Teleportation"
+        },
+        "uTz3wXhNOzvpzPUb": {
+            "name": "Hunter Shark"
+        },
+        "ueMx3uF2PQlcye31": {
+            "name": "Nature"
+        },
+        "uj8W27NKFyzygPUd": {
+            "name": "Regional Effects (2014)"
+        },
+        "ujhsaI8nVkjXwMHD": {
+            "name": "Effects"
+        },
+        "unGgf3TA3iSawYAn": {
+            "name": "Dropping to 0 Hit Points"
+        },
+        "uvu3wNdG3Czms2dL": {
+            "name": "Feat Descriptions"
+        },
+        "v0UFDQcAt4aVwvxI": {
+            "name": "Size"
+        },
+        "v0WE18nT5SJO8Ft7": {
+            "name": "Damage Resistance and Vulnerability"
+        },
+        "v1hdTakUKmhnSBUv": {
+            "name": "Reactions"
+        },
+        "v3Dy6zomR2zka7fh": {
+            "name": "Magic Item Tracker"
+        },
+        "v3IPyTtqvXqN934s": {
+            "name": "Wisdom"
+        },
+        "vLAsIUa0FhZNsyLk": {
+            "name": "Charmed"
+        },
+        "vQksq6TlqGNyyl5l": {
+            "name": "Tough"
+        },
+        "vTvxvndvzT5NYBJi": {
+            "name": "Guard Captain"
+        },
+        "vYZwsyU9V1RdbFAm": {
+            "name": "Owlbear"
+        },
+        "va0sfLfuz2kDP78g": {
+            "name": "Spellcasting Ability"
+        },
+        "vcs4jfEKRxPCsgXm": {
+            "name": "Multiclassing"
+        },
+        "vhOJQTnDz9Sf1W7L": {
+            "name": "Sahuagin"
+        },
+        "vtnadpiROqSD24P9": {
+            "name": "Eagle"
+        },
+        "vuK6Tth0DFgU74A6": {
+            "name": "Immunity"
+        },
+        "vw6icAkUuQJ80NCq": {
+            "name": "Fire Elemental"
+        },
+        "w1AGsemFERfjqWNx": {
+            "name": "Disengage"
+        },
+        "w1Opj6ngpPLYpzhS": {
+            "name": "Giant Seahorse"
+        },
+        "w1RMyPzpjolhQMVX": {
+            "name": "Skeletons"
+        },
+        "w4ty6cWbJfvzIkMZ": {
+            "name": "Swarm of Insects"
+        },
+        "w7ccK0ecdSUbYUv6": {
+            "name": "Roper"
+        },
+        "w7m4OUspECB22dxr": {
+            "name": "Winter Wolf"
+        },
+        "wAMCoSlvbZH5G7lS": {
+            "name": "Breaking Up Your Move"
+        },
+        "wCRuYElRCyqpDDE9": {
+            "name": "Overview"
+        },
+        "wD72m9uZOS5e32E0": {
+            "name": "Warriors"
+        },
+        "wDELe3k25FQvYdrq": {
+            "name": "Fighter",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbftrFighter000 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Fighter …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Fighter Traits table.</p></li><li><p>Gain the Fighter's level 1 features, which are listed in the Fighter Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.</p></li><li><p>Gain the Fighter's level 1 features, which are listed in the Fighter Features table.</p></li></ul>"
+        },
+        "wDGTuzKQunNrnkC8": {
+            "name": "Swim Speed"
+        },
+        "wKtOwagDAiNfVoPS": {
+            "name": "Squeezing into a Smaller Space"
+        },
+        "wPFjfRruboxhtL4b": {
+            "name": "Heavily Obscured"
+        },
+        "wQgeDjxOLkKUQB5e": {
+            "name": "Plesiosaurus"
+        },
+        "wVuNbEADtC16ejAi": {
+            "name": "Short Rest"
+        },
+        "wWsjCZ54lUjU4iyd": {
+            "name": "Aboleth"
+        },
+        "whTwAEsEXJJXBOt5": {
+            "name": "Bright Light"
+        },
+        "wkg7ZTl7O5iGTXrM": {
+            "name": "Tiers of Play"
+        },
+        "wmX9SvP3L9iJJcMa": {
+            "name": "Mimic"
+        },
+        "wrIzYa8s8t4WYuyx": {
+            "name": "Elk"
+        },
+        "wvtCeGHgnUmh0cuj": {
+            "name": "Areas of Effect"
+        },
+        "wwia6Wwo4BgE9GSI": {
+            "name": "Bard Spell List"
+        },
+        "x4VLvBATmEBnTTxK": {
+            "name": "Goblin Minion"
+        },
+        "x5bUdhAD7u5Bt2rg": {
+            "name": "Moving a Grappled Creature"
+        },
+        "xBOHFPuQWeudrfqy": {
+            "name": "Limited Usage (2014)"
+        },
+        "xFjCuguLB1XoSlbx": {
+            "name": "Mule"
+        },
+        "xIDcbjgXOndS8zRl": {
+            "name": "Adventuring Gear List"
+        },
+        "xJIzo0wJVAxE6OD2": {
+            "name": "Ice Devil"
+        },
+        "xJjJ4lhymAYXAOvO": {
+            "name": "Unarmed Strike"
+        },
+        "xOnod0XYqxamI66Y": {
+            "name": "General Feats"
+        },
+        "xTFPEcoBtBOgDqgY": {
+            "name": "Xorn"
+        },
+        "xb3MCjUvopOU4viE": {
+            "name": "Animal Handling"
+        },
+        "xeHthAF9lxfn2tII": {
+            "name": "Components"
+        },
+        "xgLA30rErlkjIPAK": {
+            "name": "Environmental Effects"
+        },
+        "xiCNZr3S4OmJezyv": {
+            "name": "Tiefling"
+        },
+        "xk9KqsS54w8EpbZn": {
+            "name": "Carrying Capacity"
+        },
+        "xoQXfwUFahXBoiur": {
+            "name": "Climb Speed"
+        },
+        "xqFT4a6u74XouKIn": {
+            "name": "Skeletons"
+        },
+        "xxt7YT2t76JxNTel": {
+            "name": "Disclaimer"
+        },
+        "y4ooBM6PNZfWH3Tv": {
+            "name": "Vampires"
+        },
+        "y5QmKEt8q0NY1PWb": {
+            "name": "Oni"
+        },
+        "y6TV02fVzqpJBvDt": {
+            "name": "Unoccupied Space"
+        },
+        "yBdkX7XGvlRVcyya": {
+            "name": "Respect for the DM"
+        },
+        "yJVGUXzX1AgIUhv8": {
+            "name": "Vulture"
+        },
+        "yL4YR3RUoMIqiCH7": {
+            "name": "Using and Tracking Conditions"
+        },
+        "ySj4gYZ4ADZoia7R": {
+            "name": "Search"
+        },
+        "yWJPHwSnSbwcxkLG": {
+            "name": "Stone Golem"
+        },
+        "yg6SRpGNVz9nDW0A": {
+            "name": "Sleight of Hand"
+        },
+        "yg8Ggstu8vlXMu1S": {
+            "name": "Rhythm of Play"
+        },
+        "ynmjvFoain2bPeDT": {
+            "name": "Salamanders"
+        },
+        "yspaGdvukcwiodvl": {
+            "name": "Class Spell Lists"
+        },
+        "yy50qVC1JhPHt4LC": {
+            "name": "Aberrations (2014)"
+        },
+        "z1wx4cNO7AfqyNof": {
+            "name": "Weapons Table"
+        },
+        "z2RxKBICH6e6SkUT": {
+            "name": "Barbarian",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrbBarbarian0 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Barbarian …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Barbarian Traits table.</p></li><li><p>Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Barbarian Traits table: Hit Point Die, proficiency with Martial weapons, and training with Shields.</p></li><li><p>Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.</p></li></ul>"
+        },
+        "z4A8vHSK2pb8YA9X": {
+            "name": "Casting in Armor"
+        },
+        "z8nL1R6ydHEM4fNR": {
+            "name": "Stirge"
+        },
+        "zAMStUjUrPV10dFm": {
+            "name": "Three-Quarters Cover"
+        },
+        "zAlhxCv4MtiSnQ3r": {
+            "name": "Nothic"
+        },
+        "zFRmBXXTTcFTG9Lm": {
+            "name": "Frog"
+        },
+        "zHMPI5TdgKnJWs99": {
+            "name": "Gold Dragons"
+        },
+        "zNzVq7B6Yt1dcY0z": {
+            "name": "Green Dragons"
+        },
+        "zRVW8Tvyk6BECjZD": {
+            "name": "Casting Time"
+        },
+        "zRZl7vdjzjqpazxn": {
+            "name": "Crawling"
+        },
+        "zU9fgQbLaVbJvPRX": {
+            "name": "Proficiency"
+        },
+        "zUje6Iw2d7GuBk2q": {
+            "name": "Cockatrice"
+        },
+        "zaAQ44rQ5HlaAKam": {
+            "name": "Hobgoblins"
+        },
+        "zeU0NyCyP10lkLg3": {
+            "name": "Opportunity Attacks"
+        },
+        "zivUMCaCPRLSXGNI": {
+            "name": "Overview"
+        },
+        "zjEeHCUqfuprfzhY": {
+            "name": "Perception"
+        },
+        "zmtZPm175BzTf1uT": {
+            "name": "Overview"
+        },
+        "znue6EaGDDXgeQb0": {
+            "name": "Warlock",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwlkWarlock000 inline classes=\"free-rules-embed\"]</p> <h2>Becoming a Warlock …</h2><h3>As a Level 1 Character</h3><ul><li><p>Gain all the traits in the Core Warlock Traits table.</p></li><li><p>Gain the Warlock's level 1 features, which are listed in the Warlock Features table.</p></li></ul><h3>As a Multiclass Character</h3><ul><li><p>Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.</p></li><li><p>Gain the Warlock's level 1 features, which are listed in the Warlock Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</p></li></ul>"
+        },
+        "znz3n8BHERTkntdK": {
+            "name": "Bonus Actions"
+        }
+    }
+}

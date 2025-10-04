@@ -1,0 +1,78 @@
+{
+  "id": "lang-pl-dnd5",
+  "title": "Polskie Tłumaczenie DnD 5ed.",
+  "version": "vDev",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Damian W.",
+      "flags": {}
+    },
+    {
+      "name": "Mateusz Ł.",
+      "flags": {}
+    },
+    {
+      "name": "Jakub H.",
+      "discord": "lioheart77",
+      "email": "caco7.lioheart@gmail.com",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "PolishCore",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Tłumaczenie systemu D&D 5ed.",
+  "esmodules": [
+    "babele-register.js",
+    "scripts/dnd5e.js",
+    "scripts/original-name.js",
+    "scripts/buttons.js",
+    "scripts/translator.js"
+  ],
+  "styles": [
+    "styles/dnd5e.css"
+  ],
+  "languages": [
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json"
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "static/cover_dnd.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "url": "Filled in by the release workflow",
+  "manifest": "Filled in by the release workflow",
+  "download": "Filled in by the release workflow"
+}

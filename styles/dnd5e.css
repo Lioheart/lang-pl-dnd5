@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Almendra";
+  src: url('../fonts/Almendra-Regular.ttf');
+}
+
+:root {
+  --dnd5e-font-modesto: "Almendra", "Modesto Condensed", "Palatino Linotype", serif
+}
+
+/* Wyswietlanie angielskiej nazwy */
+.english-name h3 {
+  user-select: all;
+  border-bottom: none;
+  font-size: 1.2em;
+}
+
+.document-name {
+  user-select: all;
+}
+
+/* Wymuszenie wyświetlania wartości */
+.directory-list .directory-item.compendium {
+  display: flex !important;
+}
+
+/* CSS do wyszukiwania */
+ol.directory-list li.match {
+  align-items: center;
+  column-gap: 2px;
+  cursor: pointer;
+  display: grid;
+  grid-template-areas: "thumbnail name" "thumbnail details";
+  grid-template-columns: 38px 1fr;
+  grid-template-rows: 1fr 1fr;
+  list-style: none;
+  padding: 2px 0 2px 4px;
+  height: 48px;
+}
+
+ol.directory-list li.match:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+ol.directory-list li.match > * {
+  align-items: inherit;
+  display: flex;
+  height: 100%;
+}
+ol.directory-list li.match .thumbnail {
+  grid-area: thumbnail;
+  justify-content: start;
+}
+ol.directory-list li.match .thumbnail img {
+  border: none;
+  height: 36px;
+  object-fit: contain;
+  object-position: 50% 0;
+  padding: 2px 0;
+  width: 36px;
+}
+ol.directory-list li.match .match-name {
+  grid-area: name;
+}
+ol.directory-list li.match .compendium-source {
+  color: var(--color-text-light-primary);
+  grid-area: details;
+  font-size: var(--font-size-12);
+}
+/* Koniec wyszukiwania */
