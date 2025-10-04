@@ -48,7 +48,7 @@
   },
   "description": "Tłumaczenie systemu D&D 5ed.",
   "esmodules": [
-    "babele-register.js",
+    "./babele-register.js",
     "scripts/dnd5e.js",
     "scripts/original-name.js",
     "scripts/buttons.js",
