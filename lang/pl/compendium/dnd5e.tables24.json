@@ -1,0 +1,215 @@
+{
+    "label": "Tables24",
+    "folders": {
+        "Magic Items": "Magic Items",
+        "Sentient Item Attributes": "Sentient Item Attributes",
+        "Mysterious Deck": "Mysterious Deck",
+        "Reincarnated Lineages": "Reincarnated Lineages",
+        "Item-Specific Tables": "Item-Specific Tables",
+        "Random Magic Item Rarity by Level": "Random Magic Item Rarity by Level",
+        "Monster Details": "Monster Details",
+        "Bag of Tricks": "Bag of Tricks",
+        "Spells": "Spells",
+        "Creating a Character": "Creating a Character"
+    },
+    "entries": {
+        "dmg1116RandomMag": {
+            "name": "Level 11-16"
+        },
+        "dmg13CardDeckOfM": {
+            "name": "Mysterious Deck: 13 Cards"
+        },
+        "dmg14RandomMagic": {
+            "name": "Level 1-4"
+        },
+        "dmg1720RandomMag": {
+            "name": "Level 17-20"
+        },
+        "dmg22CardDeckOfM": {
+            "name": "Mysterious Deck: 22 Cards"
+        },
+        "dmg510RandomMagi": {
+            "name": "Level 5-10"
+        },
+        "dmgAmuletOfThePl": {
+            "name": "Amulet of the Planes Destination"
+        },
+        "dmgArmorOfResist": {
+            "name": "Armor of Resistance Type"
+        },
+        "dmgBagOfBeansEff": {
+            "name": "Bag of Beans Effect"
+        },
+        "dmgCandleOfInvoc": {
+            "name": "Candle of Invocation: Outer Plane Destination"
+        },
+        "dmgCarpetOfFlyin": {
+            "name": "Carpet of Flying: Size, Capacity, and Speed"
+        },
+        "dmgDeckOfIllusio": {
+            "name": "Deck of Illusions"
+        },
+        "dmgEfreetiBottle": {
+            "name": "Efreeti Bottle"
+        },
+        "dmgGrayBagOfTric": {
+            "name": "Gray Bag of Tricks"
+        },
+        "dmgHatOfManySpel": {
+            "name": "Hat of Many Spells"
+        },
+        "dmgHornOfValhall": {
+            "name": "Horn of Valhalla: Type and Requirement"
+        },
+        "dmgIronFlaskCont": {
+            "name": "Iron Flask Contents"
+        },
+        "dmgManualOfGolem": {
+            "name": "Manual of Golems: Type, Time, and Cost"
+        },
+        "dmgNecklaceOfPra": {
+            "name": "Necklace of Prayer Beads Type"
+        },
+        "dmgPotionMiscibi": {
+            "name": "Potion Miscibility"
+        },
+        "dmgPotionOfResis": {
+            "name": "Potion of Resistance Type"
+        },
+        "dmgQuaalsFeather": {
+            "name": "Feather Tokens"
+        },
+        "dmgRingOfResista": {
+            "name": "Ring of Resistance: Damage Type and Gemstone"
+        },
+        "dmgRobeOfUsefulI": {
+            "name": "Robe of Useful Items"
+        },
+        "dmgRustBagOfTric": {
+            "name": "Rust Bag of Tricks"
+        },
+        "dmgSenAlignment0": {
+            "name": "Alignment"
+        },
+        "dmgSenCommunicat": {
+            "name": "Communication"
+        },
+        "dmgSenSenses0000": {
+            "name": "Senses"
+        },
+        "dmgSenSpecialPur": {
+            "name": "Special Purpose"
+        },
+        "dmgSlayingAmmuni": {
+            "name": "Ammunition of Slaying: Creature Type"
+        },
+        "dmgSphereOfAnnih": {
+            "name": "Sphere of Annihilation Interaction Results"
+        },
+        "dmgTanBagOfTrick": {
+            "name": "Tan Bag of Tricks"
+        },
+        "dmgWandOfWonderE": {
+            "name": "Wand of Wonder Effects"
+        },
+        "mmAnimatedObject": {
+            "name": "Animated Object Catalysts"
+        },
+        "mmBanditMotivati": {
+            "name": "Bandit Motivations"
+        },
+        "mmCultSymbols000": {
+            "name": "Cult Symbols"
+        },
+        "mmCultSymbolsDep": {
+            "name": "Cult Symbols - Depictions"
+        },
+        "mmCultistAgendas": {
+            "name": "Cultist Agendas"
+        },
+        "mmDoppelgangerDe": {
+            "name": "Doppelganger Deceptions"
+        },
+        "mmFireElementalC": {
+            "name": "Fire Elemental Compositions"
+        },
+        "mmGelatinousCube": {
+            "name": "Gelatinous Cube Debris"
+        },
+        "mmIncubusNightma": {
+            "name": "Incubus Nightmares"
+        },
+        "mmMageRoles00000": {
+            "name": "Mage Roles"
+        },
+        "mmMinotaurMazes0": {
+            "name": "Minotaur Mazes"
+        },
+        "mmOwlbearDenFeat": {
+            "name": "Owlbear Den Features"
+        },
+        "mmPseudodragonTr": {
+            "name": "Pseudodragon Treats"
+        },
+        "mmShadowShapes00": {
+            "name": "Shadow Shapes"
+        },
+        "mmSkeletonPantom": {
+            "name": "Skeleton Pantomimes"
+        },
+        "mmStirgeRoosts00": {
+            "name": "Stirge Roosts"
+        },
+        "mmStoneGolemOrde": {
+            "name": "Stone Golem Orders"
+        },
+        "mmSuccubusTempta": {
+            "name": "Succubus Temptations"
+        },
+        "mmVampireResting": {
+            "name": "Vampire Resting Places"
+        },
+        "mmWarriorRoles00": {
+            "name": "Warrior Roles"
+        },
+        "mmWraithManifest": {
+            "name": "Wraith Manifestations"
+        },
+        "phbElvenLineage0": {
+            "name": "Elven Lineage"
+        },
+        "phbFiendishLegac": {
+            "name": "Fiendish Legacy"
+        },
+        "phbGnomishLineag": {
+            "name": "Gnomish Lineage"
+        },
+        "phbPrismaticLaye": {
+            "name": "Prismatic Layers"
+        },
+        "phbPrismaticRays": {
+            "name": "Prismatic Rays"
+        },
+        "phbStandardLangu": {
+            "name": "Standard Languages"
+        },
+        "phbStartingTrink": {
+            "name": "Trinkets"
+        },
+        "phbSublanguageTa": {
+            "name": "Sub-Languages Table"
+        },
+        "phbgenCardinalDi": {
+            "name": "Cardinal Directions"
+        },
+        "phbsplConfusionB": {
+            "name": "Confusion Behavior"
+        },
+        "phbsplReincarnat": {
+            "name": "Reincarnated Species"
+        },
+        "phbsplTeleportMi": {
+            "name": "Teleport Mishap"
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "label": "Towary handlowe",
+    "entries": {
+        "8SQ7vyE6gevpfJvn": {
+            "name": "Pieprz",
+            "description": "<p>Ziarna pieprzu są maleńkimi owocami lub pestkami rośliny pieprzowej, kwitnącej winorośli znanej również jako piper nigrum. Bardzo cenione przez szefów kuchni za ich wszechstronność, mogą być również wykorzystane przez poszukiwaczy przygód, gdy trzeba odwrócić czyjąś uwagę.</p>"
+        },
+        "9t5X9HG9ou6YMSdJ": {
+            "name": "Srebro",
+            "description": "<p>Srebro od dawna cenione jest za swoją niereaktywną naturę i łatwość, z jaką można je kształtować w najwspanialsze ozdoby, dekoracje i oczywiście używać jako monety.</p><p>Srebro rzadko występuje w swojej rodzimej postaci w postaci samorodków. Zazwyczaj występuje w mieszankach z innymi substancjami, takimi jak siarka czy chlor, w rudach lub jako składnik stopów podobnych do złota. Srebro można znaleźć na powierzchni, ale znacznie częściej wydobywa się je pod ziemią. Wydobycie srebra jest lukratywne i może wywoływać gorączkę srebra.</p>"
+        },
+        "CrcfT5jwcJTPTsfQ": {
+            "name": "Mąka",
+            "description": "<p>Ziarno, które zostało zmielone przez młynarza na kolejnym etapie łańcucha pokarmowego.</p>"
+        },
+        "Eyl9QYZcM9CYIqbA": {
+            "name": "Platyna",
+            "description": "<p>Znacznie rzadsza od złota, platyna może być traktowana albo jako szczyt bogactwa, albo jako ślad minionej epoki, który może spotkać się z nieufnością lub zazdrością.</p><p>W przeciwieństwie do złota, platyna jest prawie wyłącznie wydobywana pod ziemią.</p>"
+        },
+        "Gh1JxTlM9aRGNrUH": {
+            "name": "Len",
+            "description": "<p>Metr kwadratowy lnu o przeciętnej jakości i gramaturze. Używany do produkcji wielu przedmiotów i odzieży.</p><p>Trwalszy niż bawełna, jego trwałość i przewiewność sprawiają, że jest szczególnie ceniony w ciepłym klimacie.</p><p>Istnieją różne rodzaje lnu, przy czym lżejsze sploty zaczynają się od 175 gramów na metr kwadratowy, a pozostałe dochodzą do 450 gramów.</p>"
+        },
+        "HHh7Ihuk8ToxJzQX": {
+            "name": "Złoto",
+            "description": "<p>Złoto jest królem waluty dla wielu cywilizacji. Zazwyczaj bardziej powszechne niż platyna, ale nie aż tak powszechne jak inne metale, takie jak żelazo, zajmuje \"złoty punkt\" pod względem rzadkości i niereaktywności.</p><p>W przeciwieństwie do srebra, złoto można łatwiej znaleźć na powierzchni. Zarówno wydobycie powierzchniowe, jak i podziemne może być niezwykle opłacalne. Gorączki złota mogą być i były źródłem wielkiego szczęścia i ogromnych tragedii.</p>"
+        },
+        "Mrmkw4uaWX6UKpbn": {
+            "name": "Szafran",
+            "description": "<p>Szafran to prawdopodobnie jeden z najbardziej cenionych składników na świecie, jest tak drogi, ponieważ jego produkcja jest niezwykle pracochłonna. Wyprodukowany z Crocus sativus, lub bardziej popularnie \"szafranowego krokusa\", potrzeba 80 000 kwiatów krokusa, aby wyprodukować 1 kilogram szafranu. Wagowo jest on wart więcej niż złoto. Ceniony przez najbardziej wymagających kucharzy i aptekarzy ze względu na swoje walory smakowe i rzekome korzyści zdrowotne.</p>"
+        },
+        "P29EeDJQrJJXOIuK": {
+            "name": "Owca",
+            "description": "<p>Przydatne stworzenie dla rolników z małych obszarów i mieszkańców gór, choć nie są tak zwinne jak kozy, mają cenną funkcję corocznego ścinania runa, co daje ludziom dostęp do odzieży, dywanów i narzut na łóżka i krzesła. Ich większy rozmiar oznacza również, że są bardziej cenne przy uboju.</p><p>W zależności od rasy, waga dorosłych owiec może wynosić od 45, aż do 160 kilogramów.</p>"
+        },
+        "Pn04ySJYcG06Jc4a": {
+            "name": "Cynamon",
+            "description": "<p>Pozyskiwana z wewnętrznej kory drzewa cynamonowego, popularna, choć nieco rzadsza przyprawa, wśród szefów kuchni na całym świecie. Uwielbiany przez dzieci kiedy łączy się go z cukrem, aby stworzyć wiele rodzajów smakołyków.</p>"
+        },
+        "V3uxNwciT4Ln7S4k": {
+            "name": "Żelazo",
+            "description": "<p>Żelazo, będące często narzędziem pracy metalurgów, jest cenione za jego względną obfitość i łatwość pozyskania. Żelazo powierzchniowe można znaleźć w spadających meteorach i ksenolitach, ale znacznie częściej wydobywa się je pod ziemią. Należy jednak zachować ostrożność, w przeciwnym razie rdza zbierze swoje żniwo.</p>"
+        },
+        "VcHmykfFBurKzCO6": {
+            "name": "Imbir",
+            "description": "<p>Przyprawa pochodząca ze świeżego lub suszonego korzenia imbiru lekarskiego Zingiber officinale. Należy do tej samej rodziny co kurkuma i kardamon.</p><p>Ceniona przez szefów kuchni i cukierników, uwielbiane przez dzieci i gustujących w ostrzejszych smakach.</p>"
+        },
+        "W6pJovmnVyjbk0fA": {
+            "name": "Krowa",
+            "description": "<p>Krowy są stworzeniami dla rolników prowadzących gospodarstwa wielkoobszarowe. Wymagają dużych obszarów płaskich pastwisk, co oznacza, że nie są tak powszechne jak inne zwierzęta gospodarskie. Żyją jednak dłużej i dają o wiele więcej mleka. Są one również źródłem znacznie trwalszej skóry, która jest mniej podatna na pękanie i odporna na ciepło i brud.</p><p>W zależności od płci i rasy, dorosłe krowy mogą ważyć od 450 do 820 kilogramów.</p>"
+        },
+        "WCbKUQcahzQQX0pL": {
+            "name": "Wół",
+            "description": "<p>Zasadniczo specjalnie wyszkolony wół mięsny lub mleczny, który osiągnął wiek 5 lat. Te wytrzymałe zwierzęta juczne mogą ciągnąć lub przenosić ciężary przekraczające masę ich własnego ciała. Używane do wielu zadań, takich jak ciągnięcie wozów, młócenie zboża, napędzanie maszyn nawadniających lub mielących ziarno, a nawet do jazdy wierzchem, woły są bardzo cenionymi stworzeniami dla pracowników w wielu dziedzinach.</p>"
+        },
+        "WdPAGBRUWYaS0TNQ": {
+            "name": "Pszenica",
+            "description": "<p>Jest powszechnym składnikiem chleba, piwa i nie tylko; ten surowiec często stanowi podstawę diety ludzi, których ziemia jest rozległa i stosunkowo płaska, pogoda umiarkowana, a obszar wystarczająco bezpieczny, aby rolnicy mogli prowadzić działalność.</p>"
+        },
+        "YJ2pBio6uEg5vhgN": {
+            "name": "Świnia",
+            "description": "<p>Świnie są stworzeniami dla rolników ze średnich i dużych obszarów, rozmnażają się stosunkowo szybko i są wytrzymałymi stworzeniami, które zapewniają różnorakie składniki do gotowania dla przedsiębiorczego kucharza, z których najważniejszym jest oczywiście bekon. Ich skóra może być również używana jako tańsza skóra, ale jest ona mniej odporna na rozdarcia w porównaniu z jagnięcą czy kozią skórą. Świnie są również źródłem smalcu.</p><p>Większość świń waży od 115 do 120 kilogramów w momencie uboju, ponieważ daje to najlepsze kawałki mięsa do sprzedaży i średnie pokrycie tłuszczem.</p>"
+        },
+        "ZcAgZHJ1hhqbedLF": {
+            "name": "Bawełna",
+            "description": "<p>Metr kwadratowy bawełny o przeciętnej jakości i gramaturze. Używany do produkcji wielu przedmiotów i odzieży.</p><p>Znacznie lżejsza, wygodniejsza i łatwiejsza w obróbce niż płótno, jednak ze względu na stosunkowo delikatniejsze runo jest odpowiednio droższa i potencjalnie trudniej dostępna.</p>"
+        },
+        "aXWzDW0huOa0WuIO": {
+            "name": "Miedź",
+            "description": "<p>Pożądana przez doświadczonych budowniczych statków, alchemików, niektórych jubilerów, a także szefów kuchni. Miedź jest powszechnie wydobywana na powierzchni, ale podziemne wydobycie jest również możliwe, szczególnie jeżeli źródła powierzchniowe zostały wyczerpane lub nie można ich zlokalizować.</p><p>Chociaż może być używana do produkcji zbroi, na potrzeby wojska dużo lepiej sprawdza się jeśli zmiesza się ją z cyną, aby uzyskać znacznie bardziej wytrzymały stop brązu.</p>"
+        },
+        "eDVTXE3qv28DwvPl": {
+            "name": "Sól",
+            "description": "<p>Ceniony przez szefów kuchni i kwatermistrzów jako przyprawa i środek konserwujący dla dostaw, gdzie alkohol lub ocet są niepożądane.</p>"
+        },
+        "jad5oFMDv21mPvJP": {
+            "name": "Jedwab",
+            "description": "<p>Metr kwadratowy jedwabiu o przeciętnej jakości i wadze. Używany do produkcji wielu przedmiotów i odzieży.</p><p>Najdelikatniejszy i najbardziej pożądany z pospolitych tkanin, jedwab jest również najlżejszy. Większość jedwabi będzie ważyć od 55 do 110 gramów na metr kwadratowy. Im cięższy jedwab, tym wyższa jakość, większa wytrzymałość i bardziej nieprzejrzysty kolor.</p>"
+        },
+        "l1YRv9sdhQPaSQop": {
+            "name": "Kurczak",
+            "description": "<p>Źródło omletów i skrzydełek z kurczaka, przeciętny dorosły kurczak waży od 2 do 4,5 kilograma.</p>"
+        },
+        "mFJkwdzb9IpLC3Ip": {
+            "name": "Płótno",
+            "description": "<p>Metr kwadratowy płótna o przeciętnej jakości i wadze. Używany do produkcji wielu przedmiotów i odzieży.</p><p>Stopniowane od 1 do 12, im niższy numer, tym lepsza jakość i większa waga. Płótno jakości #1 waży około 0,7 kilograma na metr kwadratowy, podczas gdy słabsze, lżejsze #12 może ważyć tylko 0,3 kilograma.</p>"
+        },
+        "pMj0mA1wyEhoO6zP": {
+            "name": "Koza",
+            "description": "<p>Kozy są pożytecznym gatunkiem dla rolników prowadzących małe gospodarstwa i mieszkańców gór. Skutecznie chronią łąki przed zarastaniem, dostarczając jednocześnie mleka, sera, a ostatecznie skór i mięsa.</p><p>W zależności od rasy, dorosłe kozy mogą ważyć od 20, aż do 135 kilogramów.</p>"
+        },
+        "u753EokyA4vjksle": {
+            "name": "Goździki",
+            "description": "<p>Mocna przyprawa ceniona zarówno przez szefów kuchni, jak i gorzelników, dobrze sprawdza się w aromatyzowaniu mięs i gulaszów, bogatych sosów, ciepłych napojów, takich jak cydr i herbata, chleba, serów i słodkich deserów, takich jak ciasta i keksy.</p><p>Goździki to bogate, wysuszone, nieotwarte pąki Syzygium aromaticum, wiecznie zielonego drzewa z rodziny mirtowatych.</p>"
+        }
+    }
+}

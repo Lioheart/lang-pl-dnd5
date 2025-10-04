@@ -1,0 +1,254 @@
+{
+    "label": "Podklasy",
+    "entries": {
+        "2nadB2MBSHTQ0kcl": {
+            "name": "Smocze dziedzictwo",
+            "description": "<p>Twoja wrodzona moc pochodzi od magii smoków, która połączyła się z krwią twoją lub twoich przodków. Czerpiący z tego źródła najczęściej wywodzą swe pochodzenie od potężnego zaklinacza z dawnych czasów, który dobił targu ze smokiem albo nawet miał smoczego rodzica. Niektóre z takich rodów cieszą się pewną sławą, ale większość jest mało znana. Każdy zaklinacz może być początkiem nowej linii, jeśli wspomoże go pakt albo inna wyjątkowa okoliczność.</p>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                }
+            }
+        },
+        "4Ae2SPZRXEVbVs0M": {
+            "name": "Krąg ziemi",
+            "description": "<p>Krąg Ziemi tworzą mistycy i mędrcy strzegący starożytnej wiedzy i rytuałów przekazywanych w rozległej tradycji ustnej. Spotykają się wewnątrz świętych kręgów drzew lub głazów, by szeptać w swym tajemnym języku o pradawnych sekretach. Najmądrzejsi członkowie pełnią funkcję duchowych przywódców społeczności zachowujących Starą Wiarę i służą jako doradcy u ich władców. Gdy należysz do tego kręgu, na twoją magię ma wpływ okolica, w której wprowadzono cię w jego tajemnicze obrzędy.</p>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                },
+                "4": {
+                    "title": "Zdolności"
+                }
+            }
+        },
+        "H3RYLGqCiqm8BP3q": {
+            "name": "Domena życia",
+            "description": "<p>Domena życia skupia się na żywej, pozytywnej energii - jednej z podstawowych sił wszechświata, która podtrzymuje wszelkie życie. Bogowie życia wspierają witalność i zdrowie, lecząc chorych i rannych, troszcząc się o potrzebujących, odpierając siły śmierci i nieśmierci. Niemal każde bóstwo o charakterze innym od złego roztacza wpływ na tę domenę, choć są to zwłaszcza bóstwa agrarne (takie jak Chauntea, Arawai czy Demeter), bogowie słońca (Lathander, Pelor lub Re-Horachte), uzdrawiania lub odporności (jak llmater, Mishakal, Apollo lub Diancecht), bądź też bogowie domowego ogniska i społeczności (na przykład Hestia, Hathor albo Boldrei).</p><table><caption>Czary Domeny Życia</caption><thead><tr><td>Poziom Kleryka</td><td>Czary</td></tr></thead><tbody><tr><td>1.</td><td>@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{Błogosławieństwo}, @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Leczenie ran}</td></tr><tr><td>3.</td><td>@UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Mniejsze przywrócenie}, @UUID[Compendium.dnd5e.spells.Item.JbxsYXxSOTZbf9I0]{Duchowa broń}</td></tr><tr><td>5.</td><td>@UUID[Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt]{Promień nadziei}, @UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{Ożywienie}</td></tr><tr><td>7.</td><td>@UUID[Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb]{Osłona przed śmiercią}, @UUID[Compendium.dnd5e.spells.Item.TgHsuhNasPbhu8MO]{Strażnik wiary}</td></tr><tr><td>9.</td><td>@UUID[Compendium.dnd5e.spells.Item.Pyzmm8R7rVsNAPsd]{Masowe leczenie ran}, @UUID[Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz]{Wskrzeszenie}</td></tr></tbody></table>",
+            "advancement": {
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                },
+                "4": {
+                    "title": "Zdolności"
+                },
+                "5": {
+                    "title": "Zdolności"
+                },
+                "6": {
+                    "title": "Obrażenia od Boskiego uderzenia"
+                }
+            }
+        },
+        "IvlpKMXX3PmW1NY2": {
+            "name": "Droga otwartej dłoni",
+            "description": "<p>Mnisi podążający Drogą Otwartej Dłoni to niedoścignieni mistrzowie sztuk walki - czy to z użyciem broni, czy bez niej. Opanowują techniki popychania i obalania swych przeciwników, leczenia swych ran dzięki manipulacji ki oraz obrony wspomaganej zaawansowanymi praktykami medytacyjnymi.</p>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                }
+            }
+        },
+        "MNvsEc4D2ccX7dQT": {
+            "name": "Kolegium mądrości",
+            "description": "<p>Bardowie z Kolegium Mądrości mają informacje na prawie każdy temat, a w poszukiwaniu wiedzy nie gardzą żadnym źródłem, od ksiąg uczonych po wioskowe gawędy. Potrafią oczarować publiczność zarówno ludową balladą śpiewaną w tawernie, jak i wyrafinowaną kompozycją wykonywaną na królewskim dworze. Kiedy już umilknie burza oklasków, widzowie mogą zacząć kwestionować sprawy dla siebie oczywiste - od zaufania do lokalnego kleru po wierność królowi.</p><p>Dla bardów pogoń za pięknem i prawdą jest ważniejsza niż służba władcom czy przestrzeganie zasad wiary. Szlachcic mający barda za doradcę lub herolda musi liczyć się z tym, że bard częściej będzie szczery, niż taktowny czy dyplomatyczny.</p><p>Spotkania członków kolegium chcących wymienić wiedzę organizuje się w bibliotekach, a niejednokrotnie właśnie w kolegiach wyposażonych w sale lekcyjne i dormitoria. Bywa, że spotykają się oni również na festiwalach lub podczas wydarzeń rangi państwowej, gdzie mogą obnażać korupcję i łgarstwa oraz kpić z zadufanych w sobie rządzących.</p>",
+            "advancement": {
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                },
+                "4": {
+                    "hint": "Poznajesz dwa wybrane przez siebie czary z dowolnej klasy. Wybrane czary muszą być sztuczkami lub pochodzić z kręgu, który możesz rzucić, zgodnie z informacjami w tabeli rozwoju barda."
+                }
+            }
+        },
+        "WPFVBg589uI8iOMH": {
+            "name": "Czart",
+            "description": "<p>Dobiłeś targu z czartem z niższych sfer egzystencji, istotą, której motywacje i cele są złe, nawet jeśli próbujesz się im przeciwstawiać. Stworzenia jej podobne dążą ku zepsuciu i zniszczeniu wszystkiego, a w końcu także i ciebie. Czartami wystarczająco potężnymi, by zawrzeć z nimi pakt, są: demoniczni władcy (tacy jak Demogorgon, Orcus, Fraz'Urb-luu i Baphomet), arcydiabły (na przykład Asmodeusz, Dispater, Mefistofeles i Belial), najpotężniejsze spośród piekielnych czartów i balorów oraz ultrolothy i inni wladcy yugolothów.</p><h4>Rozszerzona lista czarów</h4><p>Gdy poznajesz nowy czar czarownika, Czart pozwala ci wybrać z rozszerzonej listy zaklęć. Dodaj następujące czary do swojej listy czarów czarownika.</p><table><caption>Rozszerzona lista czarów</caption><thead><tr><td>Krąg czaru</td><td>Czary</td></tr></thead><tbody><tr><td>1.</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Płonące dłonie}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Rozkaz}</td></tr><tr><td>2.</td><td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Głuchota/ślepota}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{wypalający płomień}</td></tr><tr><td>3.</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Kula ognia}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Śmierdząca chmura}</td></tr><tr><td>4.</td><td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Tarcza ognia}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Ściana ognia}</td></tr><tr><td>5.</td><td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Słup ognia}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Konsekracja}</td></tr></tbody></table>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                }
+            }
+        },
+        "Ye5f3FReEnuXfi0y": {
+            "name": "Szkoła wywoływania",
+            "description": "<p>Koncentrujesz swoje badania na magii wywołującej potężne efekty związane z działaniem żywiołów, takie jak siarczysty mróz, palący żar, trzaskające pioruny czy piekący kwas. Niektórzy adepci wywoływania znajdują zatrudnienie w siłach zbrojnych, gdzie służą jako wsparcie, zmiatając wrogie oddziały z dużej odległości. Inni używają swoich widowiskowych mocy w celu ochrony słabszych, a bywają i tacy, którzy starają się ugrać coś dla siebie jako bandyci, awanturnicy i umacniający swą władzę tyrani.</p>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                }
+            }
+        },
+        "k8iuefRorWOjb9gR": {
+            "name": "Złodziej",
+            "description": "<p>Twoją specjalnością są kradzieże. Za tym archetypem podążają głownie włamywacze, bandyci, kieszonkowcy i podobni przestępcy, ale również profesjonaliści w dziedzinie poszukiwania skarbów, odkrywcy, badacze podziemi i śledczy. Prócz rozwijania zręczności i ukrywania się, poznajesz umiejętności przydatne podczas eksploracji starożytnych ruin, odczytywania obcych języków i używania magicznych urządzeń, z których normalnie nie mógłbyś korzystać.</p>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                }
+            }
+        },
+        "sZ86mbX8D5PfYuhl": {
+            "name": "Przysięga gorliwości",
+            "description": "<p>Przysięga Gorliwości wiąże paladyna z najbardziej szczytnymi ideałami: sprawiedliwością, cnotą i ładem. Składający ją paladyni, czasami nazywani kawalerami, białymi rycerzami lub świętymi wojownikami, wpasowują się w obraz doskonałego rycerza w lśniącej zbroi, zawsze honorowego, podążającego za ideałami sprawiedliwości i wyższego dobra. Narzucają sobie bardzo wysokie standardy zachowania i czasem - na szczęście lub niestety - wymagają tego również od reszty świata. Wielu składających tę przysięgę służy bóstwom ładu i dobra, kierując się ich doktrynami. Ich ideałami są anioły, doskonali słudzy boży, dlatego często używają symboliki ich skrzydeł w heraldyce lub zdobieniach hełmów.</p><h4>Doktryna Gorliwości</h4><p>Choć Przysięga Gorliwości przyjmuje różne formy, składający ją paladyni zawsze wierni są następującym zasadom.</p><p><strong>Uczciwość.</strong> Nie kłam i nie oszukuj. Niech twoje słowo jest wiążące jak obietnica.</p><p><strong>Odwaga.</strong> Nigdy nie bój się działać, ale postępuj rozważnie.</p><p><strong>Współczucie.</strong> Pomagaj potrzebującym, chroń słabszych i karz tych, którzy im grożą. Okazuj łaskę wrogom, ale miarkuj ją mądrze.</p><p><strong>Honor.</strong> Traktuj innych dobrze i dawaj im przykład swoim honorowym zachowaniem. Czyń jak najwięcej dobra, wyrządzając jak najmniejszą krzywdę.</p><p><strong>Obowiązek.</strong> Bierz odpowiedzialność za swoje czyny i ich skutki, chroń tych, których powierzono twojej opiece, i bądź posłuszny prawowitej władzy.</p><h4>Zaklęcia przysięgi</h4><p>Zyskujesz czary zgodnie z tabelą Zaklęcia Przysięgi Gorliwości.</p><table><caption>Zaklęcia Przysięgi Gorliwości</caption><thead><tr><td>Poziom paladyna</td><td>Czary</td></tr></thead><tbody><tr><td>3.</td><td>@UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Ochrona przed dobrem i złem}, @UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{Sanktuarium}</td></tr><tr><td>5.</td><td>@UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Mniejsze przywrócenie}, @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Strefa prawdy}</td></tr><tr><td>9.</td><td>@UUID[Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt]{Promień nadziei}, @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Rozproszenie magii}</td></tr><tr><td>13.</td><td>@UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Swoboda ruchu}, @UUID[Compendium.dnd5e.spells.Item.TgHsuhNasPbhu8MO]{Strażnik wiary}</td></tr><tr><td>17.</td><td>@UUID[Compendium.dnd5e.spells.Item.d54VDyFulD9xxY7J]{Kontakt z bóstwem}, @UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Słup ognia}</td></tr></tbody></table>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                }
+            }
+        },
+        "sprHbe7cRg9osTzf": {
+            "name": "Czempion",
+            "description": "<p>Czempion skupia się na rozwoju sprawności fizycznej i ćwiczy ją aż do uzyskania zabójczej doskonałości. Ci, którzy przyjmują ten archetyp, łączą rygorystyczny trening ze specjalizacją w zadawaniu druzgocących ciosów.</p>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                },
+                "4": {
+                    "title": "Zdolności"
+                },
+                "5": {
+                    "hint": "Wybierz drugi Styl walki spośród następujących."
+                }
+            }
+        },
+        "uGuDQX9Mz3oHNHkU": {
+            "name": "Ścieżka berserkera",
+            "description": "<p>Dla niektórych barbarzyńców szal stanowi sposób na osiągnięcie celu - a celem tym jest przemoc. Ścieżka berserkera to zbroczona krwią droga nieokiełznanej furii. Kiedy wpadasz w szał berserkera, kąpiesz się w ogniu walki, nie zważając na własne bezpieczeństwo i zdrowie.</p>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                }
+            }
+        },
+        "uqd2q6WjVfcsaaGb": {
+            "name": "Myśliwy",
+            "description": "<p>Podążanie ścieżkami myśliwego umiejscawia cię pomiędzy cywilizacją i okropieństwami czającymi się w dziczy. Jako myśliwy będziesz poznawać wyspecjalizowane techniki zwalczania napotykanych zagrożeń, od szalejących ogrów i orczych hord, po górujące nad tobą giganty i przerażające smoki.</p>",
+            "advancement": {
+                "0": {
+                    "title": "Zdolności"
+                },
+                "1": {
+                    "title": "Zdolności"
+                },
+                "2": {
+                    "title": "Zdolności"
+                },
+                "3": {
+                    "title": "Zdolności"
+                },
+                "4": {
+                    "title": "Zdobycz myśliwego"
+                },
+                "5": {
+                    "title": "Taktyka obronna"
+                },
+                "6": {
+                    "title": "Atak wielokrotny"
+                },
+                "7": {
+                    "title": "Obrona nadzwyczajnego myśliwego"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "advancement": {
+            "converter": "translateAdvancement",
+            "path": "system.advancement"
+        }
+    }
+}

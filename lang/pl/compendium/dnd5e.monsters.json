@@ -1,0 +1,1301 @@
+{
+	"label": "Potwory (SRD)",
+	"entries": {
+		"Aboleth": {
+			"name": "Aboleth",
+			"description": "<p>Abolethy gnieżdżą się w podziemnych jeziorach lub skalistych głębiach oceanu, często w otoczeniu ruin swoich pradawnych miast. Abolethy większość czasu spędzają pod wodą, wynurzając się okazjonalnie tylko po to, aby zająć się przybyszami lub obłąkanymi wyznawcami.</p>\n<p><em>Grafika tokenów autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Acolyte": {
+			"name": "Akolita",
+			"description": "<blockquote>\n<p>Filary Solarium, oplecione fantastycznym złotym filigranem, z kadzidłem wirującym w atrium, błyszczały, skąpane w cieple światła Pana Słońca.  Z pojedynczego otworu wykutego w kopulastym suficie świątyni, światło słoneczne wlewało się do środka niczym rwący wodospad, który miał nas wszystkich utopić w jasnej koronie. Oddaliłem się od mojego mentora, kapłana w średnim wieku, o łagodnym głosie i kręgu siwych włosów na łysiejącej głowie, by podejść do posągu ustawionego w zacienionej niszy.  Przedstawiał on naszego boga w jego humanoidalnej postaci, starca stojącego na baczność, z włosami zwisającymi tak długo, jak długa jest jego broda, z laską zwieńczoną surowym słońcem w dłoni.  Uklęknąłem, wciąż mając zaledwie czternaście lat, przed tym posągiem i zacząłem się modlić.  Wiedziałem, że następne sześć lat mojego szkolenia na akolitę będzie niczym innym jak błogosławieństwem. <br /><em>“Lśniąca gwiazda”, biskupa Bernarda Portisa.</em></p>\n</blockquote>\n<p>Akolici to oddani wyznawcy konkretnej bogini lub boga, którzy zdecydowali się przyjąć płaszcz kleru, by lepiej służyć wybranemu przez siebie bóstwu.  Często nie starsi niż nastolatki (choć niektórzy akolici zaczynają później), akolici są szkoleni przez kilka lat (zazwyczaj od trzech do dziesięciu) w zależności od rygorów doktryn ich bóstwa.  W tym czasie zapamiętują i studiują wszystkie pisemne materiały dotyczące ich bóstwa i jego nauk, uczą się magii (zarówno leczniczych jak i szkodliwych) podarowanych akolitom przez ich bóstwa i często wychodzą do swojej społeczności, aby nieść pomoc potrzebującym lub głosić słowa swojej bogini lub boga.  Choć nie każdy akolita wspina się w szeregi pełnoprawnego kapłaństwa, wielu z nich pozostaje bardzo oddanych kościołowi i pozostaje w służbie jako akolici przez całe życie, ściśle współpracując ze świecką społecznością poza murami świątyni.</p>\n<p>Przypomnijmy, że akolici są szkoleni w arkanach wybranych przez siebie bóstw.  W związku z tym, akolici rzadko otrzymują wystarczający trening walki w porównaniu z paladynami (chyba, że nauki ich bóstwa wyraźnie nakazują inaczej).  W związku z tym, akolita jest w stanie wyzwolić podstawową magię boską, aby bronić siebie i sojuszników lub wezwać na pomoc swoje bóstwo patronalne.  Zazwyczaj uwalniana w błyszczącym deszczu złotych iskier i oślepiająco żywych świateł, magia bogów jest naprawdę czymś wyjątkowym, nawet przy tak podstawowej naturze.  Zaklęcia takie jak Leczenie Ran, Święty Płomień czy Sanktuarium są praktykowane przez akolitów już na początku ich boskich studiów.  Akolici mogą być przydatnymi sojusznikami, jeśli będziesz potrzebował boskiej ochrony lub medyka polowego dla rannego rodaka.  Pamiętaj jednak, aby dobrze pilnować swojego akolity, ponieważ jego praca może zostać łatwo przerwana, jeśli zostanie zmuszony do walki wręcz z bandą żarłocznych gnolli..</p>\n<ul>\n<li><em>Obraz Tokenu został stworzony przez Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu dzięki Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Adult Black Dragon": {
+			"name": "Dorosły czarny smok",
+			"description": ""
+		},
+		"Adult Blue Dragon": {
+			"name": "Dorosły niebieski smok",
+			"description": ""
+		},
+		"Adult Brass Dragon": {
+			"name": "Dorosły mosiężny smok",
+			"description": ""
+		},
+		"Adult Bronze Dragon": {
+			"name": "Dorosły spiżowy smok",
+			"description": ""
+		},
+		"Adult Copper Dragon": {
+			"name": "Dorosły miedziany smok",
+			"description": ""
+		},
+		"Adult Gold Dragon": {
+			"name": "Dorosły złoty smok",
+			"description": ""
+		},
+		"Adult Green Dragon": {
+			"name": "Dorosły zielony smok",
+			"description": ""
+		},
+		"Adult Red Dragon": {
+			"name": "Dorosły czerwony smok",
+			"description": ""
+		},
+		"Adult Silver Dragon": {
+			"name": "Dorosły srebrny smok",
+			"description": ""
+		},
+		"Adult White Dragon": {
+			"name": "Dorosły biały smok",
+			"description": ""
+		},
+		"Air Elemental": {
+			"name": "Żywiołak powietrza",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Ancient Black Dragon": {
+			"name": "Starożytny czarny smok",
+			"description": ""
+		},
+		"Ancient Blue Dragon": {
+			"name": "Starożytny niebieski smok",
+			"description": ""
+		},
+		"Ancient Brass Dragon": {
+			"name": "Starożytny mosiężny smok",
+			"description": ""
+		},
+		"Ancient Bronze Dragon": {
+			"name": "Starożytny spiżowy smok",
+			"description": ""
+		},
+		"Ancient Copper Dragon": {
+			"name": "Starożytny miedziany smok",
+			"description": ""
+		},
+		"Ancient Gold Dragon": {
+			"name": "Starożytny złoty smok",
+			"description": ""
+		},
+		"Ancient Green Dragon": {
+			"name": "Starożytny zielony smok",
+			"description": ""
+		},
+		"Ancient Red Dragon": {
+			"name": "Starożytny czerwony smok",
+			"description": ""
+		},
+		"Ancient Silver Dragon": {
+			"name": "Starożytny srebrny smok",
+			"description": ""
+		},
+		"Ancient White Dragon": {
+			"name": "Starożytny biały smok",
+			"description": ""
+		},
+		"Androsphinx": {
+			"name": "Androsfinks",
+			"description": ""
+		},
+		"Animated Armor": {
+			"name": "Ożywiony pancerz",
+			"description": "<p><em>Obraz Tokena dzięki Forgotten Adventures.</em></p>"
+		},
+		"Ankheg": {
+			"name": "Ankheg",
+			"description": "<p><em>Obraz Tokena dzięki Forgotten Adventures.</em></p>"
+		},
+		"Ape": {
+			"name": "Małpa",
+			"description": "<p><em>Obraz Tokena dzięki Forgotten Adventures.</em></p>"
+		},
+		"Archmage": {
+			"name": "Arcymag",
+			"description": "<p><strong>Arcymagowie</strong> to potężni (i zazwyczaj dość starzy) użytkownicy magii poświęcający się studiowaniu sztuk magicznych. Dobrzy bywają doradcami królów, zaś źli rządzą jako tyrani i dążą do zostania liszami. Ci, którzy nie są ani dobrzy, ani źli, zamykają się w odległych wieżach, aby bez przeszkód praktykować swoją magię.</p>\n<p>Arcymag ma zazwyczaj jednego lub więcej ucznów, a jego domostwo posiada liczne magiczne zabezpieczenia i strażników, aby zniechęcić intruzów.</p><section class=\"secret\">\n<p>Zaklęcia <strong>Zbroja maga</strong>, <strong>Kamienna skóra</strong>i<strong>Czysty umysł </strong>Arcymag rzuca na siebie przed walką.</p>\n</section><p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Assassin": {
+			"name": "Skrytobójca",
+			"description": "<p>Wyszkolony w używaniu trucizn, <strong>skrytobójcy</strong>są bezlitosnymi zabójcami, którzy pracują dla szlachty, mistrzów gildii, władców i każdego innego, kto może sobie na nich pozwolić.</p><p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Avatar of Death": {
+			"name": "Uosobienie śmierci",
+			"description": ""
+		},
+		"Awakened Shrub": {
+			"name": "Przebudzony krzew",
+			"description": "<p>Rytmiczny szelest liści, splątane korzenie ciągnące się przez runo leśne i puste dziury w ziemi są oznakami tego fascynującego małego stworzenia. Te niegdyś przeciętne leśne rośliny zostały obdarzone łagodną zdolnością odczuwania dzięki naturalnym czarom najpotężniejszego druida, który rzucił zaklęcie Przebudzenia, aby narodzić Przebudzony Krzew.</p>\n<p>Sam krzew, nie posiadając własnej woli, pozostaje @UUID[Compendium.dnd5e.rules.w7eitkpD7QQTB6j0.JournalEntryPage.zZaEBrKkr66OWJvD]{Zauroczony} w zaklinaczu przez trzydzieści dni, podczas których Przebudzony Krzew służy wedle kaprysu druida. Ten liściasty automata jest również zdolny do samodzielnego poruszania się dzięki rzuconym na niego zaklęciom. Używając swoich korzeni i gałęzi do poruszania się po dnie lasu, krzewy są zmuszone do niezdarnego poruszania się po wybranej przez druida domenie.</p>\n<p><strong>Mały pomocnik druida. </strong>Chociaż każdy mag wystarczająco biegły w magii, by rzucić zaklęcie Przebudzenia, może przywrócić te krzewy do życia, to właśnie druidzi z lasów najczęściej korzystają z tej umiejętności. Unikalną cechą Przebudzonego Krzewu jest to, że nie można go odróżnić od zwykłego krzewu, gdy stoi zupełnie nieruchomo. Zdolność do tak dokładnego kamuflażu pozwala Przebudzonym Krzewom działać jako czujniki w kryjówkach bardziej skrytych druidów..</p>\n<p>Jak polecił mi przyjaciel lasu: radzę wykorzystywać te krzewy w małych grupach, aby po prostu przytłoczyć każdego wścibskiego intruza. Siła w liczbie jest kluczowa dla tych prostych krzewów, ponieważ mogą one zostać łatwo pokonane, jeśli zostaną odizolowane. Ponieważ magia zawarta w krzewach pozwala im mówić w języku znanym ich twórcy, Przebudzone krzewy mogą również zostać zaprogramowane do ostrzegania i unikania konfliktów. Krzewy są jednak dość nieudolne, jeśli chodzi o wykonywanie nawet najprostszych zadań, więc używanie ich w roli \"żywego alarmu\" może być najrozsądniejszym wyborem.</p>\n<ul>\n<li><em>Obraz Tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Awakened Tree": {
+			"name": "Przebudzone drzewo",
+			"description": "<p>Przebudzone drzewo, to zwykłe drzewo które uzyskało zdolność odczuwania i poruszania się, dzięki magii przebudzenia lub podobnej.</p>\n<p></p>"
+		},
+		"Axe Beak": {
+			"name": "Toporodziób",
+			"description": "<p>Duży i bardzo agresywny ptak Toporodziób cieszy się zasłużoną reputacją zwierzęcia, z którym nie należy igrać.  Pochodzący z trawiastych równin i gęstych, gorących dżungli, Toporodziób przypomina zarówno wielkością, jak i wyglądem bezlotne emu.  Toporodziób ma zaokrąglone, pulchne ciało spoczywające na dwóch potężnych nogach przystosowanych do biegania i kopania z dużą prędkością.  Z ciała wyrasta długa i zgrabna szyja zakończona nieopierzoną głową zakończoną ostrym, klinowatym dziobem.  Dziób ten (przypominający siekierę) jest tym, co nadaje stworzeniu jego przerażającą nazwę.</p>\n<p><strong>Pozwól, że rąbnę ci pytanie.</strong> Toporodzioby są przedmiotem badań od dłuższego czasu, ponieważ ich bezlotne ślady są śledzone przez biologów od tysięcy lat.  Ten pradawny i stosunkowo niezmieniony gatunek toporodzioba jest najbardziej godny uwagi (poza dziobem) ze względu na swój temperament.  Toporodzioby są zwierzętami niezwykle terytorialnymi i znane są z tego, że gonią intruzów na swoim terytorium przez wiele kilometrów, zanim w końcu się wycofają.  Co szokujące, niektóre Toporodzioby zostały udomowione dzięki rygorystycznej i konsekwentnej interakcji z humanoidami.  Te bestie mogą służyć jako zwierzęta wierzchowe i są wystarczająco silne, by utrzymać w pełni dorosłego orkowego wojownika.  Podczas bitwy, jeśli ktoś niefortunnie znajdzie się w zasięgu ptaka, Toporodziób wychyli swoją potężną szyję w ostrym łuku, by spuścić swój zaostrzony dziób na nieszczęsnego przeciwnika.  Jeśli dziób (który potrafi przecinać kończyny i przebijać zbroje płytowe) nie wystarczy, Toporodziób może się odwrócić i zadać niszczycielskie kopnięcie jedną ze swych potężnych, szponiastych stóp.</p>\n<ul>\n<li><em>Obraz Tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Azer": {
+			"name": "Azer",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Baboon": {
+			"name": "Pawian",
+			"description": "<p>Pawiany zamieszkują trawiaste równiny i słabo porośnięte lasy, poruszając się zawsze w małych stadach zwanych oddziałami. Pawiany, które są głównie ssakami lądowymi, używają swoich potężnych górnych partii ciała, aby wskoczyć na drzewo z zawrotną prędkością. Nie daj się zwieść rozmiarom tego stworzenia; pojedynczy pawian leśny może okazać się bardziej okrutny niż cała sfora wygłodniałych wilków. Na pierwszy rzut oka pawian może wydawać się łatwym celem dla nieostrożnych poszukiwaczy przygód, jako że mierzy zaledwie 0.9 do 1,3 metra i waży do osiemnastu kilogramów, według najnowszych danych. Nie są większe od zdrowego ludzkiego dziecka. Jest to jednak tylko złudzenie, gdyż te leśne małpy mogą z łatwością obezwładnić grupę nieprzygotowanych podróżników. W ich przypominających psie pyskach kryją się zabójczo ostre kły, a za ich oczami kryje się szokująco inteligentny umysł.</p>\n<p><strong>Zębaty oddział.</strong> Pawiany są najsilniejsze, gdy są w otoczeniu swojego oddziału, w którym stosują uproszczoną taktykę stadną, aby załatwić swoich wrogów. Zaobserwowano, jak małpy skradają się przez wysokie trawy, aby zastawić zasadzkę na niczego nie podejrzewającą ofiarę lub łączą się w grupy, aby odizolować i bezlitośnie okaleczyć konkretne cele przed przejściem do następnego. Oddziały są zarządzane przez jednego alfa, który działa jako główny opiekun swoich pobratymców. Pod przewodnictwem alfy oddziały współpracują ze sobą, dzieląc się jedzeniem i zasobami, a także angażując się we wspólne sesje pielęgnacyjne w celu wzmocnienia więzi. Młode pawianów wychowują się w małych grupach rodzinnych, uczone są przez kilku dorosłych jednocześnie. To naprawdę fascynująca społeczność, unikalna w naszym królestwie zwierząt. Pawiany powinny być traktowane z dużym dystansem, a podróżnicy powinni ostrożnie podchodzić do niespodziewanego spotkania z lokalnym oddziałem, jeśli ich drogi się przetną..</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Badger": {
+			"name": "Borsuk",
+			"description": "<blockquote>\n<p>Pewnego wiosennego poranka, przechadzając się po lesie, zostałem powalony na ziemię przez najbardziej niezwykłą dziurę w leśnym podłożu. Myśląc, że jestem dość sprytnym detektywem w znajdowaniu sekretnych skarbów jakiegoś nieuczciwego bandyty, szybko sięgnąłem ręką w głąb tunelu, gdzie przywitało mnie coś dziwacznie rozmytego i sprawiającego dotkliwy ból! Niech mój incydent (i brakujący palec) z leśnym borsukiem będzie przestrogą dla tych, którym brakuje mądrości; nie sięgajcie tam, gdzie wasza ręka nie powinna sięgać!</p>\n</blockquote>\n<p>- Kupiec Lord Ellemond Doughty.</p>\n<p>Mieszkający w lesie borsuk jest stworzeniem pełnym pomysłowości i determinacji. Stworzenie to, przypominające najbardziej krępą i potężną łasicę, buszuje po leśnym podłożu, łapiąc owady i małe ssaki, a jednocześnie wytrwale pracuje nad stworzeniem sobie kryjówki lub, jak to się częściej mówi, nory. Sierść borsuka pokryta jest wspaniałymi czarno-białymi pasami biegnącymi przez całą długość ciała. Dzięki łagodnym oczom i spokojnemu usposobieniu borsuk sprawia wrażenie raczej płochliwego zwierzęcia; Jednak ten zewnętrzny wygląd należy traktować z ostrożnością. Uzbrojone w grube, wydłużone pazury, stworzone do przebijania się przez najtwardszą glebę i potężne szczęki, borsuki są zdolne do szybkiej obrony, jeśli jakaś niemądra dusza będzie je nękać. Jeśli tylko nie będziesz ich niepokoił, nie będą miały powodu, aby cię skrzywdzić.</p>\n<p><strong>Cudowne szczęki.</strong> Najbardziej intrygującą cechą borsuka jest zestaw osobliwych kości szczękowych, które zapewniają mu spektakularną metodę obrony. Szczęki zwierzęcia są osadzone w długich wgłębieniach w czaszce, co pozwala borsukowi zablokować szczęki na miejscu, zwiększając tym samym jego i tak już potężną siłę zgryzu i zapobiegając możliwości zwichnięcia żuchwy. Prawdziwie niezwykłą ewolucyjną zaletą unikania walki (zamiast konfrontacji z przeciwnikiem) jest naturalny zapach borsuka. Stworzenia te potrafią wydzielać potężne piżmo z gruczołów zapachowych zlokalizowanych w pobliżu ich grzbietów, które może z łatwością odstraszyć drapieżniki. To właśnie z tych powodów wiele kultur zamieszkujących lasy czci borsuka jako strażnika lasu i stara się wykorzystać jego unikalne zdolności w walce o przetrwanie w dziczy naszego świata.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Balor": {
+			"name": "Balor",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Bandit": {
+			"name": "Bandyta",
+			"description": "<p>Bandyci w naszym skromnym świecie przybierają najróżniejsze kształty i rozmiary; czy toniziołek kieszonkowiec, czy śniady kapitan Drakon plądrujący nieszczęsne statki. Poniżej przedstawimy cechy wspólne tego, co można uznać za klasę przestępczą \"bandytów\". Pamiętaj, że nie wszyscy bandyci powinni być postrzegani z pogardą. Podczas gdy wielu z nich szuka krzywdy lub bogactwa, inni kradną, by przetrwać w niesprawiedliwym świecie.</p>\n<p><strong>Dobro.</strong> Zaczynamy od tych bandytów, których można uznać za \"szlachetnych przestępców\". Ci bandyci składają się z najbardziej poszkodowanych członków naszego narodu, tych obywateli, którzy zmagają się z biedą i uciskiem, aby zapewnić sobie marną egzystencję, kurczowo trzymając się każdej wygody, której mogą się chwycić. Zastanów się, co mogłoby skłonić człowieka do popełnienia czegoś tak desperackiego, jak napad lub kradzież na wiejskiej ulicy. Bandyci szlachetniejszego sortu mogą nadal być samolubni, zabierając to, co ukradli, aby wzbogacić swoje własne życie lub życie najbliższych krewnych. Istnieją jednak bandyci, którzy starają się wykorzystać zrabowane dobra do poprawy życia biedniejszej społeczności. Bądź świadomy, że często ci bandyci są zdesperowani i strachliwi, zwłaszcza podczas napadu. Są przerażeni, do zbrodni popychają ich złe okoliczności, więc mogą nie potrzebować groźby, aby się oddalić, ponieważ najczęściej nie wyrządzają fizycznej krzywdy swoim ofiarom. Zachowaj otwarty umysł podczas podróży przez świat, młody poszukiwaczu przygód i pamiętaj, że gdyby odwróciły się role, sam mógłbyś prosić o litość za tak drobne przewinienie.</p>\n<p><strong>Zły i brzydki.</strong> Na każdą duszę o dobrym sercu, która kradnie tym, którzy mają za dużo i rozdaje nieszczęśliwym, przypada prawdziwie nikczemna dusza, która czai się za zaroślami pobliskiej drogi, czyhając na niczego nie podejrzewającą ofiarę. Podczas swoich wędrówek, poszukiwaczu przygód, takie właśnie przypadki bandytyzmu mogą być najczęstszymi, z jakimi będziesz miał do czynienia. Uzbrojeni w miecze, pałki i łuki, bardziej nikczemni bandyci wolą zasadzać się na swoje ofiary w cieniu wzgórz i drzew, atakując podróżników bez uprzedzenia. Ci zdradzieccy złodzieje będą próbować dywersji i podstępów, aby zaskoczyć ofiarę, o ile ich grupa będzie miała przewagę liczebną. Bandyci nie znają barier ani granic, więc należy zachować ostrożność, niezależnie od tego, czy idziesz leśną drogą, czy żeglujesz po pełnym morzu w poszukiwaniu sławy. Niebezpieczeństwo czai się w każdym zakątku naszego świata, bądź przygotowany i rozważny, jeśli natkniesz się na bandytów, aby Twoja kariera nie zakończyła się zanim powstanie Twoja legenda.</p>\n<ul>\n<li><em>Obraz tokenu autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Bandit Captain": {
+			"name": "Kapitan bandytów",
+			"description": "<p>Potrzeba silnej osobowości, bezwzględnego sprytu i błyskotliwego języka, by utrzymać bandę bandytów w ryzach. Kapitan bandytów dysponuje tymi cechami.</p>\n<p>Oprócz zarządzania załogą samolubnych malkontentów, kapitan piratów jest odmianą kapitana bandytów, z okrętem do ochrony i dowodzenia. Aby utrzymać załogę w ryzach, kapitan musi regularnie przyznawać nagrody i wymierzać kary.</p>\n<p>Bardziej niż skarbu, kapitan bandytów lub piratów pragnie złej sławy. Więzień, który odwołuje się do próżności lub ego kapitana, ma większe szanse na sprawiedliwe potraktowanie niż ten, który nie wie lub twierdzi, że nie wie nic o barwnej reputacji kapitana.</p>\n<p></p><p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Barbed Devil": {
+			"name": "Haczykowaty diabeł",
+			"description": ""
+		},
+		"Basilisk": {
+			"name": "Bazyliszek",
+			"description": ""
+		},
+		"Bat": {
+			"name": "Nietoperz",
+			"description": "<p>Nietoperze są częstym mieszkańcem odosobnionych lasów i pozbawionych światła jaskiń naszego świata. Nietoperze są nocnymi stworzeniami cenionymi przez magów za ich zdolność do poruszania się po terenie w niemal całkowitych ciemnościach. Już samo to czyni je cennym wyborem na chowańca. Różnej wielkości, od rozmiaru myszy po kota domowego, nietoperze posiadają unikalną cechę wśród ssaków: dar latania! Pomiędzy cienkimi jak igły kostnymi \"dłońmi\" rozpięte są mięsiste błony, które szeroko rozciągają się od delikatnego ciała nietoperza, pozwalając mu wzbić się w przestworza w poszukiwaniu owadów i owoców leśnych, którymi może się rozkoszować.</p>\n<p><strong>Gadka-szmatka.</strong> Nietoperze, przez wielu uważane za niewidome na podstawie bzdurnych bajek opowiadanych dzieciom, mają wzrok zbliżony do naszego, choć zdecydowanie mniej ostry. To, co czyni te stworzenia naprawdę wyjątkowymi, to ich zdolność do poruszania się w ciemnościach nocy. Nietoperze wykorzystują serię świergotów i pisków, które naukowcy nazwali \"echolokacją\", aby namierzać obiekty lub ofiary w obrębie swojego toru lotu. Emitowane przez nietoperze dźwięki echolokacji odbijają się od proporcjonalnie masywnych uszu tych maleńkich stworzeń, pozwalając nietoperzom na wprowadzenie w ułamku sekundy poprawek w nawigacji bez pomocy oczu. Ponownie, należy zauważyć, że nietoperze dokonują sprytnego, dobrze znanego wyboru, ponieważ mogą nawigować w miejscach zbyt ciemnych i niebezpiecznych dla naszych zwykłych oczu.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Bearded Devil": {
+			"name": "Brodaty diabeł",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Behir": {
+			"name": "Behir",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Berserker": {
+			"name": "Berserker",
+			"description": "<p>Pochodzący z niecywilizowanych krain, nieprzewidywalni berserkerzy zbierają się w grupy wojenne i szukają konfliktu wszędzie tam, gdzie mogą go znaleźć.</p>\n<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Black Bear": {
+			"name": "Czarny niedźwiedź",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Black Dragon Wyrmling": {
+			"name": "Pisklę czarnego smoka",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Black Pudding": {
+			"name": "Czarny pudding",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Blink Dog": {
+			"name": "Migopies",
+			"description": "<p> </p>\n<blockquote>\n<p>Kąpiel własnego migopsa wiąże się z wieloma wyzwaniami.  Często lepiej jest po prostu pozwolić zwierzęciu zadbać o własną higienę (jeśli pozwalają na to okoliczności), ponieważ Twój cenny piesek prawdopodobnie ucieknie do najbliższej kałuży błota, gdy tylko skończysz go myć.<br /><em>Pielęgnacja migopsa, strona 46.</em></p>\n</blockquote>\n<p>Migopsy są ciekawostką wśród pospolitych gatunków psów.  Zewnętrznie psy te wydają się być podobne do wielu myśliwskich kundli: płowa, żółta karnacja sierści, średniej wielkości (0.75 do 0.9 m. wzrostu), brak oznaczeń czy cech, które czyniłyby je szczególnie wyjątkowymi.  Tajemnica tego psa tkwi jednak w jego wnętrzu.  Migopies posiada niezwykłą zdolność do \"mrugania\" lub teleportacji z miejsca na miejsce w mgnieniu oka.  W podobny sposób jak magowie potrafią błyskawicznie przenosić się na duże odległości, migopies przedziera się przez naszą rzeczywistość, błyskawicznie znika i pojawia się w odległości do 12 metrów od swojego pierwotnego miejsca pobytu.  Migopies nie jest w stanie zabrać ze sobą żywych istot, jednak każdy sprzęt lub przedmioty, które pies aktualnie trzyma, zostaną przetransportowane.  Migopsy mają ponadprzeciętną inteligencję w porównaniu do innych psów i są w stanie rozmawiać w swoim własnym języku, zwanym \"Mrugowym\", z innymi przedstawicielami swojego gatunku.  Nie wiadomo, na czym polegają te rozmowy, ale przypuszcza się, że często sforom psów zdarza się rozmawiać o ich silnej nienawiści do innych eterycznych czworonogów, ponieważ są one znane z tego, że atakują te bestie na sam ich widok.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Blood Hawk": {
+			"name": "Krwisty jastrząb",
+			"description": "<p>Krwawy Jastrząb jest odmianą pospolitego gatunku jastrzębia (opisanego wcześniej w tym tomie), który wziął swoją nazwę od krwistoczerwonego koloru upierzenia oraz agresywnej natury ptaka w stosunku do każdej żywej istoty. Krwawe jastrzębie to przerażające małe drapieżniki, które zlatują z nieba niczym karmazynowy bełt, by nękać swoje ofiary bezwzględnymi szponami i wyostrzonym, ostrym jak sztylet dziobem.</p>\n<p><strong>Nieustraszeni Lotnicy.</strong> Krwawy jastrząb, choć niemal nierozpoznawalny w grupie innych gatunków jastrzębi, odrzuca samotniczy tryb życia swoich pierzastych pobratymców. Pozornie pozbawione agresji wobec innych przedstawicieli swojego gatunku, krwawe jastrzębie łączą się w duże stada, które polują z niezwykłą precyzją i zgraniem. Ostre jak brzytwa szpony z łatwością przecinają tkaninę i ciało, pozostawiając głębokie, łzawiące rany u swoich ofiar. Krwawe Jastrzębie muszą tylko czekać i obserwować swoimi przenikliwymi oczami, jak po pierwszym ataku cel powoli wykrwawia się na ziemi, ponieważ ptasie szpony przecięły najważniejsze tętnice. Dla poszukiwacza przygód priorytetem powinno być zawsze sprawdzenie upierzenia ptaka, zanim podejdzie zbyt blisko. Posłuchaj tego wędrowcze, czerwony kolor oznacza, że jesteś martwy!</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Blue Dragon Wyrmling": {
+			"name": "Piskle niebieskiego smoka",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Boar": {
+			"name": "Dzik",
+			"description": "<p>Dziki to wytrzymałe, karłowate bestie, które zamieszkują spowite w mroku lasy naszego świata, węsząc w poszukiwaniu korzeni lub grzybów, którymi można się delektować, albo przewracając liście w poszukiwaniu odpowiedniego rowu, w którym można się zagrzebać.  Dzik, przypominający przerośniętą, udomowioną świnię, nie jest niczym więcej niż jego kuzynem, którego można zjeść na stole.  Stoi na krępych nogach i ma od 60 do 95 centymetrów wysokości, a jego najgroźniejszy atut (masywna głowa) zajmuje czołowe miejsce, zakończone parą śmiertelnie ostrych kłów.  Głowa, która zajmuje ponad jedną trzecią długości całego ciała dzika, zbudowana jest z grubej masy kości i mięśni, co pozwala mu rozbijać się o przedmioty i wrogów, jednocześnie wyrządzając sobie niewielką krzywdę.  Rozpędzając się do prędkości 40 metrów na godzinę, dzik może wykorzystać swoją szarżę do śmiertelnych celów, ponieważ jego twarda czaszka i żłobiące kły sprawią, że większość zwykłych obrońców będzie w krótko wykonywać swoją pracę.  Jeśli jesteś na polowaniu na dziki, należy zauważyć, że są to stworzenia o dużej wytrzymałości, które wydają się być zdolne do walki z samą śmiercią, aby móc pożreć swojego wroga po raz ostatni.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Bone Devil": {
+			"name": "Kościany diabeł",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Brass Dragon Wyrmling": {
+			"name": "Pisklę mosiężnego smoka",
+			"description": ""
+		},
+		"Bronze Dragon Wyrmling": {
+			"name": "Pisklę spiżowego smoka",
+			"description": ""
+		},
+		"Brown Bear": {
+			"name": "Brązowy niedźwiedź",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Bugbear": {
+			"name": "Strachun",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Bulette": {
+			"name": "Bluetta",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Camel": {
+			"name": "Wielbłąd",
+			"description": "<p>Wielbłądy to wyjątkowy gatunek parzystokopytnych, które żyją na pustyniach i w suchym klimacie naszej planety. Znane na całym świecie ze swoich dużych tylnych garbów (w zależności od gatunku mogą mieć od jednego do dwóch garbów), wielbłądy stały się integralną częścią pustynnego życia ze względu na swoją surową, choć upartą naturę, pożywne mięso i mleko oraz użyteczność w transporcie. Wielbłądy są udomowione od tysiącleci. Bardzo poszukiwane ze względu na ich zdolność do przetrwania na najsurowszych pustyniach, najwcześniejsze zapiski o wielbłądach w naszym świecie pokazują je jako domowe zwierzęta juczne (podobnie jak są one wykorzystywane dzisiaj) przewożące ciężkie ładunki przez piaszczyste połacie niegościnnej pustyni. Szlachetny wielbłąd może jednak kryć w sobie więcej tajemnic, niż zdradza jego powierzchnia.</p>\n<p><strong>Uważaj, plują.</strong> Kiedy zapytasz zwykłego człowieka o najbardziej unikalną cechę wielbłąda, z pewnością odpowie ci, że są to mięsiste garby na jego wysokim grzbiecie. Powszechnie uważa się, że garby te kryją w sobie zbiornik słodkiej wody, dzięki któremu wielbłąd może przetrwać na piaszczystych wydmach swojej ojczyzny; tak jednak wcale nie jest. Sekcja dromadera pokazała badaczom, że te garby składają się z tkanki tłuszczowej, która zebrała się w garby, aby nie przegrzać zwierzęcia poprzez rozprowadzenie jej po całym ciele. Wielbłądy, w rzeczywistości, muszą pić tylko raz na dziesięć dni, ponieważ ich izolowany płaszcz utrzymuje je w odpowiedniej temperaturze i wchłaniają wystarczającą ilość pary wodnej poprzez wydychanie przez nozdrza. Wielbłądy mają również skórzaste podszycie jamy ustnej pozwalające roślinożercom na przeżuwanie i połykanie nawet najtwardszych kaktusów, gdyby potrzebowały wody z tego właśnie źródła. Jeśli znajdziesz się na pustyni i będziesz potrzebował wytrzymałego zwierzęcia, poszukiwaczu przygód, dlaczego nie zainwestować swojego złota w wielbłąda? Uważaj tylko, bo one lubią pluć na tych, którym nie ufają!</p>"
+		},
+		"Cat": {
+			"name": "Kot",
+			"description": "<p>Któż z nas może zaprzeczyć, że kot domowy nie wpłynął pozytywnie na jego życie? Koty raz po raz udowadniają, że są cennymi towarzyszami, niezależnie od tego, czy utrzymują swój dobytek wolny od niechcianych szkodników, czy wtulają się w kolana swojego pana i spędzają miło noc w gabinecie. Znalezione w wielu odmianach od czystych czarnych krótkowłosych kotów związanych ze złymi wróżbami do puszystych powlekanych i absurdalnie płaskich kotów z mroźnej północy, wydaje się że istnieją nieograniczone rasy do wyboru. (Uwaga autora: Ostatnio słyszałem plotkę o kocie, który nie produkuje włosów, wymagając od swojego pana po prostu głaskania jego ciała bez przyjemnych barier. Więcej dowodów na to bezzasadne odkrycie już wkrótce). Jednak nasi koci towarzysze mają o wiele więcej do zaoferowania, jeśli spojrzeć na nich bystrym okiem poszukiwacza przygód!</p>\n<p><strong>Mrucznastyczni kumple.</strong> Czy to u boku starszego wytwórcy eliksirów bezpiecznie ukrytego w swoim warsztacie, czy też z młodym strażnikiem przemierzającym dziewicze pola w głębi kraju, koty są rozsiane po całej naszej cudownej krainie. Niewielkie i lekkie, ci zwinni mali łowcy doskonale mieszczą się na ramieniu lub w ładunku wozu. Dzięki wyostrzonym pazurom, które w mgnieniu oka chowają się z powrotem do łap, kot jest zabójczym łowcą mniejszych bestii. Koty mają również elastyczny kręgosłup, który pozwala im wcisnąć się w trudno dostępne miejsca - jeśli je do tego odpowiednio zmusisz, mogą nawet przetrwać niebezpieczny upadek. Naukowcy odkryli, że koty mają niezwykłą zdolność do lądowania na czterech łapach niezależnie od kąta, pod jakim zostały upuszczone; z pewnością jest to zdumiewająca przewaga nad innymi, mniej zwinnymi stworzeniami! Śmiertelnie cichy (chyba, że woli nękać swego pana o smakowite kąski głośnym jazgotem) kot jest odpowiednim zwiadowcą, jeśli ktoś woli obserwować otoczenie z bezpieczniejszej odległości oczami swojego przyjaciela. Czy to wyczarowany, czy cielesny, w opinii autora zwykły kot jest doskonałym towarzyszem i powinien być brany pod uwagę przy poszukiwaniu odpowiedniego zwierzęcego sojusznika.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Centaur": {
+			"name": "Centaur",
+			"description": "<p>Centaury można spotkać głównie na równinach i w lasach, wędrują w stadach i polują w dużych grupach. Konne stworzenia z górnymi częściami ciała mężczyzn lub kobiet rozciągającymi się od szyi, znane są ze swojej siły i są chwalone jako odważni myśliwi.</p>\n<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Chain Devil": {
+			"name": "Łańcuchowy diabeł",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Chimera": {
+			"name": "Chimera",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Chuul": {
+			"name": "Chuul",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Clay Golem": {
+			"name": "Gliniany golem",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Cloaker": {
+			"name": "Płaszczowyj",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Cloud Giant": {
+			"name": "Chmurowy gigant",
+			"description": ""
+		},
+		"Cockatrice": {
+			"name": "Kuroliszek",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Commoner": {
+			"name": "Plebejusz",
+			"description": "<p>Kasta obywateli naszego królestwa, znana jako \" Plebejusze \", jest niczym innym jak etykietą czystego braku szacunku! Pospólstwo występuje we wszystkich rasach, klasach społecznych, zawodach i osobowościach. Czy to chytry Drakon kupiec, hałaśliwy ludzki właściciel tawerny, czy też elficki szklarz o niezwykłych umiejętnościach, pospólstwo to cecha tych, którzy często znajdują się poza szlachtą. Pospólstwo może być inteligentne lub głupie, potężne lub tchórzliwe; z pewnością pospólstwo powinno być podziwiane za swoją wyjątkowość w naszym świecie. Plebejusza można spotkać wszędzie tam, gdzie istnieją humanoidy: w miastach, wsiach, na drogach, w lasach, górach, wszędzie tam, gdzie czuliśmy dotyk humanoidów, możemy spotkać plebejusza.</p>\n<p><strong>Władza dla proletariatu.</strong> Pewnym faktem dotyczącym pospólstwa jest to, że często są oni bardziej przeciętnymi obywatelami naszego świata. Nie przepadają za śmiałymi poszukiwaczami przygód i wolą żyć w poczuciu spokoju poza murami swoich miast. Nie znaczy to jednak, że nawet jeden pospolity mieszkaniec (choć częściej rządzi nim mentalność tłumu) nie może się podnieść i rozpocząć własną, oszałamiającą awanturę. Strzeżcie się, poszukiwacze przygód, bo nawet pozornie prości ludzie potrafią walczyć nieczysto i zaskoczyć doświadczonego wojownika. Jednak większość pospólstwa jest mniej uzdolniona w sztukach walki, więc nie zdziw się, jeśli w obronie własnej sięgną po niecodzienną broń, taką jak: pałki, potłuczone butelki, krzesła, beczki, kamienie i naczynia kuchenne. Czy to w mieście, czy na otwartym szlaku, zawsze mądrze jest utrzymywać pokój z zwykłymi mieszkańcami, ponieważ mogą oni ukrywać zestaw umiejętności lub błyskotliwych informacji, które leżą głęboko pod ich prostym wyglądem..</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Constrictor Snake": {
+			"name": "Wąż dusiciel",
+			"description": "<p>Długa sylwetka, prześlizgująca się przez podszycie dżungli, bezdźwięcznie sunie po ściółce z liści, tropiąc coś niezauważalnego. Bestia jest gruba w swoim rurkowatym ciele, na całej długości obrośniętym pasmami mięśni wystarczająco silnymi, by udusić dorosłego jelenia. Z mocną, maczugowatą głową i wysuwającym się językiem, wąż dusiciel podąża bezszelestnie w kierunku swojej ofiary. Skupiając swój przytępiony wzrok na gryzoniu, wąż smakuje powietrze rozwidlonym językiem i lokalizuje pozycję szczura. Polowanie kończy się w mgnieniu oka: niczym strzała wystrzelona z łuku, wąż zagłębia swoje podobne do igieł kły w ciele szczura, po czym ciasno owija zwój za zwojem swojego ciała wokół klatki piersiowej gryzonia, aby zmiażdżyć i wycisnąć ostatnie tchnienie z ciała maleńkiej bestii. W jednym, brzydkim łyku, szczur znika w wężu. Węże dusiciele zamieszkują przede wszystkim dżungle świata i wykorzystują swoje sprytne maskujące łuski, aby wtopić się w otaczające je liście. W przeciwieństwie do ich bardziej jadowitych kuzynów, węże te nie mają pustych kłów, aby dostarczyć śmiertelną dawkę neurotoksyny; Raczej polegają na brutalnej sile, aby wydusić życie ze swoich ofiar. Podczas gdy większość dusicieli nie stanowi zagrożenia dla przeciętnego humanoida, istnieją gatunki wystarczająco duże, by pożreć dorosłego kucyka. Uważaj na wody i gęste zarośla na dnie dżungli, ponieważ właśnie tam te śmiercionośne bestie lubią się ukrywać.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Copper Dragon Wyrmling": {
+			"name": "Pisklę miedzianego smoka",
+			"description": ""
+		},
+		"Couatl": {
+			"name": "Couatl",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Crab": {
+			"name": "Krab",
+			"description": "<blockquote>\n<p>Widziałem kiedyś kraba tak wielkiego, że miał szczypce, którymi mógłby odciąć rękę dorosłego Goliata i nosił żołnierski hełm jako pancerz! Przysięgam, że to prawda!<br /><em>- Nieznany sprawca zakłócenia porządku w Brass Buck Tavern.</em></p>\n</blockquote>\n<p>Cóż więcej można powiedzieć o skromnym krabie, niż to, co nie jest już powszechnie znane tym, którzy mieszkają w pobliżu wybrzeży kontynentu lub często na nich bywają? Kraby to wyjątkowo wytrzymałe małe stworzenia, często nie większe niż dłoń dorosłego człowieka, z ośmioma segmentowymi odnóżami wystającymi z każdej strony pancerza w kształcie łuski. Ten utwardzony chitynowy pancerz zwieńczony jest dwoma czarnymi oczodołami (nie podobnymi do tych u ślimaków), przez które zwierzę obserwuje nasze wybrzeża i oceany. Zauważono, że niektóre gatunki krabów nie mają pancernej skorupy i wolą przykucnąć w porzuconych muszlach małży. To daje krabowi całkiem pomysłowy i solidny mobilny dom. Dziewiąty i dziesiąty wyrostek w pobliżu jego maleńkiego pyska zdobią dwa masywne pazury, przypominające pazury skorpiona, z tępymi ząbkami wyznaczającymi wewnętrzną krawędź każdego z nich. Krab przede wszystkim wykorzystuje te pazury w poszukiwaniu pożywienia, rozbijając skorupy innych maleńkich wodnych bestii lub odcinając maleńkie kawałki podmorskiej roślinności, aby się nimi posilić..</p>\n<p>Choć może nie jest to najniebezpieczniejszy towarzysz, jakiego mógłby sobie życzyć przywoływacz, zdolność kraba do oddychania zarówno w wodzie, jak i na lądzie, czyni z niego bardzo użytecznego sprzymierzeńca. Radzę jednak zachować ostrożność kiedy po raz pierwszy spojrzysz w oczy swojemu znajomemu krabowi, ponieważ sposób chodzenie bokiem, którym przemieszcza się krab, może wywołać wymioty u niektórych przywoływaczy o słabym żołądku.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Crocodile": {
+			"name": "Krokodyl",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Cult Fanatic": {
+			"name": "Fanatyk kultu",
+			"description": "<p>Fanatycy są zwykle częścią przywództwa kultu, wykorzystując swoją charyzmę i dogmaty do wywierania wpływu i żerowania na osobach o słabej woli. Większość z nich jest ponad wszystko zainteresowana własną władzą.</p>\n<p></p><p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Cultist": {
+			"name": "Kultysta",
+			"description": "<p>Och poszukiwaczu przygód, gdybym mógł dokładnie wyliczyć wszystkie rodzaje kultystów, to książka ta z pewnością zajęłaby wiele tomów. Kultyści, jak sama nazwa wskazuje, są członkami tajnego podziemnego stowarzyszenia (lub sekty), którzy często praktykują wraz ze swoimi pobratymcami mroczną i bezbożną religię. Strzeż się poszukiwaczu przygód! Nie każdy kult opiera się tylko na religijnych przesłankach, są też takie, które dążą do politycznych ruchów, są żądne władzy, są też takie, które chcą mieszać się do sił, które nasza historia już dawno zapomniała. Pozwól, że opiszę Ci podstawy działalności kultu.</p>\n<p><strong>Przyjaciele po tamtej stronie.</strong> Kultyści działają w całkowitej tajemnicy, poza normalnym życiem codziennym. To, co sprawia, że kultyści są tak fascynujący, to fakt, że często starają się wtopić w tłum zwykłych ludzi: barman w twojej ulubionej tawernie, strażnik przy bramie, a nawet tancerz na scenie mogą być częścią podziemnej społeczności, której podstawą jest pozorne zło. Aby było jasne, nie zachęcam do paranoi, gdyż działalność kultów jest stosunkowo rzadka w porównaniu z innymi, bardziej bezpośrednimi zagrożeniami dla naszego świata; jednakże, jeśli sprytny poszukiwacz przygód będzie uważnie obserwował tajemnicze ruchy lub gesty, dziwne symbole lub oznaczenia, a nawet szeptane słowa haseł, może być pewien, że natknął się na działania kultu. Zazwyczaj kultyści sprzymierzają się z pradawną mocą uwięzioną lub uśpioną gdzieś na jednej z bardziej mrocznych płaszczyzn egzystencji. Ich cele związane z tą mroczną, boską siłą są niezliczone, ale często obejmują kontrolę nad strukturą polityczną, śmierć setek, jeśli nie tysięcy ludzi, lub po prostu zasianie rozpaczy i chaosu w królestwach śmiertelników. W przeciwieństwie do zdesperowanych i tchórzliwych bandytów, których okoliczności popchnęły na skraj wytrzymałości, kultyści są często wrogami nie do pokonania. Ci mężczyźni i kobiety zostali zaprogramowani, poddani praniu mózgu lub nawet są bezpośrednio kontrolowani przez swoich mocodawców, aby wejść na drogę ciemności; często niestety nie są w stanie powrócić do społeczeństwa, gdy już zbyt głęboko zaprzyjaźnili się z siecią kultu. Z sektami należy zawsze postępować i rozbijać je z największą ostrożnością; choć łatwiej jest rozprawić się z humanoidalnymi pionkami stojącymi za kultem, należy pamiętać, że za tymi pionkami mogą stać i już działać kosmiczne siły zła.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Darkmantle": {
+			"name": "Mroczna płaszczka",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Death Dog": {
+			"name": "Morowy kundel",
+			"description": "<p>Morowy kundel to szkaradny dwugłowy pies, który przemierza równiny i pustynie. W sercu tego psa płonie nienawiść, a apetyt na ludzkie mięso popycha go do atakowania podróżników i odkrywców. Ślina morowych kundli przenosi paskudną chorobę, która sprawia, że ciało ofiary powoli gnije i odchodzi od kości.</p>\n<p></p><p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Deep Gnome": {
+			"name": "Gnom głębinowy",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Deer": {
+			"name": "Jeleń",
+			"description": "<p>Jelenie są zwierzętami, które nie są rzadkością w różnych środowiskach, czy to w zamarzniętej tundrze, czy na przyjemnych łąkach na wsi. Te wytrzymałe przeżuwacze osiągają wysokość od 1,35 do prawie 2,1 metra i żywią się głównie liśćmi z dna lasu i roślinami z równin. Jelenie prezentują zauważalny dymorfizm płciowy; samce lub \" byki \" obnoszą się z dużymi, wielopalczastymi stelażami poroża na głowie, które zrzucają i co roku ponownie hodują nowe. Samice jeleni, czyli łanie, nie mają poroża jak ich męscy odpowiednicy, ale są nie mniej wytrwałe, jeśli chodzi o obronę swoich stad.</p>\n<p><strong>Zrobiony w jelenia</strong>. Jelenie są powszechnie potulnymi stworzeniami, które często uciekają na pierwszy widok każdego humanoida wędrującego do ich domeny. Jeśli jednak będziesz miał wystarczająco dużo szczęścia, by spotkać jelenia w okresie godowym, powinieneś rozważyć obranie innej drogi. Poroże samców jeleni potrafi z łatwością przebić słabszy pancerz i ciało, przebijając je równie łatwo jak włócznia. Jeśli zbliżysz się zbytnio do cennych dzieci łani (lub młodych), z pewnością poznasz smak twardych kopyt matki, które uderzą w ciebie z niewiarygodną siłą, jak na tak zwinne ciało. Jeśli chodzi o przetrwanie poszukiwacza przygód, na jelenie najlepiej polować z dystansu, aby uniknąć tej zaciekłej obrony w walce wręcz. Mięso jelenia, zwane \"dziczyzną\", jest lekko gorzkie, ale smaczne i sycące, a skóry bestii można wykorzystać do ogrzania się lub schronienia w razie potrzeby.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Deva": {
+			"name": "Dewa",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Dire Wolf": {
+			"name": "Straszliwy wilk",
+			"description": ""
+		},
+		"Djinni": {
+			"name": "Dżin",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Doppelganger": {
+			"name": "Doppelganger",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Draft Horse": {
+			"name": "Koń pociągowy",
+			"description": "<p>Kiedy praca polegająca na przewożeniu drewna lub towarów handlowych wiejską drogą jest po prostu zbyt ciężka dla człowieka, może on znaleźć pocieszenie wiedząc, że istnieje lojalne, wytrzymałe zwierzę gotowe wziąć na swoje barki ten ciężki ładunek: koń pociągowy.  Konie pociągowe to rasa koni, które łatwiej przystosowują się do trudnego terenu i dźwigania dużych ciężarów.  Często pokryte grubszą sierścią, by przetrwać w trudniejszym klimacie niż ich krótkowłosi bracia, konie pociągowe mają silne, potężne nogi i ogromne kopyta, które są w stanie przylgnąć do luźnego żwiru na górskich szlakach.  Na świecie istnieje wiele ras koni pociągowych, więc wybredny kupiec nigdy nie jest pozbawiony możliwości wyboru, jeśli rozważa zakup takiego zwierzęcia.  Koń pociągowy jest w stanie przenieść ładunek o masie do 250 kilogramów i może z łatwością pociągnąć wóz pełen poszukiwaczy przygód i ich łupów po przejezdnej drodze, jeśli ci rozleniwią się podczas swoich zwycięstw.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Dragon Turtle": {
+			"name": "Smokożółw",
+			"description": ""
+		},
+		"Dretch": {
+			"name": "Dretch",
+			"description": "<blockquote>\n<p>Wrzawa dała się słyszeć na długo przed tym, jak stwory pojawiły się w zasięgu wzroku.  Z drugiej strony doliny usłyszeliśmy batalion Dretchów.  Ziewając, warcząc i stękając w nierozróżnialnym hałasie, te niskie demony opłakiwały swoje istnienie, jednocześnie próbując zadusić naszych.  Kiedy fala Dretchów zbliżyła się do bramy, zobaczyliśmy ich taktykę w pełnej krasie.  Głupie i niezgrabne bestie napierały na siebie, aby otworzyć bramę siłą swojego ciężaru.  Kiedy belki w końcu zaczęły się rozszczepiać, a te szkodliwe, duszące gazy dotarły do naszych płuc... Myślałem, że umrę tam, gdzie stałem.<br /><em>- ustne opowiadanie o inwazji demonów przez bezimiennego żołnierza.</em></p>\n</blockquote>\n<p><strong>Czujesz to?</strong> Dretchy to niemal najniższe z demonów, przerażające i brzydkie stworzenia, które przewyższają siły Otchłani samą swoją liczebnością.  Dretchy nie przypominają niczego więcej niż krępego, bladego humanoida z kilkoma dodatkowymi cechami.  Dretch ma odstające, spiczaste uszy i mnóstwo wyszczerbionych, brudnych kłów, które nieregularnie wysuwają się z bladych dziąseł.  Długie, cienkie ramiona zakończone zakrzywionymi pazurami oplatają nabrzmiały brzuch, a dłonie wloką się po ziemi obok zahamowanych stóp.  Blada skóra Dretcha jest luźna i groteskowo ślizga się po pajęczej sieci niebieskich i czarnych żylaków.  Nieinteligentni i małostkowi, Dretchy spędzają swoje życie w Otchłani, wyrażając niezadowolenie ze swojego statusu za pomocą serii chrząknięć i szczeknięć w języku Otchłani.  Ze względu na swoją głupotę nie nadają się nawet do najbardziej przyziemnych zadań, dlatego są wykorzystywane przez inne demony jako mięso armatnie w ich odwiecznej wojnie z istotami piekielnymi.  W walce Dretchy stanowią godny pożałowania widok, gdyż ich głupota prowadzi ich do jednej prostej taktyki: szaleńczego pędu na wroga.  Dretchy są słabi i tchórzliwi (wielu z nich ucieka przed wrogiem, jeśli nie ma większego demona, który zastraszyłby ich z powrotem do walki) i wolą przytłoczyć przeciwnika swoją liczebnością.  Jeśli wystarczająca liczba Dretchów przełamie obronę wroga, mogą oni wypuścić z wnętrza swojego ciała cuchnącą chmurę odrażającego powietrza, która odnawia się raz dziennie.  Odporni na wszelkie trucizny, Dretchy uderzają swoich przeciwników wrzecionowatymi ramionami, podczas gdy ci powoli znikają w dławiącym uścisku trucizny.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Drider": {
+			"name": "Drider",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Drow": {
+			"name": "Drow",
+			"description": "<blockquote>\n<p>Eksperci trucizn: Jest.  Ujrzenie pradawnego zła: Jest.  Widzenie w ciemnościach: Jest.  A teraz pozwól że zapytam… Dlaczego chcesz podburzyć gniazdo Drowów?<br /><strong>- przewodnik podziemi.</strong></p>\n</blockquote>\n<p>Drowy były niegdyś tymi samymi elfami z lasów i miast, które powszechnie znamy. Jednak rozłam w strukturach wierzeń różnych elfich frakcji zmusił sektę elfów do ucieczki pod powierzchnię świata i schronienia się w potężnych podziemnych jaskiniach, które tam znaleźli.  W jaskiniach ich skóra pociemniała do głębokiej czerni, a włosy przybrały odcienie bieli i srebra.  Te elfy, smukłej i dostojnej postury, zaczęto nazywać po prostu Drowami.  W miarę upływu wieków pod skorupą ziemską, Drowowie przystosowywali się do nowego otoczenia w niezwykły sposób.</p>\n<p><strong>Myślisz, że Ciemność jest twoim sprzymierzeńcem?</strong> Elfie oczy Drowów, niegdyś przystosowane do widzenia na wiele kilometrów w jasnym świetle słonecznym, zbladły bez dostępu do światła i zmieniły się w gałki oczne zdolne dostrzec wszystko w ciemnościach podziemi.  Drowy nauczyły się też wykorzystywać ciemność na swoją korzyść i pod osłoną nocy mogą nawet zakradać się do świata powierzchni, by dokonywać najazdów na pobliskie wioski.  Przystosowanie to nie obyło się jednak bez kosztów, gdyż skóra i oczy Drowów nie są w stanie znieść palącego słońca.  Zmusza to mroczne elfy do korzystania z nocy lub zakrywania się, aby uniknąć blasku słońca.  Drowy nadal zachowały część swoich elfickich zdolności magicznych, ponieważ nie można ich zaczarować ani uśpić za pomocą czarów.  Wiele kobiet z plemienia Drowów (jako że Drowy żyją w matriarchacie) jest również uzdolnionymi czarodziejkami i kapłankami, które głównie wybierają stronę bogów z bardziej złowrogiej strony panteonu.  Inni sprytni Drowowie opracowali metody destylacji pewnych trucizn z podziemnych grzybów i stworzeń, które czają się na ścianach jaskiń.  Toksyny te są dobrze znane wśród koneserów trucizn, zarówno ze względu na ich dostępność, jak i legendarną moc.  Nierzadko każdy żołnierz w armii Drowów jest wyposażony w co najmniej jedną fiolkę silnej trucizny.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Druid": {
+			"name": "Druid",
+			"description": "<p>Druidzi mieszkają w lasach i innych odosobnionych, dzikich miejscach, gdzie chronią świat przyrody przed potworami i inwazją cywilizacji. Niektórzy z nich to plemienni szamani, którzy leczą chorych, modlą się do duchów zwierząt i zapewniają duchowe przewodnictwo.</p>\n<p></p><p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Dryad": {
+			"name": "Driada",
+			"description": ""
+		},
+		"Duergar": {
+			"name": "Duergar",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Dust Mephit": {
+			"name": "Mefit pyłowy",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Eagle": {
+			"name": "Orzeł",
+			"description": "<p>Dumny krzyk z wysokości, szum piór i ostry uścisk długich, ostrych jak igły szponów na twoim ciele oznaczają, że być może rozgniewałeś tego drapieżnika: orła. Orły to szlachetne ptaki, które przemierzają przestworza naszych lasów i gór w poszukiwaniu tłustych ryb, gryzoni i gadów, które zapewnią im odpowiednie pożywienie. Orły mają rozpiętość skrzydeł tak dużą, jak wzrost dowolnego człowieka, często osiągając długość od dwóch metrów do dwóch metrów i piętnastu centymetrów! Dzięki tym potężnym skrzydłom i doskonałemu wzrokowi orzeł może zaskoczyć swoją ofiarę z dużej wysokości, co daje mu element zaskoczenia w przypadku niczego niepodejrzewającej ofiary. Sam byłem świadkiem, jak orzeł wzbił się w powietrze i porwał małego teriera szlachetnej kobiety, wyrywając jęczącego psa z objęć pani domu, a następnie odleciał w popołudniowe niebo. Te ptaki to naprawdę potężne okazy!</p>\n<p><strong>Dotknij nieba.</strong> Orzeł preferuje samotność, jeśli tylko może ją znaleźć. Ptaki te gnieżdżą się w domowej roboty dziuplach, lub gniazdach, wysoko ponad światem, na ścianach górskich klifów. W gniazdach orły składają po dwa jaja i zakładają małą, odizolowaną rodzinę, w której samica (często znacznie większa) dominuje nad każdym samcem urodzonym w klanie. Pisklęta rosną pod opieką rodziców, karmione przeżuwanym pokarmem, aż będą wystarczająco duże, by nauczyć się samodzielnie latać. W tym momencie młode orły są wypędzane z gniazda i wysyłane w świat, gdzie muszą radzić sobie same.</p>\n<p><strong>Lone Ranger.</strong> Orły są wspaniałymi towarzyszami dla tych, którzy rozumieją, że te drapieżne ptaki nie są zwykłymi zwierzętami domowymi, lecz równorzędnymi sprzymierzeńcami swoich poszukiwaczy przygód. Strażnicy szczególnie upodobali sobie orła jako partnera na polowaniach, ponieważ ptaki te mogą przemierzać duże odległości podczas łowów i przynosić swojemu panu łupy znalezione podczas wyprawy. Ta wyspecjalizowana forma nowoczesnego sokolnictwa wykorzystuje orły także jako tropicieli - orzeł może dostrzec zdobycz z dużej odległości, a następnie wrócić do swojego pana i poprowadzić go w kierunku ofiary. Jeśli chcesz wyruszyć w świat i masz cierpliwość do takiego towarzysza, rozważ orła jako zalecany wybór dla doświadczonych myśliwych.</p>"
+		},
+		"Earth Elemental": {
+			"name": "Żywiołak ziemi",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Efreeti": {
+			"name": "Efreeti",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Elephant": {
+			"name": "Słoń",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Elk": {
+			"name": "Łoś",
+			"description": "<blockquote>\n<p>Nie, nie spodziewasz się, że mogą być aż tak straszne, ale tak właśnie jest!  Są większe od przeciętnego jelenia szlachetnego i dwa razy bardziej wściekłe, jeśli znajdą się w pobliżu ze swoim wielkim porożem.  No i ten dźwięk, który wydają!  Jak zawodzenie banshee, które rozbrzmiewa w całym przeklętym lesie w środku nocy.  Nie śmiej się ze mnie!  Nie śmiej się...  Poczekaj, aż usłyszysz to w mroźną zimową noc i będziesz siedział we własnych szczynach, żałując, że mnie nie posłuchałeś.<br /><em>Podróżujący myśliwy w pobliżu Blisterrock Stead.</em></p>\n</blockquote>\n<p>Łoś jest największym gatunkiem jeleniowatych występującym w przyrodzie, osiągającym wysokość 2,3 metra i ważącym ponad 700 kilogramów!  Dla niewprawnego oka łoś wygląda jak gigantyczny jeleń, ponieważ samce zachowują charakterystyczne rogi (samice nie mają ich wcale), tak jak ich mniejsi kuzyni.  Istnieje jednak kilka różnic między tymi dwoma stworzeniami.  Najbardziej zauważalną różnicą jest wokalizacja, ponieważ łosie wydają serię okrzyków lub wrzasków, które odbijają się głośnym echem w całym lesie.  Te okrzyki sygnalizują nadejście sezonu godowego (zwanego bukowiskiem), w którym dominujące samce walczą między sobą za pomocą zaostrzonego poroża o względy samicy.  Jeśli usłyszysz krzyk łosia w cichym lesie, radzę Ci, abyś zawrócił, chyba że jesteś gotów na walkę na śmierć i życie, pełną feromonów.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Erinyes": {
+			"name": "Erynie",
+			"description": ""
+		},
+		"Ettercap": {
+			"name": "Ettercap",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Ettin": {
+			"name": "Ettin",
+			"description": ""
+		},
+		"Fire Elemental": {
+			"name": "Żywiołak ognia",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Fire Giant": {
+			"name": "Ognisty Olbrzym",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Flesh Golem": {
+			"name": "Golem z ciał",
+			"description": ""
+		},
+		"Flying Snake": {
+			"name": "Latający Wąż",
+			"description": "<p>Pochodzące z dżungli i klimatów tropikalnych latające węże są wyjątkowymi małymi gadami, ulubionymi przez tych, którzy mają determinację, by je udomowić. Latający wąż jest niemal kopią zwykłych węży żyjących na ziemi, ale dzięki niezwykłej potrzebie biologicznej lub magicznej ingerencji po prostu wykształcił skrzydła. Te cienkie, pokryte błoną skrzydła pozwalają wężowi niezdarnie szybować w powietrzu, z łatwością unikając bałaganu na dnie dżungli. Te latające węże, o jaskrawym ubarwieniu i błyszczących, veridiańskich łuskach, są naprawdę piękne, gdy szybują, lekko i zwinnie, wśród pnączy i gęstego listowia. Te smukłe, małe wiatraki często znajdowały się na usługach kultystów z dżungli lub plemiennych magów. Przy odrobinie cierpliwości i delikatnych próbach udomowienia, właściciel może zostać nagrodzony wyjątkowym i niesamowicie lojalnym sprzymierzeńcem, który będzie go otulał swoim ciałem podczas wielu przygód. Niektórzy wykorzystują te gady nawet jako posłańców, ponieważ są małe i mogą przemieszczać się w koronach drzew we względnym ukryciu!</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Flying Sword": {
+			"name": "Latający Miecz",
+			"description": "<p>Mimikra jest ulubioną sztuczką osób obdarzonych zdolnościami magicznymi, a Latający Miecz jest przykładem najprostszej, a zarazem najskuteczniejszej mimikry w świecie magii.  Latający miecz jest właśnie tym: mieczem, który lata.  Zaczarowany przez maga (zazwyczaj w celu strzeżenia domu, gabinetu lub wieży) magiczny latający miecz spoczywa spokojnie tam, gdzie zostawił go jego pan.  Te ulepszone ostrza otrzymują proste instrukcje, takie jak \"Zabij każdego intruza\", i dopóki nie zostaną spełnione, miecz będzie leżał nieruchomo.  W bezruchu miecz jest nie do odróżnienia od zwykłego miecza (z wyjątkiem tych, którzy są wyszkoleni w widzeniu magicznych aur), co stanowi przykład jego najbardziej nikczemnej cechy.  W takiej postaci miecz może spoczywać przez wieki, aż do momentu, gdy spełni się jego polecenie i broń ożyje.  Miecz wynurza się z kryjówki, a następnie tnie i dźga głupich intruzów z pewnością wyszkolonego wojownika, dopóki nie zostanie zniszczony lub jego przeciwnicy nie zginą.  Po zniszczeniu zaklęcie nałożone na miecz zostaje rozwiązane, a przedmiot wraca do normalnego stanu.</p>\n<blockquote>\n<p>Uwaga autora: Ostrożni poszukiwacze przygód powinni uważać na inne rodzaje broni, takie jak kije, topory, kusze czy młoty, ponieważ zaklęcie może być stosowane na większości typowych rodzajów broni.</p>\n</blockquote>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Frog": {
+			"name": "Żaba",
+			"description": "<p>Żaby są najpospolitszymi płazami zamieszkującymi naszą planetę. Żaby spędzają większość swojego życia w wodzie i wokół jej źródeł, co sprawia, że często występują na bagnach, mokradłach i torfowiskach. Jest to oczywiście konieczne, ponieważ bez pobliskiego źródła wody śliska skóra żaby wyschłaby i zabiła ją. Żaba z natury jest owadożerna - używa swojego długiego, lepkiego języka do chwytania wszelkiego rodzaju owadów (uwaga autora: na południowych bagnach naoczni świadkowie przysięgli, że widzieli gatunki żab na tyle duże, że zjadały małe ptaki chwytane prosto w powietrzu!) Żaby mają wyjątkowy sposób poruszania się, ponieważ ich tylne kończyny są znacznie dłuższe i złożone w porównaniu z przednimi. Ta wyjątkowa ewolucja umożliwia żabie skakanie i wykonywanie fantastycznych skoków przy pełnym rozłożeniu tylnych kończyn..</p>\n<p><strong>Kijanka wyewoluowała w żabę.</strong> Żaby rozpoczynają swoje życie jako nic innego, tylko przypominające galaretę jajo wielkości paznokcia u nogi. Po wykluciu maleńkie żabki w stanie kijanki przypominają miniaturowe żywe komety, mając niewiele więcej niż jajowatą głowę i długi, kołyszący się ogon, który umożliwia im poruszanie się w wodzie. W ciągu kilku tygodni małe żabki rozwijają kończyny i w pełni ewoluują w bardziej rozpoznawalną postać dorosłą. Jest to fascynujący proces rozwoju, najczęściej spotykany u owadów, który nasi badacze nazwali \"metamorfozą\". Jakie inne stworzenia w naszym ciągle zmieniającym się świecie mogłyby dokonać tak fantastycznej transformacji jak żaba pospolita?</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Frost Giant": {
+			"name": "Olbrzym mrozu",
+			"description": ""
+		},
+		"Gargoyle": {
+			"name": "Gargulec",
+			"description": "<p>Fałszywy wygląd. Gdy gargulec pozostaje nieruchomy, nie można go odróżnić od nieożywionego posągu.</p>\n<p>Akcje</p>\n<p>Wielokrotny atak. Gargulec wykonuje dwa ataki: jeden gryzieniem i jeden pazurami.</p>\n<p>Ugryzienie. Atak wręcz: +4 do trafienia, zasięg 1.5 m., Jeden cel. Trafienie: <strong>5 (1k6 + 2) <em>obrażeń kłutych</em></strong>.</p>\n<p>Pazury. Atak wręcz: +4 do trafienia, zasięg 1.5 m., Jeden cel. Trafienie: <strong>5 (1k6 + 2) <em>obrażeń ciętych</em></strong>.</p>\n<p></p>\n<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Gelatinous Cube": {
+			"name": "Galaretowaty sześcian",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Ghast": {
+			"name": "Ghast",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Ghost": {
+			"name": "Duch",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Ghoul": {
+			"name": "Ghul",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Ape": {
+			"name": "Olbrzymia małpa",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Badger": {
+			"name": "Olbrzymi borsuk",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Bat": {
+			"name": "Olbrzymi nietoperz",
+			"description": "<blockquote>\n<p>Uwaga autora: Poniżej znajduje się wpis o \"nietoperzu\", który wystarczy do opisania tego stworzenia.  Należy pamiętać, że \"olbrzym\" to pojęcie względne, a to stworzenie jest olbrzymie tylko w stosunku do swoich zwykłych rozmiarów.</p>\n</blockquote>\n<p>Nietoperze są częstym mieszkańcem odosobnionych lasów i pozbawionych światła jaskiń naszego świata. Nietoperze są nocnymi stworzeniami cenionymi przez magów za ich zdolność do poruszania się po terenie w niemal całkowitych ciemnościach. Już samo to czyni je cennym wyborem na chowańca. Różnej wielkości, od rozmiaru myszy po kota domowego, nietoperze posiadają unikalną cechę wśród ssaków: dar latania! Pomiędzy cienkimi jak igły kostnymi \"dłońmi\" rozpięte są mięsiste błony, które szeroko rozciągają się od delikatnego ciała nietoperza, pozwalając mu wzbić się w przestworza w poszukiwaniu owadów i owoców leśnych, którymi może się rozkoszować.</p>\n<p><strong>Gadka-szmatka.</strong> Nietoperze, przez wielu uważane za niewidome na podstawie bzdurnych bajek opowiadanych dzieciom, mają wzrok zbliżony do naszego, choć zdecydowanie mniej ostry. To, co czyni te stworzenia naprawdę wyjątkowymi, to ich zdolność do poruszania się w ciemnościach nocy. Nietoperze wykorzystują serię świergotów i pisków, które naukowcy nazwali \"echolokacją\", aby namierzać obiekty lub ofiary w obrębie swojego toru lotu. Emitowane przez nietoperze dźwięki echolokacji odbijają się od proporcjonalnie masywnych uszu tych maleńkich stworzeń, pozwalając nietoperzom na wprowadzenie w ułamku sekundy poprawek w nawigacji bez pomocy oczu. Ponownie, należy zauważyć, że nietoperze dokonują sprytnego, dobrze znanego wyboru, ponieważ mogą nawigować w miejscach zbyt ciemnych i niebezpiecznych dla naszych zwykłych oczu.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Giant Boar": {
+			"name": "Olbrzymi Dzik",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Centipede": {
+			"name": "Olbrzymia skolopendra",
+			"description": "<p>Prześlizgując się przez podszycie ciemnego lasu lub wyślizgując się ze zniszczonych kamiennych ścian wilgotnych katakumb, stonogi olbrzymie przypominają swoich miniaturowych kuzynów nie tylko pod względem wielkości.  Te wijące się, skradające się stawonogi są niemal wielkości małego psa, a ich zaostrzone żuchwy mierzą kilka centymetrów długości na czubku głowy.  Podobnie jak przeciętna stonoga, stworzenia te mają mnóstwo wijących się odnóży, które otaczają obie strony ich rurkowatego ciała, i kipią agresją dzika.  Olbrzymie stonogi myślą tylko o następnym posiłku i zaatakują niemal każdą istotę, która wejdzie na ich terytorium, atakując swoimi miażdżącymi żuchwami, zdolnymi z łatwością przebić skórzaną zbroję.  Gdy stonoga skutecznie uchwyci ofiarę szczypiącymi żuchwami, do krwiobiegu ofiary dostaje się silna trucizna, która (w rzadkich przypadkach) może działać jak niewielki środek paraliżujący, jeśli zatrute stworzenie straci przytomność.  Miej się na baczności podczas zakładania butów, jeśli zdecydujesz się na odpoczynek w pobliżu terytorium gigantycznej stonogi.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Giant Constrictor Snake": {
+			"name": "Olbrzymi wąż dusiciel",
+			"description": ""
+		},
+		"Giant Crab": {
+			"name": "Olbrzymi krab",
+			"description": "<blockquote>\n<p>Widziałem kiedyś kraba tak wielkiego, że miał szczypce, którymi mógłby odciąć rękę dorosłego Goliata i nosił żołnierski hełm jako pancerz! Przysięgam, że to prawda!<br /><em>- Nieznany sprawca zakłócenia porządku w Brass Buck Tavern.</em></p>\n</blockquote>\n<p>Cóż więcej można powiedzieć o skromnym krabie, niż to, co nie jest już powszechnie znane tym, którzy mieszkają w pobliżu wybrzeży kontynentu lub często na nich bywają? Kraby to wyjątkowo wytrzymałe małe stworzenia, często nie większe niż dłoń dorosłego człowieka, z ośmioma segmentowymi odnóżami wystającymi z każdej strony pancerza w kształcie łuski. Ten utwardzony chitynowy pancerz zwieńczony jest dwoma czarnymi oczodołami (nie podobnymi do tych u ślimaków), przez które zwierzę obserwuje nasze wybrzeża i oceany. Zauważono, że niektóre gatunki krabów nie mają pancernej skorupy i wolą przykucnąć w porzuconych muszlach małży. To daje krabowi całkiem pomysłowy i solidny mobilny dom. Dziewiąty i dziesiąty wyrostek w pobliżu jego maleńkiego pyska zdobią dwa masywne pazury, przypominające pazury skorpiona, z tępymi ząbkami wyznaczającymi wewnętrzną krawędź każdego z nich. Krab przede wszystkim wykorzystuje te pazury w poszukiwaniu pożywienia, rozbijając skorupy innych maleńkich wodnych bestii lub odcinając maleńkie kawałki podmorskiej roślinności, aby się nimi posilić..</p>\n<p>Choć może nie jest to najniebezpieczniejszy towarzysz, jakiego mógłby sobie życzyć przywoływacz, zdolność kraba do oddychania zarówno w wodzie, jak i na lądzie, czyni z niego bardzo użytecznego sprzymierzeńca. Radzę jednak zachować ostrożność kiedy po raz pierwszy spojrzysz w oczy swojemu znajomemu krabowi, ponieważ sposób chodzenie bokiem, którym przemieszcza się krab, może wywołać wymioty u niektórych przywoływaczy o słabym żołądku.</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Giant Crocodile": {
+			"name": "Olbrzymi Krokodyl",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Eagle": {
+			"name": "Olbrzymi orzeł",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Elk": {
+			"name": "Olbrzymi łoś",
+			"description": "<p>Majestatyczny olbrzymi łoś jest rzadkością do tego stopnia, że jego pojawienie się jest często traktowane jako zapowiedź ważnego wydarzenia, takiego jak narodziny króla. Legendy mówią o bogach, którzy odwiedzając Sferę Materialną, przybierają postać olbrzymich łosi. Dlatego wiele kultur uważa, że polowanie na te stworzenia to ściąganie na siebie boskiego gniewu.</p>\n<p></p>"
+		},
+		"Giant Fire Beetle": {
+			"name": "Olbrzymi żuk ogniowy",
+			"description": "<p>Głęboko pod ziemią ciekawscy odkrywcy mogą znaleźć świetliste roje czarno-skorupkowych olbrzymich żuków ognistych. Choć gigantyczne w porównaniu z ich nieoświetlonymi kuzynami, olbrzymie żuki ogniowe są zazwyczaj wielkości dłoni dorosłego człowieka. Te malutkie, potulne tytany zadowalają się przemierzaniem ciemnych miejsc, takich jak jaskinie, katakumby i porośnięte mchem zarośla, w poszukiwaniu resztek jedzenia lub cichego, wilgotnego miejsca, w którym mogłyby założyć swoje nory.</p>\n<p><strong>Z ciemności i światła.</strong> Co ciekawe, ze względu na to, że gatunek ten wyewoluował bez naturalnego światła słonecznego, biedne stworzenie jest całkowicie ślepe. Olbrzymi żuk ogniowy nie jest jednak całkowicie pozbawiony zmysłów. Dzięki wyspecjalizowanym antenom, te wytrzymałe owady są w stanie \"widzieć\" otaczający je świat w nieco ograniczonym zakresie. Największą zdobyczą (jak chwali się wielu początkujących poszukiwaczy przygód) są pomarańczowe gruczoły bioluminescencyjne, znajdujące się po obu stronach żuchwy i w tylnej części odwłoka. Te ogniste gruczoły zawierają symbiotyczne, świecące grzyby, które po odłączeniu od żywiciela będą świecić nawet przez tydzień! Niektórzy sprytni poszukiwacze przygód zaczęli chwytać żywe chrząszcze i umieszczać je w pustych latarniach, aby oświetlały im drogę w odległych jaskiniach przez jeszcze dłuższy czas.</p>\n<p><strong>W ostatniej chwili.</strong> Zazwyczaj są to owady pokojowo nastawione do życia, ale zaobserwowano, że Olbrzymie żuki ogniowe bronią pożywienia w czasach wielkiego głodu; stworzenia te rzadko uciekają przed smakowitym kąskiem, jeśli czują, że zbliża się zagrożenie dla ich posiłku. Olbrzymi żuk ogniowy potrafi nieźle ugryźć, a jego zaostrzone żuchwy mogą przebić nawet najtwardszy pancerz z wygotowanej skóry, jeśli poczuje się na tyle zagrożony, by zaatakować. Zachowaj ostrożność, zbliżając się do roju tych owadów, aby nie doznać paskudnych ran. Starsze teksty o naturze bestii mówią o pewnej rasie olbrzymich żuków ogniowych, które wydzielały łatwopalny płyn i zapalały się, powodując poważne oparzenia u nieostrożnych. Nie zostało to nigdy naukowo potwierdzone, ale każdego dnia dokonuje się nowych odkryć!</p>\n<ul>\n<li><em>Obraz tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Giant Fly": {
+			"name": "Olbrzymia mucha",
+			"description": ""
+		},
+		"Giant Frog": {
+			"name": "Olbrzymia żaba",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Goat": {
+			"name": "Olbrzymia koza",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Hyena": {
+			"name": "Olbrzymia hiena",
+			"description": "<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Lizard": {
+			"name": "Olbrzymia jaszczurka",
+			"description": "<blockquote>\n<p>Uwaga autora: Poniżej znajduje się wpis o “jaszczurce”, który wystarczy do opisania tego stworzenia.  Należy pamiętać, że “olbrzym” to pojęcie względne, a to stworzenie jest olbrzymie tylko w stosunku do swoich zwykłych rozmiarów.</p>\n<p>“Hej, panie Goodberry, spójrz tutaj!  Kupiłem sobie nowy kolczyk!”<br /><em>Gnomi mieszkaniec bagien przyczepiający sobie jaszczurki do uszu jako kolczyki, podczas moich podróży.</em></p>\n</blockquote>\n<p>Najpopularniejszym gadem, który zamieszkuje każde miejsce od lasów po górskie szczyty jest oczywiście jaszczurka.  Ci czworonożni przyjaciele są oczywiście znani wszystkim, i mogą pojawić się w tysiącach różnych ras i rozmiarów.  To, co sprawia, że te małe gady są tak bardzo unikalne (być może jest to piękna forma dla twojego chowańca), to ich zdolność do przylegania do wielu różnych powierzchni.  Jaszczurki potrafią się wspinać na ukryte wysoko miejsca, z których mogą spoglądać na pozostałe stworzenia.  Niektóre odmiany jaszczurek są również w stanie zmieniać zabarwienie swojego ciała, co pozwala na jeszcze lepsze dopasowanie do tła!  Jednak skromna jaszczurka nie jest ofensywa, gdyż jej ugryzienie jest dla większości istot niczym więcej jak tylko utrapieniem.  Jaszczurka najlepiej czuje się w cieniu, gdzie może obserwować świat będąc niewidzialna.</p>\n<ul>\n<li><em>Obraz Tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Giant Octopus": {
+			"name": "Olbrzymia ośmiornica",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Owl": {
+			"name": "Olbrzymia sowa",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Poisonous Snake": {
+			"name": "Olbrzymi wąż jadowity",
+			"description": "<blockquote>\n<p>Uwaga autora: Poniżej znajduje się wpis o “jadowitym wężu”, który wystarczy do opisania tego stworzenia.  Należy pamiętać, że  “olbrzym” to pojęcie względne, a to stworzenie jest olbrzymie tylko w stosunku do swoich zwykłych rozmiarów.</p>\n</blockquote>\n<p>Węże należą do najliczniejszych i najbardziej zróżnicowanych gadów, które przemierzają powierzchnię naszej planety.  Przypominające trochę robaka z łuskami węże są w rzeczywistości wysoko rozwiniętymi drapieżnikami, które upodabniają się do otoczenia, aby ukradkiem polować na swoje mniejsze ofiary.  Choć istnieje wiele gatunków węży, omówimy tylko odmiany jadowite.  Jadowite węże posiadają wyraźny znak odróżniający je od zwykłych węży: kształt ich źrenic. Podczas gdy węże bez gruczołów jadowych mają okrągłe źrenice, jadowite wężę mają podłużne źrenice, podobnie jak u zwykłego kota domowego. Podstępny wąż jest jednak znacznie groźniejszy.</p>\n<p><strong>Nie oszukasz mnie.</strong>  Wiecznie zakamuflowane zarówno przez ich podobieństwo do korzeni, patyków lub gałęzi, jak i cudowne wzory czerni, brązów i zieleni, które zdobią ich skóry, węże są mistrzami wtapiania się w otoczenie.  Nawet gdy siedzą na skale, aby ogrzać swoje ciało w gorącym słońcu, węże można z łatwością przeoczyć.  Chociaż wzrok tych stworzeń jest stosunkowo słaby, węże zaadaptowały niesamowitą zdolność do wyczuwania otaczającego je świata.  Węże \"wąchają\" językami!  Tak, przez wysuwanie języków z ich pysków te gady są w stanie wyczuć ofiary lub drapieżników w ich otoczeniu przez wyłapywanie zapachów ich językami.  W pysku węża tkwią jego najbardziej zabójcze atuty - dwa kły jadowe.  Węże wolą atakować z cienia, czekając na tyle, by ich ofiara zbliżyła się do nich, dzięki czemu mogą uniknąć walki.  Stworzenie to wysuwa się w mgnieniu oka, łapiąc nieostrożną ofiarę w swoje szczęki i wstrzykując jej dawkę wysoce toksycznego jadu przez kły. Potem to już tylko kwestia kilku chwil, aż biedne stworzenie stanie się martwe dzięki silnym toksynom węża. Większość gatunków węży nie jest śmiertelna dla ludzi, jednak zaleca się ostrożność dla tych, którzy nie potrafią rozróżnić gadów.  Antidotum powinno być zawsze noszone przy sobie w miejscach znanych z populacji jadowitych węży, tak na wszelki wypadek.</p>\n<ul>\n<li><em>Obraz Tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestiariuszu Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Giant Rat": {
+			"name": "Olbrzymi szczur",
+			"description": "<p>Istoty brudu, kanalowi padlinożercy i roznosiciele zarazków. Żadne inne zwierzę nie może się poszczycić takim wpływem na życie ludzi jak szczur. Każde powszechne miejsce, takie jak wielka metropolia aż po odludną stodołę biednego rolnika jest zamieszkiwane przez szczury, które wcisną się w najmniejszy zakamerek. Te małe gryzonie, mogące mieć rozmiar twojej dłoni, aż po długość twojego przedramienia (włącznie z ogonem), są całkiem sprytnymi złodziejaszkami. Szczury są w stanie w taki sposób manipulować swoim ciałe, że potrafią przecisnąć się przez przestrzenie tak małe, jak szczelina w dolnej części drzwi. Potrafią pływać i poruszać się w ciemności, a niektóre z nich wspinają się także po rurach kanalizacyjnych, aby dostać się do wnętrza mieszkań.</p>\n<p><strong>Niech cię szczur trafi.</strong> Większość uważa szczury za nie więcej jak zwykłego szkodnika, jednak część z nich zgodzi się, że nawet nie będąc magicznym chowańcem są one bardzo inteligentne. Badacze zaobserwowali, że szczury z łatwością pokonują skomplikowane labirynty, rozwiązują zagadki z użyciem dźwigni a nawet rozumieją otaczający je świat w sposób niespotykany u innych zwierząt. Sprytny mieszczanin mógłby nawet wytresować szczura, by ten podbierał jedzenie lub błyszczące monety z sakiewek. Jednak pamiętaj, aby zachować ostrożność, gdyż niektóre szczury przenoszą śmiertelne choroby. Oprócz ostrych pazurów, szczur potrafi boleśnie ugryźć dzięki długim siekaczom. Bądź czujny, młody bohaterze, jeśli zobaczysz w pobliżu szczura, bo to drobne stworzenie może skrywać sekret w swoich malutkich, czarnych oczkach.</p>\n<ul>\n<li><em>Obraz Tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis w bestariuszu Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Giant Rat (Diseased)": {
+			"name": "Olbrzymi szczur (plagi)",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Scorpion": {
+			"name": "Olbrzymi skorpion",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Sea Horse": {
+			"name": "Olbrzymi konik morski",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Shark": {
+			"name": "Olbrzymi rekin",
+			"description": "<p>Olbrzymi rekin ma 9 metrów długości i zwykle znajduje się głęboko w oceanach. Nieustraszony, żeruje na wszystkim, co napotka na swojej drodze, w tym na wieloryby i statki.</p>\n<p></p>\n<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Spider": {
+			"name": "Olbrzymi pająk",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Toad": {
+			"name": "Olbrzymia ropucha",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Vulture": {
+			"name": "Olbrzymi sęp",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Wasp": {
+			"name": "Olbrzymia osa",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Giant Weasel": {
+			"name": "Olbrzymia łasica",
+			"description": "<p>Weasels dwell in a variety of locations from snowy tundra, to pine forests, to the open flowery plains of our planet. Weasels are tiny, long bodied mammals reaching approximately eight inches in length and bearing coat colorations ranging from chestnut brown to pale white. The weasel's long body allows it to easily wedge itself into a rodent's burrow and pull the critter out for a tasty meal. Weasels make quite effective pest controllers in their territories as they eat multitudes of rodents annually. These little cleaners are, however, often considered to be pests in their own right; farmers across the countryside report that their poultry is killed or stolen away by sneaky weasels making their way into their chicken coops. While not the most deadly mammal in the world, the weasel does pack a nasty, sharp-toothed bite. Keep your curious fingers out of any small rodent burrows you find, lest you end up provoking a weasel during his well-earned meal.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Giant Wolf Spider": {
+			"name": "Olbrzymi pogoniec",
+			"description": "<blockquote>\n<p>Author's Note: Please see below the entry for “Spider” which will suffice for the description of this creature.  Please note that “Giant” is a relative term and this creature is only giant in relative terms to its common size.</p>\n</blockquote>\n<p>Spiders are one of the smallest, yet most feared, denizens of our planet.  Spiders are arachnids with eight thin legs protruding from their dual-segmented body.  Atop the spider's tiny head are eight glistening eyes with which it views the world in relative obscurity.  While the spider's eyesight may be poor regardless of the number of eyes, they have a clever trick up their sleeves: the spider's web!</p>\n<p><strong>Some Bug.</strong> Ingenious little architects, spiders produce a silken thread from their rears dubbed “webbing” which they use to construct elaborate homes.  Resembling something of a net, the spider's web serves a dual purpose: to capture food upon its sticky surface and to give the spider a safe place to perch away from predators.  Once an insect is trapped within the web, the spider quickly wraps the unsuspecting creature in a bundle of webbing, saving its prize for later consumption.  While all spiders are venomous in some capacity, many will not be harmful to the adventurer on their travels.  Simply avoid webs where you see them and be quite sure that the web which you see only belongs to a standard spider species, as a plethora of gigantic and magical varieties also lurk within similar webs!</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Gibbering Mouther": {
+			"name": "Bełkoczący paszczowiec",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Glabrezu": {
+			"name": "Glabrezu",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Gladiator": {
+			"name": "Gladiator",
+			"description": "<p>Gladiatorzy walczą dla rozrywki tłumów. Niektórzy gladiatorzy to brutalni zawodnicy, którzy traktują to jak walkę na śmierć i życie, inni to zawodowi pojedynkowicze, którzy otrzymują ogromne honoraria, ale rzadko walczą na śmierć i życie..</p>\n<p></p>\n<p><em>Obraz tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Gnoll": {
+			"name": "Gnoll",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Goat": {
+			"name": "Koza",
+			"description": "<p>Ah the domestic goat, both the shepard’s best friend and mortal enemy. Hailing from roots similar to antelope and sheep, the goat has become a mainstay in the world of domesticated farm animals. Goats resemble something of a shorn sheep with thick, bristle-like fur and small hooves adorning their nimble feet. Atop the goat’s head rests a set of hard horns which, depending upon the species, can vary from short and knobby to long curled protrusions. The goats use their horns for both defense and contests of strength between fellow males (or billies) during spectacular ramming matches. The clattering of mountain goats’ horns can be heard clearly throughout the valley towns during the creature’s mating seasons.</p>\n<p><strong>Of Evil and Garbage.</strong> Goats can be called nothing if not resourceful when it comes to what they choose to ingest. Goats will typically feed upon grass and weeds found in their favored open fields; however, several shepherds have noted their goats eating such objects as iron nails, bits of discarded clothing, and even the wheels of a wagon! The image of a goat has also been co opted by some of the more nefarious of our realm as a symbol of evil to represent various foul cults. Perhaps it is the goat’s sinister horizontal pupil that elicits fear in onlookers or their common use by some cultures as a ritualistic sacrifice that drives the cults to utilize their visage. No matter the cause, goats continue to be an integral though stubborn part of our everyday lives as their meat, milk, and utility in flocks makes them a hardy domesticated creature.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Goblin": {
+			"name": "Goblin",
+			"description": "<blockquote>\n<p>Putrid little runts… they ambushed us on the trail before we'd even been made aware we'd entered their “king's” territory.  They attacked from out of the bushes like a tidal wave of bodies crashing into our cart, all the while gibbering in their foul, snarl of a tongue.  We should have been prepared for them, I recall their weaponry was so poor one bugger was swinging half a broom handle with a small iron spike driven through; nonetheless, they overwhelmed us with their surprise attack and made off with a hefty share of the camp's rations for the next month.<br /><em>Captain Will Freidmont of the Upper Wilds Valdyrguard.</em></p>\n</blockquote>\n<p>Goblins are evil creatures of diminutive stature who exist in almost every corner of the natural world as a constant yet generally manageable threat.  Hailing from a group of creatures called goblinoids (which includes bugbears and hobgoblins), the goblin is a foul humanoid measuring no larger than the average halfling.  Goblins have skin tones varying from light clay to deep chestnut brown to a sickly, acidic green, their hair is thin and greasy, and within their jaws rest cracked and sharpened teeth.  Together with their foaming fellows, goblins form loose collectives or tribes so their power can stand pronounced in numbers.  The tribal life also allows for a crude caste system to erupt from the goblin's chaotic politics.  All goblins have something to offer to the tribe, be they foragers, slavers, or warriors.  If they cannot contribute, they die.</p>\n<p><strong>We Live in a Society. </strong> Capricious to the last, goblins crave nothing more than power and domination of all others around them by any means (including those methods dangerous to the goblin).  Those goblins who possess enough might or cleverness may ascend to the rank of Goblin Boss and command a lair consisting of several dozens goblinoid fellows.  Should ambition prove overwhelming, the boss in rare cases may subjugate nearby lairs of rival goblinoids and crown themselves a Goblin Queen/King.  It has been documented that in one particular case, Queen Greld the Gutripper was able to enslave a camp containing hundreds of orcs, then laid siege to the city of Westerholt close by and sacked the entire city.</p>\n<p><strong>Gnash and Bite, Trick and Trap.</strong> Goblins maintain some of the most chaotic lairs within the known world, and to accomplish this the goblins require a plethora of slaves.  Not always willing to murder those they plunder, goblins and their kin are known slavers, spiriting away captured humans from merchant wagons to contruct their insidious dungeons.  WIthin a goblin lair is all manner of trap: tunnels leading nowhere, narrow passages no human could pass through, arrow slits, pits lined with spikes, and of course a multitude of alarms to warn the tribe of any impending danger.  Goblins utilize chaotic placement within their lairs to throw off intruders from their hard earned loot which is kept safe within the lair's heart.</p>\n<p><strong>And They Dance About the Flames.</strong> Goblins, though commonly thought of as greedy and stupid, leave their chaotic tendancies behind when it comes to the structure of religious worship.  They are beholden in particular to The God of the Goblins, also called They Who Lurk Beneath, who acts as chief of all other gods to the goblinoids.  This god encourages acts of violence, blind cruelty, enslaving others, as well as war amongst the enemies of the goblins.  Goblin tribes will join together in times of worship to dance, perform rituals with blood and bone, build massive bonfires, and sew chaos throughout the lair all in devotion to their evil benefactor.  Goblins, fueled by the spirit of the revelry, will then be exceedingly aggressive and volatile for the days after, raging through the surrounding area to sate the thirst of their cruel god.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Gold Dragon Wyrmling": {
+			"name": "Pisklę złotego smoka",
+			"description": ""
+		},
+		"Gorgon": {
+			"name": "Gorgona",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Gray Ooze": {
+			"name": "Szary szlam",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Green Dragon Wyrmling": {
+			"name": "Pisklę zielonego smoka",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Green Hag": {
+			"name": "Zielona wiedźma",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Grick": {
+			"name": "Grik",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Griffon": {
+			"name": "Gryf",
+			"description": "<p><em>Token artwork by Forgotten Adventures.</em></p>"
+		},
+		"Grimlock": {
+			"name": "Grimlok",
+			"description": "<p>Grimlock are a species of subterranean monsters whom evolved from modern day humans over the course of several hundred years.  Grimlocks were formerly human cultists who worshipped dark, manipulative masters deep within the caverns beneath the world.  These dark magicians meddled magically with the minds of the cultists, turning the unexpecting stooges into little more than slaves.  In veneration to their barbarous masters, the former cultists began to turn to cannibalism as a holy sacrament in order to become closer to their false gods.  However, this enslavement and isolation transformed the humans; their skin grew pallid and grey, their hair grew in coarse patches across their craggy bodies, and due to the maddening darkness, these new creatures, the Grimlocks, lost their ability to see.  Mutated and blind, the Grimlocks were left without guidance when their masters vanished without a trace.  Grimlocks still haunt the deep places of the earth to this very day.  Grimlocks prefer to lurk within the shadows as their grey, mottled skin resembles the stone surrounding them.  From a hidden perch atop a rock they lay in wait, their calloused hands gripping clubs made of sharpened bone.  Listen closely should your journey take you into the underground, as the feverish whispers of the Grimlock venerating their fallen masters can be heard clearly echoing throughout the caverns in which they creep.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Guard": {
+			"name": "Strażnik",
+			"description": "<blockquote>\n<p>\".... an' then he tells me, he says, \"Mick! You can't think you'll pull one over on the Crown's Guard again? Not this time!\" he says. Well, ol' Mickey's got a trick or two up his sleeve for just such an occasion. Ain't no need for tricks n' chases when I've snagged an ol' bottle o' them Purple Posies spirits ol' Captain Murrnaband is always prattlin' on about. Ain't no guard as smart or handsome as Mickey Tenteeth!\"</p>\n</blockquote>\n<p>- A story overheard from The Friendly Flumph Inn</p>\n<p>Who among our realm's citizens have not yet interacted with a manner of the Guard profession during their lives? Dwellers of the coastal urban sprawl see the armored law keepers near daily as they patrol the streets, guard our gates, inspect shipments, and of course assist (or arrest) those citizens of their fair cities. However, the guard is not only bound by the gates and ramparts of a city's walls. Be they mercenary or professional, guards are often found patrolling the roads, either to sweep away stray packs of animals or bandits, or on alert to protect precious cargo or important citizens as they travel the less settled areas of the world. Much like the bandits and cultists who we have previously discussed in this tome, guards come in all varieties. Though many may seem to be highly trained and regimented, it should be considered that most guards see no more action than a tussle on the busy streets of a market or scattering a few bandit scavengers from an upturned wagon. Guards are not all the hardened and grizzled ex-military types we think of at the upper ranks of the orders. Be observant, young adventurer, and heed the warnings of the law, for while the guards may only be a minor threat to your dastardly visions, what lays in wait in the city dungeon may not be worth the risks!</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Guardian Naga": {
+			"name": "Strażnicza naga",
+			"description": "<p><em>Token artwork by Forgotten Adventures.</em></p>"
+		},
+		"Gynosphinx": {
+			"name": "Gynosfinks",
+			"description": "<p><em>Token artwork by Forgotten Adventures.</em></p>"
+		},
+		"Half-Red Dragon Veteran": {
+			"name": "Czerwony półsmok weteran",
+			"description": ""
+		},
+		"Harpy": {
+			"name": "Harpia",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Hawk": {
+			"name": "Jastrząb",
+			"description": "<p>Following from our studies of the eagle comes to the smaller yet no less deadly hawk. Another bird of prey, the hawk may be differentiated from eagle species by its smaller frame. Hawks on average weigh no more than eight pounds and have a wingspan of only five feet. These miniscule raptors bear dark brown to deep red plumage unlike the eagle's most common golden hue. Several species of these birds of prey have been observed employing different tactics in their hunting patterns as well; while the mighty eagle soars down from on high and lifts its prey off into the air with it, hawks prefer to lurk in the cover of trees, waiting for the opportune time to swoop in and surprise their prey from the shadows. Due to their keen eyesight as well as their smaller profile, hawks have been utilized as messenger birds by desert cultures for centuries. Clever and loyal, the hawk may be an option for the adventurer who prefers a raptor who enjoys the cover of shadows and stealth to aid them in their hunts.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Hell Hound": {
+			"name": "Piekielny ogar",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Hezrou": {
+			"name": "Hezrou",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Hill Giant": {
+			"name": "Gigant wzgórzowy",
+			"description": ""
+		},
+		"Hippogriff": {
+			"name": "Hipogryf",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Hobgoblin": {
+			"name": "Hobgoblin",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Homunculus": {
+			"name": "Homunculus",
+			"description": "<blockquote>\n<p>Begin your ritual in complete silence and scribe the runic circles upon the floor of your chamber in pure white chalk. Next, mold a simple poppet of your desired servant out of wet clay pulled from a local source and place the poppet into the center of your circle making sure it sits upright. Employing the use of a tool, grate your mandrake root into a fine powder and sprinkle the root mixed with both the ashes of your hearth and blood drawn fresh from your body around the runic circle rotating in a counterclockwise motion. With this completed, place your hand within the circle and speak your servant's chosen name to command it into life. Should you follow these instructions to the letter, your homunculus will spring to life in an instant.”<br /><em>- Copied from a faded page of Minions and the Menial: Your Guide to Magical Companions.</em></p>\n</blockquote>\n<p><strong>Alchemical Aids.</strong> A homunculus is a manner of minor construct not uncommon to mages and artificers. These squirrel sized companions are molded out of wads of clay and given life through a rare ritual taught to more experienced spellcasters. The homunculi have the extraordinary ability to experience the thoughts and senses of their master as the two share a special telepathic bond that may only be broken in death of if one of the parties ventures to a separate plane of existence. The homunculus is also gifted a language upon awakening and may act as a servant, spy, or even simple messenger for their master. It is not at all uncommon to see those in possession of a homunculus to utilize them in completing simple chores about their abodes so the spellcaster may focus on more tedious tasks. An odd caveat of this homunculus ritual is that the spellcaster may only be in possession of one clay companion at a time; should the caster attempt to create a new homunculus the process with always fail. Unless the creature or spellcaster dies, it will remain at the caster's side as a loyal companion for the whole of their life.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Horned Devil": {
+			"name": "Rogaty diabeł",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Hunter Shark": {
+			"name": "Rekin łowca",
+			"description": "<p>Mniejszy od olbrzymiego rekina, ale większy i silniejszy od rekina rafowego, rekin łowca poluje na głębokich wodach. Z reguły poluje samotnie, ale większość z nich może polować na tym samym obszarze. Dorosły rekin łowca mierzy 4,5-6 metrów długości.</p>\n<p></p><p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Hydra": {
+			"name": "Hydra",
+			"description": ""
+		},
+		"Hyena": {
+			"name": "Hiena",
+			"description": "<p>The hyenas who roam the grasslands and deserts of our natural world are perhaps some of the most curious non-magical creatures to exist. Hyenas resemble a medium sized dog with a short, wide muzzle and overly long neck. Adorned with patterns of spots or stripes marking their fur, to the untrained eyes a hyena would appear to be nothing more than a wild dog; however, these curious creatures are more closely related to wildcats in their behavior with fellows. Hyenas communally groom unlike several wild dog species and display similar scent marking and mating patterns as other feliforms. These sorts of behaviors build a solid community within the hyenas' pack, sowing tight knit bonds between the beasts.</p>\n<p><strong>Give Us a Smile.</strong> Hyenas display a unique characteristic in their vocalizations between the pack; instead of a yowl or bark as one would expect, the hyenas instead communicate via yips, chirps, and “laughs”. Each member of the pack has its own unique “laugh” which signals to the pack both their identity and current mood. These chittering “laughs” have given the hyena (regardless of species to commoners) the moniker of The Laughing Hyena. One should instead feel caution over joy should you hear the caterwauling yips of a hyena pack in the distance. These beasts are highly intelligent and when banded together and utilizing their preferred hunting patterns they may easily overtake a large mercantile caravan.</p>\n<p><strong>The Hungering Savagery.</strong> The hyena's most sinister aspect is their relation to the Demon Lord of the Gnolls, Yeenoghu. Gnolls, of course, resemble massive humanoid hyenas brandishing bloody weapons and sowing destruction in their horrid wakes. Finding the hyena either useful or ironic, Gnolls will bring packs of slavering hyenas with them on raids into villages or leave the beasts (which they purposefully starve) at their dens to kill any unwary explorers. Adventurers should be observant when investigating the happenings of hyenas in an area, as if the beasts seem more ravenous than expected it may be that Yeenoghu's minions are not far behind.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Ice Devil": {
+			"name": "Lodowy diabeł",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Ice Mephit": {
+			"name": "Mefit lodowy",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Imp": {
+			"name": "Diablik",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Invisible Stalker": {
+			"name": "Niewidzialny łowca",
+			"description": ""
+		},
+		"Iron Golem": {
+			"name": "Żelazny golem",
+			"description": "<p><em>Token artwork by Forgotten Adventures.</em></p>"
+		},
+		"Jackal": {
+			"name": "Szakal",
+			"description": "<p>Jackals are a species of wild dog who roam the deserts and wilting grasslands of our planet. Jackals are closely related to coyotes, the two species commonly hunt and travel through similar territories causing confusion among untrained researchers. Often a bright golden to light beige tone, the jackal's fur is marked with notable black stirpes which run horizontally in thick bands across the beasts' bodies. Jackals have a unique social structure among canids as they most often shirk life with a pack in favor of finding a singular, monogamous mate with whom they remain in a wide territory. This is not to say that some jackals do not form packs; however, it will be more common in your travels to spot a bachelor or breeding pair rather than a whole cluster of these beasts. Much like the savannah's hyenas, the jackal does not escape the skeptical eye of the trained adventurer as the warning sign of evil upon the horizon. Gifted sentience and the ability of shape-changing by the Demon Lord Graz'zt, newly created beasts dubbed Jackalweres resemble humanoid jackals in their hybrid forms. Now bound to the Demon Lord, the Jackalwere assumes the life of a slaver, plucking unsuspecting humanoids from their comfortable lives by rendering them helpless under the Jackalwere's magical, sleep inducing gaze. Beware young adventurers, for the small jackal you see feasting upon carrion by the road's edge may be the servant of a demonic overlord in magical disguise.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Killer Whale": {
+			"name": "Orka",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Knight": {
+			"name": "Rycerz",
+			"description": "<p>Rycerzami są wojownicy zaprzysieżeni władcom, zakonom regilijnym i szlachetnym sprawom. Rycerski charakter określa to, w jakim stopniu wypełnia swoją przysięgę. Wyruszając na misję lub patrolując ziemie, rycerz często zabiera ze sobą świtę obejmującą giermków i najemników, którzy są plebejuszami.</p>\n<p></p>\n<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Kobold": {
+			"name": "Kobold",
+			"description": "<blockquote>\n<p>\"... I still have the damnable sting blisters from their catapults. WASPS! WHAT CREATURE PUTS WASPS IN BAGS AND THROWS THEM AT YOU?! Next Kobold I see I'm turning to paste…\"<br />- Guard Captain Nathaniel Greenbow, interviewed for this bestiary.</p>\n</blockquote>\n<p>Kobolds are conniving, cowardly humanoids of a reptilian appearance who infest the dungeons, catacombs, and caverns of our world. Appearing as tiny dragonoids with scaled flesh and crocodile-like snouts, Kobolds are perhaps more clever than their outward appearance would lead one to believe. Within their tiny heads (as the creatures stand no more than two and a half feet tall) lies a brain churning with myriad ideas, though many include idiotically dangerous schemes. It is not uncommon for many Kobolds to perish before their first complete decade of life.</p>\n<p><strong>Mob Mentality.</strong> Kobolds, much like rodents, breed at an astonishingly quick rate as compared to other humanoid species. Egg-layers like their draconic kin, Kobolds mature rapidly upon emerging from their shells, and assume their place within the ranks of their chittering society. Even upon reaching maturity, however, the Kobold is still a weak creature causing the colonies to stick together when exploring or hunting. Though Kobolds may defeat larger foes with sheer numbers, it is often at the cost of massive casualties on the Kobold's side. This, of course, hardly deters the resentful Kobolds, who have more eggs incubating away with the next infantry reinforcements just moments away from joining the fold.</p>\n<p><strong>Launch the Centipult.</strong> Stupid yet clever, Kobolds truly excel at two things: burrow-making and creating traps for unwary adventurers. Traps, of course, are the Kobold's speciality and they take relish in littering their lairs with copious defenses hewn from the natural resources of their home. Perhaps crushing logs were torn from the rafter struts of an abandoned temple, or carnivorous insects were placed into dropping ceramic pots to smash down upon foolish intruders. Never underestimate the ability of a Kobold to find some unsuspected way to impede your progress.</p>\n<p><strong>Trade Offs.</strong> Though strong in numbers, Kobolds may be defeated in several ways. Firstly, the creatures are born and mature within near total darkness, thus the sun weakens them and blinds their sensitive eyes. Kobolds are also nigh defenseless without the aid of their allies at their backs; often a lone Kobold with attempt to scurry away should they be caught out without their pack. Greedy and determined when it comes to self-preservation, Kobolds may be easily manipulated with smooth talk or a shiny trinket to line their pockets. Draconic in nature as well, the scuttling dragonoids can be used as crude translators of the dragon's tongue should you require such services on your journey.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Kraken": {
+			"name": "Kraken",
+			"description": ""
+		},
+		"Lamia": {
+			"name": "Lamia",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Lemure": {
+			"name": "Lemur",
+			"description": "<blockquote>\n<p>Avernus, the realm of fire and blood, revealed itself to me in a wave of heat and the wails of the unfortunate. As I peered into the first circle of the Nine Hells I did spy the quarry of my search with relative ease, The Maggot Pit. Here, deep within the valley of a parched and cracking mountain range lay a pit perhaps a mile in diameter, flanked all around by devilish guards. Within the milky pit writhed millions of ghostly pale worms, biting and squirming beneath their fellows. It was here that the lowly devils did bring up cart after cart piled high with the wretched and weakened souls of the pitiful dead, who were unceremoniously prodded to the edge of the pit and thrown within the writhing “waters” below. The sight of the lamentable being that emerged from that pool haunts my visions to this very day… <br /><em>- Alaband the Curious, Mage in the Circle of the Constellar.</em></p>\n</blockquote>\n<p>Wretched and foul, the Lemure is perhaps the weakest being to emerge shrieking from the Nine Hells into our plane of existence. Lemures resemble nothing more than a living ooze which has attempted to take the form of something vaguely humanoid. A malformed head with humanoid features sits atop the puddle of a creature, its pink and rotting flesh slithering beneath two stunted arms. Only able to cry out incoherently, the Lemure acts at the whim of its infernal masters, reduced in this form to a babbling fool. These creatures are the first troops sent through to another plane as the infantry in a never ending war which the Archdevils of the Nine Hells wage upon their foes. Though the Lemure has nearly no will of its own, the creature does have the strength to return to life should it be killed within its home of the Nine Hells. Be sure to pack a fair portion of holy water or utilize a Bless incantation should you slay on of these beasts in the realm of the devils, lest it only return to life within the Maggot Pit a few days after its demise.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Lich": {
+			"name": "Licz",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Lion": {
+			"name": "Lew",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Lizard": {
+			"name": "Jaszczurka",
+			"description": "<blockquote>\n<p>“Hey there Mr. Goodberry lookie here! I done got me a new earring!” <br /><em>A gnomish resident of the swamps attaching lizards to his earlobes during my travels.</em></p>\n</blockquote>\n<p>The most common reptile who inhabits every locale from the forests to the mountain peaks is, of course, the lizard. These four legged friends are of course familiar to all whom read this tome and can come in thousands of various breeds and sizes. What makes these little reptiles so very unique (and possibly a fine form for your familiar) is their ability to cling to a multitude of surfaces. Adept at climbing, lizards may scale sheer surfaces and procure hidden vantage points from which to gaze down upon those you may wish to observe. Some varieties of lizards are also able to shift the pigmentation of their flesh, allowing for further subterfuge options! However, the humble lizard does not provide much in the way of offense as their bite is nothing more than a nuisance to most humanoids. The lizard is perhaps best left to the shadows, where it may observe the world unseen for its clever master.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Lizardfolk": {
+			"name": "Jaszczuroczłek",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Mage": {
+			"name": "Czarodziej",
+			"description": "<p>Czarodzieje spędzają życie na studiowaniu i praktykowaniu magii. Czarodzieje o dobrych charakterach bywają doradcami władców i możnych, podczas gdy źli żyją w odosobnieniu, by bez przeszkód przeprowadzać straszliwe eksperymenty.</p>\n<p></p>\n<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Magma Mephit": {
+			"name": "Mefit magmowy",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Magmin": {
+			"name": "Magmin",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Mammoth": {
+			"name": "Mamut",
+			"description": "<p>Mamut to słoniopodobne stworzenie o gęstym futrze i długich kłach. Mamuty, bardziej wytrzymałe niż zwykłe słonie, zamieszkują szeroki zakres stref klimatycznych, od subarktycznego do subtropikalnego.</p>\n<p></p><p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Manticore": {
+			"name": "Mantikora",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Marilith": {
+			"name": "Marilith",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Mastiff": {
+			"name": "Mastif",
+			"description": "<p>Mastiffs are a large, muscular breed of loyal canine who are often found standing dutifully at their Master's side or guarding precious cargo upon less secure roads. Standing tall with a soft, tan coat, Mastiffs are often identified by their wrinkled and jowly face, the jaws of which are constantly oozing a steady stream of hot drool. Mastiffs are intelligent companions who can be trained from an early age as guard and hunting animals. Armed with stout jaws lined with deadly sharp teeth, a Mastiff is certainly a worthy challenge for any bandit who dares to run afoul the dog's Master. I have even observed these dogs working as beasts of burden and comfortable mounts for the smaller folk (halflings and gnomes) of the countryside. Here, the Mastiff replaces the horse in such duties as pulling carts, working as plow animals, and delivering parcels as swift courier beasts. Should you need a companion not bent towards droning conversation, perhaps indulge in a Mastiff to keep you company upon the lonely roads of our world. Just… watch out for the drool.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Medusa": {
+			"name": "Meduza",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Merfolk": {
+			"name": "Morzan",
+			"description": "<p>Adorned in shells and brightly hued aquatic plants, the Merfolk who inhabit the oceans of our world are truly unique in their evolution. Though many modern researchers do not abide by this tale, it is rumored that Merfolk evolved from a colony of humans whose city sank below the waves in a catastrophic accident. The Merfolk themselves, however, choose neither to confirm or deny this tale. Very basically, Merfolk resemble an average humanoid with a few key differences. Where one would expect to find legs beneath the torso of a human, they would instead find the powerful tail of a relatively sized fish. Merfolk also have frilled gills adorning their necks allowing them to breathe the salty waters of the ocean's depths. Several additional fins grace the Merfolk's lithe body about the biceps and hips. Upon the Merfolk's humanoid head rests a single, large frill webbed by translucent skin which may raise or fold back depending on the Merfolk's mood.</p>\n<p><strong>Murmaider.</strong> Merfolk live along the coastal waters of continental shelves, rarely allowing themselves to drift down into the darker depths of the ocean's abyss. Here in the more shallow tides, the Merfolk build their homes into thriving coral reefs, labyrinthian undersea caverns, and even the hollowed out remains of once coastal cities or sunken vessels. Anywhere shrouded from the view of prying land-dwellers makes the perfect home for a Merfolk. The Merfolk's reclusiveness is so well known, that mariners would tell fanciful tales of meeting a Merfolk for a midnight tryst, only to be abandoned at sunrise by the elusive creature. Most of the mariner's fellows would shove the notion aside, having never seen a living or dead Merfolk in all their years at sea. This is not to say that Merfolk will flee from intruders should an unfortunate landlubber find their way into a Merfolk's abode. Armed with spears of sharpened coral and powerful webbed hands ending in dagger-like barbs the Merfolk are well equipped to defend themselves within their aquatic homes. Take care on the open seas, adventurer, and never run afoul of the Merfolk.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Merrow": {
+			"name": "Merrow",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Mimic": {
+			"name": "Mimik",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Minotaur": {
+			"name": "Minotaur",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Minotaur Skeleton": {
+			"name": "Minotaur szkielet",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Mule": {
+			"name": "Muł",
+			"description": "<p>Mules are sturdy beasts of burden whom thrive in any climate of our marvelous world. The offspring of a horse and donkey, the now sterile, stubborn mule provides a plentiful sum of benefits from both of its progenitors. Mules can be difficult to tell apart from the common donkey; however, they are easily identified by several features: Mules are taller on average than a donkey with a flatter spine and shorter ears in comparison to a donkey's notoriously floppy ears. Something they retain from their parents is their surefooted nature, allowing mules to pass through difficult terrain such as muddy trails and rocky outcrops with more ease than other beasts. Beware the ass-end of this quiet creature, however, as mules have a mighty kick which they can deliver at force behind themselves much like a horse. Mules make excellent beasts of burden for the traveling merchant or road-bound adventuring party who needs an extra hoof or four to carry along their well-earned spoils. Why not take a mule, young adventurer, should you wager your next gambit at the hands of the goblins will provide you with ample reward?</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Mummy": {
+			"name": "Mumia",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Mummy Lord": {
+			"name": "Mumia władca",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Nalfeshnee": {
+			"name": "Nalfeshnee",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Night Hag": {
+			"name": "Nocna wiedźma",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Nightmare": {
+			"name": "Koszmar",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Noble": {
+			"name": "Szlachcic",
+			"description": "<p>Nobles, those of our nations born with a silver spoon in their mouths and the wealth with which to buy influence and power across the world. Nobles can run the gamut of humanoid races, so long as these folks have the wealth to back up their claim to a noble title. Not all nobles are born into wealth however; in rare cases nobles may earn their status by dedicated work to the lords of their regions or by simply having titles given to them via friends finding themselves in positions of power. Through all of the perfume and powders adorning a noble's body, no stink is so ever present as that of corruption wafting just below the flowery mask.</p>\n<p><strong>Entourage.</strong> Nobles rarely travel alone outside of their massive estates, prefering to be flanked by a retinue of trained bodyguards and faithful servants. This should always be kept in mind when dealing with nobles; there is never simply the nobleman/woman alone beyond their estate walls. Should a brigand be fearsome enough to make it through the noble's well-paid defenses, the monied elite is certainly a force to be reckoned with. Noble-birthed children receive some of the finest martial training in the land from an early age and are well equipped to strike back with sword or rapier. Keep an eye on your own footwork should you misstep and leave yourself open to a noble's well practiced parry. Be mindful of whom you may approach in a fight, as a noble has so much more to offer than their warm blood spilt carelessly upon the earth.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Ochre Jelly": {
+			"name": "Zółta galareta",
+			"description": "<p> </p>"
+		},
+		"Octopus": {
+			"name": "Ośmiornica",
+			"description": "<p>A highly developed sea creature, the octopus is a common fixture of the seas and coastlines. These octopods resemble nothing more than a wet piece of bulbous taffy with eight sprawling tentacles slithering out of its central body. Upon this gelatinous body lie two observant eyes and were one to look underneath the creature they would find a sharpened bird-like beak ready to steal a probing finger away. Octopi are solely waterborne animals due to their inability to breathe air, though with effort they may remain upon land for very short durations. Sailors find pleasure in attempting to take these intelligent beasts for pets, only to find that the octopus has escaped whatever confines it was stored in time and time again. As long as an opening is as wide as its hard chitinous beak, the moldable octopus' body will follow into inconceivably tight spaces.</p>\n<p>Many breeds of octopus also bear special pigmentation cells which expand and contract to change their body's color. This provides the octopus with an advantage when hunting for its prey of fish and crabs as they can blend in almost seamlessly with the ocean floor or a bed of coral. Rather than outright fight (unless left with no choice) the octopus has the unique defense of spraying a cloud of ink from the underside of its body to blind its foes and make a speedy escape. Do consider the octopus as a worthy familiar form should you find yourself at sea for an extended time!</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Ogre": {
+			"name": "Ogr",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Ogre Zombie": {
+			"name": "Ogr zombie",
+			"description": ""
+		},
+		"Oni": {
+			"name": "Oni",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Orc": {
+			"name": "Ork",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Otyugh": {
+			"name": "Otyugh",
+			"description": "<p>An otyugh is a grotesque, bulbous creature borne along on three sturdy legs, its eyes and nose set along a vine-like stalk that snakes from the top of its bloated body. Two rubbery tentacles end in spiky, leaf-like appendages that the otyugh uses to shovel food into its gaping maw. An otyugh buries itself under mounds of offal and carrion, leaving only its sensory stalk exposed. When an edible creature happens by, the otyugh's tentacles erupt from the filth and grab hold of it. Otyughs make the most of any opportunity to ambush and devour prey. They use a limited form of telepathy to urge sentient creatures toward their lairs, sometimes by pretending to be something else.</p>\n<p><strong>Dwellers in Darkness.</strong> Otyughs tolerate bright light only when considerable stores of carrion or garbage lie within reach. In the wilderness, they dwell in stagnant swamps, scum-filled ponds, and damp forest dells. The scent of graveyards, city sewers, village middens, and manure-filled animal pens attracts them to civilized areas. Since otyughs lack concern for anything but food, their nests sometimes accumulate a variety of treasures shed from their victims and mixed among the junk.</p>\n<p><strong>Symbiotic Guardians.</strong> Sentient subterranean beings can coexist with otyughs, employing them as garbage disposals. With such plentiful sustenance, otyughs grow fat in their wallows, unmoved by any other drive or desire. This sedentary gluttony makes them reliable guardians. As long as it is fed, an otyugh refrains from attacking other creatures. However, would-be otyugh masters can easily underestimate the quantity of waste, carrion, and meat necessary to keep an otyugh from wandering off in search of food. More than one \"trained\" otyugh has eaten its keeper after devouring all the waste in its wallow.</p>"
+		},
+		"Owl": {
+			"name": "Sowa",
+			"description": "<p>Owls are staple birds within our realm, as their mysterious gaze and quiet nature lends them as favorite pets to those of the arcane world. Owls are medium-sized birds of prey with flat, disk shaped faces and large dark eyes. A sharp beak sits at the center of their ovular face, built for tearing the flesh of small rodents. As deadly as they are silent, owls are nocturnal beasts who hunt from the shadows of treetops, barn lofts, or simply high above in an open field. Owls are able to fly in near silence due to a set of specialized feathers along their wing-tops, giving them the ability to glide down and surprise an unsuspecting vole without ever being heard. Owls are not the most sociable creatures, preferring to keep to their roosts in solitude making them treasured by arcanists as the bird primarily sits quietly throughout the day, lost in sleep. Owls also have a unique vocalization among birds, emitting a mournful hoot-hoot sound rather than the typical songbird tweeting. Perhaps consider the owl should you be uninterested in sociable animals or if you wish to send messages in relative secrecy in the dead of night.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Owlbear": {
+			"name": "Sowoniedźwiedź",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Panther": {
+			"name": "Pantera",
+			"description": "<p>Panthers are large stealthy jungle cats who tread silently and ambush their quarry from the cover of the shrouded jungle foliage.  Coming in coat varieties of tawny and yellow splotches to pure, midnight black, panthers are characterised by their sleek, short haired bodies and large canine teeth utilized for piercing and tearing.  These cats come armed with a full set of retractable claws at the end of muscular paws the size of dinner plates.  Panthers are among the deadliest predators lurking within the jungle.  Though stealthy, panthers may be easily scared away by persistent humanoids if the beast is not defending a fresh kill as the creature knows when to fight and when to flee should the odds not be in the panther's favor.  Panthers are swift climbers as well and have the ability to haul a fully grown antelope corpse up and into a tree to be consumed in privacy.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Pegasus": {
+			"name": "Pegaz",
+			"description": ""
+		},
+		"Phase Spider": {
+			"name": "Pająk fazowy",
+			"description": "<p>Pająk fazowy posiada magiczną zdolność do wchodzenia i wychodzenia ze Sfery Eterycznej. Pojawia się znikąd i szybko znika po zaatakowaniu. Jego ruch w Sferze Eterycznej przed powrotem na Sferę Materialną sprawia wrażenie, jakby mógł się teleportować.</p>\n<p></p><p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Pit Fiend": {
+			"name": "Piekielny czart",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Planetar": {
+			"name": "Planetar",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Plesiosaurus": {
+			"name": "Plezjozaur",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Poisonous Snake": {
+			"name": "Wąż jadowity",
+			"description": "<p>Snakes rank among the most plentiful and diverse reptiles to slither across our planet's surface. Resembling nothing more than a scaly worm at first look, snakes are actually highly developed predators who slither across the ground in order to stealthily hunt their prey of smaller reptiles, rodents, and birds. Though there are many species of snake, we will only discuss the poisonous varieties within this article. Poisonous snakes bear a marked identifier separating them from their nonpoisonous brethren: the shape of their pupils. While snakes lacking venom glands have rounded pupils, those snakes with a venomous bite have slitted pupils much like those of a common domestic cat. The devious snake, however, has so much more beneath its scaly surface.</p>\n<p><strong>Don't Tread on Me.</strong> Ever camouflaged both by their similarities to roots, sticks, or branches as well as the marvelous patterns of black, browns, greens, and tans speckling their hides, snakes are masters of blending into their surroundings. Even perched on a rock to warm their bodies in the heat of the sun, snakes can certainly be missed by just a passing glance. While the creature's eyesight is relatively poor, snakes have adapted an amazing ability to sense the world around them. Snakes \"smell\" with their tongues! Yes, by flicking their tongues out of their mouths with a fascinating flourish, these reptiles are able to smell prey or predators in their environment by collecting the miniscule scents on their tongues. Within the snake's mouth lies its most deadly asset in the form of two, hollow fangs. Snakes prefer to strike from the shadows, allowing their quiet method of travel to get them close enough to their prey to avoid a fight. The creature then lashes out in the blink of an eye, catching the unwary prey in their jaws while injecting them with a controlled dose of highly toxic venom through their hollow fangs. Then it's only a matter of moments until the poor creature is left dead by the snake's potent toxins. While the majority of snake species are not deadly to humanoids, caution is advised for those not well versed in identifying reptiles. Antidote should always be carried in areas known to house populations of poisonous snakes, just in case.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Polar Bear": {
+			"name": "Niedźwiedź polarny",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Pony": {
+			"name": "Kucyk",
+			"description": "<p>Sturdy and dutiful, ponies represent a small fraction of the horse breeds currently catalogued. It should be clear that for all identification purposes, ponies are not young horses. Ponies are classified by the naturalists of our lands as any horse who is under a height of 14 hands total. Thus, ponies are simply nothing more than small horses. Ponies often make treasured gifts to the children of upper class society as they are prized for their beauty and calm demeanor. Ponies are also used by the small folk of the realm in a way very similar to how a human would utilize a full-sized horse. It seems the relative scale of the pony is quite pleasing to the halflings and gnomes. I would thus ask you to look for our entries on draft horses, war horses, or simply horses to learn more about the varieties of horses who are described there in further detail.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Priest": {
+			"name": "Kapłan",
+			"description": "<p>Kapłani przynoszą nauki swoich bogów do zwykłych ludzi. Są duchowymi przywódcami świątyń i sanktuariów i często zajmują wpływowe stanowiska w swoich społecznościach. Źli kapłani mogą otwarcie pracować z tyranami albo mogą być przywódcami ukrytych sekt religijnych pośród dobrych społeczności, nadzorując nieczyste rytuały.</p>\n<p>Kapłan zazwyczaj ma jednego lub więcej akolitów, którzy pomagają w ceremoniach religijnych i innych świętych obowiązkach.</p>\n<p></p><p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Pseudodragon": {
+			"name": "Pseudosmok",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Purple Worm": {
+			"name": "Purpurowy czerw",
+			"description": ""
+		},
+		"Quasit": {
+			"name": "Quasit",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Quipper": {
+			"name": "Quipper",
+			"description": "<blockquote>\n<p>There was a rumor, started by some Svirfneblin culture centuries ago, which stated a swarm of hungry quippers could devour an entire horse in under a minute. No one has yet volunteered to sacrifice their beast to the swarm to test this boast to date.<br /><em>- A note on my studies in the Underdark.</em></p>\n</blockquote>\n<p>The Quipper is a variety of carnivorous fish found in almost any body of water regardless of location. Approximately the size of an adult human's fist, these tiny beasts are ravenous when they sense any scrap of food is nearby. The quipper's jaw is lined with a jagged row of dagger-sharp teeth which they use to strip flesh from bones at lightning speed. The quipper's ability to see even within the darkness of a frigid cavern lake makes them extremely deadly to the unwary traveler who takes an accidental plunge into the darkened waters. Though it is not entirely unheard of to see quippers on their own it is far more common that they travel in swirling swarms. These clouds of razor-toothed fish can sense blood in the water from great distances, able to sniff a single drop of the life giving fluid in over 200 liters of water. I suggest that any adventurer steer well clear of any water they are not certain is free of quippers.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Rakshasa": {
+			"name": "Rakshasa",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Rat": {
+			"name": "Szczur",
+			"description": "<p>Denizens of filth, scavengers in our sewers, and vectors of contaigens, no singular animal may present such impact upon humanoid life as does the rat. Common place from the sprawling urban metropolis to the tiny barn of a poor farmer, rats inhabit every nook and cranny they may scurry in to. These small rodents, who can range in size from no bigger than your palm to the length of a forearm (with tail included) are quite ingenious little thieves. Rats are able to compress their bodies in such a manner that they can fit through spaces as small as the gap in the bottom of your door. Able to swim and navigate in the dark, some rats have been observed climbing out of small plumbing pipes, having scampered through the length of the tunnel to make it inside a merchant's abode.</p>\n<p><strong>Rats Off to You.</strong> While many may dismiss the rat as nothing more than a common pest, even those not utilized as magical familiars are highly intelligent little creatures. Researchers have observed rats completing complex mazes, solving lever-action puzzles, and understanding the world around them to a degree unseen in other animals. A clever street-dweller could certainly train a rat to filch food or a few shiny coins from an unwatched coin purse, should the rat get adequate reward itself. Do be wise in your selection of companion, however, as some rats carry deadly diseases from insects that nestle in their short fur. Along with its sharp, clinging claws, the rat packs a powerful bite thanks to its elongated incisor teeth. Be observant, young hero, should you see a rat nearby, for the simple creature may house a secret within its black, unblinking eyes.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Raven": {
+			"name": "Kruk",
+			"description": "<p>Ah yes, a personal favorite of this author, the raven is a singularly noble and clever bird vested in a shroud of twilight. The ebony feathered bird reaches height of nearly two and a half feet tall and bears a thick, dark beak which is perfectly utilized in its scavenging diet of carrion, unattended grains, and insects. However, something truly special lurks behind the dark abyss of this bird's eyes. Should you be prepared, adventurer, the effort put into training the raven will be given back tenfold.</p>\n<p><strong>Musings and Mimicry.</strong> Ravens are unique specimens among birds; by listening intently and practicing often the raven is able to mimic sounds it hears perfectly. From noises of forest animals to the precise timbre of their master's call, ravens are among the most seamless mimics to be found in the animal kingdom. Truly adventurer, the possibilities to employ the raven's mimicry are nearly limitless! You may see another example of this perfect mimicry in a larger cousin to this bird as well: the humanoid Kenku. Raven-like in form these little humanoids share the feathers and large beaks of their brethren, as well as their ability to copy the sounds of the world around them. Consider a second listen when you hear a voice but cannot place its location, for perhaps the raven speaks from the rafters above you, upon a midnight dreary.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Red Dragon Wyrmling": {
+			"name": "Pisklę czerwonego smoka",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Reef Shark": {
+			"name": "Rekin rafowy",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Remorhaz": {
+			"name": "Remorhaz",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Rhinoceros": {
+			"name": "Nosorożec",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Riding Horse": {
+			"name": "Koń",
+			"description": "<blockquote>\n<p>Koń jest koniem, nie gryzoniem.<br /><em>Księga rymów Dolana Dullarda. </p>\n</blockquote>\n<ul>\n<li><em>Obraz Tokena autorstwa Forgotten Adventures.</em></li>\n<li><em>Wpis do bestiariusza autorstwa Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Roc": {
+			"name": "Rok",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Roper": {
+			"name": "Powroźnik",
+			"description": "<p>Powroźniki to podziemni łowcy, którzy ewoluowali, przybierając wygląd podziemnych stalagmitów bądź stalaktytów. Powroźniki czekają, aż żywe istoty zbliżą się do nich, po czym rzucają ku nim wysunięte macki, które oplatają cel i wysysają z ofiar siły. Powroźnik wciąga swoją ofiarę w wielką paszczę, aby powoli ją skonsumować.</p>\n<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Rug of Smothering": {
+			"name": "Duszący dywan",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Rust Monster": {
+			"name": "Rdzewnik",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Saber-Toothed Tiger": {
+			"name": "Tygrys szablozębny",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Sahuagin": {
+			"name": "Sahuagin",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Salamander": {
+			"name": "Salamandra",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Satyr": {
+			"name": "Satyr",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Scorpion": {
+			"name": "Skorpion",
+			"description": "<p>Scorpions are one of nature's odd mismatches of evolution which then successfully thrives within our natural world. Cousin to the common spider, a scorpion bears nearly no resemblance to the web-spinner beyond its eight legs. Scorpions host a segmented body that culminates in a long, knob-ended tail bearing a needle-like stinger upon its end. This stinger bears a venomous toxin which can range from mildly irritating to direly deadly depending upon the species. At the other end of the scorpion's body lay two crab-like claws that aid it in gripping prey while the scorpion's venom works through the unfortunate insect's body.</p>\n<p><strong>Chitin and Hate.</strong> Scorpions may live in a variety of environments, but they are most numerous in deserts and dusty plains. These little arachnids find solace from the harsh rays of the sun within scrub brush, under rocks, and within stolen burrows deep below the earth. From these nestled hideouts the scorpion can quickly lash out at any unsuspecting morsel who wanders into their domain. Make doubly sure to carry an antitoxin in your pack when venturing out into the desert, adventurer, for within a hero's sturdy boots is one of the scorpion's favorite places to hide.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Scout": {
+			"name": "Zwiadowca",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Sea Hag": {
+			"name": "Morska wiedźma",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Sea Horse": {
+			"name": "Konik morski",
+			"description": "<p>Seahorses are one of the most docile and beautiful creatures in all of our oceans. Seahorses sport a narrow, long body ending in a curled tail with which they cling to sea plants. The seahorse's head is long and narrow (resembling its land-dwelling namesake) tipped with a flute-like nose. Seahorses lack many of the supportive fins in comparison to other sea creatures, rather they have one long fin along their spine and two miniscule fins on opposite sides of their torsos which allow the tiny creatures to propel themselves through the water. Unfortunately these docile creatures do not make the best familiar choices as they only inhabit tropical, shallow waters to utilize the cover of corals for protection. Seahorses should be observed and enjoyed, but I would advise endangering your familiar by placing it into this beautiful little form.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Shadow": {
+			"name": "Cień",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Shambling Mound": {
+			"name": "Gnilec",
+			"description": ""
+		},
+		"Shield Guardian": {
+			"name": "Tarczownik",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Shrieker": {
+			"name": "Wrzaskun",
+			"description": "<p>Shriekers are the most common natural alarm systems found deep within the caverns of the Underdark. Shriekers are massive, humanoid sized mushrooms with porous caps bearing an off-white coloration. Should the Shrieker remain completely still, no observer save those versed in Underdark mycology would notice that this fungus serves another purpose. Upon coming into contact with the Shrieker (typically within a distance of thirty feet) the mushroom will emit a loud, high pitched screech which can alert any creature within three hundred feet in all directions. Tread with caution through the mushroom patches of the Underdark adventurers, should stealth fail you, the Shrieker will be there to alert any foe within earshot!</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Silver Dragon Wyrmling": {
+			"name": "Piskę srebrnego smoka",
+			"description": ""
+		},
+		"Skeleton": {
+			"name": "Szkielet",
+			"description": "<blockquote>\n<p>The first time you see those hollow sockets staring back at you with some semblance of thought inside the skull, I advise to quash any feelings of accomplishment.  The skeletal servant you have raised is little more than a brainless husk.  Without proper, and I mean proper, instruction, the bones in front of you might as well have remained dusty upon the floor.  Explain the orders carefully and lay out the steps of your new servant's tasks with exceeding care.  Also, should you catch your skeletal friend partaking in the activities of their former life, do not scold them.  The mundane routine of chopping wood or swinging a hammer can allow for more malleable servants as time continues.<br /><em>The Book of Dark Servants, Vol III.</em></p>\n</blockquote>\n<p>Skeletons are beings raised into undeath by the will of necromantic magic.  The necromantic magics used within the ritual can either be cast by a trained hand or simply seep into the bones of the skeleton in areas of concentrated death.  Cemeteries, catacombs, and battle fields are all subject to the sporadic rising of skeletons into their new lives.  The magic not only keeps the skeleton “living”, but it also binds joints and bones together like spectral ligaments.  With its second life, the skeleton acts as a semi-mindless creature serving its master's will.</p>\n<p><strong>Spooky Scary.</strong> For the up and coming necromancer, skeletons make worthy guards for a hidden repository of forbidden knowledge.  Skeletons will follow simple to mildly complex orders given (such as forming a protective circle or constructing minor defenses) without the necromancer needing to worry about the durability of their creations.  The skeletons will avoid danger and refuse to injure themselves unless explicitly ordered by their master.  Skeletons do seem to grow rather bored without direction and have been observed ambling around an area performing simple actions from their past lives.  One notable skeleton I recall was still able to cast their fishing line, though clumsily at best, into the nearby lake.  Skeletons, however, are not utilized for their prior skills but as guardians of the necromancer who summoned them back from the hells.  Skeletons are more than capable when swinging a sword or firing a crossbow, finding martial prowess in death that they may have lacked in life thanks to the dark power flowing through their marrow.</p>\n<blockquote>\n<p>Author's Note: Not all skeletal adversaries in an adventurer's journey will be humanoid.  Be wary, as significant magics can summon back more powerful skeletal monsters.</p>\n</blockquote>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Solar": {
+			"name": "Solar",
+			"description": ""
+		},
+		"Specter": {
+			"name": "Widmo",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Spider": {
+			"name": "Pająk",
+			"description": "<p>Spiders are one of the smallest, yet most feared, denizens of our planet. Spiders are arachnids with eight thin legs protruding from their dual-segmented body. Atop the spider's tiny head are eight glistening eyes with which it views the world in relative obscurity. While the spider's eyesight may be poor regardless of the number of eyes, they have a clever trick up their sleeves: the spider's web!</p>\n<p><strong>Some Bug.</strong> Ingenious little architects, spiders produce a silken thread from their rears dubbed “webbing” which they use to construct elaborate homes. Resembling something of a net, the spider's web serves a dual purpose: to capture food upon its sticky surface and to give the spider a safe place to perch away from predators. Once an insect is trapped within the web, the spider quickly wraps the unsuspecting creature in a bundle of webbing, saving its prize for later consumption. While all spiders are venomous in some capacity, many will not be harmful to the adventurer on their travels. Simply avoid webs where you see them and be quite sure that the web which you see only belongs to a standard spider species, as a plethora of gigantic and magical varieties also lurk within similar webs!</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Spirit Naga": {
+			"name": "Duchowa naga",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Sprite": {
+			"name": "Chochlik",
+			"description": "<p>Related to the fey pixie who dances merrily through sunlit glades, Sprites resemble their more fanciful kin in size only.  Sprites are tiny humanoids held aloft by a pair of dragonfly's wings who inhabit glades dappled with mushrooms, wild flowers, and occasionally fellow fey creatures such a living trees whom allow the Sprites to construct villages within their ample boughs.  Here in the bosom of nature's serenity the Sprites exist with one purpose: protect their home at all costs.  Unlike their Pixie kin, Sprites are fearsome warriors and adept poison crafters willing to lay down their lives to protect their glade.  Should an intruder enter into their territory, the Sprites will take to the trees and bushes causing all manner of racket in an attempt to scare off the intruder without conflict.  If the intruder remains, they will dart out and surround the invader, filling it with poison tipped arrows.  The poison is not deadly, rather, it renders the victim unconscious so the Sprites may flee to a safer location within the forest.</p>\n<p><strong>Closer to the Heart.</strong> While Sprites make fearsome warriors, they are not without reason in analyzing their enemies.  Upon rendering a creature unconscious, the Sprite can touch the creature and learn the true nature of the creature's heart, be they good or evil, by “seeing” their heart.  As the heart never lies, the Sprite can make keen judgements about the creature's intentions and determine if they are truly a threat using this “heart sight”.  In some instances, Sprites have been known to ally themselves with good natured creatures, especially if that creature has come to topple an evil-aligned fey creature in their forest home.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Spy": {
+			"name": "Szpieg",
+			"description": "<p>Władcy, szlachta, kupcy, mistrzowie gildii i inni bogacze korzystają z usług szpiegów, by zdobyć przewagę w świecie bezwzględnej polityki. Szpieg jest szkolony, by potajemnie zbierać informacje. Lojalni szpiedzy wolą umrzeć niż ujawnić informacje, które mogłyby narazić ich samych lub ich pracodawców na szkodę.</p>\n<p></p><p><em>Obraz Tokena autorstrwa Forgotten Adventures.</em></p>"
+		},
+		"Steam Mephit": {
+			"name": "Mefit parowy",
+			"description": "<p>Mephits are tiny, humanoid creatures who hail from the elemental planes.  As chaotic as their homeland, mephits are similar in nature to devilish imps and thrive in places where they can sew discord and oppress others of their kind.  Steam mephits are an amalgamation of both water and fire mephits who consider themselves to be the most superior of all mephit varieties.  The shrill little creatures stand only a foot or so in height, their body composed of living steam coalesced into a spindly humanoid form, one end tapering into a pointed beak-like nose.  These mephits hail from the plane set between the elemental plane of fire and elemental plane of water.  This “steam plane” is a boiling, humid world marred by pocked and barren rocky outcrops jettisoning geysers of steam hundreds of feet into the air.  A human unprotected in this environment would see their skin blister away right before their eyes boil from their sockets like runny eggs.  To the steam mephit, however, this is a paradise.  Steam mephits are skilled in very minor magics used to aid them in their tenuous existence on the plane of steam.  The mephit is also able to unleash a small jet of superheated steam from its mouth to scald its enemies should it need to.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Stirge": {
+			"name": "Żądlak",
+			"description": "<p>Stirges are foul little nasties who lurk deep within caverns and catacombs. Stirges resemble nothing more than a slightly oversized bat crossed with a mosquito; however, upon closer inspection the Stirge reveals much more. Coated in greasy, pink flesh (save for a small tufted mane of white fur about its head and neck) the Stirge is equipped with a pair of small, bat-like wings made of stretched flesh between struts of thin bone. The skin here at the wing is so thin that light may easily shine through the beast's wings revealing the tiny vesicles within. Stirges also possess a set of six, spindly legs above their pig-like tail. Each leg is tipped with a set of hooked claws which allows the fiend to grip into the flesh of its prey and hang on should a struggle ensue. However, there is one more feature that makes the Stirge truly repugnant.</p>\n<p><strong>What's Your Type?</strong> Stirges are notable for their ravenous desire to consume the blood of living organisms. These beasts accomplish this foul act with aid from the needle-sharp proboscis waiting at the end of its oversized snout. Gifted with the ability of flight, the Stirge dives down upon an unsuspecting enemy and clamps onto their body with the aid of their barbed claws. The Stirge then drives its proboscis into their victim's flesh, sucking out ounce after ounce of warm blood. Only when the Stirge is sufficiently sated (or battered away) will it release its victim to flee into the darkness where it may digest its liquid lunch. Act fast if Stirges are in the area, lest a swarm of them suck you dry before you have time to react.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Stone Giant": {
+			"name": "Gigant kamienny",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Stone Golem": {
+			"name": "Kamienny golem",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Storm Giant": {
+			"name": "Gigant burzowy",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Succubus/Incubus": {
+			"name": "Sukub",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Swarm of Bats": {
+			"name": "Rój nietoperzy",
+			"description": "<blockquote>\n<p>Author's Note:  Please see below the entry for “Bat” which will suffice for the description of this creature.  Please note that “Swarms” function slightly differently in combat than singular creatures.  Please use the rules for “Swarms” befitting your particular game system.</p>\n</blockquote>\n<p>Bats are a common fixture within the secluded forests and lightless caverns of our world.  Bats are a nocturnal creature prized by arcanists for their ability to navigate terrain in near total darkness.  This alone makes them a prized choice for a summoned familiar.  Varying from the size of a mouse to that of a house cat, bats have a unique feature amongst mammals: the gift of flight!  Stretched thin between needle-thin boney “hands” are fleshy membranes which span out wide from the bat's delicate body, allowing the bats to take to the skies in search of insects and woodland fruits to indulge upon.</p>\n<p><strong>Chitter Chatter.</strong> Presumed blind by many from nonsense tales told to children, bats have eyesight nearly akin to our own, though notably less sharp.  What makes these creatures truly unique is their ability to navigate in the pitch black of night.  The bats utilize a series of chirps and screeches researchers have dubbed “echolocation” to pinpoint objects or prey within their flightpath.  The echolocation chirps emitted by the bats bounce back towards the tiny creature's proportionally massive ears, allowing the bats to make split second corrections to their navigations without the aid of their eyes.  It should be again noted that the bat makes a clever familiar choice, as they may navigate those places too dim and dangerous for our mortal eyes</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Swarm of Beetles": {
+			"name": "Rój pszczół",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Swarm of Centipedes": {
+			"name": "Rój stonóg",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Swarm of Insects": {
+			"name": "Rój insektów",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Swarm of Poisonous Snakes": {
+			"name": "Rój jadowitych węży",
+			"description": ""
+		},
+		"Swarm of Quippers": {
+			"name": "Rój quipperów",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Swarm of Rats": {
+			"name": "Rój szczurów",
+			"description": "<blockquote>\n<p>Author's Note:  Please see below the entry for “Rat” which will suffice for the description of this creature.  Please note that “Swarms” function slightly differently in combat than singular creatures.  Please use the rules for “Swarms” befitting your particular game system.</p>\n</blockquote>\n<p>Denizens of filth, scavengers in our sewers, and vectors of contaigens, no singular animal may present such an impact upon humanoid life as does the rat.  Common place from the sprawling urban metropolis to the tiny barn of a poor farmer, rats inhabit every nook and cranny they may scurry in to.  These small rodents, who can range in size from no bigger than your palm to the length of a forearm (with tail included) are quite ingenious little thieves.  Rats are able to compress their bodies in such a manner that they can fit through spaces as small as the gap in the bottom of your door.  Able to swim and navigate in the dark, some rats have been observed climbing out of small plumbing pipes, having scampered through the length of the tunnel to make it inside a merchant's abode.</p>\n<p><strong>Rats Off to You.</strong> While many may dismiss the rat as nothing more than a common pest, even those not utilized as magical familiars are highly intelligent little creatures.  Researchers have observed rats completing complex mazes, solving lever-action puzzles, and understanding the world around them to a degree unseen in other animals.  A clever street-dweller could certainly train a rat to filch food or a few shiny coins from an unwatched coin purse, should the rat get adequate reward itself.  Do be wise in your selection of companion, however, as some rats carry deadly diseases from insects that nestle in their short fur.  Along with its sharp, clinging claws, the rat packs a powerful bite thanks to its elongated incisor teeth.  Be observant, young hero, should you see a rat nearby, for the simple creature may house a secret within its black, unblinking eyes.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Swarm of Ravens": {
+			"name": "Rój kruków",
+			"description": "<blockquote>\n<p>Author's Note:  Please see below the entry for “Raven” which will suffice for the description of this creature.  Please note that “Swarms” function slightly differently in combat than singular creatures.  Please use the rules for “Swarms” befitting your particular game system.</p>\n</blockquote>\n<p>Ah yes, a personal favorite of this author, the raven is a singularly noble and clever bird vested in a shroud of twilight.  The ebony feathered bird reaches height of nearly two and a half feet tall and bears a thick, dark beak which is perfectly utilized in its scavenging diet of carrion, unattended grains, and insects.  However, something truly special lurks behind the dark abyss of this bird's eyes.  Should you be prepared, adventurer, the effort put into training the raven will be given back tenfold.</p>\n<p><strong>Musings and Mimicry. </strong> Ravens are unique specimens among birds; by listening intently and practicing often the raven is able to mimic sounds it hears perfectly.  From noises of forest animals to the precise timbre of their master's call, ravens are among the most seamless mimics to be found in the animal kingdom.  Truly adventurer, the possibilities to employ the raven's mimicry are nearly limitless!  You may see another example of this perfect mimicry in a larger cousin to this bird as well: the humanoid Kenku.  Raven-like in form these little humanoids share the feathers and large beaks of their brethren, as well as their ability to copy the sounds of the world around them.  Consider a second listen when you hear a voice but cannot place its location, for perhaps the raven speaks from the rafters above you, upon a midnight dreary.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Swarm of Spiders": {
+			"name": "Rój pająków",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Swarm of Wasps": {
+			"name": "Rój os",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Tarrasque": {
+			"name": "Tarrasque",
+			"description": ""
+		},
+		"Thug": {
+			"name": "Zbir",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Tiger": {
+			"name": "Tygrys",
+			"description": "<p>Obalenie. Jeśli bezpośrednio przed trafieniem pazurami tygrys pokona przynajmniej 6 metrów w linii prostej w kierunku celu, to cel musi wykonać rzut obronny na   <strong>Siłę o ST 13</strong> albo zostanie powalony <a class=\"content-link broken\" draggable=\"true\" data-type=\"JournalEntry\" data-id=\"null\"><i class=\"fas fa-unlink\"></i> Obalenie</a>. Jeśli cel jest <a class=\"content-link broken\" draggable=\"true\" data-type=\"JournalEntry\" data-id=\"null\"><i class=\"fas fa-unlink\"></i> Obalony</a>, to tygrys może zaatakować cel ugryzieniem w ramach akcji dodatkowej.</p>\n<p>Akcje</p>\n<p>Ugryzienie. Atak wręcz bronią: +5 do trafienia, strefa ataku 1,5 m, jeden cel. Trafienie: <strong>8 (1k10 + 3) <em>obrażeń kłutych</em></strong>.</p>\n<p>Pazury. Atak wręcz bronią: +5 do trafienia, strefa ataku 1,5 m, jeden cel. Trafienie: <strong>7 (1k8 + 3) <em>obrażeń ciętych</em></strong>.</p>\n<p></p>\n<p><em>Obraz Tokena autorstrwa Forgotten Adventures.</em></p>"
+		},
+		"Treant": {
+			"name": "Drzewiec",
+			"description": ""
+		},
+		"Tribal Warrior": {
+			"name": "Plemienny wojownik",
+			"description": "<p>Beholden to a culture and leadership all their own, tribal warriors shirk the trappings of governments and laws in preference of following powerful chieftains, ravaging warlords, or tight-knit tribal collectives banded together for mutual benefit. Tribal warriors act not like the guards of the city gates; rather, they function on hierarchies of honor, physical prowess, and in the legacy of deeds won in battle. Equipped with simple weapons such as spears, shortswords, or blunt maces the tribal warrior thrives within the heat of a battle, relishing in the decimation of their enemies. Theirs is a world of power struggles played upon the field of war rather than behind the closed doors of a council chamber. While one on one fights may be availed to combatants who prove themselves a worthy challenge, the tribal warrior is often not far from their allies. Utilizing simple combat techniques to pincer or route adversaries, the tribal warrior is no stranger to guerilla combat. Should you enter a tribe's hard won territory it will be likely that the tribe was alerted miles ahead of your approach to their borders. Be cautious, be wise, and keep an eye upon the rustling trees of the roadways should you stray into a land most unfamiliar. Tribal warriors respect honor and might, should you show them both then bloodshed of a greater order may be quickly avoided.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Triceratops": {
+			"name": "Triceratops",
+			"description": ""
+		},
+		"Troll": {
+			"name": "Troll",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Tyrannosaurus Rex": {
+			"name": "Tyranozaur",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Unicorn": {
+			"name": "Jednorożec",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Vampire": {
+			"name": "Wampir",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Vampire Spawn": {
+			"name": "Wampirzy pomiot",
+			"description": "<p>Wampirzy pomiot to nieumarłe stworzenie, które powstaje, gdy wampir zabije śmiertelnika. Podobnie jak ich twórcy, pomiot pozostaje związany ze swoją trumną i ziemią, na której spoczął. Pomiot wampira wygląda podobnie jak za życia, choć jego rysy twarzy są często twardsze, o drapieżnym spojrzeniu.</p>\n<p><em>Obraz Tokena autorstrwa Forgotten Adventures.</em></p>"
+		},
+		"Veteran": {
+			"name": "Weteran",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Violet Fungus": {
+			"name": "Fioletowy grzyb",
+			"description": "<p>Lurking within abandoned mines and moist caverns rests the humanoid-sized mushroom dubbed the Violet Fungus.  Named for its vibrant purple cap, the violet fungus loses all semblance to an average mushroom there.  Standing tall upon a thick white trunk, the violet fungus creeps across cavern floors at a laborious pace utilizing tiny cillia-like tendrils at its base.  Keeping this snail's pace, the violet fungus roams the depths for its preferred sustenance: rotting flesh.  Should a living morsel wander precariously close to the fungus, the violet fungus will lash out with one of four long feeler tentacles rooted deep inside its purple cap.  These feelers contain special enzymes which, upon contact with living flesh, rots the organic material instantly.  Should a creature fall victim to the fungus, it will be consumed along with the other detritus littering the cavern floor.  Violet fungi themselves have a special relationship with the death they consume.  A violet fungus that is destroyed will regrow within two weeks from the remains of its former body should the remains not be fully burned.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Vrock": {
+			"name": "Vrock",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Vulture": {
+			"name": "Sęp",
+			"description": "<p>Vultures are some of the most reviled birds to travel our skies. The bird's bald, featherless head and black body plumage lend it a sinister facade. The vulture's outer appearance along with its penchant to scavenge carrion for sustenance has settled the bird squarely into the designation of “evil” in the eyes of many common-folk. The bird's connection with death, as the vulture will circle a dead or dying creature from high above, also adds to the revulsion felt towards this markedly important creature.</p>\n<p><strong>By Committee.</strong> Vultures congregate in groups called “committees” or “wakes” on whether or not they are feasting together respectively. These groups squabble for scraps of meat, ripping away rotting flesh from a carcass with their sharp and powerful beaks. It is not uncommon for fights to break out between the hungry birds. Due to their desire to scavenge dead flesh, vultures play a vital role in our ecosystem, as they act as vital decomposers in landscapes where insects or fungi may not exist as readily. Be on the lookout for vultures in your travels, as they can be the sign of nature at work or perhaps something more sinister beneath the talons of this bird.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Warhorse": {
+			"name": "Rumak bojowy",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Warhorse Skeleton": {
+			"name": "Szkielet rumaka bojowego",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Water Elemental": {
+			"name": "Żywiołak wody",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Weasel": {
+			"name": "Łasica",
+			"description": "<p>Weasels dwell in a variety of locations from snowy tundra, to pine forests, to the open flowery plains of our planet. Weasels are tiny, long bodied mammals reaching approximately eight inches in length and bearing coat colorations ranging from chestnut brown to pale white. The weasel's long body allows it to easily wedge itself into a rodent's burrow and pull the critter out for a tasty meal. Weasels make quite effective pest controllers in their territories as they eat multitudes of rodents annually. These little cleaners are, however, often considered to be pests in their own right; farmers across the countryside report that their poultry is killed or stolen away by sneaky weasels making their way into their chicken coops. While not the most deadly mammal in the world, the weasel does pack a nasty, sharp-toothed bite. Keep your curious fingers out of any small rodent burrows you find, lest you end up provoking a weasel during his well-earned meal.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Werebear": {
+			"name": "Niedźwiedziołak",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Wereboar": {
+			"name": "Dzikołak",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Wererat": {
+			"name": "Szczurołak",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Weretiger": {
+			"name": "Tygrysołak",
+			"description": ""
+		},
+		"Werewolf": {
+			"name": "Wilkołak",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"White Dragon Wyrmling": {
+			"name": "Pisklę białego smoka",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Wight": {
+			"name": "Zjawa",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Will-o'-Wisp": {
+			"name": "Błędny ognik",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Winter Wolf": {
+			"name": "Zimowy wilk",
+			"description": ""
+		},
+		"Wolf": {
+			"name": "Wilk",
+			"description": "<p>Wolves are the largest of the wild dog species roaming the plains and forests of our wonderful world.  Anywhere from light brown to a midnight black in coloration, wolves stand as the common ancestor to all natural dog species currently inhabiting the planet.  Wolves have a long, broad muzzle filled with sharp teeth, a thick coat to insulate them from difficult winters, and keen eyes and ears with which they may track a target.  The most amazing aspect of the wolf is its incredible nose which can smell prey from up to one and a half miles away.  This amazing nose (packed with hundreds of millions of scent receptors) can also determine the mood of other wolves, what they've eaten, and even where they've been..</p>\n<p><strong>The Wolves Among Us.</strong> As is common with many other dog species, wolves live in communities called packs.  WIthin the pack, wolves hunt together, raise their young together, and provide group protection.  When encountering wolves, be wary should you only spy a single animal prowling the area.  It's quite likely where there is a straggler wolf, the rest of the pack lurks nearby ready to defend their family from attack.  Wolves, which unable to speak, are able to “communicate” via barks and growls as well as follow simplistic tactics such as flanking maneuvers or surprise attacks.  The strength of the pack allows for the wolves to combine their intelligence and form a deadly fighting force of gnashing teeth.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		},
+		"Worg": {
+			"name": "Worg",
+			"description": "<p>Worg to zły drapieżnik, który rozkoszuje się polowaniem i pożeraniem istot słabszych od siebie. Przebiegłe i złośliwe worgi przemierzają odległe pustkowia lub są wychowywane przez gobliny i hobgobliny. Te istoty używają worgów jako swoich wierzchowców, ale worg zwróci się przeciwko swojemu jeźdźcowi, jeśli poczuje się źle traktowany lub niedożywiony. Worgi mówią w swoim własnym języku i goblińskim, a kilku nauczyło się mówić także w języku wspólnym.</p>\n<p><em>Obraz Tokena autorstrwa Forgotten Adventures.</em></p>"
+		},
+		"Wraith": {
+			"name": "Upiór",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Wyvern": {
+			"name": "Wiwerna",
+			"description": ""
+		},
+		"Xorn": {
+			"name": "Xorn",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Young Black Dragon": {
+			"name": "Młody czarny smok",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Young Blue Dragon": {
+			"name": "Młody niebieski smok",
+			"description": ""
+		},
+		"Young Brass Dragon": {
+			"name": "Młody mosiężny smok",
+			"description": ""
+		},
+		"Young Bronze Dragon": {
+			"name": "Młody spiżowy smok",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Young Copper Dragon": {
+			"name": "Młody miedziany smok",
+			"description": ""
+		},
+		"Young Gold Dragon": {
+			"name": "Młody złoty smok",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Young Green Dragon": {
+			"name": "Młody zielony smok",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Young Red Dragon": {
+			"name": "Młody czerwony smok",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Young Silver Dragon": {
+			"name": "Młody srebrny smok",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Young White Dragon": {
+			"name": "Młody biały smok",
+			"description": "<p><em>Obraz Tokena autorstwa Forgotten Adventures.</em></p>"
+		},
+		"Zombie": {
+			"name": "Zombi",
+			"description": "<p>When the magic of necromancy is utilized upon the preserved flesh of a humanoid, a zombie will rise to serve its dark master.  In much the same way that an animated skeleton is returned from the dead so too are zombies shunted back into this world.  While a skilled spellcaster may animate the dead and command the newly awakened, zombies may also rise in areas of the world saturated with necromantic energy.  In this situation, the zombies will not obey the command of a master, but roam aimlessly in a small area until they either find something to attack and consume or rot away into a pile of inanimate bones.  </p>\n<p><strong>Re: Your Brains.</strong> Zombies do retain quite a lot of their former selves in regards to their physical appearance.  Zombies will still show the wounds or disease scars which slew them upon reanimating.  The symptoms of decay will also be present as many freshly spawned zombies will be bloated, have patches of skin sloughing from their bodies, or even trailing entrails from exploded abdomens.  While a zombie may resemble the person they were before, there is nothing at work within the head except mindless hunger.  Zombies stumble through their existence in a perpetual state of mindlessness only able to heed their master’s orders.  This fact of the zombie’s mind makes them invaluable warriors for a necromancer in need.  Zombies are direct and will shamble off towards their quarry without so much as a second thought to their own safety.  It’s been noted that some zombies have walked through fires or pits of acid in order to reach their enemies.  Once they reach their target, zombies will pummel and bite at their enemy until either they or the enemy fall in the tussle.  Zombies may also wield weapons, though not cleverly; zombies will not be able to reclaim a weapon should they be disarmed as the lack of weapon will simply drive them to claw with their broken hands.  The magic which binds the zombie to the mortal plane is tricky to the uninitiated as well, so please be warned young adventurers!  Should you fell a zombie, be aware that the creature may not be fully dead for the second time; you should always be sure to wait and see if the beast attempts to rise once more before wandering deeper into the dungeon.</p>\n<ul>\n<li><em>Token artwork by Forgotten Adventures.</em></li>\n<li><em>Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>"
+		}
+	}
+}

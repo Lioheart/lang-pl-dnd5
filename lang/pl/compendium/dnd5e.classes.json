@@ -1,0 +1,668 @@
+{
+    "label": "Klasy",
+    "entries": {
+        "6T08zzKtmmpVwlXU": {
+            "name": "Zaklinacz",
+            "description": "<p>Jako zaklinacz otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k6 na poziom zaklinacza<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 6 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k6 (lub 4) + modyfikator z Kondycji na każdy poziom zaklinacza powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Brak<br /><strong>Broń:</strong> Drąg, kusza lekka, proca, strzałka, sztylet<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Kondycja, Charyzma<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Intuicja, Oszustwo, Perswazja, Religia, Wiedza tajemna i Zastraszanie.</p><h1>Rozwój zaklinacza</h1><table><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Punkty zaklinania</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>̶</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.oygRF3ZjTv2T7z0Y]{Rzucanie czarów}, @UUID[Compendium.dnd5e.classfeatures.Item.cmRCL9T9UgRYOj1c]{Pochodzenie Zaklinacza}</td></tr><tr><td>2.</td><td>+2</td><td>2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq]{Źródło Magii}</td></tr><tr><td>3.</td><td>+2</td><td>3</td>Komórka czarów<td> 2. kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.9Uh7uTDNZ04oTJsL]{Metamagia}</td></tr><tr><td>4.</td><td>+2</td><td>4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td></tr><tr><td>5.</td><td>+3</td><td>5</td><td>Komórka czarów 3. kręgu</td></tr><tr><td>6.</td><td>+3</td><td>6</td><td>Właściwość Pochodzenia Zaklinacza</td></tr><tr><td>7.</td><td>+3</td><td>7</td><td>Komórka czarów 4. kręgu</td></tr><tr><td>8.</td><td>+3</td><td>8</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td></tr><tr><td>9.</td><td>+4</td><td>9</td><td>Komórka czarów 5. kręgu</td></tr><tr><td>10.</td><td>+4</td><td>10</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.9Uh7uTDNZ04oTJsL]{Metamagia}</td></tr><tr><td>11.</td><td>+4</td><td>11</td><td>Komórka czaru 6. kręgu</td></tr><tr><td>12.</td><td>+4</td><td>12</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td></tr><tr><td>13.</td><td>+5</td><td>13</td><td>Komórka czarów 7. kręgu</td></tr><tr><td>14.</td><td>+5</td><td>14</td><td>Właściwość Pochodzenia Zaklinacza</td></tr><tr><td>15.</td><td>+5</td><td>15</td><td>Komórka czarów 8. kręgu</td></tr><tr><td>16.</td><td>+5</td><td>16</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td></tr><tr><td>17.</td><td>+6</td><td>17</td>Komórka czarów<td> 9. kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.9Uh7uTDNZ04oTJsL]{Metamagia}</td></tr><tr><td>18.</td><td>+6</td><td>18</td><td>Właściwość Pochodzenia Zaklinacza</td></tr><tr><td>19.</td><td>+6</td><td>19</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td></tr><tr><td>20.</td><td>+6</td><td>20</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.F2lEKSmOY0NUruzY]{Przywrócenie Mocy}</td></tr></tbody></table><h1>Pochodzenie Zaklinacza</h1><p>Zaklinacze w różnych rzeczach upatrują źródła swojej wrodzonej mocy. Choć możliwości jest wiele, większość z nich zalicza się do jednej z dwóch kategorii: dzikiej magii lub smoczego dziedzictwa.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.2nadB2MBSHTQ0kcl]{Smocze dziedzictwo}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "4": {
+                    "title": "Zdolności"
+                },
+                "5": {
+                    "title": "Zdolności"
+                },
+                "6": {
+                    "title": "Zdolności"
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "title": "Metamagia"
+                },
+                "9": {
+                    "title": "Znane sztuczki"
+                },
+                "10": {
+                    "title": "Znane czary"
+                },
+                "11": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "12": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "13": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "14": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "16": {
+                    "title": "Pochodzenie Zaklinacza"
+                }
+            }
+        },
+        "6VoZrWxhOEKGYhnq": {
+            "name": "Mnich",
+            "description": "<p>Jako mnich otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k8 na poziom mnicha<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 8 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k8 (lub 5) + modyfikator z Kondycji na każdy poziom mnicha powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Brak<br /><strong>Broń:</strong> Bronie proste, miecz krótki<br /><strong>Narzędzia:</strong> Wybierz jeden typ narzędzi rzemieślniczych albo jeden instrument muzyczny.<br /><strong>Rzuty obronne:</strong> Siła, Zręczność<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Akrobatyka, Atletyka, Historia, Intuicja, Religia i Skradanie się.</p><h1>Rozwój mnicha</h1><table><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Sztuki walki</td><td>Punkty Ki</td><td>Szybkość mnicha</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>1d4</td><td>—</td><td>—</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.UAvV7N7T4zJhxdfI]{Obrona bez Pancerza}, @UUID[Compendium.dnd5e.classfeatures.Item.l50hjTxO2r0iecKw]{Sztuki Walki}</td></tr><tr><td>2.</td><td>+2</td><td>1d4</td><td>2</td><td>+3 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7]{Ki}, @UUID[Compendium.dnd5e.classfeatures.Item.zCeqyQ8uIPNdYJSW]{Szybkość Mnicha}</td></tr><tr><td>3.</td><td>+2</td><td>1d4</td><td>3</td><td>+3 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.rtpQdX77dYWbDIOH]{Mnisia Tradycja}, @UUID[Compendium.dnd5e.classfeatures.Item.mzweVbnsJPQiVkAe]{Odbijanie Pocisków}</td></tr><tr><td>4.</td><td>+2</td><td>1d4</td><td>4</td><td>+3 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie·Cechy}, @UUID[Compendium.dnd5e.classfeatures.Item.KQz9bqxVkXjDl8gK]{Powolne Spadanie}</td></tr><tr><td>5.</td><td>+3</td><td>1k6</td><td>5</td><td>+3 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Dodatkowy Atak}, @UUID[Compendium.dnd5e.classfeatures.Item.pvRc6GAu1ok6zihC]{Ogłuszający Cios}</td></tr><tr><td>6.</td><td>+3</td><td>1k6</td><td>6</td><td>+4,5 m</td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.7flZKruSSu6dHg6D]{Cios Wzmocniony Ki},</p><p>Właściwość Mnisiej tradycji</p></td></tr><tr><td>7.</td><td>+3</td><td>1k6</td><td>7</td><td>+4,5 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.a4P4DNMmH8CqSNkC]{Odskok}, @UUID[Compendium.dnd5e.classfeatures.Item.ZmC31XKS4YNENnoc]{Stałość Umysłu}</td></tr><tr><td>8.</td><td>+3</td><td>1k6</td><td>8</td><td>+4,5 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td></tr><tr><td>9.</td><td>+4</td><td>1k6</td><td>9</td><td>+4,5 m</td><td>Ulepszenie Szybkości mnicha</td></tr><tr><td>10.</td><td>+4</td><td>1k6</td><td>10</td><td>+6 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.bqWA7t9pDELbNRkp]{Czystość Ciała}</td></tr><tr><td>11.</td><td>+4</td><td>1k8</td><td>11</td><td>+6 m</td><td>Właściwość mnisiej tradycji</td></tr><tr><td>12.</td><td>+4</td><td>1k8</td><td>12</td><td>+6 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td></tr><tr><td>13.</td><td>+5</td><td>1k8</td><td>13</td><td>+6 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XjuGBeB8Y0C3A5D4]{Język Słońca i Księżyca}</td></tr><tr><td>14.</td><td>+5</td><td>1k8</td><td>14</td><td>+7,5 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.7D2EkLdISwShEDlN]{Diamentowa Dusza}</td></tr><tr><td>15.</td><td>+5</td><td>1k8</td><td>15</td><td>+7,5 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.gDH8PMrKvLHaNmEI]{Ponadczasowe Ciało}</td></tr><tr><td>16.</td><td>+5</td><td>1k8</td><td>16</td><td>+7,5 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td></tr><tr><td>17.</td><td>+6</td><td>1k10</td><td>17</td><td>+7,5 m</td><td>Właściwość mnisiej tradycji</td></tr><tr><td>18.</td><td>+6</td><td>1k10</td><td>18</td><td>+9 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.3jwFt3hSqDswBlOH]{Ciało Ascety}</td></tr><tr><td>19.</td><td>+6</td><td>1k10</td><td>19</td><td>+9 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td></tr><tr><td>20.</td><td>+6</td><td>1k10</td><td>20</td><td>+9 m</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.mQNPg89YIs7g5tG4]{Doskonałe ja}</td></tr></tbody></table><h1>Mnisie tradycje</h1><p>W klasztorach rozsianych po calym Wieloświecie istnieją trzy najczęściej spotykane tradycje mnisiego życia. Większość zakonów wierna jest wyłącznie jednej wybranej tradycji, ale nieliczne uznają wszystkie trzy i szkolą mnichów zgodnie z ich indywidualnymi zdolnościami i preferencjami. Wszystkie tradycje opierają się na tych samych podstawach i rozdzielają się, gdy uczeń wystarczająco się rozwinie. Dlatego mnich staje przed wyborem tradycji dopiero wtedy, gdy osiąga 3 poziom.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.IvlpKMXX3PmW1NY2]{Droga otwartej dłoni}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "5": {
+                    "hint": "Potrafisz w takim stopniu panować nad przepływającą przez ciebie ki, że stajesz się niepodatny na choroby i trucizny."
+                },
+                "6": {
+                    "title": "Zdolności"
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "title": "Zdolności"
+                },
+                "9": {
+                    "title": "Zdolności"
+                },
+                "10": {
+                    "title": "Zdolności"
+                },
+                "11": {
+                    "title": "Zdolności"
+                },
+                "12": {
+                    "title": "Zdolności"
+                },
+                "13": {
+                    "title": "Zdolności"
+                },
+                "14": {
+                    "title": "Zdolności"
+                },
+                "15": {
+                    "title": "Zdolności"
+                },
+                "16": {
+                    "title": "Zdolności"
+                },
+                "17": {
+                    "title": "Zdolności"
+                },
+                "18": {
+                    "title": "Zdolności"
+                },
+                "19": {
+                    "title": "Kość sztuk walki"
+                },
+                "20": {
+                    "title": "Szybkość mnicha"
+                },
+                "21": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "22": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "23": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "24": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "26": {
+                    "title": "Mnisia tradycja"
+                }
+            }
+        },
+        "7WJp9vhi6F6SlAFa": {
+            "name": "Czarownik",
+            "description": "<p>Jako czarownik otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k8 na poziom czarownika <br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 8 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k8 (lub 5) + modyfikator z Kondycji na każdy poziom czarownika powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Lekkie pancerze<br /><strong>Broń:</strong> Bronie proste<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Mądrość, Charyzma<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Historia, Oszustwo, Przyroda, Religia, Śledztwo, Wiedza tajemna i Zastraszanie.</p><h1>Rozwój czarodzieja</h1><table border=\"0\"><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Właściwości</td><td>Znane inwokacje</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jTXHaK0vvT5DV3uO]{Nieziemski Patron}, @UUID[Compendium.dnd5e.classfeatures.Item.x6IJZwr6f0SGral7]{Magia Paktu}</td><td>̶</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.8MlxM2nEfE3Q0EVk]{Mistyczne Inwokacje}</td><td>2</td></tr><tr><td>3.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.QwgfIpCN8VWfoUtX]{Dobrodziejswto Paktu}</td><td>2</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td><td>2</td></tr><tr><td>5.</td><td>+3</td><td>Czary 3. kręgu, +1 Inwokacja</td><td>3</td></tr><tr><td>6.</td><td>+3</td><td>Właściwość Nieziemskiego patrona</td><td>3</td></tr><tr><td>7.</td><td>+3</td><td>Czary 4. kręgu, +1 Inwokacja</td><td>4</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td><td>4</td></tr><tr><td>9.</td><td>+4</td><td>Czary 5. kręgu, +1 Inwokacja</td><td>5</td></tr><tr><td>10.</td><td>+4</td><td>Właściwość Nieziemskiego patrona</td><td>5</td></tr><tr><td>11.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Mistyczne Arkanum (6. krąg)}</td><td>5</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie·cechy}, +1 Inwokacja</td><td>6</td></tr><tr><td>13.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Mistyczne Arkanum (7. krąg)}</td><td>6</td></tr><tr><td>14.</td><td>+5</td><td>Właściwość Nieziemskiego patrona</td><td>6</td></tr><tr><td>15.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Mistyczne Arkanum (8. krąg)}, +1 Inwokacja</td><td>7</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td><td>7</td></tr><tr><td>17.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Mistyczne Arkanum (9. krąg)}</td><td>7</td></tr><tr><td>18.</td><td>+6</td><td>+1 Inwokacja</td><td>8</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td><td>8</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.0C04rwyvoknvFYiy]{Mistyczny Władca}</td><td>8</td></tr></tbody></table><div class=\"sidebar-block\"><h4>Twoje Dobrodziejstwo paktu</h4><p>Dobrodziejstwo paktu to istota lub rzecz odzwierciedlająca naturę twojego patrona.</p><p><em><strong>Pakt łańcucha. </strong></em>Twój Chowaniec jest sprytniejszy od przeciętnego. Jego postać może być symbolem twojego patrona, przy czym chochliki i pseudosmoki typowe są dla Arcyfey, a diabliki i quasity dla Czarta.</p><p><em><strong>Pakt ostrza. </strong></em>Gdy służysz Czartowi, twoją bronią może być topór z czarnego metalu ozdobiony motywem płomieni.</p><p><em><strong>Pakt księgi. </strong></em>Twoja Księga Cieni może być otrzymanym od Czarta opasłym woluminem obciągniętym skórą demona nabijaną stalowymi ćwiekami, mieszczącym zaklęcia przywołania i bezmiar tajemnej wiedzy o zakazanych obszarach kosmosu.</p></div><h1>Nieziemscy patroni</h1><p>Byty bywające patronami czarowników to potężni mieszkańcy innych sfer egzystencji - nie są bogami, ale niemal dorównują im mocą. Różni patroni zapewniają czarownikom różne moce i inwokacje. oczekując w zamian poważnych przysług.</p><p>Niektórzy patroni kolekcjonują czarowników, względnie swobodnie szafują wiedzą lub chełpią się swoją zdolnością usidlania śmiertelników. Inni niechętnie dzielą się mocą i mogą ograniczać się do tylko jednego jej powiernika. Czarownicy służący temu samemu patronowi mogą postrzegać siebie nawzajem jako sojuszników, rodzeństwo albo rywali.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.WPFVBg589uI8iOMH]{Czart}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "5": {
+                    "title": "Zdolności"
+                },
+                "6": {
+                    "title": "Zdolności"
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "title": "Zdolności"
+                },
+                "9": {
+                    "title": "Zdolności"
+                },
+                "10": {
+                    "hint": "Jeśli inwokacja ma wymagania, to musisz je spełnić, by móc się jej nauczyć. Spełnienie wymagań i nauka mogą nastąpić jednocześnie. Wymagany poziom odnosi się do twojego poziomu w klasie czarownika."
+                },
+                "11": {
+                    "title": "Dobrodziejstwo paktu"
+                },
+                "12": {
+                    "hint": "Wybierz czar czarownika 6. kręgu, który nim będzie."
+                },
+                "13": {
+                    "hint": "Wybierz czar czarownika 7. kręgu, który nim będzie."
+                },
+                "14": {
+                    "hint": "Wybierz czar czarownika 8. kręgu, który nim będzie."
+                },
+                "15": {
+                    "hint": "Wybierz czar czarownika 9. kręgu, który nim będzie."
+                },
+                "16": {
+                    "title": "Znane sztuczki"
+                },
+                "17": {
+                    "title": "Znane czary"
+                },
+                "18": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "19": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "20": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "21": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "23": {
+                    "title": "Nieziemski patron"
+                }
+            }
+        },
+        "ABEBgWyRhVlDUIfq": {
+            "name": "Wojownik",
+            "description": "<p>Jako wojownik otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k10 na poziom wojownika<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 10 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k10 (lub 6) + modyfikator z Kondycji na każdy poziom wojownika powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Wszystkie pancerze, tarcze<br /><strong>Broń:</strong> Bronie proste, bronie żołnierskie<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Siła, Kondycja<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Akrobatyka, Atletyka, Historia, Intuicja, Opieka nad zwierzętami, Percepcja, Sztuka przetrwania i Zastraszanie.</p><h1>Rozwój wojownika</h1><table><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.fbExzwNwEAl2kW9c]{Styl Walki}, @UUID[Compendium.dnd5e.classfeatures.Item.nTjmWbyHweXuIqwc]{Drugi Oddech}</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.xF1VTcJ3AdkbTsdQ]{Przypływ Sił}</td></tr><tr><td>3.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.ax8M0X0q1GGWM26j]{Archetyp Bojowy}</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.sPy2OLoN7JaAcMl4]{Zwiększenie·Cechy}</td></tr><tr><td>5.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.q9g1MLXuLZyxjQMg]{Dodatkowy Atak}</td></tr><tr><td>6.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.sPy2OLoN7JaAcMl4]{Zwiększenie·Cechy}</td></tr><tr><td>7.</td><td>+3</td><td>Właściwość archetypu bojowego</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.sPy2OLoN7JaAcMl4]{Zwiększenie·Cechy}</td></tr><tr><td>9.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.653ZHbNcmm7ZGXbw]{Nieugięty}</td></tr><tr><td>10.</td><td>+4</td><td>Właściwość archetypu bojowego</td></tr><tr><td>11.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.q9g1MLXuLZyxjQMg]{Dodatkowy Atak (2)}</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.sPy2OLoN7JaAcMl4]{Zwiększenie·Cechy}</td></tr><tr><td>13.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.653ZHbNcmm7ZGXbw]{Nieugięty (2/odpoczynek)}</td></tr><tr><td>14.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.sPy2OLoN7JaAcMl4]{Zwiększenie·Cechy}</td></tr><tr><td>15.</td><td>+5</td><td>Właściwość archetypu bojowego</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.sPy2OLoN7JaAcMl4]{Zwiększenie·Cechy}</td></tr><tr><td>17.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.xF1VTcJ3AdkbTsdQ]{Przypływ Sił (2/odpoczynek)}, @UUID[Compendium.dnd5e.classfeatures.Item.653ZHbNcmm7ZGXbw]{Nieugięty (3/odpoczynek)}</td></tr><tr><td>18.</td><td>+6</td><td>Właściwość archetypu bojowego</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.sPy2OLoN7JaAcMl4]{Zwiększenie·Cechy}</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.q9g1MLXuLZyxjQMg]{Dodatkowy Atak (3)}</td></tr></tbody></table><h1>Archetypy bojowe</h1><p>Poszczególni wojownicy różnie podchodzą do doskonalenia swych zdolności bojowych. Archetyp bojowy, który decydujesz się wcielać w życie, jest wyrazem twojego podejścia.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.sprHbe7cRg9osTzf]{Czempion}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "6": {
+                    "title": "Zdolności"
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "title": "Zdolności"
+                },
+                "9": {
+                    "title": "Zdolności"
+                },
+                "10": {
+                    "title": "Zdolności"
+                },
+                "11": {
+                    "hint": "Specjalizujesz się w określonym stylu walki. Wybierz jedną z poniższych opcji. Nie możesz wybrać Stylu Walki więcej niż jeden raz, nawet jeśli później pojawi się taka możliwość."
+                },
+                "12": {
+                    "title": "Użycia zdolności Nieugięty"
+                },
+                "13": {
+                    "title": "Użycia zdolności Przypływ sił"
+                },
+                "14": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "15": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "16": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "17": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "21": {
+                    "title": "Archetyp bojowy"
+                }
+            }
+        },
+        "ILvRZGEx3aXqSVUt": {
+            "name": "Bard",
+            "description": "<p>Jako bard otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k8 na poziom barda<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 8 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k8 (lub 5) + modyfikator z Kondycji na każdy poziom barda powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Lekkie pancerze<br /><strong>Broń:</strong> Bronie proste, kusza tęczna, miecz długi, miecz krótki, rapier<br /><strong>Narzędzia:</strong> Trzy wybrane instrumenty muzyczne<br /><strong>Rzuty obronne:</strong> Zręczność, Charyzma<br /><strong>Umiejętności:</strong> Wybierz trzy dowolne.</p><h1>Rozwój barda</h1><table border=\"0\"><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.u4NLajXETJhJU31v]{Rzucanie czarów}, @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardowska inspiracja (d6)}</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.ezWijmCnlnQ9ZRX2]{Wszechstronność}, @UUID[Compendium.dnd5e.classfeatures.Item.he8RpPXwSl2lVSIk]{Pieśń wytchnienia (d6)}</td></tr><tr><td>3.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.ILhzFHiRrqgQ9dFJ]{Kolegium bardowskie} @UUID[Compendium.dnd5e.classfeatures.Item.aQLg7BWdRnm4Hr9S]{Znawstwo}</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>5.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardowska inspiracja (d8)}, @UUID[Compendium.dnd5e.classfeatures.Item.3VDZGs5Ug3hIE322]{Źródło inspiracji}</td></tr><tr><td>6.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.SEJmsjkEhdAZ90ki]{Przeciwurok}, Właściwość Kolegium bardowskiego</td></tr><tr><td>7.</td><td>+3</td><td>Komórka czarów 4. kręgu</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>9.</td><td>+4</td><td>Komórka czaru 5. kręgu @UUID[Compendium.dnd5e.classfeatures.Item.he8RpPXwSl2lVSIk]</td></tr><tr><td>10.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardowska inspiracja (k10)}, @UUID[Compendium.dnd5e.classfeatures.Item.aQLg7BWdRnm4Hr9S]{Znawstwo}, @UUID[Compendium.dnd5e.classfeatures.Item.aonJ2YjkqkYB9WYB]{Magiczne tajemnice}</td></tr><tr><td>11.</td><td>+4</td><td>Komórka czaru 6. kręgu</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>13.</td><td>+5</td><td>Komórka czaru 7. kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.he8RpPXwSl2lVSIk]{Pieśń wytchnienia (k10)}</td></tr><tr><td>14.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.aonJ2YjkqkYB9WYB], Właściwość Kolegium bardowskiego</td></tr><tr><td>15.</td><td>+5</td><td>Komórka czaru 8 kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>17.</td><td>+6</td><td>Komórka czaru 9. kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.he8RpPXwSl2lVSIk]</td></tr><tr><td>18.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.aonJ2YjkqkYB9WYB]{Magiczne tajemnice}</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.GBYN5rH4nh1ocRlY]{Pierwszorzędna inspiracja}</td></tr></tbody></table><h1>Kolegia bardowskie</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.MNvsEc4D2ccX7dQT]{Kolegium mądrości}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "8": {
+                    "title": "Znawstwo"
+                },
+                "9": {
+                    "title": "Znawstwo"
+                },
+                "10": {
+                    "title": "Zdolności"
+                },
+                "11": {
+                    "title": "Zdolności"
+                },
+                "12": {
+                    "title": "Zdolności"
+                },
+                "13": {
+                    "title": "Zdolności"
+                },
+                "14": {
+                    "title": "Zdolności"
+                },
+                "15": {
+                    "title": "Zdolności"
+                },
+                "16": {
+                    "title": "Zdolności"
+                },
+                "17": {
+                    "hint": "Wybierz dwa czary dowolnych klas, włącznie z twoją. Wybrane czary muszą być sztuczkami lub pochodzić z kręgu, który możesz rzucić, zgodnie z informacjami w tabeli rozwoju barda."
+                },
+                "18": {
+                    "title": "Kość bardowskiej inspiracji"
+                },
+                "19": {
+                    "title": "Kość pieśni odpoczynku"
+                },
+                "20": {
+                    "title": "Znane sztuczki"
+                },
+                "21": {
+                    "title": "Znane czary"
+                },
+                "22": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "23": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "24": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "25": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "27": {
+                    "title": "Kolegium bardowskie"
+                }
+            }
+        },
+        "VkRQ7glQvTWWiOCS": {
+            "name": "Łowca",
+            "description": "<p>Jako łowca otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k10 na poziom łowcy<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 10 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k10 (lub 6) + modyfikator z Kondycji na każdy poziom łowcy powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Lekkie pancerze, średnie pancerze, tarcze<br /><strong>Broń:</strong> Bronie proste, bronie żołnierskie<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Siła, Zręczność<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Atletyka, Intuicja, Opieka nad zwierzętami, Percepcja, Przyroda, Sztuka przetrwania, Skradanie się i Śledztwo.</p><h1>Rozwój łowcy</h1><table><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.4Vpj9vCOB37GtXk6]{Ulubiony Wróg}, @UUID[Compendium.dnd5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Naturalny Odkrywca}</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.nJA3ISVmyj3uPRVM]{Styl Walki}, @UUID[Compendium.dnd5e.classfeatures.Item.u6xV3Ki3TXRrD7zg]{Rzucanie Czarów}</td></tr><tr><td>3.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.1dJHU48yNqn3lcfx]{Archetyp Łowcy}, @UUID[Compendium.dnd5e.classfeatures.Item.kaHcUGiwi8AtfZIm]{Pierwotne Zmysły}</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>5.</td><td>+3</td><td>Komórka czarów 2. kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Dodatkowy Atak}</td></tr><tr><td>6.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.4Vpj9vCOB37GtXk6]{Ulubiony Wróg +1}, @UUID[Compendium.dnd5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Ulepszenie Naturalnego Odkrywcy}</td></tr><tr><td>7.</td><td>+3</td><td>Właściwość archetypu łowcy</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}, @UUID[Compendium.dnd5e.classfeatures.Item.C5fzaOBc6HxyOWRn]{Lekki Krok}</td></tr><tr><td>9.</td><td>+4</td><td>Komórka czarów 3. kręgu</td></tr><tr><td>10.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Ulepszenie Naturalnego Odkrywcy}, @UUID[Compendium.dnd5e.classfeatures.Item.r0unvWK0lPsDthDx]{Ukrycie na widoku}</td></tr><tr><td>11.</td><td>+4</td><td>Właściwość archetypu łowcy</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>13.</td><td>+5</td><td>Komórka czarów 4. kręgu</td></tr><tr><td>14.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.4Vpj9vCOB37GtXk6]{Ulubiony·Wróg +1}, @UUID[Compendium.dnd5e.classfeatures.Item.DhU2dWCNnX78TstR]{Zniknięcie bez śladu}</td></tr><tr><td>15.</td><td>+5</td><td>Właściwość archetypu łowcy</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>17.</td><td>+6</td><td>Komórka czarów 5. kręgu</td></tr><tr><td>18.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.QBVmY56RMQuh6C8h]{Zwierzęcy Zmysł}</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.3CaP1vFHVR8LgHjx]{Pogromca Wrogów}</td></tr></tbody></table><h1>Archetypy bojowe</h1><p>Klasycznym wyrazem ideału łowcy jest myśliwy.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.uqd2q6WjVfcsaaGb]{Myśliwy}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "6": {
+                    "title": "Zdolności"
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "title": "Zdolności"
+                },
+                "9": {
+                    "title": "Zdolności"
+                },
+                "10": {
+                    "title": "Zdolności"
+                },
+                "11": {
+                    "title": "Zdolności"
+                },
+                "12": {
+                    "title": "Zdolności"
+                },
+                "13": {
+                    "title": "Zdolności"
+                },
+                "14": {
+                    "title": "Zdolności"
+                },
+                "15": {
+                    "hint": "Wybierz jedną z poniższych opcji. Nie możesz wybrać Stylu Walki więcej niż jeden raz, nawet jeśli później pojawi się taka możliwość."
+                },
+                "16": {
+                    "title": "Znane czary"
+                },
+                "17": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "18": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "19": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "20": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "22": {
+                    "title": "Archetyp łowcy"
+                }
+            }
+        },
+        "gZiUvbXWLs0pOp0c": {
+            "name": "Paladyn",
+            "description": "<p>Jako paladyn otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k10 na poziom paladyna<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 10 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k10 (lub 6) + modyfikator z Kondycji na każdy poziom paladyna powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Wszystkie pancerze, tarcze<br /><strong>Broń:</strong> Bronie proste, bronie żołnierskie<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Mądrość, Charyzma<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Atletyka, Intuicja, Medycyna, Perswazja, Religia i Zastraszanie.</p><h1>Rozwój paladyna</h1><table><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.E8ozg8avUVOX9N7u]{Cudowny Zmysł}, @UUID[Compendium.dnd5e.classfeatures.Item.OdrvL3afwLOPeuYZ]{Nakładanie Rąk}</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Ho7dVxBlOYFlfBHk]{Styl Walki}, @UUID[Compendium.dnd5e.classfeatures.Item.ihoQHsmVZlyDbPhX]{Rzucanie czarów}, @UUID[Compendium.dnd5e.classfeatures.Item.ySMPQ6zNSlvkrl2f]{Boskie Ugodzenie}</td></tr><tr><td>3.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.dY9yrqkyEDuF0CG2]{Cudowne Zdrowie}, @UUID[Compendium.dnd5e.classfeatures.Item.olAqNsUTIef9x8xC]{Święta Przysięga}, @UUID[Compendium.dnd5e.classfeatures.Item.8M7uOPhbTxoxxJSo]{Akt Wiary}</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>5.</td><td>+3</td><td>Komórka czarów 2. kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Dodatkowy Atak}</td></tr><tr><td>6.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.carGDhkIdoduTC0I]{Aura Ochrony}</td></tr><tr><td>7.</td><td>+3</td><td>Właściwość Świętej przysięgi</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>9.</td><td>+4</td><td>Komórka czarów 3. kręgu</td></tr><tr><td>10.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.nahSkBO6LH4HkpaT]{Aura Odwagi}</td></tr><tr><td>11.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.FAk41RPCTcvCk6KI]{Ulepszone Boskie Ugodzenie}</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>13.</td><td>+5</td><td>Komórka czarów 4. kręgu</td></tr><tr><td>14.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.U7BIPVPsptBmwsnV]{Oczyszczający Dotyk}</td></tr><tr><td>15.</td><td>+5</td><td>Właściwość Świętej przysięgi</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>17.</td><td>+6</td><td>Komórka czarów 5. kręgu</td></tr><tr><td>18.</td><td>+6</td><td>Ulepszone aury</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>20.</td><td>+6</td><td>Właściwość Świętej przysięgi</td></tr></tbody></table><h1>Święte przysięgi</h1><p>Do stania się paladynem potrzeba złożenia ślubów wiążących paladyna ze ścieżką prawości - aktywną walką ze złem. Końcowa przysięga, składana na 3. poziomie, stanowi kulminację całego szkolenia paladyna. Niektóre postacie rozwijające się w tej klasie nie nazywają siebie paladynami aż do osiągnięcia 3. poziomu i złożenia ślubów. Dla innych sama przysięga jest jedynie formalnością, urzędowym pokwitowaniem tego, kim w głębi serca byli od początku.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.sZ86mbX8D5PfYuhl]{Przysięga Gorliwości}</p><div class=\"sidebar-block\"><h4>Złamana przysięga</h4><p>Paladyn stara się utrzymywać jak najwyższe standardy zachowania, ale nawet najbardziej cnotliwi mogą upaść. Niekiedy trzymanie się jedynej słusznej ścieżki okazuje się zbyt trudne, sytuacja wymaga wybrania mniejszego zła lub wir emocji powoduje, że paladyn łamie swoja przysięgę.</p><p>Po złamaniu ślubów paladyn z reguły oddaje się pokucie nadanej przez kleryka tej samej wiary bądź paladyna tego samego zakonu. Bywa, że w ramach skruchy spędza noc na czuwaniu i modlitwie, narzuca sobie post albo podobne wyrzeczenie. Odbywszy spowiedź i otrzymawszy przebaczenie, wraca do normalnego trybu życia.</p><p>Jeśli paladyn łamie śluby z premedytacją i nie okazuje skruchy, konsekwencje bywają poważniejsze. Zależnie od decyzji MP, niepokorny rycerz może zostać zmuszony do zmiany klasy na inną albo do stania się Wiarołomcą.</p></div>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "6": {
+                    "hint": "Przepływająca przez ciebie boska magia sprawia, że zyskujesz odporność na choroby."
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "title": "Zdolności"
+                },
+                "9": {
+                    "title": "Zdolności"
+                },
+                "10": {
+                    "title": "Zdolności"
+                },
+                "11": {
+                    "title": "Zdolności"
+                },
+                "12": {
+                    "title": "Zdolności"
+                },
+                "13": {
+                    "title": "Zdolności"
+                },
+                "14": {
+                    "title": "Zdolności"
+                },
+                "15": {
+                    "hint": "Wybierz jedną z poniższych opcji. Nie możesz wybrać Stylu Walki więcej niż jeden raz, nawet jeśli później pojawi się taka możliwość."
+                },
+                "16": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "17": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "18": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "19": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "21": {
+                    "title": "Zasięg aury"
+                },
+                "22": {
+                    "title": "Święta przysięga"
+                }
+            }
+        },
+        "pvEzGSv71zBhaolc": {
+            "name": "Barbarzyńca",
+            "description": "<p>Jako barbarzyńca otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k12 na poziom barbarzyńcy<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 12 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k12 (lub 7) + modyfikator z Kondycji na każdy poziom barbarzyńcy powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Lekkie pancerze, średnie pancerze, tarcze<br /><strong>Broń:</strong> Bronie proste, bronie żołnierskie<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Siła, Kondycja<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Atletyka, Opieka nad zwierzętami, Percepcja, Przyroda, Sztuka przetrwania i Zastraszanie.</p><h1>Rozwój barbarzyńcy</h1><table border=\"0\"><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Właściwości</td><td>Liczba szałów</td><td>Obrażenia w szale</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Szał}, @UUID[Compendium.dnd5e.classfeatures.Item.SZbsNbaxFFGwBpNK]{Obrona bez pancerza}</td><td>2</td><td>+2</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.SCVjqRdlZ9cvHVSR]{Szaleńczy Atak}, @UUID[Compendium.dnd5e.classfeatures.Item.vt31lWAULygEl7yk]{Wyczucie zagrożenia}</td><td>2</td><td>+2</td></tr><tr><td>3.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.TH1QAf6YNGSeBVjT]{Pierwotna Ścieżka}</td><td>3</td><td>+2</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td><td>3</td><td>+2</td></tr><tr><td>5.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Dodatkowy atak}, @UUID[Compendium.dnd5e.classfeatures.Item.Kl6zifJ5OmdHlOi2]{Szybki ruch}</td><td>3</td><td>+2</td></tr><tr><td>6.</td><td>+3</td><td>Właściwość pierwotnej ścieżki</td><td>4</td><td>+2</td></tr><tr><td>7.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.NlXslw4yAqmKZWtN]{Zwierzęcy instynkt}</td><td>4</td><td>+2</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td><td>4</td><td>+2</td></tr><tr><td>9.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutalne obrażenia (1 kość)}</td><td>4</td><td>+3</td></tr><tr><td>10.</td><td>+4</td><td>Właściwość pierwotnej ścieżki</td><td>4</td><td>+3</td></tr><tr><td>11.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.FqfmbPgxiyrWzhYk]{Niepowstrzymany Szał}</td><td>4</td><td>+3</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>5</td><td>+3</td></tr><tr><td>13.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutalne obrażenia (2 kości)}</td><td>5</td><td>+3</td></tr><tr><td>14.</td><td>+5</td><td>Właściwość pierwotnej ścieżki</td><td>5</td><td>+3</td></tr><tr><td>15.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.l8tUhZ5Pecm9wz7I]{Trwały Szał}</td><td>5</td><td>+3</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>5</td><td>+4</td></tr><tr><td>17.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutalne obrażenia (3 kości)}</td><td>6</td><td>+4</td></tr><tr><td>18.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Q1exex5ALteprrPo]{Niezłomna potęga}</td><td>6</td><td>+4</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>6</td><td>+4</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jVU4AgqfrFaqgXns]{Pierwotny mocarz}</td><td>Bez ograniczeń</td><td>+4</td></tr></tbody></table><h1>Pierwotna ścieżka</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.uGuDQX9Mz3oHNHkU]{Ścieżka berserkera}</p>",
+            "advancement": {
+                "6": {
+                    "title": "Zdolności"
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "title": "Zdolności"
+                },
+                "9": {
+                    "title": "Zdolności"
+                },
+                "10": {
+                    "title": "Zdolności"
+                },
+                "11": {
+                    "title": "Zdolności"
+                },
+                "12": {
+                    "title": "Zdolności"
+                },
+                "13": {
+                    "title": "Zdolności"
+                },
+                "14": {
+                    "title": "Zdolności"
+                },
+                "15": {
+                    "title": "Zdolności"
+                },
+                "16": {
+                    "title": "Liczba szałów"
+                },
+                "17": {
+                    "title": "Obrażenia w szale"
+                },
+                "18": {
+                    "title": "Kość brutalnych obrażeń"
+                },
+                "24": {
+                    "title": "Pierwotna ścieżka"
+                }
+            }
+        },
+        "tlwBnN8GmqJcTgub": {
+            "name": "Kleryk",
+            "description": "<p>Jako kleryk otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k8 na poziom kleryka<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 8 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k8 (lub 5) + modyfikator z Kondycji na każdy poziom kleryka powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Lekkie pancerze, średnie pancerze, tarcze<br /><strong>Broń:</strong> Bronie proste<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Mądrość, Charyzma<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Historia, Intuicja, Medycyna, Perswazja, Religia.</p><h1>Rozwój kleryka</h1><table><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.v4gKwLhAq9vuqza7]{Rzucanie czarów} , @UUID[Compendium.dnd5e.classfeatures.Item.x637K2Icp2ZFM1TB]{Boska domena}</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Akt Wiary (1/odpoczynek)},, Właściwość Boskiej domeny</td></tr><tr><td>3.</td><td>+2</td><td>Komórka czarów 2. kręgu</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>5.</td><td>+3</td>Komórka czarów<td> 3. kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Zniszczenie Nieumarłego (SW 1/2)}</td></tr><tr><td>6.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Akt Wiary (2/odpoczynek)}, Właściwość Boskiej domeny</td></tr><tr><td>7.</td><td>+3</td><td>Komórka czarów 4. kręgu</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}, @UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Zniszczenie Nieumarłego (SW 1)}, Właściwość Boskiej domeny</td></tr><tr><td>9.</td><td>+4</td><td>Komórka czarów 5. kręgu</td></tr><tr><td>10.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.eVXqHn0ojWrEuYGU]{Boska Interwencja}</td></tr><tr><td>11.</td><td>+4</td>Komórka czarów<td> 6. kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Zniszczenie Nieumarłego (SW 2)}</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>13.</td><td>+5</td><td>Komórka czarów 7. kręgu</td></tr><tr><td>14.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Zniszczenie Nieumarłego (SW 3)}</td></tr><tr><td>15.</td><td>+5</td><td>Komórka czarów 8. kręgu</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>17.</td><td>+6</td>Komórka czarów<td> 9. kręgu, @UUID[Compendium.dnd5e.classfeatures.Item.NMy4piwXIpLjYbRE]{Zniszczenie Nieumarłego (SW 4)}, Właściwość Boskiej Domeny</td></tr><tr><td>18.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.YpiLQEKGalROn7iJ]{Akt Wiary (3/odpoczynek)}</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.eVXqHn0ojWrEuYGU]{Boska Interwencja (automatyczny sukces)}</td></tr></tbody></table><h1>Boska Domena</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.H3RYLGqCiqm8BP3q]{Domena życia}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "5": {
+                    "title": "Zdolności"
+                },
+                "6": {
+                    "title": "Zdolności"
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "title": "Zdolności"
+                },
+                "9": {
+                    "title": "Użycia aktu wiary"
+                },
+                "10": {
+                    "title": "Zniszczenie nieumarłego o SW"
+                },
+                "11": {
+                    "title": "Znane sztuczki"
+                },
+                "12": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "13": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "14": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "15": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "17": {
+                    "title": "Boska domena"
+                }
+            }
+        },
+        "wZK2Q0rXB0AQo8h3": {
+            "name": "Mag",
+            "description": "<p>Jako mag otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k6 na poziom maga<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 6 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k6 (lub 4) + modyfikator z Kondycji na każdy poziom maga powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Brak<br /><strong>Broń:</strong> Drąg, kusza lekka, proca, strzałka, sztylet<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Inteligencja, Mądrość<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Historia, Intuicja, Medycyna, Religia, Śledztwo i Wiedza tajemna.</p><h1>Rozwój czarodzieja</h1><table><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.gbNo5eVPaqr8IVKL]{Rzucanie czarów}, @UUID[Compendium.dnd5e.classfeatures.Item.e0uTcFPpgxjIyUW9]{Odzyskanie Mocy}</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.AEWr9EMxy5gj4ZFT]{Szkoła Magii}</td></tr><tr><td>3.</td><td>+2</td><td>Komórka czarów 2. kręgu</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>5.</td><td>+3</td><td>Komórka czarów 3. kręgu</td></tr><tr><td>6.</td><td>+3</td><td>Właściwość Szkoły magii</td></tr><tr><td>7.</td><td>+3</td><td>Komórka czarów 4. kręgu</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>9.</td><td>+4</td><td>Komórka czarów 5. kręgu</td></tr><tr><td>10.</td><td>+4</td><td>Właściwość Szkoły magii</td></tr><tr><td>11.</td><td>+4</td><td>Komórka czarów 6. kręgu</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>13.</td><td>+5</td><td>Komórka czarów 7. kręgu</td></tr><tr><td>14.</td><td>+5</td><td>Właściwość Szkoły magii</td></tr><tr><td>15.</td><td>+5</td><td>Komórka czarów 8. kręgu</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>17.</td><td>+6</td><td>Komórka czarów 9. kręgu</td></tr><tr><td>18.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.JfFfHTeIszx1hNRx]{Mistrzowskie Czarowanie}</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.nUrZDi6QN1YjwAr6]{Ulubione Zaklęcia}</td></tr></tbody></table><div class=\"sidebar-block\"><h3>Twoja księga czarów</h3><p>Zaklęcia gromadzone w twojej księdze czarów odzwierciedlają ścieżkę twoich poszukiwań w dziedzinie magii oraz obrazują odkrycia i przełomy związane z twoim rozumieniem natury Wieloświata. Podczas swoich przygód możesz trafić na nowe zaklęcia. Na przykład możesz znaleźć zwój z zaklęciem w kufrze czarnoksiężnika, bądź w zakurzonym woluminie w starożytnej bibliotece.</p><p><em><strong>Wpisywanie czaru do księgi.</strong></em> Gdy znajdziesz zaklęcie maga pochodzące z kręgu 1. lub wyższego, możesz je dodać do swojej księgi czarów, jeśli jego krąg pozwala ci je przygotować i jeśli masz czas na jego odczytanie i skopiowanie.</p><p>Kopiowanie czaru do księgi polega na odtworzeniu jego podstawowej formy, a potem odszyfrowaniu metody użytej przez maga, który zapisał zaklęcie. Zanim je przepiszesz, używając własnej notacji, musisz przećwiczyć wymagane do jego rzucenia gesty i dźwięki.</p><p>Kopiowanie czaru pochłania 2 godziny i 50 sztuk złota za każdy krąg. Koszt ten oddaje wartość materiałów zużywanych podczas eksperymentowania z zaklęciem oraz trudno dostępnych atramentów do zapisywania magicznych formuł. Skopiowawszy czar do księgi, możesz go przygotowywać tak jak swoje pozostałe zaklęcia.</p><p><em><strong>Wymiana księgi czarów.</strong></em> Możesz kopiować czary z jednej księgi czarów do drugiej, na przykład kiedy chcesz zrobić jej zapasową kopię. Proces wygląda bardzo podobnie do wpisywania nowego czaru do księgi, ale jest szybszy i prostszy, gdyż rozumiesz swoją własną notację i potrafisz już rzucić kopiowany czar. Musisz spędzić tylko 1 godzinę i wydać 10 sztuk złota za każdy krąg kopiowanego czaru.</p><p>Jeśli stracisz swoją księgę czarów, możesz tą samą metodą wpisać do nowej księgi czary, które masz przygotowane. Aby wpisać do niej więcej zaklęć, musisz skopiować je jako nowe zezwoju. Dlatego wielu magów trzyma w bezpiecznym miejscu zapasowe księgi.</p><p><em><strong>Wygląd księgi.</strong></em> Każda księga czarów to unikatowe połączenie zaklęć z indywidualnym zdobnictwem i notatkami na marginesach. Może być prostym, ale funkcjonalnym woluminem obitym skórą, otrzymanym w podarku od twojego nauczyciela albo wytwornic oprawionym i ozdobionym złoceniami grymuarem znalezionym w starożytnej bibliotece, a nawet luźnym stosem notatek spiętych ze sobą po utracie poprzedniej księgi w niefortunnych okolicznościach.</p></div><h1>Szkoły magii</h1><p>Czarodziejstwo jest starożytną dyscypliną sięgającą wstecz do pierwszych magicznych doświadczeń śmiertelników. Jest mocno osadzone w realiach światów gier fantasy, w których istnieją różne tradycje poświęcone studiom nad tą skomplikowaną ścieżką.</p><p>Najpowszechniejsze spośród magowskich tradycji Wieloświata obracają się wokół szkól magii. Magowie od wieków katalogują tysiące czarów, klasyfikując je w ośmiu kategoriach zwanych szkołami. W niektórych stronach są to dosłownie szkoły. Zdarza się też, że szkoły magii przypominają rywalizujące o studentów i fundusze wydziały uniwersyteckie. Podział magii na poszczególne szkoły uznają nawet ci magowie, którzy indywidualnie kształcą pojedynczych adeptów w zaciszu swych wież, ponieważ rzucanie czarów z różnych szkól wymaga opanowania odmiennych technik.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.Ye5f3FReEnuXfi0y]{Szkoła wywoływania}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "4": {
+                    "title": "Zdolności"
+                },
+                "5": {
+                    "title": "Zdolności"
+                },
+                "6": {
+                    "title": "Zdolności"
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "hint": "Wybierz ze swojej księgi czarów 2 czary maga z 3. kręgu."
+                },
+                "9": {
+                    "title": "Znane sztuczki"
+                },
+                "10": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "11": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "12": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "13": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "15": {
+                    "title": "Szkoła magii"
+                }
+            }
+        },
+        "xEb8jmA5HlNs7xTF": {
+            "name": "Łotr",
+            "description": "<p>Jako łotr otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k8 na poziom łotra<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 8 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k8 (lub 5) + modyfikator z Kondycji na każdy poziom łotra powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Lekkie pancerze<br /><strong>Broń:</strong> Bronie proste, kusza ręczna, miecz długi, miecz krótki<br /><strong>Narzędzia:</strong> Narzędzia złodziejskie.<br /><strong>Rzuty obronne:</strong> Zręczność, Inteligencja<br /><strong>Umiejętności:</strong> Wybierz cztery spośród następujących: Akrobatyka, Atletyka, Intuicja, Oszustwo, Percepcja, Perswazja, Skradanie się, Śledztwo, Występy, Zastraszanie i Zwinne dłonie.</p><h1>Rozwój łotra</h1><table><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Ukradkowy atak</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>1k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.3sYPftQKnbbVnHrh]{Znawstwo}, @UUID[Compendium.dnd5e.classfeatures.Item.DPN2Gfk8yi1Z5wp7]{Ukradkowy Atak}, @UUID[Compendium.dnd5e.classfeatures.Item.ohwfuwnvuoBWlSQr]{Grypsera}</td></tr><tr><td>2.</td><td>+2</td><td>1k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.01pcLg6PRu5zGrsb]{Chytre Zagranie}</td></tr><tr><td>3.</td><td>+2</td><td>2k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.80USV8ZFPIahpLd0]{Archetyp Łotra}</td></tr><tr><td>4.</td><td>+2</td><td>2k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Zwiększenie·Cechy}</td></tr><tr><td>5.</td><td>+3</td><td>3k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Mm64SKAHJWYecgXS]{Niesamowity Unik}</td></tr><tr><td>6.</td><td>+3</td><td>3k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.3sYPftQKnbbVnHrh]{Znawstwo}</td></tr><tr><td>7.</td><td>+3</td><td>4k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.a4P4DNMmH8CqSNkC]{Odskok}</td></tr><tr><td>8.</td><td>+3</td><td>4k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Zwiększenie·Cechy}</td></tr><tr><td>9.</td><td>+4</td><td>5k6</td><td>Właściwość archetypu łotra</td></tr><tr><td>10.</td><td>+4</td><td>5k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Zwiększenie·Cechy}</td></tr><tr><td>11.</td><td>+4</td><td>6k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.YN9xm6MCvse4Y60u]{Niezawodny Talent}</td></tr><tr><td>12.</td><td>+4</td><td>6k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Zwiększenie·Cechy}</td></tr><tr><td>13.</td><td>+5</td><td>7k6</td><td>Właściwość archetypu łotra</td></tr><tr><td>14.</td><td>+5</td><td>7k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.fjsBk7zxoAbLf8ZI]{Czuły Słuch}</td></tr><tr><td>15.</td><td>+5</td><td>8k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.V4pwFxlwHtNeB4w9]{Śliski Umysł}</td></tr><tr><td>16.</td><td>+5</td><td>8k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Zwiększenie·Cechy}</td></tr><tr><td>17.</td><td>+6</td><td>9k6</td><td>Właściwość archetypu łotra</td></tr><tr><td>18.</td><td>+6</td><td>9k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L7nJSRosos8sHJH9]{Nieuchwytność}</td></tr><tr><td>19.</td><td>+6</td><td>10k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.v7MxFuTAgOsmxZCD]{Zwiększenie·Cechy}</td></tr><tr><td>20.</td><td>+6</td><td>10k6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.rQhWDaMHMn7iU4f2]{Łut Szczęścia}</td></tr></tbody></table><h1>Archetypy bojowe</h1><p>Łotrów łączy bardzo wiele cech, w tym nacisk na doskonalenie umiejętności, precyzja i zabójcza skuteczność w walce oraz nieprzeciętny refleks. Mimo to wykorzystują swoje talenty na bardzo różne sposoby, których ucieleśnieniem są archetypy łotra. Wybrany archetyp określa sferę, na której się koncentrujesz - niekoniecznie jest to twój zawód, a raczej określenie twoich ulubionych metod działania.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.k8iuefRorWOjb9gR]{Złodziej}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "6": {
+                    "title": "Znawstwo"
+                },
+                "7": {
+                    "title": "Znawstwo"
+                },
+                "9": {
+                    "title": "Zdolności"
+                },
+                "10": {
+                    "title": "Zdolności"
+                },
+                "11": {
+                    "title": "Zdolności"
+                },
+                "12": {
+                    "title": "Zdolności"
+                },
+                "13": {
+                    "title": "Zdolności"
+                },
+                "14": {
+                    "title": "Zdolności"
+                },
+                "15": {
+                    "title": "Zdolności"
+                },
+                "16": {
+                    "title": "Zdolności"
+                },
+                "17": {
+                    "title": "Zdolności"
+                },
+                "18": {
+                    "title": "Zdolności"
+                },
+                "19": {
+                    "title": "Ukradkowy atak"
+                },
+                "20": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "21": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "22": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "23": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "27": {
+                    "hint": "Zyskujesz większą odporność psychiczną. Zyskujesz biegłość w rzutach obronnych na Mądrość."
+                },
+                "28": {
+                    "title": "Archetyp łotra"
+                }
+            }
+        },
+        "ygVYgPbJkaH0tH1N": {
+            "name": "Druid",
+            "description": "<p>Jako druid otrzymujesz następujące korzyści z klasy.</p><h3>Punkty wytrzymałości</h3><p><strong>Kość Wytrzymałości:</strong> 1k8 na poziom druida<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 8 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong> 1k8 (lub 5) + modyfikator z Kondycji na każdy poziom druida powyżej 1.</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Lekkie pancerze, średnie pancerze, tarcze (druidzi nie używają pancerzy i tarcz wykonanych z metalu)<br /><strong>Broń:</strong> Buława, drąg, oszczep, pałka, proca, sejmitar, sierp, sztylet, strzałka, włócznia<br /><strong>Narzędzia:</strong> Zestaw zielarza<br /><strong>Rzuty obronne:</strong> Inteligencja, Mądrość<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Intuicja, Medycyna, Sztuka przetrwania, Wiedza tajemna.</p><h1>Rozwój druida</h1><table><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Właściwości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.LzJ5ayHt0OlSVGxi]{Druidyczny}, @UUID[Compendium.dnd5e.classfeatures.Item.i6tPm3FNK13Ftc9v]{Rzucanie Czarów}</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{Dzika Postać(Max SW ¼)}, @UUID[Compendium.dnd5e.classfeatures.Item.u6Du2P9s81SWuGbi]{Krąg Druidyczny}</td></tr><tr><td>3.</td><td>+2</td><td>Komórka czarów 2. kręgu</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{Dzika·Postać(Max·SW·½)}, @UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>5.</td><td>+3</td><td>Komórka czarów 3. kręgu</td></tr><tr><td>6.</td><td>+3</td><td>Właściwość Kręgu druidycznego</td></tr><tr><td>7.</td><td>+3</td><td>Komórka czarów 4. kręgu</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{Dzika·Postać(Max·SW·1)}, @UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>9.</td><td>+4</td><td>Komórka czarów 5. kręgu</td></tr><tr><td>10.</td><td>+4</td><td>Właściwość Kręgu druidycznego</td></tr><tr><td>11.</td><td>+4</td><td>Komórka czaru 6. kręgu</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>13.</td><td>+5</td><td>Komórka czarów 7. kręgu</td></tr><tr><td>14.</td><td>+5</td><td>Właściwość Kręgu druidycznego</td></tr><tr><td>15.</td><td>+5</td><td>Komórka czarów 8. kręgu</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>17.</td><td>+6</td><td>Komórka czaru 9. kręgu</td></tr><tr><td>18.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.cVDEQo0ow1WJT7Wl]{Ponadczasowe Ciało}, @UUID[Compendium.dnd5e.classfeatures.Item.xvgPu1O57DgXCM86]{Czary w formie zwierzęcej}</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie Cechy}</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.ip4bvmGoz3qkoqes]{Arcydruid}</td></tr></tbody></table><div class=\"sidebar-block\"><h4>Święte rośliny i drewno</h4><p>Druidzi uważają niektóre rośliny za święte, zwłaszcza olchę, jesion, brzozę, czarny bez, leszczynę, ostrokrzew, jałowiec, jemiołę, dąb, jarzębinę, wierzbę i cis. Często używają kawałków dębu czy cisu albo gałązek jemioły jako elementów druidycznego fetyszu.</p><p>Sporządzają z nich także inne przedmioty, takie jak bronie i tarcze. Cis jest kojarzony ze śmiercią i odrodzeniem, dlatego pasuje na rękojeści sejmitarów i sierpów. Jesion symbolizuje życie, zaś dąb - siłę. Te rodzaje drewna nadają się idealnie na trzonki albo nawet całe bronie, np. pałki bądź dragi, a także do budowy tarcz. Jesion uważa się za związany z żywiołem powietrza, toteż można go użyć do wytwarzania broni rzucanych, zwłaszcza strzałek i oszczepów.</p><p>Druidzi pochodzący z terenów pozbawionych wspomnianych gatunków zastępują je roślinami właściwymi dla swojego otoczenia. Mogą, na przykład, darzyć wyjątkowym szacunkiem jukę albo kaktusy, jeśli mieszkają na pustyni.</p></div><div class=\"sidebar-block\"><h4>Druidzi i Bogowie</h4><p>Niektórzy druidzi oddają cześć siłom przyrody, jednak większość z nich wyznaje jedno lub więcej bóstw natury (wiele z nich znajduje się na listach bóstw w @UUID[Compendium.dnd5e.rules.JournalEntry.udVPA9JW5wy5t3G5]{Załącznik B}). Kult tych bóstw jest często uznawany za znacznie starszy niż religie wyznawane przez kleryków i ludzi z miast.</p></div><h1>Kręgi druidyczne</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.4Ae2SPZRXEVbVs0M]{Krąg ziemi}</p>",
+            "advancement": {
+                "0": {
+                    "title": "Punkty Wytrzymałości"
+                },
+                "1": {
+                    "hint": "Lekka zbroja, średnia zbroja i tarcze (druidzi nie będą nosić zbroi ani używać tarcz wykonanych z metalu)"
+                },
+                "6": {
+                    "title": "Zdolności"
+                },
+                "7": {
+                    "title": "Zdolności"
+                },
+                "8": {
+                    "title": "Zdolności"
+                },
+                "9": {
+                    "title": "Zdolności"
+                },
+                "10": {
+                    "title": "SW dzikiej postaci"
+                },
+                "11": {
+                    "title": "Znane sztuczki"
+                },
+                "12": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "13": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "14": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "15": {
+                    "title": "Zwiększenie wartości Cech"
+                },
+                "18": {
+                    "title": "Użycia dzikiej postaci"
+                },
+                "19": {
+                    "title": "Krąg druidyczny"
+                }
+            }
+        }
+    },
+    "mapping": {
+        "advancement": {
+            "converter": "translateAdvancement",
+            "path": "system.advancement"
+        }
+    }
+}
