@@ -1,24 +1,5 @@
 {
   "label": "Starter Heroes",
-  "mapping": {
-    "tokenName": "prototypeToken.name",
-    "token": {
-      "path": "prototypeToken.sight.range",
-      "converter": "sightRange"
-    },
-    "movement": {
-      "path": "system.attributes.movement",
-      "converter": "movement"
-    },
-    "items": {
-      "path": "items",
-      "converter": "items"
-    },
-    "senses": {
-      "path": "system.attributes.senses",
-      "converter": "senses"
-    }
-  },
   "entries": {
     "125qFnXvT9z0iOic": {
       "name": "Perrin (Halfling Monk)",

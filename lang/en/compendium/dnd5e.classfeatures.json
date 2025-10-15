@@ -1,20 +1,5 @@
 {
   "label": "Class & Subclass Features (SRD)",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    }
-  },
   "folders": {
     "Paladin Features": "Paladin Features",
     "Eldritch Invocations": "Eldritch Invocations",

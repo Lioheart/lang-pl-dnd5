@@ -1,28 +1,5 @@
 {
   "label": "Spells",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "target": {
-      "path": "system.target",
-      "converter": "target"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    },
-    "range": {
-      "path": "system.range",
-      "converter": "range"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    },
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    }
-  },
   "folders": {
     "Cantrips": "Cantrips",
     "1st Level": "1st Level",

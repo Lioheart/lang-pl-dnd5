@@ -1,24 +1,5 @@
 {
   "label": "Spells (SRD)",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "range": {
-      "path": "system.range",
-      "converter": "range"
-    },
-    "target": {
-      "path": "system.target",
-      "converter": "target"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    }
-  },
   "folders": {
     "Cantrip": "Cantrip",
     "1st Level": "1st Level",

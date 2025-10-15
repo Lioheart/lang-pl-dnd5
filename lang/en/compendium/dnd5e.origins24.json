@@ -1,24 +1,5 @@
 {
   "label": "Character Origins",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "advancement": {
-      "path": "system.advancement",
-      "converter": "advancement"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    },
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    }
-  },
   "folders": {
     "Dragonborn": "Dragonborn",
     "Elf": "Elf",

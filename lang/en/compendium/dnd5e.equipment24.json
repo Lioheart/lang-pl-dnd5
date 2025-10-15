@@ -1,32 +1,5 @@
 {
   "label": "Equipment",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "weight": {
-      "path": "system.weight",
-      "converter": "weight"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    },
-    "capacityWeight": {
-      "path": "system.capacity.weight",
-      "converter": "weight"
-    },
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    },
-    "range": {
-      "path": "system.range",
-      "converter": "range"
-    }
-  },
   "folders": {
     "Rings": "Rings",
     "Ammunition": "Ammunition",

@@ -1,12 +1,5 @@
 {
   "label": "Trade Goods (SRD)",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "weight": {
-      "path": "system.weight",
-      "converter": "weight"
-    }
-  },
   "entries": {
     "8SQ7vyE6gevpfJvn": {
       "name": "Pepper",

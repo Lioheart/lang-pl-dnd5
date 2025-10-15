@@ -1,32 +1,5 @@
 {
   "label": "Actors",
-  "mapping": {
-    "movement": {
-      "path": "system.attributes.movement",
-      "converter": "movement"
-    },
-    "tokenName": "prototypeToken.name",
-    "items": {
-      "path": "items",
-      "converter": "items"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    },
-    "senses": {
-      "path": "system.attributes.senses",
-      "converter": "senses"
-    },
-    "communication": {
-      "path": "system.traits.languages.communication",
-      "converter": "communication"
-    },
-    "token": {
-      "path": "prototypeToken.sight.range",
-      "converter": "sightRange"
-    }
-  },
   "folders": {
     "Conjured Elementals": "Conjured Elementals",
     "Otherworldly Steeds": "Otherworldly Steeds",

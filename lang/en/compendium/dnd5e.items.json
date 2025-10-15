@@ -1,32 +1,5 @@
 {
   "label": "Items (SRD)",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "weight": {
-      "path": "system.weight",
-      "converter": "weight"
-    },
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "range": {
-      "path": "system.range",
-      "converter": "range"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    },
-    "capacityWeight": {
-      "path": "system.capacity.weight",
-      "converter": "weight"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    }
-  },
   "folders": {
     "Wand": "Wand",
     "Ring": "Ring",

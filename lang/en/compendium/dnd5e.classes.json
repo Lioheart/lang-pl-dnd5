@@ -1,16 +1,5 @@
 {
   "label": "Classes (SRD)",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "advancement": {
-      "path": "system.advancement",
-      "converter": "advancement"
-    },
-    "distanceAdvancement": {
-      "path": "system.advancement",
-      "converter": "distanceAdvancement"
-    }
-  },
   "entries": {
     "6T08zzKtmmpVwlXU": {
       "name": "Sorcerer",

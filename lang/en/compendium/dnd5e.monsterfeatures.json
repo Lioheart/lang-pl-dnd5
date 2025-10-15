@@ -1,20 +1,5 @@
 {
   "label": "Monster Features (SRD)",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    },
-    "range": {
-      "path": "system.range",
-      "converter": "range"
-    }
-  },
   "entries": {
     "0YuGSS8E8ElHLRyb": {
       "name": "Fire Form",

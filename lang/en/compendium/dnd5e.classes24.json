@@ -1,28 +1,5 @@
 {
   "label": "Character Classes",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    },
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "advancement": {
-      "path": "system.advancement",
-      "converter": "advancement"
-    },
-    "distanceAdvancement": {
-      "path": "system.advancement",
-      "converter": "distanceAdvancement"
-    }
-  },
   "folders": {
     "Subclass Features": "Subclass Features",
     "Class Features": "Class Features",

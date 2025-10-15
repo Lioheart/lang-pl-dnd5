@@ -1,12 +1,5 @@
 {
   "label": "Backgrounds (SRD)",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "advancement": {
-      "path": "system.advancement",
-      "converter": "advancement"
-    }
-  },
   "folders": {
     "Acolyte Equipment": "Acolyte Equipment",
     "Acolyte Feature": "Acolyte Feature"

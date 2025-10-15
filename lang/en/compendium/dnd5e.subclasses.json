@@ -1,12 +1,5 @@
 {
   "label": "Subclasses (SRD)",
-  "mapping": {
-    "system.advancement.*": "system.advancement.*.title",
-    "advancement": {
-      "path": "system.advancement",
-      "converter": "advancement"
-    }
-  },
   "entries": {
     "2nadB2MBSHTQ0kcl": {
       "name": "Draconic Bloodline",

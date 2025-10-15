@@ -1,32 +1,5 @@
 {
   "label": "Monsters (SRD)",
-  "mapping": {
-    "token": {
-      "path": "prototypeToken.sight.range",
-      "converter": "sightRange"
-    },
-    "movement": {
-      "path": "system.attributes.movement",
-      "converter": "movement"
-    },
-    "senses": {
-      "path": "system.attributes.senses",
-      "converter": "senses"
-    },
-    "items": {
-      "path": "items",
-      "converter": "items"
-    },
-    "communication": {
-      "path": "system.traits.languages.communication",
-      "converter": "communication"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    },
-    "tokenName": "prototypeToken.name"
-  },
   "folders": {
     "Fey": "Fey",
     "Summons": "Summons",
