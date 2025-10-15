@@ -22,7 +22,7 @@
 "TYPES.ActiveEffect.enchantmentPl": "Zaklęcia",
 
 "TYPES.ChatMessage": {
-  "request": "Żądanie wiadomości",
+  "request": "Prośba o wiadomość",
   "rest": "Komunikat odpoczynku",
   "turn": "Komunikat o turze walki"
 },
@@ -73,8 +73,8 @@
 
 "DND5E.ABILITY": {
   "Configure": {
-    "CheckLabel": "Test {ability}",
-    "SaveLabel": "Rzut obronny na {ability}",
+    "CheckLabel": "Test: {ability}",
+    "SaveLabel": "Rzut obronny: {ability}",
     "Title": "Skonfiguruj: {ability}"
   },
   "SECTIONS": {
@@ -185,8 +185,8 @@
       "Label": "Akcja"
     },
     "BonusAction": {
-      "Header": "Akcje Dodatkowe",
-      "Label": "Akcja Dodatkowa"
+      "Header": "Akcje dodatkowe",
+      "Label": "Akcja dodatkowa"
     },
     "Crew": {
       "Header": "Akcje załogi",
@@ -204,8 +204,8 @@
       "Label": "Godzina"
     },
     "Lair": {
-      "Header": "Czynności legowiska",
-      "Label": "Akcja Leża"
+      "Header": "Akcje leża",
+      "Label": "Akcja leża"
     },
     "Legendary": {
       "Counted": {
@@ -223,7 +223,7 @@
       "Label": "Minuta"
     },
     "Mythic": {
-      "Header": "Mityczne akcje",
+      "Header": "Mityczne Akcje",
       "Label": "Mityczna Akcja"
     },
     "Reaction": {
@@ -247,7 +247,7 @@
 },
 
 "DND5E.ACTIVEEFFECT": {
-  "AttributeKeyTooltip": "Lista popularnych kluczy znajduje się w sekcji <a href=\"{url}\">wiki</a>.",
+  "AttributeKeyTooltip": "Listę popularnych kluczy znajdziesz na <a href=\"{url}\">wiki</a>.",
   "FIELDS": {
     "statuses": {
       "label": "Stany",
@@ -335,10 +335,10 @@
         "label": "Stałe zwiększenie"
       },
       "locked": {
-        "hint": "Nie można zwiększyć Cechy.",
+        "hint": "Nie można zwiększyć wartości Cechy.",
         "label": "Zablokowane",
-        "locked": "Nie można zwiększyć Cechy.",
-        "unlocked": "Można zwiększyć Cechę."
+        "locked": "Nie można zwiększyć wartości Cechy.",
+        "unlocked": "Można zwiększyć wartość Cechy."
       },
       "max": {
         "hint": "Zwiększ maksymalną liczbę punktów, które można przyznać aktorowi.",
@@ -351,13 +351,13 @@
         "label": "Punkty"
       },
       "recommendation": {
-        "hint": "Atut Epickiego Dobrodziejstwa zalecane przez tę klasę.",
-        "label": "Rekomendacja"
+        "hint": "Epickie Dobrodziejstwo zalecane dla tej klasy.",
+        "label": "Zalecenie"
       }
     },
     "Hint": "Zezwól graczowi zwiększyć jedną lub więcej wartości Cech lub opcjonalnie wybrać atut.",
     "Journal": {
-      "DescriptionEpic": "<p>Otrzymujesz atut Epickiego Dobrodziejstwa lub inny atut do wyboru, do którego się kwalifikujesz. Zalecany jest {recommendation}.</p>",
+      "DescriptionEpic": "<p>Zyskujesz Epickie Dobrodziejstwo lub inny wybrany atut, którego wymagania spełniasz. Zalecany: {recommendation}.</p>",
       "DescriptionLegacy": "<p>Kiedy awansujesz na poziom {firstLevelOrdinal}, a następnie na poziom {otherLevelsOrdinal}, możesz zwiększyć jedną Cechę o 2 albo dwie Cechy o 1. Standardowo nie można zwiększyć wartości danej Cechy powyżej {maxAbilityScore} za pomocą tej właściwości.</p><p>Korzystając z zasady opcjonalnych atutów, można zrezygnować z korzystania z tej właściwości i zamiast niej wybrać atut.</p>",
       "DescriptionModern": "<p>Zyskujesz atut zwiększenie Cechy lub inny wybrany atut, do którego się kwalifikujesz. Zyskujesz tę właściwość ponownie na poziomach {otherLevels} klasy {class}.</p>",
       "Name": "Zwiększenie wartości Cech"
@@ -385,9 +385,9 @@
     "Details": "Szczegóły awansu"
   },
   "Defaults": {
-    "BackgroundFeat": "Atut pochodzenia",
+    "BackgroundFeat": "Atut z pochodzenia",
     "BackgroundFeature": "Korzyść z pochodzenia",
-    "BackgroundProficiencies": "Biegłości pochodzenia",
+    "BackgroundProficiencies": "Biegłości z pochodzenia",
     "ChooseLanguages": "Wybierz języki"
   },
   "HitPoints": {
@@ -442,8 +442,8 @@
           "label": "Krąg czaru"
         },
         "list": {
-          "hint": "Zezwalaj wyłącznie na zaklęcia z tych list.",
-          "label": "Listy zaklęć"
+          "hint": "Zezwalaj tylko na czary z tych list.",
+          "label": "Listy czarów"
         },
         "subtype": {
           "label": "Podtyp"
@@ -466,11 +466,11 @@
     "Title": "Wybierz przedmioty",
     "Warning": {
       "InvalidType": "Tylko przedmioty rodzaju {type} mogą być wybrane.",
-      "MaxSelected": "Nie można wybrać żadnych dodatkowych przedmiotów. Odznacz wybrane przedmioty, aby wybrać kolejne.",
+      "MaxSelected": "Nie można wybrać dodatkowych przedmiotów, odznacz wybrane przedmioty przed wybraniem kolejnych.",
       "NoOriginal": "Nie można już zastąpić poprzednio wybranej opcji.",
       "SpellLevelAvailable": "Tylko czary {level} lub niższego kręgu mogą być wybrane przy tym awansie.",
       "SpellLevelSpecific": "Tylko czary {level} kręgu mogą być wybrane przy tym awansie.",
-      "SpellList": "W ramach tego awansu można wybierać tylko zaklęcia dostępne na liście zaklęć {lists}."
+      "SpellList": "W ramach tego awansu można wybierać tylko czary dostępne na liście zaklęć {lists}."
     }
   },
   "ItemGrant": {
@@ -615,14 +615,14 @@
           "label": "Cecha"
         },
         "method": {
-          "label": "Metoda rzucania zaklęć"
+          "label": "Metoda rzucania czarów"
         },
         "prepared": {
           "label": "Przygotowanie"
         },
         "uses": {
           "max": {
-            "label": "Ładunki"
+            "label": "Użycia"
           },
           "per": {
             "label": "Okres"
@@ -730,8 +730,8 @@
 "DND5E.AdvancementHint": "Wskazówka",
 "DND5E.AdvancementItemTypeInvalidWarning": "Nie można dodać przedmiotów rodzaju {type} do tego awansu.",
 "DND5E.AdvancementLevelHeader": "Poziom {level}",
-"DND5E.AdvancementLevelAnyHeader": "Dowolny Poziom",
-"DND5E.AdvancementLevelNoneHeader": "Bez Poziomu",
+"DND5E.AdvancementLevelAnyHeader": "Dowolny poziom",
+"DND5E.AdvancementLevelNoneHeader": "Bez poziomu",
 "DND5E.AdvancementLevelDownConfirmationMessage": "Zmniejszając poziom tej klasy cofniesz wszystkie decyzje dotyczące rozwoju. Jeśli poniższe pole wyboru będzie zaznaczone, zmiany te zostaną usunięte z karty postaci.",
 "DND5E.AdvancementLevelDownConfirmationTitle": "Potwierdź obniżenie poziomu",
 "DND5E.AdvancementModifyChoices": "Zmodyfikuj wybory",
@@ -1069,7 +1069,7 @@
       },
       "level": {
         "label": "Poziom komórki czaru",
-        "hint": "Poziom podstawowy do rzucenia zaklęcia, jeśli różni się od poziomu komórki zaklęcia."
+        "hint": "Poziom podstawowy do rzucenia czaru, jeśli różni się od poziomu komórki czaru."
       },
       "properties": {
         "label": "Zignorowane właściwości",
@@ -1162,9 +1162,9 @@
   },
   "REQUEST": {
     "Action": {
-      "Handle": "Obsługa żądań"
+      "Handle": "Obsługa żądania"
     },
-    "Complete": "Żądanie zrealizowane",
+    "Complete": "Żądanie spełnione",
     "PartyMembers": "Członkowie drużyny"
   },
   "TURN": {
@@ -1228,11 +1228,11 @@
       },
       "value": {
         "label": "Cecha Podstawowa",
-        "hint": "Cechy najczęściej wykorzystywane przez tą klasę. Służy do określania ograniczeń w tworzeniu wieloklasowca."
+        "hint": "Cechy najczęściej wykorzystywane przez tą klasę. Służy do określania ograniczeń w tworzeniu postaci wieloklasowej."
       }
     },
     "properties": {
-      "label": "Właściwości klasy"
+      "label": "Właściwości Klasy"
     }
   }
 },
@@ -1405,7 +1405,7 @@
 "DND5E.ConsumeRecharge": "Zużyć odnowienie?",
 "DND5E.ConsumeScaling": "Skalowanie zasobów",
 "DND5E.ConsumeScalingLabel": "Użyj zasobów",
-"DND5E.ConsumeScalingTooltip": "Jeśli zaznaczone, zużywanie dodatkowych zasobów zwiększy krąg rzucanego zaklęcia.",
+"DND5E.ConsumeScalingTooltip": "Jeśli zaznaczone, zużywanie dodatkowych zasobów zwiększy krąg rzucanego czaru.",
 
 "DND5E.CONSUMABLE": {
   "FIELDS": {
@@ -1686,7 +1686,7 @@
   "Convert": {
     "Label": "Przelicz",
     "Action": "Przelicz wszystkie monety",
-    "Hint": "Przelicz całą noszoną walutę na najwyższy możliwy nominał, aby zmniejszyć ilość monet niesionych przez postać. Uwaga, to działanie jest nieodwracalne."
+    "Hint": "Przelicz wszystkie noszone monety na najwyższy możliwy nominał, aby zmniejszyć ilość waluty niesionej przez postać. Uwaga, to działanie jest nieodwracalne."
   },
   "Error": {
     "InsufficientFunds": "Nie udało się odliczyć {amount}{denomination} od {name}. Niewystarczające środki."
@@ -1868,7 +1868,7 @@
 "DND5E.DisplayCard": "Wyświetl na czacie",
 "DND5E.DistAny": "Dowolny",
 "DND5E.DistFt": "Stopa",
-"DND5E.DistFtAbbr": "stopy",
+"DND5E.DistFtAbbr": "ft",
 "DND5E.DistKm": "Kilometry",
 "DND5E.DistKmAbbr": "km",
 "DND5E.DistM": "Metry",
@@ -1969,7 +1969,7 @@
       },
       "self": {
         "label": "Automatyczne zaklinanie siebie",
-        "hint": "Automatycznie zastosuj wybrane zaklęcie do przedmiotu zawierającego tę aktywność, gdy zostanie on użyty, i usuń je, gdy aktywność zostanie użyta ponownie."
+        "hint": "Automatycznie zastosuj wybrane zaklęcie do przedmiotu zawierającego tę aktywność, kiedy ta zostaje użyta oraz usuń jego efekt, gdy aktywność ponownie zostanie użyta."
       }
     },
     "restrictions": {
@@ -1977,7 +1977,7 @@
       "hint": "Ograniczenia dotyczące rodzaju przedmiotu, na który można zastosować to zaklęcie.",
       "allowMagical": {
         "label": "Zezwalaj na magiczne przedmioty",
-        "hint": "Pozwól na zaklinanie przedmiotów fizycznych, które już są magiczne."
+        "hint": "Pozwól zakląć przedmioty fizyczne, które już są magiczne."
       },
       "categories": {
         "label": "Dopuszczalne kategorie",
@@ -2071,7 +2071,7 @@
     "low": "Niski poziom trudności",
     "moderate": "Średni poziom trudności"
   },
-  "DropCreature": "Upuść stworzenie",
+  "DropCreature": "Upuść stworzenie tutaj",
   "Tab": {
     "Description": "Opis",
     "Loot": "Przedmioty",
@@ -2526,7 +2526,7 @@
 "DND5E.FilterGroupOrigin": "Grupuj wg. źródła",
 "DND5E.FilterGroupAction": "Grupuj wg. akcji",
 "DND5E.FilterNoSpells": "Nie znaleziono czarów dla tego zestawu filtrów.",
-"DND5E.NoSpellLevels": "Ta postać nie ma żadnych komórek czarów, ale możesz dodać zaklęcia ręcznie.",
+"DND5E.NoSpellLevels": "Ta postać nie ma żadnych komórek czarów, ale możesz dodać czary ręcznie.",
 
 "DND5E.FLAGS": {
   "EnhancedDualWielding": {
@@ -2547,7 +2547,7 @@
 "DND5E.FlagsHalflingLucky": "Szczęście Nizołka",
 "DND5E.FlagsHalflingLuckyHint": "Możesz przerzucić jedynki, kiedy wykonujesz test k20.",
 "DND5E.FlagsHalflingNimbleness": "Zwinność niziołka",
-"DND5E.FlagsHalflingNimblenessHint": "Ruch przez większe stworzenia nie jest blokowany.",
+"DND5E.FlagsHalflingNimblenessHint": "Ruch przez pola zajmowane przez stworzenia większego rozmiaru nie jest blokowany.",
 "DND5E.FlagsAlert": "Atut: Czujny",
 "DND5E.FlagsAlertHint": "Biegłość w rzutach na inicjatywę.",
 "DND5E.FlagsAlertHintLegacy": "Zapewnia +5 do Inicjatywy.",
@@ -2567,8 +2567,8 @@
 "DND5E.FlagsSpellCritThresholdHint": "Rozszerzony próg trafienia kryt. ataków czarami.",
 "DND5E.FlagsMeleeCriticalDice": "Kość obrażeń krytycznych wręcz",
 "DND5E.FlagsMeleeCriticalDiceHint": "Ilość dodatkowych kości dodawanych do obrażeń krytycznych bronią wręcz.",
-"DND5E.FlagsToolExpertise": "Znastwo narzędzi",
-"DND5E.FlagsToolExpertiseHint": "Podwaja premię za biegłość do wszystkich testów umiejętności, które wykorzystują biegłość w posługiwaniu się narzędziami.",
+"DND5E.FlagsToolExpertise": "Znawstwo w posługiwaniu się narzędziami",
+"DND5E.FlagsToolExpertiseHint": "Podwaja premię z biegłości do każdego testu Cechy, który wykorzystuje biegłość w posługiwaniu się narzędziami.",
 "DND5E.Flat": "Stały",
 "DND5E.Formula": "Wzór",
 "DND5E.FormulaMalformedError": "Problem z przygotowaniem wzoru na {property} w {name}.",
@@ -2598,8 +2598,8 @@
   },
   "Challenge": "Wyzwanie",
   "Distribute": {
-    "noxp": "Rozdziel zgromadzone monety",
-    "xp": "Rozdziel połączone PD i monety"
+    "noxp": "Rozdaj monety z puli",
+    "xp": "Rozdaj PD i monety z puli"
   },
   "Member": {
     "one": "Członek",
@@ -2619,12 +2619,12 @@
     "other": "Pojazdy"
   },
   "Warning": {
-    "PhysicalItemOnly": "Obsługiwane są wyłącznie przedmioty fizyczne."
+    "PhysicalItemOnly": "Obsługiwane są tylko przedmioty fizyczne."
   }
 },
 "DND5E.Habitat": {
   "Categories": {
-    "Any": "Dowolny",
+    "Any": "Dowolne",
     "Arctic": "Arktyczne",
     "Coastal": "Przybrzeżne",
     "Desert": "Pustynne",
@@ -2708,11 +2708,11 @@
 
 "DND5E.HITPOINTS": {
   "Counted": {
-    "one": "{number} Punkt Wytrzymałości",
-    "other": "{number} Punktów Wytrzymałości"
+    "one": "{number} PW",
+    "other": "{number} PW"
   },
   "DT": {
-    "Abbr": "DT"
+    "Abbr": "PO"
   }
 },
 
@@ -2736,7 +2736,7 @@
 "DND5E.HPFormulaRollMessage": "Wykonaj rzut na PW zgodnie ze wzorem",
 
 "DND5E.HITDICE": {
-  "Abbreviation": "KO",
+  "Abbreviation": "KW",
   "Action": {
     "Decrease": "Zmniejsz",
     "Increase": "Zwiększ"
@@ -2872,7 +2872,7 @@
     "Light": "Lekki",
     "Loading": "Ładowanie",
     "Material": "Materialny",
-    "Magical": "Magiczny",
+    "Magical": "Magiczna",
     "Reach": "Dalekosiężna",
     "Reload": "Przeładowanie",
     "Returning": "Powracająca",
@@ -2880,7 +2880,7 @@
     "Sidekick": "Pomocnik",
     "Silvered": "Posrebrzana",
     "Somatic": "Somatyczny",
-    "Special": "Specjalny",
+    "Special": "Specjalna",
     "StealthDisadvantage": "Utrudnienie w Skradaniu się",
     "Thrown": "Rzucana",
     "Trait": "Cecha pasywna",
@@ -2964,7 +2964,7 @@
 "DND5E.Languages": "Języki",
 
 "DND5E.LegendaryAction": {
-  "Description": "Użycie legendarnej akcji: {uses}. Natychmiast po turze innej istoty, {name} może zużyć jedno użycie, aby wykonać jedną z poniższych akcji. {name} odzyskuje wszystkie zużyte użycia na początku każdej swojej tury.",
+  "Description": "Użycia akcji legendarnej: {uses}. Natychmiast po zakończeniu tury innego stworzenia, {name} może wydać ładunek, aby wykonać jedną z poniższych akcji. {name} odzyskuje wszystkie wykorzystane ładunki na początku każdej swojej tury.",
   "DescriptionLegacy": "{name} może wykonać {usesNamed}, wybierając jedną z poniższych opcji. Tylko jedna Akcja Legendarna może być wykonana na raz i tylko na końcu tury innego stworzenia. {name} odzyskuje wykorzystane Akcje Legendarne na początku swojej tury.",
   "Label": "Akcja Legendarna",
   "LabelPl": "Akcje Legendarne",
@@ -2977,7 +2977,7 @@
     "other": "{n} Legendarna Akcja"
   },
   "Remaining": "Pozostałe Akcje Legendarne",
-  "Spent": "Wydaj legendarne akcje"
+  "Spent": "Wykorzystane Akcje Legendarne"
 },
 
 "DND5E.LegendaryResistance": {
@@ -2995,11 +2995,11 @@
   },
   "Remaining": "Pozostałe Legendarne Odporności",
   "Resisted": "Użyto Legendarnej Odporności",
-  "Spent": "Wydajne legendarne odporności"
+  "Spent": "Wykorzystane Legendarne Odporności"
 },
 
 "DND5E.Level": "Poziom",
-"DND5E.LevelAvg": "Średni poziom",
+"DND5E.LevelAvg": "Średni Poziom",
 "DND5E.LevelPl": "Poziomy",
 "DND5E.LevelActionDecrease": "Poziom w dół",
 "DND5E.LevelActionIncrease": "Poziom w górę",
@@ -3061,7 +3061,7 @@
   },
   "SECTIONS": {
     "Actions": "Akcje",
-    "BonusActions": "Akcje Dodatkowe",
+    "BonusActions": "Akcje dodatkowe",
     "LegendaryActions": "Akcje Legendarne",
     "Reactions": "Reakcje",
     "Traits": "Właściwości"
@@ -3118,10 +3118,10 @@
     }
   },
   "Warning": {
-    "InvalidLevel": "musi mieć co najmniej poziom {level}",
-    "Message": "{actor} {requirements} w celu podjęcia tego {type}.",
-    "MissingItem": "musiał wcześniej wziąć {items}",
-    "NotRepeatable": "nie mógł tego wcześniej wziąć"
+    "InvalidLevel": "musi być co najmniej na poziomie {level}",
+    "Message": "{actor} {requirements}, aby wybrać ten {type}.",
+    "MissingItem": "musi wcześniej wybrać {items}",
+    "NotRepeatable": "nie mógł tego wcześniej wybrać"
   }
 },
 "DND5E.Price": "Cena",
@@ -3198,15 +3198,15 @@
   "DIFFICULTTERRAIN": {
     "FIELDS": {
       "ignoredDispositions": {
-        "hint": "Tokeny z tymi właściwościami nie będą miały wpływu na ten trudny teren.",
-        "label": "Ignorowanie usposobienia"
+        "hint": "Ten trudny teren nie spowalnia tokenów z tymi dyspozycjami.",
+        "label": "Zignorowane dyspozycje"
       },
       "magical": {
         "hint": "Ten trudny teren jest tworzony przez efekt magiczny.",
         "label": "Magiczny"
       },
       "types": {
-        "hint": "Typy, które najlepiej opisują źródło tego trudnego terenu, jeśli takie istnieje.",
+        "hint": "Typy, które najlepiej opisują źródło tego trudnego terenu, jeśli takie istnieją.",
         "label": "Rodzaje"
       }
     },
@@ -3264,17 +3264,17 @@
       },
       "tiles": {
         "ids": {
-          "label": "Kafelki"
+          "label": "Pola"
         }
       },
       "time": {
         "mode": {
           "label": "Tryb szybkości",
-          "hint": "W jaki sposób określa się szybkość obrotu na podstawie czasu obrotu, niezależnie od przebytej odległości (stała) lub w zależności od przebytej odległości (zmienna)."
+          "hint": "W jaki sposób określana jest szybkość obrotu na podstawie czasu obrotu: taka sama niezależnie od przebytej odległości (stała) lub zależna od przebytej odległości obrotu (zmienna)."
         },
         "value": {
           "label": "Czas obrotu",
-          "hint": "Czas w milisekundach potrzebny do obrotu do następnej pozycji (w trybie stałym) lub do obrotu o 90˚ (w trybie zmiennym)."
+          "hint": "Czas w milisekundach potrzebny by wykonać obrót do następnej pozycji (w trybie stałym) lub do obrotu o 90˚ (w trybie zmiennym)."
         }
       },
       "walls": {
@@ -3282,8 +3282,8 @@
           "label": "Ściany"
         },
         "link": {
-          "label": "Ściany łączone",
-          "hint": "Obróć dowolne segmenty ścian przyłączonych do określonych segmentów."
+          "label": "Połącz ściany",
+          "hint": "Obróć segmenty ścian przyłączone do wybranych."
         }
       }
     },
@@ -3292,12 +3292,12 @@
       "Variable": "Zmienny (czas obrotu o 90˚)"
     },
     "Warning": {
-      "RecursiveRegion": "Nie można obrócić tego samego obszaru, który zawiera zachowanie."
+      "RecursiveRegion": "Nie można obrócić tego samego obszaru, który zawiera to zachowanie."
     }
   }
 },
 
-"DND5E.Remaining": "Pozostałe",
+"DND5E.Remaining": "Pozostało",
 "DND5E.RequiredMaterials": "Wymagane materiały",
 "DND5E.Requirements": "Wymagania",
 "DND5E.Resistances": "Odporności",
@@ -3346,12 +3346,12 @@
     "Label": "Usuń tymczasowe PW"
   },
   "RecoverTempMaxHP": {
-    "Hint": "Usuń wszelkie zmiany dotyczące maksymalnej liczby punktów wytrzymałości postaci.",
-    "Label": "Odzyskaj maksymalną liczbę punktów PW"
+    "Hint": "Usuń wszelkie zmiany maksymalnej ilości Punktów Wytrzymałości postaci.",
+    "Label": "Odzyskaj maks. PW"
   },
   "Request": {
     "AutoRest": {
-      "Hint": "Automatycznie wykonuj odpoczynek dla wybranych postaci, zamiast wysyłać graczom prośbę o odpoczynek.",
+      "Hint": "Automatycznie wykonuj odpoczynek dla wybranych postaci z drużyny, zamiast wysyłać graczom prośbę o odpoczynek.",
       "Label": "Automatyczny odpoczynek"
     },
     "Label": "Żądanie odpoczynku"
@@ -3371,7 +3371,7 @@
     }
   },
   "Warning": {
-    "OnlyByRequest": "Odpoczynek może być wykonany wyłącznie na prośbę MG."
+    "OnlyByRequest": "Odpoczynek można wykonać tylko na prośbę MP."
   }
 },
 
@@ -3419,7 +3419,7 @@
 "DND5E.MovementAir": "Powietrze",
 "DND5E.MovementSpeeds": "Szybkości ruchu",
 "DND5E.MovementUnits": "Jednostki",
-"DND5E.MovementIgnoredDifficultTerrain": "Ignorowanie trudnego terenu",
+"DND5E.MovementIgnoredDifficultTerrain": "Ignorowany trudny teren",
 
 "DND5E.SAVE": {
   "Title": {
@@ -3507,10 +3507,10 @@
   "Group": "Domyślna karta grupy 5e",
   "Item": "Domyślna karta przedmiotu 5e",
   "JournalEntry": "Domyślna karta wpisu do dziennika 5e",
-  "JournalEntryLegacy": "Starsza karta dziennika 5e",
+  "JournalEntryLegacy": "Stara karta wpisu do dziennika 5e",
   "MapLocation": "Domyślna karta miejsca na mapie 5e",
   "NPC": "Domyślna karta BN 5e",
-  "RotateArea": "Domyślna karta obszaru obrotu 5e",
+  "RotateArea": "Domyślna karta obrotu obszaru 5e",
   "Rule": "Domyślna karta zasad 5e",
   "SpellList": "Domyślna lista czarów 5e",
   "Token": "Domyślna karta tokena 5e",
@@ -3584,8 +3584,8 @@
 "DND5E.SkillRel": "Religia",
 "DND5E.SkillSlt": "Zwinne dłonie",
 "DND5E.SkillSte": "Skradanie się",
-"DND5E.SkillSur": "Szt. przetrwania",
-"DND5E.SkillRoll": "Wykonaj rzut {ability} ({skill})",
+"DND5E.SkillSur": "Sztuka przetrwania",
+"DND5E.SkillRoll": "Wykonaj test {ability} ({skill})",
 "DND5E.SkillPromptTitle": "Test {ability} ({skill})",
 "DND5E.SkillConfigureTitle": "Skonfiguruj {skill}",
 "DND5E.SkillConfigure": "Skonfiguruj Umiejętność",
@@ -3716,7 +3716,7 @@
     "Prepared": "Przygotowany",
     "AlwaysPrepared": "Zawsze przygotowany"
   },
-  "Unlabeled": "Niesklasyfikowane rzucanie zaklęć"
+  "Unlabeled": "Niesklasyfikowane rzucanie czarów"
 },
 
 "DND5E.SpellcastingClass": "Rzucanie czarów klasy {class}",
@@ -3763,7 +3763,7 @@
 "DND5E.SpellPreparation": {
   "Label": "Przygotowanie czaru",
   "Formula": "Wzór na przygotowanie",
-  "Method": "Metoda rzucania zaklęć"
+  "Method": "Metoda rzucania czarów"
 },
 "DND5E.SpellSourceClass": "Klasa źródłowa",
 "DND5E.SpellPrepared": "Przygotowany",
@@ -4285,7 +4285,7 @@
 "DND5E.ToolConfigure": "Skonfiguruj biegłość w narzędziach",
 "DND5E.ToolDisguiseKit": "Zestaw do charakteryzacji",
 "DND5E.ToolForgeryKit": "Zestaw fałszerza",
-"DND5E.ToolGamingSet": "Zestaw do gry",
+"DND5E.ToolGamingSet": "zestaw do gry",
 "DND5E.ToolHerbalismKit": "Zestaw zielarza",
 "DND5E.ToolMusicalInstrument": "Instrument muzyczny",
 "DND5E.ToolNavigators": "Narzędzia nawigatora",
@@ -4378,7 +4378,7 @@
           "label": "Rodzaje stworzeń"
         },
         "uuid": {
-          "label": "Powiązany aktor"
+          "label": "Powiązany Aktor"
         }
       },
       "label": "Profile przemian"
@@ -4400,7 +4400,7 @@
         "Direct": "Według bezpośredniego odnośnika"
       },
       "preset": {
-        "label": "Wzorzec"
+        "label": "Preset"
       }
     }
   },
@@ -4475,15 +4475,15 @@
         "label": "Scal"
       },
       "minimumAC": {
-        "hint": "Wzór określający klasę pancerza dla przekształconej istoty, jeśli klasa pancerza docelowego aktora nie jest już wyższa.",
-        "label": "Minimalna klasa pancerza"
+        "hint": "Formuła określająca Klasę Pancerza dla przekształconego stworzenia, jeśli KP Aktora docelowego nie jest już wyższa.",
+        "label": "Minimalna Klasa Pancerza"
       },
       "other": {
         "label": "Inne opcje"
       },
       "spellLists": {
-        "hint": "Zaklęcia z tych list zostaną zachowane, jeśli aktor posiada pasujący przedmiot.",
-        "label": "Listy zachowanych zaklęć"
+        "hint": "Czary z tych list zostaną zachowane, jeśli aktor ma pasujący przedmiot.",
+        "label": "Zachowane listy czarów"
       },
       "tempFormula": {
         "hint": "Wzór na tymczasowe PW, który zostanie dodany po przemianie.",
@@ -4507,7 +4507,7 @@
         "Label": "Zdolności"
       },
       "GearProficiency": {
-        "Label": "Biegłość w sprzęcie"
+        "Label": "Biegłość w posługiwaniu się wyposażeniem"
       },
       "Health": {
         "Label": "Punkty Wytrzymałości i Kości Wytrzymałości"
@@ -4568,15 +4568,15 @@
 "DND5E.Travel": {
   "Label": "Tempo podróży",
   "Pace": {
-    "Fast": "Szybko",
+    "Fast": "Szybkie",
     "Normal": "Normalne",
-    "Slow": "Wolno"
+    "Slow": "Wolne"
   }
 },
 
 "DND5E.Treasure": {
   "Categories": {
-    "Any": "Dowolny",
+    "Any": "Dowolne",
     "Arcana": "Wiedza tajemna",
     "Armaments": "Broń i uzbrojenie",
     "Implements": "Przybory",
@@ -4604,7 +4604,7 @@
     "Label": "Jednostka odległości",
     "Foot": {
       "Label": "Stopy",
-      "Abbreviation": "stopy"
+      "Abbreviation": "ft"
     },
     "Kilometer": {
       "Label": "Kilometry",
@@ -4663,7 +4663,7 @@
     "Label": "Jednostki objętości",
     "CubicFoot": {
       "Label": "Stopa sześcienna",
-      "Abbreviation": "stóp³",
+      "Abbreviation": "ft³",
       "Counted": {
         "narrow": {
           "one": "{number} ft³",
@@ -4714,15 +4714,15 @@
     },
     "Ton": {
       "Label": "Tony (imperialne)",
-      "Abbreviation": "ton",
+      "Abbreviation": "tn",
       "Counted": {
         "narrow": {
           "one": "{number} tn",
           "other": "{number} tn"
         },
         "short": {
-          "one": "{number} ton",
-          "other": "{number} ton"
+          "one": "{number} tn",
+          "other": "{number} tn"
         },
         "long": {
           "one": "{number} tona",
@@ -4857,7 +4857,7 @@
       },
       "prompt": {
         "label": "Monit o rzut",
-        "hint": "Wyświetl okno dialogowe konfiguracji rzutu podczas rzutu."
+        "hint": "Wyświetl okno dialogowe konfiguracji rzutu podczas wykonywania rzutu."
       },
       "visible": {
         "label": "Widoczny dla wszystkich",
@@ -5005,7 +5005,7 @@
   "AwardEach": "{award} każdemu",
   "CheckShort": "{check}",
   "CheckLong": "test {check}",
-  "CheckUsing": "{check} używa {tool}",
+  "CheckUsing": "{check} przy użyciu {tool}",
   "DamageExtended": "<em>Trafienie:</em> {damage} obrażeń",
   "DamageDouble": "{first} plus {second}",
   "DamageShort": "{formula} {type}",
@@ -5212,7 +5212,7 @@
   "AUTOMATION": {
     "Movement": {
       "Name": "Wyłącz automatyzację ruchu",
-      "Hint": "Nie stosuj kar za poruszanie się w trudnym terenie ani nie uniemożliwiaj stworzeniom przemieszczania się przez siebie zgodnie z wersją zasad."
+      "Hint": "Nie stosuj kar za ruch przez trudny teren ani nie uniemożliwiaj poruszania się stworzeń przez siebie nawzajem zgodnie z wersją zasad."
     }
   },
   "BLOODIED": {
@@ -5227,7 +5227,7 @@
     "Hint": "Automatycznie zwijaj szczegóły obrażeń, trafień i efektów, które pojawiają się na kartach czatu.",
     "Always": "Zwiń wszystko",
     "Older": "Zwiń szczegóły starszych wiadomości",
-    "Never": "Zwinięcie po użyciu",
+    "Never": "Zwiń po użyciu",
     "Manual": "Nigdy nie zwijaj"
   },
   "COMBAT": {
@@ -5303,15 +5303,15 @@
   },
   "PERMISSIONS": {
     "AllowRests": {
-      "Hint": "Pozwól graczom odpoczywać bezpośrednio z kart postaci. Gdy opcja jest wyłączona, gracze będą mogli odpoczywać tylko wtedy, gdy MG poprosi o to drużynę.",
-      "Name": "Zezwól na indywidualny odpoczynek"
+      "Hint": "Pozwól graczom odpoczywać bezpośrednio z ich kart postaci. Po wyłączeniu tej opcji, gracze będą mogli odpocząć tylko wtedy, gdy MP poprosi grupę.",
+      "Name": "Zezwalaj na indywidualne odpoczynki"
     },
     "AllowSummoning": {
-      "Hint": "Zezwól graczom na używanie umiejętności przywoływania, aby przywoływać aktorów. Gracze muszą również posiadać podstawowe uprawnienie Tworzenia tokenów.",
+      "Hint": "Pozwól graczom używać zdolności przywoływania, aby przywoływać aktorów. Gracze muszą również posiadać uprawnienie do tworzenia tokenów.",
       "Name": "Zezwalaj na przywoływanie"
     },
     "AllowTransformation": {
-      "Hint": "Zezwól graczom na transformację własnych aktorów. Gracze muszą również posiadać podstawowe uprawnienia do Tworzenia aktorów i tokenów.",
+      "Hint": "Pozwól graczom na transformację ich własnych aktorów. Gracze muszą również posiadać uprawnienia do tworzenia aktorów i tokenów.",
       "Name": "Zezwalaj na transformację"
     }
   },
