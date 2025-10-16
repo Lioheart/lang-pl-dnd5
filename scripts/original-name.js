@@ -8,7 +8,7 @@ Hooks.on("renderItemSheet5e", async (document, html) => {
 
 async function addOriginalNameDnD(document, html) {
     // Sprawdzamy, czy opcja jest aktywna
-    if (!game.settings.get("lang-pl-dnd5", "dual-language-names")) return;
+    if (!game.settings.get("dnd5e_pl", "dual-language-names")) return;
 
     const originalname = document.document?.flags?.babele?.originalName;
     if (!originalname) {

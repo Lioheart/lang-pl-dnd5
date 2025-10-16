@@ -4,7 +4,7 @@ import { Converters as babeleConverters } from "../babele/script/converters.js";
 
 Hooks.once('init', () => {
     if (typeof Babele !== 'undefined') {
-        game.settings.register("lang-pl-dnd5", "dual-language-names", {
+        game.settings.register("dnd5e_pl", "dual-language-names", {
             name: "Wyświetl nazwy po polsku i angielsku",
             hint: 'Oprócz nazwy polskiej wyświetlaj nazwę oryginalną (o ile się różni).',
             scope: "world",
@@ -12,7 +12,7 @@ Hooks.once('init', () => {
             default: true,
             config: true,
         });
-        game.settings.register("lang-pl-dnd5", "changeTranslation", {
+        game.settings.register("dnd5e_pl", "changeTranslation", {
             name: "Zmień opis",
             hint: 'Wyświetla na kartach przedmiotów przycisk, który pozwala podejrzeć oryginalną treść opisu.',
             scope: "world",
@@ -23,7 +23,7 @@ Hooks.once('init', () => {
             requiresReload: true,
         });
         game.babele.register({
-            module: 'lang-pl-dnd5',
+            module: 'dnd5e_pl',
             lang: 'pl',
             dir: 'lang/pl/compendium'
         });

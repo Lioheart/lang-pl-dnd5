@@ -16,17 +16,17 @@ export class Translator {
     // Initialize translator
     async initialize() {
         const config = await Promise.all([
-            fetch("modules/lang-pl-dnd5/scripts/translator-config.json")
+            fetch("modules/dnd5e_pl/scripts/translator-config.json")
                 .then((r) => r.json())
                 .catch((_e) => {
-                    console.error("lang-pl-dnd5: Couldn't find translator config file.");
+                    console.error("dnd5e_pl: Couldn't find translator config file.");
                 }),
         ]);
 
         this.mappings = config[0]?.mappings ?? {};
 
         // Signalize translator is ready
-        Hooks.callAll("lang-pl-dnd5.ready");
+        Hooks.callAll("dnd5e_pl.ready");
     }
 
     constructor() {

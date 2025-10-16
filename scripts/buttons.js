@@ -6,7 +6,7 @@ Hooks.on("ready", injectHeaderTranslationButtonItem)
 
 async function injectHeaderTranslationButtonItem(sheet, buttons) {
   // Sprawdź, czy opcja jest włączona w ustawieniach
-  if (!game.settings.get("lang-pl-dnd5", "changeTranslation")) return;
+  if (!game.settings.get("dnd5e_pl", "changeTranslation")) return;
 
   Hooks.on("renderItemSheet5e", (sheet, html, data) => {
     const header = html.querySelector(".window-header .window-title");
@@ -74,7 +74,7 @@ async function changeTranslation(document) {
       const parts = sourceId.split(".");
       const lastSegment = sourceId.split(".").pop();
       const paths = [
-        `modules/lang-pl-dnd5/lang/${lang}/compendium/${parts[1]}.${parts[2]}.json`,
+        `modules/dnd5e_pl/lang/${lang}/compendium/${parts[1]}.${parts[2]}.json`,
         `modules/lang-dnd-premium/lang/${lang}/compendium/${parts[1]}.${parts[2]}.json`
       ];
 
@@ -101,7 +101,7 @@ async function changeTranslation(document) {
       return null;                                         // nic nie znaleziono w obu paczkach
     };
 
-    const currentLang = await item.getFlag("lang-pl-dnd5", "lang") || "pl";
+    const currentLang = await item.getFlag("dnd5e_pl", "lang") || "pl";
     let targetLang = currentLang === "pl" ? "en" : "pl";
 
     const entry = await getTranslationEntry(targetLang);
@@ -114,7 +114,7 @@ async function changeTranslation(document) {
       "system.description.value": entry.description || ""
     };
 
-    await item.setFlag("lang-pl-dnd5", "lang", targetLang);
+    await item.setFlag("dnd5e_pl", "lang", targetLang);
     await item.update(updateData);
 
     const langName = targetLang === "pl" ? "polski" : "angielski";
