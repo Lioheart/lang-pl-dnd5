@@ -65,7 +65,7 @@ Hooks.on("preCreateItem", (item, context) => {
     if (!sourceId) return;
 
     item.updateSource({
-        "flags.lang-pl-dnd5.id": sourceId
+        "flags.dnd5e_pl.id": sourceId
     });
 });
 
