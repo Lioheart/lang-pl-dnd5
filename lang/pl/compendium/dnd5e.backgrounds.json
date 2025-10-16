@@ -1,31 +1,25 @@
 {
-    "label": "Pochodzenia",
-    "folders": {
-        "Acolyte Equipment": "Wyposażenie akolity",
-        "Acolyte Feature": "Cechy akolity"
+  "label": "Pochodzenia (SRD)",
+  "folders": {
+    "Acolyte Equipment": "Wyposażenie akolity",
+    "Acolyte Feature": "Cechy akolity"
+  },
+  "entries": {
+    "64N1NWh9kC1dI7zN": {
+      "name": "Schronienie dla wiernych",
+      "description": "<p>Jako akolita wzbudzasz szacunek osób podzielających twoją wiarę i możesz przeprowadzać ceremonie religijne poświęcone swojemu bóstwu. Wraz z towarzyszami możesz liczyć na darmowe leczenie i opiekę w świątyni, kaplicy albo innym miejscu kultu twojej religii. Choć musicie dostarczyć wszelkie komponenty materialne potrzebne do rzucenia czarów. Osoby podzielające twoją wiarę zapewnią ci życie na skromnym poziomie (ale tylko tobie).</p>\n<p>Możesz też być powiązany z konkretną świątynią poświęconą wybranemu bóstwu lub panteonowi i mieszkać w kompleksie świątynnym. Może to być ta świątynia, w której dotychczas służyłeś. Jeżeli utrzymujesz z nią przyjazne stosunki, albo świątynia, w której znalazłeś nowy dom. Gdy znajdujesz się w pobliżu możesz wezwać na pomoc kapłanów, jeśli wsparcie, o które prosisz nie jest ryzykowne, a ty cieszysz się przyjazną relacją z duchownymi.</p>"
     },
-    "entries": {
-        "64N1NWh9kC1dI7zN": {
-            "name": "Schronienie dla wiernych",
-            "description": "<p>Jako akolita wzbudzasz szacunek osób podzielających twoją wiarę i możesz przeprowadzać ceremonie religijne poświęcone swojemu bóstwu. Wraz z towarzyszami możesz liczyć na darmowe leczenie i opiekę w świątyni, kaplicy albo innym miejscu kultu twojej religii. Choć musicie dostarczyć wszelkie komponenty materialne potrzebne do rzucenia czarów. Osoby podzielające twoją wiarę zapewnią ci życie na skromnym poziomie (ale tylko tobie).</p><p>Możesz też być powiązany z konkretną świątynią poświęconą wybranemu bóstwu lub panteonowi i mieszkać w kompleksie świątynnym. Może to być ta świątynia, w której dotychczas służyłeś. Jeżeli utrzymujesz z nią przyjazne stosunki, albo świątynia, w której znalazłeś nowy dom. Gdy znajdujesz się w pobliżu możesz wezwać na pomoc kapłanów, jeśli wsparcie, o które prosisz nie jest ryzykowne, a ty cieszysz się przyjazną relacją z duchownymi.</p>"
-        },
-        "IgJkSnLiLJOWH7eK": {
-            "name": "Akolita",
-            "description": "<p>Twoje dotychczasowe życie przebiegało w służbie świątyni poświęconej określonemu bogu lub panteonowi. Jesteś pośrednikiem między dziedziną bogów a światem śmiertelników. Przeprowadzasz święte rytuały i składasz ofiary, umożliwiając wiernym obcowanie z bóstwem. Nie musisz być klerykiem - sprawowanie obrzędów to nie to samo co akty wiary wsparte boską mocą.</p><p>Wybierz bóstwo, panteon lub inny nadprzyrodzony byt spośród podanych w @UUID[Compendium.dnd5e.rules.JournalEntry.udVPA9JW5wy5t3G5].JournalEntryPage.2lysbY50fgv1R3v7]{Panteony Fantasy/Historyczne} lub przedstawionych ci przez MP, po czym określcie wspólnie naturę twojej służby religijnej. Czy od dzieciństwa pełniłeś pomniejszą posługę w świątyni, pomagając kapłanom w obrządku? Czy może byłeś wysokim kapłanem, który doświadczył objawienia i powołano go do innego rodzaju służby? A może byłeś przywódcą niewielkiego kultu spoza struktury kościoła albo nawet należałeś do okultystycznej sekty służącej czarciemu władcy, którego obecnie odrzucasz?</p><hr /><p><strong>Biegłości w umiejętnościach:</strong> Intuicja, Religia</p><p><strong>Języki:</strong> Dwa wybrane</p><p><strong>Wyposażenie: </strong>Święty symbol bóstwa (podarowany ci z okazji rozpoczęcia posługi), modlitewnik lub młynek modlitewny, 5 kadzidełek, @UUID[Compendium.dnd5e.items.Item.irtqrzaUCeshmTZp]{szaty}, komplet @UUID[Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB]{zwykłego odzienia}, oraz sakiewka zawierająca 15 sz.</p><p><strong>Korzyść:</strong> @UUID[Compendium.dnd5e.backgrounds.Item.64N1NWh9kC1dI7zN]{Schronienie dla wiernych}</p><hr /><h3>Sugerowana charakterystyka</h3><p>Akolitów kształtuje doświadczenie zdobywane w świątyniach i innych społecznościach religijnych. Na ich sposób zachowania i ideały wpływa nauka prawd wiary oraz relacja ze świątyniami, kaplicami i hierarchią kościelną. Do ich wad można zaliczyć ukrytą hipokryzję, heretycką myśl albo posunięte do skrajności poświęcenie ideałowi lub więzi.</p><p>@UUID[Compendium.dnd5e.tables.RollTable.HDzErjwy3TseLOZX]{Cechy osobowości}</p><p>@UUID[Compendium.dnd5e.tables.RollTable.W9xqQZy0Ad0CwkN2]{Ideały}</p><p>@UUID[Compendium.dnd5e.tables.RollTable.DZhd8JkjqlpCP8EB]{Więzi}</p><p>@UUID[Compendium.dnd5e.tables.RollTable.COIHGOnoJnmXduad]{Wady}</p>",
-            "advancement": {
-                "2": {
-                    "title": "Zdolność"
-                }
-            }
-        },
-        "dQaOdm9dbVN0RZYP": {
-            "name": "Sakiewka na monety"
+    "IgJkSnLiLJOWH7eK": {
+      "name": "Akolita",
+      "description": "<p>Twoje dotychczasowe życie przebiegało w służbie świątyni poświęconej określonemu bogu lub panteonowi. Jesteś pośrednikiem między dziedziną bogów a światem śmiertelników. Przeprowadzasz święte rytuały i składasz ofiary, umożliwiając wiernym obcowanie z bóstwem. Nie musisz być klerykiem - sprawowanie obrzędów to nie to samo co akty wiary wsparte boską mocą.</p><p>Wybierz bóstwo, panteon lub inny nadprzyrodzony byt spośród podanych w @UUID[Compendium.dnd5e.rules.JournalEntry.udVPA9JW5wy5t3G5].JournalEntryPage.2lysbY50fgv1R3v7]{Panteony Fantasy/Historyczne} lub przedstawionych ci przez MP, po czym określcie wspólnie naturę twojej służby religijnej. Czy od dzieciństwa pełniłeś pomniejszą posługę w świątyni, pomagając kapłanom w obrządku? Czy może byłeś wysokim kapłanem, który doświadczył objawienia i powołano go do innego rodzaju służby? A może byłeś przywódcą niewielkiego kultu spoza struktury kościoła albo nawet należałeś do okultystycznej sekty służącej czarciemu władcy, którego obecnie odrzucasz?</p><hr /><p><strong>Biegłości w umiejętnościach:</strong> Intuicja, Religia</p><p><strong>Języki:</strong> Dwa wybrane</p><p><strong>Wyposażenie: </strong>Święty symbol bóstwa (podarowany ci z okazji rozpoczęcia posługi), modlitewnik lub młynek modlitewny, 5 kadzidełek, @UUID[Compendium.dnd5e.items.Item.irtqrzaUCeshmTZp]{szaty}, komplet @UUID[Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB]{zwykłego odzienia}, oraz sakiewka zawierająca 15 sz.</p><p><strong>Korzyść:</strong> @UUID[Compendium.dnd5e.backgrounds.Item.64N1NWh9kC1dI7zN]{Schronienie dla wiernych}</p><hr /><h3>Sugerowana charakterystyka</h3><p>Akolitów kształtuje doświadczenie zdobywane w świątyniach i innych społecznościach religijnych. Na ich sposób zachowania i ideały wpływa nauka prawd wiary oraz relacja ze świątyniami, kaplicami i hierarchią kościelną. Do ich wad można zaliczyć ukrytą hipokryzję, heretycką myśl albo posunięte do skrajności poświęcenie ideałowi lub więzi.</p><p>@UUID[Compendium.dnd5e.tables.RollTable.HDzErjwy3TseLOZX]{Cechy osobowości}</p><p>@UUID[Compendium.dnd5e.tables.RollTable.W9xqQZy0Ad0CwkN2]{Ideały}</p><p>@UUID[Compendium.dnd5e.tables.RollTable.DZhd8JkjqlpCP8EB]{Więzi}</p><p>@UUID[Compendium.dnd5e.tables.RollTable.COIHGOnoJnmXduad]{Wady}</p>",
+      "advancement": {
+        "Feature": {
+          "title": "Zdolność"
         }
+      }
     },
-    "mapping": {
-        "advancement": {
-            "converter": "translateAdvancement",
-            "path": "system.advancement"
-        }
+    "dQaOdm9dbVN0RZYP": {
+      "name": "Sakiewka na monety"
     }
+  }
 }
