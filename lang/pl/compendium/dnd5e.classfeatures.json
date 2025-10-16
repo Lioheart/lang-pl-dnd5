@@ -1188,7 +1188,7 @@
     },
     "zCeqyQ8uIPNdYJSW": {
       "name": "Szybkość mnicha",
-      "description": "<p>Począwszy od 2. poziomu, twoja szybkość wzrasta o 3 metry, kiedy nie nosisz pancerza ani tarczy. Premia ta rośnie w miarę rozwoju w klasie mnicha, tak jak pokazano w tabeli Mnich.</p>\n<p>Na poziomie 9. zyskujesz możliwość przemieszczenia się w swojej turze po powierzchniach pionowych i płynnych bez ryzyka upadku podczas tego ruchu.</p>",
+      "description": "<p>Począwszy od 2. poziomu, twoja szybkość wzrasta o 10 stóp, kiedy nie nosisz pancerza ani tarczy. Premia ta rośnie w miarę rozwoju w klasie mnicha, tak jak pokazano w tabeli Mnich.</p>\n<p>Na poziomie 9. zyskujesz możliwość przemieszczenia się w swojej turze po powierzchniach pionowych i płynnych bez ryzyka upadku podczas tego ruchu.</p>",
       "effects": {
         "Unarmored Movement": {
           "name": "Szybkość mnicha"
