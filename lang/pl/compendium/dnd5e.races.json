@@ -1,260 +1,262 @@
 {
-    "label": "Rasy",
-    "folders": {
-        "Human": "Człowiek",
-        "Gnome Features": "Cechy rasowe gnomów",
-        "Dwarf": "Krasnolud",
-        "Dragonborn Features": "Cechy rasowe drakonów",
-        "Elf Features": "Cechy rasowe elfów",
-        "Dwarf Features": "Cechy rasowe krasnoludów",
-        "Elf": "Elf",
-        "Tiefling": "Diabelstwo",
-        "Dragonborn": "Drakon",
-        "Orc Features": "Cechy rasowe orków",
-        "Halfling Features": "Cechy rasowe niziołków",
-        "Orc": "Ork",
-        "Halfling": "Niziołek",
-        "Tiefling Features": "Cechy rasowe diabelstw",
-        "Gnome": "Gnom"
-    },
-    "entries": {
-        "0kUsT4sMUOr5FcoX": {
-            "name": "Brutalne ataki",
-            "description": "<p>Kiedy trafiasz krytycznie atakiem wręcz bronią, możesz dodatkowo rzucić jedną kostką obrażeń właściwą dla używanej broni i dodać jej wynik do dodatkowych obrażeń wynikających z trafienia krytycznego.</p>"
-        },
-        "4v2PiBrAbqDizdSJ": {
-            "name": "Trans",
-            "description": "<p>Elfy nie potrzebują snu. Zamiast tego pogrążają się na cztery godzinny dziennie w głębokiej medytacji. (Określeniem na ten stan jest w języku wspólnym słowo „trans”). Medytując, możesz mieć swego rodzaju sny. Naprawdę są to jednak ćwiczenia umysłowe, które po latach stały się czymś odruchowym. Trans zapewnia ci te same korzyści, co 8 godzin snu w przypadku człowieka.</p>"
-        },
-        "7Yoo9hG0hfPSmBoC": {
-            "name": "Odwaga",
-            "description": "<p>Masz ułatwienie w rzutach obronnych przeciw przerażeniu.</p>"
-        },
-        "97c8i9Z28thvZuA8": {
-            "name": "Wola życia",
-            "description": "<p>Kiedy twoje punkty wytrzymałości spadają do 0, ale nie giniesz od razu, możesz zdecydować, że zamiast tego spadają do 1. Możesz ponownie skorzystać z tej zdolności po zakończeniu długiego odpoczynku.</p>"
-        },
-        "A69KxdH1renVPrQV": {
-            "name": "Elf",
-            "description": "<p>Twój elf dysponuje wachlarzem wrodzonych przymiotów, które są wynikiem tysięcy lat elfiego doskonalenia.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Zręczności wzrasta o 2.</p><p><em><strong>Wiek.</strong></em> Choć elfy osiągają fizyczną dojrzałość w wieku zbliżonym do ludzkiego, ich postrzeganie dorosłości wykracza poza prostą fizyczność i obejmuje życiowe doświadczenie. Elfy zazwyczaj ogłaszają swą dorosłość oraz wybierają nowe, imię w okolicy swoich setnych urodzin; mogą dożyć nawet 750 lat.</p><p><em><strong>Charakter.</strong></em> Elfy kochają wolność, różnorodność i możliwość wyrażania siebie, więc skłaniają się ku łagodnym aspektom chaosu. Cenią oraz chronią wolność innych równie silnie jak własną i są zazwyczaj dobre.</p><p><em><strong>Rozmiar.</strong></em> Elfy mają zwykle między 1.5 a 1,8 metra wzrostu i są szczupłej budowy. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Widzenie w ciemności.</strong></em> Życie w lasach skąpanych w świetle zmierzchu i poświacie nocnego nieba sprawiło, że świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś w stanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Wyostrzone zmysły.</strong></em> Masz biegłość w umiejętności Percepcja.</p><p><em><strong>Rodowód fey.</strong></em> Masz ułatwienie w rzutach obronnych przeciw zauroczeniu i magia nie może cię uśpić.</p><p><em><strong>Trans.</strong></em> Elfy nie potrzebują snu. Zamiast tego pogrążają się na cztery godzinny dziennie w głębokiej medytacji. (Określeniem na ten stan jest w języku wspólnym słowo „trans”). Medytując, możesz mieć swego rodzaju sny. Naprawdę są to jednak ćwiczenia umysłowe, które po latach stały się czymś odruchowym. Trans zapewnia ci te same korzyści, co 8 godzin snu w przypadku człowieka.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać w językach wspólnym i elfim. Elfi jest językiem płynnym, z subtelnymi intonacjami i zawiłą gramatyką. Elfia literatura jest bogata i różnorodna, a pieśni oraz poematy są sławne pośród innych ras. Wielu bardów uczy się języka elfów, aby móc dodać do swojego repertuaru ich ballady.</p><h5>Elf wysoki</h5><p>Jako wysoki elf masz bystry umysł i szczycisz się znajomością przynajmniej podstaw magii. W wielu światach należących do multiwersum występują dwa rodzaje elfów wysokich. Pierwszy z nich jest dumny oraz izoluje się od innych, wierząc w swoją wyższość nawet pośród własnej rasy. Drugi rodzaj jest bardziej powszechny, przyjacielski i często spotykany pośród ludzi oraz innych ras.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Inteligencji wzrasta o 1.</p><p><em><strong>Elfia szkoła walki.</strong></em> Masz biegłość w używaniu krótkiego i długiego luku oraz miecza długiego i krótkiego.</p><p><em><strong>Magiczna sztuczka.</strong></em> Znasz jedną, wybraną przez siebie sztuczkę z listy czarów maga. Twoją cechą bazową dla niej jest Inteligencja.</p><p><em><strong>Dodatkowy język.</strong></em> Potrafisz mówić, czytać i pisać w dodatkowym wybranym języku.</p>",
-            "advancement": {
-                "0": {
-                    "title": "Przyznaj przedmioty"
-                },
-                "1": {
-                    "hint": "Znasz jedną, wybraną przez siebie sztuczkę z listy czarów maga. Twoją cechą bazową dla niej jest Inteligencja."
-                },
-                "3": {
-                    "hint": "Elfy mają zwykle między 1,5 a 1,8 metra wzrostu i są szczupłej budowy. Twój rozmiar jest średni."
-                },
-                "4": {
-                    "title": "Wyostrzone zmysły"
-                },
-                "6": {
-                    "title": "Elfia szkoła walki"
-                }
-            }
-        },
-        "EHhr9umJ5kxJFCQH": {
-            "name": "Gnomi spryt",
-            "description": "<p>Masz ułatwienie we wszystkich rzutach obronnych przeciwko magii, które opierają się na Inteligencji, Mądrości lub Charyzmie.</p>"
-        },
-        "GWPjKFeIthBBeCFJ": {
-            "name": "Niezauważalny",
-            "description": "<p>Możesz spróbować się ukryć, gdy zasłania cię istota, która jest przynajmniej jeden rozmiar większa od ciebie.</p>"
-        },
-        "HGtTN5utBdoMs37f": {
-            "name": "Brutalne ataki"
-        },
-        "Hye5IZwPOSwV0qRR": {
-            "name": "Półelf",
-            "description": "<p>Twoja postać posiada cechy wspólne z elfami oraz takie, które są unikatowe dla półelfów.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Charyzmy wzrasta o 2, a dwóch innych wybranych cech o 1.</p><p><em><strong>Wiek.</strong></em> Półełfy dorastają w tym samym czasie, co ludzie i osiągają dorosłość w wieku około 20 lat. Żyją jednak znacznie dłużej, często przekraczając 180 lat.</p><p><em><strong>Charakter.</strong></em> Półelfy dzielą z elfami ich chaotyczne skłonności. Cenią wolność osobistą i kreatywność w wyrażaniu siebie. Z tego powodu nie potrafią odnaleźć w sobie umiłowania dla władców ani pragnienia przywództwa. Irytują się zasadami, oburzają na żądania innych, a czasem są nieobliczalne lub nawet nie można na nich polegać.</p><p><em><strong>Rozmiar.</strong></em> Półelfy są budową zbliżone do ludzi, mierzą od 1,5 do 1,8 metra. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Widzenie w ciemności.</strong></em> Dzięki swojej elfiej krwi świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś w stanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Rodowód fey.</strong></em> Masz ułatwienie w rzutach obronnych przeciw zauroczeniu i magia nie może cię uśpić.</p><p><em><strong>Uzdolnienia.</strong></em> Zyskujesz biegłość w dwóch wybranych umiejętnościach.</p><p><em><strong>Języki.</strong></em> Możesz mówić, czytać i pisać we wspólnym, elfim i jednym dodatkowym wybranym języku.</p>",
-            "advancement": {
-                "2": {
-                    "hint": "Półelfy są budową zbliżone do ludzi, mierzą od 1,5 do 1,8 metra. Twój rozmiar jest średni."
-                },
-                "3": {
-                    "title": "Wszechstronność"
-                }
-            }
-        },
-        "JrUcwLR2aQC09iUM": {
-            "name": "Zionięcie - mosiężny smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "K4DNDcR6vngbp0pf": {
-            "name": "Drakon",
-            "description": "<p>Twoja smocza spuścizna daje o sobie znać poprzez różne cechy, które dzielisz ze swoimi braćmi i siostrami.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Siły wzrasta o 2, a Charyzmy o 1.</p><p><em><strong>Wiek.</strong></em> Młodzi drakoni szybko dorastają. Zaczynają chodzić już kilka godzin po wykluciu się z jaja, osiągają wzrost oraz rozwój intelektualny dziesięcioletniego ludzkiego dziecka w wieku 3 lat. Dorastają zaś w wieku lat 15. Ich długość życia wynosi około 80 lat.</p><p><em><strong>Charakter.</strong></em> Drakoni skłaniają się ku skrajnościom i świadomie wybierają jedną ze stron w wielkiej kosmicznej wojnie między dobrem i złem. Większość drakonów jest dobra, jednak ci, którzy opowiadają się po stronie zła, mogą być przerażającymi złoczyńcami.</p><p><em><strong>Rozmiar.</strong></em> Drakoni są wyżsi i ciężsi niż ludzie. Osiągają ponad 1,8 metra wzrostu i ważą średnio około 120 kilogramów. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><table><caption>Smoczy rodowód</caption><thead><tr><td>Smok</td></td>Typ obrażeń<td><td>Zionięcie</td></tr></thead><tbody><tr><td>Czarny</td><td>Kwas</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Niebieski</td><td>Elektryczność</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Mosiężny</td><td>Ogień</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Spiżowy</td><td>Elektryczność</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Miedziany</td><td>Kwas</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Złoty</td><td>Ogień</td><td>stożek 4,5 m (rzut obronny na Zrc)</td></tr><tr><td>Zielony</td><td>Trucizna</td><td>stożek 4,5 m (rzut obronny na Kon)</td></tr><tr><td>Czerwony</td><td>Ogień</td><td>stożek 4,5 m (rzut obronny na Zrc)</td></tr><tr><td>Srebrny</td><td>Zimno</td><td>stożek 4,5 m (rzut obronny na Kon)</td></tr><tr><td>Biały</td><td>Zimno</td><td>stożek 4,5 m (rzut obronny na Kon)</td></tr></tbody></table><p><em><strong>Smoczy rodowód.</strong></em> Szczycisz się smoczym rodowodem. Wybierz jeden rodzaj smoka z tabeli. Określa on efekt twojego zionięcia i odporność na obrażenia.</p><p><em><strong>Zionięcie.</strong></em> Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny określony przez twój rodowód. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p><p><em><strong>Odporność na obrażenia.</strong></em> Posiadasz odporność na typ obrażeń związany z twoim smoczym rodowodem.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz smoczym. Język ten jest uważany za jeden z najstarszych i często używany do studiów nad magią. Dla każdego, kto nie jest drakonem, brzmi szorstko ze względu na liczne twarde i syczące spółgłoski.</p>",
-            "advancement": {
-                "0": {
-                    "hint": "Smoczy rodowód. Wybierz jeden rodzaj smoka z listy. Określa on twój oddech i odporność na obrażenia."
-                },
-                "2": {
-                    "title": "Zionięcie - niebieski smok"
-                },
-                "3": {
-                    "hint": "Drakoni są wyżsi i ciężsi niż ludzie. Osiągają ponad 1,8 metra wzrostu i ważą średnio około 120 kilogramów. Twój rozmiar jest średni."
-                },
-                "5": {
-                    "hint": "Posiadasz odporność na typ obrażeń związany z twoim smoczym rodowodem."
-                }
-            }
-        },
-        "KL7wx9Q8XNJQir0k": {
-            "name": "Zionięcie - biały smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "KVgvW5yhKcmQUanz": {
-            "name": "Zionięcie - niebieski smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "LOMdcNAGWh5xpfm4": {
-            "name": "Szczęście",
-            "description": "<p>Kiedy wyrzucisz 1 w teście ataku, teście cechy lub rzucie obronnym, możesz przerzucić kość. Musisz jednak zaakceptować nowy wynik.</p><section class=\"secret foundry-note\" id=\"secret-S04TPyvUh05Dz0Ng\"><p><strong>Notka Foundry</strong></p><p>Tę właściwość można włączyć w ustawieniach karty postaci w zakładce Zdolności, w oknie Specjalne zdolności.</p></section>"
-        },
-        "NnSZlrsHCFeH3cCq": {
-            "name": "Zionięcie - czarny smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "OQA1sHxKnSJq01dL": {
-            "name": "Mądrość wynalazcy",
-            "description": "<p>Za każdym razem, gdy wykonujesz test Inteligencji (Historia) odnoszący się do magicznych przedmiotów, obiektów alchemicznych lub urządzeń technologicznych, możesz dodać podwojoną premię z biegłości zamiast premii z biegłości, którą normalnie stosujesz.</p>"
-        },
-        "PqxZgcJzp1VVgP8t": {
-            "name": "Zwinność niziołka",
-            "description": "<p>Możesz przemieścić się przez pole zajmowane przez inną istotę, która jest większego rozmiaru niż ty.</p>"
-        },
-        "TZtarkKs6cgGD7z2": {
-            "name": "Gnom skalny",
-            "description": "<p>Twój gnom posiada pewne cechy wspólne z pozostałymi przedstawicielami gnomiej rasy.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Inteligencji wzrasta o 2.</p><p><em><strong>Wiek.</strong></em> Gnomy osiągają dorosłość w tym samym wieku, co ludzie, i oczekuje się od nich, że zajmą się dorosłym życiem w okolicach czterdziestki. Mogą przeżyć od 350 do niemal 500 lat.</p><p><em><strong>Charakter.</strong></em> Gnomy są najczęściej dobre. Skłaniające się ku prawu są mędrcami, inżynierami, badaczami, uczonymi, śledczymi lub wynalazcami. A zwracające się w kierunku chaosu zostają minstrelami, oszustami, podróżnikami lub kapryśnymi jubilerami. Gnomy to istoty o dobrym sercu i nawet ich kawalarze są bardziej figlarni niż złośliwi.</p><p><em><strong>Rozmiar.</strong></em> Gnomy mierzą od 0,9 do 1,2 metra wzrostu i ważą około 20 kilogramów. Twój rozmiar jest Mały.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 7,5 metra.</p><p><em><strong>Widzenie w ciemności.</strong></em> Dzięki przyzwyczajeniu do życia pod ziemią świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś w stanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Gnomi spryt.</strong></em> Masz ułatwienie we wszystkich rzutach obronnych przeciwko magii, które opierają się na Inteligencji, Mądrości lub Charyzmie.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz gnomim. Język gnomów używa krasnoludzkiego alfabetu i słynie z traktatów technologicznych i almanachów wiedzy dotyczących świata natury.</p><h5>Gnom skalny</h5><p>Gnomy skalne cechują się wrodzoną wynalazczością i odpornością.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Kondycji wzrasta o 1.</p><p><em><strong>Mądrość wynalazcy.</strong></em> Za każdym razem, gdy wykonujesz test Inteligencji (Historia) odnoszący się do magicznych przedmiotów, obiektów alchemicznych lub urządzeń technologicznych, możesz dodać podwojona premię z biegłości zamiast premii z biegłości, którą normalnie stosujesz.</p><p><em><strong>Majsterkowicz.</strong></em> Masz biegłość w używaniu narzędzi rzemieślniczych (narzędzi majsterkowicza). Korzystając z nich, możesz spędzić 1 godzinę i zużyć materiały o wartości 10 sz, aby skonstruować Malutkie urządzenie mechaniczne (KP 5, 1 PW). Urządzenie to przestanie działać po 24 godzinach (chyba że spędzisz 1 godzinę, naprawiając je, aby mogło dalej funkcjonować) lub gdy użyjesz akcji, aby je rozmontować. W takiej sytuacji możesz odzyskać wykorzystane materiały. Możesz posiadać do trzech tego rodzaju urządzeń jednocześnie.</p><p>Kiedy tworzysz urządzenie, wybierz jedną z poniższych opcji:</p><p><em>Mechaniczna zabawka.</em> Zabawka jest mechanicznym zwierzęciem, potworem lub osobą, na przykład żabą, myszą, ptakiem, smokiem albo żołnierzem. Po położeniu jej na ziemi zabawka porusza się w twojej turze 1,5 metra w losowym kierunku, wydając z siebie odgłosy właściwe istocie, którą przedstawia.</p><p><em>Skrzeszacz ognia.</em> Urządzenie tworzy niewielki płomień, którym można rozpalić świecę, pochodnię lub ognisko. Skorzystanie z tego urządzenia wymaga wykorzystania akcji.</p><p><em>Pozytywka.</em> Po otworzeniu pozytywka odtwarza jeden utwór muzyczny z umiarkowaną głośnością. Przestaje grać, gdy utwór dobiegnie końca lub gdy zostanie zamknięta.</p>",
-            "advancement": {
-                "2": {
-                    "hint": "Gnomy mierzą od 0,9 do 1,2 metra wzrostu i ważą około 20 kilogramów. Twój rozmiar jest mały."
-                },
-                "4": {
-                    "title": "Majsterkowicz"
-                }
-            }
-        },
-        "UQiRQUTBcsz8gZU1": {
-            "name": "Krasnolud",
-            "description": "<p><em>Twoja postać dysponuje wachlarzem wrodzonych przymiotów, które są częścią jej krasnoludzkiej natury.</em></p><p><strong>Zwiększenie wartości cechy.</strong> Wartość twojej Kondycji wzrasta o 2.</p><p><strong>Wiek.</strong> Krasnoludy dorastają w tym samym wieku, co ludzie, jednak są postrzegane jako nastolatki aż do ukończenia 50 lat. Średnio żyją około 350 lat.</p><p><strong>Charakter.</strong> Większość krasnoludów jest praworządna i gorąco wierzy w korzyści płynące z uporządkowanego społeczeństwa. Zwracają się również ku dobremu pierwiastkowi charakteru, z silnym poczuciem uczciwości i wiarą, że wszyscy zasługują na to, aby korzystać z pożytków sprawiedliwego ładu społecznego.</p><p><strong>Rozmiar.</strong> Wzrost krasnoludów waha się pomiędzy 1,2 a 1,5 metra, ważą zaś one około 70 kilogramów. Twój rozmiar jest Średni.</p><p><strong>Szybkość.</strong> Twoja podstawowa szybkość wynosi 7,5 metra. Nie obniża jej noszenie ciężkiego pancerza</p><p><strong>Widzenie w ciemności.</strong> Dzięki przyzwyczajeniu do życia pod ziemią świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś wstanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><strong>Krasnoludzka Odporność.</strong> Masz ułatwienie w rzutach obronnych przeciw truciznom i odporność na obrażenia od trucizn.</p><p><strong>Krasnoludzki trening bojowy.</strong> Masz biegłość w używaniu lekkiego młota, młota bojowego, topora bojowego i toporka.</p><p><strong>Biegłość w używaniu narzędzi.</strong> Masz biegłość w używaniu wybranych narzędzi rzemieślniczych: narzędzi kowala, materiałów piwowarskich albo narzędzi kamieniarza.</p><p><strong>Wiedza o kamieniu.</strong> Za każdym razem, gdy wykonujesz test Inteligencji (Historia) związany z pochodzeniem jakiejś rzeczy stworzonej z kamienia, jesteś traktowany jak biegły w umiejętności Historia i dodajesz podwójną premię z biegłości do wyniku testu.</p><p><strong>Języki.</strong> Możesz mówić, czytać i pisać w językach wspólnym i krasnoludzkim. Krasnoludzki jest językiem pełnym twardych spółgłosek oraz gardłowych dźwięków i te cechy wymowy słychać także w innych językach, którymi mówi twoja postać.</p><h5>Krasnolud wzgórzowy</h5><p>Jako krasnolud wzgórzowy charakteryzujesz się wyostrzonymi zmysłami, dogłębną intuicją i niezwykłą odpornością.</p><p><strong>Zwiększenie wartości cechy.</strong> Wartość twojej Mądrości wzrasta o 1.</p><p><strong>Krasnoludzka wytrzymałość.</strong> Maksymalna wartość twoich punktów życia zwiększa się o 1 i podnosi się o dodatkowe 1 za każdym razem, gdy zdobywasz poziom.</p><section class=\"secret\" id=\"secret-bkbaaEWqAGbU8ZgK\"><p><strong>Notka Foundry</strong></p><p>Krasnoludzką wytrzymałość należy skonfigurować, dodając 1 do premii „Na poziom” w konfiguracji PW na karcie postaci (dostępnej po kliknięciu w ikonę trybika obok punktów wytrzymałości postaci).</p></section>",
-            "advancement": {
-                "2": {
-                    "hint": "Wzrost krasnoludów waha się pomiędzy 1,2 a 1,5 metra, ważą zaś około 70 kilogramów. Twój rozmiar jest średni."
-                },
-                "4": {
-                    "title": "Krasnoludzka odporność"
-                },
-                "5": {
-                    "title": "Krasnoludzki trening bojowy"
-                }
-            }
-        },
-        "YPQQBZAuRiSwuBfh": {
-            "name": "Zionięcie - złoty smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "ZgYBjYYfiUstQD6f": {
-            "name": "Niziołek",
-            "description": "<p>Twój niziołek dysponuje wachlarzem wrodzonych przymiotów. które są wspólne dla całej rasy.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Zręczności wzrasta o 2.</p><p><em><strong>Wiek.</strong></em> Niziołki osiągają dojrzałość w wieku 20 lat i żyją zazwyczaj około 150 lat.</p><p><em><strong>Charakter.</strong></em> Większość niziołków jest praworządna dobra. To z zasady życzliwe i uprzejme istoty, które nie znoszą, gdy ktoś cierpi, i nie tolerują ucisku. Są przy tym niezwykle uporządkowane i tradycjonalistycznie nastawione do świata, co przejawia się w mocnym poleganiu na wspólnocie i starych zwyczajach.</p><p><em><strong>Rozmiar.</strong></em> Wzrost niziołków wynosi przeciętnie nieco mniej niż metr, a waga około 20 kilogramów. Twój rozmiar jest Mały.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 7,5 metra.</p><p><em><strong>Szczęście.</strong></em> Kiedy wyrzucisz 1 w teście ataku, teście cechy lub rzucie obronnym, możesz przerzucić kość. Musisz jednak zaakceptować nowy wynik.</p><p><em><strong>Odwaga.</strong></em> Masz ułatwienie w rzutach obronnych przeciw przerażeniu.</p><p><em><strong>Zwinność niziołka.</strong></em> Możesz przemieścić się przez pole zajmowane przez inną istotę, która jest większego rozmiaru niż ty.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz niziołczym. Język niziołków nie jest sekretny, jednak oni sami niechętnie uczą go innych. Przedstawiciele tej rasy niewiele piszą. Nie mają więc zbyt bogatej literatury. Lecz ich tradycja przekazów ustnych jest bardzo rozwinięta. Praktycznie wszystkie niziołki używają wspólnego, aby rozmawiać z istotami, na których ziemiach zamieszkują lub przez które podróżują.</p><h5>Niziołek lekkostopy</h5><p>Jako niziołek lekkostopy możesz w łatwy sposób unikać uwagi, a nawet używać innych osób w charakterze zasłony. Twoje usposobienie jest bardzo przyjazne i dobrze dogadujesz się z innymi.</p><p>Lekkostopi mają o wiele większe zamiłowanie do wędrówek niż inne niziołki i często mieszkają pośród innych ras lub wybierają nomadyczny styl życia.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Charyzmy wzrasta o 1.</p><p><em><strong>Niezauważalny.</strong></em> Możesz spróbować się ukryć, gdy zasłania cie istota, która jest przynajmniej jeden rozmiar większa od ciebie.</p>",
-            "advancement": {
-                "2": {
-                    "hint": "Wzrost niziołków wynosi przeciętnie nieco mniej niż metr, a waga około 20 kilogramów. Twój rozmiar jest mały."
-                }
-            }
-        },
-        "aHTokZ151W0ASSmo": {
-            "name": "Diabelstwo",
-            "description": "<p>Diabelstwa dzielą ze sobą kilka wspólnych cech, które wynikają z ich piekielnego pochodzenia.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Inteligencji wzrasta o 1, a Charyzmy o 2.</p><p><em><strong>Wiek.</strong></em> Diabelstwa dojrzewają w tym samym wieku, co ludzie, jednak żyją o kilka lat dłużej.</p><p><em><strong>Charakter.</strong></em> Diabelstwa mogą nie mieć naturalnych skłonności ku złu, jednak wiele z nich na nim kończy. Jednocześnie ich niezależna natura popycha ich w kierunku chaotycznego charakteru.</p><p><em><strong>Rozmiar.</strong></em> Diabelstwa mają taki sam wzrost i budowę ciała jak ludzie. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Widzenie w ciemności.</strong></em> Dzięki swemu piekielnemu pochodzeniu świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś w stanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Piekielna odporność.</strong></em> Masz odporność na obrażenia od ognia.</p><p><em><strong>Piekielna spuścizna.</strong></em> Znasz sztuczkę taumaturgia. Kiedy osiągasz 3. poziom, możesz rzucić raz piekielną reprymendę jako czar 2. kręgu i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Kiedy osiągasz 5. poziom, możesz rzucić raz czar ciemność i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Twoją cechą bazową dla tych czarów jest Charyzma.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz piekielnym.</p>",
-            "advancement": {
-                "1": {
-                    "title": "Diabelska spuścizna"
-                },
-                "2": {
-                    "title": "Diabelska spuścizna"
-                },
-                "4": {
-                    "hint": "Diabelstwa mają taki sam rozmiar i budowę ciała jak ludzie. Twój rozmiar jest średni."
-                },
-                "5": {
-                    "title": "Piekielna odporność"
-                },
-                "6": {
-                    "title": "Diabelska spuścizna"
-                }
-            }
-        },
-        "bFpLM0N3uTeHLdzu": {
-            "name": "Zionięcie - miedziany smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "cnTbpPPeGW7vGjOV": {
-            "name": "Rodowód fey",
-            "description": "<p>Masz ułatwienie w rzutach obronnych przeciw zauroczeniu i magia nie może cię uśpić.</p>"
-        },
-        "kB61JPKQrDBbSNU7": {
-            "name": "Zionięcie - czerwony smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "koRPOLtj8XAFMwnW": {
-            "name": "Majsterkowicz",
-            "description": "<p>Masz biegłość w używaniu narzędzi rzemieślniczych (narzędzi majsterkowicza). Korzystając z nich, możesz spędzić 1 godzinę i zużyć materiały o wartości 10 sz, aby skonstruować Malutkie urządzenie mechaniczne (KP 5, 1 PW). Urządzenie to przestanie działać po 24 godzinach (chyba że spędzisz 1 godzinę, naprawiając je, aby mogło dalej funkcjonować) lub gdy użyjesz akcji, aby je rozmontować. W takiej sytuacji możesz odzyskać wykorzystane materiały. Możesz posiadać do trzech tego rodzaju urządzeń jednocześnie. Kiedy tworzysz urządzenie, wybierz jedną z poniższych opcji:</p><p><em>Mechaniczna zabawka.</em> Zabawka jest mechanicznym zwierzęciem, potworem lub osobą, na przykład żabą, myszą, ptakiem, smokiem albo żołnierzem. Po położeniu jej na ziemi zabawka porusza się w twojej turze 1,5 metra w losowym kierunku, wydając z siebie odgłosy właściwe istocie, którą przedstawia.</p><p><em>Skrzeszacz ognia.</em> Urządzenie tworzy niewielki płomień, którym można rozpalić świecę, pochodnię lub ognisko. Skorzystanie z tego urządzenia wymaga wykorzystania akcji.</p><p><em>Pozytywka.</em> Po otworzeniu pozytywka odtwarza jeden utwór muzyczny z umiarkowaną głośnością. Przestaje grać, gdy utwór dobiegnie końca lub gdy zostanie zamknięta.</p>"
-        },
-        "lXIxndsBaQglHBtO": {
-            "name": "Zionięcie - zielony smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od trucizny. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "mQPZDRbUhgYTbXKa": {
-            "name": "Wiedza o kamieniu",
-            "description": "<p>Za każdym razem, gdy wykonujesz test inteligencji (Historia) związany z pochodzeniem jakiejś rzeczy stworzonej z kamienia, jesteś traktowany jak biegły w umiejętności Historia i dodajesz podwójną premię z biegłości do wyniku testu.</p>"
-        },
-        "n5L000DkNBU6h2oJ": {
-            "name": "Półork",
-            "description": "<p>Twój półork posiada pewne cechy mające źródło w jego orczym pochodzeniu.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Siły wzrasta o 2, a Kondycji o 1.</p><p><em><strong>Wiek.</strong></em> Półorki dojrzewają nieco szybciej niż ludzie i osiągają dorosłość w wieku 14 lat. Starzeją się również szybciej i rzadko żyją dłużej niż 75 lat.</p><p><em><strong>Charakter.</strong></em> Półorki dziedziczą chaotyczne skłonności po swoich orczych rodzicach i mają raczej niewiele wspólnego z dobrem. Półorki wychowane i żyjące wśród orków są najczęściej złe.</p><p><em><strong>Rozmiar.</strong></em> Półorki są nieco większe i masywniejsze niż ludzie, a ich wzrost waha się od 1,5 do ponad 1,8 metra. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Widzenie w ciemności.</strong></em> Dzięki płynącej w twoich żyłach orczej krwi świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś wstanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Groźny.</strong></em> Masz biegłość w umiejętności Zastraszanie.</p><p><em><strong>Wola życia.</strong></em> Kiedy twoje punkty wytrzymałości spadają do 0, ale nie giniesz od razu, możesz zdecydować, że zamiast tego spadają do 1. Możesz ponownie skorzystać z tej zdolności po zakończeniu długiego odpoczynku.</p><p><em><strong>Brutalne ataki.</strong></em> Kiedy trafiasz krytycznie atakiem wręcz bronią, możesz dodatkowo rzucić jedną kostką obrażeń właściwą dla używanej broni i dodać jej wynik do dodatkowych obrażeń wynikających z trafienia krytycznego.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz orczym. Język orków jest surową, zgrzytającą mową o twardych spółgłoskach. Nie ma swojego własnego alfabetu i jest zapisywany pismem krasnoludzkim.</p>",
-            "advancement": {
-                "2": {
-                    "hint": "Półorki są nieco większe i masywniejsze niż ludzie, a ich wzrost waha się od 1,5 do ponad 1,8 metra. Twój rozmiar jest średni."
-                },
-                "3": {
-                    "title": "Groźny"
-                }
-            }
-        },
-        "pAYTdRGftNr8AitK": {
-            "name": "Zionięcie - srebrny smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "pJzMSk9qYywYy65w": {
-            "name": "Zionięcie - spiżowy smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
-        },
-        "q71Pe1F8RRtEJt8Q": {
-            "name": "Piekielna odporność",
-            "description": "<p>Masz odporność na obrażenia od ognia.</p>"
-        },
-        "ufysTkqet2Ctmtyi": {
-            "name": "Krasnoludzka odporność",
-            "description": "<p>Masz ułatwienie w rzutach obronnych przeciw truciznom i odporność na obrażenia od trucizn.</p>"
-        },
-        "wJc88B8OP1y1xzMw": {
-            "name": "Diabelska spuścizna",
-            "description": "<p>Znasz sztuczkę @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{Taumaturgia}.</p><p>Kiedy osiągasz 3. poziom. możesz rzucić raz @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{piekielną reprymendę} jako czar 2. kręgu i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku.</p><p>Kiedy osiągasz 5. poziom, możesz rzucić raz czar @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{ciemność} i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Twoją cechą bazową dla tych czarów jest Charyzma.</p>"
-        },
-        "ydP3QzCmur55mtY2": {
-            "name": "Człowiek",
-            "description": "<p>W przypadku łudzi trudno o uogólnienia, lecz większość z nich posiada następujące cechy rasowe.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość wszystkich twoich cech wzrasta o 1.</p><p><em><strong>Wiek.</strong></em> Ludzie osiągają dorosłość około 18 roku życia i rzadko żyją dłużej niż 100 lat.</p><p><em><strong>Charakter.</strong></em> Ludzie mogą mieć dowolny charakter. Zdarzają się wśród nich zarówno naprawdę dobrzy, jak i zdecydowanie źli.</p><p><em><strong>Rozmiar.</strong></em> Ludzie znacznie się od siebie różnią pod względem budowy ciała. Mogą mieć od 1,5 do dobrze ponad 1,8 metra wzrostu. Niezależnie jednak od tego, twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz dodatkowym wybranym języku. Ludzie uczą się zazwyczaj języków osób, z którymi mają często do czynienia, włączając w to rzadkie narzecza. Są również znani z tego, że wplatają do swoich wypowiedzi słowa pochodzące z innych języków: orcze przekleństwa, elfie określenia muzyczne, krasnoludzkie zwroty bojowe i tym podobne.</p>",
-            "advancement": {
-                "1": {
-                    "hint": "Ludzie znacznie się od siebie różnią pod względem budowy ciała. Mogą mieć od 1,5 do dobrze ponad 1,8 metra wzrostu. Niezależnie jednak od tego, twój rozmiar jest Średni."
-                }
-            }
+  "label": "Rasy (SRD)",
+  "folders": {
+    "Human": "Człowiek",
+    "Gnome Features": "Cechy rasowe gnomów",
+    "Dwarf": "Krasnolud",
+    "Dragonborn Features": "Cechy rasowe drakonów",
+    "Elf Features": "Cechy rasowe elfów",
+    "Dwarf Features": "Cechy rasowe krasnoludów",
+    "Elf": "Elf",
+    "Tiefling": "Diabelstwo",
+    "Dragonborn": "Drakon",
+    "Orc Features": "Cechy rasowe orków",
+    "Halfling Features": "Cechy rasowe niziołków",
+    "Orc": "Ork",
+    "Halfling": "Niziołek",
+    "Tiefling Features": "Cechy rasowe diabelstw",
+    "Gnome": "Gnom"
+  },
+  "entries": {
+    "0kUsT4sMUOr5FcoX": {
+      "name": "Brutalne ataki",
+      "description": "<p>Kiedy trafiasz krytycznie atakiem wręcz bronią, możesz dodatkowo rzucić jedną kostką obrażeń właściwą dla używanej broni i dodać jej wynik do dodatkowych obrażeń wynikających z trafienia krytycznego.</p>",
+      "effects": {
+        "Savage Attacks": {
+          "name": "Brutalne ataki"
         }
+      }
     },
-    "mapping": {
-        "advancement": {
-            "converter": "translateAdvancement",
-            "path": "system.advancement"
+    "4v2PiBrAbqDizdSJ": {
+      "name": "Trans",
+      "description": "<p>Elfy nie potrzebują snu. Zamiast tego pogrążają się na cztery godzinny dziennie w głębokiej medytacji. (Określeniem na ten stan jest w języku wspólnym słowo „trans”). Medytując, możesz mieć swego rodzaju sny. Naprawdę są to jednak ćwiczenia umysłowe, które po latach stały się czymś odruchowym. Trans zapewnia ci te same korzyści, co 8 godzin snu w przypadku człowieka.</p>"
+    },
+    "7Yoo9hG0hfPSmBoC": {
+      "name": "Odwaga",
+      "description": "<p>Masz ułatwienie w rzutach obronnych przeciw przerażeniu.</p>"
+    },
+    "97c8i9Z28thvZuA8": {
+      "name": "Wola życia",
+      "description": "<p>Kiedy twoje punkty wytrzymałości spadają do 0, ale nie giniesz od razu, możesz zdecydować, że zamiast tego spadają do 1. Możesz ponownie skorzystać z tej zdolności po zakończeniu długiego odpoczynku.</p>",
+      "activities": {
+        "heal": {
+          "condition": "Kiedy twoja liczba punktów wytrzymałości spadnie do 0"
         }
+      }
+    },
+    "A69KxdH1renVPrQV": {
+      "name": "Elf",
+      "description": "<p>Twój elf dysponuje wachlarzem wrodzonych przymiotów, które są wynikiem tysięcy lat elfiego doskonalenia.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Zręczności wzrasta o 2.</p><p><em><strong>Wiek.</strong></em> Choć elfy osiągają fizyczną dojrzałość w wieku zbliżonym do ludzkiego, ich postrzeganie dorosłości wykracza poza prostą fizyczność i obejmuje życiowe doświadczenie. Elfy zazwyczaj ogłaszają swą dorosłość oraz wybierają nowe, imię w okolicy swoich setnych urodzin; mogą dożyć nawet 750 lat.</p><p><em><strong>Charakter.</strong></em> Elfy kochają wolność, różnorodność i możliwość wyrażania siebie, więc skłaniają się ku łagodnym aspektom chaosu. Cenią oraz chronią wolność innych równie silnie jak własną i są zazwyczaj dobre.</p><p><em><strong>Rozmiar.</strong></em> Elfy mają zwykle między 1.5 a 1,8 metra wzrostu i są szczupłej budowy. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Widzenie w ciemności.</strong></em> Życie w lasach skąpanych w świetle zmierzchu i poświacie nocnego nieba sprawiło, że świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś w stanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Wyostrzone zmysły.</strong></em> Masz biegłość w umiejętności Percepcja.</p><p><em><strong>Rodowód fey.</strong></em> Masz ułatwienie w rzutach obronnych przeciw zauroczeniu i magia nie może cię uśpić.</p><p><em><strong>Trans.</strong></em> Elfy nie potrzebują snu. Zamiast tego pogrążają się na cztery godzinny dziennie w głębokiej medytacji. (Określeniem na ten stan jest w języku wspólnym słowo „trans”). Medytując, możesz mieć swego rodzaju sny. Naprawdę są to jednak ćwiczenia umysłowe, które po latach stały się czymś odruchowym. Trans zapewnia ci te same korzyści, co 8 godzin snu w przypadku człowieka.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać w językach wspólnym i elfim. Elfi jest językiem płynnym, z subtelnymi intonacjami i zawiłą gramatyką. Elfia literatura jest bogata i różnorodna, a pieśni oraz poematy są sławne pośród innych ras. Wielu bardów uczy się języka elfów, aby móc dodać do swojego repertuaru ich ballady.</p><h5>Elf wysoki</h5><p>Jako wysoki elf masz bystry umysł i szczycisz się znajomością przynajmniej podstaw magii. W wielu światach należących do multiwersum występują dwa rodzaje elfów wysokich. Pierwszy z nich jest dumny oraz izoluje się od innych, wierząc w swoją wyższość nawet pośród własnej rasy. Drugi rodzaj jest bardziej powszechny, przyjacielski i często spotykany pośród ludzi oraz innych ras.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Inteligencji wzrasta o 1.</p><p><em><strong>Elfia szkoła walki.</strong></em> Masz biegłość w używaniu krótkiego i długiego luku oraz miecza długiego i krótkiego.</p><p><em><strong>Magiczna sztuczka.</strong></em> Znasz jedną, wybraną przez siebie sztuczkę z listy czarów maga. Twoją cechą bazową dla niej jest Inteligencja.</p><p><em><strong>Dodatkowy język.</strong></em> Potrafisz mówić, czytać i pisać w dodatkowym wybranym języku.</p>",
+      "advancement": {
+        "Grant Items": {
+          "title": "Przyznaj przedmioty"
+        },
+        "Cantrip": {
+          "title": "Sztuczka",
+          "hint": "Znasz jedną, wybraną przez siebie sztuczkę z listy czarów maga. Twoją cechą bazową dla niej jest Inteligencja."
+        },
+        "eqSwyWvm0gYgBzJJ": {
+          "hint": "Elfy mają zwykle między 1,5 a 1,8 metra wzrostu i są szczupłej budowy. Twój rozmiar jest średni."
+        },
+        "Keen Senses": {
+          "title": "Wyostrzone zmysły"
+        },
+        "Elf Weapon Training": {
+          "title": "Elfia szkoła walki"
+        }
+      }
+    },
+    "EHhr9umJ5kxJFCQH": {
+      "name": "Gnomi spryt",
+      "description": "<p>Masz ułatwienie we wszystkich rzutach obronnych przeciwko magii, które opierają się na Inteligencji, Mądrości lub Charyzmie.</p>"
+    },
+    "GWPjKFeIthBBeCFJ": {
+      "name": "Niezauważalny",
+      "description": "<p>Możesz spróbować się ukryć, gdy zasłania cię istota, która jest przynajmniej jeden rozmiar większa od ciebie.</p>"
+    },
+    "Hye5IZwPOSwV0qRR": {
+      "name": "Półelf",
+      "description": "<p>Twoja postać posiada cechy wspólne z elfami oraz takie, które są unikatowe dla półelfów.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Charyzmy wzrasta o 2, a dwóch innych wybranych cech o 1.</p><p><em><strong>Wiek.</strong></em> Półełfy dorastają w tym samym czasie, co ludzie i osiągają dorosłość w wieku około 20 lat. Żyją jednak znacznie dłużej, często przekraczając 180 lat.</p><p><em><strong>Charakter.</strong></em> Półelfy dzielą z elfami ich chaotyczne skłonności. Cenią wolność osobistą i kreatywność w wyrażaniu siebie. Z tego powodu nie potrafią odnaleźć w sobie umiłowania dla władców ani pragnienia przywództwa. Irytują się zasadami, oburzają na żądania innych, a czasem są nieobliczalne lub nawet nie można na nich polegać.</p><p><em><strong>Rozmiar.</strong></em> Półelfy są budową zbliżone do ludzi, mierzą od 1,5 do 1,8 metra. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Widzenie w ciemności.</strong></em> Dzięki swojej elfiej krwi świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś w stanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Rodowód fey.</strong></em> Masz ułatwienie w rzutach obronnych przeciw zauroczeniu i magia nie może cię uśpić.</p><p><em><strong>Uzdolnienia.</strong></em> Zyskujesz biegłość w dwóch wybranych umiejętnościach.</p><p><em><strong>Języki.</strong></em> Możesz mówić, czytać i pisać we wspólnym, elfim i jednym dodatkowym wybranym języku.</p>",
+      "advancement": {
+        "r3PSgtQO6Eim49LU": {
+          "hint": "Półelfy są budową zbliżone do ludzi, mierzą od 1,5 do 1,8 metra. Twój rozmiar jest średni."
+        },
+        "Skill Versatility": {
+          "title": "Wszechstronność"
+        }
+      }
+    },
+    "JrUcwLR2aQC09iUM": {
+      "name": "Zionięcie - mosiężny smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "K4DNDcR6vngbp0pf": {
+      "name": "Drakon",
+      "description": "<p>Twoja smocza spuścizna daje o sobie znać poprzez różne cechy, które dzielisz ze swoimi braćmi i siostrami.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Siły wzrasta o 2, a Charyzmy o 1.</p><p><em><strong>Wiek.</strong></em> Młodzi drakoni szybko dorastają. Zaczynają chodzić już kilka godzin po wykluciu się z jaja, osiągają wzrost oraz rozwój intelektualny dziesięcioletniego ludzkiego dziecka w wieku 3 lat. Dorastają zaś w wieku lat 15. Ich długość życia wynosi około 80 lat.</p><p><em><strong>Charakter.</strong></em> Drakoni skłaniają się ku skrajnościom i świadomie wybierają jedną ze stron w wielkiej kosmicznej wojnie między dobrem i złem. Większość drakonów jest dobra, jednak ci, którzy opowiadają się po stronie zła, mogą być przerażającymi złoczyńcami.</p><p><em><strong>Rozmiar.</strong></em> Drakoni są wyżsi i ciężsi niż ludzie. Osiągają ponad 1,8 metra wzrostu i ważą średnio około 120 kilogramów. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><table><caption>Smoczy rodowód</caption><thead><tr><td>Smok</td></td>Typ obrażeń<td><td>Zionięcie</td></tr></thead><tbody><tr><td>Czarny</td><td>Kwas</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Niebieski</td><td>Elektryczność</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Mosiężny</td><td>Ogień</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Spiżowy</td><td>Elektryczność</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Miedziany</td><td>Kwas</td><td>prosta 1,5 x 9m (rzut obronny na Zrc)</td></tr><tr><td>Złoty</td><td>Ogień</td><td>stożek 4,5 m (rzut obronny na Zrc)</td></tr><tr><td>Zielony</td><td>Trucizna</td><td>stożek 4,5 m (rzut obronny na Kon)</td></tr><tr><td>Czerwony</td><td>Ogień</td><td>stożek 4,5 m (rzut obronny na Zrc)</td></tr><tr><td>Srebrny</td><td>Zimno</td><td>stożek 4,5 m (rzut obronny na Kon)</td></tr><tr><td>Biały</td><td>Zimno</td><td>stożek 4,5 m (rzut obronny na Kon)</td></tr></tbody></table><p><em><strong>Smoczy rodowód.</strong></em> Szczycisz się smoczym rodowodem. Wybierz jeden rodzaj smoka z tabeli. Określa on efekt twojego zionięcia i odporność na obrażenia.</p><p><em><strong>Zionięcie.</strong></em> Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny określony przez twój rodowód. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p><p><em><strong>Odporność na obrażenia.</strong></em> Posiadasz odporność na typ obrażeń związany z twoim smoczym rodowodem.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz smoczym. Język ten jest uważany za jeden z najstarszych i często używany do studiów nad magią. Dla każdego, kto nie jest drakonem, brzmi szorstko ze względu na liczne twarde i syczące spółgłoski.</p>",
+      "advancement": {
+        "Draconic Ancestry": {
+          "title": "Smoczy rodowód",
+          "hint": "Smoczy rodowód. Wybierz jeden rodzaj smoka z listy. Określa on twój oddech i odporność na obrażenia."
+        },
+        "Breath Weapon": {
+          "title": "Zionięcie - niebieski smok"
+        },
+        "9D8XNnmTLWfzN32K": {
+          "hint": "Drakoni są wyżsi i ciężsi niż ludzie. Osiągają ponad 1,8 metra wzrostu i ważą średnio około 120 kilogramów. Twój rozmiar jest średni."
+        },
+        "2f4dkpTYlhOgRgxu": {
+          "hint": "Posiadasz odporność na typ obrażeń związany z twoim smoczym rodowodem."
+        }
+      }
+    },
+    "KL7wx9Q8XNJQir0k": {
+      "name": "Zionięcie - biały smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "KVgvW5yhKcmQUanz": {
+      "name": "Zionięcie - niebieski smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "LOMdcNAGWh5xpfm4": {
+      "name": "Szczęście",
+      "description": "<p>Kiedy wyrzucisz 1 w teście ataku, teście cechy lub rzucie obronnym, możesz przerzucić kość. Musisz jednak zaakceptować nowy wynik.</p><section class=\"secret foundry-note\" id=\"secret-S04TPyvUh05Dz0Ng\"><p><strong>Notka Foundry</strong></p><p>Tę właściwość można włączyć w ustawieniach karty postaci w zakładce Zdolności, w oknie Specjalne zdolności.</p></section>"
+    },
+    "NnSZlrsHCFeH3cCq": {
+      "name": "Zionięcie - czarny smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "OQA1sHxKnSJq01dL": {
+      "name": "Mądrość wynalazcy",
+      "description": "<p>Za każdym razem, gdy wykonujesz test Inteligencji (Historia) odnoszący się do magicznych przedmiotów, obiektów alchemicznych lub urządzeń technologicznych, możesz dodać podwojoną premię z biegłości zamiast premii z biegłości, którą normalnie stosujesz.</p>"
+    },
+    "PqxZgcJzp1VVgP8t": {
+      "name": "Zwinność niziołka",
+      "description": "<p>Możesz przemieścić się przez pole zajmowane przez inną istotę, która jest większego rozmiaru niż ty.</p>"
+    },
+    "TZtarkKs6cgGD7z2": {
+      "name": "Gnom skalny",
+      "description": "<p>Twój gnom posiada pewne cechy wspólne z pozostałymi przedstawicielami gnomiej rasy.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Inteligencji wzrasta o 2.</p><p><em><strong>Wiek.</strong></em> Gnomy osiągają dorosłość w tym samym wieku, co ludzie, i oczekuje się od nich, że zajmą się dorosłym życiem w okolicach czterdziestki. Mogą przeżyć od 350 do niemal 500 lat.</p><p><em><strong>Charakter.</strong></em> Gnomy są najczęściej dobre. Skłaniające się ku prawu są mędrcami, inżynierami, badaczami, uczonymi, śledczymi lub wynalazcami. A zwracające się w kierunku chaosu zostają minstrelami, oszustami, podróżnikami lub kapryśnymi jubilerami. Gnomy to istoty o dobrym sercu i nawet ich kawalarze są bardziej figlarni niż złośliwi.</p><p><em><strong>Rozmiar.</strong></em> Gnomy mierzą od 0,9 do 1,2 metra wzrostu i ważą około 20 kilogramów. Twój rozmiar jest Mały.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 7,5 metra.</p><p><em><strong>Widzenie w ciemności.</strong></em> Dzięki przyzwyczajeniu do życia pod ziemią świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś w stanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Gnomi spryt.</strong></em> Masz ułatwienie we wszystkich rzutach obronnych przeciwko magii, które opierają się na Inteligencji, Mądrości lub Charyzmie.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz gnomim. Język gnomów używa krasnoludzkiego alfabetu i słynie z traktatów technologicznych i almanachów wiedzy dotyczących świata natury.</p><h5>Gnom skalny</h5><p>Gnomy skalne cechują się wrodzoną wynalazczością i odpornością.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Kondycji wzrasta o 1.</p><p><em><strong>Mądrość wynalazcy.</strong></em> Za każdym razem, gdy wykonujesz test Inteligencji (Historia) odnoszący się do magicznych przedmiotów, obiektów alchemicznych lub urządzeń technologicznych, możesz dodać podwojona premię z biegłości zamiast premii z biegłości, którą normalnie stosujesz.</p><p><em><strong>Majsterkowicz.</strong></em> Masz biegłość w używaniu narzędzi rzemieślniczych (narzędzi majsterkowicza). Korzystając z nich, możesz spędzić 1 godzinę i zużyć materiały o wartości 10 sz, aby skonstruować Malutkie urządzenie mechaniczne (KP 5, 1 PW). Urządzenie to przestanie działać po 24 godzinach (chyba że spędzisz 1 godzinę, naprawiając je, aby mogło dalej funkcjonować) lub gdy użyjesz akcji, aby je rozmontować. W takiej sytuacji możesz odzyskać wykorzystane materiały. Możesz posiadać do trzech tego rodzaju urządzeń jednocześnie.</p><p>Kiedy tworzysz urządzenie, wybierz jedną z poniższych opcji:</p><p><em>Mechaniczna zabawka.</em> Zabawka jest mechanicznym zwierzęciem, potworem lub osobą, na przykład żabą, myszą, ptakiem, smokiem albo żołnierzem. Po położeniu jej na ziemi zabawka porusza się w twojej turze 1,5 metra w losowym kierunku, wydając z siebie odgłosy właściwe istocie, którą przedstawia.</p><p><em>Skrzeszacz ognia.</em> Urządzenie tworzy niewielki płomień, którym można rozpalić świecę, pochodnię lub ognisko. Skorzystanie z tego urządzenia wymaga wykorzystania akcji.</p><p><em>Pozytywka.</em> Po otworzeniu pozytywka odtwarza jeden utwór muzyczny z umiarkowaną głośnością. Przestaje grać, gdy utwór dobiegnie końca lub gdy zostanie zamknięta.</p>",
+      "advancement": {
+        "1qwH1s1GrEC8T8Qp": {
+          "hint": "Gnomy mierzą od 0,9 do 1,2 metra wzrostu i ważą około 20 kilogramów. Twój rozmiar jest Mały."
+        },
+        "Tinker": {
+          "title": "Majsterkowicz"
+        }
+      }
+    },
+    "UQiRQUTBcsz8gZU1": {
+      "name": "Krasnolud",
+      "description": "<p><em>Twoja postać dysponuje wachlarzem wrodzonych przymiotów, które są częścią jej krasnoludzkiej natury.</em></p><p><strong>Zwiększenie wartości cechy.</strong> Wartość twojej Kondycji wzrasta o 2.</p><p><strong>Wiek.</strong> Krasnoludy dorastają w tym samym wieku, co ludzie, jednak są postrzegane jako nastolatki aż do ukończenia 50 lat. Średnio żyją około 350 lat.</p><p><strong>Charakter.</strong> Większość krasnoludów jest praworządna i gorąco wierzy w korzyści płynące z uporządkowanego społeczeństwa. Zwracają się również ku dobremu pierwiastkowi charakteru, z silnym poczuciem uczciwości i wiarą, że wszyscy zasługują na to, aby korzystać z pożytków sprawiedliwego ładu społecznego.</p><p><strong>Rozmiar.</strong> Wzrost krasnoludów waha się pomiędzy 1,2 a 1,5 metra, ważą zaś one około 70 kilogramów. Twój rozmiar jest Średni.</p><p><strong>Szybkość.</strong> Twoja podstawowa szybkość wynosi 7,5 metra. Nie obniża jej noszenie ciężkiego pancerza</p><p><strong>Widzenie w ciemności.</strong> Dzięki przyzwyczajeniu do życia pod ziemią świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś wstanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><strong>Krasnoludzka Odporność.</strong> Masz ułatwienie w rzutach obronnych przeciw truciznom i odporność na obrażenia od trucizn.</p><p><strong>Krasnoludzki trening bojowy.</strong> Masz biegłość w używaniu lekkiego młota, młota bojowego, topora bojowego i toporka.</p><p><strong>Biegłość w używaniu narzędzi.</strong> Masz biegłość w używaniu wybranych narzędzi rzemieślniczych: narzędzi kowala, materiałów piwowarskich albo narzędzi kamieniarza.</p><p><strong>Wiedza o kamieniu.</strong> Za każdym razem, gdy wykonujesz test Inteligencji (Historia) związany z pochodzeniem jakiejś rzeczy stworzonej z kamienia, jesteś traktowany jak biegły w umiejętności Historia i dodajesz podwójną premię z biegłości do wyniku testu.</p><p><strong>Języki.</strong> Możesz mówić, czytać i pisać w językach wspólnym i krasnoludzkim. Krasnoludzki jest językiem pełnym twardych spółgłosek oraz gardłowych dźwięków i te cechy wymowy słychać także w innych językach, którymi mówi twoja postać.</p><h5>Krasnolud wzgórzowy</h5><p>Jako krasnolud wzgórzowy charakteryzujesz się wyostrzonymi zmysłami, dogłębną intuicją i niezwykłą odpornością.</p><p><strong>Zwiększenie wartości cechy.</strong> Wartość twojej Mądrości wzrasta o 1.</p><p><strong>Krasnoludzka wytrzymałość.</strong> Maksymalna wartość twoich punktów życia zwiększa się o 1 i podnosi się o dodatkowe 1 za każdym razem, gdy zdobywasz poziom.</p><section class=\"secret\" id=\"secret-bkbaaEWqAGbU8ZgK\"><p><strong>Notka Foundry</strong></p><p>Krasnoludzką wytrzymałość należy skonfigurować, dodając 1 do premii „Na poziom” w konfiguracji PW na karcie postaci (dostępnej po kliknięciu w ikonę trybika obok punktów wytrzymałości postaci).</p></section>",
+      "advancement": {
+        "kdMPoRp3j1uOHQom": {
+          "hint": "Wzrost krasnoludów waha się pomiędzy 1,2 a 1,5 metra, ważą zaś około 70 kilogramów. Twój rozmiar jest średni."
+        },
+        "Dwarven Resilience": {
+          "title": "Krasnoludzka odporność"
+        },
+        "Dwarven Combat Training": {
+          "title": "Krasnoludzki trening bojowy"
+        }
+      }
+    },
+    "YPQQBZAuRiSwuBfh": {
+      "name": "Zionięcie - złoty smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "ZgYBjYYfiUstQD6f": {
+      "name": "Niziołek",
+      "description": "<p>Twój niziołek dysponuje wachlarzem wrodzonych przymiotów. które są wspólne dla całej rasy.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Zręczności wzrasta o 2.</p><p><em><strong>Wiek.</strong></em> Niziołki osiągają dojrzałość w wieku 20 lat i żyją zazwyczaj około 150 lat.</p><p><em><strong>Charakter.</strong></em> Większość niziołków jest praworządna dobra. To z zasady życzliwe i uprzejme istoty, które nie znoszą, gdy ktoś cierpi, i nie tolerują ucisku. Są przy tym niezwykle uporządkowane i tradycjonalistycznie nastawione do świata, co przejawia się w mocnym poleganiu na wspólnocie i starych zwyczajach.</p><p><em><strong>Rozmiar.</strong></em> Wzrost niziołków wynosi przeciętnie nieco mniej niż metr, a waga około 20 kilogramów. Twój rozmiar jest Mały.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 7,5 metra.</p><p><em><strong>Szczęście.</strong></em> Kiedy wyrzucisz 1 w teście ataku, teście cechy lub rzucie obronnym, możesz przerzucić kość. Musisz jednak zaakceptować nowy wynik.</p><p><em><strong>Odwaga.</strong></em> Masz ułatwienie w rzutach obronnych przeciw przerażeniu.</p><p><em><strong>Zwinność niziołka.</strong></em> Możesz przemieścić się przez pole zajmowane przez inną istotę, która jest większego rozmiaru niż ty.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz niziołczym. Język niziołków nie jest sekretny, jednak oni sami niechętnie uczą go innych. Przedstawiciele tej rasy niewiele piszą. Nie mają więc zbyt bogatej literatury. Lecz ich tradycja przekazów ustnych jest bardzo rozwinięta. Praktycznie wszystkie niziołki używają wspólnego, aby rozmawiać z istotami, na których ziemiach zamieszkują lub przez które podróżują.</p><h5>Niziołek lekkostopy</h5><p>Jako niziołek lekkostopy możesz w łatwy sposób unikać uwagi, a nawet używać innych osób w charakterze zasłony. Twoje usposobienie jest bardzo przyjazne i dobrze dogadujesz się z innymi.</p><p>Lekkostopi mają o wiele większe zamiłowanie do wędrówek niż inne niziołki i często mieszkają pośród innych ras lub wybierają nomadyczny styl życia.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Charyzmy wzrasta o 1.</p><p><em><strong>Niezauważalny.</strong></em> Możesz spróbować się ukryć, gdy zasłania cie istota, która jest przynajmniej jeden rozmiar większa od ciebie.</p>",
+      "advancement": {
+        "hv2bcANK5jEJZaAb": {
+          "hint": "Wzrost niziołków wynosi przeciętnie nieco mniej niż metr, a waga około 20 kilogramów. Twój rozmiar jest Mały."
+        }
+      }
+    },
+    "aHTokZ151W0ASSmo": {
+      "name": "Diabelstwo",
+      "description": "<p>Diabelstwa dzielą ze sobą kilka wspólnych cech, które wynikają z ich piekielnego pochodzenia.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Inteligencji wzrasta o 1, a Charyzmy o 2.</p><p><em><strong>Wiek.</strong></em> Diabelstwa dojrzewają w tym samym wieku, co ludzie, jednak żyją o kilka lat dłużej.</p><p><em><strong>Charakter.</strong></em> Diabelstwa mogą nie mieć naturalnych skłonności ku złu, jednak wiele z nich na nim kończy. Jednocześnie ich niezależna natura popycha ich w kierunku chaotycznego charakteru.</p><p><em><strong>Rozmiar.</strong></em> Diabelstwa mają taki sam wzrost i budowę ciała jak ludzie. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Widzenie w ciemności.</strong></em> Dzięki swemu piekielnemu pochodzeniu świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś w stanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Piekielna odporność.</strong></em> Masz odporność na obrażenia od ognia.</p><p><em><strong>Piekielna spuścizna.</strong></em> Znasz sztuczkę taumaturgia. Kiedy osiągasz 3. poziom, możesz rzucić raz piekielną reprymendę jako czar 2. kręgu i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Kiedy osiągasz 5. poziom, możesz rzucić raz czar ciemność i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Twoją cechą bazową dla tych czarów jest Charyzma.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz piekielnym.</p>",
+      "advancement": {
+        "Infernal Legacy": {
+          "title": "Diabelska spuścizna"
+        },
+        "RdFKqK8MykC5CYIB": {
+          "hint": "Diabelstwa mają taki sam rozmiar i budowę ciała jak ludzie. Twój rozmiar jest średni."
+        },
+        "Hellish Resistance": {
+          "title": "Piekielna odporność"
+        }
+      }
+    },
+    "bFpLM0N3uTeHLdzu": {
+      "name": "Zionięcie - miedziany smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "cnTbpPPeGW7vGjOV": {
+      "name": "Rodowód fey",
+      "description": "<p>Masz ułatwienie w rzutach obronnych przeciw zauroczeniu i magia nie może cię uśpić.</p>"
+    },
+    "kB61JPKQrDBbSNU7": {
+      "name": "Zionięcie - czerwony smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "koRPOLtj8XAFMwnW": {
+      "name": "Majsterkowicz",
+      "description": "<p>Masz biegłość w używaniu narzędzi rzemieślniczych (narzędzi majsterkowicza). Korzystając z nich, możesz spędzić 1 godzinę i zużyć materiały o wartości 10 sz, aby skonstruować Malutkie urządzenie mechaniczne (KP 5, 1 PW). Urządzenie to przestanie działać po 24 godzinach (chyba że spędzisz 1 godzinę, naprawiając je, aby mogło dalej funkcjonować) lub gdy użyjesz akcji, aby je rozmontować. W takiej sytuacji możesz odzyskać wykorzystane materiały. Możesz posiadać do trzech tego rodzaju urządzeń jednocześnie. Kiedy tworzysz urządzenie, wybierz jedną z poniższych opcji:</p>\n<p><em>Mechaniczna zabawka:</em> Zabawka jest mechanicznym zwierzęciem, potworem lub osobą, na przykład żabą, myszą, ptakiem, smokiem albo żołnierzem. Po położeniu jej na ziemi zabawka porusza się w twojej turze 1,5 metra w losowym kierunku, wydając z siebie odgłosy właściwe istocie, którą przedstawia.</p>\n<p><em>Skrzeszacz ognia:</em> Urządzenie tworzy niewielki płomień, którym można rozpalić świecę, pochodnię lub ognisko. Skorzystanie z tego urządzenia wymaga wykorzystania akcji.</p>\n<p><em>Pozytywka:</em> Po otworzeniu pozytywka odtwarza jeden utwór muzyczny z umiarkowaną głośnością. Przestaje grać, gdy utwór dobiegnie końca lub gdy zostanie zamknięta.</p>",
+      "activities": {
+        "utility": {
+          "condition": "Wydaj materiały o wartości 10 sz"
+        }
+      }
+    },
+    "lXIxndsBaQglHBtO": {
+      "name": "Zionięcie - zielony smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od trucizny. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "mQPZDRbUhgYTbXKa": {
+      "name": "Wiedza o kamieniu",
+      "description": "<p>Za każdym razem, gdy wykonujesz test inteligencji (Historia) związany z pochodzeniem jakiejś rzeczy stworzonej z kamienia, jesteś traktowany jak biegły w umiejętności Historia i dodajesz podwójną premię z biegłości do wyniku testu.</p>"
+    },
+    "n5L000DkNBU6h2oJ": {
+      "name": "Półork",
+      "description": "<p>Twój półork posiada pewne cechy mające źródło w jego orczym pochodzeniu.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Siły wzrasta o 2, a Kondycji o 1.</p><p><em><strong>Wiek.</strong></em> Półorki dojrzewają nieco szybciej niż ludzie i osiągają dorosłość w wieku 14 lat. Starzeją się również szybciej i rzadko żyją dłużej niż 75 lat.</p><p><em><strong>Charakter.</strong></em> Półorki dziedziczą chaotyczne skłonności po swoich orczych rodzicach i mają raczej niewiele wspólnego z dobrem. Półorki wychowane i żyjące wśród orków są najczęściej złe.</p><p><em><strong>Rozmiar.</strong></em> Półorki są nieco większe i masywniejsze niż ludzie, a ich wzrost waha się od 1,5 do ponad 1,8 metra. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Widzenie w ciemności.</strong></em> Dzięki płynącej w twoich żyłach orczej krwi świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś wstanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Groźny.</strong></em> Masz biegłość w umiejętności Zastraszanie.</p><p><em><strong>Wola życia.</strong></em> Kiedy twoje punkty wytrzymałości spadają do 0, ale nie giniesz od razu, możesz zdecydować, że zamiast tego spadają do 1. Możesz ponownie skorzystać z tej zdolności po zakończeniu długiego odpoczynku.</p><p><em><strong>Brutalne ataki.</strong></em> Kiedy trafiasz krytycznie atakiem wręcz bronią, możesz dodatkowo rzucić jedną kostką obrażeń właściwą dla używanej broni i dodać jej wynik do dodatkowych obrażeń wynikających z trafienia krytycznego.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz orczym. Język orków jest surową, zgrzytającą mową o twardych spółgłoskach. Nie ma swojego własnego alfabetu i jest zapisywany pismem krasnoludzkim.</p>",
+      "advancement": {
+        "jdak6D1rjScJSK8i": {
+          "hint": "Półorki są nieco większe i masywniejsze niż ludzie, a ich wzrost waha się od 1,5 do ponad 1,8 metra. Twój rozmiar jest średni."
+        },
+        "Menacing": {
+          "title": "Groźny"
+        }
+      }
+    },
+    "pAYTdRGftNr8AitK": {
+      "name": "Zionięcie - srebrny smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "pJzMSk9qYywYy65w": {
+      "name": "Zionięcie - spiżowy smok",
+      "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+    },
+    "q71Pe1F8RRtEJt8Q": {
+      "name": "Piekielna odporność",
+      "description": "<p>Masz odporność na obrażenia od ognia.</p>"
+    },
+    "ufysTkqet2Ctmtyi": {
+      "name": "Krasnoludzka odporność",
+      "description": "<p>Masz ułatwienie w rzutach obronnych przeciw truciznom i odporność na obrażenia od trucizn.</p>"
+    },
+    "wJc88B8OP1y1xzMw": {
+      "name": "Diabelska spuścizna",
+      "description": "<p>Znasz sztuczkę @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{Taumaturgia}.</p>\n<p>Kiedy osiągasz 3. poziom. możesz rzucić raz @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{piekielną reprymendę} jako czar 2. kręgu i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku.</p>\n<p>Kiedy osiągasz 5. poziom, możesz rzucić raz czar @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{ciemność} i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Twoją cechą bazową dla tych czarów jest Charyzma.</p>"
+    },
+    "ydP3QzCmur55mtY2": {
+      "name": "Człowiek",
+      "description": "<p>W przypadku łudzi trudno o uogólnienia, lecz większość z nich posiada następujące cechy rasowe.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość wszystkich twoich cech wzrasta o 1.</p><p><em><strong>Wiek.</strong></em> Ludzie osiągają dorosłość około 18 roku życia i rzadko żyją dłużej niż 100 lat.</p><p><em><strong>Charakter.</strong></em> Ludzie mogą mieć dowolny charakter. Zdarzają się wśród nich zarówno naprawdę dobrzy, jak i zdecydowanie źli.</p><p><em><strong>Rozmiar.</strong></em> Ludzie znacznie się od siebie różnią pod względem budowy ciała. Mogą mieć od 1,5 do dobrze ponad 1,8 metra wzrostu. Niezależnie jednak od tego, twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz dodatkowym wybranym języku. Ludzie uczą się zazwyczaj języków osób, z którymi mają często do czynienia, włączając w to rzadkie narzecza. Są również znani z tego, że wplatają do swoich wypowiedzi słowa pochodzące z innych języków: orcze przekleństwa, elfie określenia muzyczne, krasnoludzkie zwroty bojowe i tym podobne.</p>",
+      "advancement": {
+        "dNSrZePZHz2qwVpi": {
+          "hint": "Ludzie znacznie się od siebie różnią pod względem budowy ciała. Mogą mieć od 1,5 do dobrze ponad 1,8 metra wzrostu. Niezależnie jednak od tego, twój rozmiar jest Średni."
+        }
+      }
     }
+  }
 }
