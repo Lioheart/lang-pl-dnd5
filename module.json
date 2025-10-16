@@ -67,7 +67,7 @@
   "media": [
     {
       "type": "setup",
-      "url": "./static/cover_dnd.webp",
+      "url": "modules/dnd5e_pl/static/cover_dnd.webp",
       "loop": false,
       "flags": {}
     }
