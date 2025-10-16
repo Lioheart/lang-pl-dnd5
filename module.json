@@ -1,6 +1,6 @@
 {
   "id": "dnd5e_pl",
-  "title": "Pełne polskie tłumaczenie zasad podstawowych (Core) D&D 5.0 SRD oraz częściowe tłumaczenie kompendium. Zawiera możliwość podglądu angielskich tytułów i przełączania opisów między polskim a angielskim.",
+  "title": "Polskie tłumaczenie SRD D&D 5.0",
   "version": "vDev",
   "compatibility": {
     "minimum": "13",
@@ -46,7 +46,7 @@
       }
     ]
   },
-  "description": "Tłumaczenie systemu D&D 5ed.",
+  "description": "Pełne polskie tłumaczenie zasad podstawowych (Core) D&D 5.0 SRD oraz częściowe tłumaczenie kompendium. Zawiera możliwość podglądu angielskich tytułów i przełączania opisów między polskim a angielskim.",
   "esmodules": [
     "./babele-register.js",
     "scripts/dnd5e.js",
@@ -67,7 +67,7 @@
   "media": [
     {
       "type": "setup",
-      "url": "static/cover_dnd.webp",
+      "url": "./static/cover_dnd.webp",
       "loop": false,
       "flags": {}
     }
