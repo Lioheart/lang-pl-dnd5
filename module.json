@@ -1,6 +1,6 @@
 {
-  "id": "lang-pl-dnd5",
-  "title": "Polskie Tłumaczenie DnD 5ed.",
+  "id": "dnd5e_pl",
+  "title": "Pełne polskie tłumaczenie zasad podstawowych (Core) D&D 5.0 SRD oraz częściowe tłumaczenie kompendium. Zawiera możliwość podglądu angielskich tytułów i przełączania opisów między polskim a angielskim.",
   "version": "vDev",
   "compatibility": {
     "minimum": "13",
