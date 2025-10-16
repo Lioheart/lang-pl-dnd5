@@ -1,428 +1,338 @@
 {
-    "label": "Tabele",
-    "entries": {
-        "Armor of Resistance": {
-            "name": "Pancerz odporności",
-            "results": {
-                "1-1": "Od kwasu",
-                "2-2": "Od zimna",
-                "3-3": "Od ognia",
-                "4-4": "Od mocy",
-                "5-5": "Od elektryczności",
-                "6-6": "Nekrotyczne",
-                "7-7": "Od trucizny",
-                "8-8": "Psychiczne",
-                "9-9": "Od światłości",
-                "10-10": "Od dźwięku"
-            }
-        },
-        "Bag of Beans": {
-            "name": "Worek fasolek",
-            "results": {
-                "1-1": "Wyrasta [[/r 5d4]] muchomorów. Jeśli stworzenie zje muchomora, rzuć dowolną kością. Przy nieparzystym wyniku istota, która zjadła grzyb musi wykonać rzut obronny [[/save constitution dc=15]] lub otrzymać obrażenia [[/damage 5d6 poison]] i stać się &Reference[poisoned] na 1 godzinę. Przy parzystym wyniku zyskuje [[/healing 5d6 temp]]{5k6 tymczasowych PW} na 1 godzinę.",
-                "2-10": "Gejzer wybucha i tryska wodą, piwem, sokiem jagodowym, herbatą, octem, winem lub olejem (według wyboru MP) na 9 metrów w górę na [[/r 1d12]] rund.",
-                "11-20": "Wyrasta drzewiec. Istnieje 50% szansy, że drzewiec ma charakter chaotyczny zły i atakuje.",
-                "21-30": "Podnosi się ożywiony, nieruchomy kamienny posąg podobny do ciebie. Wysyła pod twoim adresem werbalne groźby. Jeśli go opuścisz, a inni się zbliżą, opisuje cię jako najbardziej haniebnego złoczyńcę i nakłania przybyszów, aby cię znaleźli i zaatakowali. Jeśli ty i posąg przebywacie w tej samej sferze egzystencji, posąg wie, gdzie się znajdujesz. Posąg staje się nieożywiony po 24 godzinach.",
-                "31-40": "Pojawia się ognisko o niebieskich płomieniach i płonie przez 24 godziny (lub do momentu jego ugaszenia).",
-                "41-50": "Wyrasta [[/r 1d6 + 6]] @UUID[Compendium.dnd5e.monsters.Actor.TaK6nQMGqZ0y8gt7]{wrzaskunów}",
-                "51-60": "Wypełza [[/r 1d4 + 8]] jasnoróżowych ropuch. W momencie gdy ropucha zostanie dotknięta, zamienia się w dużego lub mniejszego potwora wybranego przez MP. Potwór istnieje przez 1 minutę, po czym znika w obłoku jasnoróżowego dymu.",
-                "61-70": "Wygrzebuje się głodna @UUID[Compendium.dnd5e.monsters.Actor.1ES45ODWg3pCrkzv]{buletta} i atakuje.",
-                "71-80": "Rośnie drzewo owocowe. Zawiera [[/r 1d10 + 20]] owoców, z których [[/r 1d8]] działa jako losowe magiczne eliksiry, a jeden działa jako trucizna wybrana przez MP. Drzewo znika po 1 godzinie. Zerwane owoce pozostają, zachowując swoje magiczne właściwości przez 30 dni.",
-                "81-90": "Wyrasta gniazdo zawierające [[/r 1d4 + 3]] jaj. Każde stworzenie, które zje jajo z gniazda, musi wykonać rzut obronny [[/save constitution dc=20]]. Po udanym rzucie istota trwale zwiększa swoją najniższą wartość cechy o 1, decydując losowo w przypadku równych niskich wartości więcej niż jednej cechy. W przypadku niepowodzenia, wewnątrz dochodzi do magicznej eksplozji i istota otrzymuje [[/damage 10k6 force]] obrażeń.",
-                "91-99": "Wyłania się piramida o podstawie w kształcie kwadratu o boku 18 metrów. Wewnątrz znajduje się sarkofag, w którym spoczywa @UUID[Compendium.dnd5e.monsters.Actor.UFW8M3JHzHkxUEGM]{mumia władca}. Piramida traktowana jest jako legowisko mumii władcy, a w jej sarkofagu znajduje się skarb wybrany przez MP.",
-                "100-100": "Kiełkuje gigantyczna łodyga fasoli, wyrastająca aż do wysokości określonej przez MP. Szczyt prowadzi tam, gdzie wybierze MP, na przykład do wspaniałego krajobrazu, zamku giganta chmurowego lub innej sfery egzystencji."
-            }
-        },
-        "Bonds (Acolyte)": {
-            "name": "Więzi (Akolita)",
-            "results": {
-                "1-1": "Oddałbym życie, by odzyskać dawno utraconą starożytną relikwię mojej wiary.",
-                "2-2": "Pewnego dnia zemszczę się na skorumpowanej hierarchii kościoła, która ogłosiła mnie heretykiem.",
-                "3-3": "Zawdzięczam życie kapłanowi, który otoczył mnie opieką po śmierci moich rodziców.",
-                "4-4": "Wszystko co czynię, czynię dla ludu.",
-                "5-5": "Zrobię wszystko, by chronić świątynię, w której służyłem.",
-                "6-6": "Zamierzam ocalić święty tekst, który moi wrogowie uważają za herezję i próbują zniszczyć."
-            }
-        },
-        "Candle of Invocation": {
-            "name": "Świeca inwokacji",
-            "results": {
-                "1-2": "Chaotyczny zły",
-                "3-4": "Chaotyczny neutralny",
-                "5-7": "Chaotyczny dobry",
-                "8-9": "Neutralny zły",
-                "10-11": "Neutralny",
-                "12-13": "Neutralny dobry",
-                "14-15": "Praworządny zły",
-                "16-17": "Praworządny neutralny",
-                "18-20": "Praworządny dobry"
-            }
-        },
-        "Carpet of Flying": {
-            "name": "Latający dywan",
-            "results": {
-                "1-20": "Latający dywan (90cm x 150cm)",
-                "21-55": "Latający dywan (120cm x 180cm)",
-                "56-80": "Latający dywan (150cm x 210cm)",
-                "81-100": "Latający dywan (180cm x 270cm)"
-            }
-        },
-        "Confusion": {
-            "name": "Zamęt",
-            "results": {
-                "1-1": "Stworzenie wykorzystuje całą swoją szybkość, aby poruszać się w losowym kierunku. Aby określić kierunek, rzuć [[/r d8]] i przypisz kierunek do każdego z możliwych wyników. Stworzenie nie podejmuje akcji w tej turze.",
-                "2-6": "Stworzenie nie porusza się ani nie podejmuje akcji w tej turze.",
-                "7-8": "Stworzenie wykorzystuje swoją akcję do wykonania ataku wręcz przeciwko losowo wybranemu stworzeniu znajdującemu się w jego zasięgu. Jeśli w jego zasięgu nie ma żadnego innego stworzenia, nie robi nic w tej turze.",
-                "9-10": "Stworzenie może działać i poruszać się normalnie."
-            }
-        },
-        "Efreeti Bottle": {
-            "name": "Ifryt w butelce",
-            "results": {
-                "1-10": "Ifryt atakuje. Po 5 rundach walki ifryt znika, a butelka traci swoje magiczne właściwości.",
-                "11-90": "Ifryt służy Ci przez godzinę, wykonując twoje rozkazy. Następnie ifryt wraca do butelki i zatyka ją nowy korek. Korek nie może być usunięty przez 24 godziny. Przy kolejnych dwóch otwarciach butelki następuje ten sam efekt. Jeśli butelka zostanie otwarta po raz czwarty, ifryt ucieka i znika, a butelka traci swoje magiczne właściwości.",
-                "91-100": "Ifryt może rzucić czar życzenie trzykrotnie w twoim imieniu. Znika po spełnieniu ostatniego życzenia lub po 1 godzinie, a butelka traci swoje magiczne właściwości."
-            }
-        },
-        "Feather Token": {
-            "name": "Pierzasty amulet",
-            "description": "Ten malutki przedmiot wygląda jak piórko. Istnieją różne rodzaje pierzastych amuletów, a każdy z nich wywołuje inny efekt jednorazowy.",
-            "results": {
-                "1-20": "Pierzasty amulet - kotwica",
-                "91-100": "Pierzasty amulet - bicz",
-                "21-35": "Pierzasty amulet - ptak",
-                "36-50": "Pierzasty amulet - wachlarz",
-                "51-65": "Pierzasty amulet - łabędzia łódź",
-                "66-90": "Pierzasty amulet - drzewo"
-            }
-        },
-        "Flaws (Acolyte)": {
-            "name": "Słabości (Akolita)",
-            "results": {
-                "1-1": "Oceniam innych krytycznie, a siebie jeszcze bardziej surowo.",
-                "2-2": "Pokładam zbyt wiele zaufania we władzach mojego kościoła.",
-                "3-3": "Przez swoją pobożność czasem ślepo ufam tym, którzy wyznają wiarę w moje bóstwo.",
-                "4-4": "Mam mało elastyczne poglądy.",
-                "5-5": "Jestem podejrzliwy wobec obcych i spodziewam się po nich najgorszego.",
-                "6-6": "Kiedy mam jakiś cel, staje się on moją obsesją ze szkodą dla wszystkiego innego w moim życiu."
-            }
-        },
-        "Grey Bag of Tricks": {
-            "name": "Szara torba sztuczek",
-            "results": {
-                "1-1": "Łasica",
-                "2-2": "Olbrzymi szczur",
-                "3-3": "Borsuk",
-                "4-4": "Dzik",
-                "5-5": "Pantera",
-                "6-6": "Olbrzymi borsuk",
-                "7-7": "Straszliwy wilk",
-                "8-8": "Olbrzymi łoś"
-            }
-        },
-        "Horn of Valhalla": {
-            "name": "Róg z Valhalli",
-            "results": {
-                "1-40": "Srebrny róg z Valhalli",
-                "41-75": "Mosiężny róg z Valhalli",
-                "76-90": "Brązowy róg z Valhalli",
-                "91-100": "Żelazny róg z Valhalli"
-            }
-        },
-        "Ideals (Acolyte)": {
-            "name": "Ideały (Akolita)",
-            "results": {
-                "1-1": "Tradycja. Należy zachowywać i kontynuować starożytne tradycje kultu i ofiary. (Praworządny)",
-                "2-2": "Szczodrość. Zawsze staram się pomagać potrzebującym, niezależnie od poniesionych kosztów. (Dobry)",
-                "3-3": "Zmiana. Musimy pomóc bogom doprowadzać do zmian, które wciąż wprowadzają w świecie. (Chaotyczny)",
-                "4-4": "Potęga. Pewnego dnia mam nadzieję wspiąć się na szczyt hierarchii mojego kościoła. (Praworządny)",
-                "5-5": "Wiara. Żyję przekonaniem, że kieruje mną bóg. Wierzę, że dzięki ciężkiej pracy wszystko się dobrze ułoży. (Praworządny)",
-                "6-6": "Aspiracje. Staram się działać zgodnie z naukami mego bóstwa, bo chcę okazać się wart jego przychylności. (Dowolny)"
-            }
-        },
-        "Indefinite Madness": {
-            "name": "Szaleństwo bez końca",
-            "description": "Postać jest dotknięta niekończącym się szaleństwem.",
-            "results": {
-                "1-15": "„Bycie pijanym utrzymuje mnie przy zdrowych zmysłach.”",
-                "16-25": "\"Zatrzymuję wszystko, co znajdę.\"",
-                "26-30": "„Staram się być bardziej podobny do kogoś, kogo znam - przyjmując jego styl ubierania się, maniery i imię.”",
-                "31-35": "„Muszę naginać prawdę, przesadzać lub wręcz kłamać, aby być interesującym dla innych ludzi.”",
-                "36-45": "„Osiągnięcie mojego celu jest jedyną rzeczą, która mnie interesuje i zignoruję wszystko inne, aby do niego dążyć.”",
-                "46-50": "„Trudno mi dbać o cokolwiek, co dzieje się wokół mnie.”",
-                "51-55": "\"Nie podoba mi się sposób, w jaki ludzie cały czas mnie oceniają.\"",
-                "56-70": "„Jestem najmądrzejszą, najwspanialszą, najsilniejszą, najszybszą i najpiękniejszą osobą, jaką znam.”",
-                "71-80": "„Jestem przekonany, że polują na mnie potężni wrogowie, a ich agenci są wszędzie, gdzie się udam. Jestem pewien, że cały czas mnie obserwują.\"",
-                "81-85": "\"Jest tylko jedna osoba, której mogę zaufać. I tylko ja widzę tego wyjątkowego przyjaciela.\"",
-                "86-95": "\"Niczego nie mogę brać na poważnie. Im poważniejsza sytuacja, tym śmieszniejsza się wydaje.\"",
-                "96-100": "\"Odkryłem, że naprawdę lubię zabijać ludzi.\""
-            }
-        },
-        "Iron Flask": {
-            "name": "Żelazna manierka",
-            "results": {
-                "1-50": "Pusty",
-                "51-54": "Demon (typ 1)",
-                "55-58": "Demon (typ 2)",
-                "59-62": "Demon (typ 3)",
-                "63-64": "Demon (typ 4)",
-                "65-65": "Demon (typ 5)",
-                "66-66": "Demon (typ 6)",
-                "67-67": "Dewa",
-                "68-69": "Diabeł (większy)",
-                "70-73": "Diabeł (pomniejszy)",
-                "74-75": "Dżin",
-                "76-77": "Ifryt",
-                "78-83": "Żywiołak (dowolny)",
-                "84-86": "Niewidzialny łowca",
-                "87-90": "Nocna wiedźma",
-                "91-91": "Planetar",
-                "92-95": "Salamandra",
-                "96-96": "Solar",
-                "97-99": "Sukkub/Inkub",
-                "100-100": "Xorn"
-            }
-        },
-        "Long-Term Madness": {
-            "name": "Długotrwałe szaleństwo",
-            "description": "<p>Postać zostaje dotknięta długotrwałym obłędem na [[/r 1d10*10]] godzin.</p>",
-            "results": {
-                "1-10": "Postać czuje się zmuszona do powtarzania w kółko określonej czynności, takiej jak mycie rąk, dotykanie rzeczy, modlitwa lub liczenie monet.",
-                "11-20": "Postać doświadcza realistycznych halucynacji i ma utrudnienie w testach cech.",
-                "21-30": "Postać cierpi na skrajną paranoję. Postać ma utrudnienie w testach Mądrości i Charyzmy.",
-                "31-40": "Postać spogląda na coś (zwykle na źródło szaleństwa) z intensywną odrazą, jakby była pod wpływem efektu antypatii zaklęcia antypatia/sympatia.",
-                "41-45": "Postać doświadcza potężnego złudzenia. Wybierz miksturę. Postać wyobraża sobie, że jest pod jej wpływem.",
-                "46-55": "Postać przywiązuje się do „talizmanu szczęścia” w postaci innej osoby lub przedmiotu. Ma utrudnienie w testach ataku, testach cech i rzutach obronnych, gdy znajduje się w odległości większej niż 9 metrów od niego.",
-                "56-65": "Postać jest oślepiona (25%) lub ogłuchła (75%).",
-                "66-75": "Postać doświadcza niekontrolowanych drgawek lub tików, które dają utrudnienie w testach ataku, testach cech i rzutach obronnych na Siłę lub Zręczność.",
-                "76-85": "Postać cierpi na częściową amnezję. Postać wie, kim jest i zachowuje cechy rasowe i klasowe, ale nie rozpoznaje innych ludzi ani nie pamięta niczego, co wydarzyło się przed rozpoczęciem szaleństwa.",
-                "86-90": "Za każdym razem, gdy postać otrzymuje obrażenia, musi wykonać udany rzut obronny na Mądrość (ST 15) lub obejmuje ją efekt, jakby nie zdała rzutu obronnego przeciwko zaklęciu zamęt. Efekt zamętu trwa 1 minutę.",
-                "91-95": "Postać traci zdolność mówienia.",
-                "96-100": "Postać traci przytomność. Żadna ilość szturchania ani obrażeń nie może obudzić postaci."
-            }
-        },
-        "Manual of Golems": {
-            "name": "Podręcznik budowy golema",
-            "results": {
-                "1-5": "Gliniany golem",
-                "6-17": "Golem z ciał",
-                "18-18": "Żelazny golem",
-                "19-20": "Kamienny golem"
-            }
-        },
-        "Necklace of Prayer Beads": {
-            "name": "Naszyjnik modlitewny",
-            "results": {
-                "1-6": "Koralik błogosławieństwa",
-                "7-12": "Koralik uzdrawiania",
-                "13-16": "Koralik przychylności",
-                "17-18": "Koralik uderzenia",
-                "19-19": "Koralik przywołania",
-                "20-20": "Koralik spaceru na wietrze"
-            }
-        },
-        "Personality Traits (Acolyte)": {
-            "name": "Cechy osobowości (Akolita)",
-            "results": {
-                "1-1": "Uwielbiam określonego bohatera mojej religii i wiecznie nawiązuję do jego czynów i przykładu.",
-                "2-2": "Dzięki empatii i poszukiwaniu pokojowych rozwiązań potrafię znaleźć płaszczyznę porozumienia między najzacieklejszymi wrogami.",
-                "3-3": "Dostrzegam znaki w każdym wydarzeniu i działaniu. Bogowie próbują do nas przemówić. Musimy tylko posłuchać.",
-                "4-4": "Nic nie jest w stanie zachwiać moim optymizmem.",
-                "5-5": "W niemal każdej sytuacji przytaczam (lub przekręcam) święte teksty i przysłowia.",
-                "6-6": "Jestem tolerancyjny (albo nietolerancyjny) wobec innych religii i szanuję (albo potępiam) kulty innych bogów.",
-                "7-7": "Cieszyłem się dobrym jedzeniem, napitkiem i towarzystwem pośród elit mojej świątyni. Życie pozbawione wygód działa mi na nerwy.",
-                "8-8": "Spędziłem tak wiele czasu w świątyni, że mam niewielkie doświadczenie w kontaktach z ludźmi z zewnątrz."
-            }
-        },
-        "Potion of Resistance": {
-            "name": "Mikstura odporności",
-            "results": {
-                "1-1": "Mikstura odporności na kwas",
-                "2-2": "Mikstura odporności na zimno",
-                "3-3": "Mikstura odporności na ogień",
-                "4-4": "Mikstura odporności na moc",
-                "5-5": "Mikstura odporności na błyskawice",
-                "6-6": "Mikstura odporności na nekrotyzm",
-                "7-7": "Mikstura odporności na truciznę",
-                "8-8": "Mikstura odporności psychicznej",
-                "9-9": "Mikstura odporności na światłość",
-                "10-10": "Mikstura odporności na dźwięk"
-            }
-        },
-        "Reincarnate": {
-            "name": "Reinkarnacja",
-            "results": {
-                "1-4": "Drakon",
-                "5-13": "Krasnolud, wzgórzowy",
-                "14-21": "Krasnolud, górski",
-                "22-25": "Elf, mroczny",
-                "26-34": "Elf, wysoki",
-                "35-42": "Elf, leśny",
-                "43-46": "Gnom, leśny",
-                "47-52": "Gnom, skalny",
-                "53-56": "Półelf",
-                "57-60": "Półork",
-                "61-68": "Niziołek, lekkostopy",
-                "69-76": "Niziołek, hardy",
-                "77-96": "Człowiek",
-                "97-100": "Diabelstwo"
-            }
-        },
-        "Ring of Resistance": {
-            "name": "Pierścień odporności",
-            "results": {
-                "1-1": "Pierścień odporności na kwas",
-                "2-2": "Pierścień odporności na zimno",
-                "3-3": "Pierścień odporności na ogień",
-                "4-4": "Pierścień odporności na moc",
-                "5-5": "Pierścień odporności na błyskawice",
-                "6-6": "Pierścień odporności na nekrotyzm",
-                "7-7": "Pierścień odporności na truciznę",
-                "8-8": "Pierścień odporności psychicznej",
-                "9-9": "Pierścień odporności na światłość",
-                "10-10": "Pierścień odporności na dźwięk"
-            }
-        },
-        "Robe of Useful Items": {
-            "name": "Szata przydatnych rzeczy",
-            "results": {
-                "1-8": "Torba zawierająca 100 sz",
-                "9-15": "Srebrna kaseta (30 cm długości, 15 cm szerokości i głębokości) o wartości 500 sz",
-                "16-22": "Żelazne drzwi (do 3 metrów szerokości i 3 metrów wysokości, z ryglem po jednej wybranej stronie), które można umieścić w otworze, który możesz dosięgnąć; drzwi dopasowują się rozmiarem i kształtem do otworu, po czym funkcjonują jak najzwyklejsze drzwi.",
-                "23-30": "10 klejnotów o wartości 100 sz każdy",
-                "31-44": "Drewniana drabina (7 metrów długości)",
-                "45-51": "Koń jeździecki z jukami przy siodle",
-                "52-59": "Dół (sześcian o boku 3 metry), który możesz umieścić na ziemi w promieniu 3 metrów od siebie",
-                "60-68": "4 mikstury leczenia",
-                "69-75": "Łódź wiosłowa (3,5 metra długości)",
-                "76-83": "Zwój zawierający jeden czar kręgu od 1. do 3.",
-                "84-90": "2 mastify",
-                "91-96": "Okno (60 cm na 120 cm, do 60 cm głębokości), które można umieścić na pionowej powierzchni, ktorej możesz dosięgnąć",
-                "97-100": "Przenośny taran"
-            }
-        },
-        "Rust Bag of Tricks": {
-            "name": "Ruda torba sztuczek",
-            "results": {
-                "1-1": "Szczur",
-                "2-2": "Sowa",
-                "3-3": "Mastif",
-                "4-4": "Koza",
-                "5-5": "Olbrzymi kozioł",
-                "6-6": "Olbrzymi dzik",
-                "7-7": "Lew",
-                "8-8": "Niedźwiedź brunatny"
-            }
-        },
-        "Sentient Magic Items Alignment": {
-            "name": "Charakter świadomych magicznych przedmiotów",
-            "results": {
-                "1-15": "Praworządny dobry",
-                "16-35": "Neutralny dobry",
-                "36-50": "Chaotyczny dobry",
-                "51-63": "Praworządny neutralny",
-                "64-73": "Neutralny",
-                "74-85": "Chaotyczny neutralny",
-                "86-89": "Praworządny zły",
-                "90-96": "Neutralny zły",
-                "97-100": "Chaotyczny zły"
-            }
-        },
-        "Sentient Magic Items Communication": {
-            "name": "Komunikacja świadomych magicznych przedmiotów",
-            "results": {
-                "1-60": "Przedmiot porozumiewa się, przekazując emocje istocie, która go nosi lub trzyma.",
-                "61-90": "Przedmiot rozumie co najmniej jeden język i potrafi w nim mówić i czytać.",
-                "91-100": "Przedmiot rozumie co najmniej jeden język i potrafi w nim mówić i czytać. Ponadto potrafi porozumiewać się telepatycznie z każdym, kto go nosi lub trzyma."
-            }
-        },
-        "Sentient Magic Items Purpose": {
-            "name": "Cel świadomych magicznych przedmiotów",
-            "results": {
-                "1-1": "Charakterny: Przedmiot pragnie pokonywać lub niszczyć tych, którzy mają diametralnie przeciwny charakter. (Taki przedmiot nigdy nie jest neutralny).",
-                "2-2": "Zguba: Przedmiot pragnie pokonywać lub niszczyć istoty określonego rodzaju, takie jak czarty, zmiennokształtnych, trolle albo magów.",
-                "3-3": "Obrońca: Przedmiot pragnie bronić określonej rasy albo grupy istot, na przykład elfów albo druidów.",
-                "4-4": "Krzyżowiec: Przedmiot pragnie pokonywać, osłabiać lub niszczyć sługi określonego bóstwa.",
-                "5-5": "Templariusz: Przedmiot pragnie bronić wyznawców i interesów określonego bóstwa.",
-                "6-6": "Niszczyciel: Przedmiot pragnie zniszczenia i prowokuje swojego właściciela do walki bez powodu.",
-                "7-7": "Poszukiwacz chwały: Przedmiot pragnie być uznawany za najwspanialszy magiczny przedmiot na świecie, więc zabiega o sławę lub niesławę swojego właściciela.",
-                "8-8": "Poszukiwacz wiedzy: Przedmiot pragnie wiedzy, rozwiązania jakiejś tajemnicy, poznania sekretu albo rozwikłania zagadkowego proroctwa.",
-                "9-9": "Poszukiwacz przeznaczenia: Przedmiot jest przekonany, że on i jego właściciel odegrają kluczowe role w przyszłych wydarzeniach.",
-                "10-10": "Poszukiwacz twórcy: Przedmiot poszukuje swojego stwórcy i chce zrozumieć przyczyny swego powstania."
-            }
-        },
-        "Sentient Magic Items Senses": {
-            "name": "Zmysły świadomych magicznych przedmiotów",
-            "results": {
-                "1-1": "Słuch i zwykły wzrok na odległość do 9 metrów.",
-                "2-2": "Słuch i zwykły wzrok na odległość do 18 metrów.",
-                "3-3": "Słuch i zwykły wzrok na odległość do 36 metrów.",
-                "4-4": "Słuch i widzenie w ciemności na odległość do 36 metrów."
-            }
-        },
-        "Short-Term Madness": {
-            "name": "Krótkotrwałe szaleństwo",
-            "description": "<p>Postać zostaje dotknięta krótkotrwałym obłędem na [[/r 1d10]] minut.</p>",
-            "results": {
-                "1-20": "Postać zamyka się w sobie i zostaje sparaliżowana. Efekt kończy się, jeśli postać otrzyma obrażenia.",
-                "21-30": "Postać zostaje obezwładniona i na czas szaleństwa krzyczy, śmieje się lub płacze.",
-                "31-40": "Postać staje się przerażona i musi wykorzystać swoją akcję i ruch w każdej rundzie, aby uciec od źródła strachu.",
-                "41-50": "Postać zaczyna bełkotać i nie jest w stanie normalnie mówić ani rzucać zaklęć.",
-                "51-60": "Postać musi wykorzystać swoją akcję w każdej rundzie, aby zaatakować najbliższe stworzenie.",
-                "61-70": "Postać doświadcza realistycznych halucynacji i ma utrudnienie w testach cech.",
-                "71-75": "Postać robi wszystko, co się jej każe i nie jest wprost dla niej szkodliwe.",
-                "76-80": "Postać doświadcza przemożnej potrzeby zjedzenia czegoś dziwnego, takiego jak ziemia, śluz lub podroby.",
-                "81-90": "Postać jest ogłuszona.",
-                "91-100": "Postać traci przytomność."
-            }
-        },
-        "Sphere of Annihilation": {
-            "name": "Kula anihilacji",
-            "results": {
-                "1-50": "Kula ulega zniszczeniu.",
-                "51-85": "Kula wlatuje do portalu albo przestrzeni pozawymiarowej.",
-                "86-100": "Pęknięcie w przestrzeni powoduje przeniesienie wszystkich istot i obiektów znajdujących się w obrębie 54 metrów od kuli i jej samej do przypadkowej sfery egzystencji."
-            }
-        },
-        "Tan Bag of Tricks": {
-            "name": "Płowa torba sztuczek",
-            "results": {
-                "1-1": "Szakal",
-                "2-2": "Małpa człekokształtna",
-                "3-3": "Pawian",
-                "4-4": "Toporodziób",
-                "5-5": "Niedźwiedź czarny",
-                "6-6": "Olbrzymia łasica",
-                "7-7": "Olbrzymia hiena",
-                "8-8": "Tygrys"
-            }
-        },
-        "Wand of Wonder": {
-            "name": "Różdżka cudów",
-            "results": {
-                "1-5": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{spowolnienie}.",
-                "6-10": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{blask faerie}.",
-                "11-15": "Jesteś &Reference[Stunned] do początku swojej następnej tury, wierząc, że właśnie stało się coś niesamowitego.",
-                "16-20": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{poryw wiatru}.",
-                "21-25": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{wykrycie myśli} na wybrany cel. Jeśli nie obrałeś za cel stworzenia, otrzymujesz [[/damage 1k6 psychic]] obrażeń.",
-                "26-30": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{smierdzącą chmurę}.",
-                "31-33": "Ulewny deszcz pada na przestrzeni o promieniu 18 metrów od celu zaklęcia. Obszar ten ma ograniczoną widoczność. Deszcz pada do rozpoczęcia twojej następnej tury.",
-                "34-36": "Zwierzę pojawia się w niezajętej przestrzeni najbliżej celu. Zwierzę nie jest pod twoją kontrolą i zachowuje się naturalnie. Rzuć [[/r 1k100]], aby określić, które zwierzę się pojawi. Przy 01-25 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.SBCe2BSa6opTS5M4]; przy 26-50 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.jLPhaBnMtAbB5dp1]; a przy 51-100 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox].",
-                "37-46": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{piorun}.",
-                "47-49": "Chmara 600 przerośniętych motyli wypełnia obszar o promieniu 9 metrów od celu zaklęcia. Obszar staje się pozbawiony widoczności. Motyle utrzymują się przez 10 minut, po czym znikają.",
-                "50-53": "Powiększasz cel tak, jakbyś rzucił @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{powiększenie/pomniejszenie}. Jeśli cel nie może zostać objęty tym zaklęciem lub jeśli nie obrałeś za cel stworzenia, sam stajesz się celem.",
-                "54-58": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{ciemność}.",
-                "59-62": "Trawa rośnie na ziemi w promieniu 18 metrów od celu. Jeśli ziemię już pokrywa trawa, ta rośnie dziesięciokrotnie i pozostaje wielka przez 1 minutę.",
-                "63-65": "Obiekt wybrany przez MP znika w Sferze Eterycznej. Obiekt nie może być noszony ani trzymany, musi znajdować się w zasięgu nie większym niż 36 metrów od celu, a żaden z jego wymiarów nie może przekraczać 3 metrów.",
-                "66-69": "Kurczysz się tak, jakbyś rzucił na siebie @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{powiększenie/pomniejszenie}.",
-                "70-79": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{kulę ognia}.",
-                "80-84": "Rzucasz na siebie @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{niewidzialność}.",
-                "85-87": "Z celu wyrastają liście. Jeśli wybierzesz punkt w przestrzeni jako cel, liście wyrastają ze stworzenia znajdującego się najbliżej tego punktu. Liście brązowieją i opadają po 24 godzinach, chyba że zostaną zerwane.",
-                "88-90": "Strumień [[/r 1d4 * 10]]{1k4 × 10} klejnotów, każdy o wartości 1 sz, wystrzeliwuje z końcówki różdżki w linii prostej o długości 9 metrów i szerokości 1,5 metra. Każdy klejnot zadaje 1 punkt obrażeń obuchowych, a całkowite obrażenia klejnotów są dzielone równo między wszystkie stworzenia w linii.",
-                "91-95": "Wybuch kolorowego migoczącego światła rozciąga się od ciebie w promieniu 9 metrów. Ty oraz każda istota, która posiada wzrok znajdująca się na obszarze działania światła, musi wykonać rzut obronny na Kondycję ST 15 lub zostać &Reference[Blinded] na 1 minutę. Istota może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt na sobie w przypadku sukcesu.",
-                "96-97": "Skóra celu zmienia kolor na jasnoniebieski na [[/r 1d10]] dni. Jeśli wybierzesz punkt w przestrzeni jako cel, efekt obejmuje stworzenie znajdujące się najbliżej tego punktu.",
-                "98-100": "Jeśli obrałeś za cel stworzenie, musi ono wykonać rzut obronny [[/save con 15]]. Jeśli nie obrałeś za cel stworzenia, sam stajesz się celem i musisz wykonać rzut obronny. Jeśli rzut obronny nie powiedzie się o 5 lub więcej od ST, cel staje się natychmiast &Reference[Petrified]. Przy każdym innym nieudanym rzucie cel staje się &Reference[Restrained] i zaczyna zamieniać się w kamień. Podczas unieruchomienia w ten sposób cel musi powtórzyć rzut obronny na koniec swojej następnej tury, stając się skamieniały w przypadku porażki lub kończąc efekt w przypadku sukcesu. Skamienienie trwa, dopóki cel nie zostanie uwolniony przez zaklęcie @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{większe przywrócenie} lub podobny efekt magiczny."
-            }
-        }
+  "label": "Tables (SRD)",
+  "entries": {
+    "4ryVFV5LPHPzRKxl": {
+      "name": "Worek fasolek",
+      "results": {
+        "1-1": "[[/r 5d4]] toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a [[/save constitution dc=15]] saving throw or take [[/damage 5d6 poison]] damage and become &amp;Reference[poisoned] for 1 hour. On an even roll, the eater gains [[/healing 5d6 temp]]{5d6 temporary hit points} for 1 hour.",
+        "2-10": "A geyser erupts and spouts water, beer, berry juice, tea, vinegar, wine, or oil (GM's choice) 30 feet into the air for [[/r 1d12]] rounds.",
+        "11-20": "A treant sprouts. There's a 50 percent chance that the treant is chaotic evil and attacks.",
+        "21-30": "An animate, immobile stone statue in your likeness rises. It makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours.",
+        "31-40": "A campfire with blue flames springs forth and burns for 24 hours (or until it is extinguished).",
+        "41-50": "[[/r 1d6 + 6]] @UUID[Compendium.dnd5e.monsters.Actor.TaK6nQMGqZ0y8gt7]{shriekers} sprout",
+        "51-60": "[[/r 1d4 + 8]] bright pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the GM's choice. The monster remains for 1 minute, then disappears in a puff of bright pink smoke.",
+        "61-70": "A hungry @UUID[Compendium.dnd5e.monsters.Actor.1ES45ODWg3pCrkzv]{bulette} burrows up and attacks.",
+        "71-80": "A fruit tree grows. It has [[/r 1d10 + 20]] fruits, [[/r 1d8]] of which act as randomly determined magic potions, while one acts as an ingested poison of the GM's choice. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.",
+        "81-90": "A nest of [[/r 1d4 + 3]] eggs springs up. Any creature that eats an egg must make a [[/save constitution dc=20]] saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes [[/damage 10d6 force]] damage from an internal magical explosion.",
+        "91-99": "A pyramid with a 60-foot-square base bursts upward. Inside is a sarcophagus containing a @UUID[Compendium.dnd5e.monsters.Actor.UFW8M3JHzHkxUEGM]{mummy lord}. The pyramid is treated as the mummy lord's lair, and its sarcophagus contains treasure of the GM's choice.",
+        "100-100": "A giant beanstalk sprouts, growing to a height of the GM's choice. The top leads where the GM chooses, such as to a great view, a cloud giant's castle, or a different plane of existence."
+      }
+    },
+    "5PTePCTxrk2fIrll": {
+      "name": "Płowa torba sztuczek"
+    },
+    "BHckoLKDwoL9d5p3": {
+      "name": "Komunikacja świadomych magicznych przedmiotów",
+      "results": {
+        "1-60": "The item communicates by transmitting emotion to the creature carrying or wielding it.",
+        "61-90": "The item can speak, read, and understand one or more languages.",
+        "91-100": "The item can speak, read, and understand one or more languages. In addition, the item can communicate telepathically with any character that carries or wields it."
+      }
+    },
+    "C1N8LjO7gOjEWgh4": {
+      "name": "Świeca inwokacji",
+      "results": {
+        "1-2": "Chaotic evil",
+        "3-4": "Chaotic neutral",
+        "5-7": "Chaotic good",
+        "8-9": "Neutral evil",
+        "10-11": "Neutral",
+        "12-13": "Neutral good",
+        "14-15": "Lawful evil",
+        "16-17": "Lawful neutral",
+        "18-20": "Lawful good"
+      }
+    },
+    "COIHGOnoJnmXduad": {
+      "name": "Słabości (Akolita)",
+      "results": {
+        "1-1": "I judge others harshly, and myself even more severely.",
+        "2-2": "I put too much trust in those who wield power within my temple’s hierarchy.",
+        "3-3": "My piety sometimes leads me to blindly trust those that profess faith in my god.",
+        "4-4": "I am inflexible in my thinking.",
+        "5-5": "I am suspicious of strangers and expect the worst of them.",
+        "6-6": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+      }
+    },
+    "CTGxcd51szehUGBn": {
+      "name": "Szata przydatnych rzeczy",
+      "results": {
+        "1-8": "Bag of 100 gp",
+        "9-15": "Silver coffer (1 foot long, 6 inches wide and deep) worth 500 gp",
+        "16-22": "Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself",
+        "23-30": "10 gems worth 100 gp each",
+        "31-44": "Wooden ladder (24 feet long)",
+        "45-51": "A riding horse with saddle bags",
+        "52-59": "Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you",
+        "60-68": "4 potions of healing",
+        "69-75": "Rowboat (12 feet long)",
+        "76-83": "Spell scroll containing one spell of 1st to 3rd level",
+        "84-90": "2 mastiffs",
+        "91-96": "Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach",
+        "97-100": "Portable ram"
+      }
+    },
+    "DZhd8JkjqlpCP8EB": {
+      "name": "Więzi (Akolita)",
+      "results": {
+        "1-1": "I would die to recover an ancient relic of my faith that was lost long ago.",
+        "2-2": "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
+        "3-3": "I owe my life to the priest who took me in when my parents died.",
+        "4-4": "Everything I do is for the common people.",
+        "5-5": "I will do anything to protect the temple where I served.",
+        "6-6": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+      }
+    },
+    "HDzErjwy3TseLOZX": {
+      "name": "Cechy osobowości (Akolita)",
+      "results": {
+        "1-1": "I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example.",
+        "2-2": "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.",
+        "3-3": "I see omens in every event and action. The gods try to speak to us, we just need to listen.",
+        "4-4": "Nothing can shake my optimistic attitude.",
+        "5-5": "I quote (or misquote) sacred texts and proverbs in almost every situation.",
+        "6-6": "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.",
+        "7-7": "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.",
+        "8-8": "I’ve spent so long in the temple that I have little practical experience dealing with people in the outside world."
+      }
+    },
+    "JDtZNDaAirupdm2O": {
+      "name": "Żelazna manierka",
+      "results": {
+        "1-50": "Empty",
+        "51-54": "Demon (type 1)",
+        "55-58": "Demon (type 2)",
+        "59-62": "Demon (type 3)",
+        "63-64": "Demon (type 4)",
+        "65-65": "Demon (type 5)",
+        "66-66": "Demon (type 6)",
+        "68-69": "Devil (greater)",
+        "70-73": "Devil (lesser)",
+        "78-83": "Elemental (any)"
+      }
+    },
+    "JzLOE4IxcmxjLLuz": {
+      "name": "Mikstura odporności"
+    },
+    "LHEts1oDaDwcehuj": {
+      "name": "Zamęt",
+      "results": {
+        "1-1": "The creature uses all its movement to move in a random direction. To determine the direction, roll a [[/r d8]] and assign a direction to each die face. The creature doesn't take an action this turn.",
+        "2-6": "The creature doesn't move or take actions this turn.",
+        "7-8": "The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.",
+        "9-10": "The creature can act and move normally."
+      }
+    },
+    "MAL5r8ZKx7BVsE9R": {
+      "name": "Szaleństwo bez końca",
+      "description": "Postać jest dotknięta niekończącym się szaleństwem.",
+      "results": {
+        "1-15": "\"Being drunk keeps me sane.\"",
+        "16-25": "\"I keep whatever I find.\"",
+        "26-30": "\"I try to become more like someone else I know—adopting his or her style of dress, mannerisms, and name.\"",
+        "31-35": "\"I must bend the truth, exaggerate, or outright lie to be interesting to other people.\"",
+        "36-45": "\"Achieving my goal is the only thing of interest to me, and I’ll ignore everything else to pursue it.\"",
+        "46-50": "\"I find it hard to care about anything that goes on around me.\"",
+        "51-55": "\"I don't like the way people judge me all the time.\"",
+        "56-70": "\"I am the smartest, wisest, strongest, fastest, and most beautiful person I know.\"",
+        "71-80": "\"I am convinced that powerful enemies are hunting me, and their agents are everywhere I go. I am sure they’re watching me all the time.\"",
+        "81-85": "\"There's only one person I can trust. And only I can see this special friend.\"",
+        "86-95": "\"I can't take anything seriously. The more serious the situation, the funnier I find it.\"",
+        "96-100": "\"I've discovered that I really like killing people.\""
+      }
+    },
+    "MdTxWyYVhTIgtNcG": {
+      "name": "Pierścień odporności"
+    },
+    "NdjHJMSSVWw5fHsL": {
+      "name": "Charakter świadomych magicznych przedmiotów",
+      "results": {
+        "1-15": "Lawful good",
+        "16-35": "Neutral good",
+        "36-50": "Chaotic good",
+        "51-63": "Lawful neutral",
+        "64-73": "Neutral",
+        "74-85": "Chaotic neutral",
+        "86-89": "Lawful evil",
+        "90-96": "Neutral evil",
+        "97-100": "Chaotic evil"
+      }
+    },
+    "OEdr086W61t1DRJo": {
+      "name": "Pierzasty amulet",
+      "description": "Ten malutki przedmiot wygląda jak piórko. Istnieją różne rodzaje pierzastych amuletów, a każdy z nich wywołuje inny efekt jednorazowy."
+    },
+    "PLHwT9dC6fCZqkeo": {
+      "name": "Ruda torba sztuczek"
+    },
+    "RwerG95cIk2uRpsQ": {
+      "name": "Róg z Valhalli"
+    },
+    "VPGP621PW7k03YfB": {
+      "name": "Szara torba sztuczek"
+    },
+    "VRqG3F72ebgNHyVR": {
+      "name": "Pancerz odporności",
+      "results": {
+        "1-1": "Od kwasu",
+        "2-2": "Od zimna",
+        "3-3": "Od ognia",
+        "4-4": "Od mocy",
+        "5-5": "Od elektryczności",
+        "6-6": "Nekrotyczne",
+        "7-7": "Od trucizny",
+        "8-8": "Psychiczne",
+        "9-9": "Od światłości",
+        "10-10": "Od dźwięku"
+      }
+    },
+    "W9xqQZy0Ad0CwkN2": {
+      "name": "Ideały (Akolita)",
+      "results": {
+        "1-1": "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)",
+        "2-2": "Charity. I always try to help those in need, no matter what the personal cost. (Good)",
+        "3-3": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
+        "4-4": "Power. I hope to one day rise to the top of my faith’s religious hierarchy. (Lawful)",
+        "5-5": "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)",
+        "6-6": "Aspiration. I seek to prove myself worthy of my god’s favor by matching my actions against his or her teachings. (Any)"
+      }
+    },
+    "X03rbSjVcNNJNqa8": {
+      "name": "Różdżka cudów",
+      "results": {
+        "1-5": "You cast @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{Slow}.",
+        "6-10": "You cast @UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{Faerie Fire}.",
+        "11-15": "You are &amp;Reference[Stunned] until the start of your next turn, believing something awesome just happened.",
+        "16-20": "You cast @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{Gust of Wind}.",
+        "21-25": "You cast @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts} on the target you chose. If you didn't target a creature, you instead take [[/damage 1d6 psychic]] damage.",
+        "26-30": "You cast @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Stinking Cloud}.",
+        "31-33": "Heavy rain falls in a 60-foot radius centered on the target. The area becomes lightly obscured. The rain falls until the start of your next turn.",
+        "34-36": "An animal appears in the unoccupied space nearest the target. The animal isn't under your control and acts as it normally would. Roll a [[/r 1d100]] to determine which animal appears. On a 01–25, a @UUID[Compendium.dnd5e.monsters.Actor.SBCe2BSa6opTS5M4]{Rhinoceros} appears; on a 26–50, an @UUID[Compendium.dnd5e.monsters.Actor.jLPhaBnMtAbB5dp1]{Elephant} appears; and on a 51–100, a @UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox]{Rat} appears.",
+        "37-46": "You cast @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Lightning Bolt}.",
+        "47-49": "A cloud of 600 oversized butterflies fills a 30‐foot radius centered on the target. The area becomes heavily obscured. The butterflies remain for 10 minutes.",
+        "50-53": "You enlarge the target as if you had cast @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{Enlarge/Reduce}. If the target can't be affected by that spell, or if you didn't target a creature, you become the target.",
+        "54-58": "You cast @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Darkness}.",
+        "59-62": "Grass grows on the ground in a 60‐foot radius centered on the target. If grass is already there, it grows to ten times its normal size and remains overgrown for 1 minute.",
+        "63-65": "An object of the GM's choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the target, and no larger than 10 feet in any dimension.",
+        "66-69": "You shrink yourself as if you had cast @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{Enlarge/Reduce} on yourself.",
+        "70-79": "You cast @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball}.",
+        "80-84": "You cast @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{Invisibility} on yourself.",
+        "85-87": "Leaves grow from the target. If you chose a point in space as the target, leaves sprout from the creature nearest to that point. Unless they are picked off, the leaves turn brown and fall off after 24 hours.",
+        "88-90": "A stream of [[/r 1d4 * 10]]{1d4 × 10} gems, each worth 1 gp, shoots from the wand's tip in a line 30 feet long and 5 feet wide. Each gem deals 1 bludgeoning damage, and the total damage of the gems is divided equally among all creatures in the line.",
+        "91-95": "A burst of colorful shimmering light extends from you in a 30‐foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become &amp;Reference[Blinded] for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "96-97": "The target's skin turns bright blue for [[/r 1d10]] days. If you chose a point in space, the creature nearest to that point is affected.",
+        "98-100": "If you targeted a creature, it must make a [[/save con 15]] saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly &amp;Reference[Petrified]. On any other failed save, the target is &amp;Reference[Restrained] and begins to turn to stone. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming Petrified on a failure or ending the effect on a success. The petrification lasts until the target is freed by the @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Greater Restoration} spell or similar magic."
+      }
+    },
+    "XHTUTUXdyzcPbodw": {
+      "name": "Naszyjnik modlitewny",
+      "results": {
+        "1-6": "Bead of Blessing",
+        "7-12": "Bead of Curing",
+        "13-16": "Bead of Favor",
+        "17-18": "Bead of Smiting",
+        "19-19": "Bead of Summons",
+        "20-20": "Bead of Wind walking"
+      }
+    },
+    "Z2OG7jt9R8zofxnJ": {
+      "name": "Latający dywan"
+    },
+    "b250eqNa0k8lrE9b": {
+      "name": "Cel świadomych magicznych przedmiotów",
+      "results": {
+        "1-1": "Aligned: The item seeks to defeat or destroy those of a diametrically opposed alignment. (Such an item is never neutral.)",
+        "2-2": "Bane: The item seeks to defeat or destroy creatures of a particular kind, such as fiends, shapechangers, trolls, or wizards.",
+        "3-3": "Protector: The item seeks to defend a particular race or kind of creature, such as elves or druids.",
+        "4-4": "Crusader: The item seeks to defeat, weaken, or destroy the servants of a particular deity.",
+        "5-5": "Templar: The item seeks to defend the servants and interests of a particular deity.",
+        "6-6": "Destroyer: The item craves destruction and goads its user to fight arbitrarily.",
+        "7-7": "Glory Seeker: The item seeks renown as the greatest magic item in the world, by establishing its user as a famous or notorious figure.",
+        "8-8": "Lore Seeker: The item craves knowledge or is determined to solve a mystery, learn a secret, or unravel a cryptic prophecy.",
+        "9-9": "Destiny Seeker: The item is convinced that it and its wielder have key roles to play in future events.",
+        "10-10": "Creator Seeker: The item seeks its creator and wants to understand why it was created."
+      }
+    },
+    "eXu1QFMsFtTtoJBZ": {
+      "name": "Reinkarnacja",
+      "results": {
+        "1-4": "Drakon",
+        "5-13": "Dwarf, hill",
+        "14-21": "Dwarf, mountain",
+        "22-25": "Elf, dark",
+        "26-34": "Elf, high",
+        "35-42": "Elf, wood",
+        "43-46": "Gnome, forest",
+        "47-52": "Gnome, rock",
+        "53-56": "Half-elf",
+        "57-60": "Half-orc",
+        "61-68": "Halfling, lightfoot",
+        "69-76": "Halfling, stout",
+        "77-96": "Człowiek",
+        "97-100": "Diabelstwo"
+      }
+    },
+    "gfR9uCe42xBCCktd": {
+      "name": "Zmysły świadomych magicznych przedmiotów",
+      "results": {
+        "1-1": "Hearing and normal vision out to 30 feet.",
+        "2-2": "Hearing and normal vision out to 60 feet.",
+        "3-3": "Hearing and normal vision out to 120 feet.",
+        "4-4": "Hearing and darkvision out to 120 feet."
+      }
+    },
+    "hHR0Zw75o9PXYl4c": {
+      "name": "Kula anihilacji",
+      "results": {
+        "1-50": "The sphere is destroyed.",
+        "51-85": "The sphere moves through the portal or into the extradimensional space.",
+        "86-100": "A spatial rift sends each creature and object within 180 feet of the sphere, including the sphere, to a random plane of existence."
+      }
+    },
+    "htMPUPPABjI6fwck": {
+      "name": "Podręcznik budowy golema"
+    },
+    "kJB79nI9rju6VN8J": {
+      "name": "Długotrwałe szaleństwo",
+      "description": "<p>Postać zostaje dotknięta długotrwałym obłędem na [[/r 1d10*10]] godzin.</p>",
+      "results": {
+        "1-10": "The character feels compelled to repeat a specific activity over and over, such as washing hands, touching things, praying, or counting coins.",
+        "11-20": "The character experiences vivid hallucinations and has disadvantage on ability checks.",
+        "21-30": "The character suffers extreme paranoia. The character has disadvantage on Wisdom and Charisma checks.",
+        "31-40": "The character regards something (usually the source of madness) with intense revulsion, as if affected by the antipathy effect of the antipathy/sympathy spell.",
+        "41-45": "The character experiences a powerful delusion. Choose a potion. The character imagines that he or she is under its effects.",
+        "46-55": "The character becomes attached to a “lucky charm,” such as a person or an object, and has disadvantage on attack rolls, ability checks, and saving throws while more than 30 feet from it.",
+        "56-65": "The character is blinded (25%) or deafened (75%).",
+        "66-75": "The character experiences uncontrollable tremors or tics, which impose disadvantage on attack rolls, ability checks, and saving throws that involve Strength or Dexterity.",
+        "76-85": "The character suffers from partial amnesia. The character knows who he or she is and retains racial traits and class features, but doesn’t recognize other people or remember anything that happened before the madness took effect.",
+        "86-90": "Whenever the character takes damage, he or she must succeed on a DC 15 Wisdom saving throw or be affected as though he or she failed a saving throw against the confusion spell. The confusion effect lasts for 1 minute.",
+        "91-95": "The character loses the ability to speak.",
+        "96-100": "The character falls unconscious. No amount of jostling or damage can wake the character."
+      }
+    },
+    "yZMFNfocj5qyVuOC": {
+      "name": "Ifryt w butelce",
+      "results": {
+        "1-10": "The efreeti attacks you. After fighting for 5 rounds, the efreeti disappears, and the bottle loses its magic.",
+        "11-90": "The efreeti serves you for 1 hour, doing as you command. Then the efreeti returns to the bottle, and a new stopper contains it. The stopper can't be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the efreeti escapes and disappears, and the bottle loses its magic.",
+        "91-100": "The efreeti can cast the wish spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic."
+      }
+    },
+    "ypk2L9feVwTx0QVj": {
+      "name": "Szaleństwo krótkoterminowe",
+      "description": "<p>Postać zostaje dotknięta krótkotrwałym obłędem na [[/r 1d10]] minut.</p>",
+      "results": {
+        "1-20": "The character retreats into his or her mind and becomes paralyzed. The effect ends if the character takes any damage.",
+        "21-30": "The character becomes incapacitated and spends the duration screaming, laughing, or weeping.",
+        "31-40": "The character becomes frightened and must use his or her action and movement each round to flee from the source of the fear.",
+        "41-50": "The character begins babbling and is incapable of normal speech or spellcasting.",
+        "51-60": "The character must use his or her action each round to attack the nearest creature.",
+        "61-70": "The character experiences vivid hallucinations and has disadvantage on ability checks.",
+        "71-75": "The character does whatever anyone tells him or her to do that isn’t obviously self- destructive.",
+        "76-80": "The character experiences an overpowering urge to eat something strange such as dirt, slime, or offal.",
+        "81-90": "The character is stunned.",
+        "91-100": "The character falls unconscious."
+      }
     }
+  }
 }
