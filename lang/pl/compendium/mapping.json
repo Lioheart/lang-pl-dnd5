@@ -43,6 +43,7 @@
     "senses": {
       "path": "system.senses",
       "converter": "senses"
-    }
+    },
+    "materials": "system.materials.value"
   }
 }
