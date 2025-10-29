@@ -223,7 +223,7 @@
           }
         },
         "Longsword": {
-          "name": "Miecz długi",
+          "name": "Długi miecz",
           "description": "<p>Długie proste ostrze przeznaczone do cięcia wrogów. Długi miecz jest bardzo wszechstronną bronią, którą można również dzierżyć oburącz w celu zadawania bardziej dotkliwych ciosów.</p>"
         },
         "Hammer": {
@@ -635,7 +635,7 @@
           }
         },
         "Longsword": {
-          "name": "Miecz długi",
+          "name": "Długi miecz",
           "description": "<p>Długie proste ostrze przeznaczone do cięcia wrogów. Długi miecz jest bardzo wszechstronną bronią, którą można również dzierżyć oburącz w celu zadawania bardziej dotkliwych ciosów.</p>"
         },
         "Tinderbox": {
