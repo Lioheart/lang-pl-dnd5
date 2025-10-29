@@ -1,67 +1,67 @@
 {
   "label": "Wyposażenie",
   "folders": {
-    "Rings": "Pierścienie",
+    "Rings": "Rings",
     "Ammunition": "Amunicja",
-    "Simple Melee": "Prosta do walki wręcz",
-    "Light": "Światło",
-    "Other": "Inne",
-    "Scrolls": "Zwoje",
-    "Bags of Tricks": "Torby sztuczek",
-    "Belts of Giant Strength": "Pasy Siły Olbrzyma",
-    "Artisan": "Rzemieślnik",
-    "Spellcasting Focuses": "Magiczne fokusy",
-    "Poisons": "Trucizny",
-    "Elemental Gems": "Klejnoty żywiołów",
-    "Musical Instrument": "Muzyczny instrument",
-    "Gaming Set": "Zestaw do gry",
-    "Healing": "Leczenie",
-    "Medium": "Średni",
+    "Simple Melee": "Simple Melee",
+    "Light": "Lekki",
+    "Other": "Other",
+    "Scrolls": "Scrolls",
+    "Bags of Tricks": "Bags of Tricks",
+    "Belts of Giant Strength": "Belts of Giant Strength",
+    "Artisan": "Artisan",
+    "Spellcasting Focuses": "Spellcasting Focuses",
+    "Poisons": "Poisons",
+    "Elemental Gems": "Elemental Gems",
+    "Musical Instrument": "Musical Instrument",
+    "Gaming Set": "Gaming Set",
+    "Healing": "Healing",
+    "Medium": "Medium",
     "Heavy": "Ciężki",
     "Magical": "Magiczny",
-    "Potions": "Mikstury",
-    "Arcane Focus": "Fokus magii wtajemniczeń",
-    "Potions of Giant Strength": "Mikstury olbrzymiej siły",
-    "Simple Ranged": "Proste zasięgowe",
-    "Mysterious Deck Cards": "Tajemnicze talie kart",
-    "Martial Melee": "Żołnierska do walki wręcz",
-    "Druidic Focus": "Druidyczny fetysz",
-    "Figurines": "Figurki",
-    "Feather Tokens": "Tokeny z piór",
-    "Holy Symbol": "Święty symbol",
-    "Martial Ranged": "Żołnierskie zasięgowe",
-    "Weapons": "Bronie",
-    "Wands": "Różdzki",
-    "Horns of Valhalla": "Rogi Valhalli",
-    "Traps": "Pułapki",
-    "Rods": "Berła",
-    "Staff": "Kostur",
-    "Armor": "Pancerz",
-    "Ioun Stones": "Kamienie Ioun",
-    "Adventuring Gear": "Wyposażenie podróżne",
-    "Tools": "Narzędzia",
-    "Equipment": "Wyposażenie",
-    "Consumables": "Materiały eksploatacyjne",
-    "Containers": "Pojemniki",
-    "Supplemental": "Dodatkowe"
+    "Potions": "Potions",
+    "Arcane Focus": "Arcane Focus",
+    "Potions of Giant Strength": "Potions of Giant Strength",
+    "Simple Ranged": "Simple Ranged",
+    "Mysterious Deck Cards": "Mysterious Deck Cards",
+    "Martial Melee": "Martial Melee",
+    "Druidic Focus": "Druidic Focus",
+    "Figurines": "Figurines",
+    "Feather Tokens": "Feather Tokens",
+    "Holy Symbol": "Holy Symbol",
+    "Martial Ranged": "Martial Ranged",
+    "Weapons": "Weapons",
+    "Wands": "Wands",
+    "Horns of Valhalla": "Horns of Valhalla",
+    "Traps": "Traps",
+    "Rods": "Rods",
+    "Staff": "Staff",
+    "Armor": "Armor",
+    "Ioun Stones": "Ioun Stones",
+    "Adventuring Gear": "Adventuring Gear",
+    "Tools": "Tools",
+    "Equipment": "Equipment",
+    "Consumables": "Consumables",
+    "Containers": "Containers",
+    "Supplemental": "Supplemental"
   },
   "entries": {
     "1NwTdI5LHEH5WThq": {
-      "name": "Koc",
+      "name": "Blanket",
       "description": "<p>While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see @UUID[Compendium.dnd5e.content24.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK]{Gameplay Toolbox}).</p>"
     },
     "2nlARB78sJo8Z2W6": {
-      "name": "Woda (Pinta)",
+      "name": "Water (Pint)",
       "description": "<p>If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
     "367bsHMaHI1II4k9": {
-      "name": "Zestaw do rozpalania ognia",
-      "description": "<p>Zestaw do rozpalania ognia to mały pojemnik zawierający krzesiwo, stal do krzesania iskier oraz hubkę (zwykle suchą tkaninę nasączoną lekkim olejem) używaną do rozpalania ognia. Użycie go do zapalenia świecy, lampy, latarni lub pochodni — lub czegokolwiek innego z odkrytym paliwem — zajmuje Akcję Dodatkową. Rozpalenie innego rodzaju ognia zajmuje 1 minutę.</p>",
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -69,64 +69,64 @@
       }
     },
     "5KMKEV07I25SVth0": {
-      "name": "Lina",
+      "name": "Rope",
       "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
       "activities": {
         "Tie Knot": {
-          "name": "Zawiąż węzeł"
+          "name": "Tie Knot"
         },
         "Burst Rope": {
-          "name": "Przerwij linę"
+          "name": "Burst Rope"
         },
         "Escape Check": {
-          "name": "Test ucieczki"
+          "name": "Escape Check"
         }
       }
     },
     "5tEPJK0TLcjPvPNF": {
-      "name": "Bukłak",
+      "name": "Waterskin",
       "description": "<p>A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>"
     },
     "67ScUFYRuMU0J2Wt": {
-      "name": "Woda (Pinta)",
+      "name": "Water (Pint)",
       "description": "<p>If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
     "6SKwUOHlYMst7M2z": {
-      "name": "Racje żywnościowe",
-      "description": "<p>Racje żywnościowe składają się z jedzenia gotowego do podróży, w tym suszonego mięsa, suszonych owoców, sucharów i orzechów. Zobacz &amp;Reference[Malnutrition] w glosariuszu zasad, aby poznać ryzyko niejedzenia.</p>"
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
     },
     "8dJcpxveaFEzjK5C": {
-      "name": "Olej",
+      "name": "Oil",
       "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         },
         "Douse Space": {
-          "name": "Zgaś przestrzeń"
+          "name": "Douse Space"
         }
       }
     },
     "ABjsMdpDnWlkjbMq": {
-      "name": "Śpiwór",
+      "name": "Bedroll",
       "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see @UUID[Compendium.dnd5e.content24.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK]{Gameplay Toolbox}).</p>"
     },
     "D0567EygDF0Akvux": {
-      "name": "Pergamin",
-      "description": "<p>Jedna karta pergaminu może pomieścić około 250 słów pisanych odręcznie.</p>"
+      "name": "Parchment",
+      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>"
     },
     "DKYzehYrMUKiFDxt": {
-      "name": "Latarnia zamykana",
-      "description": "<p>Latarnia zamykana spala Olej jako paliwo, rzucając Jasne światło w promieniu 30 stóp i Słabe światło na dodatkowe 30 stóp. Zapalona, pali się przez 6 godzin na na jednym flakonie (1 pinta)  Oleju. Akcją dodatkową możesz opuścić kaptur, zmniejszając światło do Przyciemnionego światła w promieniu 5 stóp, lub podnieść go ponownie.</p>"
+      "name": "Hooded Lantern",
+      "description": "<p>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p>"
     },
     "EGuDt2xpscYtalmV": {
-      "name": "Zestaw do rozpalania ognia",
-      "description": "<p>Zestaw do rozpalania ognia to mały pojemnik zawierający krzesiwo, stal do krzesania iskier oraz hubkę (zwykle suchą tkaninę nasączoną lekkim olejem) używaną do rozpalania ognia. Użycie go do zapalenia świecy, lampy, latarni lub pochodni — lub czegokolwiek innego z odkrytym paliwem — zajmuje Akcję Dodatkową. Rozpalenie innego rodzaju ognia zajmuje 1 minutę.</p>",
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -134,7 +134,7 @@
       }
     },
     "Ekz3r0UKJ261oBJj": {
-      "name": "Lampa",
+      "name": "Lamp",
       "description": "<p>A Lamp burns @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
       "activities": {
         "Light": {
@@ -143,40 +143,40 @@
       }
     },
     "GDF2kmAUO8B5UEEJ": {
-      "name": "Dzwonek",
-      "description": "<p> Gdy rozbrzmi w ramach akcji \"Użycie obiektu\", wydaje dźwięk słyszalny w odległości do 60 stóp.</p>"
+      "name": "Bell",
+      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>"
     },
     "I6wPnS0Z1qcpXjdL": {
-      "name": "Pergamin",
-      "description": "<p>Jedna karta pergaminu może pomieścić około 250 słów pisanych odręcznie.</p>"
+      "name": "Parchment",
+      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>"
     },
     "It6m0vGGZwCf9E7r": {
-      "name": "Woda (Pinta)",
+      "name": "Water (Pint)",
       "description": "<p>If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
     "JpE7eqjwXw95Sai5": {
-      "name": "Olej",
+      "name": "Oil",
       "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         },
         "Douse Space": {
-          "name": "Zgaś przestrzeń"
+          "name": "Douse Space"
         }
       }
     },
     "KH8g5hD7Q6ZX1YqV": {
-      "name": "Śpiwór",
+      "name": "Bedroll",
       "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see @UUID[Compendium.dnd5e.content24.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK]{Gameplay Toolbox}).</p>"
     },
     "KUlBAAjJ9KmOCSsC": {
-      "name": "Lampa",
+      "name": "Lamp",
       "description": "<p>A Lamp burns @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
       "activities": {
         "Light": {
@@ -185,69 +185,69 @@
       }
     },
     "KZUoiZrigDbovEu7": {
-      "name": "Latarnia kierunkowa",
-      "description": "<p>Latarnia kierunkowa rzuca Jasne światło w stożku o promieniu 60 stóp i Słabe światło w promieniu kolejnych 60 stóp. Po zapaleniu pali się przez 6 godzin na jednej kolbie (1 pinta) oleju.</p>"
+      "name": "Bullseye Lantern",
+      "description": "<p>A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</p>"
     },
     "KbVt56CK4ud3FUk3": {
-      "name": "Kulki metalowe",
-      "description": "<p>Akcją Użycia Obiektu wysypujesz kulki metalowe z ich sakiewki. Rozsypują się, pokrywając płaski obszar o wymiarach 10 na 10 stóp w odległości do 10 stóp od ciebie. Istota, która wejdzie w ten obszar po raz pierwszy w danej turze, musi wykonać rzut obronny na Zręczność (ST 10) lub otrzymuje stan &amp;Reference[Prone]. Odzyskanie kulek metalowych zajmuje 10 minut.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Czynność <strong>Odzyskanie kulek metalowych</strong> zapewnia kolejne użycie tego przedmiotu.</p></section>",
+      "name": "Ball Bearings",
+      "description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &amp;Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>",
       "activities": {
         "Spill Ball Bearings": {
-          "name": "Rozsyp kulki metalowe"
+          "name": "Spill Ball Bearings"
         },
         "Recover Ball Bearings": {
-          "name": "Zbierz łożyska kulkowe"
+          "name": "Recover Ball Bearings"
         }
       },
       "effects": {
         "Tripped": {
-          "name": "Potknięcie"
+          "name": "Tripped"
         }
       }
     },
     "LfDewuKszszreg6i": {
-      "name": "Lina",
+      "name": "Rope",
       "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
       "activities": {
         "Tie Knot": {
-          "name": "Zawiąż węzeł"
+          "name": "Tie Knot"
         },
         "Burst Rope": {
-          "name": "Przerwij linę"
+          "name": "Burst Rope"
         },
         "Escape Check": {
-          "name": "Test ucieczki"
+          "name": "Escape Check"
         }
       }
     },
     "LuLBFWwxjbNKU9FF": {
-      "name": "Bukłak",
+      "name": "Waterskin",
       "description": "<p>A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>"
     },
     "NmDigoAOjCENDrea": {
-      "name": "Dzwonek",
-      "description": "<p> Gdy rozbrzmi w ramach akcji \"Użycie obiektu\", wydaje dźwięk słyszalny w odległości do 60 stóp.</p>"
+      "name": "Bell",
+      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>"
     },
     "PKHfz87DirOHUBHn": {
-      "name": "Pochodnia",
-      "description": "<p>Pochodnia pali się przez 1 godzinę, emitując Jasne światło w promieniu 20 stóp i Słabe światło na dodatkowe 20 stóp. Wykonując akcję Atak, możesz zaatakować pochodnią, używając jej jako prostej broni do walki wręcz. Przy trafieniu cel otrzymuje 1 obrażenie od ognia.</p>"
+      "name": "Torch",
+      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>"
     },
     "Qgekp4euuB5S9tpe": {
-      "name": "Woda (Pinta)",
+      "name": "Water (Pint)",
       "description": "<p>If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
     "QjcMSfmrMwjPoWKn": {
-      "name": "Łom",
+      "name": "Crowbar",
       "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied.</p>"
     },
     "RqrWyXa9XkriaxTP": {
-      "name": "Zestaw do rozpalania ognia",
-      "description": "<p>Zestaw do rozpalania ognia to mały pojemnik zawierający krzesiwo, stal do krzesania iskier oraz hubkę (zwykle suchą tkaninę nasączoną lekkim olejem) używaną do rozpalania ognia. Użycie go do zapalenia świecy, lampy, latarni lub pochodni — lub czegokolwiek innego z odkrytym paliwem — zajmuje Akcję Dodatkową. Rozpalenie innego rodzaju ognia zajmuje 1 minutę.</p>",
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -255,11 +255,11 @@
       }
     },
     "SKDkrz7KSUIfOnHE": {
-      "name": "Torba na mapy lub zwoje",
-      "description": "<p>Ten cylindryczny skórzany futerał może pomieścić do dziesięciu zwiniętych arkuszy papieru lub pięciu zwiniętych arkuszy pergaminu.</p>"
+      "name": "Map or Scroll Case",
+      "description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>"
     },
     "SMj5QHHkDCdvkx35": {
-      "name": "Lampa",
+      "name": "Lamp",
       "description": "<p>A Lamp burns @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
       "activities": {
         "Light": {
@@ -268,52 +268,52 @@
       }
     },
     "SoNpADeVEx2DDZgB": {
-      "name": "Lustro",
-      "description": "<p>Lustro ręczne ze stali jest przydatne do celów kosmetycznych, ale także do zaglądania za rogi i odbijania światła jako sygnału.</p>"
+      "name": "Mirror",
+      "description": "<p>A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.</p>"
     },
     "UEH4xJlj50S9ztbH": {
-      "name": "Atrament",
-      "description": "<p>Atrament jest dostarczany w butelce o pojemności 1 uncji, która zapewnia wystarczającą ilość atramentu do zapisania około 500 stron.</p>"
+      "name": "Ink",
+      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>"
     },
     "UOiM3icOTVhR3llN": {
-      "name": "Bukłak",
+      "name": "Waterskin",
       "description": "<p>A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>"
     },
     "UPfmTzNgqi9QblZR": {
-      "name": "Racje żywnościowe",
-      "description": "<p>Racje żywnościowe składają się z jedzenia gotowego do podróży, w tym suszonego mięsa, suszonych owoców, sucharów i orzechów. Zobacz &amp;Reference[Malnutrition] w glosariuszu zasad, aby poznać ryzyko niejedzenia.</p>"
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
     },
     "Ur2LYFqSdOgeWWF0": {
-      "name": "Olej",
+      "name": "Oil",
       "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         },
         "Douse Space": {
-          "name": "Zgaś przestrzeń"
+          "name": "Douse Space"
         }
       }
     },
     "VczW1tStT5y7No3b": {
-      "name": "Olej",
+      "name": "Oil",
       "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         },
         "Douse Space": {
-          "name": "Zgaś przestrzeń"
+          "name": "Douse Space"
         }
       }
     },
     "X5XgogJLLydoKdrJ": {
-      "name": "Bukłak",
+      "name": "Waterskin",
       "description": "<p>A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>"
     },
     "YAXBQxHMEtJx6OuQ": {
-      "name": "Zestaw do rozpalania ognia",
-      "description": "<p>Zestaw do rozpalania ognia to mały pojemnik zawierający krzesiwo, stal do krzesania iskier oraz hubkę (zwykle suchą tkaninę nasączoną lekkim olejem) używaną do rozpalania ognia. Użycie go do zapalenia świecy, lampy, latarni lub pochodni — lub czegokolwiek innego z odkrytym paliwem — zajmuje Akcję Dodatkową. Rozpalenie innego rodzaju ognia zajmuje 1 minutę.</p>",
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -321,11 +321,11 @@
       }
     },
     "aWEY8Xh0wfn69Q1w": {
-      "name": "Woda (Pinta)",
+      "name": "Water (Pint)",
       "description": "<p>If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
@@ -485,7 +485,7 @@
       "description": "<p><em>Wondrous Item, Uncommon, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You can take a Magic action to touch the token to a boat or ship. For the next 24 hours, the vessel can't be moved by any means. Touching the token to the vessel again ends the effect. When the effect ends, the token disappears.</p>",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Użycie"
         }
       },
       "effects": {
@@ -575,7 +575,7 @@
       "description": "<p><em>Armor (Any Light, Medium, or Heavy), Rare (Requires Attunement)</em></p><p>You have Resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly by rolling on the following table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgArmorOfResist rollable caption=false]</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "activities": {
         "Armor of Resistance": {
-          "name": "Armor of Resistance"
+          "name": "Pancerz odporności"
         }
       },
       "effects": {
@@ -814,7 +814,7 @@
       "description": "<div><p><em>Wondrous Item, Common</em></p><p>This flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}.</p></div>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
@@ -859,7 +859,7 @@
       "description": "<p><em>Wondrous Item, Rare, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You can take a Magic action to toss the token 5 feet into the air. The token disappears and an enormous, multicolored bird takes its place. The bird has the statistics of a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmRoc00000000000]{Roc}</strong>, but it can't attack. It obeys your simple commands and can carry up to 500 pounds while flying at its maximum speed (16 miles per hour for a maximum of 144 miles per day, with a 1-hour rest for every 3 hours of flying) or 1,000 pounds at half that speed. The bird disappears after flying its maximum distance for a day or if it drops to 0 Hit Points. You can dismiss the bird as a Magic action.</p>",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Użycie"
         }
       }
     },
@@ -868,7 +868,7 @@
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, an @UUID[Compendium.dnd5e.actors24.Actor.mmAirElemental00]{Air Elemental} is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>",
       "activities": {
         "Utilize": {
-          "name": "Użycie Obiektu"
+          "name": "Wykorzystaj"
         }
       }
     },
@@ -1343,11 +1343,11 @@
       }
     },
     "dmgDefender00000": {
-      "name": "Obrońca",
+      "name": "Defender",
       "description": "<p><em>Weapon (Any Melee Weapon), Legendary (Requires Attunement)</em></p><p>You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>The first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "activities": {
         "Defender": {
-          "name": "Obrońca"
+          "name": "Defender"
         }
       },
       "effects": {
@@ -1356,7 +1356,7 @@
           "description": "<p>The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.</p>"
         },
         "Defender": {
-          "name": "Obrońca",
+          "name": "Defender",
           "changes": {
             "name": "Defender {}",
             "system.description.value": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgDefender00000 caption=false]</p>"
@@ -1565,7 +1565,7 @@
       }
     },
     "dmgDmtKnight0000": {
-      "name": "Rycerz",
+      "name": "Knight",
       "description": "<p>You gain the service of a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmKnight00000000]{Knight}</strong>, who magically appears in an unoccupied space you choose within 30 feet of yourself. The knight has the same alignment as you and serves you loyally until death, believing the two of you have been drawn together by fate. Work with your GM to create a name and backstory for this NPC. The GM can use a different stat block to represent the knight, <span class=\"no-break\">as desired</span>.</p>",
       "activities": {
         "Card Effect": {
@@ -1595,7 +1595,7 @@
       }
     },
     "dmgDmtRogue00000": {
-      "name": "Łotr",
+      "name": "Rogue",
       "description": "<p> An NPC of the DM's choice becomes Hostile toward you. You don't know the identity of this NPC until they or someone else reveals it. Nothing less than a <em>Wish</em> spell or divine intervention can end the NPC's hostility toward you.</p>",
       "activities": {
         "Card Effect": {
@@ -1621,7 +1621,7 @@
       }
     },
     "dmgDmtSage000000": {
-      "name": "Mędrzec",
+      "name": "Sage",
       "description": "<p> At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question.</p>",
       "activities": {
         "Card Effect": {
@@ -1826,7 +1826,7 @@
       "description": "<p><em>Wondrous Item, Uncommon</em></p><p>This powder resembles fine sand. There is enough of it for one use. When you take a Utilize action to throw the dust into the air, you and each creature and object within a 10-foot Emanation originating from you have the Invisible condition for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. Immediately after an affected creature makes an attack roll, deals damage, or casts a spell, the Invisible condition ends for that creature.</p>",
       "activities": {
         "Utilize": {
-          "name": "Użycie Obiektu",
+          "name": "Wykorzystaj",
           "roll": "Duration (Minutes)"
         }
       },
@@ -1893,7 +1893,7 @@
           "name": "Atak"
         },
         "Throw": {
-          "name": "Rzuć",
+          "name": "Throw",
           "chatFlavor": "Bonus Damage: 1d8 Force vs Giant"
         }
       }
@@ -1980,7 +1980,7 @@
       "description": "<div><p><em>Potion, Rare</em></p></div><p>When you drink this potion, you are cured of all magical contagions. In addition, the following conditions end on you: &amp;Reference[Blinded apply=false], &amp;Reference[Deafened apply=false], &amp;Reference[Paralyzed apply=false], and &amp;Reference[Poisoned apply=false].</p><p>The clear, red liquid has tiny bubbles of light in it.</p>",
       "activities": {
         "Utilize": {
-          "name": "Użycie Obiektu"
+          "name": "Wykorzystaj"
         }
       }
     },
@@ -2007,7 +2007,7 @@
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, a @UUID[Compendium.dnd5e.actors24.Actor.mmWaterElemental]{Water Elemental} is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>",
       "activities": {
         "Utilize": {
-          "name": "Użycie Obiektu"
+          "name": "Wykorzystaj"
         }
       }
     },
@@ -2124,7 +2124,7 @@
       "description": "<p><em>Wondrous Item, Uncommon, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>If you are on a boat or ship, you can take a Magic action to toss the token up to 10 feet in the air. The token disappears, and a giant flapping fan takes its place. The fan floats and creates a strong wind. This wind can fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss the fan as a Magic action.</p>",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Użycie"
         }
       },
       "effects": {
@@ -2272,7 +2272,7 @@
       "description": "<p><em>See @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>This ebony statuette, carved in the likeness of a horsefly, can become a <strong>@UUID[Compendium.dnd5e.actors24.Actor.dmgGiantFly00000]{Giant Fly}</strong> for up to 12 hours and can be ridden as a mount. Once it has been used, it can't be used again until 2 days have passed.</p><section class=\"secret\" id=\"secret-50TFh1zOfnv1SBKO\"><p><strong>Foundry Note</strong></p><p>This item's limited uses represent the 2 days required before the figurine can be used again.</p></section>"
     },
     "dmgFwpGoldenLion": {
-      "name": "Złote Lwy",
+      "name": "Golden Lions",
       "description": "<p><em>See @UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{Figurine of Wondrous Power}</em></p><p>These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmLion0000000000]{Lion}</strong> for up to 1 hour. Once a lion has been used, it can't be used again until 7 days have passed.</p><section class=\"secret\" id=\"secret-e1wLN4czlgS5CpcW\"><p><strong>Foundry Note</strong></p><p>Each <strong>Use Lion</strong> activity has limited uses which represent the 7 days required before that particular paired figurine can be used again.</p></section>",
       "activities": {
         "Use First Lion": {
@@ -2462,7 +2462,7 @@
       "description": "<p><em>Potion, Uncommon</em></p><p>You regain 4d4 + 4 Hit Points when you drink this potion.</p><p>Whatever its potency, the potion's red liquid glimmers when agitated.</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
@@ -2644,7 +2644,7 @@
       },
       "effects": {
         "Deafened": {
-          "name": "Głuchy"
+          "name": "Ogłuchły"
         }
       }
     },
@@ -2779,7 +2779,7 @@
       "description": "<p>Each time you make an attack roll with this magic weapon and hit, you can have it deal Lightning damage instead of Piercing damage.</p><p><em><strong>Lightning Bolt.</strong></em> When you throw this weapon at a target no farther than 120 feet from you, you can forgo making a ranged attack roll and instead turn the weapon into a bolt of lightning. This bolt forms a 5-foot-wide Line between you and the target. The target and each other creature in the Line (excluding you) makes a DC 13 Dexterity saving throw, taking 4d6 Lightning damage on a failed save or half as much damage on a successful one. Immediately after dealing this damage, the weapon reappears in your hand. This property can't be used again until the next dawn.</p><section id=\"secret-606LeZVVMHWwmeln\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> activity allows you to choose between Lightning and Piercing when rolling damage and will remember your last choice.</p></section>",
       "activities": {
         "Lightning Bolt": {
-          "name": "Piorun"
+          "name": "Lightning Bolt"
         }
       }
     },
@@ -2827,7 +2827,7 @@
           "name": "Luck Blade"
         },
         "Luck": {
-          "name": "Szczęście",
+          "name": "Luck",
           "roll": "Roll D20",
           "condition": "failed D20 Test"
         }
@@ -2841,7 +2841,7 @@
           }
         },
         "Saving Throw Bonus": {
-          "name": "Saving Throw Bonus",
+          "name": "Premia do rzutów obronnych",
           "description": "<p>While the weapon is on your person, you also gain a +1 bonus to saving throws.</p>"
         }
       }
@@ -3125,7 +3125,7 @@
       },
       "effects": {
         "Etherealness": {
-          "name": "Eteryczność"
+          "name": "Etherealness"
         }
       }
     },
@@ -3220,7 +3220,7 @@
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)</em></p><p>While this pearl is on your person, you can take a Magic action to regain one expended spell slot of level 3 or lower. Once you use the pearl, it can't be used again until the next dawn.</p>",
       "activities": {
         "Regain Spell Slot": {
-          "name": "Odzyskanie komórki czaru"
+          "name": "Przywróć komórkę czarów"
         }
       }
     },
@@ -3246,7 +3246,7 @@
       "description": "<p><em>Potion, Uncommon</em></p><p>The next time you see a creature within 10 minutes after drinking this philter, you are charmed by that creature and have the &amp;Reference[Charmed apply=false] condition for 1 hour.</p><p>This rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.</p>",
       "activities": {
         "Drink": {
-          "name": "Napój"
+          "name": "Drink"
         }
       },
       "effects": {
@@ -3352,7 +3352,7 @@
           "name": "Unfold Portable Hole"
         },
         "Escape Check": {
-          "name": "Test ucieczki"
+          "name": "Escape Check"
         }
       }
     },
@@ -3369,7 +3369,7 @@
       "description": "<p><em>Potion, Common</em></p><p>When you drink this potion, you gain a Climb Speed equal to your Speed for 1 hour. During this time, you have Advantage on Strength (Athletics) checks to climb.</p><p>This potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.</p><section id=\"secret-HJGRSX6Nbv4iYQAX\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Climber</strong> Active Effect can be used for tracking but can not automate the effects.</p></section>",
       "activities": {
         "Drink": {
-          "name": "Napój"
+          "name": "Drink"
         }
       },
       "effects": {
@@ -3387,7 +3387,7 @@
       "description": "<p><em>Potion, Very Rare</em></p><p>When you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft.</p><p>This potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it.</p><section id=\"secret-ZF077WzsqCDJpGtS\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Flyer</strong> Active Effect can be used for tracking but can not automate the Speed adjustments.</p></section>",
       "activities": {
         "Drink": {
-          "name": "Napój"
+          "name": "Drink"
         }
       },
       "effects": {
@@ -3405,11 +3405,11 @@
       "description": "<p><em>Potion, Uncommon</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} spell for 10 minutes (no Concentration required).</p><p>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</p>"
     },
     "dmgPotionOfHeali": {
-      "name": "Mikstura leczenia",
+      "name": "Potion of Healing",
       "description": "<p><em>Potion, Common</em></p><p>You regain 2d4 + 2 Hit Points when you drink this potion.</p><p>Whatever its potency, the potion's red liquid glimmers when agitated.</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
@@ -3418,12 +3418,12 @@
       "description": "<p><em>Potion, Rare</em></p><p>When you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Bless} spell (no Concentration required).</p><p>This potion's blue liquid bubbles and steams as if boiling.</p>",
       "activities": {
         "Drink": {
-          "name": "Napój"
+          "name": "Drink"
         }
       },
       "effects": {
         "Blessed": {
-          "name": "Błogosławiony",
+          "name": "Blessed",
           "description": "<p>Whenever a target makes an attack roll or a saving throw before the effect ends, the target adds 1d4 to the attack roll or save.</p>"
         }
       }
@@ -3433,7 +3433,7 @@
       "description": "<p><em>Potion, Rare</em></p><p>This potion's container looks empty but feels as though it holds liquid. When you drink the potion, you have the &amp;Reference[Invisible apply=false] condition for 1 hour. The effect ends early if you make an attack roll, deal damage, or cast a spell.</p>",
       "activities": {
         "Drink": {
-          "name": "Napój"
+          "name": "Drink"
         }
       },
       "effects": {
@@ -3447,7 +3447,7 @@
       "description": "<p><em>Potion, Rare</em></p><p>For 1 minute after you drink this potion, you have Resistance to all damage.</p><p>This potion's syrupy liquid looks like liquefied iron.</p>",
       "activities": {
         "Drink": {
-          "name": "Napój"
+          "name": "Drink"
         }
       },
       "effects": {
@@ -3461,7 +3461,7 @@
       "description": "<p><em>Potion, Very Rare</em></p><p>When you drink this potion, your physical age is reduced by 1d6 + 6 years, to a minimum of 13 years. Each time you subsequently drink a Potion of Longevity, there is 10 percent cumulative chance that you instead age by 1d6 + 6 years.</p><p>Suspended in this amber liquid is a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened.</p>",
       "activities": {
         "Drink": {
-          "name": "Napój",
+          "name": "Drink",
           "roll": "Determine Years"
         }
       }
@@ -3475,7 +3475,7 @@
       "description": "<p><em>Potion, Uncommon</em></p><p>This concoction looks, smells, and tastes like a Potion of Healing or another beneficial potion. However, it is actually poison masked by illusion magic. <em>Identify</em> reveals its true nature.</p><p>If you drink this potion, you take 4d6 Poison damage and must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 hour.</p>",
       "activities": {
         "Drink": {
-          "name": "Napój"
+          "name": "Drink"
         }
       },
       "effects": {
@@ -3534,7 +3534,7 @@
       "description": "<p><em>Potion, Very Rare</em></p><p>When you drink this potion, it removes any &amp;Reference[Exhaustion apply=false] levels you have and ends the &amp;Reference[Poisoned apply=false] condition on you. For the next 24 hours, you regain the maximum number of Hit Points for any Hit Point Die you spend.</p><p>This potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat.</p><section class=\"secret\" id=\"secret-z0SSGecWIDLeIdS3\"><p><strong>Foundry Note</strong></p><p>The <strong>Full of Vitality</strong> Active Effect can be used for tracking.</p></section>",
       "activities": {
         "Drink": {
-          "name": "Napój"
+          "name": "Drink"
         }
       },
       "effects": {
@@ -3548,7 +3548,7 @@
       "description": "<p><em>Potion, Uncommon</em></p><p>You can breathe underwater for 24 hours after drinking this potion.</p><p>This potion's cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</p><section class=\"secret\" id=\"secret-Hak8pdfo1Rbwhrgv\"><p><strong>Foundry Note</strong></p><p>The <strong>Water Breather</strong> Active Effect can be used for tracking.</p></section>",
       "activities": {
         "Drink": {
-          "name": "Napój"
+          "name": "Drink"
         }
       },
       "effects": {
@@ -3602,7 +3602,7 @@
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, a @UUID[Compendium.dnd5e.actors24.Actor.mmFireElemental0]{Fire Elemental} is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>",
       "activities": {
         "Utilize": {
-          "name": "Użycie Obiektu"
+          "name": "Wykorzystaj"
         }
       }
     },
@@ -3700,7 +3700,7 @@
       "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgsupRingofResi]{Ring}, Rare</em></p><p>You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the GM chooses or determines randomly by rolling on the following table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgRingOfResista rollable caption=false]</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
       "activities": {
         "Ring of Resistance": {
-          "name": "Ring of Resistance"
+          "name": "Pierścień odporności"
         }
       },
       "effects": {
@@ -3896,7 +3896,7 @@
       },
       "effects": {
         "Special Senses": {
-          "name": "Special Senses"
+          "name": "Specjalne zmysły"
         }
       }
     },
@@ -3940,22 +3940,22 @@
       "description": "<p><em>Wondrous Item, Uncommon</em></p><p>This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can take a Magic action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.</p><p>The robe has two of each of the following patches:</p><ul><li>@UUID[Compendium.dnd5e.equipment24.Item.KZUoiZrigDbovEu7]{Bullseye Lantern} (filled and lit)</li> <li>@UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Dagger}</li> <li>@UUID[Compendium.dnd5e.equipment24.Item.phbagMirror00000]{Mirror}</li> <li>@UUID[Compendium.dnd5e.equipment24.Item.phbagPole0000000]{Pole}</li> <li>@UUID[Compendium.dnd5e.equipment24.Item.x8jC9e00t4cUYiKR]{Rope} (coiled)</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagSack0000000]{Sack}</li></ul><p>In addition, the robe has [[/r 4d4]] other patches. The GM chooses the patches or determines them randomly by rolling on the following table.</p><details><summary>Table</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgRobeOfUsefulI rollable]</p></details><section class=\"secret\" id=\"secret-xQk1DSLrx4a4jmWy\"><p><strong>Foundry Note</strong></p><p>This item includes activities for each of the always present patches above which include limited uses for tracking how many are left. They can be duplicated and renamed for the additional patches after rolling for the results.</p></section>",
       "activities": {
         "Bullseye Lantern": {
-          "name": "Latarnia kierunkowa"
+          "name": "Bullseye Lantern"
         },
         "Dagger": {
           "name": "Sztylet"
         },
         "Mirror": {
-          "name": "Lustro"
+          "name": "Mirror"
         },
         "Pole": {
-          "name": "Tyczka"
+          "name": "Pole"
         },
         "Rope (Coiled)": {
           "name": "Rope (Coiled)"
         },
         "Sack": {
-          "name": "Worek"
+          "name": "Sack"
         }
       }
     },
@@ -4079,7 +4079,7 @@
           "name": "Oplątanie"
         },
         "Escape": {
-          "name": "Ucieczka"
+          "name": "Escape"
         },
         "Damage Rope": {
           "name": "Damage Rope"
@@ -4114,7 +4114,7 @@
       },
       "effects": {
         "Protected": {
-          "name": "Chroniony",
+          "name": "Protected",
           "description": "<p>You gain a +1 bonus to Armor Class and you have Advantage on saving throws against spells.</p>"
         }
       }
@@ -4194,7 +4194,7 @@
           "name": "Forceful Bash"
         },
         "Protective Field": {
-          "name": "Ochronne pole"
+          "name": "Protective Field"
         }
       },
       "effects": {
@@ -4348,7 +4348,7 @@
       }
     },
     "dmgSpellScroll00": {
-      "name": "Magiczny zwój",
+      "name": "Spell Scroll",
       "description": "<section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Create Scrolls from Spells</h3><p>You can easily create a Scroll for a Spell by right clicking on the spell and selecting the <span class=\"reference\"><em class=\"fa-solid fa-scroll fa-fw\"> </em> Create Scroll</span> option.</p></article></section><p>A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.</p><p>If the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell's level. On a failed check, the spell disappears from the scroll with no other effect.</p><p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the following table.</p><table><thead><tr><th><p>Spell Level</p></th><th><p>Rarity</p></th><th><p>Save DC</p></th><th><p>Attack Bonus</p></th></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>Common</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>1</p></td><td><p>Common</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>2</p></td><td><p>Uncommon</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>3</p></td><td><p>Uncommon</p></td><td><p>15</p></td><td><p>+7</p></td></tr><tr><td><p>4</p></td><td><p>Rare</p></td><td><p>15</p></td><td><p>+7</p></td></tr><tr><td><p>5</p></td><td><p>Rare</p></td><td><p>17</p></td><td><p>+9</p></td></tr><tr><td><p>6</p></td><td><p>Very Rare</p></td><td><p>17</p></td><td><p>+9</p></td></tr><tr><td><p>7</p></td><td><p>Very Rare</p></td><td><p>18</p></td><td><p>+10</p></td></tr><tr><td><p>8</p></td><td><p>Very Rare</p></td><td><p>18</p></td><td><p>+10</p></td></tr><tr><td><p>9</p></td><td><p>Legendary</p></td><td><p>19</p></td><td><p>+11</p></td></tr></tbody></table><p><em><strong>Copying a Scroll into a Spellbook.</strong></em> A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed.</p>"
     },
     "dmgSpellguardShi": {
@@ -4486,22 +4486,22 @@
           "name": "Przyjaciel zwierząt"
         },
         "Awaken": {
-          "name": "Przebudzenie"
+          "name": "Awaken"
         },
         "Barkskin": {
-          "name": "Korowa skóra"
+          "name": "Barkskin"
         },
         "Locate Animals or Plants": {
-          "name": "Odnalezienie zwierząt lub roślin"
+          "name": "Locate Animals or Plants"
         },
         "Pass without Trace": {
-          "name": "Przejście bez śladu"
+          "name": "Pass without Trace"
         },
         "Speak with Animals": {
           "name": "Rozmawianie ze zwierzętami"
         },
         "Speak with Plants": {
-          "name": "Rozmawianie z roślinami"
+          "name": "Speak with Plants"
         },
         "Tree Form": {
           "name": "Tree Form"
@@ -4518,10 +4518,10 @@
       "description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff}, Very Rare (Requires Attunement)</em></p><p>This staff can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. It also has the following additional properties. Once one of these properties is used, it can't be used again until the next dawn.</p><p><em><strong>Lightning.</strong></em> When you hit with a melee attack using the staff, you can cause the target to take an extra 2d6 Lightning damage (no action required).</p><p><em><strong>Thunder.</strong></em> When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder audible out to 300 feet (no action required). The target you hit must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn.</p><p><em><strong>Thunder and Lightning.</strong></em> Immediately after you hit with a melee attack using the staff, you can take a Bonus Action to use the Lightning and Thunder properties (see above) at the same time. Doing so doesn't expend the daily use of those properties, only the use of this one.</p><p><em><strong>Lightning Strike.</strong></em> You can take a Magic action to cause a bolt of lightning to leap from the staff's tip in a Line that is 5 feet wide and 120 feet long. Each creature in that Line makes a DC 17 Dexterity saving throw, taking 9d6 Lightning damage on a failed save or half as much damage on a successful one.</p><p><em><strong>Thunderclap.</strong></em> You can take a Magic action to cause the staff to produce a thunderclap audible out to 600 feet. Every creature within a 60-foot Emanation originating from you makes a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 Thunder damage and has the Deafened condition for 1 minute. On a successful save, a creature takes half as much damage only.</p>",
       "activities": {
         "Thunder": {
-          "name": "od Dźwięku"
+          "name": "Od dźwięku"
         },
         "Lightning": {
-          "name": "Elektryczne"
+          "name": "Od elektryczności"
         },
         "Thunder & Lightning": {
           "name": "Thunder & Lightning"
@@ -4530,7 +4530,7 @@
           "name": "Lightning Strike"
         },
         "Thunderclap": {
-          "name": "Grzmot"
+          "name": "Thunderclap"
         }
       },
       "effects": {
@@ -4538,7 +4538,7 @@
           "name": "Ogłuszony"
         },
         "Deafened": {
-          "name": "Głuchy"
+          "name": "Ogłuchły"
         }
       }
     },
@@ -4562,7 +4562,7 @@
       "description": "<p><em>Wondrous Item, Rare</em></p><p>While touching this 5-pound stone to the ground, you can take a Magic action to summon an <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmEarthElemental]{Earth Elemental}</strong>. The elemental appears in an unoccupied space you choose within 30 feet of yourself, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The stone can't be used this way again until the next dawn.</p>",
       "activities": {
         "Summon Elemental": {
-          "name": "Przyzwanie żywiołaka"
+          "name": "Summon Elemental"
         }
       }
     },
@@ -4571,7 +4571,7 @@
       "description": "<p><em>Wondrous Item, Uncommon (Requires Attunement)</em></p><p>While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.</p><section id=\"secret-nh2ZHIcUKEYwoYE9\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This item includes an Active Effect that automates the bonus.</p></section>",
       "effects": {
         "Lucky": {
-          "name": "Szczęściarz"
+          "name": "Szczęście"
         }
       }
     },
@@ -4627,7 +4627,7 @@
       "description": "<p><em>Potion, Rare</em></p><p>You regain 8d4 + 8 Hit Points when you drink this potion.</p><p>Whatever its potency, the potion's red liquid glimmers when agitated.</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
@@ -4636,7 +4636,7 @@
       "description": "<p><em>Potion, Very Rare</em></p><p>You regain 10d4 + 20 Hit Points when you drink this potion.</p><p>Whatever its potency, the potion's red liquid glimmers when agitated.</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
@@ -4655,7 +4655,7 @@
       "description": "<p><em>Wondrous Item, Rare, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You can take a Magic action to touch the token to a body of water at least 60 feet in diameter. The token disappears, and a 50-foot-long, 20-foot-wide boat shaped like a swan takes its place. The boat is self-propelled and moves across water at a speed of 6 miles per hour. You can take a Magic action while on the boat to command it to move or to turn up to 90 degrees. The boat remains for 24 hours and then disappears. You can dismiss the boat as a Magic action.</p>",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Użycie"
         }
       }
     },
@@ -4873,7 +4873,7 @@
       "description": "<p><em>Wondrous Item, Uncommon, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You must be outdoors to use this token. You can take a Magic action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.</p>",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Użycie"
         }
       }
     },
@@ -4882,7 +4882,7 @@
       "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepTrident000]{Trident}), Uncommon (Requires Attunement)</em></p><p>This magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast @UUID[Compendium.dnd5e.spells24.Item.phbsplDominateBe]{Dominate Beast} (save DC 15) from it on a Beast that has a Swim Speed.</p>",
       "activities": {
         "Dominate Beast": {
-          "name": "Dominacja nad bestią"
+          "name": "Dominate Beast"
         }
       }
     },
@@ -4905,7 +4905,7 @@
       }
     },
     "dmgUnarmedStrike": {
-      "name": "Uderzenie bez broni"
+      "name": "Unarmed Strike"
     },
     "dmgUniversalSolv": {
       "name": "Universal Solvent",
@@ -5127,7 +5127,7 @@
       "description": "<p><em>Wondrous Item, Rare, See: @UUID[Compendium.dnd5e.equipment24.Item.dmgQuaalsFeather]{Feather Token}</em></p><p>You can take a Magic action to throw the token to a point within 10 feet of yourself. The token disappears, and a @UUID[Compendium.dnd5e.actors24.Actor.dmgqftFloatingWh]{floating whip} takes its place. You can then take a Bonus Action to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9. On a hit, the target takes 1d6 + 5 Force damage.</p><p>As a Bonus Action, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of the whip. The whip disappears after 1 hour, when you take a Magic action to dismiss it, or when you die or have the Incapacitated condition.</p>",
       "activities": {
         "Use": {
-          "name": "Use"
+          "name": "Użycie"
         }
       }
     },
@@ -5136,7 +5136,7 @@
       "description": "<p><em>Wondrous Item, Uncommon</em></p><p>While holding this fan, you can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind} (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.</p><p><strong>Roll for Chance of Not Working:</strong> [[/r 1d5cs&gt;@item.uses.spent]]</p><section class=\"secret\" id=\"secret-hNmHToEJ6Gg4usEf\"><p><strong>Foundry Note</strong></p><p>Each of use of Gust of Wind expends a use of this item and is reset at dawn. The inline roll above rolls 1d5 and checks if the value is higher than the number of uses to handle the cumulative 20 percent chance of not working. It will return \"1\" if it's successful and \"0\" if it fails.</p></section>",
       "activities": {
         "Gust of Wind": {
-          "name": "Poryw wiatru"
+          "name": "Gust of Wind"
         }
       }
     },
@@ -5184,7 +5184,7 @@
       "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgElementalGem0]</em></p><p>This gem contains a mote of elemental energy. When you take a Utilize action to break the gem, an @UUID[Compendium.dnd5e.actors24.Actor.mmEarthElemental]{Earth Elemental} is summoned, and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action.</p>",
       "activities": {
         "Utilize": {
-          "name": "Użycie Obiektu"
+          "name": "Wykorzystaj"
         }
       }
     },
@@ -5229,7 +5229,7 @@
       "description": "<p>If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
@@ -5237,7 +5237,7 @@
       "name": "Water, salt (Pint)",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
@@ -5266,8 +5266,8 @@
       "name": "Ring"
     },
     "etKzfLUMWikSsi3R": {
-      "name": "Zestaw do rozpalania ognia",
-      "description": "<p>Zestaw do rozpalania ognia to mały pojemnik zawierający krzesiwo, stal do krzesania iskier oraz hubkę (zwykle suchą tkaninę nasączoną lekkim olejem) używaną do rozpalania ognia. Użycie go do zapalenia świecy, lampy, latarni lub pochodni — lub czegokolwiek innego z odkrytym paliwem — zajmuje Akcję Dodatkową. Rozpalenie innego rodzaju ognia zajmuje 1 minutę.</p>",
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -5275,8 +5275,8 @@
       }
     },
     "gHOs5HRZJdnUwfng": {
-      "name": "Zestaw do rozpalania ognia",
-      "description": "<p>Zestaw do rozpalania ognia to mały pojemnik zawierający krzesiwo, stal do krzesania iskier oraz hubkę (zwykle suchą tkaninę nasączoną lekkim olejem) używaną do rozpalania ognia. Użycie go do zapalenia świecy, lampy, latarni lub pochodni — lub czegokolwiek innego z odkrytym paliwem — zajmuje Akcję Dodatkową. Rozpalenie innego rodzaju ognia zajmuje 1 minutę.</p>",
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -5284,49 +5284,49 @@
       }
     },
     "gYKSyS7STTresmnS": {
-      "name": "Pochodnia",
-      "description": "<p>Pochodnia pali się przez 1 godzinę, emitując Jasne światło w promieniu 20 stóp i Słabe światło na dodatkowe 20 stóp. Wykonując akcję Atak, możesz zaatakować pochodnią, używając jej jako prostej broni do walki wręcz. Przy trafieniu cel otrzymuje 1 obrażenie od ognia.</p>"
+      "name": "Torch",
+      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>"
     },
     "iYwrPPLmuVD9eqfa": {
-      "name": "Kolczatki",
-      "description": "<p>Akcją Użycia Obiektu możesz rozsypać kolczatki z ich torby, aby pokryć obszar o boku 5 stóp w odległości do 5 stóp od siebie. Istota, która wejdzie w ten obszar po raz pierwszy w danej turze, musi wykonać rzut obronny na Zręczność (ST 15) lub otrzymuje 1 obrażenie kłute i jej szybkość zostaje zredukowana do 0 do początku jej następnej tury. Odzyskanie kolczatek zajmuje 10 minut.</p>",
+      "name": "Caltrops",
+      "description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>",
       "effects": {
         "Slowed": {
-          "name": "Spowolniony"
+          "name": "Slowed"
         }
       }
     },
     "jLcAY4Oph8ZEniG2": {
-      "name": "Szaty",
-      "description": "<p>Szata ma znaczenie zawodowe lub ceremonialne. Niektóre wydarzenia i miejsca wpuszczają tylko osoby noszące szatę w określonych kolorach lub z określonymi symbolami.</p>"
+      "name": "Robe",
+      "description": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>"
     },
     "llmXULupnKVHUGuE": {
-      "name": "Racje żywnościowe",
-      "description": "<p>Racje żywnościowe składają się z jedzenia gotowego do podróży, w tym suszonego mięsa, suszonych owoców, sucharów i orzechów. Zobacz &amp;Reference[Malnutrition] w glosariuszu zasad, aby poznać ryzyko niejedzenia.</p>"
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
     },
     "nFFc8hnpFeiIhQWa": {
-      "name": "Racje żywnościowe",
-      "description": "<p>Racje żywnościowe składają się z jedzenia gotowego do podróży, w tym suszonego mięsa, suszonych owoców, sucharów i orzechów. Zobacz &amp;Reference[Malnutrition] w glosariuszu zasad, aby poznać ryzyko niejedzenia.</p>"
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
     },
     "nshr9PBVyB03T7wB": {
-      "name": "Woda święcona",
-      "description": "<p>Gdy wykonujesz Akcję Atak, możesz zastąpić jeden ze swoich ataków rzuceniem fiolki Wody Święconej. Wyceluj w jedną istotę, którą widzisz w promieniu 20 stóp od siebie. Cel musi wykonać udany rzut obronny na Zręczność (ST 8 plus twój modyfikator Zręczności i Premia od Biegłości) lub otrzymać 2k8 obrażenia od światłości, jeśli jest to Czart lub Nieumarły.</p>",
+      "name": "Holy Water",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         }
       }
     },
     "oQRUfRQQjsMMXJhD": {
-      "name": "Kostium",
-      "description": "<p>Nosząc Kostium, masz Ułatwienie do każdego testu cechy, który wykonujesz, aby podszywać się pod osobę lub typ osoby, którą reprezentuje.</p>"
+      "name": "Costume",
+      "description": "<p>While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>"
     },
     "phbUnarmedStrike": {
-      "name": "Uderzenie bez broni",
+      "name": "Unarmed Strike",
       "description": "<p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Unarmed Strike Rules}</p>",
       "activities": {
         "Grapple/Shove": {
-          "name": "Pochwycenie/Pchnięcie"
+          "name": "Grapple/Shove"
         }
       },
       "effects": {
@@ -5339,143 +5339,143 @@
       }
     },
     "phbWaterpint0000": {
-      "name": "Woda (Pinta)",
+      "name": "Water (Pint)",
       "description": "<p>If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
     "phbafcCrystal000": {
-      "name": "Kryształ",
+      "name": "Crystal",
       "description": "<p>An @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>"
     },
     "phbafcOrb0000000": {
-      "name": "Kula",
+      "name": "Orb",
       "description": "<p>An @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>"
     },
     "phbafcRod0000000": {
-      "name": "Berło",
+      "name": "Rod",
       "description": "<p>An @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>"
     },
     "phbafcStaffalsoa": {
-      "name": "Kostur",
+      "name": "Staff",
       "description": "<p>An @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p><p>This item also functions as a @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>"
     },
     "phbafcWand000000": {
-      "name": "Różdzka",
+      "name": "Wand",
       "description": "<p>An @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>"
     },
     "phbagAcid0000000": {
-      "name": "Kwas",
-      "description": "<p>Wykonując akcję Atak, możesz zastąpić jeden ze swoich ataków rzutem fiolką Kwasu. Wybierz jedną istotę lub obiekt, które widzisz w odległości do 20 stóp od siebie. Cel musi wykonać rzut obronny na Zręczność (ST 8 + twój modyfikator Zręczności + Premia od Biegłości) albo otrzymuje 2k6 obrażeń od kwasu.</p>",
+      "name": "Acid",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.</p>",
       "activities": {
         "Throw Acid": {
-          "name": "Rzuć kwas"
+          "name": "Throw Acid"
         }
       }
     },
     "phbagAlchemistsF": {
-      "name": "Ogień alchemiczny",
+      "name": "Alchemist's Fire",
       "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take [[/damage 1d4 type=fire]] damage and start &amp;Reference[burning].</p>",
       "effects": {
         "Burning.": {
-          "name": "Płonący",
-          "description": "<p>Odwołanie do zasad: &amp;Reference[burning].</p>"
+          "name": "Burning.",
+          "description": "<p>Rules reference: &amp;Reference[burning].</p>"
         }
       }
     },
     "phbagAmmunitionV": {
-      "name": "Amunicja (Różne)",
+      "name": "Ammunition (Varies)",
       "description": "<p>Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p><table><caption>Ammunition</caption><thead><tr><td>Type</td><td>Amount</td><td>Storage</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBolts00000]{Bolts}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagCaseCrossbo]{Case}</td><td>1½ lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Bullets, Firearm}</td><td>10</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsSli]{Bullets, Sling}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoNeedles000]{Needles}</td><td>50</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</td><td>1 lb.</td><td>1 GP</td></tr></tbody></table>"
     },
     "phbagAntitoxin00": {
-      "name": "Antidotum",
-      "description": "<p>Akcją dodatkową wypijasz fiolkę Antidotum, aby uzyskać Ułatwienie do rzutów obronnych mających na celu uniknięcie lub zakończenie stanu &amp;Reference[Poisoned] na 1 godzinę.</p>",
+      "name": "Antitoxin",
+      "description": "<p>As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.</p>",
       "effects": {
         "Antitoxin": {
-          "name": "Antidotum"
+          "name": "Antitoxin"
         }
       }
     },
     "phbagArcaneFocus": {
-      "name": "Fokus magii wtajemniczeń (Różne)",
+      "name": "Arcane Focus (Varies)",
       "description": "<p>An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p><table><caption>Arcane Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbafcCrystal000]{Crystal}</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbafcOrb0000000]{Orb}</td><td>3 lb.</td><td>20 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbafcRod0000000]{Rod}</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{Staff} (also a @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbafcWand000000]{Wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>"
     },
     "phbagBackpack000": {
-      "name": "Plecak",
-      "description": "<p>Plecak mieści do 30 funtów w objętości 1 stopy sześciennej. Może również służyć jako torba do siodła.</p>"
+      "name": "Backpack",
+      "description": "<p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.</p>"
     },
     "phbagBallBearing": {
-      "name": "Kulki metalowe",
-      "description": "<p>Akcją Użycia Obiektu wysypujesz kulki metalowe z ich sakiewki. Rozsypują się, pokrywając płaski obszar o wymiarach 10 na 10 stóp w odległości do 10 stóp od ciebie. Istota, która wejdzie w ten obszar po raz pierwszy w danej turze, musi wykonać rzut obronny na Zręczność (ST 10) lub otrzymuje stan &amp;Reference[Prone]. Odzyskanie kulek metalowych zajmuje 10 minut.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Czynność <strong>Odzyskanie kulek metalowych</strong> zapewnia kolejne użycie tego przedmiotu.</p></section>",
+      "name": "Ball Bearings",
+      "description": "<p>As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the &amp;Reference[Prone] condition. It takes 10 minutes to recover the Ball Bearings.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>",
       "activities": {
         "Spill Ball Bearings": {
-          "name": "Rozsyp kulki metalowe"
+          "name": "Spill Ball Bearings"
         },
         "Recover Ball Bearings": {
-          "name": "Zbierz łożyska kulkowe"
+          "name": "Recover Ball Bearings"
         }
       },
       "effects": {
         "Tripped": {
-          "name": "Potknięcie"
+          "name": "Tripped"
         }
       }
     },
     "phbagBarrel00000": {
-      "name": "Beczka",
-      "description": "<p>Beczka mieści do 40 galonów cieczy lub do 4 stóp sześciennych suchych towarów.</p>"
+      "name": "Barrel",
+      "description": "<p>A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods.</p>"
     },
     "phbagBasket00000": {
-      "name": "Koszyk",
-      "description": "<p>Kosz mieści do 40 funtów w objętości 2 stóp sześciennych.</p>"
+      "name": "Basket",
+      "description": "<p>A Basket holds up to 40 pounds within 2 cubic feet.</p>"
     },
     "phbagBedroll0000": {
-      "name": "Śpiwór",
+      "name": "Bedroll",
       "description": "<p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see @UUID[Compendium.dnd5e.content24.JournalEntry.dmgDmsToolbox000]{Gameplay Toolbox}).</p>"
     },
     "phbagBell0000000": {
-      "name": "Dzwonek",
-      "description": "<p> Gdy rozbrzmi w ramach akcji \"Użycie obiektu\", wydaje dźwięk słyszalny w odległości do 60 stóp.</p>"
+      "name": "Bell",
+      "description": "<p>When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away.</p>"
     },
     "phbagBlanket0000": {
-      "name": "Koc",
+      "name": "Blanket",
       "description": "<p>While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see @UUID[Compendium.dnd5e.content24.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK]{Gameplay Toolbox}).</p>"
     },
     "phbagBlockandTac": {
-      "name": "Bloczek z blokadą",
-      "description": "<p>Bloczek z blokadą pozwala Ci podnieść ciężar czterokrotnie większy niż normalnie jesteś wstanie.</p>"
+      "name": "Block and Tackle",
+      "description": "<p>A Block and Tackle allows you to hoist up to four times the weight you can normally lift.</p>"
     },
     "phbagBook0000000": {
-      "name": "Książka",
-      "description": "<p>Księga zawiera treści fikcyjne lub literaturę faktu. Jeśli korzystasz z wiarygodnej, faktograficznej Książki dotyczącej danego tematu, zyskujesz premię +5 do testów Inteligencji (Wiedza tajemna, Historia, Przyroda lub Religia), które wykonujesz na ten temat.</p>"
+      "name": "Book",
+      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>"
     },
     "phbagBottleGlass": {
-      "name": "Butla (szklana)",
-      "description": "<p>Szklana butla mieści do 1½ pintY.</p>"
+      "name": "Bottle, Glass",
+      "description": "<p>A Glass Bottle holds up to 1½ pints.</p>"
     },
     "phbagBucket00000": {
-      "name": "Wiadro",
-      "description": "<p>Wiadro mieści do pół stopy sześciennej (do 14 litrów) zawartości.</p>"
+      "name": "Bucket",
+      "description": "<p>A Bucket holds up to half a cubic foot of contents.</p>"
     },
     "phbagBurglarsPac": {
-      "name": "Zestaw włamywacza",
+      "name": "Burglar's Pack",
       "description": "<p>A Burglar's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Bell}, 10 @UUID[Compendium.dnd5e.equipment24.Item.phbagCandle00000]{Candles}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, 7 @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{flasks of Oil}, 5 days of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}, and @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Waterskin}.</p>"
     },
     "phbagCaltrops000": {
-      "name": "Kolczatki",
-      "description": "<p>Akcją Użycia Obiektu możesz rozsypać kolczatki z ich torby, aby pokryć obszar o boku 5 stóp w odległości do 5 stóp od siebie. Istota, która wejdzie w ten obszar po raz pierwszy w danej turze, musi wykonać rzut obronny na Zręczność (ST 15) lub otrzymuje 1 obrażenie kłute i jej szybkość zostaje zredukowana do 0 do początku jej następnej tury. Odzyskanie kolczatek zajmuje 10 minut.</p>",
+      "name": "Caltrops",
+      "description": "<p>As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops.</p>",
       "effects": {
         "Slowed": {
-          "name": "Spowolniony"
+          "name": "Slowed"
         }
       }
     },
     "phbagCandle00000": {
-      "name": "Świeca",
-      "description": "<p>Przez 1 godzinę zapalona świeca rzuca Jasne Światło w promieniu 5 stóp i Słabe Światło na dodatkowe 5 stóp.</p>",
+      "name": "Candle",
+      "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -5483,150 +5483,150 @@
       }
     },
     "phbagCantripScro": {
-      "name": "Magiczny zwój, Sztuczka",
+      "name": "Spell Scroll, Cantrip",
       "description": "<p>A <em>Spell Scroll</em> (Cantrip) or @UUID[Compendium.dnd5e.equipment24.Item.phbagSpellScroll]{Spell Scroll (Level 1)} is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's creator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p><p>If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.</p>"
     },
     "phbagCaseCrossbo": {
-      "name": "Pojemnik na bełty",
-      "description": "<p>Futerał na bełty mieści do 20 bełtów.</p>"
+      "name": "Case, Crossbow Bolt",
+      "description": "<p>A Crossbow Bolt Case holds up to 20 Bolts.</p>"
     },
     "phbagCaseMaporSc": {
-      "name": "Tuba na mapy lub zwoje",
-      "description": "<p>Futerał na mapy lub zwoje mieści do 10 arkuszy papieru lub 5 arkuszy pergaminu.</p>"
+      "name": "Case, Map or Scroll",
+      "description": "<p>A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment.</p>"
     },
     "phbagChain000000": {
-      "name": "Łańcuch",
+      "name": "Chain",
       "description": "<p>As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Strength (Athletics) check. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.</p>",
       "activities": {
         "Wrap Chain Check": {
-          "name": "Test owijania łańcucha"
+          "name": "Wrap Chain Check"
         },
         "Escape Check": {
-          "name": "Test ucieczki"
+          "name": "Escape Check"
         },
         "Burst Chain Check": {
-          "name": "Test przerwania łańcucha"
+          "name": "Burst Chain Check"
         }
       }
     },
     "phbagChest000000": {
-      "name": "Kufer",
-      "description": "<p>Kufer mieści do 12 stóp sześciennych (340 litrów) zawartości.</p>"
+      "name": "Chest",
+      "description": "<p>A Chest holds up to 12 cubic feet of contents.</p>"
     },
     "phbagClimbersKit": {
-      "name": "Zestaw wspinaczkowy",
+      "name": "Climber's Kit",
       "description": "<p>A Climber's Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a Bonus Action.</p>"
     },
     "phbagClothesFine": {
-      "name": "Ubrania dobrej jakości",
-      "description": "<p>Wykwintne Ubrania są wykonane z drogich tkanin i ozdobione mistrzowsko wykonanymi detalami. Niektóre wydarzenia i miejsca przyjmują tylko osoby noszące te ubrania.</p>"
+      "name": "Clothes, Fine",
+      "description": "<p>Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.</p>"
     },
     "phbagClothesTrav": {
-      "name": "Ubrania podróżne",
+      "name": "Clothes, Traveler's",
       "description": "<p>Traveler's Clothes are resilient garments designed for travel in various environments.</p>"
     },
     "phbagComponentPo": {
-      "name": "Torba na komponenty",
-      "description": "<p>Torba na komponenty jest wodoszczelna i wypełniona przegródkami, które przechowują wszystkie darmowe materialne komponenty twoich czarów.</p>"
+      "name": "Component Pouch",
+      "description": "<p>A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells.</p>"
     },
     "phbagCostume0000": {
-      "name": "Kostium",
-      "description": "<p>Nosząc Kostium, masz Ułatwienie do każdego testu cechy, który wykonujesz, aby podszywać się pod osobę lub typ osoby, którą reprezentuje.</p>"
+      "name": "Costume",
+      "description": "<p>While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>"
     },
     "phbagCrowbar0000": {
-      "name": "Łom",
+      "name": "Crowbar",
       "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied.</p>"
     },
     "phbagDiplomatsPa": {
-      "name": "Zestaw dyplomaty",
+      "name": "Diplomat's Pack",
       "description": "<p>A Diplomat's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagChest000000]{Chest}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Fine Clothes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Ink}, 5 @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Ink Pens}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{Lamp}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Map or Scroll Cases}, 4 @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{flasks of Oil}, 5 sheets of @UUID[Compendium.dnd5e.equipment24.Item.phbagPaper000000]{Paper}, 5 sheets of @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPerfume0000]{Perfume}, and @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}.</p>"
     },
     "phbagDruidicFocu": {
-      "name": "Druidyczny fetysz (Różne)",
+      "name": "Druidic Focus (Varies)",
       "description": "<p>A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><table><caption>Druidic Focuses</caption><thead><tr><td>Focus</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{Sprig of mistletoe}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcWoodenstaf]{Wooden staff} (also a @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcYewwand000]{Yew wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>"
     },
     "phbagDungeoneers": {
-      "name": "Zestaw badacza podziemi",
+      "name": "Dungeoneer's Pack",
       "description": "<p>A Dungeoneer's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, 2 flasks of @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil}, 10 days of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}, 10 @UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Torches}, and @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Waterskin}.</p>"
     },
     "phbagEntertainer": {
-      "name": "Zestaw artysty",
+      "name": "Entertainer's Pack",
       "description": "<p>An Entertainer's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, 3 @UUID[Compendium.dnd5e.equipment24.Item.phbagCostume0000]{Costumes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagMirror00000]{Mirror}, 8 flasks of @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil}, 9 days of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}, and @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Waterskin}.</p>"
     },
     "phbagExplorersPa": {
-      "name": "Zestaw odkrywcy",
+      "name": "Explorer's Pack",
       "description": "<p>An Explorer's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Bedroll}, 2 flasks of @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil}, 10 days of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}, 10 @UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Torches}, and @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Waterskin}.</p>"
     },
     "phbagFlask000000": {
-      "name": "Flaszka",
-      "description": "<p>Flaszka mieści do 1 pinta.</p>"
+      "name": "Flask",
+      "description": "<p>A Flask holds up to 1 pint.</p>"
     },
     "phbagGrapplingHo": {
-      "name": "Hak wspinaczkowy",
-      "description": "<p>Jako Akcja Użycie Obiektu możesz rzucić Hakiem wspinaczkowym w poręcz, występ lub inne zaczepienie w promieniu 50 stóp od siebie, a hak się zaczepi, jeśli uda ci się wykonać test Zręczności (Akrobatyka) o ST 13. Jeśli przywiązałeś Linę do haka, możesz się po niej wspiąć.</p>",
+      "name": "Grappling Hook",
+      "description": "<p>As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         }
       }
     },
     "phbagHealersKit0": {
-      "name": "Torba lekarska",
+      "name": "Healer's Kit",
       "description": "<p>A Healer's Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check.</p>",
       "activities": {
         "Stabilize": {
-          "name": "Stabilizuj"
+          "name": "Stabilize"
         }
       }
     },
     "phbagHolySymbolV": {
-      "name": "Święty symbol (Różne)",
+      "name": "Holy Symbol (Varies)",
       "description": "<p>A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p><p>The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.</p><table><caption>Holy Symbols</caption><thead><tr><td>Symbol</td><td>Weight</td><td>Cost</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyAmuletworn]{Amulet} (worn or held)</td><td>1 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn]{Emblem} (borne on fabric or a Shield)</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyReliquaryh]{Reliquary} (held)</td><td>2 lb.</td><td>5 GP</td></tr></tbody></table>"
     },
     "phbagHolyWater00": {
-      "name": "Woda święcona",
-      "description": "<p>Gdy wykonujesz Akcję Atak, możesz zastąpić jeden ze swoich ataków rzuceniem fiolki Wody Święconej. Wyceluj w jedną istotę, którą widzisz w promieniu 20 stóp od siebie. Cel musi wykonać udany rzut obronny na Zręczność (ST 8 plus twój modyfikator Zręczności i Premia od Biegłości) lub otrzymać 2k8 obrażenia od światłości, jeśli jest to Czart lub Nieumarły.</p>",
+      "name": "Holy Water",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         }
       }
     },
     "phbagHuntingTrap": {
-      "name": "Potrzask",
-      "description": "<p>Akcją Użycie Obiektu możesz ustawić Potrzask. Jest to stalowy pierścieniem z zębami, który zatrzaskuje się, gdy istota nastąpi na płytę nacisku w centrum. Pułapka jest przymocowana ciężkim łańcuchem do nieruchomego obiektu, takiego jak drzewo lub pal wbity w ziemię. Istota, która nastąpi na płytę, musi wykonać udany rzut obronny na Zręczność o ST 13 lub otrzyma 1k4 obrażeń kłutych a jej Szybkość zostanie zredukowana do 0 do początku jej następnej tury. Następnie, dopóki istota nie uwolni się z pułapki, jej ruch jest ograniczony długością łańcucha (zazwyczaj 3 stopy). Istota może użyć swojej akcji, aby wykonać test Siły (Atletyka) o ST 13, uwalniając siebie lub inną istotę w swoim zasięgu w przypadku sukcesu. Każdy nieudany test zadaje [[/damage 1 type=piercing]] obrażenia schwytanej istocie.</p>",
+      "name": "Hunting Trap",
+      "description": "<p>As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals [[/damage 1 type=piercing]] damage to the trapped creature.</p>",
       "activities": {
         "save": {
-          "condition": "Nadepnięcie na płytę"
+          "condition": "Steps on the plate"
         },
         "Escape": {
-          "name": "Ucieczka"
+          "name": "Escape"
         }
       },
       "effects": {
         "Trapped": {
-          "name": "Uwięziony"
+          "name": "Trapped"
         }
       }
     },
     "phbagInk00000000": {
-      "name": "Atrament",
-      "description": "<p>Atrament jest dostarczany w butelce o pojemności 1 uncji, która zapewnia wystarczającą ilość atramentu do zapisania około 500 stron.</p>"
+      "name": "Ink",
+      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>"
     },
     "phbagInkPen00000": {
-      "name": "Pióro atramentowe",
-      "description": "<p>Pióro maczane w atramencie służy do pisania i rysowania</p>"
+      "name": "Ink Pen",
+      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>"
     },
     "phbagJug00000000": {
-      "name": "Dzban",
-      "description": "<p>Dzban mieści do 1 galona.</p>"
+      "name": "Jug",
+      "description": "<p>A Jug holds up to 1 gallon.</p>"
     },
     "phbagLadder00000": {
-      "name": "Drabina",
-      "description": "<p>Drabina ma wysokość 10 stóp. Aby po niej zejść lub wejść, należy się wspiąć.</p>"
+      "name": "Ladder",
+      "description": "<p>A Ladder is 10 feet tall. You must climb to move up or down it.</p>"
     },
     "phbagLamp0000000": {
-      "name": "Lampa",
+      "name": "Lamp",
       "description": "<p>A Lamp burns @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil} as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.</p>",
       "activities": {
         "Light": {
@@ -5635,8 +5635,8 @@
       }
     },
     "phbagLanternBull": {
-      "name": "Latarnia, Kierunkowa",
-      "description": "<p>Latarnia kierunkowa spala Olej jako paliwo do rzucania Jasnego światła w stożku 60 stóp i Słabe światło na dodatkowe 60 stóp.</p>",
+      "name": "Lantern, Bullseye",
+      "description": "<p>A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -5644,8 +5644,8 @@
       }
     },
     "phbagLanternHood": {
-      "name": "Latarnia, Zamykana",
-      "description": "<p>Latarnia zamykana spala Olej jako paliwo, rzucając Jasne światło w promieniu 30 stóp i Słabe światło na dodatkowe 30 stóp. Akcją dodatkową możesz opuścić kaptur, zmniejszając światło do Przyciemnionego światła w promieniu 5 stóp, lub podnieść go ponownie.</p>",
+      "name": "Lantern, Hooded",
+      "description": "<p>A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -5653,178 +5653,178 @@
       }
     },
     "phbagLock0000000": {
-      "name": "Zamek",
+      "name": "Lock",
       "description": "<p>A Lock comes with a key. Without the key, a creature can use @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools} to pick this Lock with a successful [[/tool thief dex 15]] check.</p>"
     },
     "phbagMagnifyingG": {
-      "name": "Szkło powiększające",
-      "description": "<p>Szkło powiększające zapewnia Ułatwienie przy dowolnym teście cechy wykonywanym w celu oszacowania lub zbadania bardzo szczegółowego przedmiotu. Rozpalenie ognia za pomocą szkła powiększającego wymaga światła jasnego jak światło słoneczne do skupienia, hubki do zapalenia oraz około 5 minut, aby ogień się zapalił.</p>"
+      "name": "Magnifying Glass",
+      "description": "<p>A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.</p>"
     },
     "phbagManacles000": {
-      "name": "Kajdany",
+      "name": "Manacles",
       "description": "<p>As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action.</p><p>Each set of Manacles comes with a key. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful [[/tool thief dex 15]] check.</p>",
       "activities": {
         "Bind": {
-          "name": "Zwiąż"
+          "name": "Bind"
         },
         "Escape Check": {
-          "name": "Test ucieczki"
+          "name": "Escape Check"
         },
         "Burst Check": {
-          "name": "Test przerwania"
+          "name": "Burst Check"
         }
       },
       "effects": {
         "Manacled": {
-          "name": "Zakuty w kajdany"
+          "name": "Manacled"
         }
       }
     },
     "phbagMap00000000": {
-      "name": "Mapa",
-      "description": "<p>Jeśli korzystasz z dokładnej Mapy, zyskujesz premię +5 do testów Mądrości (Sztuka przetrwania), które wykonujesz, aby odnaleźć drogę w miejscu przedstawionym na mapie.</p>"
+      "name": "Map",
+      "description": "<p>If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it.</p>"
     },
     "phbagMirror00000": {
-      "name": "Lustro",
-      "description": "<p>Lustro ręczne ze stali jest przydatne do celów kosmetycznych, ale także do zaglądania za rogi i odbijania światła jako sygnału.</p>"
+      "name": "Mirror",
+      "description": "<p>A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal.</p>"
     },
     "phbagNet00000000": {
-      "name": "Sieć",
-      "description": "<p>Wykonując akcję Atak, możesz zastąpić jeden ze swoich ataków rzutem siecią. Wybierz istotę, którą widzisz, w odległości do 15 stóp od siebie. Cel musi wykonać rzut obronny na Zręczność (ST 8 + twój modyfikator Zręczności + Premia od Biegłości) albo otrzymuje stan &amp;Reference[Restrained] do momentu, aż się uwolni. Cel automatycznie odnosi sukces, jeśli jest Wielki lub większy.</p><p>Aby się uwolnić, cel lub istota w odległości do 5 stóp od niego musi wykonać akcję, aby przeprowadzić test [[/skill ath 10]], uwalniając istotę ze stanem Restrained w przypadku sukcesu. Zniszczenie sieci (KP 10; 5 PW; Niewrażliwość na obrażenia obuchowe, od trucizn i psychiczne) również uwalnia cel, kończąc efekt.</p>",
+      "name": "Net",
+      "description": "<p>When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the &amp;Reference[Restrained] condition until it escapes. The target succeeds automatically if it is Huge or larger.</p><p>To escape, the target or a creature within 5 feet of it must take an action to make a [[/skill ath 10]] check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.</p>",
       "effects": {
         "Caught in Net": {
-          "name": "Złapany w sieć"
+          "name": "Caught in Net"
         }
       }
     },
     "phbagOil00000000": {
-      "name": "Olej",
+      "name": "Oil",
       "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         },
         "Douse Space": {
-          "name": "Zgaś przestrzeń"
+          "name": "Douse Space"
         }
       }
     },
     "phbagPaper000000": {
-      "name": "Papier",
-      "description": "<p>Jedna kartka Papieru może pomieścić około 250 ręcznie napisanych słów.</p>"
+      "name": "Paper",
+      "description": "<p>One sheet of Paper can hold about 250 handwritten words.</p>"
     },
     "phbagParchment00": {
-      "name": "Pergamin",
-      "description": "<p>Jedna karta pergaminu może pomieścić około 250 słów pisanych odręcznie.</p>"
+      "name": "Parchment",
+      "description": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>"
     },
     "phbagPerfume0000": {
-      "name": "Perfumy",
-      "description": "<p>Perfumy znajdują się w fiolce o pojemności 4 uncji. Przez 1 godzinę po zastosowaniu perfum na sobie masz Ułatwienie do testów Charyzmy (Perswazja) wykonywanych w celu wpłynięcia na obojętnego Humanoida w odległości do 5 stóp od siebie.</p>"
+      "name": "Perfume",
+      "description": "<p>Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.</p>"
     },
     "phbagPoisonBasic": {
-      "name": "Trucizna, Podstawowa",
-      "description": "<p>Akcją dodatkową możesz użyć fiolki Podstawowej Trucizny, aby pokryć nią jedną broń lub maksymalnie trzy sztuki amunicji. Istota, która otrzyma obrażenia kłute lub cięte od zatrutej broni lub amunicji, otrzymuje dodatkowe 1k4 obrażenia od trucizn. Po nałożeniu trucizna zachowuje swoją skuteczność przez 1 minutę lub do momentu zadania obrażeń, w zależności od tego, co nastąpi wcześniej.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Ta zdolność zawiera rzut na obrażenia od trucizn.</p></section>"
+      "name": "Poison, Basic",
+      "description": "<p>As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.</p><section id=\"secret-YwO5GX35V4XweNWL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a roll for the Poison damage.</p></section>"
     },
     "phbagPole0000000": {
-      "name": "Tyczka",
-      "description": "<p>Tyczka ma 10 stóp długości. Możesz jej użyć, aby dosięgnąć czegoś w odległości do 10 stóp. Jeśli musisz wykonać test Siły (Atletyka) w ramach skoku wzwyż lub w dal, możesz użyć tyczki do wybicia się, zyskując Ułatwienie do tego testu.</p>"
+      "name": "Pole",
+      "description": "<p>A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check.</p>"
     },
     "phbagPotIron0000": {
-      "name": "Garnek, Żelazny",
-      "description": "<p>Żelazny garnek mieści do 1 galona.</p>"
+      "name": "Pot, Iron",
+      "description": "<p>An Iron Pot holds up to 1 gallon.</p>"
     },
     "phbagPotionofHea": {
-      "name": "Mikstura leczenia",
-      "description": "<p>Ta mikstura jest magicznym przedmiotem. Akcją dodatkową możesz ją wypić lub wlać do ust innej istocie znajdującej się w odległości do 5 stóp od ciebie. Istota, która wypije magiczny czerwony płyn z tej fiolki, odzyskuje 2k4 + 2 Punktów Wytrzymałości.</p>"
+      "name": "Potion of Healing",
+      "description": "<p>This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.</p>"
     },
     "phbagPouch000000": {
-      "name": "Torba",
-      "description": "<p>Torba mieści do 6 funtów w objętości jednej piątej stopy sześciennej.</p>"
+      "name": "Pouch",
+      "description": "<p>A Pouch holds up to 6 pounds within one-fifth of a cubic foot.</p>"
     },
     "phbagPriestsPack": {
-      "name": "Zestaw kapłana",
+      "name": "Priest's Pack",
       "description": "<p>A Priest's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBlanket0000]{Blanket}, @UUID[Compendium.dnd5e.equipment24.Item.phbagHolyWater00]{Holy Water}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{Lamp}, 7 days of @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, and @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}.</p>"
     },
     "phbagQuiver00000": {
-      "name": "Kołczan",
-      "description": "<p>Kołczan mieści do 20 Strzał.</p>"
+      "name": "Quiver",
+      "description": "<p>A Quiver holds up to 20 Arrows.</p>"
     },
     "phbagRamPortable": {
-      "name": "Taran, Przenośny",
-      "description": "<p>Możesz użyć przenośnego tarana do wyważania drzwi. Podczas tego działania zyskujesz premię +4 do testu Siły. Inna postać może ci pomóc w użyciu tarana, dając ci Ułatwienie w tym teście.</p>"
+      "name": "Ram, Portable",
+      "description": "<p>You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check.</p>"
     },
     "phbagRations0000": {
-      "name": "Racje żywnościowe",
-      "description": "<p>Racje żywnościowe składają się z jedzenia gotowego do podróży, w tym suszonego mięsa, suszonych owoców, sucharów i orzechów. Zobacz &amp;Reference[Malnutrition] w glosariuszu zasad, aby poznać ryzyko niejedzenia.</p>",
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>",
       "activities": {
         "Consume": {
-          "name": "Spożycie"
+          "name": "Consume"
         }
       }
     },
     "phbagRobe0000000": {
-      "name": "Szaty",
-      "description": "<p>Szata ma znaczenie zawodowe lub ceremonialne. Niektóre wydarzenia i miejsca wpuszczają tylko osoby noszące szatę w określonych kolorach lub z określonymi symbolami.</p>"
+      "name": "Robe",
+      "description": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>"
     },
     "phbagRope0000000": {
-      "name": "Lina",
+      "name": "Rope",
       "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
       "activities": {
         "Tie Knot": {
-          "name": "Zawiąż węzeł"
+          "name": "Tie Knot"
         },
         "Burst Rope": {
-          "name": "Przerwij linę"
+          "name": "Burst Rope"
         },
         "Escape Check": {
-          "name": "Test ucieczki"
+          "name": "Escape Check"
         }
       }
     },
     "phbagSack0000000": {
-      "name": "Worek",
-      "description": "<p>Worek mieści do 30 funtów w objętości 1 stopy sześciennej.</p>"
+      "name": "Sack",
+      "description": "<p>A Sack holds up to 30 pounds within 1 cubic foot.</p>"
     },
     "phbagScholarsPac": {
-      "name": "Zestaw uczonego",
+      "name": "Scholar's Pack",
       "description": "<p>A Scholar's Pack contains the following items: @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Book}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Ink}, @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{Lamp}, 10 flasks of @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil}, 10 sheets of @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment}, and @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}.</p>"
     },
     "phbagShovel00000": {
-      "name": "Łopata",
-      "description": "<p>Pracując przez 1 godzinę, możesz użyć Łopaty, aby wykopać dół o wymiarach 5 stóp na każdą stronę w ziemi lub podobnym materiale.</p>"
+      "name": "Shovel",
+      "description": "<p>Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.</p>"
     },
     "phbagSignalWhist": {
-      "name": "Gwizdek",
-      "description": "<p>Gdy zostanie użyty jako Akcja Użycie Obiektu, Gwizdek sygnałowy wydaje dźwięk słyszalny z odległości do 600 stóp.</p>",
+      "name": "Signal Whistle",
+      "description": "<p>When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.</p>",
       "activities": {
         "Whistle": {
-          "name": "Zagwiżdż"
+          "name": "Whistle"
         }
       }
     },
     "phbagSpellScroll": {
-      "name": "Magiczny zwój, 1. krąg",
+      "name": "Spell Scroll, Level 1",
       "description": "<p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagCantripScro]{Spell Scroll (Cantrip)} or <em>Spell Scroll</em> (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's creator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.</p><p>If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed.</p>"
     },
     "phbagSpikesIron0": {
-      "name": "Kolce żelazne",
-      "description": "<p>Żelazne kolce są sprzedawane w pęczkach po dziesięć. Akcją Użycia Obiektu możesz użyć tępego przedmiotu, takiego jak młotek lekki, aby wbić kolec w drewno, ziemię lub podobny materiał. Możesz to zrobić, aby zablokować drzwi lub przywiązać linę albo łańcuch do kolca.</p>"
+      "name": "Spikes, Iron",
+      "description": "<p>Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike.</p>"
     },
     "phbagSpyglass100": {
-      "name": "Lunetka",
-      "description": "<p>Obiekty oglądane przez lunetkę są powiększone dwukrotnie.</p>"
+      "name": "Spyglass",
+      "description": "<p>Objects viewed through a Spyglass are magnified to twice their size.</p>"
     },
     "phbagString00000": {
-      "name": "Sznurek",
-      "description": "<p>Sznurek ma 10 stóp długości. Akcją Użycia Obiektu możesz zawiązać na nim węzeł.</p>"
+      "name": "String",
+      "description": "<p>String is 10 feet long. You can tie a knot in it as a Utilize action.</p>"
     },
     "phbagTent0000000": {
-      "name": "Namiot",
-      "description": "<p>Namiot może pomieścić do dwóch Małych lub Średnich istot.</p>"
+      "name": "Tent",
+      "description": "<p>A Tent sleeps up to two Small or Medium creatures.</p>"
     },
     "phbagTinderbox00": {
-      "name": "Zestaw do rozpalania ognia",
-      "description": "<p>Zestaw do rozpalania ognia to mały pojemnik zawierający krzesiwo, stal do krzesania iskier oraz hubkę (zwykle suchą tkaninę nasączoną lekkim olejem) używaną do rozpalania ognia. Użycie go do zapalenia świecy, lampy, latarni lub pochodni — lub czegokolwiek innego z odkrytym paliwem — zajmuje Akcję Dodatkową. Rozpalenie innego rodzaju ognia zajmuje 1 minutę.</p>",
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -5832,134 +5832,134 @@
       }
     },
     "phbagTorch000000": {
-      "name": "Pochodnia",
-      "description": "<p>Pochodnia pali się przez 1 godzinę, emitując Jasne światło w promieniu 20 stóp i Słabe światło na dodatkowe 20 stóp. Wykonując akcję Atak, możesz zaatakować pochodnią, używając jej jako prostej broni do walki wręcz. Przy trafieniu cel otrzymuje 1 obrażenie od ognia.</p>"
+      "name": "Torch",
+      "description": "<p>A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.</p>"
     },
     "phbagVial0000000": {
-      "name": "Fiolka",
-      "description": "<p>Fiolka mieści do 4 uncji.</p>"
+      "name": "Vial",
+      "description": "<p>A Vial holds up to 4 ounces.</p>"
     },
     "phbagWaterskin00": {
-      "name": "Bukłak",
+      "name": "Waterskin",
       "description": "<p>A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk &amp;Reference[dehydration].</p>"
     },
     "phbamoArrows0000": {
-      "name": "Strzały",
+      "name": "Arrows",
       "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
     },
     "phbamoBolts00000": {
-      "name": "Bełty",
+      "name": "Bolts",
       "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagCaseCrossbo]{Case}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
     },
     "phbamoBulletsFir": {
-      "name": "Pociski, Broń palna",
+      "name": "Bullets, Firearm",
       "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
     },
     "phbamoBulletsSli": {
-      "name": "Pociski, Proca",
+      "name": "Bullets, Sling",
       "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
     },
     "phbamoNeedles000": {
-      "name": "Igły",
+      "name": "Needles",
       "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>"
     },
     "phbarmBreastplat": {
-      "name": "Napierśnik"
+      "name": "Breastplate"
     },
     "phbarmChainMail0": {
-      "name": "Kolczuga"
+      "name": "Chain Mail"
     },
     "phbarmChainShirt": {
-      "name": "Koszula kolcza"
+      "name": "Chain Shirt"
     },
     "phbarmHalfPlateA": {
-      "name": "Zbroja półpłytowa"
+      "name": "Half Plate Armor"
     },
     "phbarmHideArmor0": {
-      "name": "Zbroja skórzana"
+      "name": "Hide Armor"
     },
     "phbarmLeatherArm": {
-      "name": "Skórznia"
+      "name": "Leather Armor"
     },
     "phbarmPaddedArmo": {
-      "name": "Przeszywanica"
+      "name": "Padded Armor"
     },
     "phbarmPlateArmor": {
-      "name": "Zbroja płytowa"
+      "name": "Plate Armor"
     },
     "phbarmRingMail00": {
-      "name": "Zbroja pierścieniowa"
+      "name": "Ring Mail"
     },
     "phbarmScaleMail0": {
-      "name": "Zbroja łuskowa"
+      "name": "Scale Mail"
     },
     "phbarmShield0000": {
-      "name": "Tarcza",
-      "description": "<p>Zyskujesz Klasę pancerza dzięki tarczy tylko wtedy, gdy jesteś w jej używaniu wyszkolony.</p>"
+      "name": "Shield",
+      "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>"
     },
     "phbarmSplintArmo": {
-      "name": "Zbroja płytkowa"
+      "name": "Splint Armor"
     },
     "phbarmStuddedLea": {
-      "name": "Ćwiekowana skóra"
+      "name": "Studded Leather Armor"
     },
     "phbdfcSprigofmis": {
-      "name": "Gałązka jemioły",
+      "name": "Sprig of mistletoe",
       "description": "<p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>"
     },
     "phbdfcWoodenstaf": {
-      "name": "Drewniany kostur",
+      "name": "Wooden staff",
       "description": "<p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p><p>This item also functions as a @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>"
     },
     "phbdfcYewwand000": {
-      "name": "Cisowa różdzka",
+      "name": "Yew wand",
       "description": "<p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>"
     },
     "phbgstDice000000": {
-      "name": "Kość",
-      "description": "<p><strong>Cecha:</strong> Mądrość</p><p class=\"phb-meta\"><strong>Użycie:</strong> Rozpoznanie, czy ktoś oszukuje (ST 10) lub wygranie gry (ST 20)</p>",
+      "name": "Dice",
+      "description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>",
       "activities": {
         "Catch Cheating": {
-          "name": "Przyłap na oszustwie"
+          "name": "Catch Cheating"
         },
         "Play to Win": {
-          "name": "Graj, by wygrać"
+          "name": "Play to Win"
         }
       }
     },
     "phbgstDragonches": {
-      "name": "Smokoszachy",
-      "description": "<p><strong>Cecha:</strong> Mądrość</p><p class=\"phb-meta\"><strong>Użycie:</strong> Rozpoznanie, czy ktoś oszukuje (ST 10) lub wygranie gry (ST 20)</p>",
+      "name": "Dragonchess",
+      "description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>",
       "activities": {
         "Catch Cheating": {
-          "name": "Przyłap na oszustwie"
+          "name": "Catch Cheating"
         },
         "Play to Win": {
-          "name": "Graj, by wygrać"
+          "name": "Play to Win"
         }
       }
     },
     "phbgstPlayingcar": {
-      "name": "Karty",
-      "description": "<p><strong>Cecha:</strong> Mądrość</p><p class=\"phb-meta\"><strong>Użycie:</strong> Rozpoznanie, czy ktoś oszukuje (ST 10) lub wygranie gry (ST 20)</p>",
+      "name": "Playing Cards",
+      "description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>",
       "activities": {
         "Catch Cheating": {
-          "name": "Przyłap na oszustwie"
+          "name": "Catch Cheating"
         },
         "Play to Win": {
-          "name": "Graj, by wygrać"
+          "name": "Play to Win"
         }
       }
     },
     "phbgstThreedrago": {
-      "name": "Stawka Trzech Smoków",
-      "description": "<p><strong>Cecha:</strong> Mądrość</p><p class=\"phb-meta\"><strong>Użycie:</strong> Rozpoznanie, czy ktoś oszukuje (ST 10) lub wygranie gry (ST 20)</p>",
+      "name": "Three-dragon ante",
+      "description": "<p><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern whether someone is cheating (DC 10), or win the game (DC 20)</p>",
       "activities": {
         "Catch Cheating": {
-          "name": "Przyłap na oszustwie"
+          "name": "Catch Cheating"
         },
         "Play to Win": {
-          "name": "Graj, by wygrać"
+          "name": "Play to Win"
         }
       }
     },
@@ -5968,480 +5968,480 @@
       "description": "<p><em><strong>Usage Requirement: </strong>Worn or held</em></p><p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
     },
     "phbhsyEmblemborn": {
-      "name": "Emblemat",
+      "name": "Emblem",
       "description": "<p><em><strong>Usage Requirement: </strong>Borne on fabric or a Shield</em></p><p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
     },
     "phbhsyReliquaryh": {
-      "name": "Relikwiarz",
+      "name": "Reliquary",
       "description": "<p><em><strong>Usage Requirement: </strong>Held</em></p><p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol} takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.</p>"
     },
     "phbmusBagpipes00": {
-      "name": "Dudy",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Bagpipes",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbmusDrum000000": {
-      "name": "Bęben",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Drum",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbmusDulcimer00": {
-      "name": "Cymbały",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Dulcimer",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbmusFlute00000": {
-      "name": "Flet",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Flute",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbmusHorn000000": {
-      "name": "Róg",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Horn",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbmusLute000000": {
-      "name": "Lutnia",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Lute",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbmusLyre000000": {
-      "name": "Lira",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Lyre",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbmusPanflute00": {
-      "name": "Syrynga",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Pan Flute",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbmusShawm00000": {
-      "name": "Szałamaja",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Shawm",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbmusViol000000": {
-      "name": "Viola",
-      "description": "<p><strong>Cecha:</strong> Charyzma</p><p class=\"phb-meta\"><strong>Użycie:</strong> Zagranie znanej melodii (ST 10) lub improwizacja utworu (ST 15)</p>",
+      "name": "Viol",
+      "description": "<p><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p>",
       "activities": {
         "Play a Known Tune": {
-          "name": "Zagraj znaną melodię"
+          "name": "Play a Known Tune"
         },
         "Improvise a Song": {
-          "name": "Improvizuj piosenkę"
+          "name": "Improvise a Song"
         }
       }
     },
     "phbtulAlchemists": {
-      "name": "Materiały alchemiczne",
+      "name": "Alchemist's Supplies",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Identify a substance (DC 15), or start a fire (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagAcid0000000]{Acid}, @UUID[Compendium.dnd5e.equipment24.Item.phbagAlchemistsF]{Alchemist's Fire}, @UUID[Compendium.dnd5e.equipment24.Item.phbagComponentPo]{Component Pouch}, @UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPaper000000]{Paper}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPerfume0000]{Perfume}</p>"
     },
     "phbtulBrewersSup": {
-      "name": "Materiały piwowarskie",
+      "name": "Brewer's Supplies",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Detect poisoned drink (DC 15), or identify alcohol (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagAntitoxin00]{Antitoxin}</p>",
       "activities": {
         "Detect Poisoned Drink": {
-          "name": "Wykryj zatruty napój"
+          "name": "Detect Poisoned Drink"
         },
         "Identify Alcohol": {
-          "name": "Zidentyfikuj alkohol"
+          "name": "Identify Alcohol"
         }
       }
     },
     "phbtulCalligraph": {
-      "name": "Materiały kaligraficzne",
+      "name": "Calligrapher's Supplies",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Write text with impressive flourishes that guard against forgery (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Ink}, <em>Spell Scroll</em></p>"
     },
     "phbtulCarpenters": {
-      "name": "Narzędzia cieśli",
+      "name": "Carpenter's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Seal or pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBarrel00000]{Barrel}, @UUID[Compendium.dnd5e.equipment24.Item.phbagChest000000]{Chest}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLadder00000]{Ladder}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPole0000000]{Pole}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Portable Ram}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Torch}</p>",
       "activities": {
         "Seal or Pry Open": {
-          "name": "Zapieczętuj lub podważ"
+          "name": "Seal or Pry Open"
         }
       }
     },
     "phbtulCartograph": {
-      "name": "Narzędzia kartografa",
+      "name": "Cartographer's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Draft a map of a small area (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagMap00000000]{Map}</p>",
       "activities": {
         "Draft a Map": {
-          "name": "Sporządź mapę"
+          "name": "Draft a Map"
         }
       }
     },
     "phbtulCobblersTo": {
-      "name": "Narzędzia szewca",
+      "name": "Cobbler's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Modify footwear to give Advantage on the wearer's next Dexterity (Acrobatics) check (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagClimbersKit]{Climber's Kit}</p>",
       "activities": {
         "Modify Footwear": {
-          "name": "Zmodyfikuj obuwie"
+          "name": "Modify Footwear"
         }
       }
     },
     "phbtulCooksUtens": {
-      "name": "Utensylia kucharza",
+      "name": "Cook's Utensils",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagRations0000]{Rations}</p>",
       "activities": {
         "Improve Flavor": {
-          "name": "Popraw smak"
+          "name": "Improve Flavor"
         },
         "Detect Spoiled or Poisoned Food": {
-          "name": "Wykryj zepsute lub zatrute jedzenie"
+          "name": "Detect Spoiled or Poisoned Food"
         }
       }
     },
     "phbtulDisguiseKi": {
-      "name": "Zestaw do charakteryzacji",
+      "name": "Disguise Kit",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Charisma</p><p class=\"phb-meta\"><strong>Utilize:</strong> Apply makeup (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagCostume0000]{Costume}</p>",
       "activities": {
         "Apply Makeup": {
-          "name": "Nałóż makijaż"
+          "name": "Apply Makeup"
         }
       }
     },
     "phbtulForgeryKit": {
-      "name": "Zestaw fałszerza",
+      "name": "Forgery Kit",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Mimic 10 or fewer words of someone else's handwriting (DC 15), or duplicate a wax seal (DC 20)</p>",
       "activities": {
         "Mimic Handwriting": {
-          "name": "Naśladuj pismo"
+          "name": "Mimic Handwriting"
         },
         "Duplicate Wax Seal": {
-          "name": "Powiel pieczęć woskową"
+          "name": "Duplicate Wax Seal"
         }
       }
     },
     "phbtulGlassblowe": {
-      "name": "Narzędzia szklarza",
+      "name": "Glassblower's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern what a glass object held in the past 24 hours (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Glass Bottle}, @UUID[Compendium.dnd5e.equipment24.Item.phbagMagnifyingG]{Magnifying Glass}, @UUID[Compendium.dnd5e.equipment24.Item.phbagSpyglass100]{Spyglass}, @UUID[Compendium.dnd5e.equipment24.Item.phbagVial0000000]{Vial}</p>",
       "activities": {
         "Discern Previous Contents": {
-          "name": "Ustal wcześniejszą zawartość"
+          "name": "Discern Previous Contents"
         }
       }
     },
     "phbtulHerbalismK": {
-      "name": "Zestaw zielarza",
+      "name": "Herbalism Kit",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Identify a plant (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagAntitoxin00]{Antitoxin}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCandle00000]{Candle}, @UUID[Compendium.dnd5e.equipment24.Item.phbagHealersKit0]{Healer's Kit}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPotionofHea]{Potion of Healing}</p>",
       "activities": {
         "Identify Plant": {
-          "name": "Zidentyfikuj roślinę"
+          "name": "Identify Plant"
         }
       }
     },
     "phbtulJewelersTo": {
-      "name": "Narzędzia jubilera",
+      "name": "Jeweler's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern a gem's value (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> Arcane Focus, Holy Symbol</p>",
       "activities": {
         "Discern Value": {
-          "name": "Oceń wartość"
+          "name": "Discern Value"
         }
       }
     },
     "phbtulLeatherwor": {
-      "name": "Narzędzia kaletnika",
+      "name": "Leatherworker's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Add a design to a leather item (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbwepSling00000]{Sling}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepWhip000000]{Whip}, @UUID[Compendium.dnd5e.equipment24.Item.phbarmHideArmor0]{Hide Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBackpack000]{Backpack}, @UUID[Compendium.dnd5e.items.Item.eJtPBiZtr2pp6ynt]{Crossbow Bolt Case}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCaseMaporSc]{Map or Scroll Case}, @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.equipment24.Item.phbagWaterskin00]{Waterskin}</p>",
       "activities": {
         "Add Design": {
-          "name": "Dodaj wzór"
+          "name": "Add Design"
         }
       }
     },
     "phbtulMasonsTool": {
-      "name": "Narzędzia kamieniarza",
+      "name": "Mason's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Chisel a symbol or hole in stone (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagBlockandTac]{Block and Tackle}</p>",
       "activities": {
         "Chisel a Symbol or Hole": {
-          "name": "Wyrzeźb symbol lub otwór"
+          "name": "Chisel a Symbol or Hole"
         }
       }
     },
     "phbtulNavigators": {
-      "name": "Narzędzia nawigatora",
-      "description": "<p class=\"phb-meta\"><strong>Cechą:</strong> Mądrość</p><p class=\"phb-meta\"><strong>Użycie Obiektu:</strong> Wyznaczenie kursu (ST 10) lub określenie pozycji poprzez obserwację gwiazd (ST 15)</p>",
+      "name": "Navigator's Tools",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Plot a course (DC 10), or determine position by stargazing (DC 15)</p>",
       "activities": {
         "Plot a Course": {
-          "name": "Wyznacz kurs"
+          "name": "Plot a Course"
         },
         "Determine Position by Stargazing": {
-          "name": "Ustal pozycję poprzez obserwację gwiazd"
+          "name": "Determine Position by Stargazing"
         }
       }
     },
     "phbtulPaintersSu": {
-      "name": "Materiały malarskie",
+      "name": "Painter's Supplies",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Wisdom</p><p class=\"phb-meta\"><strong>Utilize:</strong> Paint a recognizable image of something you've seen (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> Druidic Focus, Holy Symbol</p>",
       "activities": {
         "Paint a Recognizable Image": {
-          "name": "Namaluj rozpoznawalny obraz"
+          "name": "Paint a Recognizable Image"
         }
       }
     },
     "phbtulPoisonersK": {
-      "name": "Zestaw truciciela",
+      "name": "Poisoner's Kit",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence</p><p class=\"phb-meta\"><strong>Utilize:</strong> Detect a poisoned object (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPoisonBasic]{Basic Poison}</p>",
       "activities": {
         "Detect Poisoned Object": {
-          "name": "Wykryj zatruty przedmiot"
+          "name": "Detect Poisoned Object"
         }
       }
     },
     "phbtulPottersToo": {
-      "name": "Narzędzia garncarza",
+      "name": "Potter's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Intelligence <strong>Weight:</strong> 3 lb.</p><p class=\"phb-meta\"><strong>Utilize:</strong> Discern what a ceramic object held in the past 24 hours (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagJug00000000]{Jug}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{Lamp}</p>",
       "activities": {
         "Discern Previous Contents": {
-          "name": "Ustal wcześniejszą zawartość"
+          "name": "Discern Previous Contents"
         }
       }
     },
     "phbtulSmithsTool": {
-      "name": "Narzędzia kowala",
+      "name": "Smith's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Strength</p><p class=\"phb-meta\"><strong>Utilize:</strong> Pry open a door or container (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, @UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Ball Bearings}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBucket00000]{Bucket}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops}, @UUID[Compendium.dnd5e.equipment24.Item.phbagChain000000]{Chain}, @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}, @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Firearm Bullets}, @UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot}, @UUID[Compendium.dnd5e.equipment24.Item.phbagSpikesIron0]{Iron Spikes}, @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsSli]{Sling Bullets}</p>",
       "activities": {
         "Pry Open": {
-          "name": "Podważ"
+          "name": "Pry Open"
         }
       }
     },
     "phbtulThievesToo": {
-      "name": "Narzędzia złodziejskie",
-      "description": "<p class=\"phb-meta\"><strong>Cechą:</strong> Zręczność</p><p class=\"phb-meta\"><strong>Użycie Obiektu:</strong> Otworzenie zamka (ST 15) lub rozbrojenie pułapki (ST 15)</p>",
+      "name": "Thieves' Tools",
+      "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Pick a lock (DC 15), or disarm a trap (DC 15)</p>",
       "activities": {
         "Pick a Lock/Disarm a Trap": {
-          "name": "Otwórz zamek lub rozbrój pułapkę"
+          "name": "Pick a Lock/Disarm a Trap"
         }
       }
     },
     "phbtulTinkersToo": {
-      "name": "Narzędzia majsterkowicza",
+      "name": "Tinker's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbwepMusket0000]{Musket}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepPistol0000]{Pistol}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Bell}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Bullseye Lantern}, @UUID[Compendium.dnd5e.equipment24.Item.phbagFlask000000]{Flask}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Hooded Lantern}, @UUID[Compendium.dnd5e.equipment24.Item.phbagHuntingTrap]{Hunting Trap}, @UUID[Compendium.dnd5e.equipment24.Item.phbagLock0000000]{Lock}, @UUID[Compendium.dnd5e.equipment24.Item.phbagManacles000]{Manacles}, @UUID[Compendium.dnd5e.equipment24.Item.phbagMirror00000]{Mirror}, @UUID[Compendium.dnd5e.equipment24.Item.phbagShovel00000]{Shovel}, @UUID[Compendium.dnd5e.equipment24.Item.phbagSignalWhist]{Signal Whistle}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}</p>",
       "activities": {
         "Assemble a Tiny Item": {
-          "name": "Złóż drobny przedmiot"
+          "name": "Assemble a Tiny Item"
         }
       }
     },
     "phbtulWeaversToo": {
-      "name": "Narzędzia tkacza",
+      "name": "Weaver's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbarmPaddedArmo]{Padded Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBasket00000]{Basket}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Bedroll}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBlanket0000]{Blanket}, @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesFine]{Fine Clothes}, @UUID[Compendium.dnd5e.equipment24.Item.phbagNet00000000]{Net}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope}, @UUID[Compendium.dnd5e.equipment24.Item.phbagSack0000000]{Sack}, @UUID[Compendium.dnd5e.equipment24.Item.phbagString00000]{String}, @UUID[Compendium.dnd5e.equipment24.Item.phbagTent0000000]{Tent}, @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesTrav]{Traveler's Clothes}</p>",
       "activities": {
         "Mend or Sew": {
-          "name": "Napraw lub zszyj"
+          "name": "Mend or Sew"
         }
       }
     },
     "phbtulWoodcarver": {
-      "name": "Narzędzia snycerza",
+      "name": "Woodcarver's Tools",
       "description": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Carve a pattern in wood (DC 10)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbwepClub000000]{Club}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbamoBolts00000]{Bolts}, Druidic Focus, @UUID[Compendium.dnd5e.equipment24.Item.phbagInkPen00000]{Ink Pen}, @UUID[Compendium.dnd5e.equipment24.Item.phbamoNeedles000]{Needles}</p>",
       "activities": {
         "Carve Pattern": {
-          "name": "Wyryj wzór"
+          "name": "Carve Pattern"
         }
       }
     },
     "phbwepBattleaxe0": {
-      "name": "Topór bojowy"
+      "name": "Battleaxe"
     },
     "phbwepBlowgun000": {
-      "name": "Dmuchawka"
+      "name": "Blowgun"
     },
     "phbwepClub000000": {
-      "name": "Pałka"
+      "name": "Club"
     },
     "phbwepDagger0000": {
-      "name": "Sztylet"
+      "name": "Dagger"
     },
     "phbwepDart000000": {
-      "name": "Strzałka"
+      "name": "Dart"
     },
     "phbwepFlail00000": {
-      "name": "Kiścień"
+      "name": "Flail"
     },
     "phbwepGlaive0000": {
-      "name": "Glewia"
+      "name": "Glaive"
     },
     "phbwepGreataxe00": {
-      "name": "Topór dwuręczny"
+      "name": "Greataxe"
     },
     "phbwepGreatclub0": {
-      "name": "Maczuga"
+      "name": "Greatclub"
     },
     "phbwepGreatsword": {
-      "name": "Miecz dwuręczny"
+      "name": "Greatsword"
     },
     "phbwepHalberd000": {
-      "name": "Halabarda"
+      "name": "Halberd"
     },
     "phbwepHandCrossb": {
-      "name": "Kusza ręczna"
+      "name": "Hand Crossbow"
     },
     "phbwepHandaxe000": {
-      "name": "Toporek"
+      "name": "Handaxe"
     },
     "phbwepHeavyCross": {
-      "name": "Kusza ciężka"
+      "name": "Heavy Crossbow"
     },
     "phbwepJavelin000": {
-      "name": "Oszczep",
+      "name": "Javelin",
       "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
     },
     "phbwepLance00000": {
-      "name": "Lanca"
+      "name": "Lance"
     },
     "phbwepLightCross": {
-      "name": "Kusza lekka"
+      "name": "Light Crossbow"
     },
     "phbwepLightHamme": {
-      "name": "Leki młot"
+      "name": "Light Hammer"
     },
     "phbwepLongbow000": {
-      "name": "Długi łuk"
+      "name": "Longbow"
     },
     "phbwepLongsword0": {
-      "name": "Długi miecz"
+      "name": "Longsword"
     },
     "phbwepMace000000": {
-      "name": "Buława"
+      "name": "Mace"
     },
     "phbwepMaul000000": {
-      "name": "Młot dwuręczny"
+      "name": "Maul"
     },
     "phbwepMorningsta": {
-      "name": "Morgensztern"
+      "name": "Morningstar"
     },
     "phbwepMusket0000": {
-      "name": "Muszkiet"
+      "name": "Musket"
     },
     "phbwepPike000000": {
-      "name": "Pika"
+      "name": "Pike"
     },
     "phbwepPistol0000": {
-      "name": "Pistolet"
+      "name": "Pistol"
     },
     "phbwepQuartersta": {
-      "name": "Drąg"
+      "name": "Quarterstaff"
     },
     "phbwepRapier0000": {
       "name": "Rapier"
     },
     "phbwepScimitar00": {
-      "name": "Sejmitar"
+      "name": "Scimitar"
     },
     "phbwepShortbow00": {
-      "name": "Krótki łuk"
+      "name": "Shortbow"
     },
     "phbwepShortsword": {
-      "name": "Krótki miecz"
+      "name": "Shortsword"
     },
     "phbwepSickle0000": {
-      "name": "Sierp"
+      "name": "Sickle"
     },
     "phbwepSling00000": {
-      "name": "Proca"
+      "name": "Sling"
     },
     "phbwepSpear00000": {
-      "name": "Włócznia"
+      "name": "Spear"
     },
     "phbwepTrident000": {
-      "name": "Trójząb"
+      "name": "Trident"
     },
     "phbwepWarPick000": {
-      "name": "Nadziak"
+      "name": "War Pick"
     },
     "phbwepWarhammer0": {
-      "name": "Młot bojowy"
+      "name": "Warhammer"
     },
     "phbwepWhip000000": {
-      "name": "Bicz"
+      "name": "Whip"
     },
     "phiPN9UzkXk3i5xh": {
-      "name": "Książka",
-      "description": "<p>Księga zawiera treści fikcyjne lub literaturę faktu. Jeśli korzystasz z wiarygodnej, faktograficznej Książki dotyczącej danego tematu, zyskujesz premię +5 do testów Inteligencji (Wiedza tajemna, Historia, Przyroda lub Religia), które wykonujesz na ten temat.</p>"
+      "name": "Book",
+      "description": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>"
     },
     "pjxpIVbJEfOvM240": {
-      "name": "Ubrania dobrej jakości",
-      "description": "<p>Zestaw ubrań zaprojektowanych specjalnie tak, aby były drogie i to pokazywać..</p>"
+      "name": "Fine Clothes",
+      "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>"
     },
     "q6nVEb4XnTWxqA81": {
-      "name": "Olej",
+      "name": "Oil",
       "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         },
         "Douse Space": {
-          "name": "Zgaś przestrzeń"
+          "name": "Douse Space"
         }
       }
     },
     "rIuY5ZDJh6ctfUwG": {
-      "name": "Zestaw do rozpalania ognia",
-      "description": "<p>Zestaw do rozpalania ognia to mały pojemnik zawierający krzesiwo, stal do krzesania iskier oraz hubkę (zwykle suchą tkaninę nasączoną lekkim olejem) używaną do rozpalania ognia. Użycie go do zapalenia świecy, lampy, latarni lub pochodni — lub czegokolwiek innego z odkrytym paliwem — zajmuje Akcję Dodatkową. Rozpalenie innego rodzaju ognia zajmuje 1 minutę.</p>",
+      "name": "Tinderbox",
+      "description": "<p>A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -6449,28 +6449,28 @@
       }
     },
     "rZATMqE6y9uD3uzz": {
-      "name": "Papier",
-      "description": "<p>Jedna kartka Papieru może pomieścić około 250 ręcznie napisanych słów.</p>"
+      "name": "Paper",
+      "description": "<p>One sheet of Paper can hold about 250 handwritten words.</p>"
     },
     "rvz6gQc3OcOMgIQz": {
-      "name": "Łom",
+      "name": "Crowbar",
       "description": "<p>Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied.</p>"
     },
     "rwITntQ6OAy0neX8": {
-      "name": "Olej",
+      "name": "Oil",
       "description": "<p>You can douse a creature, object, or space with Oil or use it as fuel, as detailed below.</p><p><strong>Dousing a Creature or an Object.</strong> When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra [[/damage 5 type=fire]] damage from burning oil.</p><p><strong>Dousing a Space.</strong> You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn.</p><p><strong>Fuel.</strong> Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours.</p>",
       "activities": {
         "Throw": {
-          "name": "Rzuć"
+          "name": "Throw"
         },
         "Douse Space": {
-          "name": "Zgaś przestrzeń"
+          "name": "Douse Space"
         }
       }
     },
     "ts2DfyhdfsR092Td": {
-      "name": "Świeca",
-      "description": "<p>Przez 1 godzinę zapalona świeca rzuca Jasne Światło w promieniu 5 stóp i Słabe Światło na dodatkowe 5 stóp.</p>",
+      "name": "Candle",
+      "description": "<p>For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p>",
       "activities": {
         "Light": {
           "name": "Światło"
@@ -6478,39 +6478,39 @@
       }
     },
     "uBvsyY44RP4LJLzp": {
-      "name": "Pióro atramentowe",
-      "description": "<p>Pióro maczane w atramencie służy do pisania i rysowania</p>"
+      "name": "Ink Pen",
+      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>"
     },
     "vi0j4PYnO596a2L1": {
-      "name": "Atrament",
-      "description": "<p>Atrament jest dostarczany w butelce o pojemności 1 uncji, która zapewnia wystarczającą ilość atramentu do zapisania około 500 stron.</p>"
+      "name": "Ink",
+      "description": "<p>Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.</p>"
     },
     "x8jC9e00t4cUYiKR": {
-      "name": "Lina",
+      "name": "Rope",
       "description": "<p>As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.</p><p>You can bind an unwilling creature with the Rope only if the creature has the &amp;Reference[Grappled], &amp;Reference[Incapacitated], or &amp;Reference[Restrained] condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.</p>",
       "activities": {
         "Tie Knot": {
-          "name": "Zawiąż węzeł"
+          "name": "Tie Knot"
         },
         "Burst Rope": {
-          "name": "Przerwij linę"
+          "name": "Burst Rope"
         },
         "Escape Check": {
-          "name": "Test ucieczki"
+          "name": "Escape Check"
         }
       }
     },
     "x9BzTUcsOj6K6OJE": {
-      "name": "Pióro atramentowe",
-      "description": "<p>Pióro maczane w atramencie służy do pisania i rysowania</p>"
+      "name": "Ink Pen",
+      "description": "<p>Using Ink, an Ink Pen is used to write or draw.</p>"
     },
     "xP6OWuEaxQbDUfJV": {
-      "name": "Racje żywnościowe",
-      "description": "<p>Racje żywnościowe składają się z jedzenia gotowego do podróży, w tym suszonego mięsa, suszonych owoców, sucharów i orzechów. Zobacz &amp;Reference[Malnutrition] w glosariuszu zasad, aby poznać ryzyko niejedzenia.</p>"
+      "name": "Rations",
+      "description": "<p>Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See &amp;Reference[Malnutrition] in the rules glossary for the risks of not eating.</p>"
     },
     "yoRKNd2QddQp1XuX": {
-      "name": "Perfumy",
-      "description": "<p>Perfumy znajdują się w fiolce o pojemności 4 uncji. Przez 1 godzinę po zastosowaniu perfum na sobie masz Ułatwienie do testów Charyzmy (Perswazja) wykonywanych w celu wpłynięcia na obojętnego Humanoida w odległości do 5 stóp od siebie.</p>"
+      "name": "Perfume",
+      "description": "<p>Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself.</p>"
     }
   }
 }
