@@ -1,7 +1,6 @@
 {
   "label": "Character Origins",
   "mapping": {
-    "materials": "system.materials.value",
     "advancement": {
       "path": "system.advancement",
       "converter": "advancement"
@@ -86,7 +85,8 @@
       "description": "<p>As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</p>",
       "activities": {
         "Cloud's Jaunt": {
-          "name": "Cloud's Jaunt"
+          "name": "Cloud's Jaunt",
+          "target": "Unoccupied space"
         }
       }
     },

@@ -713,7 +713,8 @@
       "description": "<p>You conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the &amp;Reference[Frightened] condition until the start of your next turn, with both you and the spirit as the source of the fear.</p><p>As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and make the attack against a creature within 5 feet of it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d12 for each spell slot level above 6.</p>",
       "activities": {
         "Teleport and Attack": {
-          "name": "Teleport and Attack"
+          "name": "Teleport and Attack",
+          "target": "within range of spirit"
         }
       }
     },
@@ -1003,10 +1004,12 @@
       "materials": "powdered silver and iron",
       "activities": {
         "Dismissal": {
-          "name": "Dismissal"
+          "name": "Dismissal",
+          "target": "Celestial, Elemental, Fey, Fiend, or Undead"
         },
         "Break Enchantment": {
-          "name": "Break Enchantment"
+          "name": "Break Enchantment",
+          "target": "Celestial, Elemental, Fey, Fiend, or Undead"
         },
         "Cast": {
           "name": "Cast"
@@ -1143,7 +1146,8 @@
         },
         "Collapsing Structure Save": {
           "name": "Collapsing Structure Save",
-          "condition": "when a structure drops to 0 Hit Points"
+          "condition": "when a structure drops to 0 Hit Points",
+          "range": "half of the structure's height"
         }
       },
       "effects": {
@@ -1491,7 +1495,8 @@
         },
         "Damage Forbidden Creature": {
           "name": "Damage Forbidden Creature",
-          "condition": "creature of a chosen type enters the spell’s area for the first time on a turn or ends its turn there"
+          "condition": "creature of a chosen type enters the spell’s area for the first time on a turn or ends its turn there",
+          "range": "within the spell's area"
         }
       }
     },
@@ -1544,13 +1549,15 @@
         },
         "Freeze Water": {
           "name": "Freeze Water",
-          "condition": "if the globe strikes a body of water"
+          "condition": "if the globe strikes a body of water",
+          "target": "creatures swimming on the surface"
         },
         "Cast and Hold": {
           "name": "Cast and Hold"
         },
         "Throw Held Globe": {
-          "name": "Throw Held Globe"
+          "name": "Throw Held Globe",
+          "range": "if hurled with a sling, use sling's normal range"
         }
       },
       "effects": {
@@ -2193,7 +2200,8 @@
         },
         "Possess Humanoid": {
           "name": "Possess Humanoid",
-          "condition": "your soul inhabits the container"
+          "condition": "your soul inhabits the container",
+          "target": "target is Humanoid"
         },
         "Return from Host": {
           "name": "Return from Host"
@@ -2616,7 +2624,8 @@
           "name": "Create Globe"
         },
         "Blinding Save": {
-          "name": "Blinding Save"
+          "name": "Blinding Save",
+          "range": "measured from nearest point on wall or globe"
         },
         "Traversal Save": {
           "name": "Traversal Save"
@@ -2972,7 +2981,8 @@
           "name": "Extensive and Body Part"
         },
         "Create Sensor": {
-          "name": "Create Sensor"
+          "name": "Create Sensor",
+          "target": "at target location or within 10 feet of target creature"
         }
       }
     },
@@ -3320,19 +3330,23 @@
         },
         "Turn 2: Acid Rain": {
           "name": "Turn 2: Acid Rain",
-          "condition": "at the start of your turn"
+          "condition": "at the start of your turn",
+          "target": "creatures under the cloud"
         },
         "Turn 3: Lightning": {
           "name": "Turn 3: Lightning",
-          "condition": "at the start of your turn"
+          "condition": "at the start of your turn",
+          "target": "creatures under the cloud"
         },
         "Turn 4: Hailstones": {
           "name": "Turn 4: Hailstones",
-          "condition": "at the start of your turn"
+          "condition": "at the start of your turn",
+          "target": "creatures under the cloud"
         },
         "Turn 5+: Gusts and Rain": {
           "name": "Turn 5+: Gusts and Rain",
-          "condition": "at the start of your turn"
+          "condition": "at the start of your turn",
+          "target": "creatures under the cloud"
         }
       },
       "effects": {
@@ -3573,7 +3587,8 @@
         },
         "Start of Turn Effects": {
           "name": "Start of Turn Effects",
-          "condition": "start of each of your turns"
+          "condition": "start of each of your turns",
+          "range": "moves away from you"
         }
       }
     },

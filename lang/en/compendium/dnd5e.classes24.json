@@ -1,7 +1,6 @@
 {
   "label": "Character Classes",
   "mapping": {
-    "materials": "system.materials.value",
     "activities": {
       "path": "system.activities",
       "converter": "activities"
@@ -57,6 +56,11 @@
     "Abjure Foes": {
       "name": "Abjure Foes",
       "description": "<p>As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the &amp;Reference[Frightened] condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.</p><section class=\"secret\" id=\"secret-lu2BuwFj2pnJ367b\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which applies the Frightened condition.</p></section>",
+      "activities": {
+        "save": {
+          "target": "That you can see"
+        }
+      },
       "effects": {
         "Abjured": {
           "name": "Abjured"
@@ -279,10 +283,12 @@
       "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><section id=\"secret-iZHQe1DZBrtcFZCk\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd5e.classes24.Item.phbclcImprovedBl]{Improved Blessed Strikes}.</p></section>",
       "activities": {
         "Necrotic Divine Strike": {
-          "name": "Necrotic Divine Strike"
+          "name": "Necrotic Divine Strike",
+          "target": "When you a hit a creature with an attack roll using a weapon once per turn"
         },
         "Radiant Divine Strike": {
-          "name": "Radiant Divine Strike"
+          "name": "Radiant Divine Strike",
+          "target": "When you a hit a creature with an attack roll using a weapon once per turn"
         }
       }
     },
@@ -364,7 +370,8 @@
           "name": "Divine Spark: Save"
         },
         "Turn Undead": {
-          "name": "Turn Undead"
+          "name": "Turn Undead",
+          "target": "Undead of your choice"
         }
       },
       "effects": {
@@ -494,7 +501,8 @@
         },
         "Trip": {
           "name": "Trip",
-          "condition": "When you deal Snack Attack damage"
+          "condition": "When you deal Snack Attack damage",
+          "target": "Larger or smaller"
         },
         "Cunning Sneak Attack": {
           "name": "Cunning Sneak Attack",
@@ -581,7 +589,9 @@
         },
         "Redirect": {
           "name": "Redirect",
-          "condition": "If you reduce the damage to 0"
+          "condition": "If you reduce the damage to 0",
+          "range": "5 feet for melee attacks or 60 feet for ranged attacks",
+          "target": "Isn't behind Total Cover"
         }
       }
     },
@@ -595,7 +605,9 @@
         },
         "Redirect": {
           "name": "Redirect",
-          "condition": "If you reduce the damage to 0"
+          "condition": "If you reduce the damage to 0",
+          "range": "5 feet for melee attacks or 60 feet for ranged attacks",
+          "target": "Isn't behind Total Cover"
         }
       }
     },
@@ -650,7 +662,12 @@
     },
     "Disciple of Life": {
       "name": "Disciple of Life",
-      "description": "<p>When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.</p><section class=\"secret\" id=\"secret-Gy6bYP3AKuabnUlQ\"><p><strong>Foundry Note</strong></p><p>This feature includes a healing activity. Set the scale to the spell slot level you cast and it will provide a healing roll for you.</p></section>"
+      "description": "<p>When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.</p><section class=\"secret\" id=\"secret-Gy6bYP3AKuabnUlQ\"><p><strong>Foundry Note</strong></p><p>This feature includes a healing activity. Set the scale to the spell slot level you cast and it will provide a healing roll for you.</p></section>",
+      "activities": {
+        "heal": {
+          "target": "Create you cast a healing spell on"
+        }
+      }
     },
     "Disciplined Survivor": {
       "name": "Disciplined Survivor",
@@ -849,7 +866,12 @@
     },
     "Eldritch Mind": {
       "name": "Eldritch Mind",
-      "description": "<p>You have Advantage on Constitution saving throws that you make to maintain Concentration.</p>"
+      "description": "<p>You have Advantage on Constitution saving throws that you make to maintain Concentration.</p>",
+      "effects": {
+        "Eldritch Mind": {
+          "name": "Eldritch Mind"
+        }
+      }
     },
     "Eldritch Smite": {
       "name": "Eldritch Smite",
@@ -917,7 +939,8 @@
       "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8 type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage 1d8 type=thunder]]{thunder} damage (choose when you hit).</p><section class=\"secret\" id=\"secret-teMMREyPGTtod1kP\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd5e.classes24.Item.phbdrdImprovedEl]{Improved Elemental Fury}. If using the activity you will be able to select the damage type when rolling. It will default to your previously chosen damage type.</p></section>",
       "activities": {
         "Primal Strike": {
-          "name": "Primal Strike"
+          "name": "Primal Strike",
+          "target": "When you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape"
         }
       }
     },
@@ -1196,7 +1219,8 @@
       "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don't maintain it in this way.</p><p>While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 feet of each other.</p>",
       "activities": {
         "Gaze of Two Minds": {
-          "name": "Gaze of Two Minds"
+          "name": "Gaze of Two Minds",
+          "target": "Touch"
         }
       }
     },
@@ -1433,7 +1457,8 @@
           }
         },
         "Invest with Resistance": {
-          "name": "Invest with Resistance"
+          "name": "Invest with Resistance",
+          "target": "Your familiar"
         }
       },
       "effects": {
@@ -2009,7 +2034,12 @@
     },
     "Preserve Life": {
       "name": "Preserve Life",
-      "description": "<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose &amp;Reference[Bloodied] creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity does not automatically restrict the HP gained to 50% of the target's max.</p></section>"
+      "description": "<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose &amp;Reference[Bloodied] creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity does not automatically restrict the HP gained to 50% of the target's max.</p></section>",
+      "activities": {
+        "heal": {
+          "target": "Blooed creatures"
+        }
+      }
     },
     "Primal Champion": {
       "name": "Primal Champion",
@@ -2273,6 +2303,11 @@
     "Sacred Weapon": {
       "name": "Sacred Weapon",
       "description": "<p>When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.</p><p>The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.</p><p>You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.</p>",
+      "activities": {
+        "enchant": {
+          "condition": "when taking the Attack action"
+        }
+      },
       "effects": {
         "Sacred Weapon": {
           "name": "Sacred Weapon",
@@ -2295,7 +2330,8 @@
       "description": "<p>Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of 1d8, currently [[lookup @abilities.wis.mod]]) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</p><section class=\"secret\" id=\"secret-VJPPRFTlu1fFg8XB\"><p><strong>Foundry Note</strong></p><p>This feature can be used in place of Turn Undead. It consumes a use of Channel Divinity, includes the Save, Active Effects for the conditions, and this feature's damage roll.</p></section>",
       "activities": {
         "Channel Divinity: Turn Undead": {
-          "name": "Channel Divinity: Turn Undead"
+          "name": "Channel Divinity: Turn Undead",
+          "target": "Undead"
         }
       },
       "effects": {
@@ -2310,7 +2346,12 @@
     },
     "Second-Story Work": {
       "name": "Second-Story Work",
-      "description": "<p>You've trained to get into especially hard-to-reach places, granting you these benefits.</p><p><strong>Climber.</strong> You gain a Climb Speed equal to your Speed.</p><p><strong>Jumper.</strong> You can determine your &amp;Reference[Jumping]{jump} distance using your Dexterity rather than your Strength.</p><section class=\"secret\" id=\"secret-7BCLTkAFUjinYhJw\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically add the Climb Speed and will have to be added manually.</p></section>"
+      "description": "<p>You've trained to get into especially hard-to-reach places, granting you these benefits.</p><p><strong>Climber.</strong> You gain a Climb Speed equal to your Speed.</p><p><strong>Jumper.</strong> You can determine your &amp;Reference[Jumping]{jump} distance using your Dexterity rather than your Strength.</p><section class=\"secret\" id=\"secret-7BCLTkAFUjinYhJw\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically add the Climb Speed and will have to be added manually.</p></section>",
+      "effects": {
+        "Second-Story Work": {
+          "name": "Second-Story Work"
+        }
+      }
     },
     "Seeking Spell": {
       "name": "Seeking Spell",
@@ -2568,7 +2609,12 @@
     },
     "Superior Hunter's Prey": {
       "name": "Superior Hunter's Prey",
-      "description": "<p>Once per turn when you deal damage to a creature marked by your <em>Hunter's Mark</em>, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.</p><section id=\"secret-AuiRnxdHXs9cXvQV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can apply the damage from Hunter's Mark or use the <strong>Damage</strong> activity on this feature.</p></section>"
+      "description": "<p>Once per turn when you deal damage to a creature marked by your <em>Hunter's Mark</em>, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.</p><section id=\"secret-AuiRnxdHXs9cXvQV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can apply the damage from Hunter's Mark or use the <strong>Damage</strong> activity on this feature.</p></section>",
+      "activities": {
+        "damage": {
+          "range": "Of the damaged creature"
+        }
+      }
     },
     "Superior Inspiration": {
       "name": "Superior Inspiration",
@@ -2817,7 +2863,8 @@
       "description": "<blockquote><p>Prerequisite: Level 7+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{Speak with Dead} without expending a spell slot.</p>",
       "activities": {
         "Whisper": {
-          "name": "Whisper"
+          "name": "Whisper",
+          "target": "Corpse"
         }
       }
     },

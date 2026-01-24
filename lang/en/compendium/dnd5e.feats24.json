@@ -1,7 +1,6 @@
 {
   "label": "Feats",
   "mapping": {
-    "materials": "system.materials.value",
     "rangeActivities": {
       "path": "system.activities",
       "converter": "rangeActivities"
@@ -58,7 +57,8 @@
       "activities": {
         "Teleport": {
           "name": "Teleport",
-          "condition": "Immediately after you take the Attack action"
+          "condition": "Immediately after you take the Attack action",
+          "target": "Unocuppied space"
         }
       }
     },

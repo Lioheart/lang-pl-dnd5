@@ -42,14 +42,14 @@
     },
     "MNvsEc4D2ccX7dQT": {
       "name": "Kolegium mądrości",
-      "description": "<p>Bardowie z Kolegium Mądrości mają informacje na prawie każdy temat, a w poszukiwaniu wiedzy nie gardzą żadnym źródłem, od ksiąg uczonych po wioskowe gawędy. Potrafią oczarować publiczność zarówno ludową balladą śpiewaną w tawernie, jak i wyrafinowaną kompozycją wykonywaną na królewskim dworze. Kiedy już umilknie burza oklasków, widzowie mogą zacząć kwestionować sprawy dla siebie oczywiste - od zaufania do lokalnego kleru po wierność królowi.</p>\n<p>Dla bardów pogoń za pięknem i prawdą jest ważniejsza niż służba władcom czy przestrzeganie zasad wiary. Szlachcic mający barda za doradcę lub herolda musi liczyć się z tym, że bard częściej będzie szczery, niż taktowny czy dyplomatyczny.</p>\n<p>Spotkania członków kolegium chcących wymienić wiedzę organizuje się w bibliotekach, a niejednokrotnie właśnie w kolegiach wyposażonych w sale lekcyjne i dormitoria. Bywa, że spotykają się oni również na festiwalach lub podczas wydarzeń rangi państwowej, gdzie mogą obnażać korupcję i łgarstwa oraz kpić z zadufanych w sobie rządzących.</p>",
+      "description": "<p>Bardowie z Kolegium Mądrości mają informacje na prawie każdy temat, a w poszukiwaniu wiedzy nie gardzą żadnym źródłem, od ksiąg uczonych po wioskowe gawędy. Potrafią oczarować publiczność zarówno ludową balladą śpiewaną w tawernie, jak i wyrafinowaną kompozycją wykonywaną na królewskim dworze. Kiedy już umilknie burza oklasków, widzowie mogą zacząć kwestionować sprawy dla siebie oczywiste - od zaufania do lokalnego kleru po wierność królowi.</p><p>Dla bardów pogoń za pięknem i prawdą jest ważniejsza niż służba władcom czy przestrzeganie zasad wiary. Szlachcic mający barda za doradcę lub herolda musi liczyć się z tym, że bard częściej będzie szczery, niż taktowny czy dyplomatyczny.</p><p>Spotkania członków kolegium chcących wymienić wiedzę organizuje się w bibliotekach, a niejednokrotnie właśnie w kolegiach wyposażonych w sale lekcyjne i dormitoria. Bywa, że spotykają się oni również na festiwalach lub podczas wydarzeń rangi państwowej, gdzie mogą obnażać korupcję i łgarstwa oraz kpić z zadufanych w sobie rządzących.</p>",
       "advancement": {
         "Features": {
           "title": "Zdolności"
         },
         "Additional Magical Secrets": {
           "title": "Dodatkowe magiczne sekrety",
-          "hint": "Poznajesz dwa wybrane przez siebie czary z dowolnej klasy. Wybrane czary muszą być sztuczkami lub pochodzić z kręgu, który możesz rzucić, zgodnie z informacjami w tabeli rozwoju barda."
+          "hint": "Poznajesz dwa wybrane przez siebie czary z dowolnej klasy. Wybrane czary muszą być sztuczkami lub pochodzić z kręgu, który możesz rzucić, zgodnie z informacjami w tabeli rozwoju Barda."
         }
       }
     },

@@ -1,7 +1,6 @@
 {
   "label": "Monster Features (SRD)",
   "mapping": {
-    "materials": "system.materials.value",
     "rangeActivities": {
       "path": "system.activities",
       "converter": "rangeActivities"

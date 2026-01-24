@@ -529,26 +529,71 @@
     "Prismatic Layers": {
       "name": "Prismatic Layers",
       "results": {
-        "1-1": "<p><em>Failed Save:</em> [[/damage 12d6 fire]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects</em>: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage.</p>",
-        "2-2": "<p><em>Failed Save:</em> [[/damage 12d6 acid]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by <em>Gust of Wind</em>).</p>",
-        "3-3": "<p><em>Failed Save:</em> [[/damage 12d6 lightning]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> The layer is destroyed if it takes at least 60 force damage.</p>",
-        "4-4": "<p><em>Failed Save:</em> [[/damage 12d6 poison]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> A <em>Passwall</em> spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.</p>",
-        "5-5": "<p><em>Failed Save:</em> [[/damage 12d6 cold]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> The layer is destroyed if it takes at least 25 Fire damage.</p>",
-        "6-6": "<p><em>Failed Save:</em> The target has the &amp;Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p><p><em>Additional Effects:</em> Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the <em>Daylight</em> spell.</p>",
-        "7-7": "<p><em>Failed Save:</em> The target has the &amp;Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p><p><em>Additional Effects:</em> This layer is destroyed by <em>Dispel Magic</em>.</p>"
+        "1-1": {
+          "name": "Red",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6 fire]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects</em>: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage.</p>"
+        },
+        "2-2": {
+          "name": "Orange",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6 acid]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by <em>Gust of Wind</em>).</p>"
+        },
+        "3-3": {
+          "name": "Yellow",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6 lightning]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> The layer is destroyed if it takes at least 60 force damage.</p>"
+        },
+        "4-4": {
+          "name": "Green",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6 poison]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> A <em>Passwall</em> spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.</p>"
+        },
+        "5-5": {
+          "name": "Blue",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6 cold]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> The layer is destroyed if it takes at least 25 Fire damage.</p>"
+        },
+        "6-6": {
+          "name": "Indigo",
+          "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p><p><em>Additional Effects:</em> Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the <em>Daylight</em> spell.</p>"
+        },
+        "7-7": {
+          "name": "Violet",
+          "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p><p><em>Additional Effects:</em> This layer is destroyed by <em>Dispel Magic</em>.</p>"
+        }
       }
     },
     "Prismatic Rays": {
       "name": "Prismatic Rays",
       "results": {
-        "1-1": "<p><em>Failed Save:</em> [[/damage 12d6 fire]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>",
-        "2-2": "<p><em>Failed Save:</em> [[/damage 12d6]] acid damage.</p><p><em>Successful Save:</em> Half as much damage.</p>",
-        "3-3": "<p><em>Failed Save:</em> [[/damage 12d6 lightning]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>",
-        "4-4": "<p><em>Failed Save:</em> [[/damage 12d6 poison]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>",
-        "5-5": "<p><em>Failed Save:</em> [[/damage 12d6 cold]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>",
-        "6-6": "<p><em>Failed Save:</em> The target has the &amp;Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>",
-        "7-7": "<p><em>Failed Save:</em> The target has the &amp;Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>",
-        "8-8": "<p>The target is struck by two rays. Roll twice, rerolling any 8.</p>"
+        "1-1": {
+          "name": "Red",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6 fire]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "2-2": {
+          "name": "Orange",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6]] acid damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "3-3": {
+          "name": "Yellow",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6 lightning]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "4-4": {
+          "name": "Green",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6 poison]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "5-5": {
+          "name": "Blue",
+          "description": "<p><em>Failed Save:</em> [[/damage 12d6 cold]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "6-6": {
+          "name": "Indigo",
+          "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>"
+        },
+        "7-7": {
+          "name": "Violet",
+          "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
+        },
+        "8-8": {
+          "name": "Special",
+          "description": "<p>The target is struck by two rays. Roll twice, rerolling any 8.</p>"
+        }
       }
     },
     "Pseudodragon Treats": {

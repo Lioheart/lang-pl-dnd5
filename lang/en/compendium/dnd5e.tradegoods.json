@@ -1,7 +1,6 @@
 {
   "label": "Trade Goods (SRD)",
   "mapping": {
-    "materials": "system.materials.value",
     "weight": {
       "path": "system.weight",
       "converter": "weight"

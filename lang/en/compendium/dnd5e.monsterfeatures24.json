@@ -1,7 +1,6 @@
 {
   "label": "Monster Features",
   "mapping": {
-    "materials": "system.materials.value",
     "rangeActivities": {
       "path": "system.activities",
       "converter": "rangeActivities"
@@ -98,6 +97,11 @@
     "Animate Trees": {
       "name": "Animate Trees",
       "description": "<p>The [[lookup @name]] magically animates up to two trees it can see within [[lookup @range.value activity=EceTNjzjKWdrMNAy]] feet of itself. Each tree uses the <strong>Treant</strong> stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible.</p>",
+      "activities": {
+        "summon": {
+          "target": "Trees it can see within range"
+        }
+      },
       "effects": {
         "Animate Trees": {
           "name": "Animate Trees",
@@ -108,6 +112,11 @@
     "Antennae": {
       "name": "Antennae",
       "description": "<p>The [[lookup @name lowercase]] targets one [[lookup @target.affects.special activity=dcSC7EuknnM0uoqY]] object—armor or a weapon—worn or carried by a creature within [[lookup @range.value activity=dcSC7EuknnM0uoqY]] feet of itself. <em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=dcSC7EuknnM0uoqY]], the creature with the object. <em>Failure:</em> The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]</em> spell on the armor or weapon.</p><section class=\"secret\" id=\"secret-4QbvfWBnYI6ImcGC\"><p><strong>Foundry Note</strong></p><p>This feature also provides a <strong>Damaged</strong> Enchantment effect that will modify the targeted object. Due to the fact that the equipment penalty can be applied multiple times, the enchantment needs to be dragged from this item's Effects tab onto the target Item's sheet.</p></section>",
+      "activities": {
+        "save": {
+          "target": "nonmagical metal"
+        }
+      },
       "effects": {
         "Damaged: -1 AC/Attack": {
           "name": "Damaged: -1 AC/Attack",
@@ -120,7 +129,8 @@
       "description": "<p>The [[lookup @name lowercase]] swims up to its Swim Speed straight toward an enemy it can see.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "target": "target is visible"
         }
       }
     },
@@ -133,7 +143,8 @@
       "description": "<p>The [[lookup @name lowercase]] can teleport up to [[lookup @range.value activity=a3RqyzU0UqzLJif0]] feet to an unoccupied space it can see, and it makes one [[/item Claw]] attack.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "target": "unoccupied space"
         }
       }
     },
@@ -143,7 +154,8 @@
       "activities": {
         "Detach Attempt": {
           "name": "Detach Attempt",
-          "condition": "Action taken by the target or creature within range of it"
+          "condition": "Action taken by the target or creature within range of it",
+          "target": "attached target"
         }
       },
       "effects": {
@@ -186,6 +198,12 @@
     "Banish": {
       "name": "Banish",
       "description": "<p><em>Charisma Saving Throw:</em> DC [[lookup @save.dc.value activity=kWKwiAYgyeKBLMNJ]], one creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=kWKwiAYgyeKBLMNJ]] feet.</p><p><em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Incapacitated apply=false] condition and is transported to a harmless demiplane until the start of the [[lookup @name lowercase]]'s next turn, at which point it re­appears in an unoccupied space of the [[lookup @name lowercase]]'s choice within [[lookup @range.value activity=kWKwiAYgyeKBLMNJ]] feet of the [[lookup @name lowercase]].</p><p><em>Failure or Success:</em> The [[lookup @name lowercase]] can't take this action again [[lookup @duration.special activity=kWKwiAYgyeKBLMNJ]].</p>",
+      "activities": {
+        "save": {
+          "duration": "until the start of its next turn",
+          "target": "target is visible"
+        }
+      },
       "effects": {
         "Banished: Incapacitated": {
           "name": "Banished: Incapacitated",
@@ -198,7 +216,8 @@
       "description": "<p>At the start of each of its turns, the [[lookup @name lowercase]] deals [[/damage average]] damage to any creature [[lookup @target.affects.special activity=1O5eyc72vPW0UxYZ]].</p>",
       "activities": {
         "damage": {
-          "condition": "start of each of its turns"
+          "condition": "start of each of its turns",
+          "target": "it is grappling or any creature grappling it"
         }
       }
     },
@@ -253,7 +272,8 @@
         },
         "Calm Check": {
           "name": "Calm Check",
-          "condition": "Action taken by creature's creator"
+          "condition": "Action taken by creature's creator",
+          "target": "this creature"
         }
       },
       "effects": {
@@ -426,7 +446,8 @@
       "description": "<p>The [[lookup @name lowercase]] moves up to [[lookup @range.special activity=Y2IncZu5BjB42z7l]] straight toward an enemy it can see.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "range": "half its Speed"
         }
       }
     },
@@ -439,7 +460,8 @@
       "description": "<p>The [[lookup @name lowercase]] moves up to half its Speed without provoking &amp;Reference[Opportunity Attacks], and it makes one [[/item Radiant Horn]] attack.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "range": "half its speed"
         }
       }
     },
@@ -534,6 +556,9 @@
       "name": "Constrict",
       "description": "<p><em>Strength Saving Throw:</em><span class=\"Heading-4\"> </span>DC [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], one [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] creature the [[lookup @name lowercase]] can see within [[lookup @range.value activity=IgOMjRxAt7UISkJq]] feet. <em>Failure:</em> [[/damage average]] damage. The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]), and it has the &amp;Reference[Restrained apply=false] condition until the grapple ends.</p>",
       "activities": {
+        "save": {
+          "target": "Large or smaller"
+        },
         "Escape Check": {
           "name": "Escape Check"
         }
@@ -550,7 +575,8 @@
       "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=1Hy8CdhpwQlLxDPq]], [[lookup @target.affects.special activity=1Hy8CdhpwQlLxDPq]] the [[lookup @name lowercase]] can see within [[lookup @range.value activity=1Hy8CdhpwQlLxDPq]] feet. that has 0 Hit Points. <em>Failure:</em> The target dies, and the [[lookup @name lowercase]] regains [[/healing average activity=1waYTjY3NAIGZgrI]].</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "one living creature"
         },
         "Wisp: Healing": {
           "name": "Wisp: Healing"
@@ -568,7 +594,8 @@
       "description": "<p class=\"feature\"><em>Intelligence Saving Throw:</em> DC [[lookup @save.dc.value activity=uI3HDQ1grN123Or3]], [[lookup @target.affects.labels.statblock activity=uI3HDQ1grN123Or3]] within [[lookup @range.value activity=uI3HDQ1grN123Or3]] feet. [[lookup @target.affects.special activity=uI3HDQ1grN123Or3]] by the [[lookup @name lowercase]]. <em>Failure:</em> [[/damage average]] damage. <em>Success:</em> [[lookup @damage.onSave capitalize activity=uI3HDQ1grN123Or3]] damage. <em>Failure or Success:</em> The [[lookup @name lowercase]] gains the target's memories if the target is a Humanoid and is reduced to 0 Hit Points by this action.</p>",
       "activities": {
         "Intelligence Saving Throw": {
-          "name": "Intelligence Saving Throw"
+          "name": "Intelligence Saving Throw",
+          "target": "that is Charmed or Grappled"
         }
       }
     },
@@ -664,7 +691,8 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]] spends 5 feet of movement to jump to a space within 15 feet that contains one or more Large or smaller creatures.</p><p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=IPCXEQoTuaAG5l52]], each [[lookup @target.affects.type activity=IPCXEQoTuaAG5l52]] in the [[lookup @name lowercase]]'s destination space.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Prone apply=false] condition.</p><p class=\"feature\"><em>Success:</em> Half damage, and the target is pushed 5 feet straight away from the [[lookup @name lowercase]].</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "in the creature's destination space"
         }
       },
       "effects": {
@@ -688,7 +716,8 @@
       "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=3uA75vqvubgY300I]], [[lookup @target.affects.special activity=3uA75vqvubgY300I]] the [[lookup @name lowercase]] can see within [[lookup @range.value activity=3uA75vqvubgY300I]] feet.</p><p class=\"feature\"><em>Failure:</em> If the target has 20 Hit Points or fewer, it drops to 0 Hit Points. Otherwise, the target takes [[/damage average]] damage.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "one Frightened creature"
         }
       }
     },
@@ -716,7 +745,12 @@
     },
     "Deathly Teleport": {
       "name": "Deathly Teleport",
-      "description": "<p class=\"feature\">The [[lookup @name lowercase]] teleports up to [[lookup @range.value activity=zvj61Na7MlcIN2xw]] [[lookup @range.units activity=zvj61Na7MlcIN2xw]]. [[lookup @range.special activity=zvj61Na7MlcIN2xw]], and each [[lookup @target.affects.type activity=zvj61Na7MlcIN2xw]] within [[lookup @target.template.size activity=zvj61Na7MlcIN2xw]] [[lookup @target.template.units activity=zvj61Na7MlcIN2xw]]. of the space it left takes [[/damage average]] damage.</p>"
+      "description": "<p class=\"feature\">The [[lookup @name lowercase]] teleports up to [[lookup @range.value activity=zvj61Na7MlcIN2xw]] [[lookup @range.units activity=zvj61Na7MlcIN2xw]]. [[lookup @range.special activity=zvj61Na7MlcIN2xw]], and each [[lookup @target.affects.type activity=zvj61Na7MlcIN2xw]] within [[lookup @target.template.size activity=zvj61Na7MlcIN2xw]] [[lookup @target.template.units activity=zvj61Na7MlcIN2xw]]. of the space it left takes [[/damage average]] damage.</p>",
+      "activities": {
+        "damage": {
+          "range": "to an unoccupied space it can see"
+        }
+      }
     },
     "Deflect Missile": {
       "name": "Deflect Missile",
@@ -740,7 +774,9 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]] [[lookup @range.special activity=GDJtelEYYTgc9jwr]] within [[lookup @range.value activity=GDJtelEYYTgc9jwr]] feet of itself [[lookup @target.affects.special activity=GDJtelEYYTgc9jwr]]. The touch destroys a [[lookup @target.template.size activity=GDJtelEYYTgc9jwr]]-[[lookup @target.template.units activity=GDJtelEYYTgc9jwr]] [[lookup @target.template.type capitalize activity=GDJtelEYYTgc9jwr]] of the [[lookup @target.affects.type activity=GDJtelEYYTgc9jwr]].</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "range": "touches a nonmagical metal object",
+          "target": "that isn’t being worn or carried"
         }
       }
     },
@@ -825,7 +861,8 @@
       "activities": {
         "Save": {
           "name": "Save",
-          "chatFlavor": "Failure or Success: The target’s HP max. decreases by an amount equal to the damage taken."
+          "chatFlavor": "Failure or Success: The target’s HP max. decreases by an amount equal to the damage taken.",
+          "target": "Charmed by the creature"
         }
       }
     },
@@ -996,6 +1033,11 @@
     "Fear Aura": {
       "name": "Fear Aura",
       "description": "<p class=\"feature\">The [[lookup @name lowercase]] emanates an aura in a [[lookup @target.template.size activity=oT8238p9jXwVy76c]]-foot Emanation while it doesn't have the Incapacitated condition.</p><p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=oT8238p9jXwVy76c]], [[lookup @target.affects.special activity=oT8238p9jXwVy76c]].</p><p class=\"feature\"><em>Failure:</em> The target has the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s aura for 24 hours.</p>",
+      "activities": {
+        "save": {
+          "target": "any enemy that starts its turn in the aura"
+        }
+      },
       "effects": {
         "Frightened": {
           "name": "Frightened",
@@ -1081,7 +1123,9 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]] throws a [[lookup @target.affects.special activity=E7YKnUIWsavrnNzK]] Grappled by it to a space it can see within [[lookup @range.value activity=E7YKnUIWsavrnNzK]] feet of itself [[lookup @range.special activity=E7YKnUIWsavrnNzK]].</p><p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=E7YKnUIWsavrnNzK]], the creature thrown and each creature in the destination space.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Prone apply=false] condition.</p><p class=\"feature\"><em>Success:</em> Half damage.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "range": "that isn’t in the air",
+          "target": "Large creature"
         }
       },
       "effects": {
@@ -1205,7 +1249,8 @@
           "name": "Attack"
         },
         "Moving Attack": {
-          "name": "Moving Attack"
+          "name": "Moving Attack",
+          "target": "Medium or smaller"
         }
       },
       "effects": {
@@ -1503,7 +1548,8 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]] can pinpoint the location of [[lookup @target.affects.special activity=I1ppxiVO5CS6tKj0]] within [[lookup @target.template.size activity=I1ppxiVO5CS6tKj0]] feet of itself.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "target": "ferrous metal"
         }
       }
     },
@@ -1627,7 +1673,8 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]] sings a magical melody, which lasts until the [[lookup @name lowercase]]'s Concentration ends on it.</p><p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=dxxqZP7Vo01te3QB]], each [[lookup @target.affects.special activity=dxxqZP7Vo01te3QB]] in a [[lookup @target.template.size activity=dxxqZP7Vo01te3QB]]-foot Emanation originating from the [[lookup @name lowercase]] when the song starts.</p><p class=\"feature\"><em>Failure:</em> The target has the &amp;Reference[Charmed apply=false] condition until the song ends and repeats the save at the end of each of its turns. While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition and ignores the Luring Song of other harpies.</p><p class=\"feature\">If the target is more than 5 feet from the [[lookup @name lowercase]], the target moves on its turn toward the [[lookup @name lowercase]] by the most direct route, trying to get within 5 feet of the [[lookup @name lowercase]]. It doesn't avoid &amp;Reference[OpportunityAttacks]; however, before moving into damaging terrain (such as lava or a pit) and whenever it takes damage from a source other than the [[lookup @name lowercase]], the target repeats the save.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s Luring Song for 24 hours.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "Humanoid and Giant"
         }
       },
       "effects": {
@@ -1790,7 +1837,12 @@
     },
     "Nightmare Haunting": {
       "name": "Nightmare Haunting",
-      "description": "<p class=\"feature\">While on the Ethereal Plane, the [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Dream}</em>, using the same spellcasting ability as Spellcasting. Only the [[lookup @name lowercase]] can serve as the spell's messenger, and the target must be a [[lookup @target.affects.type activity=4GGGVhvLSrHgHdb9]] the [[lookup @name lowercase]] can see [[lookup @target.affects.special activity=4GGGVhvLSrHgHdb9]]. The spell fails and is wasted if the target is under the effect of the <em>@UUID[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</em> spell or within a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicCircl]{Magic Circle}</em> spell.</p><p class=\"feature\">If the target takes damage from the <em>Dream</em> spell, the target's Hit Point maximum decreases by an amount equal to that damage. If the spell kills the target, its soul is trapped in the [[lookup @name lowercase]]'s soul bag, and the target can't be raised from the dead until its soul is released.</p>"
+      "description": "<p class=\"feature\">While on the Ethereal Plane, the [[lookup @name lowercase]] casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Dream}</em>, using the same spellcasting ability as Spellcasting. Only the [[lookup @name lowercase]] can serve as the spell's messenger, and the target must be a [[lookup @target.affects.type activity=4GGGVhvLSrHgHdb9]] the [[lookup @name lowercase]] can see [[lookup @target.affects.special activity=4GGGVhvLSrHgHdb9]]. The spell fails and is wasted if the target is under the effect of the <em>@UUID[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</em> spell or within a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicCircl]{Magic Circle}</em> spell.</p><p class=\"feature\">If the target takes damage from the <em>Dream</em> spell, the target's Hit Point maximum decreases by an amount equal to that damage. If the spell kills the target, its soul is trapped in the [[lookup @name lowercase]]'s soul bag, and the target can't be raised from the dead until its soul is released.</p>",
+      "activities": {
+        "4GGGVhvLSrHgHdb9": {
+          "target": "on the Material Plane"
+        }
+      }
     },
     "Nightmare Ray": {
       "name": "Nightmare Ray",
@@ -1983,7 +2035,8 @@
           "name": "First Save"
         },
         "Second Save": {
-          "name": "Second Save"
+          "name": "Second Save",
+          "target": "Restrained creature"
         }
       },
       "effects": {
@@ -2051,6 +2104,11 @@
     "Possession": {
       "name": "Possession",
       "description": "<p class=\"feature\"><em>Charisma Saving Throw:</em> DC [[lookup @save.dc.value activity=7gmNBVjwuYTyANMe]], one [[lookup @target.affects.special activity=7gmNBVjwuYTyANMe]] the [[lookup @name lowercase]] can see within [[lookup @range.value activity=7gmNBVjwuYTyANMe]] feet.</p><p class=\"feature\"><em>Failure:</em> The target is possessed by the [[lookup @name lowercase]]; the [[lookup @name lowercase]] disappears, and the target has the &amp;Reference[Incapacitated apply=false] condition and loses control of its body. The [[lookup @name lowercase]] now controls the body, but the target retains awareness. The [[lookup @name lowercase]] can't be targeted by any attack, spell, or other effect, except ones that specifically target Undead. The [[lookup @name lowercase]]'s game statistics are the same, except it uses the possessed target's Speed, as well as the target's Strength, Dexterity, and Constitution modifiers.</p><p class=\"feature\">The possession lasts until the body drops to 0 Hit Points or the [[lookup @name lowercase]] leaves as a Bonus Action. When the possession ends, the [[lookup @name lowercase]] appears in an unoccupied space within 5 feet of the target, and the target is immune to this ghost's Possession for 24 hours.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s Possession for 24 hours.</p>",
+      "activities": {
+        "save": {
+          "target": "Humanioid"
+        }
+      },
       "effects": {
         "Incapacitated": {
           "name": "Incapacitated",
@@ -2104,14 +2162,20 @@
     },
     "Psychic Drain": {
       "name": "Psychic Drain",
-      "description": "<p class=\"feature\">If the [[lookup @name lowercase]] has at least one creature Charmed or Grappled, it uses Consume Memories and regains [[/healing average]].</p>"
+      "description": "<p class=\"feature\">If the [[lookup @name lowercase]] has at least one creature Charmed or Grappled, it uses Consume Memories and regains [[/healing average]].</p>",
+      "activities": {
+        "heal": {
+          "target": "one creature Charmed or Grappled"
+        }
+      }
     },
     "Pummel": {
       "name": "Pummel",
       "description": "<p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=aae828c0Hue0XOMP]], one creature Grappled by the [[lookup @name lowercase]].</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage.</p><p class=\"feature\"><em>Success:</em> Half damage.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "Grappled creature"
         }
       }
     },
@@ -2120,7 +2184,8 @@
       "description": "<p class=\"feature\"><em>Trigger:</em> Another creature the [[lookup @name lowercase]] can see ends its move within [[lookup @range.value activity=blUXkjLhs9kD2ofo]] feet of the [[lookup @name lowercase]]. <em>Response:</em> The [[lookup @name lowercase]] uses Teleport, but its destination space must be [[lookup @target.affects.special activity=blUXkjLhs9kD2ofo]].</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "target": "within 10 feet of the triggering creature"
         }
       }
     },
@@ -2129,7 +2194,8 @@
       "description": "<p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=aDWVHpJgsNPPNrDs]], [[lookup @target.affects.special activity=aDWVHpJgsNPPNrDs]] the [[lookup @name lowercase]] can see within [[lookup @target.template.size activity=aDWVHpJgsNPPNrDs]] [[lookup @target.template.units activity=aDWVHpJgsNPPNrDs]]. <em>Failure:</em> The target has the &amp;Reference[Grappled] condition (escape DC [[lookup @skills.ath.passive]]).</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "one Medium or smaller creature"
         },
         "Escape Check": {
           "name": "Escape Check"
@@ -2170,6 +2236,11 @@
     "Ram": {
       "name": "Ram",
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a [[lookup @target.affects.special activity=z58sUDUmqxECJgT3]] creature, it has the &amp;Reference[Prone apply=false] condition.</p>",
+      "activities": {
+        "attack": {
+          "target": "Medium or smaller"
+        }
+      },
       "effects": {
         "Prone": {
           "name": "Prone",
@@ -2204,7 +2275,8 @@
       "activities": {
         "Expend Use": {
           "name": "Expend Use",
-          "condition": "A creature the goblin can see makes an attack roll against it."
+          "condition": "A creature the goblin can see makes an attack roll against it.",
+          "target": "a Small or Medium ally"
         }
       }
     },
@@ -2412,7 +2484,8 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]] shape-shifts into a [[lookup @target.affects.special activity=EU2q25V5hIaM1ZlR]], or it returns to its true humanoid form, or it returns to its true form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "target": "{Size} {creature}-humanoid hybrid form or a {Size} {creature}"
         }
       }
     },
@@ -2444,7 +2517,8 @@
       "description": "<p>The [[lookup @name lowercase]] targets itself or one [[lookup @target.affects.type activity=sl8NoPhB0e5z6jmK]] it can see within [[lookup @range.value activity=sl8NoPhB0e5z6jmK]] feet of itself. The target gains [[/healing average temp]], and its AC increases by 2 until the end of the [[lookup @name lowercase]]'s' next turn. The [[lookup @name lowercase]] can't take this action again until the start of its next turn.</p>",
       "activities": {
         "Temporary Healing": {
-          "name": "Temporary Healing"
+          "name": "Temporary Healing",
+          "target": "targets itself or one creature"
         }
       },
       "effects": {
@@ -2504,7 +2578,8 @@
           "name": "1st Save"
         },
         "2nd Save": {
-          "name": "2nd Save"
+          "name": "2nd Save",
+          "target": "Creatures who failed the first save"
         }
       },
       "effects": {
@@ -2612,7 +2687,8 @@
           "name": "Save"
         },
         "Damage While Poisoned": {
-          "name": "Damage While Poisoned"
+          "name": "Damage While Poisoned",
+          "target": "The target that is poisoned"
         }
       },
       "effects": {
@@ -2708,10 +2784,12 @@
       "description": "<p class=\"feature\"><em>Dexterity Saving Throw:</em> DC [[lookup @save.dc.value activity=YorssyWMumAsvzx3]], [[lookup @target.affects.special activity=YorssyWMumAsvzx3]] by the [[lookup @name lowercase]] (the [[lookup @name lowercase]] can have only one creature swallowed at a time).</p><p class=\"feature\"><em>Failure:</em> The [[lookup @name lowercase]] swallows the target, which is no longer Grappled. While swallowed, a creature has the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained apply=false] conditions, has &amp;Reference[Total Cover] against attacks and other effects outside the [[lookup @name lowercase]], and takes [[/damage average activity=zrWNjO9mkbN28spL]] damage at the start of each of the [[lookup @name lowercase]]'s turns.</p><p class=\"feature\">If the [[lookup @name lowercase]] takes 30 damage or more on a single turn from the swallowed creature, the [[lookup @name lowercase]] must succeed on a [[/save format=long activity=rGeGukkm2t2fXsoy]] at the end of that turn or regurgitate the creature, which falls in a space within [[lookup @range.value activity=rGeGukkm2t2fXsoy]] [[lookup @range.units activity=rGeGukkm2t2fXsoy]]. of the [[lookup @name lowercase]] and has the &amp;Reference[Prone apply=false] condition. If the [[lookup @name lowercase]] dies, a swallowed creature is no longer Restrained and can escape from the corpse by using 15 feet of movement, exiting Prone.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "one Large or smaller creature Grappled"
         },
         "Damage: Swallowed": {
-          "name": "Damage: Swallowed"
+          "name": "Damage: Swallowed",
+          "target": "Swallowed by the behir"
         },
         "Regurgitate: Save": {
           "name": "Regurgitate: Save"
@@ -2752,7 +2830,8 @@
       "description": "<p class=\"feature\">If the [[lookup @name lowercase]] has a creature Grappled, the [[lookup @name lowercase]] flies up to half its Fly Speed without provoking &amp;Reference[OpportunityAttacks] and drops that creature.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "target": "If the roc has a creature Grappled"
         }
       }
     },
@@ -2820,7 +2899,8 @@
       "description": "<p><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=VC2iSwNPNaZ7M2bT]], [[lookup @target.affects.special activity=VC2iSwNPNaZ7M2bT]] by the [[lookup @name lowercase]]. <em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Stunned apply=false] condition until the start of the [[lookup @name lowercase]]'s next turn. <em>Success:</em> Half damage only.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "each creature Grappled"
         }
       },
       "effects": {
@@ -2889,7 +2969,8 @@
       "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=RWBqtTjGSlEgQWCl]], [[lookup @target.affects.special activity=RWBqtTjGSlEgQWCl]] in a [[lookup @target.template.size activity=RWBqtTjGSlEgQWCl]]-[[lookup @target.template.units activity=RWBqtTjGSlEgQWCl]]. [[lookup @target.template.type capitalize activity=RWBqtTjGSlEgQWCl]].</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Deafened apply=false] and &amp;Reference[Frightened apply=false] conditions until the end of its next turn.</p><p class=\"feature\"><em>Success:</em> Half damage only.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "each creature and each object that isn’t being worn or carried"
         }
       },
       "effects": {
@@ -2944,7 +3025,8 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]] moves up to its Speed without provoking &amp;Reference[OpportunityAttacks] and can move through the spaces of [[lookup @target.affects.special activity=FG9rAj3Q8UTxbGLF]]. Each [[lookup @target.affects.type activity=FG9rAj3Q8UTxbGLF]] whose space the [[lookup @name lowercase]] enters is targeted once by the following effect. </p><p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=FG9rAj3Q8UTxbGLF]]. </p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Prone apply=false] condition.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "target": "Medium or smaller creatures"
         }
       },
       "effects": {
@@ -2987,7 +3069,8 @@
       "description": "<p>If within [[lookup @range.value activity=8av8Lh1jNLCrOJny]] feet of a [[lookup @range.special activity=8av8Lh1jNLCrOJny]], the [[lookup @name lowercase]] teleports to an unoccupied space within [[lookup @range.value activity=8av8Lh1jNLCrOJny]] feet of a second [[lookup @target.affects.special activity=8av8Lh1jNLCrOJny]] that is within 60 feet of the previous tree.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Expend Use",
+          "range": "Large or bigger tree"
         }
       }
     },
@@ -3112,6 +3195,11 @@
     "Vile Appearance": {
       "name": "Vile Appearance",
       "description": "<p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=FR0ETDHBas1Z5LfF]], any [[lookup @target.affects.special activity=FR0ETDHBas1Z5LfF]] that starts its turn within [[lookup @range.value activity=FR0ETDHBas1Z5LfF]] feet of the [[lookup @name lowercase]] and can see the [[lookup @name lowercase]]'s true form.</p><p class=\"feature\"><em>Failure:</em> The target has the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]'s Horrific Appearance for 24 hours.</p>",
+      "activities": {
+        "save": {
+          "target": "Beast or Humanoid"
+        }
+      },
       "effects": {
         "Frightened": {
           "name": "Frightened",
@@ -3136,10 +3224,13 @@
       "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=cZy0VYbCVY8aRB4z]], one [[lookup @target.affects.special activity=cZy0VYbCVY8aRB4z]] in the [[lookup @name lowercase]]'s space. <em>Failure:</em> [[/damage average activity=cZy0VYbCVY8aRB4z]] damage, and the target has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Until the grapple ends, the target can't cast spells with a Verbal component and takes [[/damage average activity=kDz92inkRCjGrPiz]] damage at the start of each of the [[lookup @name lowercase]]'s turns.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "range": "In the creature's space",
+          "target": "Large or smaller creature"
         },
         "Damage: Grappled": {
-          "name": "Damage: Grappled"
+          "name": "Damage: Grappled",
+          "target": "The creature that is grappled"
         },
         "Escape Check": {
           "name": "Escape Check"
@@ -3157,7 +3248,8 @@
       "description": "<p class=\"feature\">The [[lookup @name lowercase]] or one [[lookup @target.affects.type activity=uN0VTW2Fqig7YAs9]] of its choice that can see or hear it gains [[/healing average temp]] and has Advantage on attack rolls until the start of the [[lookup @name lowercase]]'s next turn.</p>",
       "activities": {
         "Temp. Healing": {
-          "name": "Temp. Healing"
+          "name": "Temp. Healing",
+          "target": "The giant or one creature of its choice that can see or hear it"
         }
       },
       "effects": {
@@ -3257,7 +3349,8 @@
       "description": "<p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=TQchFj2VXXJgU7Lq]], each [[lookup @target.affects.type activity=TQchFj2VXXJgU7Lq]] in the [[lookup @name lowercase]]'s space.</p><p class=\"feature\"><em>Failure:</em> [[/damage average activity=TQchFj2VXXJgU7Lq]] damage. If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Until the grapple ends, the target has the &amp;Reference[Restrained apply=false] condition, is &amp;Reference[suffocating]{suffocating} unless it can breathe water, and takes [[/damage average activity=khxVwH3AB0sx1qRG]] damage at the start of each of the [[lookup @name lowercase]]'s turns. The [[lookup @name lowercase]] can grapple one Large creature or up to two Medium or smaller creatures at a time with Whelm.</p><p class=\"feature\">As an action, a creature within 5 feet of the [[lookup @name lowercase]] can pull a creature out of it by succeeding on a [[/check ath dc=@skills.ath.passive format=long]].</p><p class=\"feature\"><em>Success:</em> Half damage only.</p>",
       "activities": {
         "Save": {
-          "name": "Save"
+          "name": "Save",
+          "range": "Inside the creature's space"
         },
         "Damage: Start of Turn": {
           "name": "Damage: Start of Turn"
@@ -3279,7 +3372,8 @@
       "activities": {
         "Save": {
           "name": "Save",
-          "chatFlavor": "On Failure: Target is pushed 20 feet back."
+          "chatFlavor": "On Failure: Target is pushed 20 feet back.",
+          "target": "Must be in the creature's space"
         }
       },
       "effects": {
@@ -3295,7 +3389,8 @@
       "activities": {
         "Expend Use": {
           "name": "Expend Use",
-          "condition": "The attacking creature is hit by an attack roll"
+          "condition": "The attacking creature is hit by an attack roll",
+          "target": "to an unoccupied space it can see"
         }
       },
       "effects": {

@@ -1,7 +1,6 @@
 {
   "label": "Races (SRD)",
   "mapping": {
-    "materials": "system.materials.value",
     "effects": {
       "path": "effects",
       "converter": "effects"

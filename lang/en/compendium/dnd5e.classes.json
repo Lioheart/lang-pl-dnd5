@@ -1,7 +1,6 @@
 {
   "label": "Classes (SRD)",
   "mapping": {
-    "materials": "system.materials.value",
     "advancement": {
       "path": "system.advancement",
       "converter": "advancement"
