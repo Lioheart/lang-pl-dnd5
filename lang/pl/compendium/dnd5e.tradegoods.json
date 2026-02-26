@@ -9,7 +9,7 @@
   "entries": {
     "Canvas": {
       "name": "Płótno",
-      "description": "<p>Metr kwadratowy płótna o przeciętnej jakości i wadze. Używane do produkcji wielu przedmiotów i odzieży.</p>\n</p>Stopniowane od 1 do 12, im niższy numer, tym lepsza jakość i większa waga. Płótno jakości #1 waży około 0,7 kilograma na metr kwadratowy, podczas gdy słabsze, lżejsze #12 może ważyć tylko 0,3 kilograma.</p>"
+      "description": "<p>Metr kwadratowy płótna o przeciętnej jakości i wadze. Używane do produkcji wielu przedmiotów i odzieży.</p>\n<p>Stopniowane od 1 do 12, im niższy numer, tym lepsza jakość i większa waga. Płótno jakości #1 waży około 0,7 kilograma na metr kwadratowy, podczas gdy słabsze, lżejsze #12 może ważyć tylko 0,3 kilograma.</p>"
     },
     "Chicken": {
       "name": "Kurczak",
@@ -17,11 +17,11 @@
     },
     "Cinnamon": {
       "name": "Cynamon",
-      "description": "<p>Pozyskiwana z wewnętrznej kory drzewa cynamonowego, popularna, choć nieco rzadsza przyprawa, wśród szefów kuchni na całym świecie. Uwielbiany przez dzieci kiedy łączy się go z cukrem, aby stworzyć wiele rodzajów smakołyków.</p>"
+      "description": "<p>Przyprawa pozyskiwana z wewnętrznej kory drzewa cynamonowego. Choć nieco trudniej dostępna, jest popularna wśród szefów kuchni na całym świecie. Uwielbiana przez dzieci kiedy łączy się ją z cukrem, aby stworzyć wiele rodzajów smakołyków.</p>"
     },
     "Cloves": {
       "name": "Goździki",
-      "description": "<p>Mocna przyprawa ceniona zarówno przez szefów kuchni, jak i gorzelników, dobrze sprawdza się w aromatyzowaniu mięs i gulaszów, bogatych sosów, ciepłych napojów, takich jak cydr i herbata, chleba, serów i słodkich deserów, takich jak ciasta i keksy.</p>\n<p>Goździki to bogate, wysuszone, nieotwarte pąki Syzygium aromaticum, wiecznie zielonego drzewa z rodziny mirtowatych.</p>"
+      "description": "<p>Mocna przyprawa ceniona zarówno przez szefów kuchni, jak i gorzelników, dobrze sprawdza się w aromatyzowaniu mięs i gulaszów, bogatych sosów, ciepłych napojów, takich jak cydr i herbata, chleba, serów i słodkich deserów, takich jak ciasta i keksy.</p>\n<p>Goździki to aromatyczne, wysuszone, nieotwarte pąki Syzygium aromaticum, wiecznie zielonego drzewa z rodziny mirtowatych.</p>"
     },
     "Copper": {
       "name": "Miedź",
@@ -29,7 +29,7 @@
     },
     "Cotton": {
       "name": "Bawełna",
-      "description": "<p>Metr kwadratowy bawełny o przeciętnej jakości i gramaturze. Używany do produkcji wielu przedmiotów i odzieży.</p>\n<p>Znacznie lżejsza, wygodniejsza i łatwiejsza w obróbce niż płótno, jednak ze względu na stosunkowo delikatniejsze runo jest odpowiednio droższa i potencjalnie trudniej dostępna.</p>"
+      "description": "<p>Metr kwadratowy bawełny o przeciętnej jakości i gramaturze. Używana do produkcji wielu przedmiotów i odzieży.</p>\n<p>Znacznie lżejsza, wygodniejsza i łatwiejsza w obróbce niż płótno, jednak ze względu na stosunkowo delikatniejsze runo jest odpowiednio droższa i potencjalnie trudniej dostępna.</p>"
     },
     "Cow": {
       "name": "Krowa",
@@ -37,7 +37,7 @@
     },
     "Flour": {
       "name": "Mąka",
-      "description": "<p>Ziarno, które zostało zmielone przez młynarza na kolejnym etapie łańcucha pokarmowego.</p>"
+      "description": "<p>Ziarno, które zostało zmielone przez młynarza jako kolejny etap przygotowywania żywności.</p>"
     },
     "Ginger": {
       "name": "Imbir",
@@ -45,11 +45,11 @@
     },
     "Goat": {
       "name": "Koza",
-      "description": "<p>Kozy są pożytecznym gatunkiem dla rolników prowadzących małe gospodarstwa i mieszkańców gór. Skutecznie chronią łąki przed zarastaniem, dostarczając jednocześnie mleka, sera, a ostatecznie skór i mięsa.</p>\n<p>W zależności od rasy, dorosłe kozy mogą ważyć od 20, aż do 135 kilogramów.</p>"
+      "description": "<p>Kozy są pożytecznym gatunkiem dla rolników prowadzących małe gospodarstwa i mieszkańców gór. Skutecznie chronią łąki przed zarastaniem, dostarczając jednocześnie mleka, sera, a także skóry i mięsa.</p>\n<p>W zależności od rasy, dorosłe kozy mogą ważyć od 20, aż do 135 kilogramów.</p>"
     },
     "Gold": {
       "name": "Złoto",
-      "description": "<p>Złoto jest królem waluty dla wielu cywilizacji. Zazwyczaj bardziej powszechne niż platyna, ale nie aż tak powszechne jak inne metale, takie jak żelazo, zajmuje \"złoty punkt\" pod względem rzadkości i niereaktywności.</p>\n<p>W przeciwieństwie do srebra, złoto można łatwiej znaleźć na powierzchni. Zarówno wydobycie powierzchniowe, jak i podziemne może być niezwykle opłacalne. Gorączki złota mogą być i były źródłem wielkiego szczęścia i ogromnych tragedii.</p>"
+      "description": "<p>Złoto jest królem waluty dla wielu cywilizacji. Zazwyczaj bardziej powszechne niż platyna, ale nie aż tak powszechne jak inne metale, takie jak żelazo. Zajmuje &quot;złoty punkt&quot; pod względem rzadkości i niereaktywności.</p>\n<p>W przeciwieństwie do srebra, złoto można łatwiej znaleźć na powierzchni. Zarówno wydobycie powierzchniowe, jak i podziemne może być niezwykle opłacalne. Gorączki złota mogą być i były źródłem wielkiego szczęścia i ogromnych tragedii.</p>"
     },
     "Iron": {
       "name": "Żelazo",
@@ -61,7 +61,7 @@
     },
     "Ox": {
       "name": "Wół",
-      "description": "<p>Zasadniczo specjalnie wyszkolony wół mięsny lub mleczny, który osiągnął wiek 5 lat. Te wytrzymałe zwierzęta juczne mogą ciągnąć lub przenosić ciężary przekraczające masę ich własnego ciała. Używane do wielu zadań, takich jak ciągnięcie wozów, młócenie zboża, napędzanie maszyn nawadniających lub mielących ziarno, a nawet do jazdy wierzchem, woły są bardzo cenionymi stworzeniami dla pracowników w wielu dziedzinach.</p>"
+      "description": "<p>Zasadniczo specjalnie wyszkolony wół mięsny lub mleczny, który osiągnął wiek 5 lat. Te wytrzymałe zwierzęta juczne mogą ciągnąć lub przenosić ciężary przekraczające masę ich własnego ciała. Używane do wielu zadań, takich jak ciągnięcie wozów, młócenie zboża, napędzanie maszyn nawadniających lub mielących ziarno, a nawet do jazdy wierzchem. Woły są bardzo cenionymi stworzeniami dla pracowników wielu dziedzin.</p>"
     },
     "Pepper": {
       "name": "Pieprz",
@@ -77,7 +77,7 @@
     },
     "Saffron": {
       "name": "Szafran",
-      "description": "<p>Szafran to prawdopodobnie jeden z najbardziej cenionych składników na świecie, jest tak drogi, ponieważ jego produkcja jest niezwykle pracochłonna. Wyprodukowany z Crocus sativus, lub bardziej popularnie \"szafranowego krokusa\", potrzeba 80 000 kwiatów krokusa, aby wyprodukować 1 kilogram szafranu. Wagowo jest on wart więcej niż złoto. Ceniony przez najbardziej wymagających kucharzy i aptekarzy ze względu na swoje walory smakowe i rzekome korzyści zdrowotne.</p>"
+      "description": "<p>Szafran to prawdopodobnie jeden z najbardziej cenionych składników na świecie, jest tak drogi, ponieważ jego produkcja jest niezwykle pracochłonna. Wyprodukowany z Crocus sativus, lub bardziej popularnie &quot;szafranowego krokusa&quot;, potrzeba 80 000 kwiatów krokusa, aby wyprodukować 1 kilogram szafranu. Wagowo jest on wart więcej niż złoto. Ceniony przez najbardziej wymagających kucharzy i aptekarzy ze względu na swoje walory smakowe i rzekome korzyści zdrowotne.</p>"
     },
     "Salt": {
       "name": "Sól",
