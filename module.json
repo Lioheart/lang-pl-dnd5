@@ -44,6 +44,13 @@
         "type": "module",
         "compatibility": {}
       }
+    ],
+    "recommends": [
+      {
+        "id": "aedifs-compendium-search",
+        "type": "module",
+        "compatibility": {}
+      }
     ]
   },
   "description": "Pełne polskie tłumaczenie zasad podstawowych (Core) D&D 5.0 SRD oraz częściowe tłumaczenie kompendium. Zawiera możliwość podglądu angielskich tytułów i przełączania opisów między polskim a angielskim.",
