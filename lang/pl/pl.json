@@ -5682,8 +5682,8 @@
 "MACRO.5eUnownedWarn": "Możesz tworzyć przyciski makro tylko dla posiadanych przedmiotów",
 
 "MIGRATION.5eBegin": "Stosowanie migracji systemu D&D 5e dla wersji {version}. Prosimy o cierpliwość i nie wyłączanie gry lub serwera.",
-"MIGRATION.5eComplete": "Zakończono migrację systemu D&amp;D 5e do wersji {version}!",
-"MIGRATION.5eVersionTooOldWarning": "Twoje dane systemowe D&amp;D 5e pochodzą ze zbyt starej wersji Foundry i nie można ich niezawodnie przenieść do najnowszej wersji. Proces zostanie podjęty, ale mogą wystąpić błędy.",
+"MIGRATION.5eComplete": "Zakończono migrację systemu D&D 5e do wersji {version}!",
+"MIGRATION.5eVersionTooOldWarning": "Twoje dane systemowe D&D 5e pochodzą ze zbyt starej wersji Foundry i nie można ich niezawodnie przenieść do najnowszej wersji. Proces zostanie podjęty, ale mogą wystąpić błędy.",
 
 "SETTINGS.5eAutoCollapseCardL": "Automatycznie zwijaj opisy kart przedmiotów w historii czatu",
 "SETTINGS.5eAutoCollapseCardN": "Zwiń karty przedmiotów na czacie",
