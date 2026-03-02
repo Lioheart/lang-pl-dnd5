@@ -5611,7 +5611,7 @@
     "OptionalFeaturesDescription": "Następująca sekcja zawiera opcjonalne właściwości {class}. Właściwości te nie są przyznawane automatycznie i możesz wybrać jedną, niektóre lub wszystkie z nich według uznania MP.",
     "SpellSlotLevel": "Krąg komórki czarów",
     "SpellSlots": "Komórki czarów",
-    "SpellSlotsPerSpellLevel": "&mdash;Komórki poszczególnych kręgów&mdash;",
+    "SpellSlotsPerSpellLevel": "—Komórki poszczególnych kręgów—",
     "Style": {
       "Inferred": "Pochodzące ze źródła",
       "Legacy": "Stary",
