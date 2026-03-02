@@ -1199,8 +1199,8 @@
       "MonthDayYear": "{B} {d}, {y}"
     },
     "Month": {
-      "Fireseek": "Fireseek",
-      "Readying": "Readying",
+      "Fireseek": "Szukanie ognia",
+      "Readying": "Szykowanie",
       "Coldeven": "Coldeven",
       "Planting": "Planting",
       "Flocktime": "Flocktime",
