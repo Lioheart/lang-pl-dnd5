@@ -2831,7 +2831,7 @@
   }
 },
 
-"DND5E.FlagsInstructions": "Skonfiguruj zdolności i cechy postaci, które dostosowują zachowanie systemu D&amp;D Piątej Edycji.",
+"DND5E.FlagsInstructions": "Skonfiguruj zdolności i cechy postaci, które dostosowują zachowanie systemu D&D Piątej Edycji.",
 "DND5E.FlagsSave": "Aktualizuj cechy specjalne",
 "DND5E.FlagsTitle": "Skonfiguruj cechy specjalne",
 "DND5E.FlagsDiamondSoul": "Diamentowa Dusza",
@@ -5681,7 +5681,7 @@
 "MACRO.5eNoActorSelected": "Nie znaleziono żadnego wybranego ani przypisanego Aktora, do którego można by przypisać makro.",
 "MACRO.5eUnownedWarn": "Możesz tworzyć przyciski makro tylko dla posiadanych przedmiotów",
 
-"MIGRATION.5eBegin": "Stosowanie migracji systemu D&amp;D 5e dla wersji {version}. Prosimy o cierpliwość i nie wyłączanie gry lub serwera.",
+"MIGRATION.5eBegin": "Stosowanie migracji systemu D&D 5e dla wersji {version}. Prosimy o cierpliwość i nie wyłączanie gry lub serwera.",
 "MIGRATION.5eComplete": "Zakończono migrację systemu D&amp;D 5e do wersji {version}!",
 "MIGRATION.5eVersionTooOldWarning": "Twoje dane systemowe D&amp;D 5e pochodzą ze zbyt starej wersji Foundry i nie można ich niezawodnie przenieść do najnowszej wersji. Proces zostanie podjęty, ale mogą wystąpić błędy.",
 
