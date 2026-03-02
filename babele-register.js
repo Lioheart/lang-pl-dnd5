@@ -56,17 +56,20 @@ Hooks.once('init', () => {
 });
 
 Hooks.on("preCreateItem", (item, context) => {
-    const sourceId =
-        context?.fromCompendium?.uuid ||
-        item.flags?.core?.sourceId ||
-        item._stats?.compendiumSource ||
-        item._source?._stats?.compendiumSource;
+	const sourceId =
+	context?.fromCompendium?.uuid ||
+	item.flags?.core?.sourceId ||
+	item._stats?.compendiumSource ||
+	item._source?._stats?.compendiumSource;
 
-    if (!sourceId) return;
+	const originalName = item.flags?.babele?.originalName;
 
-    item.updateSource({
-        "flags.dnd5e_pl.id": sourceId
-    });
+	if (!sourceId || !originalName) return;
+
+	item.updateSource({
+		"flags.dnd5e_pl.id": sourceId,
+		"flags.dnd5e_pl.originalName": originalName
+	});
 });
 
 
