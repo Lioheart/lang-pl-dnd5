@@ -960,7 +960,7 @@
   "NoDestinations": "Brak dostępnych celów",
   "NoPrimaryParty": "Brak ustawionej drużyny, zamiast tego wyświetlane są postacie przypisane do graczy.",
   "NotGMError": "Polecenie /award jest dostępne tylko dla MP.",
-  "UnrecognizedWarning": "Nie można przetworzyć {commands}. Polecenie /award powinno być używane z PD i wartościami pieniężnymi, np. &apos;/award 10gp 50xp&apos;."
+  "UnrecognizedWarning": "Nie można przetworzyć {commands}. Polecenie /award powinno być używane z PD i wartościami pieniężnymi, np. '/award 10gp 50xp'."
 },
 "DND5E.Background": "Pochodzenie",
 "DND5E.BackgroundAdd": "Dodaj Pochodzenie",
