@@ -960,7 +960,7 @@
   "NoDestinations": "Brak dostępnych celów",
   "NoPrimaryParty": "Brak ustawionej drużyny, zamiast tego wyświetlane są postacie przypisane do graczy.",
   "NotGMError": "Polecenie /award jest dostępne tylko dla MP.",
-  "UnrecognizedWarning": "Nie można przetworzyć {commands}. Polecenie /award powinno być używane z PD i wartościami pieniężnymi, np. '/award 10gp 50xp'."
+  "UnrecognizedWarning": "Nie można przetworzyć {commands}. Polecenie /award powinno być używane z PD i wartościami pieniężnymi, np. &apos;/award 10gp 50xp&apos;."
 },
 "DND5E.Background": "Pochodzenie",
 "DND5E.BackgroundAdd": "Dodaj Pochodzenie",
@@ -1199,18 +1199,18 @@
       "MonthDayYear": "{B} {d}, {y}"
     },
     "Month": {
-      "Fireseek": "Szukanie ognia",
-      "Readying": "Szykowanie",
-      "Coldeven": "Chłodny wieczór",
-      "Planting": "Sadzenie",
-      "Flocktime": "Wypasanie",
-      "Wealsun": "Dostatek słońca",
-      "Reaping": "Zbiory",
-      "Godmonth": "Dobry miesiąc",
-      "Harvester": "Żniwa",
-      "Patchwall": "Łatanie ścian",
-      "Readyreat": "Zapasy",
-      "Sunsebb": "Zamglone słońce"
+      "Fireseek": "Fireseek",
+      "Readying": "Readying",
+      "Coldeven": "Coldeven",
+      "Planting": "Planting",
+      "Flocktime": "Flocktime",
+      "Wealsun": "Wealsun",
+      "Reaping": "Reaping",
+      "Godmonth": "Godmonth",
+      "Harvester": "Harvester",
+      "Patchwall": "Patchwall",
+      "Readyreat": "Ready&rsquo;reat",
+      "Sunsebb": "Sunsebb"
     },
     "Name": "Kalendarz Greyhawk",
     "Season": {
@@ -1229,7 +1229,7 @@
       "Five": "Piąty dzień",
       "Six": "Szósty dzień",
       "Seven": "Siódmy dzień",
-      "Eight": "Ósmy dzień",
+      "Eight": "ósmy dzień",
       "Nine": "Dziewiąty dzień",
       "Ten": "Dziesiąty dzień"
     },
@@ -1238,7 +1238,7 @@
       "Greengrass": "Zielone Trawy",
       "Midsummer": "Śródlecie",
       "Shieldmeet": "Tarczowy Wiec",
-      "Highharvestide": "Obfite Plony",
+      "Highharvestide": "Highharvestide",
       "FeastOfTheMoon": "Święto Księżyca"
     },
     "Formatters": {
@@ -5611,7 +5611,7 @@
     "OptionalFeaturesDescription": "Następująca sekcja zawiera opcjonalne właściwości {class}. Właściwości te nie są przyznawane automatycznie i możesz wybrać jedną, niektóre lub wszystkie z nich według uznania MP.",
     "SpellSlotLevel": "Krąg komórki czarów",
     "SpellSlots": "Komórki czarów",
-    "SpellSlotsPerSpellLevel": "-Komórki poszczególnych kręgów-",
+    "SpellSlotsPerSpellLevel": "&mdash;Komórki poszczególnych kręgów&mdash;",
     "Style": {
       "Inferred": "Pochodzące ze źródła",
       "Legacy": "Stary",
