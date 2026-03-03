@@ -347,9 +347,9 @@
 
 "DND5E.ACTOR": {
   "Warning": {
-    "CreateActor": "Aby przywołać bezpośrednio z kompendium, musisz mieć uprawnienie &bdquo;Utwórz nowych aktorów&rdquo;.",
+    "CreateActor": "Aby przywołać bezpośrednio z kompendium, musisz mieć uprawnienie 'Utwórz nowych aktorów'.",
     "InvalidItem": "Przedmioty typu {itemType} nie mogą zostać dodane do aktora {actorType}.",
-    "NoActor": "Nie można znaleźć aktora z identyfikatorem UUID &apos;{uuid}&apos; do przywołania.",
+    "NoActor": "Nie można znaleźć aktora z identyfikatorem UUID '{uuid}' do przywołania.",
     "Singleton": "Do aktora {actorType} można dodać tylko jeden przedmiot typu {itemType}."
   }
 },
@@ -421,7 +421,7 @@
     "Title": "Zwiększenie wartości Cech",
     "TitleEpic": "Epickie Dobrodziejstwo",
     "Warning": {
-      "Type": "Można wybrać tylko zdolności rodzaju &bdquo;Atut&rdquo;."
+      "Type": "Można wybrać tylko zdolności rodzaju 'Atut'."
     }
   },
   "Action": {
@@ -960,7 +960,7 @@
   "NoDestinations": "Brak dostępnych celów",
   "NoPrimaryParty": "Brak ustawionej drużyny, zamiast tego wyświetlane są postacie przypisane do graczy.",
   "NotGMError": "Polecenie /award jest dostępne tylko dla MP.",
-  "UnrecognizedWarning": "Nie można przetworzyć {commands}. Polecenie /award powinno być używane z PD i wartościami pieniężnymi, np. &apos;/award 10gp 50xp&apos;."
+  "UnrecognizedWarning": "Nie można przetworzyć {commands}. Polecenie /award powinno być używane z PD i wartościami pieniężnymi, np. '/award 10gp 50xp'."
 },
 "DND5E.Background": "Pochodzenie",
 "DND5E.BackgroundAdd": "Dodaj Pochodzenie",
@@ -1238,7 +1238,7 @@
       "Greengrass": "Zielone Trawy",
       "Midsummer": "Śródlecie",
       "Shieldmeet": "Tarczowy Wiec",
-      "Highharvestide": "Obfite Plony",
+      "Highharvestide": "Obfite plony",
       "FeastOfTheMoon": "Święto Księżyca"
     },
     "Formatters": {
@@ -1651,7 +1651,7 @@
 "DND5E.ConcentrationBreakWarning": "Przerwanie koncentracji na efekcie, który jest aktywny na innych stworzeniach, wymaga obecności aktywnego DM.",
 "DND5E.ConcentrationBonus": "Premia do testu na koncentrację",
 "DND5E.ConcentrationDuration": "Koncentracja, aż do {duration}",
-"DND5E.ConcentratingOn": "Koncentrujesz się na efektach: &bdquo;{name}&rdquo; {type}.",
+"DND5E.ConcentratingOn": "Koncentrujesz się na efektach: '{name}' {type}.",
 "DND5E.ConcentratingEndChoice": "Koncentrujesz się na efektach z więcej niż jednego źródła. Wybierz, który efekt ma się zakończyć.",
 "DND5E.ConcentratingMissingItem": "Efekt, na którym się koncentrujesz i który ma zostać zastąpiony, nie istnieje.",
 "DND5E.ConcentratingLimited": "Nie jesteś w stanie zacząć koncentrować się na dodatkowym efekcie.",
@@ -2777,7 +2777,7 @@
   "Hint": "Uaktywnij kolejną aktywność na tym przedmiocie, z innym zużyciem oraz skalowaniem.",
   "Title": "Naprzód",
   "Warning": {
-    "NoActivity": "Powiązana aktywność musi zostać skonfigurowana zanim aktywność &quot;Naprzód&quot; może być użyta."
+    "NoActivity": "Powiązana aktywność musi zostać skonfigurowana zanim aktywność 'Naprzód' może być użyta."
   }
 },
 
@@ -2827,7 +2827,7 @@
 "DND5E.FLAGS": {
   "EnhancedDualWielding": {
     "Name": "Ulepszona Walka Dwiema Broniami",
-    "Hint": "Zezwalaj na dodatkowe ataki w ramach akcji dodatkowej przy użyciu dowolnej broni białej bez właściwości &quot;Dwuręczna&quot;."
+    "Hint": "Zezwalaj na dodatkowe ataki w ramach akcji dodatkowej przy użyciu dowolnej broni białej bez właściwości 'Dwuręczna'."
   }
 },
 
@@ -3143,7 +3143,7 @@
 "DND5E.ItemRecoveryRoll": "{name} odzyskuje {count} ładunków",
 "DND5E.ItemLossRoll": "{name} traci {count} ładunków",
 "DND5E.ItemRecoveryRollMax": "{name} odzyskuje wszystkie ładunki",
-"DND5E.ItemRecoveryFormulaWarning": "{name} nie może odzyskać ładunków użyć. Nieprawidłowy wzór rzutu na odzyskiwanie &bdquo;{formula}&rdquo; ({uuid}).",
+"DND5E.ItemRecoveryFormulaWarning": "{name} nie może odzyskać ładunków użyć. Nieprawidłowy wzór rzutu na odzyskiwanie '{formula}' ({uuid}).",
 "DND5E.ItemRequiredStr": "Wymagana Siła",
 "DND5E.Items": "Przedmioty",
 "DND5E.ItemSiegeProperties": "Właściwości oblężenia",
@@ -4188,9 +4188,9 @@
 },
 "DND5E.SubclassAdd": "Dodaj podklasę",
 "DND5E.SubclassIdentifierHint": "Identyfikator ten powinien być zgodny z identyfikatorem klasy nadrzędnej, aby upewnić się, że są one prawidłowo połączone.",
-"DND5E.SubclassAssignmentError": "{class} ma już podklasę. Usuń istniejącą podklasę &bdquo;{subclass}&rdquo; przed dodaniem nowej.",
+"DND5E.SubclassAssignmentError": "{class} ma już podklasę. Usuń istniejącą podklasę '{subclass}' przed dodaniem nowej.",
 "DND5E.SubclassDuplicateError": "Podklasa o identyfikatorze {identifier} już istnieje na tym Aktorze.",
-"DND5E.SubclassMismatchWarn": "Podklasa {name} nie ma pasującej klasy z identyfikatorem &apos;{class}&apos;.",
+"DND5E.SubclassMismatchWarn": "Podklasa {name} nie ma pasującej klasy z identyfikatorem '{class}'.",
 "DND5E.SubclassName": "Nazwa Podklasy",
 "DND5E.Subtype": "Podtyp",
 "DND5E.Summary": "Podsumowanie",
@@ -4337,9 +4337,9 @@
   },
   "Title": "Przywołanie",
   "Warning": {
-    "NoOwnership": "Musisz mieć własność &apos;{actor}&apos;, aby go przywołać.",
-    "NoProfile": "Nie można znaleźć profilu przywołania {profileId} w &apos;{item}&apos;.",
-    "Wildcard": "Musisz mieć uprawnienia &bdquo;Użyj przeglądarki plików&rdquo;, aby przywoływać stworzenia ze zmiennymi grafikami."
+    "NoOwnership": "Musisz mieć własność '{actor}', aby go przywołać.",
+    "NoProfile": "Nie można znaleźć profilu przywołania {profileId} w '{item}'.",
+    "Wildcard": "Musisz mieć uprawnienia 'Użyj przeglądarki plików', aby przywoływać stworzenia ze zmiennymi grafikami."
   }
 },
 
@@ -4595,7 +4595,7 @@
 "DND5E.TimeHour": "Godziny",
 "DND5E.TimeHourAbbr": "godz.",
 "DND5E.TimeInst": "Natychmiastowy",
-"DND5E.TimeMinute": "Minuty",
+"DND5E.TimeMinute": "Minut",
 "DND5E.TimeMinuteAbbr": "m",
 "DND5E.TimeMonth": "Miesiące",
 "DND5E.TimePerm": "Na stałe",
@@ -4911,7 +4911,7 @@
   "Warning": {
     "NoOwnership": "Nie masz uprawnień by przemienić tego aktora.",
     "NoPermission": "Uprawnienie by przemieniać aktorów nie zostało przyznane graczom.",
-    "OriginalActor": "Nie znaleziono oryginalnego Aktora z ID &bdquo;{reference}&rdquo;.",
+    "OriginalActor": "Nie znaleziono oryginalnego Aktora z ID '{reference}'.",
     "SourceActor": "Nie znaleziono aktora, w którego można by się przemienić."
   }
 },
@@ -5425,7 +5425,7 @@
 "DND5E.VersatileDamage": "Obrażenia oburącz",
 "DND5E.VsDC": "kontra ST.",
 "DND5E.Vulnerabilities": "Podatności",
-"DND5E.WarnBadACFormula": "Podany wzór rzutu na KP &quot;{formula}&quot; nie mógł zostać obliczony.",
+"DND5E.WarnBadACFormula": "Podany wzór rzutu na KP '{formula}' nie mógł zostać obliczony.",
 "DND5E.WarnCantAddMultipleAdvancements": "Obecnie nie jest możliwe dodanie na raz wielu przedmiotów z awansami do Aktora. Dodaj je pojedynczo.",
 "DND5E.WarnMultipleArmor": "Założono więcej niż jedną zbroję, kalkulacja KP może być nieprawidłowa.",
 "DND5E.WarnMultipleShields": "Wyposażono więcej niż jedną tarczę, kalkulacja KP może być nieprawidłowa.",
@@ -5611,7 +5611,7 @@
     "OptionalFeaturesDescription": "Następująca sekcja zawiera opcjonalne właściwości {class}. Właściwości te nie są przyznawane automatycznie i możesz wybrać jedną, niektóre lub wszystkie z nich według uznania MP.",
     "SpellSlotLevel": "Krąg komórki czarów",
     "SpellSlots": "Komórki czarów",
-    "SpellSlotsPerSpellLevel": "—Komórki poszczególnych kręgów—",
+    "SpellSlotsPerSpellLevel": "-Komórki poszczególnych kręgów-",
     "Style": {
       "Inferred": "Pochodzące ze źródła",
       "Legacy": "Stary",
@@ -5637,7 +5637,7 @@
       "None": "Bez grupowania",
       "School": "Według szkoły"
     },
-    "IdentifierHint": "Identyfikator powinien być zgodny z identyfikatorem zdefiniowanym w powiązanym dokumencie, jeśli dotyczy. Na przykład podczas tworzenia listy czarów dla klasy Maga, identyfikatorem powinien być &bdquo;mag&rdquo;.",
+    "IdentifierHint": "Identyfikator powinien być zgodny z identyfikatorem zdefiniowanym w powiązanym dokumencie, jeśli dotyczy. Na przykład podczas tworzenia listy czarów dla klasy Maga, identyfikatorem powinien być 'mag'.",
     "Type": {
       "Label": "Rodzaj listy czarów",
       "Other": "Bez kategorii"
@@ -5676,8 +5676,8 @@
 "KEYBINDINGS.DND5E.SkipDialogAdvantage": "Pomiń okno dialogowe (rzut z Ułatwieniem/Krytyk)",
 "KEYBINDINGS.DND5E.SkipDialogDisadvantage": "Pomiń okno dialogowe (rzut z Utrudnieniem/Nie krytyk)",
 
-"MACRO.5eMissingTargetWarn": "Twój Aktor &apos;{actor}&apos; nie ma {type} z nazwą &apos;{name}&apos;.",
-"MACRO.5eMultipleTargetsWarn": "Twój Aktor &apos;{actor}&apos; ma więcej niż jeden {type} z nazwą &apos;{name}&apos;. Zostanie wybrany pierwszy dopasowany.",
+"MACRO.5eMissingTargetWarn": "Twój Aktor '{actor}' nie ma {type} z nazwą '{name}'.",
+"MACRO.5eMultipleTargetsWarn": "Twój Aktor '{actor}' ma więcej niż jeden {type} z nazwą '{name}'. Zostanie wybrany pierwszy dopasowany.",
 "MACRO.5eNoActorSelected": "Nie znaleziono żadnego wybranego ani przypisanego Aktora, do którego można by przypisać makro.",
 "MACRO.5eUnownedWarn": "Możesz tworzyć przyciski makro tylko dla posiadanych przedmiotów",
 
