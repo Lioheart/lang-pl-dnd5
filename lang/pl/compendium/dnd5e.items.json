@@ -205,7 +205,7 @@
     },
     "Bag of Beans": {
       "name": "Worek fasolek",
-      "description": "<p>Wewnątrz tego ciężkiego płóciennego worka znajduje się 3k4 suchych fasolek ([[/r 3d4 #Bag of Beans contents]]). Worek waży 0,25 kilograma plus 0,125 kilograma za każde znajdujące się w środku ziarno.</p><p>Jeśli wyrzucisz zawartość worka na ziemię, wywołuje ona eksplozję o promieniu 3 metrów rozciągającą się od ziaren. Każda istota na tym obszarze, w tym ty, musi wykonać rzut obronny na Zręczność o ST 15. W przypadku niepowodzenia otrzymuje 5k4 obrażeń od ognia lub połowę obrażeń w przypadku sukcesu. Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p>Jeśli wyjmiesz ziarno z worka, zasadzisz je w ziemi lub piasku, a następnie podlejesz, ziarno wywoła efekt 1 minutę później z ziemi, w której zostało zasadzone. MP może wybrać efekt z tabeli @UUID[Compendium.dnd5e.tables.RollTable.4ryVFV5LPHPzRKxl]{worek fasolek}, określić go losowo lub stworzyć własny.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.4ryVFV5LPHPzRKxl rollable]</p>"
+      "description": "<p>Wewnątrz tego ciężkiego płóciennego worka znajduje się [[/r 3d4 #Bag of Beans contents]]{3k4 suchych fasolek}. Worek waży 0,25 kilograma plus 0,125 kilograma za każde znajdujące się w środku ziarno.</p><p>Jeśli wyrzucisz zawartość worka na ziemię, wywołuje ona eksplozję o promieniu 3 metrów rozciągającą się od ziaren. Każda istota na tym obszarze, w tym ty, musi wykonać rzut obronny na Zręczność o ST 15. W przypadku niepowodzenia otrzymuje 5k4 obrażeń od ognia lub połowę obrażeń w przypadku sukcesu. Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p>Jeśli wyjmiesz ziarno z worka, zasadzisz je w ziemi lub piasku, a następnie podlejesz, ziarno wywoła efekt 1 minutę później z ziemi, w której zostało zasadzone. MP może wybrać efekt z tabeli @UUID[Compendium.dnd5e.tables.RollTable.4ryVFV5LPHPzRKxl]{worek fasolek}, określić go losowo lub stworzyć własny.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.4ryVFV5LPHPzRKxl rollable]</p>"
     },
     "Bag of Devouring": {
       "name": "Wór gębowy",
@@ -245,7 +245,7 @@
     },
     "Basic Poison": {
       "name": "Podstawowa trucizna",
-      "description": "<p>Możesz użyć trucizny w tej fiolce, aby pokryć jedną broń zadającą obrażenia cięte lub kłute albo do trzech sztuk amunicji. Nałożenie trucizny wymaga akcji. Istota trafiona zatrutą bronią lub amunicją musi wykonać rzut obronny na Kondycję [[/save]]. W przypadku niepowodzenia otrzymuje obrażenia [[/damage]]. Po nałożeniu trucizna działa przez 1 minutę, po czym wysycha.</p>",
+      "description": "<p>Możesz użyć trucizny w tej fiolce, aby pokryć jedną broń zadającą obrażenia cięte lub kłute albo do trzech sztuk amunicji. Nałożenie trucizny wymaga akcji. Istota trafiona zatrutą bronią lub amunicją musi wykonać [[/save]]{rzut obronny na Kondycję o ST 10}. W przypadku niepowodzenia otrzymuje [[/damage]]{1k4 obrażeń od trucizny}. Po nałożeniu trucizna działa przez 1 minutę, po czym wysycha.</p>",
       "activities": {
         "save": {
           "condition": "jedna broń zadająca obrażenia cięte lub kłute albo do trzech sztuk amunicji"
@@ -361,7 +361,7 @@
     },
     "Bit and Bridle": {
       "name": "Wędzidło i uzda",
-      "description": "<p>Element uprzęży konnej, który jest noszony na głowie konia i połączony z lejcami. Składa się z kilku regulowanych skórzanych pasków, metalowych pierścieni i ustnika zwanego &bdquo;wędzidłem&rdquo;, wykonanego z liny, kości, rogu lub innej twardej substancji, takiej jak brąz, stal, nikiel lub drewno.</p>"
+      "description": "<p>Element uprzęży konnej, który jest noszony na głowie konia i połączony z lejcami. Składa się z kilku regulowanych skórzanych pasków, metalowych pierścieni i ustnika zwanego 'wędzidłem', wykonanego z liny, kości, rogu lub innej twardej substancji, takiej jak brąz, stal, nikiel lub drewno.</p>"
     },
     "Blanket": {
       "name": "Koc",
@@ -474,8 +474,8 @@
       }
     },
     "Brass Horn of Valhalla": {
-      "name": "Mosiężny róg z Valhalli",
-      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>W ramach akcji możesz zadąć w ten róg. W odpowiedzi w obrębie 18 metrów od ciebie pojawiają się duchy wojowników z Valhalli. Korzystają ze statystyk @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{berserkera}. Wracają do Valhalli po 1 godzinie lub gdy ich PW spadną do 0. Po użyciu mocy rogu nie można zrobić tego ponownie przez 7 dni.</p>\n<p>Istnieją cztery rodzaje rogu z Valhalli, każdy wykonano z innego metalu. Rodzaj rogu określa, ilu berserkerów odpowiada na jego wezwanie, a także wymagania dotyczące jego użycia. MP wybiera rodzaj rogu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{róg z Valhalli}.</p>\n<p><strong>Róg z Valhalli (mosiężny).</strong>Ten mosiężny róg przywołuje [[/r 3d4 + 3]] berserkerków. Aby go użyć, trzeba mieć biegłość we wszystkich broniach prostych.</p>\n<p>Jeśli zadmiesz w róg, nie spełniając jego wymagań, przywołani berserkerzy zaatakują cię. Jeśli spełniasz wymagania, będą przyjaźnie nastawieni do ciebie i twoich towarzyszy oraz będą wykonywać twoje polecenia.</p>"
+      "name": "Róg z Walhalli (mosiężny)",
+      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>W ramach akcji możesz zadąć w ten róg. W odpowiedzi w obrębie 18 metrów od ciebie pojawiają się duchy wojowników z Walhalli. Korzystają ze statystyk @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{berserkera}. Wracają do Walhalli po 1 godzinie lub gdy ich PW spadną do 0. Po użyciu mocy rogu nie można zrobić tego ponownie przez 7 dni.</p>\n<p>Istnieją cztery rodzaje rogu z Walhalli, każdy wykonano z innego metalu. Rodzaj rogu określa, ilu berserkerów odpowiada na jego wezwanie, a także wymagania dotyczące jego użycia. MP wybiera rodzaj rogu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{róg z Walhalli}.</p>\n<p><strong>Róg z Walhalli (mosiężny).</strong>Ten mosiężny róg przywołuje [[/r 3d4 + 3]]{3k4 +3} berserkerków. Aby go użyć, trzeba mieć biegłość we wszystkich broniach prostych.</p>\n<p>Jeśli zadmiesz w róg, nie spełniając jego wymagań, przywołani berserkerzy zaatakują cię. Jeśli spełniasz wymagania, będą przyjaźnie nastawieni do ciebie i twoich towarzyszy oraz będą wykonywać twoje polecenia.</p>"
     },
     "Brazier of Commanding Fire Elementals": {
       "name": "Koksownik przyzywania żywiołaków ognia",
@@ -511,8 +511,8 @@
       "description": "<p>Te specjalistyczne narzędzia zawierają przedmioty niezbędne do uprawiania rzemiosła i sztuki warzenia piwa.</p>\n<p>Biegłość w zestawie narzędzi rzemieślniczych pozwala dodać premię z biegłości do dowolnych testów cech, które wykonujesz podczas używania zestawu. Każdy rodzaj narzędzi rzemieślniczych wymaga odrębnej biegłości.</p>"
     },
     "Bronze Horn of Valhalla": {
-      "name": "Róg z Valhalli (spiżowy)",
-      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>W ramach akcji możesz zadąć w ten róg. W odpowiedzi w obrębie 18 metrów od ciebie pojawiają się duchy wojowników z Valhalli. Korzystają ze statystyk @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{berserkera}. Wracają do Valhalli po 1 godzinie lub gdy ich PW spadną do 0. Po użyciu mocy rogu nie można zrobić tego ponownie przez 7 dni.</p>\n<p>Istnieją cztery rodzaje rogu z Valhalli, każdy wykonano z innego metalu. Rodzaj rogu określa, ilu berserkerów odpowiada na jego wezwanie, a także wymagania dotyczące jego użycia. MP wybiera rodzaj rogu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{róg z Valhalli}.</p>\n<p><strong>Róg z Valhalli (spiżowy).</strong>Ten spiżowy róg przywołuje [[/r 4d4 + 4]] berserkerków. Aby go użyć, trzeba mieć biegłość we wszystkich średnich pancerzach.</p>\n<p>Jeśli zadmiesz w róg, nie spełniając jego wymagań, przywołani berserkerzy zaatakują cię. Jeśli spełniasz wymagania, będą przyjaźnie nastawieni do ciebie i twoich towarzyszy oraz będą wykonywać twoje polecenia.</p>"
+      "name": "Róg z Walhalli (spiżowy)",
+      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>W ramach akcji możesz zadąć w ten róg. W odpowiedzi w obrębie 18 metrów od ciebie pojawiają się duchy wojowników z Walhalli. Korzystają ze statystyk @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{berserkera}. Wracają do Walhalli po 1 godzinie lub gdy ich PW spadną do 0. Po użyciu mocy rogu nie można zrobić tego ponownie przez 7 dni.</p>\n<p>Istnieją cztery rodzaje rogu z Walhalli, każdy wykonano z innego metalu. Rodzaj rogu określa, ilu berserkerów odpowiada na jego wezwanie, a także wymagania dotyczące jego użycia. MP wybiera rodzaj rogu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{róg z Walhalli}.</p>\n<p><strong>Róg z Walhalli (spiżowy).</strong>Ten spiżowy róg przywołuje [[/r 4d4 + 4]]{4k4 +4} berserkerków. Aby go użyć, trzeba mieć biegłość we wszystkich średnich pancerzach.</p>\n<p>Jeśli zadmiesz w róg, nie spełniając jego wymagań, przywołani berserkerzy zaatakują cię. Jeśli spełniasz wymagania, będą przyjaźnie nastawieni do ciebie i twoich towarzyszy oraz będą wykonywać twoje polecenia.</p>"
     },
     "Brooch of Shielding": {
       "name": "Brosza osłony",
@@ -901,7 +901,7 @@
     },
     "Decanter of Endless Water": {
       "name": "Karafka nieskończonej wody",
-      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ta zatkana karafka chlupie po potrząśnięciu, jakby zawierała wodę. Naczynie waży 1 kilogram.</p>\n<p>W ramach akcji możesz wyjąć korek i wypowiedzieć jedno z trzech słów rozkazu, po czym z butelki wyleje się pewna ilość słodkiej lub słonej wody (do wyboru). Woda przestaje się lać na początku twojej następnej tury. Wybierz spośród następujących możliwości:</p>\n<p>• &bdquo;Strumień&rdquo; tworzy 4 litry wody.</p>\n<p>• &bdquo;Fontanna&rdquo; tworzy 20 litrów wody.</p>\n<p>• &bdquo;Gejzer&rdquo; tworzy 120 litrów wody, która tryska strumieniem o długości 9 metrów i szerokości 30 centymetrów. Trzymając karafkę, możesz w ramach akcji dodatkowej wycelować gejzer w istotę, którą widzisz w obrębie 9 metrów od siebie. Cel musi wykonać rzut obronny na Siłę o ST 13. W przypadku niepowodzenia otrzymuje 1k4 obrażenia obuchowe i zostaje powalony. Zamiast stworzenia możesz wycelować w przedmiot, który nie jest noszony ani trzymany i który waży nie więcej niż 100 kilogramów. Obiekt zostaje przewrócony lub odepchnięty maksymalnie o 4,5 metra od ciebie.</p>",
+      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ta zatkana karafka chlupie po potrząśnięciu, jakby zawierała wodę. Naczynie waży 1 kilogram.</p>\n<p>W ramach akcji możesz wyjąć korek i wypowiedzieć jedno z trzech słów rozkazu, po czym z butelki wyleje się pewna ilość słodkiej lub słonej wody (do wyboru). Woda przestaje się lać na początku twojej następnej tury. Wybierz spośród następujących możliwości:</p>\n<p>• 'Strumień' tworzy 4 litry wody.</p>\n<p>• 'Fontanna' tworzy 20 litrów wody.</p>\n<p>• 'Gejzer' tworzy 120 litrów wody, która tryska strumieniem o długości 9 metrów i szerokości 30 centymetrów. Trzymając karafkę, możesz w ramach akcji dodatkowej wycelować gejzer w istotę, którą widzisz w obrębie 9 metrów od siebie. Cel musi wykonać rzut obronny na Siłę o ST 13. W przypadku niepowodzenia otrzymuje 1k4 obrażenia obuchowe i zostaje powalony. Zamiast stworzenia możesz wycelować w przedmiot, który nie jest noszony ani trzymany i który waży nie więcej niż 100 kilogramów. Obiekt zostaje przewrócony lub odepchnięty maksymalnie o 4,5 metra od ciebie.</p>",
       "activities": {
         "save": {
           "condition": "Słowo rozkazu."
@@ -967,7 +967,7 @@
     },
     "Dragon Slayer Greatsword": {
       "name": "Pogromca smoków (miecz dwuręczny)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju &bdquo;smok&rdquo;, w tym smokożółwie i wiwerny.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju 'smok', w tym smokożółwie i wiwerny.</p>",
       "activities": {
         "Damage vs Dragon": {
           "name": "Dodatkowe obrażenia dla smoków"
@@ -976,7 +976,7 @@
     },
     "Dragon Slayer Longsword": {
       "name": "Pogromca smoków (długi miecz)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju &bdquo;smok&rdquo;, w tym smokożółwie i wiwerny.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju 'smok', w tym smokożółwie i wiwerny.</p>",
       "activities": {
         "Damage vs Dragon": {
           "name": "Dodatkowe obrażenia dla smoków"
@@ -985,7 +985,7 @@
     },
     "Dragon Slayer Rapier": {
       "name": "Pogromca smoków (rapier)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju &bdquo;smok&rdquo;, w tym smokożółwie i wiwerny.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju 'smok', w tym smokożółwie i wiwerny.</p>",
       "activities": {
         "Damage vs Dragon": {
           "name": "Dodatkowe obrażenia dla smoków"
@@ -994,7 +994,7 @@
     },
     "Dragon Slayer Scimitar": {
       "name": "Pogromca smoków (sejmitar)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju &bdquo;smok&rdquo;, w tym smokożółwie i wiwerny.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju 'smok', w tym smokożółwie i wiwerny.</p>",
       "activities": {
         "Damage vs Dragon": {
           "name": "Dodatkowe obrażenia dla smoków"
@@ -1003,7 +1003,7 @@
     },
     "Dragon Slayer Shortsword": {
       "name": "Pogromca smoków (krótki miecz)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju &bdquo;smok&rdquo;, w tym smokożółwie i wiwerny.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p><p>Gdy trafisz nią smoka, otrzymuje on 3k6 dodatkowych obrażeń tego samego rodzaju, co podstawowe obrażenia z broni. W przypadku tej broni jako smoka traktuje się każde stworzenie należące do rodzaju 'smok', w tym smokożółwie i wiwerny.</p>",
       "activities": {
         "Damage vs Dragon": {
           "name": "Dodatkowe obrażenia dla smoków"
@@ -1111,7 +1111,7 @@
       "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Te kryształowe soczewki nosi się jak okulary. Kiedy je nosisz, masz ułatwienie w testach Mądrości (Percepcja), które opierają się na wzroku. W warunkach dobrej widoczności możesz dostrzec szczegóły nawet wyjątkowo odległych stworzeń i obiektów o wielkości co najmniej 60 cm.</p>"
     },
     "Feather Token Anchor": {
-      "name": "Pierzasty amulet - kotwica",
+      "name": "Pierzasty amulet (kotwica)",
       "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ten malutki przedmiot wygląda jak piórko. Istnieją różne rodzaje pierzastych amuletów, a każdy z nich wywołuje inny efekt jednorazowy. MP wybiera rodzaj amuletu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.OEdr086W61t1DRJo]{pierzasty amulet}.</p>\n<p><strong>Kotwica.</strong> W ramach akcji możesz dotknąć tym amuletem łodzi lub statku. Przez następne 24 godziny nie można go ruszyć z miejsca. Ponowne dotknięcie statku amuletem kończy jego działanie. Gdy efekt się kończy, amulet znika.</p>"
     },
     "Feather Token Bird": {
@@ -1119,7 +1119,7 @@
       "description": "<p><em>Cudowny przedmiot</em></p><p>Ten malutki przedmiot wygląda jak piórko. Istnieją różne rodzaje pierzastych amuletów, a każdy z nich wywołuje inny efekt jednorazowy. MP wybiera rodzaj amuletu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.OEdr086W61t1DRJo]{pierzasty amulet}.</p><p><strong>Ptak.</strong> W ramach akcji możesz podrzucić amulet na wysokość 1,5 metra. Amulet znika, a jego miejsce zajmuje ogromny, wielobarwny ptak. Ptak ma statystyki @UUID[Compendium.dnd5e.monsters.Actor.p980augbCIdpK9ZX]{Roka}, ale wykonuje twoje proste polecenia i nie może atakować. Może unieść do 250 kilogramów i latać ze swoją maksymalną szybkością (24 kilometry na godzinę, co daje maksymalnie 216 kilometrów dziennie, przy 1 godzinie odpoczynku za każde 3 godziny lotu) albo 500 kilogramów przy szybkości zmniejszonej o połowę. Ptak znika po przelocie maksymalnego dziennego dystansu lub gdy jego punkty wytrzymałości spadną do 0. Możesz także odwołać go w ramach akcji.</p><section class=\"secret foundry-note\" id=\"secret-MSLq8LtzkIiyNC0O\"><p><strong>Notka Foundry</strong></p><p>Aby umożliwić dokładne śledzenie odległości zgodnie z wymaganiami, 216 ładunków reprezentuje 216 kilometrów, które ptak może pokonać, gdy jest w stanie podróżować z maksymalną prędkością.</p></section>"
     },
     "Feather Token Fan": {
-      "name": "Pierzasty amulet - wachlarz",
+      "name": "Pierzasty amulet (wachlarz)",
       "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ten malutki przedmiot wygląda jak piórko. Istnieją różne rodzaje pierzastych amuletów, a każdy z nich wywołuje inny efekt jednorazowy. MP wybiera rodzaj amuletu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.OEdr086W61t1DRJo]{pierzasty amulet}.</p>\n<p><strong>Wachlarz.</strong> Jeśli jesteś na łodzi lub statku, możesz w ramach akcji podrzucić amulet na wysokość do 3 metrów. Amulet znika, a jego miejsce zajmuje gigantyczny wachlarz. Wachlarz unosi się w powietrzu i wytwarza wiatr wystarczająco silny, aby napełnić żagle jednego statku, na 8 godzin zwiększając jego szybkość o 7,5 kilometra na godzinę. Możesz odwołać wachlarz w ramach akcji.</p>"
     },
     "Feather Token Swan Boat": {
@@ -1189,7 +1189,7 @@
     },
     "Fine Clothes": {
       "name": "Eleganckie odzienie",
-      "description": "<p>Zestaw ubrań zaprojektowanych tak, by były kosztowne &mdash; i by to było widać.</p>"
+      "description": "<p>Zestaw ubrań zaprojektowanych tak, by były kosztowne - i by to było widać.</p>"
     },
     "Fishing Tackle": {
       "name": "Zestaw wędkarski",
@@ -1330,7 +1330,7 @@
     },
     "Giant Slayer Battleaxe": {
       "name": "Pogromca olbrzymów (topór bojowy)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni &bdquo;olbrzym&rdquo; odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni 'olbrzym' odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
       "activities": {
         "save": {
           "target": "Gigant"
@@ -1339,7 +1339,7 @@
     },
     "Giant Slayer Greataxe": {
       "name": "Pogromca olbrzymów (topór dwuręczny)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni &bdquo;olbrzym&rdquo; odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni 'olbrzym' odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
       "activities": {
         "save": {
           "target": "Gigant"
@@ -1348,7 +1348,7 @@
     },
     "Giant Slayer Greatsword": {
       "name": "Pogromca olbrzymów (miecz dwuręczny)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni &bdquo;olbrzym&rdquo; odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni 'olbrzym' odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
       "activities": {
         "save": {
           "target": "Gigant"
@@ -1357,7 +1357,7 @@
     },
     "Giant Slayer Handaxe": {
       "name": "Pogromca olbrzymów (toporek)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni &bdquo;olbrzym&rdquo; odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni 'olbrzym' odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
       "activities": {
         "save": {
           "target": "Gigant"
@@ -1366,7 +1366,7 @@
     },
     "Giant Slayer Longsword": {
       "name": "Pogromca olbrzymów (długi miecz)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni &bdquo;olbrzym&rdquo; odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni 'olbrzym' odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
       "activities": {
         "save": {
           "target": "Gigant"
@@ -1375,7 +1375,7 @@
     },
     "Giant Slayer Rapier": {
       "name": "Pogromca olbrzymów (rapier)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni &bdquo;olbrzym&rdquo; odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni 'olbrzym' odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
       "activities": {
         "save": {
           "target": "Gigant"
@@ -1384,7 +1384,7 @@
     },
     "Giant Slayer Scimitar": {
       "name": "Pogromca olbrzymów (sejmitar)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni &bdquo;olbrzym&rdquo; odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni 'olbrzym' odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
       "activities": {
         "save": {
           "target": "Gigant"
@@ -1393,7 +1393,7 @@
     },
     "Giant Slayer Shortsword": {
       "name": "Pogromca olbrzymów (krótki miecz)",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni &bdquo;olbrzym&rdquo; odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>Kiedy trafisz nim olbrzyma, ten otrzymuje dodatkowe 2k6 obrażeń typu broni i musi wykonać rzut obronny na Siłę o ST 15. W przypadku niepowodzenia zostanie powalony. Na potrzeby tej broni 'olbrzym' odnosi się do każdego stworzenia tego rodzaju, w tym do ettinów i trolli.</p>",
       "activities": {
         "save": {
           "target": "Gigant"
@@ -1953,8 +1953,8 @@
       "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ta żelazna butelka ma mosiężny korek. W ramach akcji możesz wypowiedzieć słowo rozkazu, obierając za cel istotę, którą widzisz w obrębie 18 metrów od siebie. Jeśli cel pochodzi z innej sfery egzystencji niż ta, w której się znajdujesz, musi wykonać rzut obronny na Mądrość o ST 17. W przypadku niepowodzenia zostaje uwięziony w butelce. Jeśli cel był wcześniej uwięziony przez manierkę, ma ułatwienie w rzucie obronnym. Uwięziona istota pozostaje w butelce do czasu uwolnienia. Butelka może pomieścić tylko jedną istotę na raz. Stworzenie uwięzione w manierce nie musi oddychać, jeść ani pić i nie starzeje się.</p>\n<p>W ramach akcji możesz wyjąć korek i uwolnić istotę, którą zawiera butelka. Uwolnione stworzenie przez 1 godzinę jest przyjazne wobec ciebie i twoich towarzyszy oraz wykonuje twoje polecenia. Jeśli nie wydasz mu żadnego polecenia lub wydasz takie, które może spowodować jego śmierć, ograniczy się do obrony własnej, ale poza tym nie podejmie żadnych działań. Po upływie tego czasu stworzenie zachowuje się zgodnie ze swoim normalnym usposobieniem i charakterem.</p>\n<p>Czar @UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{identyfikacja} ujawnia, że w butelce znajduje się istota, ale jedynym sposobem na ustalenie jej rodzaju jest otwarcie butelki. Nowo znaleziona manierka może już zawierać stworzenie wybrane przez MP lub wylosowane z tabeli @UUID[Compendium.dnd5e.tables.RollTable.JDtZNDaAirupdm2O]{Żelazna manierka}.</p><p></p>"
     },
     "Iron Horn of Valhalla": {
-      "name": "Żelazny róg z Valhalli",
-      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>W ramach akcji możesz zadąć w ten róg. W odpowiedzi w obrębie 18 metrów od ciebie pojawiają się duchy wojowników z Valhalli. Korzystają ze statystyk @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{berserkera}. Wracają do Valhalli po 1 godzinie lub gdy ich PW spadną do 0. Po użyciu mocy rogu nie można zrobić tego ponownie przez 7 dni.</p>\n<p>Istnieją cztery rodzaje rogu z Valhalli, każdy wykonano z innego metalu. Rodzaj rogu określa, ilu berserkerów odpowiada na jego wezwanie, a także wymagania dotyczące jego użycia. MP wybiera rodzaj rogu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{róg z Valhalli}.</p>\n<p><strong>Róg z Valhalli (żelazny).</strong>Ten żelazny róg przywołuje [[/r 5d4 + 5]] berserkerków. Aby go użyć, trzeba mieć biegłość we wszystkich broniach żołnierskich.</p>\n<p>Jeśli zadmiesz w róg, nie spełniając jego wymagań, przywołani berserkerzy zaatakują cię. Jeśli spełniasz wymagania, będą przyjaźnie nastawieni do ciebie i twoich towarzyszy oraz będą wykonywać twoje polecenia.</p>"
+      "name": "Róg z Walhalli (żelazny)",
+      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>W ramach akcji możesz zadąć w ten róg. W odpowiedzi w obrębie 18 metrów od ciebie pojawiają się duchy wojowników z Walhalli. Korzystają ze statystyk @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{berserkera}. Wracają do Walhalli po 1 godzinie lub gdy ich PW spadną do 0. Po użyciu mocy rogu nie można zrobić tego ponownie przez 7 dni.</p>\n<p>Istnieją cztery rodzaje rogu z Walhalli, każdy wykonano z innego metalu. Rodzaj rogu określa, ilu berserkerów odpowiada na jego wezwanie, a także wymagania dotyczące jego użycia. MP wybiera rodzaj rogu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{róg z Walhalli}.</p>\n<p><strong>Róg z Walhalli (żelazny).</strong>Ten żelazny róg przywołuje [[/r 5d4 + 5]]{5k4 +5} berserkerków. Aby go użyć, trzeba mieć biegłość we wszystkich broniach żołnierskich.</p>\n<p>Jeśli zadmiesz w róg, nie spełniając jego wymagań, przywołani berserkerzy zaatakują cię. Jeśli spełniasz wymagania, będą przyjaźnie nastawieni do ciebie i twoich towarzyszy oraz będą wykonywać twoje polecenia.</p>"
     },
     "Iron Pot": {
       "name": "Żelazny garnek",
@@ -2162,23 +2162,23 @@
     },
     "Luck Blade Greatsword": {
       "name": "Ostrze szczęścia (miecz dwuręczny)",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 &ndash; 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
+      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 - 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
     },
     "Luck Blade Longsword": {
       "name": "Ostrze szczęścia (długi miecz)",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 &ndash; 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
+      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 - 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
     },
     "Luck Blade Rapier": {
       "name": "Ostrze szczęścia (rapier)",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 &ndash; 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
+      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 - 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
     },
     "Luck Blade Scimitar": {
       "name": "Ostrze szczęścia (sejmitar)",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 &ndash; 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
+      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 - 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
     },
     "Luck Blade Shortsword": {
       "name": "Ostrze szczęścia (krótki miecz)",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 &ndash; 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
+      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy masz przy sobie ten miecz, zyskujesz również premię +1 do rzutów obronnych.</p>\n<p><strong>Szczęście</strong>. Jeśli masz miecz przy sobie, możesz skorzystać ze sprzyjającego mu szczęścia (nie jest wymagana żadna akcja), aby ponownie wykonać jeden test ataku, test umiejętności lub rzut obronny, który ci się nie podoba. Musisz przyjąć wynik drugiego rzutu. Tej właściwości nie można użyć ponownie do następnego świtu.</p>\n<p><strong>Życzenie</strong>. Miecz ma 1k4 - 1 ładunki. Trzymając go, możesz w ramach akcji zużyć 1 ładunek, aby rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{życzenie}. Tej właściwości nie można użyć ponownie do następnego świtu. Miecz traci tę właściwość, jeśli skończą się ładunki.</p>"
     },
     "Lute": {
       "name": "Lutnia",
@@ -2218,7 +2218,7 @@
     },
     "Mace of Smiting": {
       "name": "Buława ugodzenia",
-      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy używasz buławy do ataku na konstrukt, premia wzrasta do +3.</p><p>Kiedy wyrzucisz 20 w teście ataku tą bronią, cel otrzymuje dodatkowe 2k6 obrażeń obuchowych lub 4k6 obrażeń obuchowych, jeśli jest to konstrukt. Jeśli konstrukt ma 25 lub mniej punktów wytrzymałości po otrzymaniu tych obrażeń, zostaje zniszczony.</p><section class=\"secret foundry-note\" id=\"secret-AY4O41uMKnbhqve5\"><p><strong>Notka Foundry</strong></p><p>Premia do testów ataku i rzutów na obrażenia została ustawiona na +1. W przypadku trafienia konstruktu, pamiętaj, aby dodać +2 do obu tych wyników. Dodatkowo, przy trafieniu 20 przeciwko konstruktowi, użyj przycisku &quot;inny wzór rzutu&quot; jeszcze raz.</p></section>",
+      "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Gdy używasz buławy do ataku na konstrukt, premia wzrasta do +3.</p><p>Kiedy wyrzucisz 20 w teście ataku tą bronią, cel otrzymuje dodatkowe 2k6 obrażeń obuchowych lub 4k6 obrażeń obuchowych, jeśli jest to konstrukt. Jeśli konstrukt ma 25 lub mniej punktów wytrzymałości po otrzymaniu tych obrażeń, zostaje zniszczony.</p><section class=\"secret foundry-note\" id=\"secret-AY4O41uMKnbhqve5\"><p><strong>Notka Foundry</strong></p><p>Premia do testów ataku i rzutów na obrażenia została ustawiona na +1. W przypadku trafienia konstruktu, pamiętaj, aby dodać +2 do obu tych wyników. Dodatkowo, przy trafieniu 20 przeciwko konstruktowi, użyj przycisku 'inny wzór rzutu' jeszcze raz.</p></section>",
       "activities": {
         "Attack vs Construct": {
           "name": "Atak kontra konstrukt"
@@ -2239,7 +2239,7 @@
     },
     "Manacles": {
       "name": "Kajdany",
-      "description": "<p>Za pomocą metalowych oków można skrępować Małą lub Średnią istotę. Wyślizgnięcie się z nich wymaga udanego testu [[/check activity=dnd5eactivity000]]. Rozerwanie ich wymaga udanego testu [[/check activity=9DosjAvEYAW0LLK8]]. Każdy zestaw kajdan jest sprzedawany wraz z jednym kluczem. Bez klucza, istota biegła w używaniu narzędzi złodziejskich może otworzyć zamek kajdan, wykonując udany test [[/check activity=9IBcoj8ChH1OiDT8]]{Zręczności o ST 15}. Kajdany mają 15 PW.</p>",
+      "description": "<p>Za pomocą metalowych oków można skrępować Małą lub Średnią istotę. Wyślizgnięcie się z nich wymaga udanego [[/check activity=dnd5eactivity000]]{testu Zręczności o ST 20}. Rozerwanie ich wymaga udanego [[/check activity=9DosjAvEYAW0LLK8]]{testu Siły o ST 20}. Każdy zestaw kajdan jest sprzedawany wraz z jednym kluczem. Bez klucza, istota biegła w używaniu narzędzi złodziejskich może otworzyć zamek kajdan, wykonując udany [[/check activity=9IBcoj8ChH1OiDT8]]{test Zręczności o ST 15}. Kajdany mają 15 PW.</p>",
       "activities": {
         "Attempt Escape": {
           "name": "Próba ucieczki"
@@ -2276,7 +2276,7 @@
     },
     "Manual of Golems": {
       "name": "Podręcznik do budowy golema",
-      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ten tom zawiera informacje i zaklęcia niezbędne do stworzenia określonego rodzaju golema. MP wybiera rodzaj lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.htMPUPPABjI6fwck]{Podręcznik do budowy golema}. Szczegółowy opis każdego golema znajduje się w poniższej tabeli. Aby rozszyfrować i skorzystać z podręcznika, musisz być użytkownikiem magii z co najmniej dwiema komórkami czarów 5. kręgu. Istota, która nie może skorzystać z podręcznika i próbuje go przeczytać, otrzymuje 6k6 obrażeń psychicznych.</p>\n<table>\n<thead>\n<tr>\n<th>k20</th>\n<th>Golem</th>\n<th>Czas</th>\n<th>Koszt</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1- 5</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.YOqhbf8WsX0jH9Fu]{Gliniany golem}</td>\n<td>30 dni</td>\n<td>65 000 sz</td>\n</tr>\n<tr>\n<td>6- 17</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.Hm4o2FgPZsdbXjLq]{Golem z ciał}</td>\n<td>60 dni</td>\n<td>50&nbsp;000 sz</td>\n</tr>\n<tr>\n<td>18</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.h98AuPfomEPcCibP]{Żelazny golem}</td>\n<td>120 dni</td>\n<td>100&nbsp;000 sz</td>\n</tr>\n<tr>\n<td>19- 20</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.z3gSIXHHWYaHjfBT]{Kamienny golem}</td>\n<td>90 dni</td>\n<td>80&nbsp;000 sz</td>\n</tr>\n</tbody>\n</table>\n<p>Aby stworzyć golema, musisz poświęcić czas wskazany w tabeli, pracując bez przerwy z podręcznikiem pod ręką i odpoczywając nie więcej niż 8 godzin dziennie. Musisz także zapłacić wskazany koszt, aby kupić materiały.</p>\n<p>Gdy skończysz tworzenie golema, księga spłonie w magicznym ogniu. Golem ożywa, gdy posypie się go popiołem ze spalonego podręcznika. Jest pod twoją kontrolą, rozumie i jest posłuszny twoim słownym poleceniom.</p>"
+      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ten tom zawiera informacje i zaklęcia niezbędne do stworzenia określonego rodzaju golema. MP wybiera rodzaj lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.htMPUPPABjI6fwck]{Podręcznik do budowy golema}. Szczegółowy opis każdego golema znajduje się w poniższej tabeli. Aby rozszyfrować i skorzystać z podręcznika, musisz być użytkownikiem magii z co najmniej dwiema komórkami czarów 5. kręgu. Istota, która nie może skorzystać z podręcznika i próbuje go przeczytać, otrzymuje 6k6 obrażeń psychicznych.</p>\n<table>\n<thead>\n<tr>\n<th>k20</th>\n<th>Golem</th>\n<th>Czas</th>\n<th>Koszt</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1- 5</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.YOqhbf8WsX0jH9Fu]{Gliniany golem}</td>\n<td>30 dni</td>\n<td>65 000 sz</td>\n</tr>\n<tr>\n<td>6- 17</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.Hm4o2FgPZsdbXjLq]{Golem z ciał}</td>\n<td>60 dni</td>\n<td>50 000 sz</td>\n</tr>\n<tr>\n<td>18</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.h98AuPfomEPcCibP]{Żelazny golem}</td>\n<td>120 dni</td>\n<td>100 000 sz</td>\n</tr>\n<tr>\n<td>19- 20</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.z3gSIXHHWYaHjfBT]{Kamienny golem}</td>\n<td>90 dni</td>\n<td>80 000 sz</td>\n</tr>\n</tbody>\n</table>\n<p>Aby stworzyć golema, musisz poświęcić czas wskazany w tabeli, pracując bez przerwy z podręcznikiem pod ręką i odpoczywając nie więcej niż 8 godzin dziennie. Musisz także zapłacić wskazany koszt, aby kupić materiały.</p>\n<p>Gdy skończysz tworzenie golema, księga spłonie w magicznym ogniu. Golem ożywa, gdy posypie się go popiołem ze spalonego podręcznika. Jest pod twoją kontrolą, rozumie i jest posłuszny twoim słownym poleceniom.</p>"
     },
     "Manual of Quickness of Action": {
       "name": "Almanach zwinnego działania",
@@ -2297,7 +2297,7 @@
     },
     "Marvelous Pigments": {
       "name": "Zaczarowane farby",
-      "description": "<p>Barwniki te, zwykle znajdujące się w [[/r 1d4]] słoiczkach wewnątrz eleganckiego drewnianego pudełka z pędzlem (o łącznej wadze 0,5 kilograma), pozwalają tworzyć trójwymiarowe obiekty dzięki namalowaniu ich w dwóch wymiarach. Farba sama spływa z pędzla, tworząc pożądany obiekt, gdy koncentrujesz się na jego wyglądzie.</p>\n<p>Każdy słoiczek farby wystarcza na pokrycie 90 metrów kwadratowych powierzchni, co pozwala tworzyć obiekty nieożywione lub elementy krajobrazu &ndash; takie jak drzwi, doły, kwiaty, drzewa, klatki, pokoje lub broń &ndash; o łącznej objętości do 300 metrów sześciennych. Pokrycie farbą 9 metrów kwadratowych zajmuje 10 minut.</p>\n<p>Po zakończeniu malowania, przedstawiony obiekt lub element krajobrazu staje się prawdziwym, niemagicznym obiektem. Tak więc namalowanie drzwi na ścianie spowoduje powstanie prawdziwych drzwi, które można otworzyć na to, co jest za nimi. Namalowanie dołu na podłodze tworzy prawdziwy dół, a jego głębokość wlicza się do całkowitej powierzchni możliwych do namalowania obiektów.</p>\n<p>Żaden obiekt stworzony przez farby nie może być wart więcej niż 25 sztuk złota. Jeśli namalujesz obiekt o większej wartości (np. diament lub stos złota), będzie on wyglądał autentycznie, ale bliższa inspekcja ujawni, że jest podróbką z gliny, kości lub innego bezwartościowego materiału.</p>\n<p>Jeśli namalujesz formę energii, taką jak ogień lub błyskawica, to pojawi się ona, ale gdy tylko ukończysz malowanie, rozproszy się nie szkodząc niczemu.</p>"
+      "description": "<p>Barwniki te, zwykle znajdujące się w [[/r 1d4]]{1k4} słoiczkach wewnątrz eleganckiego drewnianego pudełka z pędzlem (o łącznej wadze 0,5 kilograma), pozwalają tworzyć trójwymiarowe obiekty dzięki namalowaniu ich w dwóch wymiarach. Farba sama spływa z pędzla, tworząc pożądany obiekt, gdy koncentrujesz się na jego wyglądzie.</p>\n<p>Każdy słoiczek farby wystarcza na pokrycie 90 metrów kwadratowych powierzchni, co pozwala tworzyć obiekty nieożywione lub elementy krajobrazu - takie jak drzwi, doły, kwiaty, drzewa, klatki, pokoje lub broń - o łącznej objętości do 300 metrów sześciennych. Pokrycie farbą 9 metrów kwadratowych zajmuje 10 minut.</p>\n<p>Po zakończeniu malowania, przedstawiony obiekt lub element krajobrazu staje się prawdziwym, niemagicznym obiektem. Tak więc namalowanie drzwi na ścianie spowoduje powstanie prawdziwych drzwi, które można otworzyć na to, co jest za nimi. Namalowanie dołu na podłodze tworzy prawdziwy dół, a jego głębokość wlicza się do całkowitej powierzchni możliwych do namalowania obiektów.</p>\n<p>Żaden obiekt stworzony przez farby nie może być wart więcej niż 25 sztuk złota. Jeśli namalujesz obiekt o większej wartości (np. diament lub stos złota), będzie on wyglądał autentycznie, ale bliższa inspekcja ujawni, że jest podróbką z gliny, kości lub innego bezwartościowego materiału.</p>\n<p>Jeśli namalujesz formę energii, taką jak ogień lub błyskawica, to pojawi się ona, ale gdy tylko ukończysz malowanie, rozproszy się nie szkodząc niczemu.</p>"
     },
     "Mason's Tools": {
       "name": "Narzędzia kamieniarza",
@@ -2406,11 +2406,11 @@
     },
     "Necklace of Fireballs": {
       "name": "Naszyjnik kul ognia",
-      "description": "<p><em>Cudowny przedmiot</em></p><p>Z tego naszyjnika zwisa 1k6 + 3 koralików. W ramach akcji możesz oderwać jeden z nich i rzucić nim na odległość do 18 metrów. Na końcu swojej trajektorii, koralik wybucha jak @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{kula ognia} rzucona z 3. kręgu (ST rzutu obronnego 15).</p><p>Możesz w ramach jednej akcji rzucić kilkoma koralikami albo nawet całym naszyjnikiem. Kiedy to zrobisz, zwiększ krąg kuli ognia o 1 za każdy koralik poza pierwszym.</p><section class=\"secret foundry-note\" id=\"secret-BPYFYGO4aUSbDiBj\"><p><strong>Notka Foundry</strong></p><p>9 ładunków reprezentuje maksymalną liczbę koralików, które można znaleźć; dostosuj w razie potrzeby. Przycisk Inna formuła może być użyty do wyrzucenia dodatkowych obrażeń za dodatkowe rzucane koraliki.</p><p>Dodatkowo, oto cennik w zależności od liczby pozostałych koralików. Ceny te są jedynie wskazówką i powinny być odpowiednio dostosowane, aby odzwierciedlić świat Mistrza Podziemi:</p><table><thead><tr><td><strong>Liczba koralików</strong></td><td><strong>Cena (sz)</strong></td></tr></thead><tbody><tr><td>8</td><td>30&nbsp;720</td></tr><tr><td>7</td><td>15&nbsp;360</td></tr><tr><td>6</td><td>7680</td></tr><tr><td>5</td><td>3840</td></tr><tr><td>4</td><td>1600</td></tr><tr><td>3</td><td>960</td></tr><tr><td>2</td><td>480</td></tr><tr><td>1</td><td>300</td></tr></tbody></table></section>"
+      "description": "<p><em>Cudowny przedmiot</em></p><p>Z tego naszyjnika zwisa 1k6 + 3 koralików. W ramach akcji możesz oderwać jeden z nich i rzucić nim na odległość do 18 metrów. Na końcu swojej trajektorii, koralik wybucha jak @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{kula ognia} rzucona z 3. kręgu (ST rzutu obronnego 15).</p><p>Możesz w ramach jednej akcji rzucić kilkoma koralikami albo nawet całym naszyjnikiem. Kiedy to zrobisz, zwiększ krąg kuli ognia o 1 za każdy koralik poza pierwszym.</p><section class=\"secret foundry-note\" id=\"secret-BPYFYGO4aUSbDiBj\"><p><strong>Notka Foundry</strong></p><p>9 ładunków reprezentuje maksymalną liczbę koralików, które można znaleźć; dostosuj w razie potrzeby. Przycisk Inna formuła może być użyty do wyrzucenia dodatkowych obrażeń za dodatkowe rzucane koraliki.</p><p>Dodatkowo, oto cennik w zależności od liczby pozostałych koralików. Ceny te są jedynie wskazówką i powinny być odpowiednio dostosowane, aby odzwierciedlić świat Mistrza Podziemi:</p><table><thead><tr><td><strong>Liczba koralików</strong></td><td><strong>Cena (sz)</strong></td></tr></thead><tbody><tr><td>8</td><td>30 720</td></tr><tr><td>7</td><td>15 360</td></tr><tr><td>6</td><td>7680</td></tr><tr><td>5</td><td>3840</td></tr><tr><td>4</td><td>1600</td></tr><tr><td>3</td><td>960</td></tr><tr><td>2</td><td>480</td></tr><tr><td>1</td><td>300</td></tr></tbody></table></section>"
     },
     "Necklace of Prayer Beads": {
       "name": "Naszyjnik modlitewny",
-      "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia z klerykiem, druidem lub paladynem)</em></p><p>Ten naszyjnik ma 1k4 + 2 magicznych koralików wykonanych z akwamarynu, czarnej perły lub topazu. Znajduje się na nim również wiele niemagicznych koralików wykonanych z kamieni, takich jak bursztyn, heliotrop, cytryn, koral, jadeit, perła lub kwarc. Jeśli magiczny koralik zostanie usunięty z naszyjnika, to ten koralik traci swoją magiczną moc.</p><p>Istnieje sześć rodzajów magicznych koralików. MP decyduje o rodzaju każdego koralika na naszyjniku lub określa go losowo. Naszyjnik może mieć więcej niż jeden koralik tego samego typu. Aby użyć właściwości koralika, musisz nosić naszyjnik. Każdy z nich zawiera czar, który możesz rzucić w ramach akcji dodatkowej (stosujesz ST rzutu przeciw twoim czarom, jeśli jest on wymagany). Po rzuceniu zaklęcia za pomocą danego koralika, nie można go użyć ponownie do następnego świtu.</p><p>Zapoznaj się z poniższą tabelą @UUID[Compendium.dnd5e.tables.RollTable.XHTUTUXdyzcPbodw]{Naszyjnik modlitewny},aby poznać szczegółowe opisy każdego koralika</p><table><thead><tr><th><strong>k20</strong></th><th><strong>Koralik...</strong></th><th><strong>Czar</strong></th><th><strong>Sugerowana cena za koralik (sz)</strong></th></tr></thead><tbody><tr><td>1- 6</td><td>Błogosławieństwa</td><td>@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{Błogosławieństwo}</td><td>2&nbsp;000</td></tr><tr><td>7 - 12</td><td>Uzdrawiania</td><td>@UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Leczenie ran} (2. kręgu) lub @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Mniejsze przywrócenie}</td><td>4&nbsp;000</td></tr><tr><td>13 - 16</td><td>Łaski</td><td>@UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Większe przywrócenie}</td><td>32&nbsp;000</td></tr><tr><td>17 - 18</td><td>Ugodzenia</td><td>@UUID[Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs]{Piętnujące ugodzenie}</td><td>1&nbsp;500</td></tr><tr><td>19</td><td>Wezwania</td><td>@UUID[Compendium.dnd5e.spells.Item.fkREcytuZ8sngWtC]{Sferalny sojusznik}</td><td>128&nbsp;000</td></tr><tr><td>20</td><td>Spacerowania na wietrze</td><td>@UUID[Compendium.dnd5e.spells.Item.8PJAsHmbu6UgDHC0]{Spacer na wietrze}</td><td>96&nbsp;000</td></tr></tbody></table><section class=\"secret foundry-note\" id=\"secret-7DOXr3q6fDOOCepZ\"><p><strong>Notka Foundry</strong></p><p>Każda aktywność odpowiada liczbie dostępnych koralików tego typu i powinna być dostosowana do odpowiednich wartości. Użycia przedmiotu jako całości śledzą liczbę koralików uzdrawiania.</p><p>Ponadto cena orientacyjna jest jedynie wskazówką i powinna być odpowiednio dostosowana, aby odzwierciedlić świat Mistrza Podziemi.</p></section>",
+      "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia z klerykiem, druidem lub paladynem)</em></p><p>Ten naszyjnik ma 1k4 + 2 magicznych koralików wykonanych z akwamarynu, czarnej perły lub topazu. Znajduje się na nim również wiele niemagicznych koralików wykonanych z kamieni, takich jak bursztyn, heliotrop, cytryn, koral, jadeit, perła lub kwarc. Jeśli magiczny koralik zostanie usunięty z naszyjnika, to ten koralik traci swoją magiczną moc.</p><p>Istnieje sześć rodzajów magicznych koralików. MP decyduje o rodzaju każdego koralika na naszyjniku lub określa go losowo. Naszyjnik może mieć więcej niż jeden koralik tego samego typu. Aby użyć właściwości koralika, musisz nosić naszyjnik. Każdy z nich zawiera czar, który możesz rzucić w ramach akcji dodatkowej (stosujesz ST rzutu przeciw twoim czarom, jeśli jest on wymagany). Po rzuceniu zaklęcia za pomocą danego koralika, nie można go użyć ponownie do następnego świtu.</p><p>Zapoznaj się z poniższą tabelą @UUID[Compendium.dnd5e.tables.RollTable.XHTUTUXdyzcPbodw]{Naszyjnik modlitewny},aby poznać szczegółowe opisy każdego koralika</p><table><thead><tr><th><strong>k20</strong></th><th><strong>Koralik...</strong></th><th><strong>Czar</strong></th><th><strong>Sugerowana cena za koralik (sz)</strong></th></tr></thead><tbody><tr><td>1- 6</td><td>Błogosławieństwa</td><td>@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{Błogosławieństwo}</td><td>2 000</td></tr><tr><td>7 - 12</td><td>Uzdrawiania</td><td>@UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Leczenie ran} (2. kręgu) lub @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Mniejsze przywrócenie}</td><td>4 000</td></tr><tr><td>13 - 16</td><td>Łaski</td><td>@UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Większe przywrócenie}</td><td>32 000</td></tr><tr><td>17 - 18</td><td>Ugodzenia</td><td>@UUID[Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs]{Piętnujące ugodzenie}</td><td>1 500</td></tr><tr><td>19</td><td>Wezwania</td><td>@UUID[Compendium.dnd5e.spells.Item.fkREcytuZ8sngWtC]{Sferalny sojusznik}</td><td>128 000</td></tr><tr><td>20</td><td>Spacerowania na wietrze</td><td>@UUID[Compendium.dnd5e.spells.Item.8PJAsHmbu6UgDHC0]{Spacer na wietrze}</td><td>96 000</td></tr></tbody></table><section class=\"secret foundry-note\" id=\"secret-7DOXr3q6fDOOCepZ\"><p><strong>Notka Foundry</strong></p><p>Każda aktywność odpowiada liczbie dostępnych koralików tego typu i powinna być dostosowana do odpowiednich wartości. Użycia przedmiotu jako całości śledzą liczbę koralików uzdrawiania.</p><p>Ponadto cena orientacyjna jest jedynie wskazówką i powinna być odpowiednio dostosowana, aby odzwierciedlić świat Mistrza Podziemi.</p></section>",
       "activities": {
         "Bead of Blessing (bless)": {
           "name": "Koralik błogosławieństwa (błogosławieństwo)"
@@ -2518,7 +2518,7 @@
     },
     "Oathbow": {
       "name": "Łuk przysięgi",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Kiedy nakładasz strzałę na cięciwę tego łuku, szepcze on w elfim: &bdquo;Rychła klęska dla mych wrogów&rdquo;. Kiedy używasz tej broni do ataku dystansowego, możesz powiedzieć frazę : &bdquo;Szybka śmierć tobie, który mnie skrzywdziłeś&rdquo;. Cel twojego ataku staje się twoim zaprzysiężonym wrogiem do czasu, aż zginie lub nadejdzie świt siedem dni później. Możesz mieć tylko jednego zaprzysiężonego wroga na raz. Kiedy twój zaprzysiężony wróg umrze, możesz wybrać nowego po następnym wschodzie słońca.</p>\n<p>Kiedy wykonujesz tym łukiem atak dystansowy przeciwko swojemu zaprzysiężonemu wrogowi, masz ułatwienie w teście. Ponadto, twój cel nie otrzymuje korzyści z osłony mniejszej niż całkowita, a ty nie masz utrudnienia w atakach ze względu na daleki zasięg. Przy trafieniu twój zaprzysiężony wróg otrzymuje dodatkowe 3k6 obrażeń kłutych.</p>\n<p>Dopóki twój zaprzysiężony wróg żyje, masz utrudnienie w testach ataku wszystkimi innymi broniami.</p>",
+      "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Kiedy nakładasz strzałę na cięciwę tego łuku, szepcze on w elfim: 'Rychła klęska dla mych wrogów'. Kiedy używasz tej broni do ataku dystansowego, możesz powiedzieć frazę : 'Szybka śmierć tobie, który mnie skrzywdziłeś'. Cel twojego ataku staje się twoim zaprzysiężonym wrogiem do czasu, aż zginie lub nadejdzie świt siedem dni później. Możesz mieć tylko jednego zaprzysiężonego wroga na raz. Kiedy twój zaprzysiężony wróg umrze, możesz wybrać nowego po następnym wschodzie słońca.</p>\n<p>Kiedy wykonujesz tym łukiem atak dystansowy przeciwko swojemu zaprzysiężonemu wrogowi, masz ułatwienie w teście. Ponadto, twój cel nie otrzymuje korzyści z osłony mniejszej niż całkowita, a ty nie masz utrudnienia w atakach ze względu na daleki zasięg. Przy trafieniu twój zaprzysiężony wróg otrzymuje dodatkowe 3k6 obrażeń kłutych.</p>\n<p>Dopóki twój zaprzysiężony wróg żyje, masz utrudnienie w testach ataku wszystkimi innymi broniami.</p>",
       "activities": {
         "attack": {
           "condition": "Słowo rozkazu."
@@ -2751,7 +2751,7 @@
     },
     "Potion of Diminution": {
       "name": "Mikstura pomniejszenia",
-      "description": "<p><em>Czerwony składnik w miksturze nieustannie kurczy się do postaci maleńkiej kropli, a następnie rozszerza, barwiąc otaczający go przezroczysty płyn. Potrząśnięcie butelką nie przerywa tego procesu.</em></p>\n<p>Kiedy wypijesz tę miksturę, zyskujesz efekt &bdquo;pomniejszający&rdquo; czaru @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{powiększenie/pomniejszenie} na 1k4 godziny (nie wymaga koncentracji).</p>\n<p></p>\n<p></p>\n<p></p>"
+      "description": "<p><em>Czerwony składnik w miksturze nieustannie kurczy się do postaci maleńkiej kropli, a następnie rozszerza, barwiąc otaczający go przezroczysty płyn. Potrząśnięcie butelką nie przerywa tego procesu.</em></p>\n<p>Kiedy wypijesz tę miksturę, zyskujesz efekt 'pomniejszający' czaru @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{powiększenie/pomniejszenie} na 1k4 godziny (nie wymaga koncentracji).</p>\n<p></p>\n<p></p>\n<p></p>"
     },
     "Potion of Fire Giant Strength": {
       "name": "Mikstura siły giganta ogniowego",
@@ -2788,7 +2788,7 @@
     },
     "Potion of Growth": {
       "name": "Mikstura powiększenia",
-      "description": "<p><em>Czerwony składnik w miksturze nieustannie rozszerza się z maleńkiej kropli, barwiąc otaczający go przezroczysty płyn, a następnie kurczy się. Potrząśnięcie butelką nie przerywa tego procesu.</em></p>\n<p>Kiedy wypijesz tę miksturę, zyskujesz efekt &bdquo;powiększający&rdquo; czaru @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{powiększenie/pomniejszenie} na 1k4 godziny (nie wymaga koncentracji).</p>"
+      "description": "<p><em>Czerwony składnik w miksturze nieustannie rozszerza się z maleńkiej kropli, barwiąc otaczający go przezroczysty płyn, a następnie kurczy się. Potrząśnięcie butelką nie przerywa tego procesu.</em></p>\n<p>Kiedy wypijesz tę miksturę, zyskujesz efekt 'powiększający' czaru @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{powiększenie/pomniejszenie} na 1k4 godziny (nie wymaga koncentracji).</p>"
     },
     "Potion of Healing": {
       "name": "Mikstura leczenia",
@@ -2796,7 +2796,7 @@
     },
     "Potion of Heroism": {
       "name": "Mikstura heroizmu",
-      "description": "<p><em>Ta niebieska mikstura bulgocze i paruje, jakby wrzała.</em></p><p>Po jej wypiciu zyskujesz 10 tymczasowych PW na 1 godzinę. Przez ten sam czas działają na ciebie efekty czaru @UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{błogosławieństwo} (nie wymaga koncentracji).</p><section class=\"secret foundry-note\" id=\"secret-bF4l2V0GJ0rrbVZK\"><p><strong>Notka Foundry</strong></p><p>Przycisk &quot;Inny wzór rzutu&quot; może być użyty do wyrzucenia premii 1d4 z błogosławieństwa.</p></section>"
+      "description": "<p><em>Ta niebieska mikstura bulgocze i paruje, jakby wrzała.</em></p><p>Po jej wypiciu zyskujesz 10 tymczasowych PW na 1 godzinę. Przez ten sam czas działają na ciebie efekty czaru @UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{błogosławieństwo} (nie wymaga koncentracji).</p><section class=\"secret foundry-note\" id=\"secret-bF4l2V0GJ0rrbVZK\"><p><strong>Notka Foundry</strong></p><p>Przycisk 'Inny wzór rzutu' może być użyty do wyrzucenia premii 1d4 z błogosławieństwa.</p></section>"
     },
     "Potion of Hill Giant Strength": {
       "name": "Mikstura siły giganta wzgórzowego",
@@ -2820,7 +2820,7 @@
     },
     "Potion of Poison": {
       "name": "Mikstura zatrucia",
-      "description": "<p><em>Ta mikstura wygląda, pachnie i smakuje jak mikstura leczenia lub inny korzystny eliksir.</em></p><p>W rzeczywistości jest to jednak trucizna zamaskowana magią iluzji. Czar identyfikacja ujawnia jej prawdziwą naturę.</p><p>Jeśli ją wypijesz, otrzymujesz obrażenia [[/damage]] i musisz wykonać rzut obronny na Kondycję [[/save]]. W przypadku niepowodzenia stajesz się zatruty (&Reference[poisoned]). Na początku każdej swojej tury, gdy jesteś zatruty w ten sposób, otrzymujesz obrażenia [[/damage]]. Na koniec każdej swojej tury możesz powtórzyć rzut obronny. Udany rzut zmniejsza obrażenia od trucizny o 1k6 w kolejnych turach. Trucizna przestaje działać, gdy zadawane obrażenia spadną do 0.</p><section class=\"secret\" id=\"secret-zrLCcwvOwukVWTvT\"><p>Dla wygody możesz użyć przycisków ([[/damage 2d6 poison]] lub [[/damage 1d6 poison]]), aby wykonać rzut na obrażenia dla zmniejszonych obrażeń.</p></section>"
+      "description": "<p><em>Ta mikstura wygląda, pachnie i smakuje jak mikstura leczenia lub inny korzystny eliksir.</em></p><p>W rzeczywistości jest to jednak trucizna zamaskowana magią iluzji. Czar identyfikacja ujawnia jej prawdziwą naturę.</p><p>Jeśli ją wypijesz, otrzymujesz [[/damage]]{3d6 obrażeń od trucizny} i musisz wykonać [[/save]]{rzut obronny na Kondycję}. W przypadku niepowodzenia stajesz się &Reference[poisoned]{zatruty}. Na początku każdej swojej tury, gdy jesteś zatruty w ten sposób, otrzymujesz [[/damage]]{3d6 obrażeń od trucizny}. Na koniec każdej swojej tury możesz powtórzyć rzut obronny. Udany rzut zmniejsza obrażenia od trucizny o 1k6 w kolejnych turach. Trucizna przestaje działać, gdy zadawane obrażenia spadną do 0.</p><section class=\"secret\" id=\"secret-zrLCcwvOwukVWTvT\"><p>Dla wygody możesz użyć przycisków ([[/damage 2d6 poison]] lub [[/damage 1d6 poison]]), aby wykonać rzut na obrażenia dla zmniejszonych obrażeń.</p></section>"
     },
     "Potion of Poison Resistance": {
       "name": "Mikstura odporności na truciznę",
@@ -3162,7 +3162,7 @@
     },
     "Ring of Regeneration": {
       "name": "Pierścień regeneracji",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p><p>Kiedy nosisz ten pierścień, co 10 minut odzyskujesz 1k6 PW, pod warunkiem, że masz co najmniej 1 PW. Jeśli stracisz część ciała, pierścień sprawi, że odrośnie i wróci do pełnej funkcjonalności po [[/r 1d6 + 1]] dniach, pod warunkiem, że przez cały czas masz co najmniej 1 PW.</p>",
+      "description": "<p><em>(Wymaga zestrojenia)</em></p><p>Kiedy nosisz ten pierścień, co 10 minut odzyskujesz 1k6 PW, pod warunkiem, że masz co najmniej 1 PW. Jeśli stracisz część ciała, pierścień sprawi, że odrośnie i wróci do pełnej funkcjonalności po [[/r 1d6 + 1]]{1k6 +1} dniach, pod warunkiem, że przez cały czas masz co najmniej 1 PW.</p>",
       "activities": {
         "heal": {
           "condition": "Potrzebujesz co najmniej 1 PW."
@@ -3281,7 +3281,7 @@
     },
     "Robe of Useful Items": {
       "name": "Szata przydatnych rzeczy",
-      "description": "<p><em>Cudowny przedmiot</em></p><p>Ta szata jest pokryta naszywkami w różnych kształtach i kolorach. Kiedy ją nosisz możesz w ramach akcji oderwać jedną z łat, powodując, że stanie się ona rzeczą lub stworzeniem, które reprezentuje. Po usunięciu ostatniej łaty szata staje się zwykłym ubraniem.</p><p>Szata ma następujące łaty:</p><ul><li>2 łaty sztyletu</li><li>2 łaty z latarnią kierunkową (napełnioną i zapaloną)</li><li>2 łaty ze stalowym lusterkiem</li><li>2 łaty z 3-metrową tyczką</li><li>2 x łaty z liną konopną (15 metrów, zwinięta)</li><li>x2 naszywki z workiem</li></ul><p>Ponadto szata ma [[/r 4d4]] innych naszywek. MP wybiera łaty lub losuje je z tabeli @UUID[Compendium.dnd5e.tables.RollTable.CTGxcd51szehUGBn]{Szata przydatnych rzeczy}.</p><section class=\"secret foundry-note\" id=\"secret-ueOtjenZ1TpxHOhG\"><p><strong>Notka Foundry</strong></p><p>W razie potrzeby usuń stąd elementy, aby łatwiej śledzić, które łaty jeszcze pozostały.</p><p>Cennik został obliczony według wzoru: 5 × cena pojedynczego przedmiotu przy maksymalnej liczbie sztuk. Dostosuj w razie potrzeby, aby odzwierciedlić liczbę łatek i gospodarkę świata MP.</p></section>"
+      "description": "<p><em>Cudowny przedmiot</em></p><p>Ta szata jest pokryta naszywkami w różnych kształtach i kolorach. Kiedy ją nosisz możesz w ramach akcji oderwać jedną z łat, powodując, że stanie się ona rzeczą lub stworzeniem, które reprezentuje. Po usunięciu ostatniej łaty szata staje się zwykłym ubraniem.</p><p>Szata ma następujące łaty:</p><ul><li>2 łaty sztyletu</li><li>2 łaty z latarnią kierunkową (napełnioną i zapaloną)</li><li>2 łaty ze stalowym lusterkiem</li><li>2 łaty z 3-metrową tyczką</li><li>2 x łaty z liną konopną (15 metrów, zwinięta)</li><li>x2 naszywki z workiem</li></ul><p>Ponadto szata ma [[/r 4d4]]{4k4} innych naszywek. MP wybiera łaty lub losuje je z tabeli @UUID[Compendium.dnd5e.tables.RollTable.CTGxcd51szehUGBn]{Szata przydatnych rzeczy}.</p><section class=\"secret foundry-note\" id=\"secret-ueOtjenZ1TpxHOhG\"><p><strong>Notka Foundry</strong></p><p>W razie potrzeby usuń stąd elementy, aby łatwiej śledzić, które łaty jeszcze pozostały.</p><p>Cennik został obliczony według wzoru: 5 × cena pojedynczego przedmiotu przy maksymalnej liczbie sztuk. Dostosuj w razie potrzeby, aby odzwierciedlić liczbę łatek i gospodarkę świata MP.</p></section>"
     },
     "Robe of the Archmagi": {
       "name": "Szata arcymaga",
@@ -3584,8 +3584,8 @@
       }
     },
     "Silver Horn of Valhalla": {
-      "name": "Srebrny róg z Valhalli",
-      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>W ramach akcji możesz zadąć w ten róg. W odpowiedzi w obrębie 18 metrów od ciebie pojawiają się duchy wojowników z Valhalli. Korzystają ze statystyk @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{berserkera}. Wracają do Valhalli po 1 godzinie lub gdy ich PW spadną do 0. Po użyciu mocy rogu nie można zrobić tego ponownie przez 7 dni.</p>\n<p>Istnieją cztery rodzaje rogu z Valhalli, każdy wykonano z innego metalu. Rodzaj rogu określa, ilu berserkerów odpowiada na jego wezwanie, a także wymagania dotyczące jego użycia. MP wybiera rodzaj rogu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{róg z Valhalli}.</p>\n<p><strong>Róg z Valhalli (Srebrny).</strong>Ten srebrny róg przywołuje [[/r 3d4 + 3]] berserkerków i nie ma żadnych innych wymagań.</p>\n<p>Jeśli zadmiesz w róg, nie spełniając jego wymagań, przywołani berserkerzy zaatakują cię. Jeśli spełniasz wymagania, będą przyjaźnie nastawieni do ciebie i twoich towarzyszy oraz będą wykonywać twoje polecenia.</p>"
+      "name": "Róg z Walhalli (srebrny)",
+      "description": "<p><em>Cudowny przedmiot</em></p>\n<p>W ramach akcji możesz zadąć w ten róg. W odpowiedzi w obrębie 18 metrów od ciebie pojawiają się duchy wojowników z Walhalli. Korzystają ze statystyk @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{berserkera}. Wracają do Walhalli po 1 godzinie lub gdy ich PW spadną do 0. Po użyciu mocy rogu nie można zrobić tego ponownie przez 7 dni.</p>\n<p>Istnieją cztery rodzaje rogu z Walhalli, każdy wykonano z innego metalu. Rodzaj rogu określa, ilu berserkerów odpowiada na jego wezwanie, a także wymagania dotyczące jego użycia. MP wybiera rodzaj rogu lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{róg z Walhalli}.</p>\n<p><strong>Róg z Walhalli (srebrny).</strong>Ten srebrny róg przywołuje [[/r 3d4 + 3]]{3k4 +3) berserkerków i nie ma żadnych innych wymagań.</p>\n<p>Jeśli zadmiesz w róg, nie spełniając jego wymagań, przywołani berserkerzy zaatakują cię. Jeśli spełniasz wymagania, będą przyjaźnie nastawieni do ciebie i twoich towarzyszy oraz będą wykonywać twoje polecenia.</p>"
     },
     "Sledgehammer": {
       "name": "Młot dwuręczny",
@@ -3747,7 +3747,7 @@
       "description": "<p><em>Ta zbroja została ozdobiona potężnymi runami, wykuta w magicznym ogniu, pobłogosławiona przez potężną istotę lub w inny sposób obdarzona wzmocnioną ochroną dla noszącego.</em></p>\n<p>Kiedy nosisz ten pancerz, zyskujesz premię do KP.</p>"
     },
     "Splint Armor of Resistance": {
-      "name": "Pancerz odporności (Zbroja płytkowa)",
+      "name": "Pancerz odporności (zbroja płytkowa)",
       "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Kiedy nosisz tę zbroję, zyskujesz odporność na jeden rodzaj obrażeń. MP wybiera typ obrażeń lub określa go losowo z tabeli @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{pancerz odporności}.</p><p></p>"
     },
     "Sprig of Mistletoe": {
@@ -3821,7 +3821,7 @@
     },
     "Staff of Striking": {
       "name": "Kostur uderzenia",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p><p>Tego kostura można używać jako magicznego drąga, który daje premię +3 do testów ataku i obrażeń nim zadawanych.</p><p>Kostur ma 10 ładunków. Kiedy trafisz atakiem wręcz, możesz zużyć do 3 jego ładunków. Za każdy zużyty ładunek cel otrzymuje dodatkowe 1k6 obrażeń od mocy [[/damage 1d6 force]]. Kostur codziennie odzyskuje 1k6 + 4 zużytych ładunków. Jeśli zużyjesz ostatni ładunek, rzuć k20. Przy wyrzuceniu 1, kostur staje się niemagicznym drągiem.</p>"
+      "description": "<p><em>(Wymaga zestrojenia)</em></p><p>Tego kostura można używać jako magicznego drąga, który daje premię +3 do testów ataku i obrażeń nim zadawanych.</p><p>Kostur ma 10 ładunków. Kiedy trafisz atakiem wręcz, możesz zużyć do 3 jego ładunków. Za każdy zużyty ładunek cel otrzymuje dodatkowe [[/damage 1d6 force]]{1k6 obrażeń od mocy}. Kostur codziennie odzyskuje 1k6 + 4 zużytych ładunków. Jeśli zużyjesz ostatni ładunek, rzuć k20. Przy wyrzuceniu 1, kostur staje się niemagicznym drągiem.</p>"
     },
     "Staff of Swarming Insects": {
       "name": "Kostur roju owadów",
@@ -3834,11 +3834,11 @@
     },
     "Staff of Thunder and Lightning": {
       "name": "Kostur gromu i błyskawicy",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p><p>Tego kostura można używać jako magicznego drąga, który daje premię +2 do testów ataku i obrażeń nim zadawanych. Ma również następujące dodatkowe właściwości. Po użyciu jednej z tych właściwości nie można jej użyć ponownie do następnego świtu.</p><p><strong>Błyskawica</strong>. Jeżeli w ataku wręcz tym kosturem trafisz w cel, to możesz mu zadać 2k6 dodatkowych obrażeń od elektryczności. [[/damage 2d6 lightning]].</p><p><strong>Grom</strong>. Jeżeli w ataku wręcz tym kosturem trafisz w cel, to możesz sprawić, by kostur rozbrzmiał odgłosem gromu słyszalnym z odległości 90 metrów. Trafiony cel musi wykonać rzut obronny na Kondycję [[/save dc=17 con]]. W przypadku niepowodzenia zostaje ogłuszony (&Reference[stunned]) do końca twojej następnej tury.</p><p><strong>Uderzenie pioruna</strong>. W ramach akcji możesz spowodować, że z końca kostura wystrzeli piorun w kształcie linii prostej o szerokości 1,5 metra i długości 36 metrów. Każda istota na tym obszarze musi wykonać rzut obronny na Zręczność [[/save dc=17 dex]]. W przypadku niepowodzenia otrzymuje 9d6 obrażeń od elektryczności ([[/damage 9d6 lightning]]). Udany rzut zmniejsza obrażenia o połowę.</p><p><strong>Grzmot</strong>. W ramach akcji możesz sprawić, by kostur rozbrzmiał ogłuszającym hukiem słyszalnym z odległości 180 metrów. Każde stworzenie w promieniu 18 m od ciebie (nie licząc ciebie) musi wykonać rzut obronny na Kondycję [[/save dc=17 con]]. W przypadku niepowodzenia, istota otrzymuje 2d6 obrażeń od dźwięku ([[/damage 2d6 thunder]]) i staje się ogłuchła (&Reference[deafened]) na 1 minutę. Udany rzut zmniejsza obrażenia o połowę i zapobiega ogłuchnięciu.</p><p><strong>Grom i błyskawica</strong>. W ramach akcji możesz użyć jednocześnie Uderzenia pioruna i Grzmotu. Nie wykorzystujesz w ten sposób dziennego użycia żadnej z tych dwóch mocy, tylko użycie ich łączonego wariantu.</p>"
+      "description": "<p><em>(Wymaga zestrojenia)</em></p><p>Tego kostura można używać jako magicznego drąga, który daje premię +2 do testów ataku i obrażeń nim zadawanych. Ma również następujące dodatkowe właściwości. Po użyciu jednej z tych właściwości nie można jej użyć ponownie do następnego świtu.</p><p><strong>Błyskawica</strong>. Jeżeli w ataku wręcz tym kosturem trafisz w cel, to możesz mu zadać [[/damage 2d6 lightning]]{2k6 dodatkowych obrażeń od elektryczności}.</p><p><strong>Grom</strong>. Jeżeli w ataku wręcz tym kosturem trafisz w cel, to możesz sprawić, by kostur rozbrzmiał odgłosem gromu słyszalnym z odległości 90 metrów. Trafiony cel musi wykonać [[/save dc=17 con]]{rzut obronny na Kondycję o ST 17}. W przypadku niepowodzenia zostaje &Reference[stunned]{ogłuszony} do końca twojej następnej tury.</p><p><strong>Uderzenie pioruna</strong>. W ramach akcji możesz spowodować, że z końca kostura wystrzeli piorun w kształcie linii prostej o szerokości 1,5 metra i długości 36 metrów. Każda istota na tym obszarze musi wykonać [[/save dc=17 dex]]{rzut obronny na Zręczność o ST 17}. W przypadku niepowodzenia otrzymuje [[/damage 9d6 lightning]]{9k6 obrażeń od elektryczności}. Udany rzut zmniejsza obrażenia o połowę.</p><p><strong>Grzmot</strong>. W ramach akcji możesz sprawić, by kostur rozbrzmiał ogłuszającym hukiem słyszalnym z odległości 180 metrów. Każde stworzenie w promieniu 18 m od ciebie (nie licząc ciebie) musi wykonać [[/save dc=17 con]]{rzut obronny na Kondycję o ST 17}. W przypadku niepowodzenia, istota otrzymuje  [[/damage 2d6 thunder]]{2k6 obrażeń od dźwięku} i staje się &Reference[deafened]{ogłuchła} na 1 minutę. Udany rzut zmniejsza obrażenia o połowę i zapobiega ogłuchnięciu.</p><p><strong>Grom i błyskawica</strong>. W ramach akcji możesz użyć jednocześnie Uderzenia pioruna i Grzmotu. Nie wykorzystujesz w ten sposób dziennego użycia żadnej z tych dwóch mocy, tylko użycie ich łączonego wariantu.</p>"
     },
     "Staff of Withering": {
       "name": "Kostur obumierania",
-      "description": "<p><em>(Wymaga zestrojenia)</em></p><p>Kostur ma 3 ładunki i każdego dnia o świcie odzyskuje 1k3 zużytych ładunków.</p><p>Kostur może być używany jako magiczny drąg. Przy trafieniu zadaje obrażenia jak zwykły drąg, a ty możesz zużyć 1 ładunek, aby zadać celowi dodatkowe obrażenia nekrotyczne [[/damage 2d10 necrotic]]. Ponadto cel musi wykonać rzut obronny na Kondycję o ST 15. W przypadku niepowodzenia przez 1 godzinę ma utrudnienie w każdym teście cechy lub rzutach obronnych opartych na Sile lub Kondycji.</p>",
+      "description": "<p><em>(Wymaga zestrojenia)</em></p><p>Kostur ma 3 ładunki i każdego dnia o świcie odzyskuje 1k3 zużytych ładunków.</p><p>Kostur może być używany jako magiczny drąg. Przy trafieniu zadaje obrażenia jak zwykły drąg, a ty możesz zużyć 1 ładunek, aby zadać celowi [[/damage 2d10 necrotic]]{dodatkowe 2k10 obrażeń nekrotycznych}. Ponadto cel musi wykonać rzut obronny na Kondycję o ST 15. W przypadku niepowodzenia przez 1 godzinę ma utrudnienie w każdym teście cechy lub rzutach obronnych opartych na Sile lub Kondycji.</p>",
       "activities": {
         "Wither": {
           "name": "Obumieranie",
@@ -4041,7 +4041,7 @@
     },
     "Truth Serum": {
       "name": "Serum prawdy",
-      "description": "<p>Istota poddana działaniu tej trucizny musi wykonać rzut obronny na Kondycję [[/save]] . W przypadku niepowodzenia staje się zatruta (&Reference[poisoned]) na 1 godzinę. Zatruta istota nie może świadomie kłamać, tak jakby działał na nią czar @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Strefa prawdy}.</p>"
+      "description": "<p>Istota poddana działaniu tej trucizny musi wykonać  [[/save]]{rzut obronny na Kondycję}. W przypadku niepowodzenia staje się &Reference[poisoned]{zatruta} na 1 godzinę. Zatruta istota nie może świadomie kłamać, tak jakby działał na nią czar @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Strefa prawdy}.</p>"
     },
     "Two-Person Tent": {
       "name": "Namiot dwuosobowy",
@@ -4201,7 +4201,7 @@
     },
     "Vicious War Pick": {
       "name": "Zajadły nadziak",
-      "description": "<p>Wyważony trzonek z osadzonym, zakrzywionym kolcem &ndash; przeznaczony do przebijania zbroi z zabójczą siłą.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
+      "description": "<p>Wyważony trzonek z osadzonym, zakrzywionym kolcem - przeznaczony do przebijania zbroi z zabójczą siłą.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Warhammer": {
       "name": "Zajadły młot bojowy",
@@ -4251,7 +4251,7 @@
     },
     "Wand of Fear": {
       "name": "Różdżka strachu",
-      "description": "<p><em>Różdżka (wymaga zestrojenia)</em></p><p>Różdżka ma 7 ładunków zasilających poniższe moce. Każdego dnia o świcie odzyskuje 1k6 + 1 zużytych ładunków. Jeśli zużyjesz ostatni ładunek różdżki, rzuć k20. Przy wyniku 1, różdżka rozsypuje się w pył i jest zniszczona.</p><p><strong>Rozkaz</strong>. Kiedy trzymasz różdżkę, możesz w ramach akcji wydać 1 ładunek, aby nakazać innemu stworzeniu uciekać lub paść na ziemię, tak jak za sprawą czaru @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{rozkaz} (ST rzutu obronnego 15).</p><p><strong>Stożek grozy</strong>. Kiedy trzymasz różdżkę, możesz w ramach akcji wydać 2 ładunki, aby spowodować by jej koniec rozbłysł 18-metrowym stożkiem bursztynowego światła. Każda istota w jego obszarze musi wykonać rzut obronny na Mądrość o ST 15. W przypadku niepowodzenia staje się tobą &reference[frightened] na 1 minutę. Kiedy jest w tym stanie, w każdej swojej turze musi jak najbardziej oddalić się od ciebie i nie może dobrowolnie przemieścić się na miejsce w obrębie 9 metrów od ciebie. Nie może też podejmować reakcji. W ramach swojej akcji może jedynie wykonać Sprint bądź próbować przezwyciężyć efekt ograniczający jej ruch. Jeśli istota nie ma dokąd się wycofać, może używać akcji Uniku. Stworzenie może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt na sobie w przypadku sukcesu.</p>",
+      "description": "<p><em>Różdżka (wymaga zestrojenia)</em></p><p>Różdżka ma 7 ładunków zasilających poniższe moce. Każdego dnia o świcie odzyskuje 1k6 + 1 zużytych ładunków. Jeśli zużyjesz ostatni ładunek różdżki, rzuć k20. Przy wyniku 1, różdżka rozsypuje się w pył i jest zniszczona.</p><p><strong>Rozkaz</strong>. Kiedy trzymasz różdżkę, możesz w ramach akcji wydać 1 ładunek, aby nakazać innemu stworzeniu uciekać lub paść na ziemię, tak jak za sprawą czaru @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{rozkaz} (ST rzutu obronnego 15).</p><p><strong>Stożek grozy</strong>. Kiedy trzymasz różdżkę, możesz w ramach akcji wydać 2 ładunki, aby spowodować by jej koniec rozbłysł 18-metrowym stożkiem bursztynowego światła. Każda istota w jego obszarze musi wykonać rzut obronny na Mądrość o ST 15. W przypadku niepowodzenia staje się tobą &Reference[frightened]{przerażona} na 1 minutę. Kiedy jest w tym stanie, w każdej swojej turze musi jak najbardziej oddalić się od ciebie i nie może dobrowolnie przemieścić się na miejsce w obrębie 9 metrów od ciebie. Nie może też podejmować reakcji. W ramach swojej akcji może jedynie wykonać Sprint bądź próbować przezwyciężyć efekt ograniczający jej ruch. Jeśli istota nie ma dokąd się wycofać, może używać akcji Uniku. Stworzenie może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt na sobie w przypadku sukcesu.</p>",
       "activities": {
         "Cone of Fear": {
           "name": "Stożek grozy"
@@ -4305,31 +4305,31 @@
       "description": "<p><em>Różdżka (wymaga zestrojenia z rzucającym czary)</em></p><p>Różdżka ma 7 ładunków. Kiedy ją trzymasz, możesz w ramach akcji zużyć 1 z jej ładunków i wybrać cel w promieniu 36 metrów od siebie. Może to być stworzenie, przedmiot lub punkt w przestrzeni. Rzuć na tabelę @UUID[Compendium.dnd5e.tables.RollTable.X03rbSjVcNNJNqa8]{różdżka cudów}, aby dowiedzieć się, co się stanie.</p><p>Jeśli efekt powoduje, że rzucasz czar z różdżki, ST rzutu obronnego czaru wynosi 15. Jeśli czar ma zasięg wyrażony w metrach, jego zasięg wynosi 36 m, jeśli wcześniej był inny. Jeśli efekt jest obszarowy, musisz wycelować w jego środek i objąć nim cel. Jeśli efekt ma wiele możliwych celów, MP losowo określa, które z nich zostaną nim objęte.</p><p>Różdżka codziennie o świcie odzyskuje 1k6 + 1 zużytych ładunków. Jeśli zużyjesz ostatni ładunek różdżki, rzuć k20. Przy wyniku 1, różdżka rozsypuje się w pył i jest zniszczona.</p>",
       "activities": {
         "Slow (1–5)": {
-          "name": "Spowolnienie (1&ndash;5)"
+          "name": "Spowolnienie (1-5)"
         },
         "Faerie Fire (6–10)": {
-          "name": "Blask faerie (6&ndash;10)"
+          "name": "Blask faerie (6-10)"
         },
         "Gust of Wind (16–20)": {
-          "name": "Poryw wiatru (16&ndash;20)"
+          "name": "Poryw wiatru (16-20)"
         },
         "Detect Thoughts (21–25)": {
-          "name": "Wykrycie myśli (21&ndash;25)"
+          "name": "Wykrycie myśli (21-25)"
         },
         "Stinking Cloud (26–30)": {
-          "name": "Śmierdząca chmura (26&ndash;30)"
+          "name": "Śmierdząca chmura (26-30)"
         },
         "Lightning Bolt (37–46)": {
-          "name": "Piorun (37&ndash;46)"
+          "name": "Piorun (37-46)"
         },
         "Darkness (54–58)": {
-          "name": "Ciemność (54&ndash;58)"
+          "name": "Ciemność (54-58)"
         },
         "Fireball (70–79)": {
-          "name": "Kula ognia (70&ndash;79)"
+          "name": "Kula ognia (70-79)"
         },
         "Invisibility (80–84)": {
-          "name": "Niewidzialność (80&ndash;84)"
+          "name": "Niewidzialność (80-84)"
         }
       }
     },
@@ -4362,7 +4362,7 @@
     },
     "War Pick": {
       "name": "Nadziak",
-      "description": "<p>Wyważony trzonek z osadzonym, zakrzywionym kolcem &ndash; przeznaczony do przebijania zbroi z zabójczą siłą.</p>"
+      "description": "<p>Wyważony trzonek z osadzonym, zakrzywionym kolcem - przeznaczony do przebijania zbroi z zabójczą siłą.</p>"
     },
     "War Pick +1": {
       "name": "Nadziak +1",
