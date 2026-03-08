@@ -19,16 +19,16 @@
     "Bag of Beans": {
       "name": "Worek fasolek",
       "results": {
-        "1-1": "Wyrasta [[/r 5d4]] muchomorów. Jeśli stworzenie zje muchomora, rzuć dowolną kością. Przy nieparzystym wyniku istota, która zjadła grzyb musi wykonać rzut obronny [[/save constitution dc=15]] lub otrzymać obrażenia [[/damage 5d6 poison]] i stać się &Reference[poisoned] na 1 godzinę. Przy parzystym wyniku zyskuje [[/healing 5d6 temp]]{5k6 tymczasowych PW} na 1 godzinę.",
-        "2-10": "Gejzer wybucha i tryska wodą, piwem, sokiem jagodowym, herbatą, octem, winem lub olejem (według wyboru MP) na 9 metrów w górę na [[/r 1d12]] rund.",
+        "1-1": "Wyrasta [[/r 5d4]]{5k4} muchomorów. Jeśli stworzenie zje muchomora, rzuć dowolną kością. Przy nieparzystym wyniku istota, która zjadła grzyb musi wykonać [[/save constitution dc=15]]{rzut obronny na Kondycję o ST 15} lub otrzymać [[/damage 5d6 poison]]{5k6 obrażeń od trucizny} i stać się &Reference[poisoned]{zatruta} na 1 godzinę. Przy parzystym wyniku zyskuje [[/healing 5d6 temp]]{5k6 tymczasowych PW} na 1 godzinę.",
+        "2-10": "Gejzer wybucha i tryska wodą, piwem, sokiem jagodowym, herbatą, octem, winem lub olejem (według wyboru MP) na 9 metrów w górę na [[/r 1d12]]{1k12} rund.",
         "11-20": "Wyrasta drzewiec. Istnieje 50% szansy, że drzewiec ma charakter chaotyczny zły i atakuje.",
         "21-30": "Podnosi się ożywiony, nieruchomy kamienny posąg podobny do ciebie. Wysyła pod twoim adresem werbalne groźby. Jeśli go opuścisz, a inni się zbliżą, opisuje cię jako najbardziej haniebnego złoczyńcę i nakłania przybyszów, aby cię znaleźli i zaatakowali. Jeśli ty i posąg przebywacie w tej samej sferze egzystencji, posąg wie, gdzie się znajdujesz. Posąg staje się nieożywiony po 24 godzinach.",
         "31-40": "Pojawia się ognisko o niebieskich płomieniach i płonie przez 24 godziny (lub do momentu jego ugaszenia).",
-        "41-50": "Wyrasta [[/r 1d6 + 6]] @UUID[Compendium.dnd5e.monsters.Actor.TaK6nQMGqZ0y8gt7]{wrzaskunów}",
-        "51-60": "Wypełza [[/r 1d4 + 8]] jasnoróżowych ropuch. W momencie gdy ropucha zostanie dotknięta, zamienia się w dużego lub mniejszego potwora wybranego przez MP. Potwór istnieje przez 1 minutę, po czym znika w obłoku jasnoróżowego dymu.",
+        "41-50": "Wyrasta [[/r 1d6 + 6]]{1k6 + 6} @UUID[Compendium.dnd5e.monsters.Actor.TaK6nQMGqZ0y8gt7]{wrzaskunów}",
+        "51-60": "Wypełza [[/r 1d4 + 8]]{1k4 + 8} jasnoróżowych ropuch. W momencie gdy ropucha zostanie dotknięta, zamienia się w dużego lub mniejszego potwora wybranego przez MP. Potwór istnieje przez 1 minutę, po czym znika w obłoku jasnoróżowego dymu.",
         "61-70": "Wygrzebuje się głodna @UUID[Compendium.dnd5e.monsters.Actor.1ES45ODWg3pCrkzv]{buletta} i atakuje.",
-        "71-80": "Rośnie drzewo owocowe. Zawiera [[/r 1d10 + 20]] owoców, z których [[/r 1d8]] działa jako losowe magiczne eliksiry, a jeden działa jako trucizna wybrana przez MP. Drzewo znika po 1 godzinie. Zerwane owoce pozostają, zachowując swoje magiczne właściwości przez 30 dni.",
-        "81-90": "Wyrasta gniazdo zawierające [[/r 1d4 + 3]] jaj. Każde stworzenie, które zje jajo z gniazda, musi wykonać rzut obronny [[/save constitution dc=20]]. Po udanym rzucie istota trwale zwiększa swoją najniższą wartość cechy o 1, decydując losowo w przypadku równych niskich wartości więcej niż jednej cechy. W przypadku niepowodzenia, wewnątrz dochodzi do magicznej eksplozji i istota otrzymuje [[/damage 10k6 force]] obrażeń.",
+        "71-80": "Rośnie drzewo owocowe. Zawiera [[/r 1d10 + 20]]{1k10 + 20} owoców, z których [[/r 1d8]]{1k8} działa jako losowe magiczne eliksiry, a jeden działa jako trucizna wybrana przez MP. Drzewo znika po 1 godzinie. Zerwane owoce pozostają, zachowując swoje magiczne właściwości przez 30 dni.",
+        "81-90": "Wyrasta gniazdo zawierające [[/r 1d4 + 3]]{1k4 + 3} jaj. Każde stworzenie, które zje jajo z gniazda, musi wykonać [[/save constitution dc=20]]{rzut obronny na Kondycję o ST 20}. Po udanym rzucie istota trwale zwiększa swoją najniższą wartość cechy o 1, decydując losowo w przypadku równych niskich wartości więcej niż jednej cechy. W przypadku niepowodzenia, wewnątrz dochodzi do magicznej eksplozji i istota otrzymuje [[/damage 10d6 force]]{10k6 obrażeń od mocy}.",
         "91-99": "Wyłania się piramida o podstawie w kształcie kwadratu o boku 18 metrów. Wewnątrz znajduje się sarkofag, w którym spoczywa @UUID[Compendium.dnd5e.monsters.Actor.UFW8M3JHzHkxUEGM]{mumia władca}. Piramida traktowana jest jako legowisko mumii władcy, a w jej sarkofagu znajduje się skarb wybrany przez MP.",
         "100-100": "Kiełkuje gigantyczna łodyga fasoli, wyrastająca aż do wysokości określonej przez MP. Szczyt prowadzi tam, gdzie wybierze MP, na przykład do wspaniałego krajobrazu, zamku giganta chmurowego lub innej sfery egzystencji."
       }
@@ -64,7 +64,7 @@
     "Confusion": {
       "name": "Zamęt",
       "results": {
-        "1-1": "Stworzenie wykorzystuje całą swoją szybkość, aby poruszać się w losowym kierunku. Aby określić kierunek, rzuć [[/r d8]] i przypisz kierunek do każdego z możliwych wyników. Stworzenie nie podejmuje akcji w tej turze.",
+        "1-1": "Stworzenie wykorzystuje całą swoją szybkość, aby poruszać się w losowym kierunku. Aby określić kierunek, rzuć [[/r d8]]{k8} i przypisz kierunek do każdego z możliwych wyników. Stworzenie nie podejmuje akcji w tej turze.",
         "2-6": "Stworzenie nie porusza się ani nie podejmuje akcji w tej turze.",
         "7-8": "Stworzenie wykorzystuje swoją akcję do wykonania ataku wręcz przeciwko losowo wybranemu stworzeniu znajdującemu się w jego zasięgu. Jeśli w jego zasięgu nie ma żadnego innego stworzenia, nie robi nic w tej turze.",
         "9-10": "Stworzenie może działać i poruszać się normalnie."
@@ -114,18 +114,18 @@
       "name": "Szaleństwo bez końca",
       "description": "Postać jest dotknięta niekończącym się szaleństwem.",
       "results": {
-        "1-15": "&bdquo;Bycie pijanym utrzymuje mnie przy zdrowych zmysłach.&rdquo;",
-        "16-25": "&quot;Zatrzymuję wszystko, co znajdę.&quot;",
-        "26-30": "&bdquo;Staram się być bardziej podobny do kogoś, kogo znam - przyjmując jego styl ubierania się, maniery i imię.&rdquo;",
-        "31-35": "&bdquo;Muszę naginać prawdę, przesadzać lub wręcz kłamać, aby być interesującym dla innych ludzi.&rdquo;",
-        "36-45": "&bdquo;Osiągnięcie mojego celu jest jedyną rzeczą, która mnie interesuje i zignoruję wszystko inne, aby do niego dążyć.&rdquo;",
-        "46-50": "&bdquo;Trudno mi dbać o cokolwiek, co dzieje się wokół mnie.&rdquo;",
-        "51-55": "&quot;Nie podoba mi się sposób, w jaki ludzie cały czas mnie oceniają.&quot;",
-        "56-70": "&bdquo;Jestem najmądrzejszą, najwspanialszą, najsilniejszą, najszybszą i najpiękniejszą osobą, jaką znam.&rdquo;",
-        "71-80": "&bdquo;Jestem przekonany, że polują na mnie potężni wrogowie, a ich agenci są wszędzie, gdzie się udam. Jestem pewien, że cały czas mnie obserwują.&quot;",
-        "81-85": "&quot;Jest tylko jedna osoba, której mogę zaufać. I tylko ja widzę tego wyjątkowego przyjaciela.&quot;",
-        "86-95": "&quot;Niczego nie mogę brać na poważnie. Im poważniejsza sytuacja, tym śmieszniejsza się wydaje.&quot;",
-        "96-100": "&quot;Odkryłem, że naprawdę lubię zabijać ludzi.&quot;"
+        "1-15": "'Bycie pijanym utrzymuje mnie przy zdrowych zmysłach.'",
+        "16-25": "'Zatrzymuję wszystko, co znajdę.'",
+        "26-30": "'Staram się być bardziej podobny do kogoś, kogo znam - przyjmując jego styl ubierania się, maniery i imię.'",
+        "31-35": "'Muszę naginać prawdę, przesadzać lub wręcz kłamać, aby być interesującym dla innych ludzi.'",
+        "36-45": "'Osiągnięcie mojego celu jest jedyną rzeczą, która mnie interesuje i zignoruję wszystko inne, aby do niego dążyć.'",
+        "46-50": "'Trudno mi dbać o cokolwiek, co dzieje się wokół mnie.'",
+        "51-55": "'Nie podoba mi się sposób, w jaki ludzie cały czas mnie oceniają.'",
+        "56-70": "'Jestem najmądrzejszą, najwspanialszą, najsilniejszą, najszybszą i najpiękniejszą osobą, jaką znam.'",
+        "71-80": "'Jestem przekonany, że polują na mnie potężni wrogowie, a ich agenci są wszędzie, gdzie się udam. Jestem pewien, że cały czas mnie obserwują.'",
+        "81-85": "'Jest tylko jedna osoba, której mogę zaufać. I tylko ja widzę tego wyjątkowego przyjaciela.'",
+        "86-95": "'Niczego nie mogę brać na poważnie. Im poważniejsza sytuacja, tym śmieszniejsza się wydaje.'",
+        "96-100": "'Odkryłem, że naprawdę lubię zabijać ludzi.'"
       }
     },
     "Iron Flask": {
@@ -145,14 +145,14 @@
     },
     "Long-Term Madness": {
       "name": "Długotrwałe szaleństwo",
-      "description": "<p>Postać zostaje dotknięta długotrwałym obłędem na [[1d10*10]] godzin.</p>",
+      "description": "<p>Postać zostaje dotknięta długotrwałym obłędem na [[1d10*10]]{1k10 x 10} godzin.</p>",
       "results": {
         "1-10": "Postać czuje się zmuszona do powtarzania w kółko określonej czynności, takiej jak mycie rąk, dotykanie rzeczy, modlitwa lub liczenie monet.",
         "11-20": "Postać doświadcza realistycznych halucynacji i ma utrudnienie w testach cech.",
         "21-30": "Postać cierpi na skrajną paranoję. Postać ma utrudnienie w testach Mądrości i Charyzmy.",
         "31-40": "Postać spogląda na coś (zwykle na źródło szaleństwa) z intensywną odrazą, jakby była pod wpływem efektu antypatii zaklęcia antypatia/sympatia.",
         "41-45": "Postać doświadcza potężnego złudzenia. Wybierz miksturę. Postać wyobraża sobie, że jest pod jej wpływem.",
-        "46-55": "Postać przywiązuje się do &bdquo;talizmanu szczęścia&rdquo; w postaci innej osoby lub przedmiotu. Ma utrudnienie w testach ataku, testach cech i rzutach obronnych, gdy znajduje się w odległości większej niż 9 metrów od niego.",
+        "46-55": "Postać przywiązuje się do 'talizmanu szczęścia' w postaci innej osoby lub przedmiotu. Ma utrudnienie w testach ataku, testach cech i rzutach obronnych, gdy znajduje się w odległości większej niż 9 metrów od niego.",
         "56-65": "Postać jest oślepiona (25%) lub ogłuchła (75%).",
         "66-75": "Postać doświadcza niekontrolowanych drgawek lub tików, które dają utrudnienie w testach ataku, testach cech i rzutach obronnych na Siłę lub Zręczność.",
         "76-85": "Postać cierpi na częściową amnezję. Postać wie, kim jest i zachowuje cechy rasowe i klasowe, ale nie rozpoznaje innych ludzi ani nie pamięta niczego, co wydarzyło się przed rozpoczęciem szaleństwa.",
@@ -282,7 +282,7 @@
     },
     "Short-Term Madness": {
       "name": "Krótkotrwałe szaleństwo",
-      "description": "<p>Postać zostaje dotknięta krótkotrwałym obłędem na [[/r 1d10]] minut.</p>",
+      "description": "<p>Postać zostaje dotknięta krótkotrwałym obłędem na [[/r 1d10]]{1k10} minut.</p>",
       "results": {
         "1-20": "Postać zamyka się w sobie i zostaje sparaliżowana. Efekt kończy się, jeśli postać otrzyma obrażenia.",
         "21-30": "Postać zostaje obezwładniona i na czas szaleństwa krzyczy, śmieje się lub płacze.",
@@ -312,12 +312,12 @@
       "results": {
         "1-5": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{spowolnienie}.",
         "6-10": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{blask faerie}.",
-        "11-15": "Jesteś &Reference[Stunned] do początku swojej następnej tury, wierząc, że właśnie stało się coś niesamowitego.",
+        "11-15": "Jesteś &Reference[Stunned]{ogłuszony} do początku swojej następnej tury, wierząc, że właśnie stało się coś niesamowitego.",
         "16-20": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{poryw wiatru}.",
-        "21-25": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{wykrycie myśli} na wybrany cel. Jeśli nie obrałeś za cel stworzenia, otrzymujesz [[/damage 1k6 psychic]] obrażeń.",
+        "21-25": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{wykrycie myśli} na wybrany cel. Jeśli nie obrałeś za cel stworzenia, otrzymujesz [[/damage 1k6 psychic]]{1k6 obrażeń psychicznych}.",
         "26-30": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{smierdzącą chmurę}.",
         "31-33": "Ulewny deszcz pada na przestrzeni o promieniu 18 metrów od celu zaklęcia. Obszar ten ma ograniczoną widoczność. Deszcz pada do rozpoczęcia twojej następnej tury.",
-        "34-36": "Zwierzę pojawia się w niezajętej przestrzeni najbliżej celu. Zwierzę nie jest pod twoją kontrolą i zachowuje się naturalnie. Rzuć [[/r 1k100]], aby określić, które zwierzę się pojawi. Przy 01-25 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.SBCe2BSa6opTS5M4]; przy 26-50 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.jLPhaBnMtAbB5dp1]; a przy 51-100 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox].",
+        "34-36": "Zwierzę pojawia się w niezajętej przestrzeni najbliżej celu. Zwierzę nie jest pod twoją kontrolą i zachowuje się naturalnie. Rzuć [[/r 1d100]]{1k100}, aby określić, które zwierzę się pojawi. Przy 01-25 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.SBCe2BSa6opTS5M4]; przy 26-50 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.jLPhaBnMtAbB5dp1]; a przy 51-100 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox].",
         "37-46": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{piorun}.",
         "47-49": "Chmara 600 przerośniętych motyli wypełnia obszar o promieniu 9 metrów od celu zaklęcia. Obszar staje się pozbawiony widoczności. Motyle utrzymują się przez 10 minut, po czym znikają.",
         "50-53": "Powiększasz cel tak, jakbyś rzucił @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{powiększenie/pomniejszenie}. Jeśli cel nie może zostać objęty tym zaklęciem lub jeśli nie obrałeś za cel stworzenia, sam stajesz się celem.",
@@ -329,9 +329,9 @@
         "80-84": "Rzucasz na siebie @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{niewidzialność}.",
         "85-87": "Z celu wyrastają liście. Jeśli wybierzesz punkt w przestrzeni jako cel, liście wyrastają ze stworzenia znajdującego się najbliżej tego punktu. Liście brązowieją i opadają po 24 godzinach, chyba że zostaną zerwane.",
         "88-90": "Strumień [[/r 1d4 * 10]]{1k4 × 10} klejnotów, każdy o wartości 1 sz, wystrzeliwuje z końcówki różdżki w linii prostej o długości 9 metrów i szerokości 1,5 metra. Każdy klejnot zadaje 1 punkt obrażeń obuchowych, a całkowite obrażenia klejnotów są dzielone równo między wszystkie stworzenia w linii.",
-        "91-95": "Wybuch kolorowego migoczącego światła rozciąga się od ciebie w promieniu 9 metrów. Ty oraz każda istota, która posiada wzrok znajdująca się na obszarze działania światła, musi wykonać rzut obronny na Kondycję ST 15 lub zostać &Reference[Blinded] na 1 minutę. Stworzenie może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt na sobie w przypadku sukcesu.",
-        "96-97": "Skóra celu zmienia kolor na jasnoniebieski na [[/r 1d10]] dni. Jeśli wybierzesz punkt w przestrzeni jako cel, efekt obejmuje stworzenie znajdujące się najbliżej tego punktu.",
-        "98-100": "Jeśli obrałeś za cel stworzenie, musi ono wykonać rzut obronny [[/save con 15]]. Jeśli nie obrałeś za cel stworzenia, sam stajesz się celem i musisz wykonać rzut obronny. Jeśli rzut obronny nie powiedzie się o 5 lub więcej od ST, cel staje się natychmiast &Reference[Petrified]. Przy każdym innym nieudanym rzucie cel staje się &Reference[Restrained] i zaczyna zamieniać się w kamień. Podczas unieruchomienia w ten sposób cel musi powtórzyć rzut obronny na koniec swojej następnej tury, stając się skamieniały w przypadku porażki lub kończąc efekt w przypadku sukcesu. Skamienienie trwa, dopóki cel nie zostanie uwolniony przez zaklęcie @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{większe przywrócenie} lub podobny efekt magiczny."
+        "91-95": "Wybuch kolorowego migoczącego światła rozciąga się od ciebie w promieniu 9 metrów. Ty oraz każda istota, która posiada wzrok znajdująca się na obszarze działania światła, musi wykonać rzut obronny na Kondycję o ST 15 lub zostać &Reference[Blinded]{oślepiona} na 1 minutę. Stworzenie może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt na sobie w przypadku sukcesu.",
+        "96-97": "Skóra celu zmienia kolor na jasnoniebieski na [[/r 1d10]]{1k10} dni. Jeśli wybierzesz punkt w przestrzeni jako cel, efekt obejmuje stworzenie znajdujące się najbliżej tego punktu.",
+        "98-100": "Jeśli obrałeś za cel stworzenie, musi ono wykonać rzut obronny [[/save con 15]]{rzut obronny na Kondycję o ST 15}. Jeśli nie obrałeś za cel stworzenia, sam stajesz się celem i musisz wykonać rzut obronny. Jeśli rzut obronny nie powiedzie się o 5 lub więcej od ST, cel staje się natychmiast &Reference[Petrified]{skamieniały}. Przy każdym innym nieudanym rzucie cel staje się &Reference[Restrained]{unieruchomiony} i zaczyna zamieniać się w kamień. Podczas unieruchomienia w ten sposób cel musi powtórzyć rzut obronny na koniec swojej następnej tury, stając się skamieniały w przypadku porażki lub kończąc efekt w przypadku sukcesu. Skamienienie trwa, dopóki cel nie zostanie uwolniony przez zaklęcie @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{większe przywrócenie} lub podobny efekt magiczny."
       }
     }
   }
