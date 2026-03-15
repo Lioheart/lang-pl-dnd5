@@ -803,7 +803,7 @@
         },
         "Forced March": {
           "name": "Wymuszony marzec",
-          "text": "<p><strong>Forced March. </strong>Stół Travel Pace zakłada, że postacie podróżują przez 8 godzin w ciągu dnia. Mogą przekroczyć tę granicę, grożąc wyczerpaniem.</p><p>Za każdą dodatkową godzinę podróży powyżej 8 godzin postacie pokonują dystans pokazany w kolumnie Godzina dla swojego tempa, a każda postać musi wykonać rzut obronny na koniec godziny. DC wynosi 10 + 1 za każdą godzinę po 8 godzinach. Po nieudanym rzucie obronnym postać otrzymuje jeden poziom referencji & [Wyczerpanie].</p>",
+          "text": "<p><strong>Forced March. </strong>Stół Travel Pace zakłada, że postacie podróżują przez 8 godzin w ciągu dnia. Mogą przekroczyć tę granicę, grożąc wyczerpaniem.</p><p>Za każdą dodatkową godzinę podróży powyżej 8 godzin postacie pokonują dystans pokazany w kolumnie Godzina dla swojego tempa, a każda postać musi wykonać rzut obronny na koniec godziny. DC wynosi 10 + 1 za każdą godzinę po 8 godzinach. Po nieudanym rzucie obronnym postać otrzymuje jeden poziom stanu &amp;Reference[Exhaustion].</p>",
           "tooltip": "<p>Za każdą kolejną godzinę podróży powyżej 8 godzin każda postać musi na końcu tej godziny wykonać rzut obronny na Kondycję. ST wynosi 10 + 1 za każdą godzinę powyżej 8. Przy nieudanym rzucie obronnym postać zyskuje jeden poziom &amp;Reference[Wyczerpanie].</p>"
         },
         "Mounts and Vehicles": {
