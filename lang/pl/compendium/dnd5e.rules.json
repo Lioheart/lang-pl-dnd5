@@ -192,7 +192,7 @@
         },
         "Heavily Obscured": {
           "name": "Mocno zasłonięty",
-          "text": "<p><strong>Mocno zasłonięty obszar </strong>- taki jak ciemność, nieprzezroczysta mgła lub gęste liście - całkowicie blokuje widzenie. Stworzenie skutecznie cierpi na stan &referencyjny[warunek=zaślepiony], gdy próbuje zobaczyć coś w tym obszarze.</p>"
+          "text": "<p><strong>Mocno zasłonięty obszar </strong>- taki jak ciemność, nieprzezroczysta mgła lub gęste liście - całkowicie blokuje widzenie. Stworzenie skutecznie cierpi na stan &amp;Reference[condition=blinded], gdy próbuje zobaczyć coś w tym obszarze.</p>"
         },
         "Bright Light": {
           "name": "jasne światło",
