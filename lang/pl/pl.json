@@ -5706,7 +5706,7 @@
     }
   },
   "BLOODIED": {
-    "Name": "Stan poraniony",
+    "Name": "Stan zakrwawiony",
     "Hint": "Skonfiguruj, czy stan poraniony jest śledzony automatycznie oraz jego widoczność.",
     "All": "Wyświetl dla sojuszników i wrogów",
     "Player": "Wyświetl tylko dla sojuszników",
