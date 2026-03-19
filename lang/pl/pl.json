@@ -842,9 +842,9 @@
 "DND5E.ArmorConfigHint": "Wypełnij powyższe pole, aby nadpisać automatycznie obliczoną Klasę Pancerza.",
 "DND5E.ArmorClassCalculation": "Obliczenia",
 "DND5E.ArmorClassFormula": "Wzór",
-"DND5E.ArmorHeavyProficiency": "Ciężkie",
-"DND5E.ArmorLightProficiency": "Lekkie",
-"DND5E.ArmorMediumProficiency": "Średnie",
+"DND5E.ArmorHeavyProficiency": "Ciężki",
+"DND5E.ArmorLightProficiency": "Lekki",
+"DND5E.ArmorMediumProficiency": "Średni",
 "DND5E.ArmorValue": "Wartość Pancerza",
 "DND5E.AC": "KP",
 
@@ -2401,9 +2401,9 @@
 },
 
 "DND5E.EquipmentBonus": "Premia magiczna",
-"DND5E.EquipmentHeavy": "Ciężki Pancerz",
-"DND5E.EquipmentLight": "Lekki Pancerz",
-"DND5E.EquipmentMedium": "Średni Pancerz",
+"DND5E.EquipmentHeavy": "Ciężki pancerz",
+"DND5E.EquipmentLight": "Lekki pancerz",
+"DND5E.EquipmentMedium": "Średni pancerz",
 "DND5E.EquipmentNatural": "Naturalny pancerz",
 "DND5E.EquipmentShield": "Tarcza",
 "DND5E.EquipmentShieldProficiency": "Tarcze",
@@ -3760,7 +3760,7 @@
       "label": "Jednostka"
     }
   },
-  "Hover": "Lewitacja",
+  "Hover": "Unoszenie się",
   "Speed": "Szybkość w boju",
   "Type": {
     "Burrow": "Rycie",
@@ -5467,12 +5467,12 @@
 "DND5E.WeaponCategory": "Broń {category}",
 "DND5E.WeaponImprov": "Improwizowana",
 "DND5E.WeaponMartialM": "Żołnierska biała",
-"DND5E.WeaponMartialProficiency": "Żołnierska",
+"DND5E.WeaponMartialProficiency": "Żołnierskie",
 "DND5E.WeaponMartialR": "Żołnierska dystansowa",
 "DND5E.WeaponNatural": "Natualna (atak wręcz)",
 "DND5E.WeaponSiege": "Broń oblężnicza",
 "DND5E.WeaponSimpleM": "Prosta biała",
-"DND5E.WeaponSimpleProficiency": "Prosta",
+"DND5E.WeaponSimpleProficiency": "Proste",
 "DND5E.WeaponSimpleR": "Prosta dystansowa",
 "DND5E.Weight": "Waga",
 "DND5E.WhisperedTo": "Wyszeptane do",
@@ -5517,7 +5517,7 @@
 
 "EFFECT.DND5E": {
   "StatusBleeding": "Krwawienie",
-  "StatusBloodied": "Poraniony",
+  "StatusBloodied": "Zakrwawiony",
   "StatusBurning": "Palący się",
   "StatusBurrowing": "Ryjący",
   "StatusConcentrating": "Skoncentrowany",
@@ -5706,8 +5706,8 @@
     }
   },
   "BLOODIED": {
-    "Name": "Stan poraniony",
-    "Hint": "Skonfiguruj, czy stan poraniony jest śledzony automatycznie oraz jego widoczność.",
+    "Name": "Stan zakrwawiony",
+    "Hint": "Skonfiguruj, czy stan zakrwawiony jest śledzony automatycznie oraz jego widoczność.",
     "All": "Wyświetl dla sojuszników i wrogów",
     "Player": "Wyświetl tylko dla sojuszników",
     "None": "Nigdy nie wyświetlaj"
