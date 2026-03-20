@@ -4088,11 +4088,11 @@
       "description": "<p>Małe rzucane narzędzie wykonane z krótkiego drewnianego trzonka z lotkami i z ostrą drewnianą lub metalową końcówką. Strzałki mogą być rzucane z wystarczającą siłą, aby przebić skórę.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Flail": {
-      "name": "Zajadły kiścień",
+      "name": "Zabójcza broń (kiścień)",
       "description": "<p>Pojedyncza lub zestaw połączonych łańcuchem kolczastych kul przywiązanych do masywnego drewnianego trzonka. Kiścień zadaje niszczycielskie obrażenia, gdy zostaje wprawiony w śmiercionośny wir.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Glaive": {
-      "name": "Zajadła glewia",
+      "name": "Zabójcza broń (glewia)",
       "description": "<p>Ostrze w kształcie półksiężyca zamontowane na końcu długiego metalowego trzonu. Ta broń drzewcowa zapewnia możliwość atakowania ze śmiertelną skutecznością z większego zasięgu niż typowa broń do walki wręcz.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Greataxe": {
