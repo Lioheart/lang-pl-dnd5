@@ -4124,15 +4124,15 @@
       "description": "<p>Duża kusza osadzona na solidnym, drewnianym łożu, napinana za pomocą ręcznej korby i wystrzeliwująca grube stalowe bełty z zabójczą siłą, zdolną przebijać pancerz i ciało.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Javelin": {
-      "name": "Zajadły oszczep",
+      "name": "Zabójcza broń (oszczep)",
       "description": "<p>Ta lekka i elastyczna włócznia jest na tyle wszechstronna, że można zarówno nią rzucać jak i używać jej w walce wręcz.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Lance": {
-      "name": "Zajadła lanca",
+      "name": "Zabójcza broń (lanca)",
       "description": "<p>Lśniący stalowy grot, zdolny przebić nawet najtwardszą obronę wroga, pchany naprzód siłą pędzącego rumaka. Chociaż najlepiej nadaje się do walki konno, w odpowiednich rękach może być użyta do walki pieszej.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>\n<p><strong>Specjalna</strong>. Jeśli używasz lancy do ataku na cel w obrębie 1,5 metra od siebie, test ataku wykonujesz z utrudnieniem. Ponadto, lancę trzeba trzymać obiema rękami, jeśli nie jesteś na wierzchowcu.</p>"
     },
     "Vicious Light Crossbow": {
-      "name": "Zajadła lekka kusza",
+      "name": "Zabójcza broń (lekka kusza)",
       "description": "<p>Mała kusza z drewnianą rękojeścią i napiętą cięciwą, która jest w stanie wystrzelić pojedynczy pocisk, który z bliskiej odległości może przebić nawet ciężki pancerz.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Light Hammer": {
