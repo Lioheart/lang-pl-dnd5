@@ -4112,15 +4112,15 @@
       "description": "<p>Metalowy drzewiec zakończony grotem włóczni i półksiężycowym ostrzem. Halabarda jest potężną bronią obronną, która pozwala wojownikowi odeprzeć wrogów, wykorzystując zasięg drzewca do ataku z bezpiecznej odległości.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Hand Crossbow": {
-      "name": "Zajadła kusza ręczna",
+      "name": "Zabójcza broń (kusza ręczna)",
       "description": "<p>Lekka kusza przeznaczona do trzymania w jednej ręce lub przypięta do nadgarstka, do strzelania lekkimi bełtami.</p>"
     },
     "Vicious Handaxe": {
-      "name": "Zajadły toporek",
+      "name": "Zabójcza broń (toporek)",
       "description": "<p>Ten jednoręczny toporek do rzucania jest lekki i wyważony, a jednocześnie pozostaje użyteczny w walce wręcz.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Heavy Crossbow": {
-      "name": "Zajadła ciężka kusza",
+      "name": "Zabójcza broń (ciężka kusza)",
       "description": "<p>Duża kusza osadzona na solidnym, drewnianym łożu, napinana za pomocą ręcznej korby i wystrzeliwująca grube stalowe bełty z zabójczą siłą, zdolną przebijać pancerz i ciało.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Javelin": {
