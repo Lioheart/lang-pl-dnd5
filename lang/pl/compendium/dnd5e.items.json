@@ -4152,11 +4152,11 @@
       "description": "<p>Ciężka broń obuchowa zamontowana na końcu metalowego kija. Głowica ma kolce i ostrza zaprojektowane do przebijania zbroi i kruszenia kości pod nią.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Maul": {
-      "name": "Zajadły młot",
+      "name": "Zabójcza broń (młot)",
       "description": "<p>Ten ciężki dwuręczny młot miażdży metal i kości z gromową siłą.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Morningstar": {
-      "name": "Zajadły morgensztern",
+      "name": "Zabójcza broń (morgensztern)",
       "description": "<p>Metalowa kula z kolcami osadzona na końcu solidnego trzonu tworzy śmiercionośną broń, która może przebić zarówno zbroję, jak i ciało.</p>\n<p>Kiedy wyrzucisz 20 w teście ataku tą magiczną bronią, twoje trafienie krytyczne zadaje dodatkowe 2k6 obrażeń typu broni.</p>"
     },
     "Vicious Pike": {
