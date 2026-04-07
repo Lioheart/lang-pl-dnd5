@@ -4555,7 +4555,7 @@
       "Counted": {
         "any": "dowolne stworzenia",
         "each": "każde stworzenie",
-        "every": "każde stworzenie",
+        "every": "wszystkie stworzenia",
         "one": "{number} stworzenie",
         "other": "{number} stworzenia"
       }
