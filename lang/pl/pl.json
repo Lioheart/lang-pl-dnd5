@@ -4277,7 +4277,7 @@
 },
 "DND5E.SubclassAdd": "Dodaj podklasę",
 "DND5E.SubclassIdentifierHint": "Identyfikator ten powinien być zgodny z identyfikatorem klasy nadrzędnej, aby upewnić się, że są one prawidłowo połączone.",
-"DND5E.SubclassAssignmentError": "{class} ma już podklasę. Usuń istniejącą podklasę &bdquo;{subclass}&rdquo; przed dodaniem nowej.",
+"DND5E.SubclassAssignmentError": "{class} ma już podklasę. Usuń istniejącą podklasę \"{subclass}\" przed dodaniem nowej.",
 "DND5E.SubclassDuplicateError": "Podklasa o identyfikatorze {identifier} już istnieje na tym Aktorze.",
 "DND5E.SubclassMismatchWarn": "Podklasa {name} nie ma pasującej klasy z identyfikatorem '{class}'.",
 "DND5E.SubclassName": "Nazwa podklasy",
