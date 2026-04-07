@@ -4582,8 +4582,8 @@
     "Cylinder": {
       "Label": "Walec",
       "Counted": {
-        "one": "{number} cylinder",
-        "other": "{number} cylindrów",
+        "one": "{number} walec",
+        "other": "{number} walców",
         "oneSized": "Cylinder {sizes}",
         "otherSized": "{number} cylindrów {sizes}"
       }
