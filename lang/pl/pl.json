@@ -4580,7 +4580,7 @@
       }
     },
     "Cylinder": {
-      "Label": "Cylinder",
+      "Label": "Walec",
       "Counted": {
         "one": "{number} cylinder",
         "other": "{number} cylindrów",
