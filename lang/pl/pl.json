@@ -4524,7 +4524,7 @@
       "Counted": {
         "any": "dowolni sojusznicy",
         "each": "każdy sojusznik",
-        "every": "wszyscy sojusznicy",
+        "every": "każdy sojusznik",
         "one": "{number} sojusznik",
         "other": "{number} sojuszników"
       }
@@ -4555,7 +4555,7 @@
       "Counted": {
         "any": "dowolne stworzenia",
         "each": "każde stworzenie",
-        "every": "wszystkie stworzenia",
+        "every": "każde stworzenie",
         "one": "{number} stworzenie",
         "other": "{number} stworzenia"
       }
@@ -4602,7 +4602,7 @@
       "Counted": {
         "any": "dowolni wrogowie",
         "each": "każdy wróg",
-        "every": "wszyscy wrogowie",
+        "every": "każdy wróg",
         "one": "{number} wróg",
         "other": "{number} wrogów"
       }
