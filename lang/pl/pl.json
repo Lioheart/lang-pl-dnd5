@@ -355,7 +355,7 @@
 
 "DND5E.ACTOR": {
   "Warning": {
-    "CreateActor": "Aby przywołać bezpośrednio z kompendium, musisz mieć uprawnienie &bdquo;Utwórz nowych aktorów&rdquo;.",
+    "CreateActor": "Aby przywołać bezpośrednio z kompendium, musisz mieć uprawnienie \"Utwórz nowych aktorów\".",
     "InvalidItem": "Przedmioty typu {itemType} nie mogą zostać dodane do aktora {actorType}.",
     "NoActor": "Nie można znaleźć aktora z identyfikatorem UUID '{uuid}' do przywołania.",
     "Singleton": "Do aktora {actorType} można dodać tylko jeden przedmiot typu {itemType}."
