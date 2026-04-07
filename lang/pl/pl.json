@@ -3205,7 +3205,7 @@
 "DND5E.ItemRecoveryRoll": "{name} odzyskuje {count} ładunków",
 "DND5E.ItemLossRoll": "{name} traci {count} ładunków",
 "DND5E.ItemRecoveryRollMax": "{name} odzyskuje wszystkie ładunki",
-"DND5E.ItemRecoveryFormulaWarning": "{name} nie może odzyskać ładunków użyć. Nieprawidłowy wzór rzutu na odzyskiwanie &bdquo;{formula}&rdquo; ({uuid}).",
+"DND5E.ItemRecoveryFormulaWarning": "{name} nie może odzyskać ładunków użyć. Nieprawidłowy wzór rzutu na odzyskiwanie \"{formula}\" ({uuid}).",
 "DND5E.ItemRequiredStr": "Wymagana Siła",
 "DND5E.Items": "Przedmioty",
 "DND5E.ItemSiegeProperties": "Właściwości oblężenia",
