@@ -4700,7 +4700,7 @@
       "Counted": {
         "any": "dowolne przychylne istoty",
         "each": "każda przychylna istota",
-        "every": "każda przychylna istota",
+        "every": "wszystkie przychylne istoty",
         "one": "{number} przychylna istota",
         "other": "{number} przychylnych istot"
       }
