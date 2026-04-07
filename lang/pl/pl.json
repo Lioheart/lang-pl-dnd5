@@ -1089,7 +1089,7 @@
           "label": "Globalna premia do rzutów obronnych"
         },
         "skill": {
-          "label": "Globalna premia do testów Umiejętności"
+          "label": "Globalna premia do testów umiejętności"
         }
       },
       "msak": {
@@ -2903,7 +2903,7 @@
 "DND5E.FlagsReliableTalent": "Niezawodny talent",
 "DND5E.FlagsReliableTalentHint": "Zdolność łotra: Niezawodny talent",
 "DND5E.FlagsRemarkableAthlete": "Niezwykły atleta",
-"DND5E.FlagsRemarkableAthleteHint": "Połowa biegłości (zaokrąglona w górę) do testów Umiejętności fizycznych i Inicjatywy.",
+"DND5E.FlagsRemarkableAthleteHint": "Połowa biegłości (zaokrąglona w górę) do testów umiejętności fizycznych i Inicjatywy.",
 "DND5E.FlagsWeaponCritThreshold": "Próg trafienia krytycznego bronią",
 "DND5E.FlagsWeaponCritThresholdHint": "Rozszerzony próg trafienia kryt. ataków bronią.",
 "DND5E.FlagsSpellCritThreshold": "Próg trafienia krytycznego czarem",
