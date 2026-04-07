@@ -4584,8 +4584,8 @@
       "Counted": {
         "one": "{number} walec",
         "other": "{number} walców",
-        "oneSized": "Cylinder {sizes}",
-        "otherSized": "{number} cylindrów {sizes}"
+        "oneSized": "Walec {sizes}",
+        "otherSized": "{number} walców {sizes}"
       }
     },
     "Emanation": {
