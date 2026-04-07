@@ -2597,10 +2597,10 @@
   "Occupants": "Mieszkańcy",
   "Order": {
     "Execute": "Wykonaj rozkaz",
-    "Issue": "Wydaj polecenie: {order}"
+    "Issue": "Wydaj rozkaz: {order}"
   },
   "Orders": {
-    "Label": "Polecenia",
+    "Label": "Rozkazy",
     "build": {
       "inf": "Zbuduj",
       "present": "Budowanie"
@@ -2728,7 +2728,7 @@
     }
   },
   "Use": {
-    "Description": "Wydano polecenie strukturze {link} {facilityType}: <strong>{order}</strong>."
+    "Description": "Wydano rozkaz strukturze {link} {facilityType}: <strong>{order}</strong>."
   }
 },
 
