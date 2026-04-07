@@ -1043,7 +1043,7 @@
   },
   "Enabled": {
     "Label": "Włącz funkcjonalność Bastionu",
-    "Hint": "Po włączeniu tej opcji postacie graczy będą miały dostęp do nowej karty Bastionu na swoich kartach postaci po osiągnięciu 5. poziomu i będą mogły budować struktury oraz dodawać do nich polecenia."
+    "Hint": "Po włączeniu tej opcji postacie graczy będą miały dostęp do nowej karty Bastionu na swoich kartach postaci po osiągnięciu 5. poziomu i będą mogły budować struktury oraz dodawać do nich rozkazy."
   },
   "Gold": {
     "Claim": "Odbierz dochód",
