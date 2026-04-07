@@ -524,27 +524,21 @@
           "name": "Bludgeoning Resistance",
           "changes": {
             "name": "{} of Vulnerability",
-            "system.unidentified.name": "{} of Bludgeoning Resistance",
-            "system.description.value": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner caption=false]</p>",
-            "system.unidentified.description": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner caption=false]</p>"
+            "system.description.value": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner caption=false]</p>"
           }
         },
         "Piercing Resistance": {
           "name": "Piercing Resistance",
           "changes": {
             "name": "{} of Vulnerability",
-            "system.unidentified.name": "{} of Piercing Resistance",
-            "system.description.value": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner caption=false]</p>",
-            "system.unidentified.description": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner caption=false]</p>"
+            "system.description.value": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner caption=false]</p>"
           }
         },
         "Slashing Resistance": {
           "name": "Slashing Resistance",
           "changes": {
             "name": "{} of Vulnerability",
-            "system.unidentified.name": "{} of Slashing Resistance",
-            "system.description.value": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner caption=false]</p>",
-            "system.unidentified.description": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner caption=false]</p>"
+            "system.description.value": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgArmorOfVulner caption=false]</p>"
           }
         }
       }
@@ -1551,8 +1545,7 @@
           "name": "Demon Armor",
           "changes": {
             "name": "Demon {}",
-            "system.description.value": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgDemonArmor000 caption=false]</p>",
-            "system.unidentified.description": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgDemonArmor000 caption=false]</p>"
+            "system.description.value": "{}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgDemonArmor000 caption=false]</p>"
           }
         },
         "Abyssal Language": {
@@ -3054,7 +3047,7 @@
     },
     "Ioun Stone of Regeneration": {
       "name": "Ioun Stone of Regeneration",
-      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>You regain [[/healing 15 type=healing]]{15 Hit Points} at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.</p>",
+      "description": "<p><em>See: @UUID[Compendium.dnd5e.equipment24.Item.dmgIounStone0000]{Ioun Stone}</em></p><p>When you take a Magic action to toss an <em>Ioun Stone</em> into the air, the stone orbits your head at a distance of 1d3 feet, conferring its benefit to you while doing so. You can have up to three <em>Ioun Stones</em> orbiting your head at the same time.</p><p>As a Utilize action, you can seize and stow any number of <em>Ioun Stones</em> orbiting your head. If your Attunement to an <em>Ioun Stone</em> ends while it's orbiting your head, the stone falls as though you had dropped it.</p><p>You regain [[/healing 15 type=healing]] at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.</p>",
       "activities": {
         "Regeneration": {
           "name": "Regeneration",
@@ -5609,7 +5602,7 @@
       "effects": {
         "Sun Card: Daily Temp HP": {
           "name": "Sun Card: Daily Temp HP",
-          "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDmtSun0000000]{Sun}</em></p><p>You gain [[/healing 10 type=temphp]]{10 Temporary Hit Points} daily at dawn until you die.</p>"
+          "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDmtSun0000000]{Sun}</em></p><p>You gain [[/healing 10 temp]] daily at dawn until you die.</p>"
         }
       }
     },
