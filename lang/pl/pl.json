@@ -4594,7 +4594,7 @@
         "one": "{number} emanacja",
         "other": "{number} emanacji",
         "oneSized": "Emanacja {sizes}",
-        "otherSized": "{number} aury {sizes}"
+        "otherSized": "{number} emanacji {sizes}"
       }
     },
     "Enemy": {
