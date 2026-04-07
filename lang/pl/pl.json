@@ -4681,7 +4681,7 @@
       "Counted": {
         "any": "dowolne cele",
         "each": "każdy cel",
-        "every": "każdy cel",
+        "every": "wszystkie cele",
         "one": "{number} cel",
         "other": "{number} celów"
       }
