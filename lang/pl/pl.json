@@ -5750,7 +5750,7 @@
     "OptionalFeaturesDescription": "Następująca sekcja zawiera opcjonalne właściwości {class}. Właściwości te nie są przyznawane automatycznie i możesz wybrać jedną, niektóre lub wszystkie z nich według uznania MP.",
     "SpellSlotLevel": "Krąg komórki czarów",
     "SpellSlots": "Komórki czarów",
-    "SpellSlotsPerSpellLevel": "&mdash;Komórki poszczególnych kręgów&mdash;",
+    "SpellSlotsPerSpellLevel": "—Komórki poszczególnych kręgów—",
     "Style": {
       "Inferred": "Pochodzące ze źródła",
       "Legacy": "Stary",
@@ -5776,7 +5776,7 @@
       "None": "Bez grupowania",
       "School": "Według szkoły"
     },
-    "IdentifierHint": "Identyfikator powinien być zgodny z identyfikatorem zdefiniowanym w powiązanym dokumencie, jeśli dotyczy. Na przykład podczas tworzenia listy czarów dla klasy Maga, identyfikatorem powinien być &bdquo;mag&rdquo;.",
+    "IdentifierHint": "Identyfikator powinien być zgodny z identyfikatorem zdefiniowanym w powiązanym dokumencie, jeśli dotyczy. Na przykład podczas tworzenia listy czarów dla klasy Maga, identyfikatorem powinien być \"mag\".",
     "Type": {
       "Label": "Rodzaj listy czarów",
       "Other": "Bez kategorii"
