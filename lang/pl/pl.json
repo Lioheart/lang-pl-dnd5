@@ -5046,7 +5046,7 @@
   "Warning": {
     "NoOwnership": "Nie masz uprawnień by przemienić tego aktora.",
     "NoPermission": "Uprawnienie by przemieniać aktorów nie zostało przyznane graczom.",
-    "OriginalActor": "Nie znaleziono oryginalnego Aktora z ID &bdquo;{reference}&rdquo;.",
+    "OriginalActor": "Nie znaleziono oryginalnego Aktora z ID \"{reference}\".",
     "SourceActor": "Nie znaleziono aktora, w którego można by się przemienić."
   }
 },
