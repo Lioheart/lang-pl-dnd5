@@ -2525,7 +2525,7 @@
       }
     },
     "disabled": {
-      "hint": "Nieaktywne struktury nie mogą przyjmować poleceń oraz zostaną naprawione na początku następnej tury.",
+      "hint": "Nieaktywne struktury nie mogą przyjmować rozkazów oraz zostaną naprawione na początku następnej tury.",
       "label": "Wyłączone"
     },
     "enlargeable": {
@@ -2545,7 +2545,7 @@
       "label": "Wymagany poziom"
     },
     "order": {
-      "label": "Polecenie"
+      "label": "Rozkaz"
     },
     "progress": {
       "max": {
@@ -2596,7 +2596,7 @@
   "NoDefenders": "Bastion jest niebroniony.",
   "Occupants": "Mieszkańcy",
   "Order": {
-    "Execute": "Wykonaj polecenie",
+    "Execute": "Wykonaj rozkaz",
     "Issue": "Wydaj polecenie: {order}"
   },
   "Orders": {
