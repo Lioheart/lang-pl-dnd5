@@ -4602,7 +4602,7 @@
       "Counted": {
         "any": "dowolni wrogowie",
         "each": "każdy wróg",
-        "every": "każdy wróg",
+        "every": "wszyscy wrogowie",
         "one": "{number} wróg",
         "other": "{number} wrogów"
       }
@@ -4621,7 +4621,7 @@
       "Counted": {
         "any": "dowolne obiekty",
         "each": "każdy objekt",
-        "every": "każdy obiekt",
+        "every": "wszystkie obiekty",
         "one": "{number} obiekt",
         "other": "{number} obiektów"
       }
