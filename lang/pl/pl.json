@@ -1053,8 +1053,8 @@
   "Label": "Bastion",
   "Summary": {
     "Gold": "{value} ({claimed})",
-    "NoOrders": "W tej turze nie wydano żadnych poleceń dla struktur specjalnych.",
-    "Order": "{link} zrealizował polecenie <strong>{order}</strong>."
+    "NoOrders": "W tej turze nie wydano żadnych rozkazów dla struktur specjalnych.",
+    "Order": "{link} zrealizował rozkaz <strong>{order}</strong>."
   },
   "Trade": {
     "Cancel": "Anuluj oczekującą transakcję",
