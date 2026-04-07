@@ -4593,7 +4593,7 @@
       "Counted": {
         "one": "{number} emanacja",
         "other": "{number} emanacji",
-        "oneSized": "Aura {sizes}",
+        "oneSized": "Emanacja {sizes}",
         "otherSized": "{number} aury {sizes}"
       }
     },
