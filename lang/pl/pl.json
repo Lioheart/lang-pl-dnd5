@@ -4643,7 +4643,7 @@
       "Counted": {
         "any": "dowolne pole",
         "each": "każde pole",
-        "every": "każde pole",
+        "every": "wszystkie pola",
         "one": "{Number} pole",
         "other": "{number} pól"
       }
