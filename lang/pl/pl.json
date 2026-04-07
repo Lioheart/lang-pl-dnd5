@@ -1693,7 +1693,7 @@
 "DND5E.ConcentrationBreakWarning": "Przerwanie koncentracji na efekcie, który jest aktywny na innych stworzeniach, wymaga obecności aktywnego MP.",
 "DND5E.ConcentrationBonus": "Premia do testu na koncentrację",
 "DND5E.ConcentrationDuration": "Koncentracja, aż do {duration}",
-"DND5E.ConcentratingOn": "Koncentrujesz się na efektach: &bdquo;{name}&rdquo; {type}.",
+"DND5E.ConcentratingOn": "Koncentrujesz się na efektach: \"{name}\" {type}.",
 "DND5E.ConcentratingEndChoice": "Koncentrujesz się na efektach z więcej niż jednego źródła. Wybierz, który efekt ma się zakończyć.",
 "DND5E.ConcentratingMissingItem": "Efekt, na którym się koncentrujesz i który ma zostać zastąpiony, nie istnieje.",
 "DND5E.ConcentratingLimited": "Nie jesteś w stanie zacząć koncentrować się na dodatkowym efekcie.",
