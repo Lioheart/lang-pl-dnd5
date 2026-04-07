@@ -1058,7 +1058,7 @@
   },
   "Trade": {
     "Cancel": "Anuluj oczekującą transakcję",
-    "Invalid": "Usunięcie oczekującej transakcji spowoduje unieważnienie polecenia handlu.",
+    "Invalid": "Usunięcie oczekującej transakcji spowoduje unieważnienie rozkazu handlu.",
     "Pending": "Oczekująca transakcja"
   }
 },
