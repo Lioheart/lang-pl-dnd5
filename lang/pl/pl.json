@@ -905,7 +905,7 @@
       "label": "Szczegóły ataku",
       "ability": {
         "label": "Właściwość Ataku",
-        "hint": "Zdolność używana do wykonania ataku i określenia obrażeń. Dostępne przy użyciu @mod we wzorach."
+        "hint": "Cecha używana do wykonania ataku i określenia obrażeń. Dostępna przy użyciu @mod we wzorach."
       },
       "bonus": {
         "label": "Premia do trafienia",
