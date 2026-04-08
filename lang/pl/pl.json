@@ -1371,7 +1371,7 @@
     "spell": {
       "label": "Szczegóły rzucania",
       "ability": {
-        "label": "Zdolność rzucania",
+        "label": "Cecha bazowa rzucania czarów",
         "hint": "Zastępcza zdolność, zamiast standardowej zdolności rzucania czarów."
       },
       "challenge": {
