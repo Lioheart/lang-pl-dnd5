@@ -1496,7 +1496,7 @@
     "check": {
       "label": "Szczegóły testu",
       "ability": {
-        "label": "Cecha to wykorzystania w teście",
+        "label": "Cecha bazowa testu",
         "hint": "Cecha, której modyfikator zostanie użyty w tym teście."
       },
       "associated": {
