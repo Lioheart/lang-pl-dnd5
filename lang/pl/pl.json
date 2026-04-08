@@ -919,7 +919,7 @@
       },
       "flat": {
         "label": "Stały Bonus do Trafienia",
-        "hint": "Zignoruj modyfikator umiejętności, biegłość i wszelkie inne premie Aktora i korzystaj tylko z premii określonej przez aktywność podczas obliczania trafienia."
+        "hint": "Zignoruj modyfikator z Cech, biegłość i wszelkie inne premie Aktora i korzystaj tylko z premii określonej przez aktywność podczas obliczania trafienia."
       },
       "type": {
         "label": "Typ ataku",
