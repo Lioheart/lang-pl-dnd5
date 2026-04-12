@@ -904,8 +904,8 @@
     "attack": {
       "label": "Szczegóły ataku",
       "ability": {
-        "label": "Właściwość Ataku",
-        "hint": "Zdolność używana do wykonania ataku i określenia obrażeń. Dostępne przy użyciu @mod we wzorach."
+        "label": "Cecha bazowa ataku",
+        "hint": "Cecha używana do wykonania ataku i określenia obrażeń. Dostępna przy użyciu @mod we wzorach."
       },
       "bonus": {
         "label": "Premia do trafienia",
@@ -919,7 +919,7 @@
       },
       "flat": {
         "label": "Stały Bonus do Trafienia",
-        "hint": "Zignoruj modyfikator umiejętności, biegłość i wszelkie inne premie Aktora i korzystaj tylko z premii określonej przez aktywność podczas obliczania trafienia."
+        "hint": "Zignoruj modyfikator z Cech, biegłość i wszelkie inne premie Aktora i korzystaj tylko z premii określonej przez aktywność podczas obliczania trafienia."
       },
       "type": {
         "label": "Typ ataku",
@@ -1371,7 +1371,7 @@
     "spell": {
       "label": "Szczegóły rzucania",
       "ability": {
-        "label": "Zdolność rzucania",
+        "label": "Cecha bazowa rzucania czarów",
         "hint": "Zastępcza zdolność, zamiast standardowej zdolności rzucania czarów."
       },
       "challenge": {
@@ -1496,7 +1496,7 @@
     "check": {
       "label": "Szczegóły testu",
       "ability": {
-        "label": "Cecha to wykorzystania w teście",
+        "label": "Cecha bazowa testu",
         "hint": "Cecha, której modyfikator zostanie użyty w tym teście."
       },
       "associated": {
