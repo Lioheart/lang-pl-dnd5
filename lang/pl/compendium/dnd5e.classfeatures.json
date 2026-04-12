@@ -1081,7 +1081,7 @@
     },
     "Unarmed Strike": {
       "name": "Atak bez broni",
-      "description": "<p></p>"
+      "description": "<p>Cios pięścią, głową lub inne podobne silne uderzenie (żadne nie liczy się jako broń). Gdy atakujesz bez broni, możesz w testach ataku i rzutach na obrażenia używać Zręczności zamiast Siły. Zamiast zwykłych obrażeń z ataku bez broni możesz rzucić swoją kością sztuk walki mnicha.</p>\n<p><em>Zobacz: @UUID[Compendium.dnd5e.classfeatures.Item.l50hjTxO2r0iecKw]{Sztuki walki (Mnich)}</em></p>"
     },
     "Unarmored Defense": {
       "name": "Obrona bez pancerza",
