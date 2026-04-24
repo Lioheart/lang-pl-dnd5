@@ -8,23 +8,24 @@ async function injectHeaderTranslationButtonItem(sheet, buttons) {
   // Sprawdź, czy opcja jest włączona w ustawieniach
   if (!game.settings.get("dnd5e_pl", "changeTranslation")) return;
 
-  Hooks.on("renderItemSheet5e", (sheet, html, data) => {
-    const header = html.querySelector(".window-header .window-title");
+  Hooks.on("renderItemSheet5e", (sheet, html) => {
+    const root = html instanceof HTMLElement ? html : html?.[0];
+    if (!root) return;
+
+    const header = root.querySelector(".window-header .window-title");
     if (!header) return;
 
-    // Sprawdź, czy przycisk już istnieje
-    const existing = html.querySelector(".header-control[data-action='translate']");
+    const existing = root.querySelector(".header-control[data-action='translate']");
     if (existing) return;
 
     const item = sheet.document;
 
-    // Stwórz nowy przycisk
     const button = document.createElement("button");
     button.className = "header-control";
     button.setAttribute("data-action", "translate");
     button.setAttribute("data-tooltip", "Zmień opis");
     button.innerHTML = `<i class="fa fa-language"></i>`;
-    button.addEventListener("click", () => changeTranslation(item, buttons, sheet));
+    button.addEventListener("click", () => changeTranslation(item));
 
     header.insertAdjacentElement("afterend", button);
   });

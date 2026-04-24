@@ -1,4 +1,4 @@
-import { CompendiumMapping } from "../../babele/script/compendium-mapping.js";
+// import { CompendiumMapping } from "../../babele/script/compendium-mapping.js";
 
 // Create Translator instance and register settings
 Hooks.once("init", () => {
@@ -35,12 +35,7 @@ export class Translator {
 
     // Get mapping
     getMapping(mapping, compendium = false) {
-        if (compendium) {
-            return this.mappings[mapping]
-                ? new CompendiumMapping(this.mappings[mapping].entryType, this.mappings[mapping].mappingEntries)
-                : {};
-        }
-        return this.mapping[mapping];
+        return this.mappings?.[mapping] ?? {};
     }
 
     // Merge an object using a provided field mapping

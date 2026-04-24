@@ -1,6 +1,6 @@
 {
     "mappings":{
-        "advacement": {
+        "advancement": {
             "entryType": "Item",
             "mappingEntries": {
                 "title": "title"
