@@ -96,13 +96,7 @@
             "description": "<p>At the start of each of its turns, the [[lookup @name lowercase]]{monster} deals <strong>5 (1d10) <em>piercing damage</em></strong> to any creature grappling it.</p>"
         },
         "Beast of Burden": {
-            "name": "Beast of Burden",
-            "description": "<p>the [[lookup @name lowercase]]{monster} is considered to be a Large animal for the purpose of determining its carrying capacity.</p>",
-            "effects": {
-                "Beast of Burden": {
-                    "name": "Beast of Burden"
-                }
-            }
+            "name": "Beast of Burden"
         },
         "Berserk": {
             "name": "Berserk",

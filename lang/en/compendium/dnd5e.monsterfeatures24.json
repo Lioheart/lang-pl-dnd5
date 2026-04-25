@@ -22,13 +22,27 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "Actions": "Actions",
-        "Attacks": "Attacks",
-        "Legendary Actions": "Legendary Actions",
-        "Traits": "Traits"
-    },
     "entries": {
+        "+2 AC": {
+            "name": "+2 AC",
+            "description": "<p>The attacking creature adds 2 to its AC against the attack, possibly causing the attack to miss.</p>"
+        },
+        "+3 AC": {
+            "name": "+3 AC",
+            "description": "<p>The [[lookup @name lowercase]]{monster} adds 3 to its AC against that attack, possibly causing it to miss.</p>"
+        },
+        "0 ft. Speed": {
+            "name": "0 ft. Speed",
+            "description": "<p>The target’s Speed is 0 until the end of the target’s next turn.</p>"
+        },
+        "1/2 Speed": {
+            "name": "1/2 Speed",
+            "description": "<p>The target’s Speed is halved until the end of its next turn</p>"
+        },
+        "1/2 Speed | Action Restrictions": {
+            "name": "1/2 Speed | Action Restrictions",
+            "description": "<p>The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.</p>"
+        },
         "Abduct": {
             "name": "Abduct",
             "description": "<p>The [[lookup @name lowercase]]{monster} needn't spend extra movement to move a creature it is grappling.</p>"
@@ -48,17 +62,14 @@
         },
         "Acid Absorption": {
             "name": "Acid Absorption",
-            "description": "<p>Whenever the [[lookup @name lowercase]]{monster} is subjected to &amp;Reference[Acid] damage, it takes no damage and instead regains a number of Hit Points equal to the Acid damage dealt.</p>",
-            "effects": {
-                "Acid Absorption": {
-                    "name": "Acid Absorption",
-                    "description": "<p>The creature is immune to Acid damage and instead regains a number of Hit Points equal to the Acid damage dealt.</p>"
-                }
-            }
+            "description": "<p>The creature is immune to Acid damage and instead regains a number of Hit Points equal to the Acid damage dealt.</p>"
         },
         "Acid Breath": {
             "name": "Acid Breath",
             "description": "<p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], each [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] in a [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]]-foot-long, [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]]-foot-wide Line.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>"
+        },
+        "Acid Resistance": {
+            "name": "Acid Resistance"
         },
         "Acid Spray": {
             "name": "Acid Spray",
@@ -100,18 +111,7 @@
         },
         "Animate Trees": {
             "name": "Animate Trees",
-            "description": "<p>The [[lookup @name]]{monster} magically animates up to two trees it can see within [[lookup @range.value activity=EceTNjzjKWdrMNAy]] feet of itself. Each tree uses the <strong>Treant</strong> stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible.</p>",
-            "activities": {
-                "summon": {
-                    "target": "Trees it can see within range"
-                }
-            },
-            "effects": {
-                "Animate Trees": {
-                    "name": "Animate Trees",
-                    "description": "<p>The tree has Intelligence and Charisma scores of 1, can't speak, and lacks the Animate Trees action.</p>"
-                }
-            }
+            "description": "<p>The tree has Intelligence and Charisma scores of 1, can't speak, and lacks the Animate Trees action.</p>"
         },
         "Antennae": {
             "name": "Antennae",
@@ -127,6 +127,9 @@
                     "description": "<p>The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]</em> spell on the armor or weapon.</p>"
                 }
             }
+        },
+        "Apply Hide Action to Target": {
+            "name": "Apply Hide Action to Target"
         },
         "Aquatic Charge": {
             "name": "Aquatic Charge",
@@ -169,6 +172,14 @@
                 }
             }
         },
+        "Attached: Blinded": {
+            "name": "Attached: Blinded",
+            "description": "<p>While attached, the target has the &amp;Reference[Blinded apply=false] condition.</p>"
+        },
+        "Attack: Advantage": {
+            "name": "Attack: Advantage",
+            "description": "<p>The target has Advantage on attack rolls until the start of the granter’s next turn.</p>"
+        },
         "Aura of Authority": {
             "name": "Aura of Authority",
             "description": "<p>While in a [[lookup @target.template.size activity=dE4lg9tZyXtoCb5x]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}, the [[lookup @name lowercase]]{monster} and its allies have Advantage on attack rolls and saving throws, provided the [[lookup @name lowercase]]{monster} doesn't have the &amp;Reference[Incapacitated apply=false] condition.</p>",
@@ -178,6 +189,10 @@
                     "condition": "doesn't have the Incapacitated condition"
                 }
             }
+        },
+        "Averse": {
+            "name": "Averse",
+            "description": "<p>It has Disadvantage on attack rolls and ability checks until the end of its next turn.</p>"
         },
         "Aversion to Fire": {
             "name": "Aversion to Fire",
@@ -213,6 +228,10 @@
                     "description": "<p>The target has the &amp;Reference[Incapacitated apply=false] condition and is transported to a harmless demiplane until the start of the user's next turn, at which point it re­appears in an unoccupied space of the user's choice within range of the user.</p>"
                 }
             }
+        },
+        "Banished: Incapacitated": {
+            "name": "Banished: Incapacitated",
+            "description": "<p>The target has the &amp;Reference[Incapacitated apply=false] condition and is transported to a harmless demiplane until the start of the user's next turn, at which point it re­appears in an unoccupied space of the user's choice within range of the user.</p>"
         },
         "Barbed Hide": {
             "name": "Barbed Hide",
@@ -252,13 +271,7 @@
             }
         },
         "Beast of Burden": {
-            "name": "Beast of Burden",
-            "description": "<p>The [[lookup @name lowercase]]{monster} counts as one size larger for the purpose of determining its carrying capacity.</p>",
-            "effects": {
-                "Beast of Burden": {
-                    "name": "Beast of Burden"
-                }
-            }
+            "name": "Beast of Burden"
         },
         "Beguile": {
             "name": "Beguile",
@@ -266,25 +279,7 @@
         },
         "Berserk": {
             "name": "Berserk",
-            "description": "<p>Whenever the [[lookup @name lowercase]]{monster} starts its turn &amp;Reference[Bloodied], roll [[/r 1d6]]. On a 6, the [[lookup @name lowercase]]{monster} goes berserk. On each of its turns while berserk, the [[lookup @name lowercase]]{monster} attacks the nearest creature it can see. If no creature is near enough to move to and attack, the [[lookup @name lowercase]]{monster} attacks an object. Once the [[lookup @name lowercase]]{monster} goes berserk, it remains so until it is destroyed or it is no longer Bloodied.</p><p>The [[lookup @name lowercase]]{monster}'s creator, if within [[lookup @range.value activity=tnkOsrSwEElO2kZM]] feet of the berserk [[lookup @name lowercase]]{monster}, can try to calm it by taking an action to make a [[/check ability=cha skill=per dc=@abilities.str.dc]] DC 15 Charisma (Persuasion) check; the golem must be able to hear its creator. If this check succeeds, the golem ceases being berserk until the start of its next turn, at which point it resumes rolling for the Berserk trait again if it is still Bloodied.</p>",
-            "activities": {
-                "Berserk Check": {
-                    "name": "Berserk Check",
-                    "condition": "starts its turn &Reference[Bloodied]",
-                    "roll": "Berserk on 6"
-                },
-                "Calm Check": {
-                    "name": "Calm Check",
-                    "condition": "Action taken by creature's creator",
-                    "target": "this creature"
-                }
-            },
-            "effects": {
-                "Berserk": {
-                    "name": "Berserk",
-                    "description": "<p>On each of its turns while berserk, the creature attacks the nearest creature it can see. If no creature is near enough to move to and attack, the creature attacks an object. Once the creature goes berserk, it remains so until it is destroyed or it is no longer &amp;Reference[Bloodied apply=false].</p>"
-                }
-            }
+            "description": "<p>On each of its turns while berserk, the creature attacks the nearest creature it can see. If no creature is near enough to move to and attack, the creature attacks an object. Once the creature goes berserk, it remains so until it is destroyed or it is no longer &amp;Reference[Bloodied apply=false].</p>"
         },
         "Bite": {
             "name": "Bite",
@@ -307,6 +302,30 @@
         "Blazing Light": {
             "name": "Blazing Light",
             "description": "<p>The [[lookup @name lowercase]]{monster} uses Spellcasting to cast <em>[[/item Scorching Ray]]</em></p>"
+        },
+        "Blinded": {
+            "name": "Blinded",
+            "description": "<p>Each creature of the attacking creature's choice that it can see within 5 ft. of its destination space has the &amp;Reference[Blinded apply=long] condition until the end of the attacking creature's next turn.</p>"
+        },
+        "Blinded & Deafened": {
+            "name": "Blinded & Deafened",
+            "description": "<p>The target has the &amp;Reference[Blinded apply=false] and &amp;Reference[Deafened apply=false] conditions until the start of the attacking creature’s next turn.</p>"
+        },
+        "Blinded & Poisoned": {
+            "name": "Blinded & Poisoned",
+            "description": "<p>The target has the &amp;Reference[Blinded apply=false] and &amp;Reference[Poisoned apply=false] conditions until the end of the attacking creature's next turn.</p>"
+        },
+        "Blinded & Suffocating": {
+            "name": "Blinded & Suffocating",
+            "description": "<p>The target has the &amp;Reference[Blinded apply=false] condition and is &amp;Reference[suffocating apply=false]{suffocating} while the attacking creature is attached to the target.</p>"
+        },
+        "Blinded, Restrained, and Total Cover": {
+            "name": "Blinded, Restrained, and Total Cover",
+            "description": "<p>While swallowed, a creature has the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained apply=false] conditions, has &amp;Reference[Total Cover apply=false] against attacks.</p>"
+        },
+        "Blinded: Heavily Obscured": {
+            "name": "Blinded: Heavily Obscured",
+            "description": "<p>You have the &amp;Reference[Blinded apply=false] condition while trying to see something in a Heavily Obscured space. </p>"
         },
         "Blinding Breath": {
             "name": "Blinding Breath",
@@ -398,6 +417,10 @@
                 }
             }
         },
+        "Burning": {
+            "name": "Burning",
+            "description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.mPBGM1vguT5IPzxT caption=false]</p>"
+        },
         "Burning Hammer": {
             "name": "Burning Hammer",
             "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
@@ -472,6 +495,14 @@
             "name": "Charm",
             "description": "<p>The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]</em>, requiring no spell components and using Charisma as the spellcasting ability (spell save DC [[lookup @abilities.cha.dc]]), and the duration is [[lookup @duration.value activity=fcRXSTOlFJShCl52]] hours. The &amp;Reference[Charmed apply=false] target is a willing recipient of the [[lookup @name lowercase]]{monster}'s [[/item Bite]], the damage of which doesn't end the spell. When the spell ends, the target is unaware it was Charmed by the [[lookup @name lowercase]]{monster}.</p>"
         },
+        "Charmed": {
+            "name": "Charmed",
+            "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition until the start of the attacking creature’s next turn.</p>"
+        },
+        "Charmed & Incapacitated": {
+            "name": "Charmed & Incapacitated",
+            "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition until the song ends and repeats the save at the end of each of its turns.</p><p>While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition.</p>"
+        },
         "Chill": {
             "name": "Chill",
             "description": "<p>The [[lookup @name lowercase]]{monster} uses [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]</em>. The dragon can't take this action again until the start of its next turn.</p>"
@@ -509,6 +540,10 @@
                 }
             }
         },
+        "Clouded": {
+            "name": "Clouded",
+            "description": "<p>The target has Disadvantage on saving throws to maintain Concentration until the end of its next turn</p>"
+        },
         "Cold Breath": {
             "name": "Cold Breath",
             "description": "<p><em>Constitution Saving Throw: </em>DC [[lookup @save.dc.value activity=8P7hmd3Nron4RAIv]], each [[lookup @target.affects.type activity=8P7hmd3Nron4RAIv]] in a [[lookup @target.template.size activity=8P7hmd3Nron4RAIv]]-foot Cone.</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>"
@@ -521,6 +556,9 @@
                     "chatFlavor": "On Success: The target is pushed up to 30 feet straight away from the attacking creature"
                 }
             }
+        },
+        "Cold Resistance": {
+            "name": "Cold Resistance"
         },
         "Commanding Presence": {
             "name": "Commanding Presence",
@@ -675,6 +713,10 @@
                 }
             }
         },
+        "Cursed": {
+            "name": "Cursed",
+            "description": "<p>If the target is a creature, it is cursed. While cursed, the target can’t regain Hit Points, its Hit Point maximum doesn’t return to normal when finishing a Long Rest, and its Hit Point maximum decreases by [[/r 3d6#HP Max Decrease]]{10 (3d6)} every 24 hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack.</p>"
+        },
         "Cursed Touch": {
             "name": "Cursed Touch",
             "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, it is cursed. While cursed, the target gains no benefit from finishing a Short or Long Rest.</p>",
@@ -684,6 +726,22 @@
                     "description": "<p>While cursed, the target gains no benefit from finishing a Short or Long Rest.</p>"
                 }
             }
+        },
+        "Damaged: -1 AC": {
+            "name": "Damaged: -1 AC",
+            "description": "<p>Nonmagical armor worn by the target takes a -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</p>"
+        },
+        "Damaged: -1 AC/Attack": {
+            "name": "Damaged: -1 AC/Attack",
+            "description": "<p>The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]</em> spell on the armor or weapon.</p>"
+        },
+        "Damaged: -1 Attack": {
+            "name": "Damaged: -1 Attack",
+            "description": "<p>Any nonmagical weapon takes a cumulative −1 penalty to attack rolls immediately after dealing damage to the attacking creature and coming into contact with it.</p>"
+        },
+        "Damaged: −2 AC": {
+            "name": "Damaged: −2 AC",
+            "description": "<p>The target takes a −2 penalty to AC until the end of its next turn.</p>"
         },
         "Darkness Aura": {
             "name": "Darkness Aura",
@@ -704,6 +762,18 @@
                     "description": "<p>The target has the &amp;Reference[Prone apply=false] condition.</p>"
                 }
             }
+        },
+        "Deafened": {
+            "name": "Deafened",
+            "description": "<p>The target is &amp;Reference[Deafened apply=long] until the end of its next turn.</p>"
+        },
+        "Deafened & Frightened": {
+            "name": "Deafened & Frightened",
+            "description": "<p>The target has the &amp;Reference[Deafened apply=false] and &amp;Reference[Frightened apply=false] conditions until the end of its next turn.</p>"
+        },
+        "Deafened and Disadvantaged": {
+            "name": "Deafened and Disadvantaged",
+            "description": "<p>The target has the &amp;Reference[Deafened apply=false] condition until the start of the user's next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls.</p>"
         },
         "Death Burst": {
             "name": "Death Burst",
@@ -791,6 +861,14 @@
             "name": "Diabolical Restoration",
             "description": "<p>If the [[lookup @name lowercase]]{monster} dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.</p>"
         },
+        "Disadv. Attacks & Checks": {
+            "name": "Disadv. Attacks & Checks",
+            "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">While in sunlight, it has Disadvantage on attack rolls and ability checks.</span></p>"
+        },
+        "Disadv.: Attacks": {
+            "name": "Disadv.: Attacks",
+            "description": "<p>The target has Disadvantage on the next attack roll it makes before the end of its next turn.</p>"
+        },
         "Disrupt Life": {
             "name": "Disrupt Life",
             "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=qSz7l1czwIc5j9gP]], each [[lookup @target.affects.type activity=qSz7l1czwIc5j9gP]] that isn't an Undead in a [[lookup @target.template.size activity=qSz7l1czwIc5j9gP]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}.</p><p class=\"feature\"><em>Failure:</em> [[/damage average]] damage.</p><p class=\"feature\"><em>Success:</em> Half damage.</p><p class=\"feature\"><em>Failure or Success:</em> The [[lookup @name lowercase]]{monster} can't take this action again until the start of its next turn.</p>",
@@ -827,6 +905,10 @@
                     "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition. While Charmed, the target acts as an ally to the dominator and is under its control while within 60 feet of it. In addition, the two can communicate telepathically with each other over any distance.</p>"
                 }
             }
+        },
+        "Dominated": {
+            "name": "Dominated",
+            "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition. While Charmed, the target acts as an ally to the dominator and is under its control while within 60 feet of it. In addition, the two can communicate telepathically with each other over any distance.</p>"
         },
         "Draconic Origin": {
             "name": "Draconic Origin",
@@ -1033,6 +1115,38 @@
             "name": "Exalted Restoration",
             "description": "<p class=\"feature\">If the [[lookup @name lowercase]]{monster} dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.</p>"
         },
+        "Exhaustion": {
+            "name": "Exhaustion",
+            "description": "<p>The target gains 1 &amp;Reference[Exhaustion apply=long] level. </p>"
+        },
+        "Exhaustion 1": {
+            "name": "Exhaustion 1",
+            "description": "<p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>"
+        },
+        "Exhaustion 2": {
+            "name": "Exhaustion 2",
+            "description": "<p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>"
+        },
+        "Exhaustion 3": {
+            "name": "Exhaustion 3",
+            "description": "<p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>"
+        },
+        "Exhaustion 4": {
+            "name": "Exhaustion 4",
+            "description": "<p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>"
+        },
+        "Exhaustion 5": {
+            "name": "Exhaustion 5",
+            "description": "<p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>"
+        },
+        "Exhaustion Dead": {
+            "name": "Exhaustion Dead",
+            "description": "<p>The creature has 1 &amp;Reference[Exhaustion apply=false] level for each missing limb.</p>"
+        },
+        "Failure: Dead": {
+            "name": "Failure: Dead",
+            "description": "<p>The target dies if the creature that is at 0 Hit Points fails a Constitution save.</p>"
+        },
         "Fear Aura": {
             "name": "Fear Aura",
             "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} emanates an aura in a [[lookup @target.template.size activity=oT8238p9jXwVy76c]]-foot Emanation while it doesn't have the Incapacitated condition.</p><p class=\"feature\"><em>Wisdom Saving Throw:</em> DC [[lookup @save.dc.value activity=oT8238p9jXwVy76c]], [[lookup @target.affects.special activity=oT8238p9jXwVy76c]].</p><p class=\"feature\"><em>Failure:</em> The target has the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p><p class=\"feature\"><em>Success:</em> The target is immune to this [[lookup @name lowercase]]{monster}'s aura for 24 hours.</p>",
@@ -1093,6 +1207,9 @@
         "Fire Form": {
             "name": "Fire Form",
             "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} can move through a space as narrow as 1 inch without expending extra movement to do so, and it can enter a creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes [[/damage average]] damage.</p>"
+        },
+        "Fire Resistance": {
+            "name": "Fire Resistance"
         },
         "Fist": {
             "name": "Fist",
@@ -1189,6 +1306,14 @@
                 }
             }
         },
+        "Frightened": {
+            "name": "Frightened",
+            "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition until the start of its next turn.</p>"
+        },
+        "Frightened & Incapacitated": {
+            "name": "Frightened & Incapacitated",
+            "description": "<p>The target has the &amp;Reference[Frightened apply=false] and &amp;Reference[Incapacitated apply=false] conditions until the start of the user's next turn.</p>"
+        },
         "Frightening Gaze": {
             "name": "Frightening Gaze",
             "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Fear}</em>, using the same spellcasting ability as Spellcasting. The [[lookup @name lowercase]]{monster} can't take this action again until the start of its next turn.</p>"
@@ -1219,6 +1344,10 @@
                     "roll": "Roll d8"
                 }
             }
+        },
+        "Giggling": {
+            "name": "Giggling",
+            "description": "<p>Until the end of its next turn, the target rolls [[/r 1d6]] whenever it makes an ability check or attack and subtracts the number rolled from the D20 Test.</p>"
         },
         "Giggling Magic": {
             "name": "Giggling Magic",
@@ -1287,6 +1416,22 @@
                     "description": "<p>If the target is a Medium or smaller creature, it has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p>"
                 }
             }
+        },
+        "Grappled": {
+            "name": "Grappled",
+            "description": "<p>The target has the &amp;Reference[Grappled apply=false] condition (escape DC [[/check ability=str skill=ath format=long]], see source item for DC).</p><p>Until the grapple ends, the target can’t cast spells with a Verbal component and takes additional damage at the start of each of the NPC’s turns.</p>"
+        },
+        "Grappled & Restrained": {
+            "name": "Grappled & Restrained",
+            "description": "<p>If the target is a Large or smaller creature, it has the &amp;Reference[Grappled apply=false] condition (see source item for the escape DC). Until the grapple ends, the target has the &amp;Reference[Restrained apply=false] condition, is &amp;Reference[Suffocating]{suffocating} unless it can breathe water, and takes damage (see source for damage) at the start of each of the attacking creature's turns.</p>"
+        },
+        "Grappled + Other Conditions": {
+            "name": "Grappled + Other Conditions",
+            "description": "<p>The target is &amp;Reference[Grappled apply=false] (escape DC [[/check ability=str skill=ath format=long]], see source item for DC) instead of dealing damage.</p><p>Until the grapple ends, the target has the &amp;Reference[Blinded apply=false] and &amp;Reference[Restrained apply=false] conditions, is &amp;Reference[Suffocating]{suffocating}</p>"
+        },
+        "Grappled and Restrained": {
+            "name": "Grappled and Restrained",
+            "description": "<p><strong>Escape Tests (see source item for DC)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
         },
         "Great Bow": {
             "name": "Great Bow",
@@ -1373,6 +1518,14 @@
                     "roll": "Revive: Days"
                 }
             }
+        },
+        "Hide": {
+            "name": "Hide",
+            "description": "<p>You takes the &amp;Reference[Hide] action.</p>"
+        },
+        "Hit: STR Score -1d4": {
+            "name": "Hit: STR Score -1d4",
+            "description": "<p>The target’s Strength score decreases by [[/r 1d4]].</p>"
         },
         "Hold Breath": {
             "name": "Hold Breath",
@@ -1468,6 +1621,10 @@
             "name": "Immutable Form",
             "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} can't shape-shift.</p>"
         },
+        "Incapacitated": {
+            "name": "Incapacitated",
+            "description": "<p>The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn.</p>"
+        },
         "Incorporeal Movement": {
             "name": "Incorporeal Movement",
             "description": "<p>The [[lookup @name lowercase]]{monster} can move through other creatures and objects as if they were &amp;Reference[Difficult Terrain]. It takes [[/damage 1d10 average type=force]] damage if it ends its turn inside an object.</p>"
@@ -1546,6 +1703,10 @@
             "name": "Invisibility",
             "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility}</em> on itself, requiring no spell components and using Charisma as the spellcasting ability.</p>"
         },
+        "Invisible": {
+            "name": "Invisible",
+            "description": "<p>The attacking creature and its light have the &amp;Reference[Invisible apply=false] condition until their Concentration ends on this effect, which ends early immediately after the wisp makes an attack roll or uses the Consume Life bonus action.</p>"
+        },
         "Iron Scent": {
             "name": "Iron Scent",
             "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} can pinpoint the location of [[lookup @target.affects.special activity=I1ppxiVO5CS6tKj0]] within [[lookup @target.template.size activity=I1ppxiVO5CS6tKj0]] feet of itself.</p>",
@@ -1608,6 +1769,9 @@
         "Lightning Breath": {
             "name": "Lightning Breath",
             "description": "<p><em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], each [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]]-foot-long, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-foot-wide [[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]].</p><p><em>Failure: </em>[[/damage average]] damage.</p><p><em>Success:</em> Half damage.</p>"
+        },
+        "Lightning Resistance": {
+            "name": "Lightning Resistance"
         },
         "Lightning Storm": {
             "name": "Lightning Storm",
@@ -1934,6 +2098,10 @@
             "name": "Pact Blade",
             "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         },
+        "Paralyzed": {
+            "name": "Paralyzed",
+            "description": "<p>The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
+        },
         "Paralyzing Breath": {
             "name": "Paralyzing Breath",
             "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]], each [[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]] in a [[lookup @target.template.size activity=r4MGqEq5U9aaseBh]]-foot Cone.</p><p class=\"feature\"><em>First Failure:</em> The target has the &amp;Reference[Incapacitated apply=false] condition until the end of its next turn, when it repeats the save.</p><p class=\"feature\"><em>Second Failure:</em> The target has the &amp;Reference[Paralyzed apply=false] condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>",
@@ -1988,6 +2156,10 @@
                     "roll": "Bonus AC"
                 }
             }
+        },
+        "Petrified": {
+            "name": "Petrified",
+            "description": "<p>The target has the &amp;Reference[Petrified apply=false] condition instead of the Restrained condition.</p>"
         },
         "Petrifying Bite": {
             "name": "Petrifying Bite",
@@ -2089,6 +2261,17 @@
             "name": "Poison Ray",
             "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         },
+        "Poison Resistance": {
+            "name": "Poison Resistance"
+        },
+        "Poisoned": {
+            "name": "Poisoned",
+            "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition until the end of its next turn.</p>"
+        },
+        "Poisoned & Paralyzed": {
+            "name": "Poisoned & Paralyzed",
+            "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition for 1 hour. While the target has the Poisoned condition, the target also has the &amp;Reference[Paralyzed apply=false] condition.</p>"
+        },
         "Poisonous Spittle": {
             "name": "Poisonous Spittle",
             "description": "<p class=\"feature\"><em>Constitution Saving Throw:</em> DC [[lookup @save.dc.value activity=r4plP8QiJxzFZZO7]], [[lookup @target.affects.labels.statblock activity=r4plP8QiJxzFZZO7]] the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=r4plP8QiJxzFZZO7]] feet. <em>Failure:</em> 31 (7d8) Poison damage, and the target has the &amp;Reference[Blinded apply=false] condition until the start of the [[lookup @name lowercase]]{monster}'s next turn. <em>Success:</em> Half damage only.</p>",
@@ -2135,6 +2318,14 @@
         "Proboscis": {
             "name": "Proboscis",
             "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a creature, its Hit Point maximum decreases by an amount equal to the Necrotic damage taken.</p>"
+        },
+        "Prone": {
+            "name": "Prone",
+            "description": "<p>Creatures in that area lose &amp;Reference[Concentration] and, if Medium or smaller, have the &amp;Reference[Prone apply=false] condition.</p>"
+        },
+        "Protected": {
+            "name": "Protected",
+            "description": "<p>The wearer gains a +5 bonus to AC, including against the triggering attack and possibly causing it to miss, until the start of the bestower's next turn.</p>"
         },
         "Protection": {
             "name": "Protection",
@@ -2334,6 +2525,10 @@
                 }
             }
         },
+        "Resistance: Fire": {
+            "name": "Resistance: Fire",
+            "description": "<p>The creature can grant Resistance to Fire damage to a rider while it is on the creature.</p>"
+        },
         "Restless Touch": {
             "name": "Restless Touch",
             "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], and the target is cursed for 24 hours or until the [[lookup @name lowercase]]{monster} dies. Until the curse ends, the target gains no benefit from finishing Short Rests.</p>",
@@ -2343,6 +2538,10 @@
                     "description": "<p>The target is cursed for 24 hours or until the attacking creature dies. Until the curse ends, the target gains no benefit from finishing Short Rests.</p>"
                 }
             }
+        },
+        "Restrained": {
+            "name": "Restrained",
+            "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition until the web is destroyed.</p>"
         },
         "Riposte": {
             "name": "Riposte",
@@ -2463,6 +2662,10 @@
             "name": "Searing Fork",
             "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         },
+        "Self: Attack Adv./0 Speed": {
+            "name": "Self: Attack Adv./0 Speed",
+            "description": "<p>While attached to a target, the [[lookup @name lowercase]]{monster} can attack only the target but has Advantage on its attack rolls. Its Speed becomes 0, it can’t benefit from any bonus to its Speed, and it moves with the target.</p>"
+        },
         "Sense Magic": {
             "name": "Sense Magic",
             "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} senses magic within 120 feet of itself. This trait otherwise works like the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}</em> spell but isn't itself magical.</p>"
@@ -2510,6 +2713,10 @@
                     "description": "<p>If the target is a Medium or smaller creature, it has the &amp;Reference[Prone apply=false] condition.</p>"
                 }
             }
+        },
+        "Shielded": {
+            "name": "Shielded",
+            "description": "<p>The target's AC increases by 2 until the end of the bestower's next turn.</p>"
         },
         "Shielded Mind": {
             "name": "Shielded Mind",
@@ -2641,6 +2848,22 @@
             "name": "Speak with Beasts and Plants",
             "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} can communicate with Beasts and Plants as if they shared a language.</p>"
         },
+        "Speed -10": {
+            "name": "Speed -10",
+            "description": "<p>Until the end of its next turn, the target's speed decreases by 10 feet.</p>"
+        },
+        "Speed: -10 feet": {
+            "name": "Speed: -10 feet",
+            "description": "<p>If the target is a creature, its Speed decreases by 10 feet until the end of its next turn.</p>"
+        },
+        "Speed: -10 Ft.": {
+            "name": "Speed: -10 Ft.",
+            "description": "<p>The target’s Speed decreases by 10 feet until the end of its next turn.</p>"
+        },
+        "Speed: -20 ft.": {
+            "name": "Speed: -20 ft.",
+            "description": "<p>If the attacking creature takes Cold damage, its Speed decreases by 20 feet until the end of its next turn.</p>"
+        },
         "Spell Storing": {
             "name": "Spell Storing",
             "description": "<p class=\"feature\">A spellcaster who wears the [[lookup @name lowercase]]{monster}'s amulet can cause the [[lookup @name lowercase]]{monster} to store one spell of level 4 or lower. To do so, the wearer must cast the spell on the [[lookup @name lowercase]]{monster} while within 5 feet of it. The spell has no effect but is stored within the [[lookup @name lowercase]]{monster}. Any previously stored spell is lost when a new spell is stored. The [[lookup @name lowercase]]{monster} can cast the spell stored with any parameters set by the original caster, requiring no spell components and using the caster's spellcasting ability. The stored spell is then lost.</p>"
@@ -2749,6 +2972,10 @@
         "Storm Sword": {
             "name": "Storm Sword",
             "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "Stunned": {
+            "name": "Stunned",
+            "description": "<p>The target has the &amp;Reference[Stunned apply=false] condition until the start of the attacking creature's next turn.</p>"
         },
         "Stunning Screech": {
             "name": "Stunning Screech",
@@ -2991,6 +3218,14 @@
             "name": "Thunderous Slam",
             "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         },
+        "Total Cover": {
+            "name": "Total Cover",
+            "description": "<p>Creatures inside the attacking creature have Total Cover.</p>"
+        },
+        "Total Cover, Suffocating & Restrained": {
+            "name": "Total Cover, Suffocating & Restrained",
+            "description": "<p>At the start of each of its turns, is &amp;Reference[Suffocating]{suffocating}, has the &amp;Reference[Restrained apply=long] condition, and repeats the save at the end of each of its turns.</p>"
+        },
         "Touch": {
             "name": "Touch",
             "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. If the target is a creature or a flammable object that isn't being worn or carried, it starts burning.</p>"
@@ -3099,6 +3334,10 @@
                     "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition for 1 hour. While the target has the Poisoned condition, the target also has the &amp;Reference[Paralyzed apply=false] condition.</p>"
                 }
             }
+        },
+        "Unconscious": {
+            "name": "Unconscious",
+            "description": "<p>The target has the &amp;Reference[Unconscious apply=false] condition for the duration (see source item for the length of the duration). </p>"
         },
         "Undead Fortitude": {
             "name": "Undead Fortitude",
@@ -3279,6 +3518,10 @@
                 }
             }
         },
+        "Weakened": {
+            "name": "Weakened",
+            "description": "<p>The target has Disadvantage on Strength-based D20 Tests and subtracts 2 (1d4) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>"
+        },
         "Weakening Breath": {
             "name": "Weakening Breath",
             "description": "<p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=EGZ4bS4HpJkfNG9s]], each creature that isn't currently affected by this breath in a [[lookup @target.template.size activity=EGZ4bS4HpJkfNG9s]]-foot Cone.</p><p class=\"feature\"><em>Failure:</em> The target has Disadvantage on Strength-based D20 Tests and subtracts 3 ([[/r 1d6]]) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After [[lookup @duration.value activity=EGZ4bS4HpJkfNG9s]] minute, it succeeds automatically.</p>",
@@ -3443,5 +3686,11 @@
                 }
             }
         }
+    },
+    "folders": {
+        "Actions": "Actions",
+        "Attacks": "Attacks",
+        "Legendary Actions": "Legendary Actions",
+        "Traits": "Traits"
     }
 }

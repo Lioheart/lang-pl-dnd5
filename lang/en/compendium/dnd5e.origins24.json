@@ -22,20 +22,6 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "Backgrounds": "Backgrounds",
-        "Dragonborn": "Dragonborn",
-        "Dwarf": "Dwarf",
-        "Elf": "Elf",
-        "Gnome": "Gnome",
-        "Goliath": "Goliath",
-        "Halfling": "Halfling",
-        "Human": "Human",
-        "Orc": "Orc",
-        "Species": "Species",
-        "Tiefling": "Tiefling",
-        "Traits": "Traits"
-    },
     "entries": {
         "Acolyte": {
             "name": "Acolyte",
@@ -84,6 +70,9 @@
                 }
             }
         },
+        "Chilled": {
+            "name": "Chilled"
+        },
         "Cloud's Jaunt": {
             "name": "Cloud's Jaunt",
             "description": "<p>As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</p>",
@@ -117,18 +106,7 @@
             }
         },
         "Draconic Flight": {
-            "name": "Draconic Flight",
-            "description": "<p>When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking but it does not automatically grant the Fly Speed.</p></section>",
-            "activities": {
-                "Draconic Flight": {
-                    "name": "Draconic Flight"
-                }
-            },
-            "effects": {
-                "Draconic Flight": {
-                    "name": "Draconic Flight"
-                }
-            }
+            "name": "Draconic Flight"
         },
         "Dragonborn": {
             "name": "Dragonborn",
@@ -173,13 +151,7 @@
             "description": "<p>You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted Resistance to Poison damage but not Advantage on saving throws to avoid/end the Poisoned condition.</p></section>"
         },
         "Dwarven Toughness": {
-            "name": "Dwarven Toughness",
-            "description": "<p>Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Foundry Note</strong></p><p>The Hit Point maximum increase is handled automatically each level.</p></section>",
-            "effects": {
-                "Dwarven Toughness": {
-                    "name": "Dwarven Toughness"
-                }
-            }
+            "name": "Dwarven Toughness"
         },
         "Elf, Drow": {
             "name": "Elf, Drow",
@@ -336,13 +308,7 @@
         },
         "Gnomish Cunning": {
             "name": "Gnomish Cunning",
-            "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>",
-            "effects": {
-                "Gnomish Cunning": {
-                    "name": "Gnomish Cunning",
-                    "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>"
-                }
-            }
+            "description": "<p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>"
         },
         "Gnomish Lineage, Forest": {
             "name": "Gnomish Lineage, Forest",
@@ -381,13 +347,7 @@
             }
         },
         "Halfling Nimbleness": {
-            "name": "Halfling Nimbleness",
-            "description": "<p>You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.</p>",
-            "effects": {
-                "Halfling Nimbleness": {
-                    "name": "Halfling Nimbleness"
-                }
-            }
+            "name": "Halfling Nimbleness"
         },
         "Hill's Tumble": {
             "name": "Hill's Tumble",
@@ -425,27 +385,10 @@
         },
         "Large Form": {
             "name": "Large Form",
-            "description": "<p>Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the increase to your Speed and the Advantage on Strength checks.</p></section>",
-            "activities": {
-                "Enlarge": {
-                    "name": "Enlarge"
-                }
-            },
-            "effects": {
-                "Large Form": {
-                    "name": "Large Form",
-                    "description": "<p>For the duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.</p>"
-                }
-            }
+            "description": "<p>For the duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.</p>"
         },
         "Luck": {
-            "name": "Luck",
-            "description": "<p>When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.</p>",
-            "effects": {
-                "Luck": {
-                    "name": "Luck"
-                }
-            }
+            "name": "Luck"
         },
         "Naturally Stealthy": {
             "name": "Naturally Stealthy",
@@ -468,13 +411,7 @@
             "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish legacy trait.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>When you're granted this spell it will allow you to choose your spellcasting ability.</p></section>"
         },
         "Powerful Build": {
-            "name": "Powerful Build",
-            "description": "<p>You have Advantage on any ability check you make to end the &amp;Reference[Grappled apply=false] condition. You also count as one size larger when determining your carrying capacity.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically upgrades your size when determining carrying capacity.</p></section>",
-            "effects": {
-                "Powerful Build": {
-                    "name": "Powerful Build"
-                }
-            }
+            "name": "Powerful Build"
         },
         "Relentless Endurance": {
             "name": "Relentless Endurance",
@@ -548,18 +485,7 @@
             }
         },
         "Stonecunning": {
-            "name": "Stonecunning",
-            "description": "<p>As a Bonus Action, you gain &amp;Reference[Tremorsense] with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Foundry Note</strong></p><p>This feature includes the limited uses and an Active Effect that grants you the 60 feet of Tremorsense. It does not automatically update your Token's vision settings.</p></section>",
-            "activities": {
-                "Stonecunning": {
-                    "name": "Stonecunning"
-                }
-            },
-            "effects": {
-                "Stonecunning": {
-                    "name": "Stonecunning"
-                }
-            }
+            "name": "Stonecunning"
         },
         "Storm's Thunder": {
             "name": "Storm's Thunder",
@@ -636,5 +562,19 @@
             "name": "Versatile",
             "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{Origin feat} of your choice. @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Skilled} is recommended.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice when you select this Species.</p></section>"
         }
+    },
+    "folders": {
+        "Backgrounds": "Backgrounds",
+        "Dragonborn": "Dragonborn",
+        "Dwarf": "Dwarf",
+        "Elf": "Elf",
+        "Gnome": "Gnome",
+        "Goliath": "Goliath",
+        "Halfling": "Halfling",
+        "Human": "Human",
+        "Orc": "Orc",
+        "Species": "Species",
+        "Tiefling": "Tiefling",
+        "Traits": "Traits"
     }
 }

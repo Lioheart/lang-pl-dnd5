@@ -22,23 +22,6 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "Dragonborn": "Dragonborn",
-        "Dragonborn Features": "Dragonborn Features",
-        "Dwarf": "Dwarf",
-        "Dwarf Features": "Dwarf Features",
-        "Elf": "Elf",
-        "Elf Features": "Elf Features",
-        "Gnome": "Gnome",
-        "Gnome Features": "Gnome Features",
-        "Halfling": "Halfling",
-        "Halfling Features": "Halfling Features",
-        "Human": "Human",
-        "Orc": "Orc",
-        "Orc Features": "Orc Features",
-        "Tiefling": "Tiefling",
-        "Tiefling Features": "Tiefling Features"
-    },
     "entries": {
         "Artificer's Lore": {
             "name": "Artificer's Lore",
@@ -144,13 +127,7 @@
             }
         },
         "Halfling Nimbleness": {
-            "name": "Halfling Nimbleness",
-            "description": "<p>You can move through the space of any creature that is of a size larger than yours.</p>",
-            "effects": {
-                "Halfling Nimbleness": {
-                    "name": "Halfling Nimbleness"
-                }
-            }
+            "name": "Halfling Nimbleness"
         },
         "Hellish Resistance": {
             "name": "Hellish Resistance",
@@ -245,13 +222,7 @@
             }
         },
         "Savage Attacks": {
-            "name": "Savage Attacks",
-            "description": "<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>",
-            "effects": {
-                "Savage Attacks": {
-                    "name": "Savage Attacks"
-                }
-            }
+            "name": "Savage Attacks"
         },
         "Stonecunning": {
             "name": "Stonecunning",
@@ -285,5 +256,22 @@
             "name": "Trance",
             "description": "<p>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>"
         }
+    },
+    "folders": {
+        "Dragonborn": "Dragonborn",
+        "Dragonborn Features": "Dragonborn Features",
+        "Dwarf": "Dwarf",
+        "Dwarf Features": "Dwarf Features",
+        "Elf": "Elf",
+        "Elf Features": "Elf Features",
+        "Gnome": "Gnome",
+        "Gnome Features": "Gnome Features",
+        "Halfling": "Halfling",
+        "Halfling Features": "Halfling Features",
+        "Human": "Human",
+        "Orc": "Orc",
+        "Orc Features": "Orc Features",
+        "Tiefling": "Tiefling",
+        "Tiefling Features": "Tiefling Features"
     }
 }

@@ -13,13 +13,13 @@
             "path": "system.attributes.movement",
             "converter": "movement"
         },
-        "senses": {
-            "path": "system.attributes.senses",
-            "converter": "senses"
-        },
         "items": {
             "path": "items",
             "converter": "items"
+        },
+        "senses": {
+            "path": "system.attributes.senses",
+            "converter": "senses"
         }
     },
     "entries": {

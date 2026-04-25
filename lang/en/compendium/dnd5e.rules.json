@@ -1238,6 +1238,30 @@
                 "Casting a Spell": {
                     "name": "Casting a Spell",
                     "text": "<p>When a character casts any spell, the same basic rules are followed, regardless of the character’s class or the spell’s effects.</p><p>Each spell description begins with a block of information, including the spell’s name, level, school of magic, casting time, range, components, and duration. The rest of a spell entry describes the spell’s effect.</p><h2>Casting Time</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.zRVW8Tvyk6BECjZD inline]</p><h2>Range</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.RBYPyE5z5hAZSbH6 inline]</p><h2>Components</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.xeHthAF9lxfn2tII inline]</p><h2>Duration</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.9mp0SRsptjvJcq1e inline]</p><h2>Targets</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.G80AIQr04sxdVpw4 inline]</p><h2>Areas of Effect</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.wvtCeGHgnUmh0cuj inline]</p><h2>Saving Throws</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.8DajfNll90eeKcmB inline]</p><h2>Attack Rolls</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.qAFzmGZKhVvAEUF3 inline]</p><h2>Combining Magical Effects</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.TMIN963hG773yZzO inline]</p><div class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/magic/symbols/rune-sigil-black-pink.webp\" class=\"round\" /></figure><article><h4>The Schools of Magic</h4><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.TeF6CKMDRpYpsLd4 inline]</p></article></div>"
+                },
+                "Bard Spells": {
+                    "name": "Bard Spells"
+                },
+                "Cleric Spells": {
+                    "name": "Cleric Spells"
+                },
+                "Druid Spells": {
+                    "name": "Druid Spells"
+                },
+                "Paladin Spells": {
+                    "name": "Paladin Spells"
+                },
+                "Ranger Spells": {
+                    "name": "Ranger Spells"
+                },
+                "Sorcerer Spells": {
+                    "name": "Sorcerer Spells"
+                },
+                "Warlock Spells": {
+                    "name": "Warlock Spells"
+                },
+                "Wizard Spells": {
+                    "name": "Wizard Spells"
                 }
             }
         },
@@ -1309,6 +1333,42 @@
                 "Overview": {
                     "name": "Overview",
                     "text": "<table><caption>Classes Summary</caption>\n<thead>\n<tr>\n<th>Class</th>\n<th>Hit Die</th>\n<th>Primary Ability</th>\n<th>Saving Throw Proficiencies</th>\n<th>Armor and Weapon Proficiencies</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.pvEzGSv71zBhaolc]{Barbarian}</td>\n<td>d12</td>\n<td>Strength</td>\n<td>Strength &amp; Constitution</td>\n<td>Light and medium armor, shields, simple and martial weapons</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.ILvRZGEx3aXqSVUt]{Bard}</td>\n<td>d8</td>\n<td>Charisma</td>\n<td>Dexterity &amp; Charisma</td>\n<td>Light armor, simple weapons, hand crossbows, longswords, rapiers, shortswords</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.tlwBnN8GmqJcTgub]{Cleric}</td>\n<td>d8</td>\n<td>Wisdom</td>\n<td>Wisdom &amp; Charisma</td>\n<td>Light and medium armor, shields, simple weapons</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.ygVYgPbJkaH0tH1N]{Druid}</td>\n<td>d8</td>\n<td>Wisdom</td>\n<td>Intelligence &amp; Wisdom</td>\n<td>Light and medium armor (nonmetal), shields (nonmetal), clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.ABEBgWyRhVlDUIfq]{Fighter}</td>\n<td>d10</td>\n<td>Strength or Dexterity</td>\n<td>Strength &amp; Constitution</td>\n<td>All armor, shields, simple and martial weapons</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.6VoZrWxhOEKGYhnq]{Monk}</td>\n<td>d8</td>\n<td>Dexterity &amp; Wisdom</td>\n<td>Strength &amp; Dexterity</td>\n<td>Simple weapons, shortswords</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.gZiUvbXWLs0pOp0c]{Paladin}</td>\n<td>d10</td>\n<td>Strength &amp; Charisma</td>\n<td>Wisdom &amp; Charisma</td>\n<td>All armor, shields, simple and martial weapons</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.VkRQ7glQvTWWiOCS]{Ranger}</td>\n<td>d10</td>\n<td>Dexterity &amp; Wisdom</td>\n<td>Strength &amp; Dexterity</td>\n<td>Light and medium armor, shields, simple and martial weapons</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.xEb8jmA5HlNs7xTF]{Rogue}</td>\n<td>d8</td>\n<td>Dexterity</td>\n<td>Dexterity &amp; Intelligence</td>\n<td>Light armor, simple weapons, hand crossbows, longswords, rapiers, shortswords</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.6T08zzKtmmpVwlXU]{Sorcerer}</td>\n<td>d6</td>\n<td>Charisma</td>\n<td>Constitution &amp; Charisma</td>\n<td>Daggers, darts, slings, quarterstaffs, light crossbows</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.7WJp9vhi6F6SlAFa]{Warlock}</td>\n<td>d8</td>\n<td>Charisma</td>\n<td>Wisdom &amp; Charisma</td>\n<td>Light armor, simple weapons</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.wZK2Q0rXB0AQo8h3]{Wizard}</td>\n<td>d6</td>\n<td>Intelligence</td>\n<td>Intelligence &amp; Wisdom</td>\n<td>Daggers, darts, slings, quarterstaffs, light crossbows</td>\n</tr>\n</tbody>\n</table>"
+                },
+                "Barbarian": {
+                    "name": "Barbarian"
+                },
+                "Bard": {
+                    "name": "Bard"
+                },
+                "Cleric": {
+                    "name": "Cleric"
+                },
+                "Druid": {
+                    "name": "Druid"
+                },
+                "Fighter": {
+                    "name": "Fighter"
+                },
+                "Monk": {
+                    "name": "Monk"
+                },
+                "Paladin": {
+                    "name": "Paladin"
+                },
+                "Ranger": {
+                    "name": "Ranger"
+                },
+                "Rogue": {
+                    "name": "Rogue"
+                },
+                "Sorcerer": {
+                    "name": "Sorcerer"
+                },
+                "Warlock": {
+                    "name": "Warlock"
+                },
+                "Wizard": {
+                    "name": "Wizard"
                 }
             }
         },
@@ -1352,6 +1412,14 @@
                 "Races": {
                     "name": "Races",
                     "text": "<h2>Racial Traits</h2><p>The description of each race includes racial traits that are common to members of that race. The following entries appear among the traits of most races.</p><h3>Ability Score Increase</h3><p>Every race increases one or more of a character’s ability scores.</p><h3>Age</h3><p>The age entry notes the age when a member of the race is considered an adult, as well as the race’s expected lifespan. This information can help you decide how old your character is at the start of the game. You can choose any age for your character, which could provide an explanation for some of your ability scores. For example, if you play a young or very old character, your age could explain a particularly low Strength or Constitution score, while advanced age could account for a high Intelligence or Wisdom.</p><h3>Alignment</h3><p>Most races have tendencies toward certain alignments, described in this entry. These are not binding for player characters, but considering why your dwarf is chaotic, for example, in defiance of lawful dwarf society can help you better define your character.</p><h3>Size</h3><p>Characters of most races are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few races are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding heavy weapons, as explained in @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM]{Chapter 5: Equipment}.</p><h3>Speed</h3><p>Your speed determines how far you can move when traveling (@UUID[Compendium.dnd5e.rules.JournalEntry.aYmUMcQfSIqYWpKk]{Chapter 8: Adventuring}) and fighting (@UUID[Compendium.dnd5e.rules.JournalEntry.6PfYpwxkdQkyS6b7]{Chapter 9: Combat}).</p><h3>Languages</h3><p>By virtue of your race, your character can speak, read, and write certain languages.</p><h3>Subraces</h3><p>Some races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among subraces vary significantly from race to race and world to world.</p><h2>Dwarf</h2><p>@UUID[Compendium.dnd5e.races.Item.UQiRQUTBcsz8gZU1]{Hill Dwarf}</p><h2>Elf</h2><p>@UUID[Compendium.dnd5e.races.Item.A69KxdH1renVPrQV]{High Elf}</p><h2>Halfling</h2><p>@UUID[Compendium.dnd5e.races.Item.ZgYBjYYfiUstQD6f]{Lightfoot Halfling}</p><h2>Human</h2><p>@UUID[Compendium.dnd5e.races.Item.ydP3QzCmur55mtY2]{Human}</p><h2>Dragonborn</h2><p>@UUID[Compendium.dnd5e.races.Item.K4DNDcR6vngbp0pf]{Dragonborn}</p><h2>Gnome</h2><p>@UUID[Compendium.dnd5e.races.Item.TZtarkKs6cgGD7z2]{Rock Gnome}</p><h2>Half-Elf</h2><p>@UUID[Compendium.dnd5e.races.Item.Hye5IZwPOSwV0qRR]{Half-Elf}</p><h2>Half-Orc</h2><p>@UUID[Compendium.dnd5e.races.Item.n5L000DkNBU6h2oJ]{Half-Orc}</p><h2>Tiefling</h2><p>@UUID[Compendium.dnd5e.races.Item.aHTokZ151W0ASSmo]{Tiefling}</p>"
+                }
+            }
+        },
+        "Spells A-Z": {
+            "name": "Spells A-Z",
+            "pages": {
+                "Spells A-Z": {
+                    "name": "Spells A-Z"
                 }
             }
         },

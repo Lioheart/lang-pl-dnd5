@@ -22,14 +22,16 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "Armor": "Armor",
-        "Container": "Container",
-        "Equipment Packs": "Equipment Packs",
-        "Ring": "Ring",
-        "Spellcasting Focus": "Spellcasting Focus"
-    },
     "entries": {
+        "+1 to AC & Saves": {
+            "name": "+1 to AC & Saves"
+        },
+        "+2 to AC": {
+            "name": "+2 to AC"
+        },
+        "15 base AC": {
+            "name": "15 base AC"
+        },
         "Abacus": {
             "name": "Abacus",
             "description": "<p>The abacus, also called a counting frame, is a calculating tool.</p>"
@@ -42,6 +44,9 @@
                     "chatFlavor": "improvised weapon"
                 }
             }
+        },
+        "Acid Resistance": {
+            "name": "Acid Resistance"
         },
         "Adamantine Breastplate": {
             "name": "Adamantine Breastplate",
@@ -105,13 +110,7 @@
         },
         "Amulet of Health": {
             "name": "Amulet of Health",
-            "description": "<p><em>Wondrous item (requires attunement)</em></p>\n<p>Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher without it.</p>",
-            "effects": {
-                "Amulet of Health": {
-                    "name": "Amulet of Health",
-                    "description": "<p>Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher without it.</p>"
-                }
-            }
+            "description": "<p>Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher without it.</p>"
         },
         "Amulet of Proof against Detection and Location": {
             "name": "Amulet of Proof against Detection and Location",
@@ -269,67 +268,25 @@
             "description": "<p>A small bell for you to ring.</p>"
         },
         "Belt of Cloud Giant Strength": {
-            "name": "Belt of Cloud Giant Strength",
-            "description": "<p><em>Wondrous item (requires attunement)</em></p><p>While wearing this belt, your Strength score changes to 27. If your Strength is already equal to or greater than the belt's score, the item has no effect on you.</p>",
-            "effects": {
-                "Belt of Cloud Giant Strength": {
-                    "name": "Belt of Cloud Giant Strength"
-                }
-            }
+            "name": "Belt of Cloud Giant Strength"
         },
         "Belt of Dwarvenkind": {
-            "name": "Belt of Dwarvenkind",
-            "description": "<p><em>Wondrous item (requires attunement)</em></p><p>While wearing this belt, you gain the following benefits:</p><ul><li>Your Constitution score increases by 2, to a maximum of 20.</li><li>You have advantage on Charisma (Persuasion) checks made to interact with dwarves.</li></ul><p>In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if you're capable of growing one, or a visibly thicker beard if you already have one.<br />If you aren't a dwarf, you gain the following additional benefits while wearing the belt:</p><ul><li>You have advantage on saving throws against poison, and you have resistance against poison damage.</li><li>You have darkvision out to a range of 60 feet.</li><li>You can speak, read, and write Dwarvish.</li></ul>",
-            "effects": {
-                "Belt of Dwarvenkind": {
-                    "name": "Belt of Dwarvenkind"
-                }
-            }
+            "name": "Belt of Dwarvenkind"
         },
         "Belt of Fire Giant Strength": {
-            "name": "Belt of Fire Giant Strength",
-            "description": "<p><em>Wondrous item (requires attunement)</em></p><p>While wearing this belt, your Strength score changes to 25. If your Strength is already equal to or greater than the belt's score, the item has no effect on you.</p>",
-            "effects": {
-                "Belt of Fire Giant Strength": {
-                    "name": "Belt of Fire Giant Strength"
-                }
-            }
+            "name": "Belt of Fire Giant Strength"
         },
         "Belt of Frost Giant Strength": {
-            "name": "Belt of Frost Giant Strength",
-            "description": "<p><em>Wondrous item (requires attunement)</em></p><p>While wearing this belt, your Strength score changes to 23. If your Strength is already equal to or greater than the belt's score, the item has no effect on you.</p><p>The Belt of Stone Giant Strength and the Belt of Frost Giant Strength look different, but they have the same effect.</p>",
-            "effects": {
-                "Belt of Frost Giant Strength": {
-                    "name": "Belt of Frost Giant Strength"
-                }
-            }
+            "name": "Belt of Frost Giant Strength"
         },
         "Belt of Hill Giant Strength": {
-            "name": "Belt of Hill Giant Strength",
-            "description": "<p><em>Wondrous item (requires attunement)</em></p><p>While wearing this belt, your Strength score changes to 21. If your Strength is already equal to or greater than the belt's score, the item has no effect on you.</p>",
-            "effects": {
-                "Belt of Hill Giant Strength": {
-                    "name": "Belt of Hill Giant Strength"
-                }
-            }
+            "name": "Belt of Hill Giant Strength"
         },
         "Belt of Stone Giant Strength": {
-            "name": "Belt of Stone Giant Strength",
-            "description": "<p><em>Wondrous item (requires attunement)</em></p><p>While wearing this belt, your Strength score changes to 23. If your Strength is already equal to or greater than the belt's score, the item has no effect on you.</p><p>The Belt of Stone Giant Strength and the Belt of Frost Giant Strength look different, but they have the same effect.</p>",
-            "effects": {
-                "Belt of Stone Giant Strength": {
-                    "name": "Belt of Stone Giant Strength"
-                }
-            }
+            "name": "Belt of Stone Giant Strength"
         },
         "Belt of Storm Giant Strength": {
-            "name": "Belt of Storm Giant Strength",
-            "description": "<p><em>Wondrous item (requires attunement)</em></p><p>While wearing this belt, your Strength score changes to 29. If your Strength is already equal to or greater than the belt's score, the item has no effect on you.</p>",
-            "effects": {
-                "Belt of Storm Giant Strength": {
-                    "name": "Belt of Storm Giant Strength"
-                }
-            }
+            "name": "Belt of Storm Giant Strength"
         },
         "Berserker Battleaxe": {
             "name": "Berserker Battleaxe",
@@ -413,22 +370,10 @@
             }
         },
         "Boots of Striding and Springing": {
-            "name": "Boots of Striding and Springing",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow.</p>",
-            "effects": {
-                "Boots of Striding and Springing": {
-                    "name": "Boots of Striding and Springing"
-                }
-            }
+            "name": "Boots of Striding and Springing"
         },
         "Boots of the Winterlands": {
-            "name": "Boots of the Winterlands",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:</p>\n<ul>\n<li>You have resistance to cold damage.</li>\n<li>You ignore difficult terrain created by ice or snow. You can tolerate temperatures as low as −50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as −100 degrees Fahrenheit.</li>\n</ul>",
-            "effects": {
-                "Boots of the Winterlands": {
-                    "name": "Boots of the Winterlands"
-                }
-            }
+            "name": "Boots of the Winterlands"
         },
         "Bowl of Commanding Water Elementals": {
             "name": "Bowl of Commanding Water Elementals",
@@ -440,13 +385,7 @@
             }
         },
         "Bracers of Archery": {
-            "name": "Bracers of Archery",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.</p>",
-            "effects": {
-                "Bracers of Archery": {
-                    "name": "Bracers of Archery"
-                }
-            }
+            "name": "Bracers of Archery"
         },
         "Bracers of Defense": {
             "name": "Bracers of Defense",
@@ -736,6 +675,9 @@
         "Cobbler's Tools": {
             "name": "Cobbler's Tools",
             "description": "<p>These special tools include the items needed to pursue a craft or trade in cobblery.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>"
+        },
+        "Cold Resistance": {
+            "name": "Cold Resistance"
         },
         "Common Clothes": {
             "name": "Common Clothes",
@@ -1173,6 +1115,9 @@
             "name": "Fine Clothes",
             "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>"
         },
+        "Fire Resistance": {
+            "name": "Fire Resistance"
+        },
         "Fishing Tackle": {
             "name": "Fishing Tackle",
             "description": "<p>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.</p>"
@@ -1255,9 +1200,15 @@
             "name": "Flute",
             "description": "<p>A lute to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>"
         },
+        "Flying": {
+            "name": "Flying"
+        },
         "Folding Boat": {
             "name": "Folding Boat",
             "description": "<p><em>Wondrous item</em></p>\n<p>This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three command words, each requiring you to use an action to speak it.</p>\n<p>One command word causes the box to unfold into a boat 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oars, an anchor, a mast, and a lateen sail. The boat can hold up to four Medium creatures comfortably.</p>\n<p>The second command word causes the box to unfold into a ship 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. The ship can hold fifteen Medium creatures comfortably.</p>\n<p>When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat.</p>\n<p>The third command word causes the folding boat to fold back into a box, provided that no creatures are aboard. Any objects in the vessel that can't fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so.</p>"
+        },
+        "Force Resistance": {
+            "name": "Force Resistance"
         },
         "Forgery Kit": {
             "name": "Forgery Kit",
@@ -1284,13 +1235,7 @@
             "description": "<p><em>(Requires attunement)</em></p>\n<p>When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.</p>\n<p>In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</p>\n<p>When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.</p>"
         },
         "Gauntlets of Ogre Power": {
-            "name": "Gauntlets of Ogre Power",
-            "description": "<p><em>Wondrous item</em></p>\n<p>Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher.</p>",
-            "effects": {
-                "Gauntlets of Ogre Power": {
-                    "name": "Gauntlets of Ogre Power"
-                }
-            }
+            "name": "Gauntlets of Ogre Power"
         },
         "Gem of Brightness": {
             "name": "Gem of Brightness",
@@ -1420,13 +1365,7 @@
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.</p>"
         },
         "Gloves of Swimming and Climbing": {
-            "name": "Gloves of Swimming and Climbing",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.</p>",
-            "effects": {
-                "Gloves of Swimming and Climbing": {
-                    "name": "Gloves of Swimming and Climbing"
-                }
-            }
+            "name": "Gloves of Swimming and Climbing"
         },
         "Goggles of Night": {
             "name": "Goggles of Night",
@@ -1566,26 +1505,7 @@
         },
         "Hammer of Thunderbolts": {
             "name": "Hammer of Thunderbolts",
-            "description": "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon (maul).</p>\n<p><strong>Giant's Bane</strong> (<em>requires attunement</em>)</p>\n<p>You must be wearing a Belt of Giant Strength (any variety) and Gauntlets of Ogre Power to attune to this weapon. The attunement ends if you take off either of those items. While you are attuned to this weapon and holding it, your Strength score increases by 4 and can exceed 20, but not 30.</p>\n<p>When you roll a 20 on an attack roll made with this weapon against a giant, the giant must succeed on a DC 17 Constitution saving throw or die.</p>\n<p>The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the hammer unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it must succeed on a DC 17 Constitution saving throw or be stunned until the end of your next turn. The hammer regains 1d4 + 1 expended charges daily at dawn.</p>",
-            "activities": {
-                "Giant's Bane (On Crit)": {
-                    "name": "Giant's Bane (On Crit)",
-                    "chatFlavor": "A giant must succeed or die"
-                },
-                "Hurl Hammer": {
-                    "name": "Hurl Hammer"
-                },
-                "Thunderclap": {
-                    "name": "Thunderclap",
-                    "chatFlavor": "Succeed or be stunned"
-                }
-            },
-            "effects": {
-                "Hammer of Thunderbolts": {
-                    "name": "Hammer of Thunderbolts",
-                    "description": "<p>While attuned to the Hammer of Thunderbolts, your Strength score increases by 4 and can exceed 20, but not 30.</p>"
-                }
-            }
+            "description": "<p>While attuned to the Hammer of Thunderbolts, your Strength score increases by 4 and can exceed 20, but not 30.</p>"
         },
         "Hand Crossbow": {
             "name": "Hand Crossbow",
@@ -1820,80 +1740,41 @@
                 }
             }
         },
+        "Invisibility": {
+            "name": "Invisibility"
+        },
         "Ioun Stone of Absorption": {
             "name": "Ioun Stone of Absorption",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Absorption</strong>. While this pale lavender ellipsoid orbits your head, you can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you.</p>\n<p>Once the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.</p>"
         },
         "Ioun Stone of Agility": {
-            "name": "Ioun Stone of Agility",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Agility</strong>. Your Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head.</p>",
-            "effects": {
-                "Ioun Stone of Agility": {
-                    "name": "Ioun Stone of Agility"
-                }
-            }
+            "name": "Ioun Stone of Agility"
         },
         "Ioun Stone of Awareness": {
             "name": "Ioun Stone of Awareness",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Awareness</strong>. You can't be surprised while this dark blue rhomboid orbits your head.</p>"
         },
         "Ioun Stone of Fortitude": {
-            "name": "Ioun Stone of Fortitude",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Fortitude</strong>. Your Constitution score increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.</p>",
-            "effects": {
-                "Ioun Stone of Fortitude": {
-                    "name": "Ioun Stone of Fortitude"
-                }
-            }
+            "name": "Ioun Stone of Fortitude"
         },
         "Ioun Stone of Greater Absorption": {
             "name": "Ioun Stone of Greater Absorption",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Greater Absorption</strong>. While this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you.</p>\n<p>Once the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.</p>"
         },
         "Ioun Stone of Insight": {
-            "name": "Ioun Stone of Insight",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Insight</strong>. Your Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.</p>",
-            "effects": {
-                "Ioun Stone of Insight": {
-                    "name": "Ioun Stone of Insight"
-                }
-            }
+            "name": "Ioun Stone of Insight"
         },
         "Ioun Stone of Intellect": {
-            "name": "Ioun Stone of Intellect",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Intellect</strong>. Your Intelligence score increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.</p>",
-            "effects": {
-                "Ioun Stone of Intellect": {
-                    "name": "Ioun Stone of Intellect"
-                }
-            }
+            "name": "Ioun Stone of Intellect"
         },
         "Ioun Stone of Leadership": {
-            "name": "Ioun Stone of Leadership",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Leadership</strong>. Your Charisma score increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.</p>",
-            "effects": {
-                "Ioun Stone of Leadership": {
-                    "name": "Ioun Stone of Leadership"
-                }
-            }
+            "name": "Ioun Stone of Leadership"
         },
         "Ioun Stone of Mastery": {
-            "name": "Ioun Stone of Mastery",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Mastery</strong>. Your proficiency bonus increases by 1 while this pale green prism orbits your head.</p>",
-            "effects": {
-                "Ioun Stone of Mastery": {
-                    "name": "Ioun Stone of Mastery"
-                }
-            }
+            "name": "Ioun Stone of Mastery"
         },
         "Ioun Stone of Protection": {
-            "name": "Ioun Stone of Protection",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Protection</strong>. You gain a +1 bonus to AC while this dusty rose prism orbits your head.</p>",
-            "effects": {
-                "Ioun Stone of Protection": {
-                    "name": "Ioun Stone of Protection"
-                }
-            }
+            "name": "Ioun Stone of Protection"
         },
         "Ioun Stone of Regeneration": {
             "name": "Ioun Stone of Regeneration",
@@ -1904,13 +1785,7 @@
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Reserve</strong>. This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 3 levels worth of spells at a time. When found, it contains 1d4 − 1 levels of stored spells chosen by the GM.</p>\n<p>Any creature can cast a spell of 1st through 3rd level into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.</p>\n<p>While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.</p>"
         },
         "Ioun Stone of Strength": {
-            "name": "Ioun Stone of Strength",
-            "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>An Ioun Stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p>\n<p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>\n<p><strong>Stone of Strength</strong>. Your Strength score increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.</p>",
-            "effects": {
-                "Ioun Stone of Strength": {
-                    "name": "Ioun Stone of Strength"
-                }
-            }
+            "name": "Ioun Stone of Strength"
         },
         "Ioun Stone of Sustenance": {
             "name": "Ioun Stone of Sustenance",
@@ -2060,6 +1935,9 @@
         "Light Hammer +3": {
             "name": "Light Hammer +3",
             "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
+        },
+        "Lightning Resistance": {
+            "name": "Lightning Resistance"
         },
         "Lock": {
             "name": "Lock",
@@ -2412,6 +2290,9 @@
                 }
             }
         },
+        "Necrotic Resistance": {
+            "name": "Necrotic Resistance"
+        },
         "Net": {
             "name": "Net",
             "description": "<p>These thickly woven fibers are reinforced for use in combat to entrap and entangle even the most dangerous foes, rendering them vulnerable for assault with other weaponry.</p>\n<p><strong>Special.</strong> A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.</p>"
@@ -2570,6 +2451,9 @@
             "name": "Paper",
             "description": "<p>A single sheet of paper.</p>"
         },
+        "Paralysis": {
+            "name": "Paralysis"
+        },
         "Parchment": {
             "name": "Parchment",
             "description": "<p>A single sheet of heavier parchment paper.</p>"
@@ -2680,6 +2564,9 @@
         "Playing Cards Set": {
             "name": "Playing Cards Set",
             "description": "<p>This item encompasses a wide range of playing card types, both unmarked and marked.</p>\n<p>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</p>"
+        },
+        "Poison Resistance": {
+            "name": "Poison Resistance"
         },
         "Poisoner's Kit": {
             "name": "Poisoner's Kit",
@@ -2859,6 +2746,12 @@
             "name": "Priest's Pack",
             "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
         },
+        "Protection": {
+            "name": "Protection"
+        },
+        "Psychic Resistance": {
+            "name": "Psychic Resistance"
+        },
         "Quarterstaff": {
             "name": "Quarterstaff",
             "description": "<p>A thick shaft of wood wrapped with a sturdy grip makes a highly functional weapon in addition to a stout walking stick.</p>"
@@ -2878,6 +2771,9 @@
         "Quiver": {
             "name": "Quiver",
             "description": "<p>A quiver can hold up to 20 arrows.</p>"
+        },
+        "Radiant Resistance": {
+            "name": "Radiant Resistance"
         },
         "Rapier": {
             "name": "Rapier",
@@ -2942,6 +2838,9 @@
         "Riding Saddle": {
             "name": "Riding Saddle",
             "description": "<p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups. This type of saddle is suitable for riding mounts.</p>"
+        },
+        "Ring Focus": {
+            "name": "Ring Focus"
         },
         "Ring Mail": {
             "name": "Ring Mail",
@@ -3707,6 +3606,9 @@
                 }
             }
         },
+        "Spider Movement and Resistance": {
+            "name": "Spider Movement and Resistance"
+        },
         "Splint Armor": {
             "name": "Splint Armor",
             "description": "<p>This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.</p>"
@@ -3755,23 +3657,11 @@
         },
         "Staff of Fire": {
             "name": "Staff of Fire",
-            "description": "<p><em>(Requires attunement by a druid, sorcerer, warlock, or wizard)</em></p><p>You have resistance to fire damage while you hold this staff.</p><p>The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: @UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands} (1 charge), @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} (3 charges), or @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire} (4 charges).</p><p>The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed.</p>",
-            "effects": {
-                "Staff of Fire": {
-                    "name": "Staff of Fire",
-                    "description": "<p>You have resistance to fire damage while you hold this staff.</p>"
-                }
-            }
+            "description": "<p>You have resistance to fire damage while you hold this staff.</p>"
         },
         "Staff of Frost": {
             "name": "Staff of Frost",
-            "description": "<p><em>(Requires attunement by a druid, sorcerer, warlock, or wizard)</em></p><p>You have resistance to cold damage while you hold this staff.</p><p>The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: @UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{Cone of Cold} (5 charges), @UUID[Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX]{Fog Cloud} (1 charge), @UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{Ice Storm} (4 charges), or @UUID[Compendium.dnd5e.spells.Item.fzZnVKLmBMo2f5up]{Wall of Ice} (4 charges).</p><p>The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to water and is destroyed.</p>",
-            "effects": {
-                "Staff of Frost": {
-                    "name": "Staff of Frost",
-                    "description": "<p>You have resistance to cold damage while you hold this staff.</p>"
-                }
-            }
+            "description": "<p>You have resistance to cold damage while you hold this staff.</p>"
         },
         "Staff of Healing": {
             "name": "Staff of Healing",
@@ -3779,22 +3669,7 @@
         },
         "Staff of Power": {
             "name": "Staff of Power",
-            "description": "<p><em>(Requires attunement by a sorcerer, warlock, or wizard)</em></p><p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.</p><p>The staff has 20 charges for the following properties. The staff regains 2d8 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff retains its +2 bonus to attack and damage rolls but loses all other properties. On a 20, the staff regains 1d8 + 2 charges.</p><p><strong>Power Strike</strong>. When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d6 force damage to the target.</p><p><strong>Spells</strong>. While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: @UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{Cone of Cold} (5 charges), @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} (5th-level version, 5 charges), @UUID[Compendium.dnd5e.spells.Item.WmQpxfjZwF3MGUby]{Globe of Invulnerability} (6 charges), @UUID[Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm]{Hold Monster} (5 charges), @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{Levitate} (2 charges), @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Lightning Bolt} (5th-level version, 5 charges), @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile} (1 charge), @UUID[Compendium.dnd5e.spells.Item.ODhLKBxLnvvLOnw1]{Ray of Enfeeblement} (1 charge), or @UUID[Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb]{Wall of Force} (5 charges).</p><p><strong>Retributive Strike</strong>. You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.</p><p>You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take force damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.</p><table><thead><tr><td><strong>Distance from Origin</strong></td><td><strong>Damage</strong></td></tr></thead><tbody><tr><td>10 ft. away or closer</td><td>8 x the number of charges in the staff</td></tr><tr><td>11 to 20 ft. away</td><td>6 x the number of charges in the staff</td></tr><tr><td>21 to 30 ft. away</td><td>4 x the number of charges in the staff</td></tr></tbody></table>",
-            "activities": {
-                "Power Strike": {
-                    "name": "Power Strike",
-                    "condition": "When you hit with a melee attack using the staff"
-                },
-                "Retributive Strike": {
-                    "name": "Retributive Strike"
-                }
-            },
-            "effects": {
-                "Staff of Power": {
-                    "name": "Staff of Power",
-                    "description": "<p>While holding this staff, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.</p>"
-                }
-            }
+            "description": "<p>While holding this staff, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.</p>"
         },
         "Staff of Striking": {
             "name": "Staff of Striking",
@@ -3811,22 +3686,7 @@
         },
         "Staff of the Magi": {
             "name": "Staff of the Magi",
-            "description": "<p><em>(Requires attunement by a sorcerer, warlock, or wizard)</em></p><p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.</p><p>The staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges.</p><p><strong>Spell Absorption</strong>. While holding the staff, you have advantage on saving throws against spells. In addition, you can use your reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its <strong>Retributive Strike</strong> (see below).</p><p><strong>Spells</strong>. While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental} (7 charges), @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dispel Magic} (3 charges), @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} (7th-level version, 7 charges), @UUID[Compendium.dnd5e.spells.Item.FjYE214HTERCRZNm]{Flaming Sphere} (2 charges), @UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{Ice Storm} (4 charges), @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{Invisibility} (2 charges), @UUID[Compendium.dnd5e.spells.Item.1nhIxh0DsJsntCfj]{Knock} (2 charges), @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Lightning Bolt} (7th-level version, 7 charges), @UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{Passwall} (5 charges), @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{Plane Shift} (7 charges), @UUID[Compendium.dnd5e.spells.Item.HQfd7jJyULIoGxrZ]{Telekinesis} (5 charges), @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire} (4 charges), or @UUID[Compendium.dnd5e.spells.Item.UJJu9c2UvCzVljiP]{Web} (2 charges).</p><p>You can also use an action to cast one of the following spells from the staff without using any charges: @UUID[Compendium.dnd5e.spells.Item.8cse7rit0oswRPUP]{Arcane Lock}, @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detect Magic}, @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{Enlarge/Reduce}, @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{Light}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{Mage Hand}, or @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Protection from Evil and Good}.</p><p><strong>Retributive Strike</strong>. You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.</p><p>You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take force damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.</p><table><thead><tr><td><strong>Distance from Origin</strong></td><td><strong>Damage</strong></td></tr></thead><tbody><tr><td>10 ft. away or closer</td><td>8 x the number of charges in the staff</td></tr><tr><td>11 to 20 ft. away</td><td>6 x the number of charges in the staff</td></tr><tr><td>21 to 30 ft. away</td><td>4 x the number of charges in the staff</td></tr></tbody></table>",
-            "activities": {
-                "Retributive Strike": {
-                    "name": "Retributive Strike"
-                },
-                "Absorb Spell": {
-                    "name": "Absorb Spell",
-                    "condition": "When another creature casts a spell that targets only you"
-                }
-            },
-            "effects": {
-                "Staff of the Magi": {
-                    "name": "Staff of the Magi",
-                    "description": "<p>While holding this staff, you gain a +2 bonus to spell attack rolls.</p>"
-                }
-            }
+            "description": "<p>While holding this staff, you gain a +2 bonus to spell attack rolls.</p>"
         },
         "Staff of the Python": {
             "name": "Staff of the Python",
@@ -3840,18 +3700,7 @@
         },
         "Staff of the Woodlands": {
             "name": "Staff of the Woodlands",
-            "description": "<p><em>(Requires attunement by a druid)</em></p><p>This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.</p><p>The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.</p><p><strong>Spells</strong>. You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{Animal Friendship} (1 charge), @UUID[Compendium.dnd5e.spells.Item.MCEpGpvovcXagwQS]{Awaken} (5 charges), @UUID[Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH]{Barkskin} (2 charges), @UUID[Compendium.dnd5e.spells.Item.Iv2qqSAT7OkXKPFx]{Locate Animals or Plants} (2 charges), @UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu]{Speak with Animals} (1 charge), @UUID[Compendium.dnd5e.spells.Item.2VXGS206tuChoeXy]{Speak with Plants} (3 charges), or @UUID[Compendium.dnd5e.spells.Item.AQsBc94ES7W7s7iG]{Wall of Thorns} (6 charges).</p><p>You can also use an action to cast the @UUID[Compendium.dnd5e.spells.Item.pRMvmknwLf2tdMTj]{Pass without Trace} spell from the staff without using any charges.</p><p><strong>Tree Form</strong>. You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detect Magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.</p>",
-            "activities": {
-                "Tree Form": {
-                    "name": "Tree Form"
-                }
-            },
-            "effects": {
-                "Staff of the Woodlands": {
-                    "name": "Staff of the Woodlands",
-                    "description": "<p>While holding this staff, you have a +2 bonus to spell attack rolls.</p>"
-                }
-            }
+            "description": "<p>While holding this staff, you have a +2 bonus to spell attack rolls.</p>"
         },
         "Staff of Thunder and Lightning": {
             "name": "Staff of Thunder and Lightning",
@@ -3883,6 +3732,9 @@
                     "condition": "Command word."
                 }
             }
+        },
+        "Stone of Good Luck": {
+            "name": "Stone of Good Luck"
         },
         "Stone of Good Luck (Luckstone)": {
             "name": "Stone of Good Luck (Luckstone)",
@@ -3920,6 +3772,9 @@
             "name": "Sun Blade",
             "description": "<p><em>(Requires attunement)</em></p>\n<p>This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the Sun Blade.</p>\n<p>You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra 1d8 radiant damage.</p>\n<p>The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</p>"
         },
+        "Swimming": {
+            "name": "Swimming"
+        },
         "Talisman of Pure Good": {
             "name": "Talisman of Pure Good",
             "description": "<p><em>Wondrous item, (requires attunement by a creature of good alignment)</em></p>\n<p>This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes 6d6 radiant damage upon touching the talisman. An evil creature takes 8d6 radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.</p>\n<p>If you are a good cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.</p>\n<p>The talisman has 7 charges. If you are wearing or holding it, you can use an action to expend 1 charge from it and choose one creature you can see on the ground within 120 feet of you. If the target is of evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed.</p>"
@@ -3944,6 +3799,9 @@
         "Thieves' Tools": {
             "name": "Thieves' Tools",
             "description": "<p>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</p>"
+        },
+        "Thunder Resistance": {
+            "name": "Thunder Resistance"
         },
         "Tinderbox": {
             "name": "Tinderbox",
@@ -4270,31 +4128,13 @@
             }
         },
         "Wand of the War Mage +1": {
-            "name": "Wand of the War Mage +1",
-            "description": "<p><em>Wand (requires attunement by a spellcaster)</em></p><p>While holding this wand, you gain a bonus to spell attack rolls of +1. In addition, you ignore half cover when making a spell attack.</p>",
-            "effects": {
-                "Wand of the War Mage +1": {
-                    "name": "Wand of the War Mage +1"
-                }
-            }
+            "name": "Wand of the War Mage +1"
         },
         "Wand of the War Mage +2": {
-            "name": "Wand of the War Mage +2",
-            "description": "<p><em>Wand (requires attunement by a spellcaster)</em></p><p>While holding this wand, you gain a bonus to spell attack rolls of +2. In addition, you ignore half cover when making a spell attack.</p>",
-            "effects": {
-                "Wand of the War Mage +2": {
-                    "name": "Wand of the War Mage +2"
-                }
-            }
+            "name": "Wand of the War Mage +2"
         },
         "Wand of the War Mage +3": {
-            "name": "Wand of the War Mage +3",
-            "description": "<p><em>Wand (requires attunement by a spellcaster)</em></p><p>While holding this wand, you gain a bonus to spell attack rolls of +3. In addition, you ignore half cover when making a spell attack.</p>",
-            "effects": {
-                "Wand of the War Mage +3": {
-                    "name": "Wand of the War Mage +3"
-                }
-            }
+            "name": "Wand of the War Mage +3"
         },
         "Wand of Web": {
             "name": "Wand of Web",
@@ -4365,6 +4205,9 @@
             "name": "Warhammer +3",
             "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
         },
+        "Warmth": {
+            "name": "Warmth"
+        },
         "Waterskin": {
             "name": "Waterskin",
             "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>"
@@ -4421,5 +4264,12 @@
             "name": "Yew Wand",
             "description": "<p>This wand or scepter has been carved from yew or another special wood and inscribed with powerful runes to invoke the power of nature by those who heed its call.</p>\n<p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>"
         }
+    },
+    "folders": {
+        "Armor": "Armor",
+        "Container": "Container",
+        "Equipment Packs": "Equipment Packs",
+        "Ring": "Ring",
+        "Spellcasting Focus": "Spellcasting Focus"
     }
 }

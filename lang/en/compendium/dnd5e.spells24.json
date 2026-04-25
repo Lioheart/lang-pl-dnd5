@@ -22,19 +22,6 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "1st Level": "1st Level",
-        "2nd Level": "2nd Level",
-        "3rd Level": "3rd Level",
-        "4th Level": "4th Level",
-        "5th Level": "5th Level",
-        "6th Level": "6th Level",
-        "7th Level": "7th Level",
-        "8th Level": "8th Level",
-        "9th Level": "9th Level",
-        "Cantrips": "Cantrips",
-        "Supplemental Items": "Supplemental Items"
-    },
     "entries": {
         "Acid Arrow": {
             "name": "Acid Arrow",
@@ -55,9 +42,16 @@
                 }
             }
         },
+        "Acid Protection": {
+            "name": "Acid Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+        },
         "Acid Splash": {
             "name": "Acid Splash",
             "description": "<p>You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>"
+        },
+        "Acrobatic Guidance": {
+            "name": "Acrobatic Guidance"
         },
         "Aid": {
             "name": "Aid",
@@ -148,6 +142,9 @@
                 }
             }
         },
+        "Altered Appearance": {
+            "name": "Altered Appearance"
+        },
         "Animal Friendship": {
             "name": "Animal Friendship",
             "description": "<p>Target a Beast that you can see within range. The target must succeed on a Wisdom saving throw or have the &amp;Reference[charmed apply=false] condition for the duration. If you or one of your allies deals damage to the target, the spells ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional Beast for each spell slot level above 1.</p>",
@@ -158,6 +155,9 @@
                     "description": "<p><span style=\"font-family:Signika, sans-serif\">The target has the &amp;Reference[charmed apply=false] condition for the duration. If you or one of your allies deals damage to the target, the spells ends.</span></p>"
                 }
             }
+        },
+        "Animal Handling Guidance": {
+            "name": "Animal Handling Guidance"
         },
         "Animal Messenger": {
             "name": "Animal Messenger",
@@ -217,18 +217,15 @@
             }
         },
         "Antilife Shell": {
-            "name": "Antilife Shell",
-            "description": "<p>An aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells or make attacks with Ranged or Reach weapons through the barrier.</p><p>If you move so that an affected creature is forced to pass through the barrier, the spell ends.</p>",
-            "effects": {
-                "Antilife Shell": {
-                    "name": "Antilife Shell"
-                }
-            }
+            "name": "Antilife Shell"
         },
         "Antimagic Field": {
             "name": "Antimagic Field",
             "description": "<p>An aura of antimagic surrounds you in 10-foot Emanation. No one can cast spells, take Magic actions, or create other magical effects inside the aura, and those things can't target or otherwise affect anything inside it. Magical properties of magic items don't work inside the aura or on anything inside it.</p><p>Areas of effect created by spells or other magic can't extend into the aura, and no one can teleport into or out of it or use planar travel there. Portals close temporarily while in the aura.</p><p>Ongoing spells, except those cast by an Artifact or a deity, are suppressed in the area. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.</p><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em> has no effect on the aura, and the auras created by different <em>Antimagic Field</em> spells don't nullify each other.</p>",
             "materials": "iron filings"
+        },
+        "Antipathy": {
+            "name": "Antipathy"
         },
         "Antipathy/Sympathy": {
             "name": "Antipathy/Sympathy",
@@ -261,6 +258,13 @@
                     "description": "<p>The creature has the &amp;Reference[Charmed apply=false] condition. The Charmed creature must use its movement on its turns to get as close as possible to the target, moving by the safest route. If the creature is within 5 feet of the target, the creature can’t willingly move away. If the target damages the Charmed creature, that creature can make a Wisdom saving throw to end the effect, as described below.</p><p><strong>Ending the Effect.</strong> If the Frightened or Charmed creature ends its turn more than 120 feet away from the target, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target. A creature that successfully saves against this effect is immune to it for 1 minute, after which it can be affected again.</p>"
                 }
             }
+        },
+        "Aquatic Adaptation": {
+            "name": "Aquatic Adaptation",
+            "description": "<p>You can breathe underwater and gain a Swim Speed equal to your Speed.</p>"
+        },
+        "Arcana Guidance": {
+            "name": "Arcana Guidance"
         },
         "Arcane Eye": {
             "name": "Arcane Eye",
@@ -320,6 +324,14 @@
                 }
             }
         },
+        "Arguing": {
+            "name": "Arguing",
+            "description": "<p>The target is incapable of meaningful communication and has Disadvantage on attack rolls and ability checks.</p>"
+        },
+        "Asleep": {
+            "name": "Asleep",
+            "description": "<p>The target has the &amp;Reference[Unconscious apply=false] condition. It wakes up if it takes any damage or if another creature takes an action to shake it awake.</p>"
+        },
         "Astral Projection": {
             "name": "Astral Projection",
             "description": "<p>You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell ends instantly if you are already on that plane). Each target's body is left behind in a state of suspended animation; it has the &amp;Reference[Unconscious apply=false] condition, doesn't need food or air, and doesn't age.</p><p>A target's astral form resembles its body in almost every way, replicating its game statistics and possessions. The principal difference is the addition of a silvery cord that trails from between the shoulder blades of the astral form. The cord fades from view after 1 foot. If the cord is cut—which happens only when an effect states that it does so—the target's body and astral form both die.</p><p>A target's astral form can travel through the Astral Plane. The moment an astral form leaves that plane, the target's body and possessions travel along the silver cord, causing the target to re-enter its body on the new plane.</p><p>Any damage or other effects that apply to an astral form have no effect on the target's body and vice versa. If a target's body or astral form drops to 0 Hit Points, the spell ends for that target. The spell ends for all the targets if you take a Magic action to dismiss it.</p><p>When the spell ends for a target who isn't dead, the target reappears in its body and exits the state of suspended animation.</p>",
@@ -331,6 +343,9 @@
                 }
             }
         },
+        "Athletic Guidance": {
+            "name": "Athletic Guidance"
+        },
         "Augury": {
             "name": "Augury",
             "description": "<p>You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The DM chooses the omen from the Omens table.</p><table><thead><tr><td>Omen</td><td>For Results That Will Be …</td></tr></thead><tbody><tr><td>Weal</td><td>Good</td></tr><tr><td>Woe</td><td>Bad</td></tr><tr><td>Weal and woe</td><td>Good and bad</td></tr><tr><td>Indifference</td><td>Neither good nor bad</td></tr></tbody></table><p>The spell doesn't account for circumstances, such as other spells, that might change the results.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.</p>",
@@ -338,18 +353,7 @@
         },
         "Aura of Life": {
             "name": "Aura of Life",
-            "description": "<p>An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Necrotic damage, and your Hit Point maximums can't be reduced. If an ally with 0 Hit Points starts its turn in the aura, that ally regains 1 Hit Point.</p>",
-            "activities": {
-                "Create Aura": {
-                    "name": "Create Aura"
-                }
-            },
-            "effects": {
-                "Aura of Life": {
-                    "name": "Aura of Life",
-                    "description": "<p>While in the aura, you and your allies have Resistance to Necrotic damage, and your Hit Point maximums can’t be reduced. If an ally with 0 Hit Points starts its turn in the aura, that ally regains [[/healing 1 type=healing]]{1 Hit Point}.</p>"
-                }
-            }
+            "description": "<p>While in the aura, you and your allies have Resistance to Necrotic damage, and your Hit Point maximums can’t be reduced. If an ally with 0 Hit Points starts its turn in the aura, that ally regains [[/healing 1 type=healing]]{1 Hit Point}.</p>"
         },
         "Awaken": {
             "name": "Awaken",
@@ -358,14 +362,11 @@
         },
         "Bane": {
             "name": "Bane",
-            "description": "<p>Up to three creatures of your choice that you can see within range must each make a Charisma saving throw. Whenever a target that fails this save makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>",
-            "materials": "a drop of blood",
-            "effects": {
-                "Bane": {
-                    "name": "Bane",
-                    "description": "<p>Whenever a target makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.</p>"
-                }
-            }
+            "description": "<p>Whenever a target makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.</p>"
+        },
+        "Banished": {
+            "name": "Banished",
+            "description": "<p>The target can take a Study action to try to escape. When it does so, it makes a [[/check ability=int skill=inv dc=20]] check. If it succeeds, it escapes, and the spell ends.</p>"
         },
         "Banishment": {
             "name": "Banishment",
@@ -377,6 +378,9 @@
                     "description": "<p>While there, the target has the &amp;Reference[Incapacitated apply=false] condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.</p><p>If the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn’t return if the spell lasts for 1 minute. The target is instead transported to a random location on a plane (DM’s choice) associated with its creature type.</p>"
                 }
             }
+        },
+        "Bark-like Skin": {
+            "name": "Bark-like Skin"
         },
         "Barkskin": {
             "name": "Barkskin",
@@ -398,6 +402,10 @@
                 }
             }
         },
+        "Befuddled": {
+            "name": "Befuddled",
+            "description": "<p>On a failed save, the target takes 10d12 Psychic damage and can’t cast spells or take the Magic action. At the end of every 30 days, the target repeats the [[/save ability=wis]] save, ending the effect on a success. The effect can also be ended by the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Heal}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> spell.</p>"
+        },
         "Befuddlement": {
             "name": "Befuddlement",
             "description": "<p>You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.</p><p>On a failed save, the target takes 10d12 Psychic damage and can't cast spells or take the Magic action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Heal}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> spell.</p><p>On a successful save, the target takes half as much damage only.</p>",
@@ -408,6 +416,9 @@
                     "description": "<p>On a failed save, the target takes 10d12 Psychic damage and can’t cast spells or take the Magic action. At the end of every 30 days, the target repeats the [[/save ability=wis]] save, ending the effect on a success. The effect can also be ended by the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Heal}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> spell.</p>"
                 }
             }
+        },
+        "Bestial Communication": {
+            "name": "Bestial Communication"
         },
         "Bestow Curse": {
             "name": "Bestow Curse",
@@ -499,9 +510,31 @@
                 }
             }
         },
+        "Blessed": {
+            "name": "Blessed",
+            "description": "<p>Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.</p>"
+        },
         "Blight": {
             "name": "Blight",
             "description": "<p>A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.</p><p>Alternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 4.</p>"
+        },
+        "Blinded": {
+            "name": "Blinded",
+            "description": "<p>A creature &amp;Reference[Blinded apply=false] by this spell makes another [[/save ability=con format=long]] at the end of each of its turns, ending the effect on itself on a success.</p>"
+        },
+        "Blinded (Violet)": {
+            "name": "Blinded (Violet)",
+            "description": "<p> The target has the &amp;Reference[Blinded apply=false] condition and makes a [[/save ability=wis dc=@attributes.spell.dc format=long]] at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
+        },
+        "Blinded, Deafened": {
+            "name": "Blinded, Deafened"
+        },
+        "Blinded, Deafened, Stunned": {
+            "name": "Blinded, Deafened, Stunned"
+        },
+        "Blindness": {
+            "name": "Blindness",
+            "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=con]] save, ending the spell on itself on a success.</p>"
         },
         "Blindness/Deafness": {
             "name": "Blindness/Deafness",
@@ -526,6 +559,14 @@
                 }
             }
         },
+        "Blocked Healing": {
+            "name": "Blocked Healing",
+            "description": "<p>The target can’t regain Hit Points until the end of your next turn.</p>"
+        },
+        "Bludgeoning Protection": {
+            "name": "Bludgeoning Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+        },
         "Blur": {
             "name": "Blur",
             "description": "<p>Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with &amp;Reference[blindsight] or &amp;Reference[truesight].</p>",
@@ -535,6 +576,41 @@
                     "description": "<p>For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.</p>"
                 }
             }
+        },
+        "Blurred": {
+            "name": "Blurred",
+            "description": "<p>For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.</p>"
+        },
+        "Bonded": {
+            "name": "Bonded",
+            "description": "<p>While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has Resistance to all damage. Also, each time it takes damage, you take the same amount of damage.</p><p>The spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.</p>"
+        },
+        "Bonded Telepathy": {
+            "name": "Bonded Telepathy"
+        },
+        "Booming Voice": {
+            "name": "Booming Voice",
+            "description": "<p>Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p>"
+        },
+        "Bound to Service": {
+            "name": "Bound to Service",
+            "description": "<p>A bound creature must follow your commands to the best of its ability. If the creature is Hostile, it strives to twist your commands to achieve its own objectives.</p>"
+        },
+        "Bravery": {
+            "name": "Bravery",
+            "description": "<p>The creature is immune to the Frightened condition and gains Temporary Hit Points equal to your spellcasting ability modifier at the start of each of its turns.</p>"
+        },
+        "Brief Enfeeblement": {
+            "name": "Brief Enfeeblement",
+            "description": "<p>The target has Disadvantage on the next attack roll it makes until the start of your next turn.</p>"
+        },
+        "Burial": {
+            "name": "Burial",
+            "description": "<p>The target is entombed beneath the earth in a hollow globe of magical force that is just large enough to contain the target. Nothing can pass into or out of the globe.</p>"
+        },
+        "Buried in Rubble": {
+            "name": "Buried in Rubble",
+            "description": "<p>On a failed save, the creature takes 12d6 Bludgeoning damage, has the &amp;Reference[Prone apply=false] condition, and is buried in the rubble, requiring a [[/check ability=str skill=ath dc=20]] check as an action to escape.</p>"
         },
         "Burning Hands": {
             "name": "Burning Hands",
@@ -558,10 +634,34 @@
                 }
             }
         },
+        "Calmed": {
+            "name": "Calmed",
+            "description": "<p>The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.</p>"
+        },
+        "Cannot Lie": {
+            "name": "Cannot Lie",
+            "description": "<p>On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.</p><p>An affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.</p>"
+        },
+        "Carrying Message": {
+            "name": "Carrying Message",
+            "description": "<p>The Beast travels for the duration toward the specified location, covering about 25 miles per 24 hours or 50 miles if the Beast can fly.</p><p>When the Beast arrives, it delivers your message to the creature that you described, mimicking your communication. If the Beast doesn’t reach its destination before the spell ends, the message is lost, and the Beast returns to where you cast the spell.</p>"
+        },
+        "Catatonic": {
+            "name": "Catatonic",
+            "description": "<p>While your soul inhabits the container, you are aware of your surroundings as if you were in the container’s space. You can’t move or take &amp;Reference[reaction]{Reactions}.</p>"
+        },
         "Chain Lightning": {
             "name": "Chain Lightning",
             "description": "<p>You launch a lightning bolt toward a target you can see within range. Three bolts then leap from that target to as many as three other targets of your choice, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</p><p>Each target makes a Dexterity saving throw, taking 10d8 Lightning damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> One additional bolt leaps from the first target to another target for each spell slot level above 6.</p>",
             "materials": "three silver pins"
+        },
+        "Chaining": {
+            "name": "Chaining",
+            "description": "<p>Chains firmly rooted in the ground hold the target in place. The target has the &amp;Reference[Restrained apply=false] condition and can’t be moved by any means.</p>"
+        },
+        "Changed Appearance": {
+            "name": "Changed Appearance",
+            "description": "<p>A creature that takes the Study action to examine a target can make an [[/check ability=int skill=inv]] check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.</p>"
         },
         "Charm Monster": {
             "name": "Charm Monster",
@@ -582,6 +682,14 @@
                     "description": "<p>the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p>"
                 }
             }
+        },
+        "Charmed": {
+            "name": "Charmed",
+            "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability.</p>"
+        },
+        "Chill Shield": {
+            "name": "Chill Shield",
+            "description": "<p>Whenever a creature within 5 feet of you hits you with a melee attack roll, the attacker takes [[/damage 2d8 type=cold]] damage.</p>"
         },
         "Chill Touch": {
             "name": "Chill Touch",
@@ -613,9 +721,17 @@
             "description": "<p>You touch a creature or at least 1 cubic inch of its flesh. An inert duplicate of that creature forms inside the vessel used in the spell's casting and finishes growing after 120 days; you choose whether the finished clone is the same age as the creature or younger. The clone remains inert and endures indefinitely while its vessel remains undisturbed.</p><p>If the original creature dies after the clone finishes forming, the creature's soul transfers to the clone if the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original's equipment. The creature's original remains, if any, become inert and can't be revived, since the creature's soul is elsewhere.</p>",
             "materials": "a diamond worth 1,000+ GP, which the spell consumes, and a sealable vessel worth 2,000+ GP that is large enough to hold the creature being cloned"
         },
+        "Cloud Form": {
+            "name": "Cloud Form",
+            "description": "<p>The only actions a target can take in this form are the &amp;Reference[Dash] action or a Magic action to begin reverting to its normal form. Reverting takes 1 minute, during which the target has the &amp;Reference[Stunned apply=false] condition. Until the spell ends, the target can revert to cloud form, which also requires a Magic action followed by a 1-minute transformation.</p>"
+        },
         "Cloudkill": {
             "name": "Cloudkill",
             "description": "<p>You create a 20-foot-radius Sphere of yellow-green fog centered on a point within range. The fog lasts for the duration or until strong wind (such as the one created by <em>Gust of Wind</em>) disperses it, ending the spell. Its area is Heavily Obscured.</p><p>Each creature in the Sphere makes a Constitution saving throw, taking 5d8 Poison damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The Sphere moves 10 feet away from you at the start of each of your turns.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>"
+        },
+        "Cold Protection": {
+            "name": "Cold Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
         },
         "Color Spray": {
             "name": "Color Spray",
@@ -650,6 +766,9 @@
                 }
             }
         },
+        "Comprehension": {
+            "name": "Comprehension"
+        },
         "Compulsion": {
             "name": "Compulsion",
             "description": "<p>Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends.</p><p>For the duration, you can take a Bonus Action to designate a direction that is horizontal to you. Each &amp;Reference[Charmed apply=false] target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the save, ending the spell on itself on a success.</p>",
@@ -660,10 +779,18 @@
                 }
             }
         },
+        "Concealed": {
+            "name": "Concealed",
+            "description": "<p>While in the aura, you and each creature you choose have a +10 bonus to [[/check ability=dex skill=ste]] checks and leave no tracks.</p>"
+        },
         "Cone of Cold": {
             "name": "Cone of Cold",
             "description": "<p>You unleash a blast of cold air. Each creature in a 60-foot Cone originating from you makes a Constitution saving throw, taking 8d8 Cold damage on a failed save or half as much damage on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>",
             "materials": "a small crystal or glass cone"
+        },
+        "Confused": {
+            "name": "Confused",
+            "description": "<p>The target can’t take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB rollable cite=false classes=\"caption-top\"]{Behavior for the Turn}</p><p>At the end of each of its turns, an affected target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
         },
         "Confusion": {
             "name": "Confusion",
@@ -793,6 +920,9 @@
                 }
             }
         },
+        "Contingency Spell": {
+            "name": "Contingency Spell"
+        },
         "Continual Flame": {
             "name": "Continual Flame",
             "description": "<p>A flame springs from an object that you touch. The effect casts &amp;Reference[brightlight] in a 20-foot radius and &amp;Reference[dimlight] for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.</p>",
@@ -865,6 +995,42 @@
             "name": "Cure Wounds",
             "description": "<p>A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 2d8 for each spell slot level above 1.</p>"
         },
+        "Cursed Actions": {
+            "name": "Cursed Actions",
+            "description": "<p>In combat, the target must succeed on a [[/save ability=wis dc=@attributes.spell.dc format=long]] at the start of each of its turns or be forced to take the &amp;Reference[Dodge] action on that turn.</p>"
+        },
+        "Cursed Attacks": {
+            "name": "Cursed Attacks",
+            "description": "<p>The target has Disadvantage on attack rolls against you.</p>"
+        },
+        "Cursed Charisma": {
+            "name": "Cursed Charisma",
+            "description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>"
+        },
+        "Cursed Constitution": {
+            "name": "Cursed Constitution",
+            "description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>"
+        },
+        "Cursed Dexterity": {
+            "name": "Cursed Dexterity",
+            "description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>"
+        },
+        "Cursed Intelligence": {
+            "name": "Cursed Intelligence",
+            "description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>"
+        },
+        "Cursed Resilience": {
+            "name": "Cursed Resilience",
+            "description": "<p>If you deal damage to the target with an attack roll or a spell, the target takes an extra [[/damage 1d8 type=necrotic]] damage.</p>"
+        },
+        "Cursed Strength": {
+            "name": "Cursed Strength",
+            "description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>"
+        },
+        "Cursed Wisdom": {
+            "name": "Cursed Wisdom",
+            "description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>"
+        },
         "Dancing Lights": {
             "name": "Dancing Lights",
             "description": "<p>You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.</p><p>As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell's range.</p>",
@@ -885,18 +1051,21 @@
         },
         "Darkvision": {
             "name": "Darkvision",
-            "description": "<p>For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.</p>",
-            "materials": "a dried carrot",
-            "effects": {
-                "Darkvision": {
-                    "name": "Darkvision",
-                    "description": "<p>For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.</p>"
-                }
-            }
+            "description": "<p>For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.</p>"
         },
         "Daylight": {
             "name": "Daylight",
             "description": "<p>For the duration, sunlight spreads from a point within range and fills a 60-foot-radius Sphere. The sunlight's area is Bright Light and sheds Dim Light for an additional 60 feet.</p><p>Alternatively, you cast the spell on an object that isn't being worn or carried, causing the sunlight to fill a 60-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the sunlight.</p><p>If any of this spell's area overlaps with an area of Darkness created by a spell of level 3 or lower, that other spell is dispelled.</p>"
+        },
+        "Deafened": {
+            "name": "Deafened"
+        },
+        "Deafness": {
+            "name": "Deafness",
+            "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=con]] save, ending the spell on itself on a success.</p>"
+        },
+        "Death": {
+            "name": "Death"
         },
         "Death Ward": {
             "name": "Death Ward",
@@ -907,6 +1076,9 @@
                     "description": "<p>The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.</p><p>If the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.</p>"
                 }
             }
+        },
+        "Deception Guidance": {
+            "name": "Deception Guidance"
         },
         "Delayed Blast Fireball": {
             "name": "Delayed Blast Fireball",
@@ -935,32 +1107,13 @@
             "description": "<p>You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice).</p><p>When the spell ends, the door vanishes, and any objects inside the demiplane remain there. Any creatures inside also remain unless they opt to be shunted through the door as it vanishes, landing with the &amp;Reference[Prone] condition in the unoccupied spaces closest to the door's former space.</p><p>Each time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead.</p>"
         },
         "Detect Evil and Good": {
-            "name": "Detect Evil and Good",
-            "description": "<p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Hallow}</em> spell is active there and, if so, where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
-            "effects": {
-                "Detect Evil and Good": {
-                    "name": "Detect Evil and Good"
-                }
-            }
+            "name": "Detect Evil and Good"
         },
         "Detect Magic": {
-            "name": "Detect Magic",
-            "description": "<p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell's school of magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
-            "effects": {
-                "Detect Magic": {
-                    "name": "Detect Magic"
-                }
-            }
+            "name": "Detect Magic"
         },
         "Detect Poison and Disease": {
-            "name": "Detect Poison and Disease",
-            "description": "<p>For the duration, you sense the location of poisons, poisonous or venomous creatures, and magical contagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
-            "materials": "a yew leaf",
-            "effects": {
-                "Detect Poison and Disease": {
-                    "name": "Detect Poison and Disease"
-                }
-            }
+            "name": "Detect Poison and Disease"
         },
         "Detect Thoughts": {
             "name": "Detect Thoughts",
@@ -988,6 +1141,10 @@
                     "description": "<p><span style=\"font-family:Signika, sans-serif\">To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your spell save DC.</span></p>"
                 }
             }
+        },
+        "Disguised": {
+            "name": "Disguised",
+            "description": "<p><span style=\"font-family:Signika, sans-serif\">To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your spell save DC.</span></p>"
         },
         "Disintegrate": {
             "name": "Disintegrate",
@@ -1022,9 +1179,17 @@
             "name": "Dispel Magic",
             "description": "<p>Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use.</p>"
         },
+        "Dispelling Evil and Good": {
+            "name": "Dispelling Evil and Good",
+            "description": "<p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions: <strong>Break Enchantment</strong> or <strong>Dismissal</strong>.</p>"
+        },
         "Dissonant Whispers": {
             "name": "Dissonant Whispers",
             "description": "<p>One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 1.</p>"
+        },
+        "Distracted": {
+            "name": "Distracted",
+            "description": "<p><span style=\"font-family:Signika, sans-serif\">The target has a −10 penalty to [[/check ability=wis skill=prc]] checks and Passive Perception until the spell ends.</span></p>"
         },
         "Divination": {
             "name": "Divination",
@@ -1032,13 +1197,7 @@
             "materials": "incense worth 25+ GP, which the spell consumes"
         },
         "Divine Favor": {
-            "name": "Divine Favor",
-            "description": "<p>Until the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit.</p>",
-            "effects": {
-                "Divine Favor": {
-                    "name": "Divine Favor"
-                }
-            }
+            "name": "Divine Favor"
         },
         "Divine Smite": {
             "name": "Divine Smite",
@@ -1100,6 +1259,10 @@
                 }
             }
         },
+        "Dominated": {
+            "name": "Dominated",
+            "description": "<p>Whenever the &amp;Reference[charmed apply=false] target takes damage, it repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
+        },
         "Dragon's Breath": {
             "name": "Dragon's Breath",
             "description": "<p>You touch one willing creature, and choose Acid, Cold, Fire, Lightning, or Poison. Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone. Each creature in that area makes a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The damage increases by 1d6 for each spell slot level above 2.</p>",
@@ -1126,6 +1289,15 @@
         "Druidcraft": {
             "name": "Druidcraft",
             "description": "<p>Whispering to the spirits of nature, you create one of the following effects within range.</p><p><strong>Weather Sensor.</strong> You create a Tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</p><p><strong>Bloom.</strong> You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</p><p><strong>Sensory Effect.</strong> You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a candle, a torch, or a campfire.</p>"
+        },
+        "Duplicate A": {
+            "name": "Duplicate A"
+        },
+        "Duplicate B": {
+            "name": "Duplicate B"
+        },
+        "Duplicate C": {
+            "name": "Duplicate C"
         },
         "Earthquake": {
             "name": "Earthquake",
@@ -1170,6 +1342,14 @@
                 }
             }
         },
+        "Enclosed in Sphere": {
+            "name": "Enclosed in Sphere",
+            "description": "<p>An enclosed creature can take an action to push against the sphere’s walls and thus roll the sphere at up to half the creature’s Speed.</p>"
+        },
+        "Enervated": {
+            "name": "Enervated",
+            "description": "<p>The target has Disadvantage on Strength-based D20 Tests for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the [[/save ability=con]] save at the end of each of its turns, ending the spell on a success.</p>"
+        },
         "Enhance Ability": {
             "name": "Enhance Ability",
             "description": "<p>You touch a creature and choose Strength, Dexterity, Intelligence, Wisdom, or Charisma. For the duration, the target has Advantage on ability checks using the chosen ability.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2. You can choose a different ability for each target.</p>",
@@ -1197,6 +1377,26 @@
                 }
             }
         },
+        "Enhanced Charisma": {
+            "name": "Enhanced Charisma",
+            "description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>"
+        },
+        "Enhanced Dexterity": {
+            "name": "Enhanced Dexterity",
+            "description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>"
+        },
+        "Enhanced Intelligence": {
+            "name": "Enhanced Intelligence",
+            "description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>"
+        },
+        "Enhanced Strength": {
+            "name": "Enhanced Strength",
+            "description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>"
+        },
+        "Enhanced Wisdom": {
+            "name": "Enhanced Wisdom",
+            "description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>"
+        },
         "Enlarge/Reduce": {
             "name": "Enlarge/Reduce",
             "description": "<p>For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.</p><p>Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.</p><p><strong>Enlarge.</strong> The target's size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.</p><p><strong>Reduce.</strong> The target's size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can't reduce the damage below 1).</p>",
@@ -1211,6 +1411,14 @@
                     "description": "<p>The target’s size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target’s attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can’t reduce the damage below 1).</p>"
                 }
             }
+        },
+        "Enlarged": {
+            "name": "Enlarged",
+            "description": "<p>The target’s size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target’s attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.</p>"
+        },
+        "Ensnared": {
+            "name": "Ensnared",
+            "description": "<p><span style=\"font-family:Signika, sans-serif\">The target has the &amp;Reference[restrained apply=false] condition until the spell ends.</span></p><p><span style=\"font-family:Signika, sans-serif\">While Restrained, the target takes [[/damage 1d6 type=piercing]] (plus 1d6 per spell slot level above 1) damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC. On a success, the spell ends.</span></p>"
         },
         "Ensnaring Strike": {
             "name": "Ensnaring Strike",
@@ -1247,19 +1455,11 @@
                 }
             }
         },
+        "Ethereal": {
+            "name": "Ethereal"
+        },
         "Etherealness": {
-            "name": "Etherealness",
-            "description": "<p>You step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray, and you can't see anything there more than 60 feet away.</p><p>While on the Ethereal Plane, you can affect and be affected only by creatures, objects, and effects on that plane. Creatures that aren't on the Ethereal Plane can't perceive or interact with you unless a feature gives them the ability to do so.</p><p>When the spell ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal to twice the number of feet you are moved.</p><p>This spell ends instantly if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.</p><p><strong>Using a Higher-Level Spell Slot.</strong>You can target up to three willing creatures (including yourself) for each spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.</p>",
-            "activities": {
-                "Enter Border Ethereal": {
-                    "name": "Enter Border Ethereal"
-                }
-            },
-            "effects": {
-                "Etherealness": {
-                    "name": "Etherealness"
-                }
-            }
+            "name": "Etherealness"
         },
         "Expeditious Retreat": {
             "name": "Expeditious Retreat",
@@ -1327,14 +1527,15 @@
         },
         "Fear": {
             "name": "Fear",
-            "description": "<p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the &amp;Reference[frightened apply=false] condition for the duration.</p><p>A Frightened creature takes the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.</p>",
-            "materials": "a white feather",
-            "effects": {
-                "Fear": {
-                    "name": "Fear",
-                    "description": "<p>A &amp;Reference[frightened apply=false] creature takes the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn’t have line of sight to you, the creature makes a [[/save ability=wis]] saving throw. On a successful save, the spell ends on that creature.</p>"
-                }
-            }
+            "description": "<p>A &amp;Reference[frightened apply=false] creature takes the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn’t have line of sight to you, the creature makes a [[/save ability=wis]] saving throw. On a successful save, the spell ends on that creature.</p>"
+        },
+        "Fears Manifested": {
+            "name": "Fears Manifested",
+            "description": "<p>The target has Disadvantage on ability checks and attack rolls for the duration.</p><p>For the duration, the target makes a [[/save ability=wis]] saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.</p>"
+        },
+        "Feast's Benefits": {
+            "name": "Feast's Benefits",
+            "description": "<p>The creature has &amp;Reference[damageResistance]{Resistance} to Poison damage, and it has Immunity to the &amp;Reference[Frightened] and &amp;Reference[Poisoned] conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points.</p>"
         },
         "Feather Fall": {
             "name": "Feather Fall",
@@ -1397,6 +1598,10 @@
         "Fire Bolt": {
             "name": "Fire Bolt",
             "description": "<p>You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn't being worn or carried.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>"
+        },
+        "Fire Protection": {
+            "name": "Fire Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
         },
         "Fire Shield": {
             "name": "Fire Shield",
@@ -1462,6 +1667,9 @@
                 }
             }
         },
+        "Flight": {
+            "name": "Flight"
+        },
         "Floating Disk": {
             "name": "Floating Disk",
             "description": "<p>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.</p><p>The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.</p><p>If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.</p>",
@@ -1476,6 +1684,10 @@
                     "name": "Flight"
                 }
             }
+        },
+        "Flying Steed": {
+            "name": "Flying Steed",
+            "description": "<p>The steed has a Fly speed of 60ft. when summoned by a level 4+ spell.</p>"
         },
         "Fog Cloud": {
             "name": "Fog Cloud",
@@ -1511,19 +1723,7 @@
         },
         "Foresight": {
             "name": "Foresight",
-            "description": "<p>You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it. The spell ends early if you cast it again.</p>",
-            "materials": "a hummingbird feather",
-            "activities": {
-                "Bestow Foresight": {
-                    "name": "Bestow Foresight"
-                }
-            },
-            "effects": {
-                "Foresight": {
-                    "name": "Foresight",
-                    "description": "<p>For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it.</p>"
-                }
-            }
+            "description": "<p>For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it.</p>"
         },
         "Freedom of Movement": {
             "name": "Freedom of Movement",
@@ -1563,16 +1763,17 @@
                 }
             }
         },
+        "Frightened": {
+            "name": "Frightened",
+            "description": "<p>While Frightened, the target must move at least 30 feet away from the glyph on each of its turns, if able.</p>"
+        },
+        "Frightening Terrors": {
+            "name": "Frightening Terrors",
+            "description": "<p>A &amp;Reference[Frightened apply=false] target makes a [[/save ability=wis format=long]] at the end of each of its turns. On a failed save, it takes [[/damage 5d10 type=psychic]] damage. On a successful save, the spell ends on that target.</p>"
+        },
         "Gaseous Form": {
             "name": "Gaseous Form",
-            "description": "<p>A willing creature you touch shape-shifts, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends on the target if it drops to 0 Hit Points or if it takes a Magic action to end the spell on itself.</p><p>While in this form, the target's only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the &amp;Reference[prone apply=false] condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces.</p><p>The target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. Finally, the target can't attack or cast spells.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 3.</p>",
-            "materials": "a bit of gauze",
-            "effects": {
-                "Gaseous Form": {
-                    "name": "Gaseous Form",
-                    "description": "<p>The target’s only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the &amp;Reference[prone apply=false] condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces.</p><p>The target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. Finally, the target can’t attack or cast spells.</p>"
-                }
-            }
+            "description": "<p>The target’s only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the &amp;Reference[prone apply=false] condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces.</p><p>The target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. Finally, the target can’t attack or cast spells.</p>"
         },
         "Gate": {
             "name": "Gate",
@@ -1611,6 +1812,9 @@
         "Giant Insect": {
             "name": "Giant Insect",
             "description": "<p>You summon a giant centipede, spider, or wasp (chosen when you cast the spell). It manifests in an unoccupied space you can see within range and uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobGiantInsec]{Giant Insect}</strong> stat block. The form you choose determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Use the spell slot's level for the spell's level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the insect's Traits and Actions, the following attributes are also affected.</p><table><caption>Giant Insect</caption><tbody><tr><td><strong>AC</strong></td><td>11 + the spell's level</td></tr><tr><td><strong>HP</strong></td><td>30 + 10 for each spell level above 4</td></tr><tr><td><strong>Speed</strong></td><td>40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>"
+        },
+        "Glib": {
+            "name": "Glib"
         },
         "Glibness": {
             "name": "Glibness",
@@ -1739,18 +1943,16 @@
         },
         "Guiding Bolt": {
             "name": "Guiding Bolt",
-            "description": "<p>You hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn has Advantage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 1.</p>",
-            "effects": {
-                "Guiding Bolt": {
-                    "name": "Guiding Bolt",
-                    "description": "<p><span style=\"font-family:Signika, sans-serif\">The next attack roll made against the target before the end of your next turn has Advantage.</span></p>"
-                }
-            }
+            "description": "<p><span style=\"font-family:Signika, sans-serif\">The next attack roll made against the target before the end of your next turn has Advantage.</span></p>"
         },
         "Gust of Wind": {
             "name": "Gust of Wind",
             "description": "<p>A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the Line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the Line. A creature that ends its turn in the Line must make the same save.</p><p>Any creature in the Line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p><p>The gust disperses gas or vapor, and it extinguishes candles and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.</p><p>As a Bonus Action on your later turns, you can change the direction in which the Line blasts from you.</p>",
             "materials": "a legume seed"
+        },
+        "Half Speed": {
+            "name": "Half Speed",
+            "description": "<p>The creature's speed is halved while within the Emanation.</p>"
         },
         "Hallow": {
             "name": "Hallow",
@@ -1789,9 +1991,17 @@
                 }
             }
         },
+        "Hasted": {
+            "name": "Hasted",
+            "description": "<p>Until the spell ends, the target’s Speed is doubled, it gains a +2 bonus to Armor Class, it has Advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action.</p><p>When the spell ends, the target is Incapacitated and has a Speed of 0 until the end of its next turn, as a @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{wave of lethargy} washes over it.</p>"
+        },
         "Heal": {
             "name": "Heal",
             "description": "<p>Choose a creature that you can see within range. Positive energy washes through the target, restoring 70 Hit Points. This spell also ends the &amp;Reference[Blinded], &amp;Reference[Deafened], and &amp;Reference[Poisoned] conditions on the target.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 10 for each spell slot level above 6.</p>"
+        },
+        "Healed by Prayer": {
+            "name": "Healed by Prayer",
+            "description": "<p>A creature can’t be affected by the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrayerofHe] spell again until that creature finishes a Long Rest.</p>"
         },
         "Healing Word": {
             "name": "Healing Word",
@@ -1818,6 +2028,14 @@
                     "description": "<p>If a creature is holding or wearing the object and takes the damage from it, The creature must succeed on a [[/save ability=con format=long]] or drop the object if it can. If it doesn’t drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.</p>"
                 }
             }
+        },
+        "Heated Metal": {
+            "name": "Heated Metal",
+            "description": "<p>If a creature is holding or wearing the object and takes the damage from it, The creature must succeed on a [[/save ability=con format=long]] or drop the object if it can. If it doesn’t drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.</p>"
+        },
+        "Hedged Prison": {
+            "name": "Hedged Prison",
+            "description": "<p>The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.</p>"
         },
         "Hellish Rebuke": {
             "name": "Hellish Rebuke",
@@ -1896,6 +2114,33 @@
                 }
             }
         },
+        "Hexed Charisma": {
+            "name": "Hexed Charisma",
+            "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>"
+        },
+        "Hexed Constitution": {
+            "name": "Hexed Constitution",
+            "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>"
+        },
+        "Hexed Dexterity": {
+            "name": "Hexed Dexterity",
+            "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>"
+        },
+        "Hexed Intelligence": {
+            "name": "Hexed Intelligence",
+            "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>"
+        },
+        "Hexed Strength": {
+            "name": "Hexed Strength",
+            "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>"
+        },
+        "Hexed Wisdom": {
+            "name": "Hexed Wisdom",
+            "description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>"
+        },
+        "Hidden from Divination": {
+            "name": "Hidden from Divination"
+        },
         "Hideous Laughter": {
             "name": "Hideous Laughter",
             "description": "<p>One creature of your choice that you can see within range makes a Wisdom saving throw. On a failed save, it has the &amp;Reference[prone apply=false] and &amp;Reference[incapacitated apply=false] conditions for the duration. During that time, it laughs uncontrollably if it's capable of laughter, and it can't end the Prone condition on itself.</p><p>At the end of each of its turns and each time it takes damage, it makes another [[/save ability=wis dc=@attributes.spell.dc]] saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level about 1.</p>",
@@ -1906,6 +2151,9 @@
                     "description": "<p>has the &amp;Reference[prone apply=false] and &amp;Reference[incapacitated apply=false] conditions for the duration. During that time, it laughs uncontrollably if it’s capable of laughter, and it can’t end the Prone condition on itself.</p><p>At the end of each of its turns and each time it takes damage, it makes another [[/save ability=wis dc=@attributes.spell.dc]] saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.</p>"
                 }
             }
+        },
+        "History Guidance": {
+            "name": "History Guidance"
         },
         "Hold Monster": {
             "name": "Hold Monster",
@@ -1951,27 +2199,16 @@
                 }
             }
         },
+        "Holy Protection": {
+            "name": "Holy Protection"
+        },
+        "Hopeful": {
+            "name": "Hopeful",
+            "description": "<p>The target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.</p>"
+        },
         "Hunter's Mark": {
             "name": "Hunter's Mark",
-            "description": "<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra [[/damage]] damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
-            "activities": {
-                "Bonus Mark Damage": {
-                    "name": "Bonus Mark Damage"
-                },
-                "Mark Creature": {
-                    "name": "Mark Creature"
-                },
-                "Move Mark": {
-                    "name": "Move Mark",
-                    "condition": "when the currently marked target drops to 0 Hit Points"
-                }
-            },
-            "effects": {
-                "Hunter's Mark": {
-                    "name": "Hunter's Mark",
-                    "description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
-                }
-            }
+            "description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
         },
         "Hypnotic Pattern": {
             "name": "Hypnotic Pattern",
@@ -1983,6 +2220,10 @@
                     "description": "<p>While &amp;Reference[charmed apply=false], the creature has the &amp;Reference[incapacitated apply=false] condition and a Speed of 0.</p><p>The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.</p>"
                 }
             }
+        },
+        "Hypnotized": {
+            "name": "Hypnotized",
+            "description": "<p>While &amp;Reference[charmed apply=false], the creature has the &amp;Reference[incapacitated apply=false] condition and a Speed of 0.</p><p>The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.</p>"
         },
         "Ice Knife": {
             "name": "Ice Knife",
@@ -2004,10 +2245,18 @@
             "description": "<p>You touch an object throughout the spell's casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name.</p><p>If you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it.</p>",
             "materials": "a pearl worth 100+ GP"
         },
+        "Illuminated": {
+            "name": "Illuminated",
+            "description": "<p>Until the end of your next turn, it emits Dim Light in a 10-foot radius and can’t benefit from the &amp;Reference[Invisible] condition.</p>"
+        },
         "Illusory Script": {
             "name": "Illusory Script",
             "description": "<p>You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know.</p><p>If the spell is dispelled, the original script and the illusion both disappear.</p><p>A creature that has &amp;Reference[truesight] can read the hidden message.</p>",
             "materials": "ink worth 10+ GP, which the spell consumes"
+        },
+        "Imperceptible Barrier": {
+            "name": "Imperceptible Barrier",
+            "description": "<p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>Magic Missile</em>.</p>"
         },
         "Imprisonment": {
             "name": "Imprisonment",
@@ -2036,6 +2285,9 @@
                 }
             }
         },
+        "Incapacitated": {
+            "name": "Incapacitated"
+        },
         "Incendiary Cloud": {
             "name": "Incendiary Cloud",
             "description": "<p>A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range. The cloud's area is &amp;Reference[HeavilyObscured]. It lasts for the duration or until a strong wind (like that created by <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p>When the cloud appears, each creature in it makes a Dexterity saving throw, taking 10d8 Fire damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The cloud moves 10 feet away from you in a direction you choose at the start of each of your turns.</p>",
@@ -2048,6 +2300,34 @@
                 }
             }
         },
+        "Indifference": {
+            "name": "Indifference",
+            "description": "<p>The creature becomes Indifferent about creatures of your choice that it’s Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature’s attitude returns to normal.</p>"
+        },
+        "Infected (Charisma)": {
+            "name": "Infected (Charisma)",
+            "description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
+        },
+        "Infected (Constitution)": {
+            "name": "Infected (Constitution)",
+            "description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
+        },
+        "Infected (Dexterity)": {
+            "name": "Infected (Dexterity)",
+            "description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
+        },
+        "Infected (Intelligence)": {
+            "name": "Infected (Intelligence)",
+            "description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
+        },
+        "Infected (Strength)": {
+            "name": "Infected (Strength)",
+            "description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
+        },
+        "Infected (Wisdom)": {
+            "name": "Infected (Wisdom)",
+            "description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
+        },
         "Inflict Wounds": {
             "name": "Inflict Wounds",
             "description": "<p>A creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 1.</p>"
@@ -2056,6 +2336,9 @@
             "name": "Insect Plague",
             "description": "<p>Swarming locusts fill a 20-foot-radius Sphere centered on a point you choose within range. The Sphere remains for the duration, and its area is &amp;Reference[LightlyObscured] and &amp;Reference[DifficultTerrain].</p><p>When the swarm appears, each creature in it makes a Constitution saving throw, taking 4d10 Piercing damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong>The damage increases by 1d10 for each spell slot level above 5.</p>",
             "materials": "a locust"
+        },
+        "Insight Guidance": {
+            "name": "Insight Guidance"
         },
         "Instant Summons": {
             "name": "Instant Summons",
@@ -2070,6 +2353,12 @@
                 }
             }
         },
+        "Intimidation Guidance": {
+            "name": "Intimidation Guidance"
+        },
+        "Investigation Guidance": {
+            "name": "Investigation Guidance"
+        },
         "Invisibility": {
             "name": "Invisibility",
             "description": "<p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2.</p>",
@@ -2081,30 +2370,17 @@
                 }
             }
         },
+        "Invisible": {
+            "name": "Invisible",
+            "description": "<p>The &amp;Reference[invisible apply=false] immediately after you make an attack roll, deals damage, or casts a spell.</p>"
+        },
         "Irresistible Dance": {
             "name": "Irresistible Dance",
-            "description": "<p>One creature that you can see within range must make a Wisdom saving throw. On a successful save, the target dances comically until the end of its next turn, during which it must spend all its movement to dance in place.</p><p>On a failed save, the target has the Charmed condition for the duration. While Charmed, the target dances comically, must use all its movement to dance in place, and has Disadvantage on Dexterity saving throws and attack rolls, and other creatures have Advantage on attack rolls against it. On each of its turns, the target can take an action to collect itself and repeat the save, ending the spell on itself on a success.</p>",
-            "effects": {
-                "Irresistible Dance": {
-                    "name": "Irresistible Dance",
-                    "description": "<p>While &amp;Reference[Charmed apply=false], the target dances comically, must use all its movement to dance in place, and has Disadvantage on Dexterity saving throws and attack rolls, and other creatures have Advantage on attack rolls against it. On each of its turns, the target can take an action to collect itself and repeat the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
-                },
-                "Short Dance": {
-                    "name": "Short Dance",
-                    "description": "<p>The target dances comically until the end of its next turn, during which it must spend all its movement to dance in place.</p>"
-                }
-            }
+            "description": "<p>While &amp;Reference[Charmed apply=false], the target dances comically, must use all its movement to dance in place, and has Disadvantage on Dexterity saving throws and attack rolls, and other creatures have Advantage on attack rolls against it. On each of its turns, the target can take an action to collect itself and repeat the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
         },
         "Jump": {
             "name": "Jump",
-            "description": "<p>You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.</p><p><strong>Using a Higher-Level Spell Slot.</strong>You can target one additional creature for each spell slot level above 1.</p>",
-            "materials": "a grasshopper’s hind leg",
-            "effects": {
-                "Jump": {
-                    "name": "Jump",
-                    "description": "<p>Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.</p>"
-                }
-            }
+            "description": "<p>Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.</p>"
         },
         "Knock": {
             "name": "Knock",
@@ -2119,6 +2395,42 @@
             "name": "Lesser Restoration",
             "description": "<p>You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed], or &amp;Reference[poisoned].</p>"
         },
+        "Lethargy": {
+            "name": "Lethargy",
+            "description": "<p>When the spell ends, the target is &amp;Reference[incapacitated apply=false] and has a Speed of 0 until the end of its next turn, as a wave of lethargy washes over it.</p>"
+        },
+        "Level 2: +5 Max HP": {
+            "name": "Level 2: +5 Max HP",
+            "description": "<p>The target's Hit Point maximum is increased for the duration.</p>"
+        },
+        "Level 3: +10 Max HP": {
+            "name": "Level 3: +10 Max HP",
+            "description": "<p>The target's Hit Point maximum is increased for the duration.</p>"
+        },
+        "Level 4: +15 Max HP": {
+            "name": "Level 4: +15 Max HP",
+            "description": "<p>The target's Hit Point maximum is increased for the duration.</p>"
+        },
+        "Level 5: +20 Max HP": {
+            "name": "Level 5: +20 Max HP",
+            "description": "<p>The target's Hit Point maximum is increased for the duration.</p>"
+        },
+        "Level 6: +25 Max HP": {
+            "name": "Level 6: +25 Max HP",
+            "description": "<p>The target's Hit Point maximum is increased for the duration.</p>"
+        },
+        "Level 7: +30 Max HP": {
+            "name": "Level 7: +30 Max HP",
+            "description": "<p>The target's Hit Point maximum is increased for the duration.</p>"
+        },
+        "Level 8: +35 Max HP": {
+            "name": "Level 8: +35 Max HP",
+            "description": "<p>The target's Hit Point maximum is increased for the duration.</p>"
+        },
+        "Level 9: +40 Max HP": {
+            "name": "Level 9: +40 Max HP",
+            "description": "<p>The target's Hit Point maximum is increased for the duration.</p>"
+        },
         "Levitate": {
             "name": "Levitate",
             "description": "<p>One creature or loose object of your choice that you can see within range rises vertically up to 20 feet and remains suspended there for the duration. The spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</p><p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can take a Magic action to move the target, which must remain within the spell's range.</p><p>When the spell ends, the target floats gently to the ground if it is still aloft.</p>",
@@ -2130,6 +2442,10 @@
                 }
             }
         },
+        "Levitating": {
+            "name": "Levitating",
+            "description": "<p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing.</p>"
+        },
         "Light": {
             "name": "Light",
             "description": "<p>You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.</p><p>Covering the object with something opaque blocks the light. The spell ends if you cast it again.</p>",
@@ -2139,6 +2455,14 @@
             "name": "Lightning Bolt",
             "description": "<p>A stroke of lightning forming a 100-foot-long, 5-foot-wide Line blasts out from you in a direction you choose. Each creature in the Line makes a Dexterity saving throw, taking 8d6 Lightning damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 3.</p>",
             "materials": "a bit of fur and a crystal rod"
+        },
+        "Lightning Protection": {
+            "name": "Lightning Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+        },
+        "Lingering Acid": {
+            "name": "Lingering Acid",
+            "description": "<p>The creature takes [[/damage <span style=\"font-family:Signika, sans-serif\">5d4 type=acid]] damage at the end of its next turn</span></p>"
         },
         "Locate Animals or Plants": {
             "name": "Locate Animals or Plants",
@@ -2157,25 +2481,11 @@
         },
         "Longstrider": {
             "name": "Longstrider",
-            "description": "<p>You touch a creature. The target's Speed increases by 10 feet until the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>",
-            "materials": "a pinch of dirt",
-            "effects": {
-                "Longstrider": {
-                    "name": "Longstrider",
-                    "description": "<p>The target’s Speed increases by 10 feet until the spell ends.</p>"
-                }
-            }
+            "description": "<p>The target’s Speed increases by 10 feet until the spell ends.</p>"
         },
         "Mage Armor": {
             "name": "Mage Armor",
-            "description": "<p>You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.</p>",
-            "materials": "a piece of cured leather",
-            "effects": {
-                "Mage Armor": {
-                    "name": "Mage Armor",
-                    "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>"
-                }
-            }
+            "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>"
         },
         "Mage Hand": {
             "name": "Mage Hand",
@@ -2250,6 +2560,18 @@
                 }
             }
         },
+        "Magic Weapon +1": {
+            "name": "Magic Weapon +1",
+            "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p>"
+        },
+        "Magic Weapon +2": {
+            "name": "Magic Weapon +2",
+            "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +2 bonus to attack rolls and damage rolls.</p>"
+        },
+        "Magic Weapon +3": {
+            "name": "Magic Weapon +3",
+            "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +3 bonus to attack rolls and damage rolls.</p>"
+        },
         "Magical Berries": {
             "name": "Magical Berries",
             "description": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplGoodberry0 caption=false]</p>"
@@ -2268,6 +2590,10 @@
             "name": "Major Image",
             "description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can't deal damage or cause conditions.</p><p>If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.</p>",
             "materials": "a bit of fleece"
+        },
+        "Masked": {
+            "name": "Masked",
+            "description": "<p>Choose a creature type other than the target’s actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.</p>"
         },
         "Mass Cure Wounds": {
             "name": "Mass Cure Wounds",
@@ -2307,9 +2633,16 @@
                 }
             }
         },
+        "Medicine Guidance": {
+            "name": "Medicine Guidance"
+        },
         "Meld into Stone": {
             "name": "Meld into Stone",
             "description": "<p>You step into a stone object or surface large enough to fully contain your body, merging yourself and your equipment with the stone for the duration. You must touch the stone to do so. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.</p><p>While merged with the stone, you can't see what occurs outside it, and any [[/check ability=wis skill=prc]] checks you make to hear sounds outside it are made with Disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use 5 feet of movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.</p><p>Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals [[/damage 6d6 type=force]] damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals [[/damage 50 type=force]] damage to you. If expelled, you move into an unoccupied space closest to where you first entered and have the &amp;Reference[prone] condition.</p>"
+        },
+        "Memory Modification": {
+            "name": "Memory Modification",
+            "description": "<p><span style=\"font-family:Signika, sans-serif\">While &amp;Reference[Charmed apply=false] in this way, the target also has the &amp;Reference[Incapacitated apply=false] condition and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another spell, this spell ends, and no memories are modified.</span></p>"
         },
         "Mending": {
             "name": "Mending",
@@ -2334,6 +2667,9 @@
                 }
             }
         },
+        "Mind Blanked": {
+            "name": "Mind Blanked"
+        },
         "Mind Spike": {
             "name": "Mind Spike",
             "description": "<p>You drive a spike of psionic energy into the mind of one creature you can see within range. The target makes a Wisdom saving throw, taking 3d8 Psychic damage on a failed save or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it has the &amp;Reference[invisible apply=false] condition, it gains no benefit from that condition against you.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The damage increases by 1d8 for each spell slot level above 2.</p>",
@@ -2343,6 +2679,10 @@
                     "description": "<p>You always know the target’s location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it has the &amp;Reference[invisible apply=false] condition, it gains no benefit from that condition against you.</p>"
                 }
             }
+        },
+        "Minimus Containment": {
+            "name": "Minimus Containment",
+            "description": "<p>The target becomes 1 inch tall and is trapped inside an indestructible gemstone or a similar object. Light can pass through the gemstone (allowing the target to see out and other creatures to see in), but nothing else can pass through by any means.</p>"
         },
         "Minor Illusion": {
             "name": "Minor Illusion",
@@ -2400,6 +2740,10 @@
             "name": "Misty Step",
             "description": "<p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.</p>"
         },
+        "Mocked": {
+            "name": "Mocked",
+            "description": "<p>The target has Disadvantage on the next attack roll it makes before the end of its next turn.</p>"
+        },
         "Modify Memory": {
             "name": "Modify Memory",
             "description": "<p>You attempt to reshape another creature's memories. One creature that you can see within range makes a Wisdom saving throw. If you are fighting the creature, it has Advantage on the save. On a failed save, the target has the &amp;Reference[Charmed apply=false] condition for the duration. While Charmed in this way, the target also has the &amp;Reference[Incapacitated apply=false] condition and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another spell, this spell ends, and no memories are modified.</p><p>While this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity, change its memory of the event's details, or create a memory of some other event.</p><p>You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you finish describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.</p><p>A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as a false memory of how much the creature enjoyed swimming in acid, is dismissed as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature.</p><p>A <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em> or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em> spell cast on the target restores the creature's true memory.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can alter the target's memories of an event that took place up to 7 days ago (level 6 spell slot), 30 days ago (level 7 spell slot), 365 days ago (level 8 spell slot), or any time in the creature's past (level 9 spell slot).</p>",
@@ -2428,6 +2772,21 @@
                 }
             }
         },
+        "Natural Weapon": {
+            "name": "Natural Weapon",
+            "description": "<p>When you use your Unarmed Strike to deal damage with that new growth, it deals 1d6 damage of the type in parentheses instead of dealing the normal damage for your Unarmed Strike, and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength.</p>"
+        },
+        "Nature Guidance": {
+            "name": "Nature Guidance"
+        },
+        "Necrotic Protection": {
+            "name": "Necrotic Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+        },
+        "No Movement": {
+            "name": "No Movement",
+            "description": "<p>The target's Speed is 0 until the start of your next turn.</p>"
+        },
         "Nondetection": {
             "name": "Nondetection",
             "description": "<p>For the duration, you hide a target that you touch from Divination spells. The target can be a willing creature, or it can be a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any Divination spell or perceived through magical scrying sensors.</p>",
@@ -2437,6 +2796,18 @@
                     "name": "Hidden from Divination"
                 }
             }
+        },
+        "Outlined": {
+            "name": "Outlined",
+            "description": "<p>For the duration, objects and affected creatures shed &amp;Reference[dimlight] in a 10-foot radius and can’t benefit from the Invisible condition.</p><p>Attack rolls against an affected creature or object have Advantage if the attacker can see it.</p>"
+        },
+        "Panicked": {
+            "name": "Panicked",
+            "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition. On each of its turns, the Frightened target must take the &amp;Reference[Dash] action and move away from you by the safest and shortest route available. If the target moves to a space at least 60 feet away from you where it can’t see you, this effect ends.</p>"
+        },
+        "Paralyzed": {
+            "name": "Paralyzed",
+            "description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
         },
         "Pass without Trace": {
             "name": "Pass without Trace",
@@ -2453,6 +2824,19 @@
             "name": "Passwall",
             "description": "<p>A passage appears at a point that you can see on a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) within range and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.</p><p>When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.</p>",
             "materials": "a pinch of sesame seeds"
+        },
+        "Perception Guidance": {
+            "name": "Perception Guidance"
+        },
+        "Performance Guidance": {
+            "name": "Performance Guidance"
+        },
+        "Persuasion Guidance": {
+            "name": "Persuasion Guidance"
+        },
+        "Petrifying (Indigo)": {
+            "name": "Petrifying (Indigo)",
+            "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition and makes a [[/save ability=con format=long]] at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>"
         },
         "Phantasmal Force": {
             "name": "Phantasmal Force",
@@ -2486,6 +2870,10 @@
         "Phantom Steed": {
             "name": "Phantom Steed",
             "description": "<p>A Large, quasi-real, @UUID[Compendium.dnd5e.actors24.Actor.phbsumPhantomSte]{horselike creature} appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, and it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.</p><p>For the duration, you or a creature you choose can ride the steed. The steed uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Riding Horse}</strong> stat block (see appendix B), except it has a Speed of 100 feet and can travel 13 miles in an hour. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends early if the steed takes any damage.</p>"
+        },
+        "Piercing Protection": {
+            "name": "Piercing Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
         },
         "Planar Ally": {
             "name": "Planar Ally",
@@ -2528,6 +2916,10 @@
                     "name": "Enrichment"
                 }
             }
+        },
+        "Poison Protection": {
+            "name": "Poison Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
         },
         "Poison Spray": {
             "name": "Poison Spray",
@@ -2583,6 +2975,10 @@
         "Prestidigitation": {
             "name": "Prestidigitation",
             "description": "<p>You create a magical effect within range. Choose the effect from the options below. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time.</p><p><strong>Sensory Effect.</strong> You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire Play.</strong> You instantaneously light or snuff out a candle, a torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You instantaneously clean or soil an object no larger than 1 cubic foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</p><p><strong>Magic Mark.</strong> You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.</p>"
+        },
+        "Prismatic Blinding": {
+            "name": "Prismatic Blinding",
+            "description": "<p>The target has the &amp;Reference[Blinded apply=false] condition for 1 minute.</p>"
         },
         "Prismatic Spray": {
             "name": "Prismatic Spray",
@@ -2679,6 +3075,14 @@
                 }
             }
         },
+        "Protected": {
+            "name": "Protected",
+            "description": "<p>Creatures of those types have Disadvantage on attack rolls against the target. The target also can’t be possessed by or gain the &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened apply=false] conditions from them. </p>"
+        },
+        "Protection from Death": {
+            "name": "Protection from Death",
+            "description": "<p>The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.</p><p>If the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.</p>"
+        },
         "Protection from Energy": {
             "name": "Protection from Energy",
             "description": "<div><p>For the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder.</p></div>",
@@ -2725,6 +3129,14 @@
             "name": "Purify Food and Drink",
             "description": "<p>You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.</p>"
         },
+        "Pursuing Suggestion": {
+            "name": "Pursuing Suggestion",
+            "description": "<p>The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.</p>"
+        },
+        "Radiant Protection": {
+            "name": "Radiant Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+        },
         "Raise Dead": {
             "name": "Raise Dead",
             "description": "<p>With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn't Undead when it died.</p><p>The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death.</p><p>This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
@@ -2752,6 +3164,9 @@
                     "description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>"
                 }
             }
+        },
+        "Ranged Weapon": {
+            "name": "Ranged Weapon"
         },
         "Ray of Enfeeblement": {
             "name": "Ray of Enfeeblement",
@@ -2781,6 +3196,14 @@
             "name": "Ray of Sickness",
             "description": "<p>You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the &amp;Reference[poisoned] condition until the end of your next turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 1.</p>"
         },
+        "Reduced": {
+            "name": "Reduced",
+            "description": "<p>The target’s size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target’s attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can’t reduce the damage below 1).</p>"
+        },
+        "Reduced Movement": {
+            "name": "Reduced Movement",
+            "description": "<p>The target's Speed is reduced by 10 feet until the start of your next turn.</p>"
+        },
         "Regenerate": {
             "name": "Regenerate",
             "description": "<p>A creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains [[/healing 1 type=healing]]{1 Hit Point} at the start of each of its turns, and any severed body parts regrow after 2 minutes.</p>",
@@ -2792,10 +3215,17 @@
                 }
             }
         },
+        "Regenerating": {
+            "name": "Regenerating",
+            "description": "<p>For the duration, the target regains [[/healing 1 type=healing]]{1 Hit Point} at the start of each of its turns, and any severed body parts regrow after 2 minutes.</p>"
+        },
         "Reincarnate": {
             "name": "Reincarnate",
             "description": "<p>You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. @Embed[Compendium.dnd5e.tables24.RollTable.phbsplReincarnat rollable classes=\"caption-top\"]</p><p>The reincarnated creature makes any choices that a species' description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.</p>",
             "materials": "rare oils worth 1,000+ GP, which the spell consumes"
+        },
+        "Religion Guidance": {
+            "name": "Religion Guidance"
         },
         "Remove Curse": {
             "name": "Remove Curse",
@@ -2867,6 +3297,14 @@
                 }
             }
         },
+        "Restrained": {
+            "name": "Restrained",
+            "description": "<p>A &amp;Reference[Restrained apply=false] creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC, ending the condition on itself on a success.</p>"
+        },
+        "Restrained (Indigo)": {
+            "name": "Restrained (Indigo)",
+            "description": "<p>The target has the &amp;Reference[Restrained apply=false] condition and makes a [[/save ability=con dc=@attributes.spell.dc]] format=long]] at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em> spell.</p>"
+        },
         "Resurrection": {
             "name": "Resurrection",
             "description": "<p>With a touch, you revive a dead creature that has been dead for no more than a century, didn't die of old age, and wasn't Undead when it died.</p><p>The creature returns to life with all its Hit Points. This spell also neutralizes any poisons that affected the creature at the time of death. This spell closes all mortal wounds and restores any missing body parts.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p><p>Casting this spell to revive a creature that has been dead for 365 days or longer taxes you. Until you finish a Long Rest, you can't cast spells again, and you have Disadvantage on D20 Tests.</p>",
@@ -2901,6 +3339,22 @@
                     "description": "<p>Until you finish a Long Rest, you can’t cast spells again, and you have Disadvantage on D20 Tests.</p>"
                 }
             }
+        },
+        "Resurrection Sickness (Day 1)": {
+            "name": "Resurrection Sickness (Day 1)",
+            "description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>"
+        },
+        "Resurrection Sickness (Day 2)": {
+            "name": "Resurrection Sickness (Day 2)",
+            "description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>"
+        },
+        "Resurrection Sickness (Day 3)": {
+            "name": "Resurrection Sickness (Day 3)",
+            "description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>"
+        },
+        "Resurrection Sickness (Day 4)": {
+            "name": "Resurrection Sickness (Day 4)",
+            "description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>"
         },
         "Reverse Gravity": {
             "name": "Reverse Gravity",
@@ -2982,6 +3436,10 @@
                 }
             }
         },
+        "Seared": {
+            "name": "Seared",
+            "description": "<p>At the start of each of its turns until the spell ends, the target takes [[/damage 1d6 type=fire]] damage and then makes a [[/save ability=con]] saving throw. On a failed save, the spell continues. On a successful save, the spell ends.</p>"
+        },
         "Searing Smite": {
             "name": "Searing Smite",
             "description": "<p>As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot. </strong>All the damage increases by 1d6 for each spell slot level above 1.</p>",
@@ -3014,14 +3472,11 @@
             }
         },
         "See Invisibility": {
-            "name": "See Invisibility",
-            "description": "<p>For the duration, you see creatures and objects that have the &amp;Reference[invisible apply=false] condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.</p>",
-            "materials": "a pinch of talc",
-            "effects": {
-                "See Invisibility": {
-                    "name": "See Invisibility"
-                }
-            }
+            "name": "See Invisibility"
+        },
+        "Seeing Illusions": {
+            "name": "Seeing Illusions",
+            "description": "<p>The target can take a &amp;Reference[Study]{Study} action to examine the phantasm with an [[/check ability=int skill=inv]] check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.</p>"
         },
         "Seeming": {
             "name": "Seeming",
@@ -3056,6 +3511,10 @@
                     "description": "<p>If the target is a creature, it enters a state of suspended animation; it has the &amp;Reference[Unconscious apply=false] condition, doesn’t age, and doesn’t need food, water, or air. This spell also ends if the target takes any damage.</p>"
                 }
             }
+        },
+        "Sequestered": {
+            "name": "Sequestered",
+            "description": "<p>If the target is a creature, it enters a state of suspended animation; it has the &amp;Reference[Unconscious apply=false] condition, doesn’t age, and doesn’t need food, water, or air. This spell also ends if the target takes any damage.</p>"
         },
         "Shapechange": {
             "name": "Shapechange",
@@ -3127,6 +3586,26 @@
                 }
             }
         },
+        "Shillelagh (1d10)": {
+            "name": "Shillelagh (1d10)"
+        },
+        "Shillelagh (1d12)": {
+            "name": "Shillelagh (1d12)"
+        },
+        "Shillelagh (1d8)": {
+            "name": "Shillelagh (1d8)"
+        },
+        "Shillelagh (2d6)": {
+            "name": "Shillelagh (2d6)"
+        },
+        "Shimmering Field": {
+            "name": "Shimmering Field",
+            "description": "<p>The target gains a +2 bonus to AC for the duration.</p>"
+        },
+        "Shining": {
+            "name": "Shining",
+            "description": "<p>Until the spell ends, the target sheds &amp;Reference[BrightLight] in a 5-foot radius, attack rolls against it have Advantage, and it can’t benefit from the &amp;Reference[Invisible] condition.</p>"
+        },
         "Shining Smite": {
             "name": "Shining Smite",
             "description": "<p>The target hit by the strike takes an extra 2d6 Radiant damage from the attack. Until the spell ends, the target sheds &amp;Reference[BrightLight] in a 5-foot radius, attack rolls against it have Advantage, and it can't benefit from the &amp;Reference[Invisible] condition.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 2.</p>",
@@ -3136,6 +3615,10 @@
                     "description": "<p>Until the spell ends, the target sheds &amp;Reference[BrightLight] in a 5-foot radius, attack rolls against it have Advantage, and it can’t benefit from the &amp;Reference[Invisible] condition.</p>"
                 }
             }
+        },
+        "Shocked": {
+            "name": "Shocked",
+            "description": "<p>The target can’t make Opportunity Attacks until the start of its next turn.</p>"
         },
         "Shocking Grasp": {
             "name": "Shocking Grasp",
@@ -3147,6 +3630,14 @@
                 }
             }
         },
+        "Short Dance": {
+            "name": "Short Dance",
+            "description": "<p>The target dances comically until the end of its next turn, during which it must spend all its movement to dance in place.</p>"
+        },
+        "Sickened": {
+            "name": "Sickened",
+            "description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition.</p>"
+        },
         "Silence": {
             "name": "Silence",
             "description": "<p>For the duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the &amp;Reference[deafened apply=false] condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.</p>",
@@ -3156,6 +3647,10 @@
                     "description": "<p>Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the Deafened condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.</p>"
                 }
             }
+        },
+        "Silenced": {
+            "name": "Silenced",
+            "description": "<p>Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the Deafened condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.</p>"
         },
         "Silent Image": {
             "name": "Silent Image",
@@ -3172,6 +3667,10 @@
                 }
             }
         },
+        "Slashing Protection": {
+            "name": "Slashing Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+        },
         "Sleep": {
             "name": "Sleep",
             "description": "<p>Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the &amp;Reference[incapacitated apply=false] condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell's effect.</p><p>Creatures that don't sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell.</p>",
@@ -3183,10 +3682,17 @@
                 }
             }
         },
+        "Sleeping": {
+            "name": "Sleeping",
+            "description": "<p>A creature awakens if it takes damage or if someone takes an action to shake it awake.</p>"
+        },
         "Sleet Storm": {
             "name": "Sleet Storm",
             "description": "<p>Until the spell ends, sleet falls in a 40-foot-tall, 20-foot-radius Cylinder centered on a point you choose within range. The area is &amp;Reference[heavilyobscured], and exposed flames in the area are doused.</p><p>Ground in the Cylinder is &amp;Reference[difficultterrain]. When a creature enters the Cylinder for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the &amp;Reference[prone] condition and lose &amp;Reference[concentration].</p>",
             "materials": "a miniature umbrella"
+        },
+        "Sleight of Hand Guidance": {
+            "name": "Sleight of Hand Guidance"
         },
         "Slow": {
             "name": "Slow",
@@ -3198,6 +3704,14 @@
                     "description": "<p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Spell cast successfully on 1]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the [[/save ability=wis]] save at the end of each of its turns, ending the spell on itself on a success.</p>"
                 }
             }
+        },
+        "Slowed": {
+            "name": "Slowed",
+            "description": "<p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Spell cast successfully on 1]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the [[/save ability=wis]] save at the end of each of its turns, ending the spell on itself on a success.</p>"
+        },
+        "Slumber": {
+            "name": "Slumber",
+            "description": "<p>The target has the &amp;Reference[Unconscious apply=false] condition and can’t be awoken.</p>"
         },
         "Sorcerous Burst": {
             "name": "Sorcerous Burst",
@@ -3235,20 +3749,24 @@
                 }
             }
         },
+        "Speaking with Plants": {
+            "name": "Speaking with Plants"
+        },
+        "Spell Taxed": {
+            "name": "Spell Taxed",
+            "description": "<p>Until you finish a Long Rest, you can’t cast spells again, and you have Disadvantage on D20 Tests.</p>"
+        },
         "Spider Climb": {
-            "name": "Spider Climb",
-            "description": "<p>Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and along ceilings, while leaving its hands free. The target also gains a Climb Speed equal to its Speed.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level about 2.</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Foundry Note</strong></p><p>The Active Effect provided by the <strong>Cast</strong> activity upgrades the character's Climb Speed to a value of \"1\" to indicate equivalence to (walk) Speed.</p></section>",
-            "materials": "a drop of bitumen and a spider",
-            "effects": {
-                "Spider Climb": {
-                    "name": "Spider Climb"
-                }
-            }
+            "name": "Spider Climb"
         },
         "Spike Growth": {
             "name": "Spike Growth",
             "description": "<p>The ground in a 20-foot-radius Sphere centered on a point within range sprouts hard spikes and thorns. The area becomes Difficult Terrain for the duration. When a creature moves into or within the area, it takes [[/damage 2d4 type=piercing]] damage for every 5 feet it travels.</p><p>The transformation of the ground is camouflaged to look natural. Any creature that can't see the area when the spell is cast must take a Search action and succeed on a [[/check ability=wis skill=prc dc=@attributes.spell.dc]] or [[/check ability=wis skill=sur dc=@attributes.spell.dc]] check against your spell save DC to recognize the terrain as hazardous before entering it.</p>",
             "materials": "seven thorns"
+        },
+        "Spiked": {
+            "name": "Spiked",
+            "description": "<p>You always know the target’s location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it has the &amp;Reference[invisible apply=false] condition, it gains no benefit from that condition against you.</p>"
         },
         "Spirit Guardians": {
             "name": "Spirit Guardians",
@@ -3273,6 +3791,9 @@
             "name": "Spiritual Weapon",
             "description": "<p>You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier.</p><p>As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for every slot level above 2.</p>"
         },
+        "Stabilized": {
+            "name": "Stabilized"
+        },
         "Starry Wisp": {
             "name": "Starry Wisp",
             "description": "<p>You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can't benefit from the &amp;Reference[Invisible] condition.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
@@ -3282,6 +3803,9 @@
                     "description": "<p>Until the end of your next turn, it emits Dim Light in a 10-foot radius and can’t benefit from the &amp;Reference[Invisible] condition.</p>"
                 }
             }
+        },
+        "Stealth Guidance": {
+            "name": "Stealth Guidance"
         },
         "Stinking Cloud": {
             "name": "Stinking Cloud",
@@ -3302,20 +3826,17 @@
                 }
             }
         },
+        "Stinking Poison": {
+            "name": "Stinking Poison",
+            "description": "<p>While &amp;Reference[poisoned apply=false] in this way, the creature can’t take an action or a Bonus Action.</p>"
+        },
         "Stone Shape": {
             "name": "Stone Shape",
             "description": "<p>You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.</p>",
             "materials": "soft clay"
         },
         "Stoneskin": {
-            "name": "Stoneskin",
-            "description": "<p>Until the spell ends, one willing creature you touch has &amp;Reference[damageresistance]{Resistance} to Bludgeoning, Piercing, and Slashing damage.</p>",
-            "materials": "diamond dust worth 100+ GP, which the spell consumes",
-            "effects": {
-                "Stoneskin": {
-                    "name": "Stoneskin"
-                }
-            }
+            "name": "Stoneskin"
         },
         "Storm of Vengeance": {
             "name": "Storm of Vengeance",
@@ -3350,6 +3871,9 @@
                     "name": "Deafened"
                 }
             }
+        },
+        "Stunned": {
+            "name": "Stunned"
         },
         "Suggestion": {
             "name": "Suggestion",
@@ -3396,6 +3920,13 @@
                     "description": "<p>A creature &amp;Reference[Blinded apply=false] by this spell makes another [[/save ability=con format=long]] at the end of each of its turns, ending the effect on itself on a success.</p>"
                 }
             }
+        },
+        "Survival Guidance": {
+            "name": "Survival Guidance"
+        },
+        "Suspended Animation": {
+            "name": "Suspended Animation",
+            "description": "<p>Each target’s body is left behind in a state of suspended animation; it has the &amp;Reference[Unconscious apply=false] condition, doesn’t need food or air, and doesn’t age.</p>"
         },
         "Symbol": {
             "name": "Symbol",
@@ -3445,6 +3976,9 @@
                 }
             }
         },
+        "Sympathy": {
+            "name": "Sympathy"
+        },
         "Telekinesis": {
             "name": "Telekinesis",
             "description": "<p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell and as a Magic action on your later turns before the spell ends, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><p><strong>Creature.</strong> You can try to move a Huge or smaller creature. The target must succeed on a Strength saving throw, or you move it up to 30 feet in any direction within the spell's range. Until the end of your next turn, the creature has the &amp;Reference[Restrained] condition, and if you lift it into the air, it is suspended there. It falls at the end of your next turn unless you use this option on it again and it fails the save.</p><p><strong>Object.</strong> You can try to move a Huge or smaller object. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction within the spell's range.</p><p>If the object is worn or carried by a creature, that creature must succeed on a Strength saving throw, or you pull the object away and move it up to 30 feet in any direction within the spell's range.</p><p>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p>"
@@ -3473,6 +4007,10 @@
             "description": "<p>As you cast the spell, you draw a 5-foot-radius circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.</p><p>Many major temples, guildhalls, and other important places have permanent teleportation circles. Each circle includes a unique sigil sequence—a string of runes arranged in a particular pattern.</p><p>When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You might learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.</p><p>You can create a permanent teleportation circle by casting this spell in the same location every day for 365 days.</p>",
             "materials": "rare inks worth 50+ GP, which the spell consumes"
         },
+        "Teleporting (Violet)": {
+            "name": "Teleporting (Violet)",
+            "description": "<p>The target has the &amp;Reference[Blinded apply=false] condition and makes a [[/save ability=wis format=long]] at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
+        },
         "Thaumaturgy": {
             "name": "Thaumaturgy",
             "description": "<p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1 minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>",
@@ -3482,6 +4020,10 @@
                     "description": "<p>Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p>"
                 }
             }
+        },
+        "Thunder Protection": {
+            "name": "Thunder Protection",
+            "description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
         },
         "Thunderwave": {
             "name": "Thunderwave",
@@ -3511,9 +4053,21 @@
                 }
             }
         },
+        "Trance State": {
+            "name": "Trance State",
+            "description": "<p><span style=\"font-family:Signika, sans-serif\">While in the trance, the messenger is Incapacitated and has a Speed of 0.</span></p>"
+        },
         "Transport via Plants": {
             "name": "Transport via Plants",
             "description": "<p>This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement.</p>"
+        },
+        "Trapped in Ice": {
+            "name": "Trapped in Ice",
+            "description": "<p>Creatures that were swimming on the surface of frozen water are trapped in the ice and have the &amp;Reference[Restrained apply=false] condition. A trapped creature can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC to break free.</p>"
+        },
+        "Trapped Soul": {
+            "name": "Trapped Soul",
+            "description": "<p>the possessed creature’s soul can perceive from the container using its own senses, but it can’t move and it is &amp;Reference[Incapacitated apply=false].</p>"
         },
         "Tree Stride": {
             "name": "Tree Stride",
@@ -3545,31 +4099,10 @@
             }
         },
         "True Strike": {
-            "name": "True Strike",
-            "description": "<p>Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).</p><p><strong>Cantrip Upgrade.</strong> Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6).</p>",
-            "materials": "a weapon with which you have proficiency and that is worth 1+ CP",
-            "activities": {
-                "Enchant Weapon": {
-                    "name": "Enchant Weapon"
-                },
-                "Spellcasting Attack": {
-                    "name": "Spellcasting Attack"
-                }
-            },
-            "effects": {
-                "True Strike": {
-                    "name": "True Strike",
-                    "changes": {
-                        "name": "{} (True Strike)"
-                    }
-                },
-                "Ranged Weapon": {
-                    "name": "Ranged Weapon",
-                    "changes": {
-                        "name": "{} (True Strike)"
-                    }
-                }
-            }
+            "name": "True Strike"
+        },
+        "Truesight": {
+            "name": "Truesight"
         },
         "Tsunami": {
             "name": "Tsunami",
@@ -3584,6 +4117,28 @@
                     "range": "moves away from you"
                 }
             }
+        },
+        "Turning to Stone": {
+            "name": "Turning to Stone",
+            "description": "<p>A &amp;Reference[Restrained apply=false] target makes another [[/save ability=con format=long]] at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and has the &amp;Reference[Petrified] condition for the duration. </p>"
+        },
+        "Unable to Move": {
+            "name": "Unable to Move",
+            "description": "<p>On a successful save, its Speed is 0 until the start of your next turn.</p>"
+        },
+        "Uncontrollable Laughter": {
+            "name": "Uncontrollable Laughter",
+            "description": "<p>has the &amp;Reference[prone apply=false] and &amp;Reference[incapacitated apply=false] conditions for the duration. During that time, it laughs uncontrollably if it’s capable of laughter, and it can’t end the Prone condition on itself.</p><p>At the end of each of its turns and each time it takes damage, it makes another [[/save ability=wis dc=@attributes.spell.dc]] saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.</p>"
+        },
+        "Under Orders": {
+            "name": "Under Orders",
+            "description": "<p>While &amp;Reference[Charmed apply=false], the creature takes [[/damage 5d10 type=psyhic]] damage if it acts in a manner directly counter to your command. It takes this damage no more than once each day.</p>"
+        },
+        "Universal Communication": {
+            "name": "Universal Communication"
+        },
+        "Unrestricted Movement": {
+            "name": "Unrestricted Movement"
         },
         "Unseen Servant": {
             "name": "Unseen Servant",
@@ -3693,6 +4248,10 @@
                 }
             }
         },
+        "Warded": {
+            "name": "Warded",
+            "description": "<p>Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a [[/save ability=wis format=long]] or either choose a new target or lose the attack or spell.</p><p> The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage.</p>"
+        },
         "Warding Bond": {
             "name": "Warding Bond",
             "description": "<p>You touch another creature that is willing and create a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has &amp;Reference[damageresistance]{Resistance} to all damage. Also, each time it takes damage, you take the same amount of damage.</p><p>The spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.</p>",
@@ -3704,15 +4263,12 @@
                 }
             }
         },
+        "Warm Shield": {
+            "name": "Warm Shield",
+            "description": "<p>Whenever a creature within 5 feet of you hits you with a melee attack roll, the attacker takes [[/damage 2d8 type=fire]] damage.</p>"
+        },
         "Water Breathing": {
-            "name": "Water Breathing",
-            "description": "<p>This spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.</p>",
-            "materials": "a short reed",
-            "effects": {
-                "Water Breathing": {
-                    "name": "Water Breathing"
-                }
-            }
+            "name": "Water Breathing"
         },
         "Water Walk": {
             "name": "Water Walk",
@@ -3724,6 +4280,10 @@
                     "description": "<p>An affected target must take a Bonus Action to pass from the liquid’s surface into the liquid itself and vice versa, but if the target falls into the liquid, the target passes through the surface into the liquid below.</p>"
                 }
             }
+        },
+        "Water Walking": {
+            "name": "Water Walking",
+            "description": "<p>An affected target must take a Bonus Action to pass from the liquid’s surface into the liquid itself and vice versa, but if the target falls into the liquid, the target passes through the surface into the liquid below.</p>"
         },
         "Web": {
             "name": "Web",
@@ -3791,6 +4351,10 @@
                 }
             }
         },
+        "Wish Stress": {
+            "name": "Wish Stress",
+            "description": "<p>Each time you cast a spell until you finish a Long Rest, you take [[/damage 1d10 type=necrotic]] damage per level of that spell. This damage can’t be reduced or prevented in any way. In addition, your Strength score becomes 3 for [[/r 2d4]] days.</p>"
+        },
         "Word of Recall": {
             "name": "Word of Recall",
             "description": "<p>You and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.</p><p>You must designate a location, such as a temple, as a sanctuary by casting this spell there.</p>",
@@ -3813,5 +4377,18 @@
                 }
             }
         }
+    },
+    "folders": {
+        "1st Level": "1st Level",
+        "2nd Level": "2nd Level",
+        "3rd Level": "3rd Level",
+        "4th Level": "4th Level",
+        "5th Level": "5th Level",
+        "6th Level": "6th Level",
+        "7th Level": "7th Level",
+        "8th Level": "8th Level",
+        "9th Level": "9th Level",
+        "Cantrips": "Cantrips",
+        "Supplemental Items": "Supplemental Items"
     }
 }
