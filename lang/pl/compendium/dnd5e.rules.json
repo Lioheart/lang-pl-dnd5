@@ -1238,6 +1238,30 @@
                 "Casting a Spell": {
                     "name": "Rzucanie czaru",
                     "text": "<p>Kiedy postać rzuca jakiekolwiek zaklęcie, przestrzegane są te same podstawowe zasady, niezależnie od klasy postaci lub efektów zaklęcia.</p><p>Każdy opis zaklęcia zaczyna się od bloku informacji, w tym nazwy zaklęcia, poziomu, szkoły magii, czasu rzucania, zasięgu, komponentów i czasu trwania. Reszta wpisu zaklęcia opisuje efekt zaklęcia.</p>Czas <h2>rzucania</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.zRVW8Tvyk6BECjZD inline]</p><h2>Zasięg</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.RBYPyE5z5hAZSbH6 inline]</p><h2>Komponenty</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.xeHthAF9lxfn2tII inline]</p><h2>Czas trwania</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.9mp0SRsptjvJcq1e inline]</p><h2>Cele</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.G80AIQr04sxdVpw4 inline]</p><h2>Obszary działania</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.wvtCeGHgnUmh0cuj inline]</p><h2>Rzuty Obronne</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.8DajfNll90eeKcmB inline]</p><h2>Rzuty Atakowe</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.qAFzmGZKhVvAEUF3 inline]</p><h2>Łączenie magicznych efektów</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.TMIN963hG773yZzO inline]</p><div class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/magic/symbols/rune-sigil-black-pink.webp\" class=\"round\" /></figure><article><h4>Szkoły magii</h4><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.TeF6CKMDRpYpsLd4 inline]</p></article></div>"
+                },
+                "Bard Spells": {
+                    "name": "Czary bardowskie"
+                },
+                "Cleric Spells": {
+                    "name": "Czary kleryka"
+                },
+                "Druid Spells": {
+                    "name": "Poziom Druida | Zaklęcia"
+                },
+                "Paladin Spells": {
+                    "name": "Czary paladyna"
+                },
+                "Ranger Spells": {
+                    "name": "Czary Łowcy"
+                },
+                "Sorcerer Spells": {
+                    "name": "Czary czarów"
+                },
+                "Warlock Spells": {
+                    "name": "Czary czarownika"
+                },
+                "Wizard Spells": {
+                    "name": "Czary czarów"
                 }
             }
         },
@@ -1309,6 +1333,42 @@
                 "Overview": {
                     "name": "Podsumowanie",
                     "text": "<table><caption>Podsumowanie klas</caption>\n<thead>\n<tr>\n<th>Klasa</th>\n<th>Kość Wytrzymałości</th>\n<th>Główna cecha</th>\n<th>Biegłości w rzutach obronnych</th>\n<th>Biegłości w pancerzach i broniach</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.pvEzGSv71zBhaolc]{Barbarzyńca}</td>\n<td>k12</td>\n<td>Siła</td>\n<td>Siła i Kondycja</td>\n<td>Lekki i średni pancerz, tarcze, broń prosta i bojowa</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.ILvRZGEx3aXqSVUt]{Bard}</td>\n<td>k8</td>\n<td>Charyzma</td>\n<td>Zręczność i Charyzma</td>\n<td>Lekki pancerz, broń prosta, kusze ręczne, miecze długie, rapier, miecze krótkie</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.tlwBnN8GmqJcTgub]{Kapłan}</td>\n<td>k8</td>\n<td>Mądrość</td>\n<td>Mądrość i Charyzma</td>\n<td>Lekki i średni pancerz, tarcze, broń prosta</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.ygVYgPbJkaH0tH1N]{Druid}</td>\n<td>k8</td>\n<td>Mądrość</td>\n<td>Inteligencja i Mądrość</td>\n<td>Lekki i średni pancerz (niemetalowy), tarcze (niemetalowe), pałki, sztylety, rzutki, oszczepy, buzdygany, kije, sejmitary, sierpy, proce, włócznie</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.ABEBgWyRhVlDUIfq]{Wojownik}</td>\n<td>k10</td>\n<td>Siła lub Zręczność</td>\n<td>Siła i Kondycja</td>\n<td>Wszystkie pancerze, tarcze, broń prosta i bojowa</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.6VoZrWxhOEKGYhnq]{Mnich}</td>\n<td>k8</td>\n<td>Zręczność i Mądrość</td>\n<td>Siła i Zręczność</td>\n<td>Broń prosta, miecze krótkie</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.gZiUvbXWLs0pOp0c]{Paladyn}</td>\n<td>k10</td>\n<td>Siła i Charyzma</td>\n<td>Mądrość i Charyzma</td>\n<td>Wszystkie pancerze, tarcze, broń prosta i bojowa</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.VkRQ7glQvTWWiOCS]{Tropiciel}</td>\n<td>k10</td>\n<td>Zręczność i Mądrość</td>\n<td>Siła i Zręczność</td>\n<td>Lekki i średni pancerz, tarcze, broń prosta i bojowa</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.xEb8jmA5HlNs7xTF]{Łotrzyk}</td>\n<td>k8</td>\n<td>Zręczność</td>\n<td>Zręczność i Inteligencja</td>\n<td>Lekki pancerz, broń prosta, kusze ręczne, miecze długie, rapier, miecze krótkie</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.6T08zzKtmmpVwlXU]{Czarownik}</td>\n<td>k6</td>\n<td>Charyzma</td>\n<td>Kondycja i Charyzma</td>\n<td>Sztylety, rzutki, proce, kije, lekkie kusze</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.7WJp9vhi6F6SlAFa]{Zaklinacz}</td>\n<td>k8</td>\n<td>Charyzma</td>\n<td>Mądrość i Charyzma</td>\n<td>Lekki pancerz, broń prosta</td>\n</tr>\n<tr>\n<td>@UUID[Compendium.dnd5e.classes.Item.wZK2Q0rXB0AQo8h3]{Czarodziej}</td>\n<td>k6</td>\n<td>Inteligencja</td>\n<td>Inteligencja i Mądrość</td>\n<td>Sztylety, rzutki, proce, kije, lekkie kusze</td>\n</tr>\n</tbody>\n</table>"
+                },
+                "Barbarian": {
+                    "name": "Barbarzyńca"
+                },
+                "Bard": {
+                    "name": "Bard"
+                },
+                "Cleric": {
+                    "name": "Kleryk"
+                },
+                "Druid": {
+                    "name": "Druid"
+                },
+                "Fighter": {
+                    "name": "Wojownik"
+                },
+                "Monk": {
+                    "name": "Mnich"
+                },
+                "Paladin": {
+                    "name": "Paladyn"
+                },
+                "Ranger": {
+                    "name": "Łowca"
+                },
+                "Rogue": {
+                    "name": "Łotr"
+                },
+                "Sorcerer": {
+                    "name": "Zaklinacz"
+                },
+                "Warlock": {
+                    "name": "Czarownik"
+                },
+                "Wizard": {
+                    "name": "Mag"
                 }
             }
         },
@@ -1352,6 +1412,14 @@
                 "Races": {
                     "name": "Rasy",
                     "text": "Cechy <h2>rasowe</h2><p>Opis każdej rasy zawiera cechy rasowe, które są wspólne dla członków tej rasy. Następujące wpisy pojawiają się wśród cech większości ras.</p>Zwiększenie wartości <h3>Cechy</h3><p>Każda rasa zwiększa jeden lub więcej wyników umiejętności postaci.</p><h3></h3><p>Wpis wieku odnotowuje wiek, w którym członek rasy jest uważany za dorosłego, a także oczekiwaną długość życia rasy. Informacje te mogą pomóc w określeniu wieku postaci na początku gry. Możesz wybrać dowolny wiek dla swojej postaci, co może wyjaśnić niektóre z twoich wyników umiejętności. Na przykład, jeśli grasz młodą lub bardzo starą postać, Twój wiek może wyjaśniać szczególnie niski wynik Siły lub Konstytucji, podczas gdy zaawansowany wiek może odpowiadać za wysoką Inteligencję lub Mądrość.</p><h3>Charakter</h3><p>Większość ras ma tendencje do pewnych wyrównań, opisanych w tym wpisie. Nie są one wiążące dla postaci graczy, ale rozważenie, dlaczego twój krasnolud jest chaotyczny, na przykład wbrew prawowitemu społeczeństwu krasnoludów, może pomóc ci lepiej zdefiniować swoją postać.</p><h3></h3><p>Postacie większości ras są średnie, kategoria wielkości obejmuje stworzenia, które mają około 4 do 8 stóp wysokości. Członkowie kilku ras są mali (mierzą od 2 do 4 stóp wzrostu), co oznacza, że niektóre zasady gry wpływają na nich inaczej. Najważniejszą z tych zasad jest to, że małe postacie mają problemy z posługiwaniem się ciężką bronią, jak wyjaśniono w @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM]{Chapter 5: Equipment}.</p><h3>Szybkość</h3><p>Twoja prędkość określa, jak daleko możesz się posunąć podczas podróży (@UUID[Compendium.dnd5e.rules.JournalEntry.⏰mUMcQfSIqYWpKk]{Chapter 8: Adventuring}) i walk (@UUID[Compendium.dnd5e.rules.JournalEntry.6PfYpwxkdQkyS6b7]{Chapter 9: Combat}).</p><h3>Języki</h3><p>Dzięki swojej rasie postać może mówić, czytać i pisać w określonych językach.</p><h3>Podbiegi</h3><p>Niektóre rasy mają podrasę. Członkowie podgrupy mają cechy rasy rodzicielskiej oprócz cech określonych dla ich podgrupy. Relacje między subrasami różnią się znacznie w zależności od rasy i świata.</p><h2>Krasnolud</h2><p>@UUID[Compendium.dnd5e.races.Item.UQiRQUTBcsz8gZU1]{Hill Dwarf}</p><h2>Elf</h2><p>@UUID[Compendium.dnd5e.races.Item.A69KxdH1renVPrQV]{High Elf}</p><h2>Niziołek</h2><p>@UUID[Compendium.dnd5e.races.Item.ZgYBjYfiUstQD6f]{Lightfoot Halfling}</p><h2>Człowiek</h2><p>@UUID[Compendium.dnd5e.races.Item.ydP3QzCmur55mtY2]{Human}</p><h2>Drakon</h2><p>@UUID[Compendium.dnd5e.races.Item.K4DNDcR6vngbp0pf]{Dragonborn}</p><h2>Gnom</h2><p>@UUID[Compendium.dnd5e.races.Item.TZtarkKs6cgGD7z2]{Rock Gnome}</p><h2>Półelf</h2><p>@UUID[Compendium.dnd5e.races.Item.Hye5IZwPOSwV0qRR]{Half-Elf}</p><h2>Półork</h2><p>@UUID[Compendium.dnd5e.races.Item.n5L000DkNBU6h2oJ]{Half-Orc}</p><h2>Diabelstwo</h2><p>@UUID[Compendium.dnd5e.races.Item.aHTokZ151W0ASSmo]{Tiefling}</p>"
+                }
+            }
+        },
+        "Spells A-Z": {
+            "name": "Czary od A do Z",
+            "pages": {
+                "Spells A-Z": {
+                    "name": "Czary od A do Z"
                 }
             }
         },
