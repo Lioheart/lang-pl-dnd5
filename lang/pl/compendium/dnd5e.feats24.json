@@ -22,25 +22,13 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "Epic Boon Feats": "Atuty epickich darów",
-        "Fighting Style Feats": "Atuty stylu walki",
-        "General Feats": "Atuty ogólne",
-        "Origin Feats": "Atuty pochodzenia"
-    },
     "entries": {
         "Ability Score Improvement": {
             "name": "Zwiększenie Cechy",
             "description": "<p><em>Atut Ogólny (Wymaganie: Poziom 4+)</em></p><p>Zwiększ jedną wybraną przez ciebie wartość cechy o 2 lub zwiększ dwie wybrane przez ciebie wartości cech o 1. Ten atut nie może podnieść wartości cechy powyżej 20.</p><p><strong>Powtarzalny.</strong> Możesz wybrać ten atut więcej niż raz.</p>"
         },
         "Alert": {
-            "name": "Czujność",
-            "description": "<p>Zyskujesz następujące korzyści.</p><p><strong>Biegłość w Inicjatywie.</strong> Gdy wykonujesz rzut na Inicjatywę, możesz dodać swoją Premi ę od Biegłości do wyniku.</p><p><strong>Wymiana Inicjatywy.</strong> Natychmiast po wykonaniu rzutu na Inicjatywę możesz zamienić swoją Inicjatywę z Inicjatywą jednego chętnego sojusznika w tej samej walce. Nie możesz dokonać tej zamiany, jeśli ty lub sojusznik macie stan &amp;Reference[Incapacitated]{Obezwładniony}.</p><section id=\"secret-yzfXk3D5M1jv9ixH\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Ta cecha automatycznie uwzględnia premię do twojej Inicjatywy.</p></section>",
-            "effects": {
-                "Alert": {
-                    "name": "Czujność"
-                }
-            }
+            "name": "Czujność"
         },
         "Archery": {
             "name": "Strzelectwo",
@@ -50,6 +38,9 @@
                     "name": "Styl strzelectwa"
                 }
             }
+        },
+        "Archery Style": {
+            "name": "Styl strzelectwa"
         },
         "Boon of Combat Prowess": {
             "name": "Dar bojowej sprawności",
@@ -93,39 +84,13 @@
             }
         },
         "Boon of the Night Spirit": {
-            "name": "Dar Nocnego widma",
-            "description": "<p>Zyskujesz następujące korzyści.</p><p><strong>Zwiększenie cechy.</strong> Zwiększ wartość jednej wybranej cechy o 1, maksymalnie do 30.</p><p><strong>Wtopienie się w cień.</strong> Przebywając w Słabym Świetle lub Ciemności, możesz jako Akcję Dodatkową nadać sobie stan &amp;Reference[Invisible]{Niewidzialny}. Stan ten kończy się natychmiast po wykonaniu Akcji, Akcji Dodatkowej lub Reakcji.</p><p><strong>Cienista postać.</strong> Przebywając w Słabym Świetle lub Ciemności, masz Odporność na wszystkie obrażenia z wyjątkiem obrażeń psychicznych i obrażeń od światłości.</p><section id=\"secret-fpWHPSTNYUeGtg0w\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Aktywny Efekt zdolności <strong>Dar Nocnego widma</strong> obejmuje Odporności, ale musi być ręcznie włączany/wyłączany w zakładce Efekty na twojej karcie postaci.</p><p>Zdolność <strong>Wtopienie się w cień</strong> zawiera Aktywny Efekt nakładający stan Niewidzialności.</p></section>",
-            "activities": {
-                "Merge with the Shadows": {
-                    "name": "Wtopienie się w cień"
-                }
-            },
-            "effects": {
-                "Boon of the Night Spirit": {
-                    "name": "Dar Nocnego widma"
-                },
-                "Merged with Shadows": {
-                    "name": "Wtopiony w cieniu"
-                }
-            }
+            "name": "Dar Nocnego widma"
         },
         "Boon of Truesight": {
-            "name": "Dar prawdziwego widzenia",
-            "description": "<p>Zyskujesz następujące korzyści.</p><p><strong>Zwiększenie cechy.</strong> Zwiększ wartość jednej wybranej cechy o 1, maksymalnie do 30.</p><p><strong>Prawdziwe widzenie.</strong> Posiadasz Prawdziwe Widzenie w zasięgu 60 stóp.</p><section id=\"secret-MmPASAH8hA8METnP\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Ta cecha zawiera Aktywny Efekt, który zapewnia ci Prawdziwe Widzenie w zasięgu 60 stóp.</p></section>",
-            "effects": {
-                "Boon of Truesight": {
-                    "name": "Dar prawdziwego widzenia"
-                }
-            }
+            "name": "Dar prawdziwego widzenia"
         },
         "Defense": {
-            "name": "Defensywa",
-            "description": "<p><em>(Warunek wstępny: zdolność Styl walki)</em></p><p>Gdy nosisz Lekką, Średnią lub Ciężką zbroję, zyskujesz premię +1 do Klasy Pancerza.</p><section id=\"secret-y8skH0HHunT4I5NR\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Ta cecha zawiera Aktywny Efekt, który zapewnia premię do Klasy Pancerza. Wyłącz go, gdy nie nosisz zbroi.</p></section>",
-            "effects": {
-                "Defense": {
-                    "name": "Defensywa"
-                }
-            }
+            "name": "Defensywa"
         },
         "Grappler": {
             "name": "Zapaśnik",
@@ -147,6 +112,9 @@
                 }
             }
         },
+        "Merged with Shadows": {
+            "name": "Wtopiony w cieniu"
+        },
         "Savage Attacker": {
             "name": "Brutalny napastnik",
             "description": "<p>Wytrenowałeś się w zadawaniu wyjątkowo dotkliwych ciosów. Raz na turę, gdy trafisz cel bronią, możesz rzucić kośćmi obrażeń broni dwukrotnie i wybrać jeden z wyników przeciwko celowi.</p>"
@@ -159,5 +127,11 @@
             "name": "Walka dwiema broniami",
             "description": "<p><em>(Wymaganie wstępne: Zdolność Styl walki)</em></p><p>Gdy wykonujesz dodatkowy atak w wyniku użycia broni posiadającej własność Lekka, możesz dodać swój modyfikator cechy do obrażeń tego ataku, jeśli jeszcze go nie dodajesz do obrażeń.</p><section class=\"secret\" id=\"secret-hYptyfGCa0gLDQRT\"><p><strong>Notatka Foundry</strong></p><p>Ta cecha nie jest zautomatyzowana. Możesz dodać swój modyfikator w polu Premii Sytuacyjnej rzutu na obrażenia.</p></section>"
         }
+    },
+    "folders": {
+        "Epic Boon Feats": "Atuty epickich darów",
+        "Fighting Style Feats": "Atuty stylu walki",
+        "General Feats": "Atuty ogólne",
+        "Origin Feats": "Atuty pochodzenia"
     }
 }
