@@ -22,14 +22,16 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "Armor": "Pancerz",
-        "Container": "Pojemnik",
-        "Equipment Packs": "Zestawy wyposażenia",
-        "Ring": "Pierścień",
-        "Spellcasting Focus": "Magiczny fokus"
-    },
     "entries": {
+        "+1 to AC & Saves": {
+            "name": "+1 do KP i rzutów obronnych"
+        },
+        "+2 to AC": {
+            "name": "+2 do KP"
+        },
+        "15 base AC": {
+            "name": "Podstawowe KP 15"
+        },
         "Abacus": {
             "name": "Liczydło",
             "description": "<p>Liczydło, zwane również ramką do liczenia, jest narzędziem do obliczeń.</p>"
@@ -42,6 +44,9 @@
                     "chatFlavor": "broń improwizowana"
                 }
             }
+        },
+        "Acid Resistance": {
+            "name": "Odporność na kwas"
         },
         "Adamantine Breastplate": {
             "name": "Adamantynowy napierśnik",
@@ -105,13 +110,7 @@
         },
         "Amulet of Health": {
             "name": "Amulet zdrowia",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kiedy nosisz ten amulet, twoja Kondycja wynosi 19. Przedmiot nie ma na ciebie wpływu, jeśli twoja Kondycja bez niego już wynosi 19 lub więcej.</p>",
-            "effects": {
-                "Amulet of Health": {
-                    "name": "Amulet zdrowia",
-                    "description": "<p>Kiedy nosisz ten amulet, twoja Kondycja wynosi 19. Przedmiot nie ma na ciebie wpływu, jeśli twoja Kondycja bez niego już wynosi 19 lub więcej.</p>"
-                }
-            }
+            "description": "<p>Kiedy nosisz ten amulet, twoja Kondycja wynosi 19. Przedmiot nie ma na ciebie wpływu, jeśli twoja Kondycja bez niego już wynosi 19 lub więcej.</p>"
         },
         "Amulet of Proof against Detection and Location": {
             "name": "Amulet niewykrywalności",
@@ -269,67 +268,25 @@
             "description": "<p>Mały dzwonek, którym możesz zadzwonić.</p>"
         },
         "Belt of Cloud Giant Strength": {
-            "name": "Pas siły giganta chmurowego",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p><p>Kiedy nosisz ten pas, wartość twojej Siły wzrasta do 27. Pas nie ma na ciebie wpływu, jeśli twoja Siła jest równa lub większa niż ta wartość.</p>",
-            "effects": {
-                "Belt of Cloud Giant Strength": {
-                    "name": "Pas siły giganta chmurowego"
-                }
-            }
+            "name": "Pas siły giganta chmurowego"
         },
         "Belt of Dwarvenkind": {
-            "name": "Pas krasnoludów",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p><p>Nosząc ten pas, zyskujesz następujące korzyści:</p><ul><li>Wartość twojej Kondycji wzrasta o 2, do maksymalnie 20.</li><li>Masz ułatwienie w testach Charyzmy (Perswazja) wykonywanych podczas interakcji z krasnoludami.</li></ul><p>Ponadto, gdy jesteś zestrojony z pasem, masz 50 procent szans każdego dnia o świcie na zapuszczenie pełnej brody, jeśli jesteś w stanie ją zapuścić, lub na zapuszczenie wyraźnie gęstszej brody, jeśli już ją masz.<br />Jeśli nie jesteś krasnoludem, podczas noszenia pasa zyskujesz następujące dodatkowe korzyści:</p><ul><li>Masz ułatwienie w rzutach obronnych przeciw truciznom i odporność na obrażenia od trucizn.</li><li>Masz zdolność widzenia w ciemności na odległość do 18 metrów.</li><li>Potrafisz mówić, czytać i pisać w krasnoludzkim.</li></ul>",
-            "effects": {
-                "Belt of Dwarvenkind": {
-                    "name": "Pas krasnoludów"
-                }
-            }
+            "name": "Pas krasnoludów"
         },
         "Belt of Fire Giant Strength": {
-            "name": "Pas siły giganta ogniowego",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p><p>Kiedy nosisz ten pas, wartość twojej Siły wzrasta do 25. Pas nie ma na ciebie wpływu, jeśli twoja Siła jest równa lub większa niż ta wartość.</p>",
-            "effects": {
-                "Belt of Fire Giant Strength": {
-                    "name": "Pas siły giganta ogniowego"
-                }
-            }
+            "name": "Pas siły giganta ogniowego"
         },
         "Belt of Frost Giant Strength": {
-            "name": "Pas siły giganta lodowego",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p><p>Kiedy nosisz ten pas, wartość twojej Siły wzrasta do 23. Pas nie ma na ciebie wpływu, jeśli twoja Siła jest równa lub większa niż ta wartość.</p><p>Pas siły giganta kamiennego i pas siły giganta lodowego wyglądają inaczej, ale mają ten sam efekt.</p>",
-            "effects": {
-                "Belt of Frost Giant Strength": {
-                    "name": "Pas siły giganta lodowego"
-                }
-            }
+            "name": "Pas siły giganta lodowego"
         },
         "Belt of Hill Giant Strength": {
-            "name": "Pas siły giganta wzgórzowego",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p><p>Kiedy nosisz ten pas, wartość twojej Siły wzrasta do 21. Pas nie ma na ciebie wpływu, jeśli twoja Siła jest równa lub większa niż ta wartość.</p>",
-            "effects": {
-                "Belt of Hill Giant Strength": {
-                    "name": "Pas siły giganta wzgórzowego"
-                }
-            }
+            "name": "Pas siły giganta wzgórzowego"
         },
         "Belt of Stone Giant Strength": {
-            "name": "Pas siły giganta kamiennego",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p><p>Kiedy nosisz ten pas, wartość twojej Siły wzrasta do 23. Pas nie ma na ciebie wpływu, jeśli twoja Siła jest równa lub większa niż ta wartość.</p><p>Pas siły giganta kamiennego i pas siły giganta lodowego wyglądają inaczej, ale mają ten sam efekt.</p>",
-            "effects": {
-                "Belt of Stone Giant Strength": {
-                    "name": "Pas siły giganta kamiennego"
-                }
-            }
+            "name": "Pas siły giganta kamiennego"
         },
         "Belt of Storm Giant Strength": {
-            "name": "Pas siły giganta burzowego",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p><p>Kiedy nosisz ten pas, wartość twojej Siły wzrasta do 29. Pas nie ma na ciebie wpływu, jeśli twoja Siła jest równa lub większa niż ta wartość.</p>",
-            "effects": {
-                "Belt of Storm Giant Strength": {
-                    "name": "Pas siły giganta burzowego"
-                }
-            }
+            "name": "Pas siły giganta burzowego"
         },
         "Berserker Battleaxe": {
             "name": "Topór berserkera (topór bojowy)",
@@ -413,22 +370,10 @@
             }
         },
         "Boots of Striding and Springing": {
-            "name": "Buty kroków i skoków",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kiedy nosisz te buty, twoja szybkość chodzenia wynosi 9 metrów, chyba że już jest wyższa. Ponadto przeciążenie lub ciężki pancerz nie zmniejsza twojej szybkości. Możesz także skakać trzy razy dalej niż normalnie, ale nie dalej, niż pozwala na to twój pozostały ruch.</p>",
-            "effects": {
-                "Boots of Striding and Springing": {
-                    "name": "Buty kroków i skoków"
-                }
-            }
+            "name": "Buty kroków i skoków"
         },
         "Boots of the Winterlands": {
-            "name": "Buty mroźnych krain",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Te futrzane buty są dobrze dopasowane i przyjemnie ciepłe. Podczas ich noszenia zyskujesz następujące korzyści:</p>\n<ul>\n<li>Masz odporność na obrażenia od zimna.</li>\n<li>Ignorujesz trudny teren utworzony przez lód lub śnieg. Wytrzymujesz mroźne temperatury do -46 stopni Celsjusza bez dodatkowej ochrony. Jeśli nosisz grube ubrania, możesz tolerować mrozy do -73 stopni Celsjusza.</li>\n</ul>",
-            "effects": {
-                "Boots of the Winterlands": {
-                    "name": "Buty mroźnych krain"
-                }
-            }
+            "name": "Buty mroźnych krain"
         },
         "Bowl of Commanding Water Elementals": {
             "name": "Czara przyzywania żywiołaków wody",
@@ -440,13 +385,7 @@
             }
         },
         "Bracers of Archery": {
-            "name": "Karwasze łucznictwa",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kiedy nosisz te karwasze, masz biegłość w posługiwaniu się długim i krótkim łukiem oraz premię +2 do obrażeń zadawanych atakami dystansowymi tymi broniami.</p>",
-            "effects": {
-                "Bracers of Archery": {
-                    "name": "Karwasze łucznictwa"
-                }
-            }
+            "name": "Karwasze łucznictwa"
         },
         "Bracers of Defense": {
             "name": "Karwasze obrony",
@@ -736,6 +675,9 @@
         "Cobbler's Tools": {
             "name": "Narzędzia szewca",
             "description": "<p>Te specjalistyczne narzędzia zawierają przedmioty niezbędne do uprawiania rzemiosła i sztuki szewskiej.</p>\n<p>Biegłość w zestawie narzędzi rzemieślniczych pozwala dodać premię z biegłości do dowolnych testów cech, które wykonujesz podczas używania zestawu. Każdy rodzaj narzędzi rzemieślniczych wymaga odrębnej biegłości.</p>"
+        },
+        "Cold Resistance": {
+            "name": "Odporność na zimno"
         },
         "Common Clothes": {
             "name": "Zwykłe odzienie",
@@ -1173,6 +1115,9 @@
             "name": "Eleganckie odzienie",
             "description": "<p>Zestaw ubrań zaprojektowanych tak, by były kosztowne - i by to było widać.</p>"
         },
+        "Fire Resistance": {
+            "name": "Odporność na ogień"
+        },
         "Fishing Tackle": {
             "name": "Zestaw wędkarski",
             "description": "<p>Ten zestaw zawiera drewnianą wędkę, jedwabną żyłkę, korkowe spławiki, stalowe haczyki, ołowiane ciężarki, sztuczne przynęty i sieć o drobnych oczkach.</p>"
@@ -1255,9 +1200,15 @@
             "name": "Flet",
             "description": "<p>Lutnia mająca wywołać podziw, zachwyt lub strach u twojej publiczności.</p>\n<p>Jeśli masz biegłość w danym instrumencie muzycznym, możesz dodać premię z biegłości do dowolnych testów cech, które wykonujesz, aby grać na instrumencie. Bard może używać instrumentu muzycznego do rzucania czarów. Każdy rodzaj instrumentu muzycznego wymaga odrębnej biegłości.</p>"
         },
+        "Flying": {
+            "name": "Latanie"
+        },
         "Folding Boat": {
             "name": "Składana łódź",
             "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ten przedmiot wygląda jak drewniane pudełko o długości 30 cm, szerokości i wysokości 15 cm. Waży 2 kilogramy i unosi się na wodzie. Można go otworzyć, aby przechowywać w nim przedmioty. Do tego przedmiotu istnieją również trzy słowa rozkazu, z których każde wymaga akcji, aby je wypowiedzieć.</p>\n<p>Jedno ze słów rozkazu powoduje, że pudełko rozkłada się w łódź o długości 3 metrów, szerokości 1,2 metra i głębokości 0,6 metra. Łódź ma jedną parę wioseł, kotwicę, maszt i żagiel łaciński. Łódź może wygodnie pomieścić do czterech Średnich stworzeń.</p>\n<p>Drugie słowo rozkazu powoduje, że pudełko rozkłada się w statek o długości 7,2 metra, szerokości 2,4 metra i głębokości 1,8 metra. Statek ma pokład, stanowiska wioślarskie, pięć zestawów wioseł, wiosło sterowe, kotwicę, kabinę pokładową i maszt z kwadratowym żaglem. Statek może wygodnie pomieścić piętnaście Średnich stworzeń.</p>\n<p>Gdy pudełko staje się statkiem, jego waga staje się wagą normalnego statku o podobnym rozmiarze, a wszystko, co było przechowywane w pudełku, pozostaje na łodzi.</p>\n<p>Trzecie słowo rozkazu powoduje, że składana łódź zwija się z powrotem do pudełka, pod warunkiem, że na pokładzie nie ma żadnych stworzeń. Wszelkie przedmioty w łodzi, które nie mieszczą się w pudełku, znajdą się obok niej po złożeniu. Wszystkie przedmioty pozostawione w łodzi, które mogą zmieścić się w pudełku, znajdą się w nim.</p>"
+        },
+        "Force Resistance": {
+            "name": "Odporność na moc"
         },
         "Forgery Kit": {
             "name": "Zestaw fałszerza",
@@ -1284,13 +1235,7 @@
             "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Gdy trafisz atakiem używając tego magicznego miecza, cel otrzymuje dodatkowe 1k6 obrażeń od zimna. Ponadto, gdy trzymasz miecz, masz odporność na obrażenia od ognia.</p>\n<p>W mroźnych temperaturach ostrze emituje jasne światło w promieniu 3 metrów i słabe światło na dodatkowe 3 metry.</p>\n<p>Kiedy dobywasz tej broni, możesz zgasić wszystkie niemagiczne płomienie w promieniu 9 metrów od siebie. Tej zdolności można użyć nie częściej niż raz na godzinę.</p>"
         },
         "Gauntlets of Ogre Power": {
-            "name": "Rękawice ogrzej siły",
-            "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Kiedy nosisz te rękawice, twoja Siła przyjmuje wartość 19. Przedmiot nie ma na ciebie wpływu, jeśli bez niego twoja Siła wynosi 19 lub więcej.</p>",
-            "effects": {
-                "Gauntlets of Ogre Power": {
-                    "name": "Rękawice ogrzej siły"
-                }
-            }
+            "name": "Rękawice ogrzej siły"
         },
         "Gem of Brightness": {
             "name": "Klejnot blasku",
@@ -1420,13 +1365,7 @@
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kiedy zakładasz te rękawiczki, wydają się niemal wtapiać w twoje dłonie. Gdy je nosisz i trafi cię atak dystansowy, możesz w ramach swojej reakcji zmniejszyć obrażenia o 1k10 + modyfikator ze Zręczności, pod warunkiem, że masz wolną rękę. Jeśli zmniejszysz obrażenia do 0, możesz złapać pocisk, o ile jest wystarczająco mały, by go chwycić.</p>"
         },
         "Gloves of Swimming and Climbing": {
-            "name": "Rękawiczki pływania i wspinaczki",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Gdy nosisz te rękawiczki, wspinaczka oraz pływanie nie kosztują cię dodatkowej szybkości. Ponadto otrzymujesz premię +5 do testów Siły (Atletyka) dotyczących wspinaczki lub pływania.</p>",
-            "effects": {
-                "Gloves of Swimming and Climbing": {
-                    "name": "Rękawiczki pływania i wspinaczki"
-                }
-            }
+            "name": "Rękawiczki pływania i wspinaczki"
         },
         "Goggles of Night": {
             "name": "Gogle nocy",
@@ -1566,26 +1505,7 @@
         },
         "Hammer of Thunderbolts": {
             "name": "Młot gromów",
-            "description": "<p>Zyskujesz premię +1 do ataku i obrażeń zadawanych tą magiczną bronią.</p>\n<p><strong>Zguba olbrzyma</strong> (<em>wymaga zestrojenia</em>)</p>\n<p>Aby zestroić się z tą bronią, musisz nosić pas siły giganta (dowolnego rodzaju) i rękawice ogrzej siły. Zestrojenie kończy się, jeśli zdejmiesz którykolwiek z tych przedmiotów. Kiedy jesteś zestrojony z tą bronią i ją trzymasz, wartość twojej Siły wzrasta o 4 i może przekroczyć 20, ale nie 30.</p>\n<p>Kiedy w teście ataku tą bronią przeciwko gigantowi wyrzucisz 20, musi on wykonać rzut obronny na Kondycję o ST 17. W przypadku niepowodzenia umiera</p>\n<p>Młot ma również 5 ładunków. Gdy jesteś z nim zestrojony, możesz wydać 1 ładunek i wykonać atak dystansowy, rzucając młotem, jak gdyby był bronią rzucaną o zwykłym zasięgu 6 metrów i dalekim 18 metrów. Jeśli atak trafi, młot wydaje grzmot słyszalny z odległości 90 metrów. Cel i każde stworzenie znajdujące się w obrębie 9 metrów od niego musi wykonać rzut obronny na Kondycję o ST 17. W przypadku niepowodzenia zostają ogłuszone do końca twojej następnej tury. Każdego dnia o świcie młot odzyskuje 1k4 + 1 zużytych ładunków.</p>",
-            "activities": {
-                "Giant's Bane (On Crit)": {
-                    "name": "Zguba olbrzyma (przy trafieniu krytycznym)",
-                    "chatFlavor": "Gigant musi odnieść sukces lub umrze"
-                },
-                "Hurl Hammer": {
-                    "name": "Rzut młotem"
-                },
-                "Thunderclap": {
-                    "name": "Grzmot",
-                    "chatFlavor": "Odniesiesz sukces albo zostaniesz ogłuszony"
-                }
-            },
-            "effects": {
-                "Hammer of Thunderbolts": {
-                    "name": "Młot gromów",
-                    "description": "<p>Kiedy jesteś zestrojony z Młotem gromów, wartość twojej Siły wzrasta o 4 i może przekroczyć 20, ale nie 30.</p>"
-                }
-            }
+            "description": "<p>Kiedy jesteś zestrojony z Młotem gromów, wartość twojej Siły wzrasta o 4 i może przekroczyć 20, ale nie 30.</p>"
         },
         "Hand Crossbow": {
             "name": "Kusza ręczna",
@@ -1820,80 +1740,41 @@
                 }
             }
         },
+        "Invisibility": {
+            "name": "Niewidzialność"
+        },
         "Ioun Stone of Absorption": {
             "name": "Kamień Ioun (absorbcja)",
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień absorpcji</strong>. Kiedy ten lawendowo-zielony marmurkowy elipsoid krąży wokół twojej głowy, możesz w ramach swojej reakcji anulować zaklęcie 4. kręgu lub niższe rzucane przez stworzenie, które widzisz i celujące tylko w ciebie.</p>\n<p>Gdy kamień anuluje w sumie 20 kręgów czarów, wypala się i zmienia kolor na matowy szary, tracąc swoją magię. Jeśli jesteś celem czaru, którego poziom jest wyższy niż liczba kręgów czarów, które kamień może jeszcze pochłonąć, nie może go anulować.</p>"
         },
         "Ioun Stone of Agility": {
-            "name": "Kamień Ioun (zwinność)",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień zwinności</strong>. Kiedy ta intensywnie czerwona kula krąży wokół twojej głowy, wartość twojej Zręczności wzrasta o 2, do maksymalnie 20.</p>",
-            "effects": {
-                "Ioun Stone of Agility": {
-                    "name": "Kamień Ioun (zwinność)"
-                }
-            }
+            "name": "Kamień Ioun (zwinność)"
         },
         "Ioun Stone of Awareness": {
             "name": "Kamień Ioun (czujność)",
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień czujności</strong>. Kiedy ten granatowy romboedr krąży wokół twojej głowy, nie można cię zaskoczyć.</p>"
         },
         "Ioun Stone of Fortitude": {
-            "name": "Kamień Ioun (wytrzymałość)",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień wytrzymałości</strong>. Kiedy ten różowy romboidalny kamień krąży wokół twojej głowy, wartość twojej Kondycji wzrasta o 2, do maksymalnie 20.</p>",
-            "effects": {
-                "Ioun Stone of Fortitude": {
-                    "name": "Kamień Ioun (wytrzymałość)"
-                }
-            }
+            "name": "Kamień Ioun (wytrzymałość)"
         },
         "Ioun Stone of Greater Absorption": {
             "name": "Kamień Ioun (zwiększona absorbcja)",
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień zwiększonej absorpcji</strong>. Kiedy ten lawendowo-zielony marmurkowy elipsoid krąży wokół twojej głowy, możesz w ramach swojej reakcji anulować zaklęcie 8. kręgu lub niższe rzucane przez stworzenie, które widzisz i celujące tylko w ciebie.</p>\n<p>Gdy kamień anuluje w sumie 50 kręgów czarów, wypala się i zmienia kolor na matowy szary, tracąc swoją magię. Jeśli jesteś celem czaru, którego poziom jest wyższy niż liczba kręgów czarów, które kamień może jeszcze pochłonąć, nie może go anulować.</p>"
         },
         "Ioun Stone of Insight": {
-            "name": "Kamień Ioun (roztropność)",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień roztropności</strong>. Kiedy ta jaśniejąca niebieska kula krąży wokół twojej głowy, wartość twojej Mądrości wzrasta o 2, do maksymalnie 20.</p>",
-            "effects": {
-                "Ioun Stone of Insight": {
-                    "name": "Kamień Ioun (roztropność)"
-                }
-            }
+            "name": "Kamień Ioun (roztropność)"
         },
         "Ioun Stone of Intellect": {
-            "name": "Kamień Ioun (intelekt)",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień intelektu</strong>. Kiedy ta marmurkowa, szkarłatno-niebieska kula krąży wokół twojej głowy, wartość twojej Inteligencji wzrasta o 2, do maksymalnie 20.</p>",
-            "effects": {
-                "Ioun Stone of Intellect": {
-                    "name": "Kamień Ioun (intelekt)"
-                }
-            }
+            "name": "Kamień Ioun (intelekt)"
         },
         "Ioun Stone of Leadership": {
-            "name": "Kamień Ioun (przywództwo)",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień przywództwa</strong>. Kiedy ta marmurkowa, różowo-zielona kula krąży wokół twojej głowy, wartość twojej Charyzmy wzrasta o 2, do maksymalnie 20.</p>",
-            "effects": {
-                "Ioun Stone of Leadership": {
-                    "name": "Kamień Ioun (przywództwo)"
-                }
-            }
+            "name": "Kamień Ioun (przywództwo)"
         },
         "Ioun Stone of Mastery": {
-            "name": "Kamień Ioun (biegłość)",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień biegłości</strong>. Kiedy ten jasnozielony graniastosłup krąży wokół twojej głowy, twoja premia z biegłości wzrasta o 1.</p>",
-            "effects": {
-                "Ioun Stone of Mastery": {
-                    "name": "Kamień Ioun (biegłość)"
-                }
-            }
+            "name": "Kamień Ioun (biegłość)"
         },
         "Ioun Stone of Protection": {
-            "name": "Kamień Ioun (ochrona)",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień ochrony</strong>. Kiedy ten przydymiony różowy graniastosłup krąży wokół twojej głowy, zyskujesz premię +1 do KP.</p>",
-            "effects": {
-                "Ioun Stone of Protection": {
-                    "name": "Kamień Ioun (ochrona)"
-                }
-            }
+            "name": "Kamień Ioun (ochrona)"
         },
         "Ioun Stone of Regeneration": {
             "name": "Kamień Ioun (regeneracja)",
@@ -1904,13 +1785,7 @@
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień rezerwy</strong>. Ten jaskrawofioletowy pryzmat przechowuje rzucone na niego zaklęcia, trzymając je do czasu, aż będziesz ich potrzebować. Kamień może przechowywać na raz do 3 kręgów czarów. W momencie znalezienia zawiera 1k4 − 1 kręgi czarów wybranych przez MP.</p>\n<p>Każda istota może rzucić na kamień czar od 1. do 3. kręgu, dotykając go podczas rzucania czaru. Czar nie wywołuje żadnego efektu i tylko trafia na przechowanie do kamienia. Jeśli kamień nie może go pomieścić, czar zostaje zmarnowany. O tym, ile miejsca zajmuje czar, decyduje krąg komórki, która została wykorzystana do jego rzucenia.</p>\n<p>Podczas gdy ten kamień krąży wokół twojej głowy, możesz rzucić każdy przechowywany w nim czar. Czar używa kręgu komórki czaru, ST rzutu obronnego, premii do ataku i cechy bazowej pierwotnego rzucającego, ale poza tym jest traktowany tak, jakbyś rzucił go ty. Czar rzucony z kamienia nie jest już w nim przechowywany, co zwalnia miejsce.</p>"
         },
         "Ioun Stone of Strength": {
-            "name": "Kamień Ioun (krzepa)",
-            "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Kamień jest nazwany na cześć Ioun, bogini wiedzy i proroctwa czczonej w niektórych światach. Istnieje wiele rodzajów kamieni Ioun, a każdy z nich ma wyjątkowy kształt i kolor.</p>\n<p>Możesz w ramach akcji podrzucić jeden z tych kamieni w powietrze. Kamień zacznie krążyć wokół twojej głowy w odległości 1k3 x 30 cm i zapewnia ci pewną korzyść. Inna istota musi użyć akcji, aby chwycić lub złapać kamień w sieć, aby oddzielić go od ciebie, wykonując udany test ataku przeciwko KP 24 albo udany test Zręczności (Akrobatyka) o ST 24. W ramach akcji możesz chwycić i schować kamień, kończąc jego efekt.</p>\n<p>Kamień ma KP 24, 10 PW i odporność na wszystkie rodzaje obrażeń. Jest uznawany za noszony, gdy krąży wokół twojej głowy.</p>\n<p><strong>Kamień krzepy</strong>. Kiedy ten jasnoniebieski romboidalny kamień krąży wokół twojej głowy, wartość twojej Siły wzrasta o 2, do maksymalnie 20.</p>",
-            "effects": {
-                "Ioun Stone of Strength": {
-                    "name": "Kamień Ioun (krzepa)"
-                }
-            }
+            "name": "Kamień Ioun (krzepa)"
         },
         "Ioun Stone of Sustenance": {
             "name": "Kamień Ioun (sytość)",
@@ -2060,6 +1935,9 @@
         "Light Hammer +3": {
             "name": "Lekki młot +3",
             "description": "<p><em>Czy to dzięki demonicznemu błogosławieństwu, darowi niebianina, szalonemu eksperymentowi, czy też kunsztownemu rzemiosłu, broń ta została wzmocniona, by w rękach swojego właściciela siać jeszcze większy rozlew krwi.</em></p>\n<p>Zyskujesz premię do testów ataku i rzutów na obrażenia zadawane tą magiczną bronią.</p>"
+        },
+        "Lightning Resistance": {
+            "name": "Odporność na elektryczność"
         },
         "Lock": {
             "name": "Zamek",
@@ -2412,6 +2290,9 @@
                 }
             }
         },
+        "Necrotic Resistance": {
+            "name": "Odporność na obrażenia nekrotyczne"
+        },
         "Net": {
             "name": "Sieć",
             "description": "<p>Te gęsto tkane włókna są wzmocnione do użycia w walce, aby uwięzić i zaplątać nawet najbardziej niebezpiecznych wrogów, czyniąc ich podatnymi na atak inną bronią.</p>\n<p><strong>Specjalna.</strong> Duże lub mniejsze stworzenie trafione przez sieć jest unieruchomione, dopóki nie zostanie uwolnione. Sieć nie działa na stworzenia bezkształtne ani na stworzenia Wielkie lub większe. Stworzenie może użyć swojej akcji, aby wykonać test Siły o ST 10, uwalniając siebie lub inne stworzenie w swoim zasięgu w przypadku sukcesu. Zadanie sieci 5 punktów obrażeń (KP 10) również uwalnia stworzenie bez szkody dla niego, kończąc efekt i niszcząc sieć. Kiedy używasz akcji, akcji dodatkowej lub reakcji na atak siecią, możesz wykonać tylko jeden atak, niezależnie od liczby ataków na turę, które normalnie możesz wykonać.</p>"
@@ -2570,6 +2451,9 @@
             "name": "Papier",
             "description": "<p>Pojedyncza kartka papieru.</p>"
         },
+        "Paralysis": {
+            "name": "Paraliż"
+        },
         "Parchment": {
             "name": "Pergamin",
             "description": "<p>Pojedynczy arkusz grubszego papieru pergaminowego.</p>"
@@ -2680,6 +2564,9 @@
         "Playing Cards Set": {
             "name": "Zestaw kart do gry",
             "description": "<p>Ten przedmiot obejmuje szeroki zakres typów kart do gry, zarówno nieznakowanych, jak i znakowanych.</p>\n<p>Jeśli masz biegłość w zestawie do gier, możesz dodać premię z biegłości do testów umiejętności, które wykonujesz, aby zagrać w grę tym zestawem. Każdy rodzaj zestawu do gier wymaga odrębnej biegłości.</p>"
+        },
+        "Poison Resistance": {
+            "name": "Odporność na trucizny"
         },
         "Poisoner's Kit": {
             "name": "Zestaw truciciela",
@@ -2859,6 +2746,12 @@
             "name": "Zestaw kapłana",
             "description": "<p>Plecak może pomieścić 30 litrów lub 15 kilogramów wyposażenia. Do zewnętrznej części plecaka można również przypiąć przedmioty, takie jak śpiwór lub zwój liny.</p>"
         },
+        "Protection": {
+            "name": "Ochrona"
+        },
+        "Psychic Resistance": {
+            "name": "Odporność na obrażenia psychiczne"
+        },
         "Quarterstaff": {
             "name": "Drąg",
             "description": "<p>Gruby drewniany trzon owinięty solidnym uchwytem sprawia, że jest to zarówno poręczna broń, jak i wytrzymała laska do podpierania się podczas marszu.</p>"
@@ -2878,6 +2771,9 @@
         "Quiver": {
             "name": "Kołczan",
             "description": "<p>Kołczan może pomieścić do 20 strzał.</p>"
+        },
+        "Radiant Resistance": {
+            "name": "Odporność na światłość"
         },
         "Rapier": {
             "name": "Rapier",
@@ -2942,6 +2838,9 @@
         "Riding Saddle": {
             "name": "Siodło jeździeckie",
             "description": "<p>Rodzaj siedzenia, które jest przymocowane do grzbietu wierzchowca, przeznaczone do podtrzymywania jeźdźca i mocowania części uprzęży, takich jak strzemiona. Ten rodzaj siodła przeznaczony jest dla wierzchowców.</p>"
+        },
+        "Ring Focus": {
+            "name": "Skupienie"
         },
         "Ring Mail": {
             "name": "Zbroja pierścieniowa",
@@ -3707,6 +3606,9 @@
                 }
             }
         },
+        "Spider Movement and Resistance": {
+            "name": "Ruch i odporność pająków"
+        },
         "Splint Armor": {
             "name": "Zbroja płytkowa",
             "description": "<p>Ten pancerz wykonany jest z wąskich pionowych pasków metalu przymocowanych do skórzanego podkładu, który jest noszony na pikowanym ubraniu. Elastyczna kolcza plecionka chroni stawy.</p>"
@@ -3755,23 +3657,11 @@
         },
         "Staff of Fire": {
             "name": "Kostur ognia",
-            "description": "<p><em>(Wymaga zestrojenia z druidem, zaklinaczem, czarownikiem lub magiem)</em></p><p>Gdy trzymasz ten kostur, masz odporność na obrażenia od ognia.</p><p>Kostur ma 10 ładunków. Kiedy go trzymasz, możesz w ramach akcji zużyć 1 lub więcej ładunków, aby rzucić z niego jeden z następujących czarów (stosujesz ST rzutu obronnego przeciw twoim czarom): @UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Płonące dłonie} (1 ładunek), @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Kula ognia} (3 ładunki) lub @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Ściana ognia} (4 ładunki).</p><p>Kostur codziennie odzyskuje 1k6 + 4 zużytych ładunków. Jeśli zużyjesz ostatni ładunek, rzuć k20. Przy wyniku 1, kostur czernieje, rozpada się w popiół i jest zniszczony.</p>",
-            "effects": {
-                "Staff of Fire": {
-                    "name": "Kostur ognia",
-                    "description": "<p>Gdy trzymasz ten kostur, masz odporność na obrażenia od ognia.</p>"
-                }
-            }
+            "description": "<p>Gdy trzymasz ten kostur, masz odporność na obrażenia od ognia.</p>"
         },
         "Staff of Frost": {
             "name": "Kostur mrozu",
-            "description": "<p><em>(Wymaga zestrojenia z druidem, zaklinaczem, czarownikiem lub magiem)</em></p><p>Gdy trzymasz ten kostur, masz odporność na obrażenia od zimna.</p><p>Kostur ma 10 ładunków. Możesz w ramach akcji wydać 1 lub więcej ładunków kostura, aby rzucić z niego jeden z następujących czarów (używając swojego ST rzutu przeciw czarom): @UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{Stożek zimna} (5 ładunków), @UUID[Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX]{Chmura mgły} (1 ładunek), @UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{Burza lodu} (4 ładunki) lub @UUID[Compendium.dnd5e.spells.Item.fzZnVKLmBMo2f5up]{Ściana lodu} (4 ładunki).</p><p>Kostur codziennie odzyskuje 1k6 + 4 zużytych ładunków. Jeśli zużyjesz ostatni ładunek, rzuć k20. Przy wyniku 1, kostur zamienia się w wodę i jest zniszczony.</p>",
-            "effects": {
-                "Staff of Frost": {
-                    "name": "Kostur mrozu",
-                    "description": "<p>Gdy trzymasz ten kostur, masz odporność na obrażenia od zimna.</p>"
-                }
-            }
+            "description": "<p>Gdy trzymasz ten kostur, masz odporność na obrażenia od zimna.</p>"
         },
         "Staff of Healing": {
             "name": "Kostur leczenia",
@@ -3779,22 +3669,7 @@
         },
         "Staff of Power": {
             "name": "Kostur mocy",
-            "description": "<p><em>(Wymaga zestrojenia z zaklinaczem, czarownikiem lub magiem)</em></p><p>Tego kostura można używać jako magicznego drąga, który daje premię +2 do testów ataku i rzutów na obrażenia nim zadawane. Trzymając go, zyskujesz premię +2 do klasy pancerza, rzutów obronnych i testów ataku czarem.</p><p>Kostur ma 20 ładunków zasilających poniższe moce. Kostur codziennie odzyskuje 2k8 + 4 zużytych ładunków. Jeśli zużyjesz ostatni ładunek, rzuć k20. Przy wyniku 1, kostur zachowuje swoją premię +2 do testów ataku i obrażeń, ale traci wszystkie inne właściwości. Przy wyniku 20, kostur odzyskuje 1k8 + 2 ładunki.</p><p><strong>Uderzenie mocy</strong>. Jeżeli w ataku wręcz tym kosturem trafisz w cel, możesz zużyć 1 ładunek, aby zadać mu 1k6 dodatkowych obrażeń od mocy.</p><p><strong>Czary</strong>. Kiedy trzymasz ten kostur, możesz w ramach akcji zużyć 1 lub więcej ładunków, aby rzucić z niego jeden z następujących czarów (stosujesz ST rzutu obronnego przeciw twoim czarom oraz premii do ataku czarem): @UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{Stożek zimna} (5 ładunków), @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Kula ognia} (5. kręgu, 5 ładunków), @UUID[Compendium.dnd5e.spells.Item.WmQpxfjZwF3MGUby]{Sfera niepodatności} (6 ładunków), @UUID[Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm]{Unieruchomienie potwora} (5 ładunków), @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{Lewitacja} (2 ładunki), @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Piorun} (5. kręgu, 5 ładunków), @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magiczny pocisk} (1 ładunek), @UUID[Compendium.dnd5e.spells.Item.ODhLKBxLnvvLOnw1]{Promień osłabienia} (1 ładunek) lub @UUID[Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb]{Ściana energii} (5 ładunków).</p><p><strong>Karzące uderzenie</strong>. W ramach akcji możesz złamać kostur na kolanie lub o twardą powierzchnię i wykonać karzące uderzenie. Kostur zostaje zniszczony i uwalnia resztki swojej magii w eksplozji obejmującej obszar wyśrodkowanej na nim sfery o promieniu 9 metrów.</p><p>Masz 50 procent szans na natychmiastowe przeniesienie się do losowej sfery egzystencji, unikając eksplozji. Jeśli nie unikniesz tego efektu, otrzymujesz obrażenia od mocy równe 16 × liczba ładunków w kosturze. Każda inna istota w obszarze eksplozji musi wykonać rzut obronny na Zręczność o ST 17. W przypadku niepowodzenia, istota otrzymuje obrażenia w zależności od tego, jak daleko znajduje się od punktu wyjścia wybuchu, jak pokazano w poniższej tabeli. Udany rzut zmniejsza obrażenia o połowę.</p><table><thead><tr><td><strong>Odległość od punktu wyjścia</strong></td><td><strong>Obrażenia</strong></td></tr></thead><tbody><tr><td>3 metry i bliżej</td><td>8 x liczba ładunków w kosturze</td></tr><tr><td>3,3 - 6 metrów</td><td>6 x liczba ładunków w kosturze</td></tr><tr><td>6,3 - 9 metrów</td><td>4 x liczba ładunków w kosturze</td></tr></tbody></table>",
-            "activities": {
-                "Power Strike": {
-                    "name": "Uderzenie mocy",
-                    "condition": "Kiedy trafisz atakiem wręcz za pomocą kostura"
-                },
-                "Retributive Strike": {
-                    "name": "Karzące uderzenie"
-                }
-            },
-            "effects": {
-                "Staff of Power": {
-                    "name": "Kostur mocy",
-                    "description": "<p>Trzymając ten kostur, zyskujesz premię +2 do klasy pancerza, rzutów obronnych i testów ataku czarem.</p>"
-                }
-            }
+            "description": "<p>Trzymając ten kostur, zyskujesz premię +2 do klasy pancerza, rzutów obronnych i testów ataku czarem.</p>"
         },
         "Staff of Striking": {
             "name": "Kostur uderzenia",
@@ -3811,22 +3686,7 @@
         },
         "Staff of the Magi": {
             "name": "Kostur magów",
-            "description": "<p><em>(Wymaga zestrojenia z zaklinaczem, czarownikiem lub magiem)</em></p><p>Tego kostura można używać jako magicznego drąga, który daje premię +2 do testów ataku i rzutów na obrażenia nim zadawane. Gdy go trzymasz, zyskujesz premię +2 do testów ataku czarem.</p><p>Kostur ma 50 ładunków zasilających poniższe moce. Każdego dnia o świcie odzyskuje 4k6 + 2 zużytych ładunków. Jeśli zużyjesz ostatni ładunek, rzuć k20. Przy wyniku 20, kostur odzyskuje 1k12 + 1 ładunki.</p><p><strong>Wchłonięcie czaru</strong>. Trzymając kostur, masz ułatwienie w rzutach obronnych przeciw czarom. Ponadto możesz użyć swojej reakcji, gdy inne stworzenie rzuca czar, którego celem jesteś tylko ty. Jeśli to zrobisz, kostur pochłania magię zaklęcia, anulując jego efekt i zyskując liczbę ładunków równą poziomowi pochłoniętego zaklęcia. Jeśli jednak w ten sposób liczba ładunków przekroczy 50, kostur eksploduje, tak jakbyś aktywował jego <strong>Karzące uderzenie</strong> (patrz poniżej).</p><p><strong>Czary</strong>. Kiedy trzymasz ten kostur, możesz w ramach akcji zużyć 1 lub więcej ładunków, aby rzucić z niego jeden z następujących czarów (stosujesz ST rzutu obronnego przeciw twoim czarom oraz modyfikatora z cechy bazowej): @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Przywołanie żywiołaka} (7 ładunków), @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Rozproszenie magii} (3 ładunki), @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Kula ognia} (7. kręgu, 7 ładunków), @UUID[Compendium.dnd5e.spells.Item.FjYE214HTERCRZNm]{Płomienna kula} (2 ładunki), @UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{Burza lodu} (4 ładunki), @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{Niewidzialność} (2 ładunki), @UUID[Compendium.dnd5e.spells.Item.1nhIxh0DsJsntCfj]{Kołatka} (2 ładunki), @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Piorun} (7. kręgu, 7 ładunków), @UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{Przejście w murze} (5 ładunków), @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{Sferalny przeskok} (7 ładunków), @UUID[Compendium.dnd5e.spells.Item.HQfd7jJyULIoGxrZ]{Telekineza} (5 ładunków), @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Ściana ognia} (4 ładunki) lub @UUID[Compendium.dnd5e.spells.Item.UJJu9c2UvCzVljiP]{Pajęczyna} (2 ładunki).</p><p>Możesz również w ramach akcji rzucić z kostura jeden z następujących czarów bez zużywania ładunków: @UUID[Compendium.dnd5e.spells.Item.8cse7rit0oswRPUP]{Magiczny zamek}, @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Wykrycie magii}, @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{Powiększenie/pomniejszenie}, @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{Światło}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{Magiczna dłoń} lub @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Ochrona przed dobrem i złem}.</p><p><strong>Karzące uderzenie</strong>. W ramach akcji możesz złamać kostur na kolanie lub o twardą powierzchnię i wykonać karzące uderzenie. Kostur zostaje zniszczony i uwalnia resztki swojej magii w eksplozji obejmującej obszar wyśrodkowanej na nim sfery o promieniu 9 metrów.</p><p>Masz 50 procent szans na natychmiastowe przeniesienie się do losowej sfery egzystencji, unikając eksplozji. Jeśli nie unikniesz tego efektu, otrzymujesz obrażenia od mocy równe 16 × liczba ładunków w kosturze. Każda inna istota w obszarze eksplozji musi wykonać rzut obronny na Zręczność o ST 17. W przypadku niepowodzenia, istota otrzymuje obrażenia w zależności od tego, jak daleko znajduje się od punktu wyjścia wybuchu, jak pokazano w poniższej tabeli. Udany rzut zmniejsza obrażenia o połowę.</p><table><thead><tr><td><strong>Odległość od punktu wyjścia</strong></td><td><strong>Obrażenia</strong></td></tr></thead><tbody><tr><td>3 metry i bliżej</td><td>8 x liczba ładunków w kosturze</td></tr><tr><td>3,3 - 6 metrów</td><td>6 x liczba ładunków w kosturze</td></tr><tr><td>6,3 - 9 metrów</td><td>4 x liczba ładunków w kosturze</td></tr></tbody></table>",
-            "activities": {
-                "Retributive Strike": {
-                    "name": "Karzące uderzenie"
-                },
-                "Absorb Spell": {
-                    "name": "Wchłonięcie czaru",
-                    "condition": "Kiedy inne stworzenie rzuca czar, którego celem jesteś tylko ty"
-                }
-            },
-            "effects": {
-                "Staff of the Magi": {
-                    "name": "Kostur magów",
-                    "description": "<p>Trzymając ten kostur, masz premię +2 do testów ataku czarem.</p>"
-                }
-            }
+            "description": "<p>Trzymając ten kostur, masz premię +2 do testów ataku czarem.</p>"
         },
         "Staff of the Python": {
             "name": "Kostur dusiciela",
@@ -3840,18 +3700,7 @@
         },
         "Staff of the Woodlands": {
             "name": "Kostur kniei",
-            "description": "<p><em>(Wymaga zestrojenia z druidem)</em></p><p>Tego kostura można używać jako magicznego drąga, który daje premię +2 do testów ataku i rzutów na obrażenia nim zadawane. Trzymając go, masz premię +2 do testów ataku czarem.</p><p>Kostur ma 10 ładunków zasilających poniższe moce. Każdego dnia o świcie odzyskuje 1k6 + 4 zużytych ładunków. Jeśli zużyjesz ostatni ładunek, rzuć k20. Przy wyrzuceniu 1, kostur traci swoje magiczne właściwości i staje się niemagicznym drągiem.</p><p><strong>Czary</strong>. Możesz w ramach akcji wydać 1 lub więcej ładunków kostura, aby rzucić z niego jeden z następujących czarów (stosujesz ST rzutu obronnego przeciw twoim czarom): @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{Przyjaciel zwierząt} (1 ładunek), @UUID[Compendium.dnd5e.spells.Item.MCEpGpvovcXagwQS]{Przebudzenie} (5 ładunków), @UUID[Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH]{Korowa skóra} (2 ładunki), @UUID[Compendium.dnd5e.spells.Item.Iv2qqSAT7OkXKPFx]{Odnalezienie zwierząt lub roślin} (2 ładunki), @UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu]{Rozmawianie ze zwierzętami} (1 ładunek), @UUID[Compendium.dnd5e.spells.Item.2VXGS206tuChoeXy]{Rozmawianie z roślinami} (3 ładunki) lub @UUID[Compendium.dnd5e.spells.Item.AQsBc94ES7W7s7iG]{Ściana cierni} (6 ładunków).</p><p>Możesz również w ramach akcji rzucić czar @UUID[Compendium.dnd5e.spells.Item.pRMvmknwLf2tdMTj]{przejście bez śladu} bez zużywania ładunków.</p><p><strong>Drzewo</strong>. W ramach akcji możesz wetknąć jeden koniec kostura w żyznej ziemi i zużyć 1 ładunek, aby przekształcić go w dorodne drzewo. Drzewo ma 18 metrów wysokości i pień o średnicy 1,5 metra, a jego gałęzie rozpościerają się w promieniu 6 metrów. Drzewo wygląda zwyczajnie, ale obserwowany przy użyciu czaru @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{wykrycie magii}, promieniuje słabą aurą magii przemian. Jeśli dotkniesz drzewa i w ramach akcji ponownie wypowiesz słowo rozkazu, kostur powraca do swojej normalnej postaci. Wszelkie istoty siedzące w tym momencie na drzewie spadną.</p>",
-            "activities": {
-                "Tree Form": {
-                    "name": "Drzewo"
-                }
-            },
-            "effects": {
-                "Staff of the Woodlands": {
-                    "name": "Kostur kniei",
-                    "description": "<p>Trzymając ten kostur, masz premię +2 do testów ataku czarem.</p>"
-                }
-            }
+            "description": "<p>Trzymając ten kostur, masz premię +2 do testów ataku czarem.</p>"
         },
         "Staff of Thunder and Lightning": {
             "name": "Kostur gromu i błyskawicy",
@@ -3883,6 +3732,9 @@
                     "condition": "Słowo rozkazu."
                 }
             }
+        },
+        "Stone of Good Luck": {
+            "name": "Kamień szczęścia"
         },
         "Stone of Good Luck (Luckstone)": {
             "name": "Kamień szczęścia (Fortunit)",
@@ -3920,6 +3772,9 @@
             "name": "Ostrze słońca",
             "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Ten przedmiot wygląda jak rękojeść długiego miecza. Kiedy ją trzymasz, możesz w ramach akcji dodatkowej sprawić, by pojawiła się klinga z czystego blasku, lub sprawić, że ostrze zniknie. Gdy ostrze istnieje, ten magiczny długi miecz ma właściwości broni finezyjnej. Jeśli masz biegłość w posługiwaniu się krótkimi lub długimi mieczami, to jesteś biegły w posługiwaniu się ostrzem słońca.</p>\n<p>Zyskujesz premię +2 do ataku i obrażeń zadawanych tą bronią, która zadaje obrażenia od światłości zamiast obrażeń ciętych. Kiedy trafisz nią nieumarłego, cel otrzymuje dodatkowe 1k8 obrażeń od światłości.</p>\n<p>Świetlista klinga miecza rzuca jasne światło w promieniu 4,5 metra i słabe światło na dodatkowe 4,5 metra. Jest to światło słoneczne. Dopóki ostrze jest aktywne, możesz w ramach akcji zwiększyć lub zmniejszyć promień jasnego i słabego światła o 1,5 metra każdy, do maksymalnie 9 metrów lub minimum 3 metrów.</p>"
         },
+        "Swimming": {
+            "name": "Pływanie"
+        },
         "Talisman of Pure Good": {
             "name": "Talizman niezmierzonego dobra",
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia z istotą o dobrym charakterze)</em></p>\n<p>Ten talizman jest potężnym symbolem dobroci. Stworzenie, które nie ma ani dobrego ani złego charakteru, otrzymuje 6k6 obrażeń od światłości po dotknięciu talizmanu. Zła istota otrzymuje 8k6 obrażeń od światłości po dotknięciu talizmanu. Oba rodzaje stworzeń otrzymują obrażenia ponownie za każdym razem, gdy kończą swoją turę, trzymając lub mając na sobie talizman.</p>\n<p>Jeśli jesteś klerykiem lub paladynem o dobrym charakterze, możesz użyć talizmanu jako świętego symbolu i zyskujesz premię +2 do testów ataku czarem, gdy go nosisz lub trzymasz.</p>\n<p>Talizman ma 7 ładunków. Jeśli go nosisz lub trzymasz, możesz w ramach akcji zużyć 1 ładunek talizmanu i wybrać jedną istotę, którą widzisz na ziemi w obrębie 36 metrów od siebie. Jeśli cel jest złego charakteru, otwiera się pod nim płonąca rozpadlina. Cel musi wykonać rzut obronny na Zręczność o ST 20. W przypadku niepowodzenia wpada do szczeliny i zostaje unicestwiony, nie pozostawiając po sobie żadnych szczątków. Następnie rozpadlina zamyka się, nie pozostawiając po sobie śladu. Kiedy zużyjesz ostatni ładunek, talizman rozprasza się w iskierki złotego światła i zostaje zniszczony.</p>"
@@ -3944,6 +3799,9 @@
         "Thieves' Tools": {
             "name": "Narzędzia złodziejskie",
             "description": "<p>W skład tego zestawu narzędzi wchodzi mały pilnik, zestaw wytrychów do zamków, małe lusterko zamontowane na metalowym uchwycie, zestaw nożyczek z wąskimi ostrzami oraz para szczypiec. Biegłość w tych narzędziach pozwala dodać premię z biegłości do dowolnych testów umiejętności, które wykonujesz, aby rozbroić pułapki lub otworzyć zamki.</p>"
+        },
+        "Thunder Resistance": {
+            "name": "Odporność na dźwięk"
         },
         "Tinderbox": {
             "name": "Zestaw do rozpalania ognia",
@@ -4270,31 +4128,13 @@
             }
         },
         "Wand of the War Mage +1": {
-            "name": "Różdżka magii bojowej +1",
-            "description": "<p><em>Różdżka (wymaga zestrojenia z rzucającym czary)</em></p><p>Gdy trzymasz tę różdżkę, zyskujesz premię +1 do testów ataku czarem. Ponadto twoje ataki czarem ignorują korzyści z osłony połowicznej.</p>",
-            "effects": {
-                "Wand of the War Mage +1": {
-                    "name": "Różdżka magii bojowej +1"
-                }
-            }
+            "name": "Różdżka magii bojowej +1"
         },
         "Wand of the War Mage +2": {
-            "name": "Różdżka magii bojowej +2",
-            "description": "<p><em>Różdżka (wymaga zestrojenia z rzucającym czary)</em></p><p>Gdy trzymasz tę różdżkę, zyskujesz premię +2 do testów ataku czarem. Ponadto twoje ataki czarem ignorują korzyści z osłony połowicznej.</p>",
-            "effects": {
-                "Wand of the War Mage +2": {
-                    "name": "Różdżka magii bojowej +2"
-                }
-            }
+            "name": "Różdżka magii bojowej +2"
         },
         "Wand of the War Mage +3": {
-            "name": "Różdżka magii bojowej +3",
-            "description": "<p><em>Różdżka (wymaga zestrojenia z rzucającym czary)</em></p><p>Gdy trzymasz tę różdżkę, zyskujesz premię +3 do testów ataku czarem. Ponadto twoje ataki czarem ignorują korzyści z osłony połowicznej.</p>",
-            "effects": {
-                "Wand of the War Mage +3": {
-                    "name": "Różdżka magii bojowej +3"
-                }
-            }
+            "name": "Różdżka magii bojowej +3"
         },
         "Wand of Web": {
             "name": "Różdżka pajęczyny",
@@ -4365,6 +4205,9 @@
             "name": "Młot bojowy +3",
             "description": "<p><em>Czy to dzięki demonicznemu błogosławieństwu, darowi niebianina, szalonemu eksperymentowi, czy też kunsztownemu rzemiosłu, broń ta została wzmocniona, by w rękach swojego właściciela siać jeszcze większy rozlew krwi.</em></p>\n<p>Zyskujesz premię do testów ataku i rzutów na obrażenia zadawane tą magiczną bronią.</p>"
         },
+        "Warmth": {
+            "name": "Ciepło"
+        },
         "Waterskin": {
             "name": "Bukłak",
             "description": "<p>Skórzany wór wszyty w drugą warstwę skóry, który może pomieścić do 2 litrów płynu. Waży 2,5 kilograma, gdy jest pełny; pół litra wody to około 0,5 kilograma.</p>"
@@ -4421,5 +4264,12 @@
             "name": "Cisowa różdżka",
             "description": "<p>To berło lub różdżka została wyrzeźbiona z cisu lub innego wyjątkowego drewna i pokryta potężnymi runami, aby przywoływać moc natury przez tych, którzy słuchają jej zewu.</p>\n<p><strong>Magiczny fokus</strong>. Druidyczny fokus to specjalny przedmiot przeznaczony do skupiania mocy czarów z listy czarów druida. Druid może użyć takiego przedmiotu jako fokusu do rzucania czarów, używając go zamiast dowolnego składnika materialnego, który nie ma określonego kosztu.</p>"
         }
+    },
+    "folders": {
+        "Armor": "Pancerz",
+        "Container": "Pojemnik",
+        "Equipment Packs": "Zestawy wyposażenia",
+        "Ring": "Pierścień",
+        "Spellcasting Focus": "Magiczny fokus"
     }
 }
