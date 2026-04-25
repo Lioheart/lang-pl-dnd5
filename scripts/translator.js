@@ -68,28 +68,39 @@ export class Translator {
         if (!Array.isArray(data)) return data;
 
         return data.map((entry, index) => {
-            const translated = translation?.[index];
+            const translated =
+                translation?.[entry.title]
+                ?? translation?.[entry._id]
+                ?? translation?.[index];
 
-            // Jeśli nie ma tłumaczenia, zwracamy oryginalny wpis bez zmian
             if (!translated) return entry;
 
-            // Skopiuj oryginalny wpis
             const updated = foundry.utils.deepClone(entry);
 
-            // Jeśli istnieje tłumaczenie title, to je ustaw
             if (typeof translated.title === "string") {
                 updated.title = translated.title;
             }
 
-            // Jeśli są choices z tłumaczeniami title, zastosuj je (opcjonalnie)
-            if (Array.isArray(updated.configuration?.choices) && Array.isArray(translated.choices)) {
-                updated.configuration.choices = updated.configuration.choices.map((choice, choiceIndex) => {
-                    const translatedChoice = translated.choices?.[choiceIndex];
-                    if (translatedChoice?.title) {
-                        return { ...choice, title: translatedChoice.title };
-                    }
-                    return choice;
-                });
+            if (typeof translated.hint === "string") {
+                updated.hint = translated.hint;
+            }
+
+            if (Array.isArray(updated.configuration?.choices)) {
+                const translatedChoices = translated.choices ?? translated.configuration?.choices;
+
+                if (Array.isArray(translatedChoices)) {
+                    updated.configuration.choices = updated.configuration.choices.map((choice, choiceIndex) => {
+                        const translatedChoice =
+                            translatedChoices?.[choiceIndex]
+                            ?? translatedChoices?.find?.((candidate) => candidate?.value === choice.value);
+
+                        if (translatedChoice?.title) {
+                            return { ...choice, title: translatedChoice.title };
+                        }
+
+                        return choice;
+                    });
+                }
             }
 
             return updated;
