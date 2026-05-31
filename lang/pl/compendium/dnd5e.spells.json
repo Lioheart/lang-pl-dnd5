@@ -109,7 +109,7 @@
             "description": "<p>Ciskasz bąblem kwasu. Wybierz w zasięgu czaru jedną istotę, którą widzisz, albo dwie istoty, które widzisz, oddalone od siebie najwyżej o 1,5 metra. Cel musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 1k6 obrażeń od kwasu.</p><p>Obrażenia z tego zaklęcia zwiększają się o 1k6 gdy osiągniesz 5. poziom (2k6), 11. poziom (3k6), i 17. poziom (4k6).</p>",
             "activities": {
                 "Cast": {
-                    "name": "Rzuć czar czar"
+                    "name": "Rzuć czar"
                 }
             }
         },
