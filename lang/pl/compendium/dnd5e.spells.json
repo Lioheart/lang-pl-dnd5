@@ -1,38 +1,28 @@
 {
     "label": "Czary (SRD)",
     "mapping": {
-        "description": {
-            "path": "system.description.value",
-            "converter": "text"
+        "materials": "system.materials.value",
+        "activation": "system.activation.condition",
+        "range": {
+            "path": "system.range",
+            "converter": "range"
         },
-        "materials": {
-            "path": "system.materials.value",
-            "converter": "text"
-        },
-        "activities": {
-            "path": "system.activities",
-            "converter": "activities"
+        "target": {
+            "path": "system.target",
+            "converter": "target"
         },
         "effects": {
             "path": "effects",
             "converter": "effects"
         },
-        "advancement": {
-            "path": "system.advancement",
-            "converter": "advancement"
+        "activities": {
+            "path": "system.activities",
+            "converter": "activities"
+        },
+        "rangeActivities": {
+            "path": "system.activities",
+            "converter": "rangeActivities"
         }
-    },
-    "folders": {
-        "1st Level": "1. krąg",
-        "2nd Level": "2. krąg",
-        "3rd Level": "3. krąg",
-        "4th Level": "4. krąg",
-        "5th Level": "5. krąg",
-        "6th Level": "6. krąg",
-        "7th Level": "7. krąg",
-        "8th Level": "8. krąg",
-        "9th Level": "9. krąg",
-        "Cantrip": "Sztuczka"
     },
     "entries": {
         "Acid Arrow": {
@@ -70,19 +60,7 @@
         },
         "Animal Friendship": {
             "name": "Przyjaciel zwierząt",
-            "description": "<p>Przy pomocy tego czaru możesz przekonać zwierzę, że nie stanowisz dla niego zagrożenia. Wybierz bestię, którą widzisz w zasięgu czaru, która widzi i słyszy ciebie. Jeśli jej inteligencja wynosi 4 lub więcej, zaklęcie się nie udaje. W przeciwnym wypadku zwierzę musi wykonać udany rzut obronny na mądrość albo zostanie przez ciebie &reference[charmed]{zauroczone} na czas trwania czaru. Jeżeli ty lub ktoś z twoich sojuszników skrzywdzicie to zwierzę, czar się zakończy.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć czarem dodatkowe zwierzę.</p>",
-            "materials": "Odrobina jedzenia.",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar czar"
-                }
-            },
-            "effects": {
-                "Animal Friendship": {
-                    "name": "Przyjaciel zwierząt",
-                    "description": "<p>Jesteś &reference[charmed apply=false]{zauroczony} przez rzucającego czar na czas trwania zaklęcia. Efekt czaru kończy się, jeśli rzucający lub któryś z jego sojuszników cię skrzywdzi.</p>"
-                }
-            }
+            "description": "<p>Jesteś &reference[charmed apply=false]{zauroczony} przez rzucającego czar na czas trwania zaklęcia. Efekt czaru kończy się, jeśli rzucający lub któryś z jego sojuszników cię skrzywdzi.</p>"
         },
         "Animal Messenger": {
             "name": "Zwierzęcy posłaniec",
@@ -110,6 +88,10 @@
             "name": "Pole antymagii",
             "description": "<p>Otacza cię niewidzialna sfera antymagii o promieniu 3 metrów. Jest ona odcięta od magicznej energii wypełniającej wieloświat. W jej obrębie nie da się rzucać czarów, znikają przywołane istoty, a magiczne przedmioty stają się zwykłymi rzeczami. W czasie trwania czaru obszar anty magii przemieszcza się wraz z tobą.</p><p>Czary i efekty magiczne (z wyjątkiem wywołanych przez bóstwa i artefakty) zostają w polu antymagii wygaszone, nie mogą też przez nie przeniknąć. Komórka wydana na rzucenie wygaszanego czaru ulega zużyciu. Wygaszony efekt nie działa, ale czas jego wygaszenia wlicza się do czasu jego trwania.</p><p><strong>Efekty działające na cel.</strong> Zaklęcia i inne magiczne efekty, których celem jest istota albo obiekt (na przykład magiczny pocisk albo zauroczenie osoby), nie mają żadnego wpływu na swój cel, jeśli przebywa on na obszarze pola antymagii.</p><p><strong>Magia obszarowa.</strong> Obszar magicznego efektu lub zaklęcia (takiego jak kula ognia) nie rozciąga się na przestrzeń pola antymagii. Jeżeli pole to nakłada się na obszar jakiegoś czaru, to na ich części wspólnej magia jest wygaszona. Przykładowo, płomienie stworzone przez zaklęcie ściany ognia zostają wygaszone w obrębie sfery antymagii, co może stworzyć bezpieczne przejście w ścianie ognia, jeśli obszar nakładania się czarów jest odpowiednio duży.</p><p><strong>Czary.</strong> Każde zaklęcie lub magiczny efekt działające na istotę lub obiekt zostają wygaszone, jeśli ta istota lub obiekt znajdą się w polu antymagii.</p><p><strong>Magiczne przedmioty.</strong> Pole antymagii wygasza też właściwości i moce magicznych przedmiotów. Przykładowo, miecz +1 w polu antymagii będzie działał jak zwyczajny niemagiczny miecz.</p><p>Właściwości i moce magicznej broni są wygaszone, gdy używa się jej przeciw celowi objętemu polem antymagii albo gdy atakujący znajduje się w obszarze antymagii. Jeżeli magiczna broń albo amunicja opuści pole antymagii (na przykład gdy strzelasz magiczną strzałą albo rzucasz magiczną włócznią w kogoś poza polem), to magiczne właściwości tej broni przestają być wygaszane, gdy tylko opuści ona obszar antymagii.</p><p><strong>Podróże magiczne.</strong> W polu antymagii nie działają teleportacja ani podróże sferalne, niezależnie od tego, czy pole zawiera punkt początkowy, czy miejsce docelowe takiej podróży. Aktywny portal do innego miejsca, świata lub sfery egzystencji, a także przejście do pozawymiarowej przestrzeni (na przykład stworzone czarem sztuczka z liną) zamyka się tymczasowo, gdy zostanie objęte polem antymagii.</p><p><strong>Stworzenia i obiekty.</strong> Przywołane lub stworzone magicznie stworzenia i obiekty tymczasowo znikają, gdy znajdą się w polu antymagii. Gdy miejsce, w którym zniknęły, przestanie być obejmowane polem antymagii, natychmiast pojawiają się z powrotem.</p><p><strong>Rozproszenie magii.</strong> Zaklęcia i magiczne efekty takie jak rozproszenie magii nie działają w polu antymagii. Obszary stworzone przez różne wystąpienia zaklęcia pola antymagii nie anulują się wzajemnie.</p>",
             "materials": "szczypta sproszkowanego żelaza albo żelaznych opiłków"
+        },
+        "Antipathy": {
+            "name": "Antypatia",
+            "description": "<p>Przerażone stworzenie musi przeznaczyć swój ruch na przemieszczenie się do najbliższego bezpiecznego miejsca, z którego nie widać zaklętego celu. Kiedy znajdzie się dalej niż 18 metrów od celu i nie będzie mogło go zobaczyć, uwalnia się spod efektu przerażenia, lecz jeśli zobaczy go ponownie lub wróci w obręb 18 metrów od niego, to efekt przerażenia wróci.</p>"
         },
         "Antipathy/Sympathy": {
             "name": "Antypatia / Sympatia",
@@ -164,40 +146,14 @@
         },
         "Bane": {
             "name": "Zguba",
-            "description": "<p>Maksymalnie trzy istoty, które widzisz w zasięgu czaru, muszą wykonywać rzuty obronne na Charyzmę. W przypadku niepowodzenia cel musi rzucić k4 i odjąć wynik od rezultatu testu za każdym razem, gdy atakuje lub wykonuje rzut obronny podczas trwania czaru.</p>\n<p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę.</p>",
-            "materials": "Kropla krwi",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar czar"
-                }
-            },
-            "effects": {
-                "Bane": {
-                    "name": "Zguba",
-                    "description": "<p>Za każdym razem, gdy wykonujesz test Ataku lub wykonujesz rzut obronny podczas trwania czaru, musisz rzucić 1k4 i odjąć wynik od rezultatu testu.</p>"
-                }
-            }
+            "description": "<p>Za każdym razem, gdy wykonujesz test Ataku lub wykonujesz rzut obronny podczas trwania czaru, musisz rzucić 1k4 i odjąć wynik od rezultatu testu.</p>"
         },
         "Banishment": {
             "name": "Wypędzenie",
-            "description": "<p>Podejmujesz próbę odesłania istoty, którą widzisz w zasięgu czaru, do innej sfery egzystencji. Musi ona wykonać rzut obronny na Charyzmę. W przypadku niepowodzenia zostaje wygnana.</p><p>Jeżeli pochodzi ze sfery egzystencji, w której aktualnie przebywasz, to znika i pojawia się &Reference[incapacitated]{obezwładniona} w neutralnej demisferze. Pozostaje tam do zakończenia czaru, po czym powraca w miejsce, z którego zniknęła (lub w najbliższe wolne).</p><p>Natomiast jeżeli stworzenie pochodzi z innej sfery egzystencji niż ta, w której rzucasz czar, to zostaje wypędzone i z cichym trzaskiem powraca do swojej rodzimej sfery. Jeżeli zaklęcie skończy się przed upływem 1 minuty, odesłany cel pojawia się z powrotem w miejscu, z którego go wygnałeś, lub w najbliższym wolnym. W przeciwnym przypadku nie wraca.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 5. kręgu, za każdy krąg powyżej 4. możesz objąć czarem dodatkową istotę.</p>",
-            "materials": "Przedmiot obrzydliwy dla celu czaru",
-            "effects": {
-                "Banishment": {
-                    "name": "Wypędzenie",
-                    "description": "<p>Istota pochodząca ze sfery egzystencji, w której aktualnie przebywasz zostaje wypędzona do neutralnej demisfery i jest obezwładniona na czas działania czaru.</p>"
-                }
-            }
+            "description": "<p>Istota pochodząca ze sfery egzystencji, w której aktualnie przebywasz zostaje wypędzona do neutralnej demisfery i jest obezwładniona na czas działania czaru.</p>"
         },
         "Barkskin": {
-            "name": "Korowa skóra",
-            "description": "<p>Dotykasz przychylnej ci istoty. Do końca trwania czaru jej skóra nabiera wyglądu szorstkiej kory, a jej KP nie może być mniejsza od 16, niezależnie od tego, jaki typ pancerza nosi.</p>",
-            "materials": "Garść dębowej kory",
-            "effects": {
-                "Barkskin": {
-                    "name": "Korowa skóra"
-                }
-            }
+            "name": "Korowa skóra"
         },
         "Beacon of Hope": {
             "name": "Promień nadziei",
@@ -253,14 +209,7 @@
         },
         "Black Tentacles": {
             "name": "Czarne macki",
-            "description": "<p>Przywołujesz wijące się czarne macki, które pokrywają kwadrat podłoża o boku 6 metrów w widocznym miejscu w zasięgu czaru. Obszar ten staje się trudnym terenem na czas trwania zaklęcia.</p><p>Istota wchodząca tam po raz pierwszy w swojej turze albo rozpoczynająca tam swoją turę musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 3k6 obrażeń obuchowych i zostaje &Reference[Restrained]{unieruchomiona} aż do wygaśnięcia czaru. Unieruchomiona istota rozpoczynająca swoją turę na obszarze macek otrzymuje 3k6 obrażeń obuchowych.</p><p>Istota unieruchomiona mackami może w ramach swojej akcji próbować się uwolnić. W tym celu musi zdać test Siły lub Zręczności (wedle swego wyboru) o ST rzutu obronnego przeciw twoim czarom. Jeśli jej się uda, uwalnia się.</p>",
-            "materials": "Fragment macki olbrzymiej ośmiornicy lub olbrzymiej kałamarnicy.",
-            "effects": {
-                "Black Tentacles": {
-                    "name": "Czarne macki",
-                    "description": "<p>Stworzenie jest unieruchomione przez macki na czas trwania czaru albo może w ramach akcji wykonać test Siły lub Zręczności (wedle swego wyboru) by się uwolnić.</p>"
-                }
-            }
+            "description": "<p>Stworzenie jest unieruchomione przez macki na czas trwania czaru albo może w ramach akcji wykonać test Siły lub Zręczności (wedle swego wyboru) by się uwolnić.</p>"
         },
         "Blade Barrier": {
             "name": "Bariera ostrzy",
@@ -268,23 +217,15 @@
         },
         "Bless": {
             "name": "Błogosławieństwo",
-            "description": "<p>Wybierasz i błogosławisz do 3 wybranych stworzeń znajdujących się w zasięgu czaru. Podczas trwania zaklęcia pobłogosławieni mogą dodać 1k4 do wyniku testu ataku lub rzutu obronnego.</p>\n<p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę.</p>",
-            "materials": "Pokropienie wodą święconą",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar czar"
-                }
-            },
-            "effects": {
-                "Bless": {
-                    "name": "Błogosławieństwo",
-                    "description": "<p>Za każdym razem, gdy wykonujesz test Ataku lub wykonujesz rzut obronny podczas trwania czaru, możesz rzucić 1k4 i dodać wynik od rezultatu testu.</p>"
-                }
-            }
+            "description": "<p>Za każdym razem, gdy wykonujesz test Ataku lub wykonujesz rzut obronny podczas trwania czaru, możesz rzucić 1k4 i dodać wynik od rezultatu testu.</p>"
         },
         "Blight": {
             "name": "Plaga",
             "description": "<p>Nekrotyczna energia oblepia istotę, którą wskażesz w zasięgu czaru, pozbawiając jej ciało wilgoci i żywotności. Ofiara musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia otrzymuje 8k8 obrażeń nekrotycznych. Udany rzut zmniejsza obrażenia o połowę. Zaklęcie nie działa na konstrukty i nieumarłych.</p><p>Jeśli celem zaklęcia jest magiczna roślina lub stworzenie typu roślinnego, to rzut obronny przeprowadza z utrudnieniem, a zaklęcie zadaje maksymalne obrażenia.</p><p>Jeżeli zaś celem zaklęcia jest zwykła roślina nierozumna, na przykład drzewo czy krzew, to nie wykonuje ona rzutu obronnego, lecz od razu więdnie i umiera.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 5. kręgu, za każdy krąg powyżej 4. zwiększasz zadawane obrażenia o 1k8.</p>"
+        },
+        "Blindness": {
+            "name": "Ślepota",
+            "description": "<p>Cel staje się oślepiony na czas działania czaru. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Kondycję. Po udanym rzucie obronnym zaklęcie się kończy.</p>"
         },
         "Blindness/Deafness": {
             "name": "Głuchota/Ślepota",
@@ -336,33 +277,19 @@
         },
         "Charm Person": {
             "name": "Zauroczenie osoby",
-            "description": "<p>Próbujesz zauroczyć humanoida, którego widzisz w zasięgu czaru. Musi on wykonać rzut obronny na Mądrość, w którym ma ułatwienie, jeśli walczy z tobą lub którymś z twoich towarzyszy. W przypadku niepowodzenia zostaje przez ciebie &Reference[charmed]{zauroczona} na czas trwania zaklęcia lub do momentu, w którym ty lub któryś z twoich towarzyszy zadziałacie na jego szkodę. Zauroczony humanoid postrzega ciebie jako przyjaznego znajomego. Gdy czar dobiega końca, cel ma świadomość, że został przez ciebie zauroczony.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar czar"
-                }
-            },
-            "effects": {
-                "Charm Person": {
-                    "name": "Zauroczenie osoby",
-                    "description": "<p>Jesteś &reference[charmed apply=false]{zauroczony} przez rzucającego czar na czas trwania zaklęcia i postrzegasz rzucającego za przyjaznego znajomego. Gdy czar dobiega końca, masz świadomość, że zostałeś zauroczony.</p>"
-                }
-            }
+            "description": "<p>Jesteś &reference[charmed apply=false]{zauroczony} przez rzucającego czar na czas trwania zaklęcia i postrzegasz rzucającego za przyjaznego znajomego. Gdy czar dobiega końca, masz świadomość, że zostałeś zauroczony.</p>"
+        },
+        "Chill Shield": {
+            "name": "Chłodna tarcza",
+            "description": "<p>Chłodna tarcza zapewnia odporność na obrażenia od ognia.</p>"
         },
         "Chill Touch": {
             "name": "Przeszywający dotyk",
-            "description": "<p>Na miejscu zajmowanym przez istotę w zasięgu czaru tworzysz widmową kościaną dłoń. Wykonaj atak dystansowy czarem przeciw tej istocie, aby przeniknąć ją grobowym chłodem. W przypadku trafienia otrzymuje 1k8 obrażeń nekrotycznych i nie może odzyskać punktów wytrzymałości aż do rozpoczęcia twojej następnej tury. Do tego czasu ściska ją widmowa ręka.</p><p>Jeżeli celem zaklęcia jest nieumarły, to po trafieniu do końca swojej następnej tury ma także utrudnienie w testach ataku przeciw tobie.</p><p>Obrażenia z tego zaklęcia zwiększają się o 1k8, gdy osiągniesz 5. poziom (do 2k8), 11. poziom (do 3k8) i 17. poziom (do 4k8).</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar czar"
-                }
-            },
-            "effects": {
-                "Chill Touch": {
-                    "name": "Przeszywający dotyk",
-                    "description": "<p>Nie możesz odzyskiwać PW aż do początku następnej tury rzucającego czar.</p>"
-                }
-            }
+            "description": "<p>Nie możesz odzyskiwać PW aż do początku następnej tury rzucającego czar.</p>"
+        },
+        "Chilled": {
+            "name": "Oziębiony",
+            "description": "<p>Twoja szybkość zmniejsza się o 3 metry do początku następnej tury rzucającego.</p>"
         },
         "Circle of Death": {
             "name": "Krąg śmierci",
@@ -385,34 +312,11 @@
         },
         "Color Spray": {
             "name": "Kolorowy rozprysk",
-            "description": "<p>Z twojej dłoni bucha oślepiające kolorowe światło. Rzuć 6k10, by określić łączną pulę punktów wytrzymałości stworzeń, które może objąć zaklęcie. Czar działa na istoty stojące wewnątrz wychodzącego z twojej dłoni stożka o długości 4,5 metra, w kolejności rosnącej według aktualnie posiadanych PW (z pominięciem istot &reference[unconscious apply=false]{nieprzytomnych} i niewidzących).</p><p>Począwszy od istoty mającej aktualnie najmniej PW, każde objęte zaklęciem stworzenie zostaje &reference[blinded]{oślepione} do końca twojej następnej tury. Odejmuj od puli PW każdej objętej już istoty przed przejściem do kolejnej. Aby czar zadziałał na kolejną istotę, jej aktualne PW muszą mieścić się w pozostałej jeszcze puli punktów.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. rzucasz dodatkowe 2k10 przy określaniu puli PW objętych czarem.</p>",
-            "materials": "Szczypta pyłu lub piasku zabarwionego na czerwono, żółto i niebiesko.",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Color Spray": {
-                    "name": "Kolorowy rozprysk",
-                    "description": "<p>Jesteś &reference[blinded apply=false]{oślepiony} until the spell ends.</p>"
-                }
-            }
+            "description": "<p>Jesteś &reference[blinded apply=false]{oślepiony} until the spell ends.</p>"
         },
         "Command": {
             "name": "Rozkaz",
-            "description": "<p>Wymawiasz słowo rozkazu, kierując go do istoty, którą widzisz w zasięgu czaru. Musi ona wykonać udany rzut obronny na Mądrość albo w swojej następnej turze wypełnić twoje polecenie. Zaklęcie nie działa na nieumarłych oraz istoty nierozumiejące twojego języka. Rozkaz nie odniesie również skutku, jeśli wykonanie go będzie bezpośrednio zagrażało zauroczonej istocie.</p><p>Poniżej podano kilka typowych rozkazów i ich efekty. Możesz wydać inne polecenie, wówczas MP określa sposób zachowania istoty objętej czarem. Jeżeli cel nie jest w stanie wykonać rozkazu, to zaklęcie się kończy.</p><p><strong>Podejdź.</strong> Cel zaklęcia przemieszcza się w twoim kierunku najkrótszą i najbardziej bezpośrednią drogą, a gdy znajdzie się 1,5 metra od ciebie, jego tura się skończy.</p><p><strong>Puść.</strong> Cel zaklęcia wypuszcza trzymane rzeczy, a jego tura dobiega końca.</p><p><strong>Uciekaj.</strong> Cel zaklęcia przeznacza swoją turę na to, by jak najszybciej oddalić się od ciebie.</p><p><strong>Padnij.</strong> Cel zaklęcia pada &reference[prone]{powalony} na ziemię, a jego tura się kończy.</p><p><strong>Zatrzymaj się.</strong> Cel zaklęcia nie przemieszcza się i nie wykonuje żadnych akcji. Latająca istota zawisa w powietrzu, o ile potrafi. Jeżeli musi się przemieszczać, by zostać w powietrzu, to przebywa minimalną niezbędną do tego odległość.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Command": {
-                    "name": "Rozkaz",
-                    "description": "<p>Jesteś celem czaru rozkaz i musisz wykonać wydane polecenie podczas swojej następnej tury.</p>"
-                }
-            }
+            "description": "<p>Jesteś celem czaru rozkaz i musisz wykonać wydane polecenie podczas swojej następnej tury.</p>"
         },
         "Commune": {
             "name": "Kontakt z bóstwem",
@@ -425,19 +329,7 @@
         },
         "Comprehend Languages": {
             "name": "Rozumienie języków",
-            "description": "<p>Na czas działania czaru uzyskujesz zdolność dosłownego rozumienia mowy w każdym języku, jaki słyszysz. Rozumiesz także pismo, które widzisz, ale musisz w tym celu dotykać powierzchni, na której zostały zapisane słowa. Przeczytanie jednej strony tekstu zajmuje około 1 minuty.</p><p>Przy pomocy tego zaklęcia nie rozszyfrujesz tajnych wiadomości w tekście ani glifu, takiego jak magiczna pieczęć, który nie jest częścią języka pisanego.</p>",
-            "materials": "Szczypta sadzy i soli",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Comprehend Languages": {
-                    "name": "Rozumienie języków",
-                    "description": "<p>Na czas działania czaru uzyskujesz zdolność dosłownego rozumienia mowy w każdym języku, jaki słyszysz. Rozumiesz także pismo, które widzisz, ale musisz w tym celu dotykać powierzchni, na której zostały zapisane słowa. Przeczytanie jednej strony tekstu zajmuje około 1 minuty.</p><p>Przy pomocy tego zaklęcia nie rozszyfrujesz tajnych wiadomości w tekście ani glifu, takiego jak magiczna pieczęć, który nie jest częścią języka pisanego.</p>"
-                }
-            }
+            "description": "<p>Na czas działania czaru uzyskujesz zdolność dosłownego rozumienia mowy w każdym języku, jaki słyszysz. Rozumiesz także pismo, które widzisz, ale musisz w tym celu dotykać powierzchni, na której zostały zapisane słowa. Przeczytanie jednej strony tekstu zajmuje około 1 minuty.</p><p>Przy pomocy tego zaklęcia nie rozszyfrujesz tajnych wiadomości w tekście ani glifu, takiego jak magiczna pieczęć, który nie jest częścią języka pisanego.</p>"
         },
         "Compulsion": {
             "name": "Przymus",
@@ -552,6 +444,42 @@
                 }
             }
         },
+        "Cursed Actions": {
+            "name": "Przeklęte akcje",
+            "description": "<p>Podczas walki cel musi wykonać udany [[/save ability=wis dc=@attributes.spell.dc format=long]]{rzut obronny na Mądrość} na początku każdej swojej tury. W przypadku niepowodzenia musi podjąć akcję &Reference[Dodge]{Uniku} w tej turze.</p>"
+        },
+        "Cursed Attacks": {
+            "name": "Przeklęte ataki",
+            "description": "<p>Cel ma utrudnienie w testach ataku przeciw tobie.</p>"
+        },
+        "Cursed Charisma": {
+            "name": "Przeklęta Charyzma",
+            "description": "<p>Cel ma utrudnienie w testach cech i rzutach obronnych związanych z wybraną cechą.</p>"
+        },
+        "Cursed Constitution": {
+            "name": "Przeklęta Kondycja",
+            "description": "<p>Cel ma utrudnienie w testach cech i rzutach obronnych związanych z wybraną cechą.</p>"
+        },
+        "Cursed Dexterity": {
+            "name": "Przeklęta Zręczność",
+            "description": "<p>Cel ma utrudnienie w testach cech i rzutach obronnych związanych z wybraną cechą.</p>"
+        },
+        "Cursed Intelligence": {
+            "name": "Przeklęta Inteligencja",
+            "description": "<p>Cel ma utrudnienie w testach cech i rzutach obronnych związanych z wybraną cechą.</p>"
+        },
+        "Cursed Resilience": {
+            "name": "Przeklęta odporność",
+            "description": "<p>Jeśli zadasz obrażenia celowi za pomocą broni lub czaru, cel otrzymuje dodatkowe [[/damage 1d8 type=necrotic]]{1k8 obrażeń nekrotycznych}.</p>"
+        },
+        "Cursed Strength": {
+            "name": "Przeklęta Siła",
+            "description": "<p>Cel ma utrudnienie w testach cech i rzutach obronnych związanych z wybraną cechą.</p>"
+        },
+        "Cursed Wisdom": {
+            "name": "Przeklęta Mądrość",
+            "description": "<p>Cel ma utrudnienie w testach cech i rzutach obronnych związanych z wybraną cechą.</p>"
+        },
         "Dancing Lights": {
             "name": "Tańczące światła",
             "description": "<p>Tworzysz w zasięgu czaru do czterech świateł o rozmiarze i wyglądzie pochodni, latarń lub świecących kul, unoszących się w powietrzu przez czas działania czaru. Możesz także z tych czterech świateł złożyć świecącą formę przypominającą Średniego humanoida. Niezależnie od wybranej formy, każde z nich świeci &reference[dim light]{słabym światłem} w promieniu 3 metrów.</p><p>W ramach akcji dodatkowej w swojej turze możesz przemieścić światła na odległość do 18 metrów w nowe miejsce w zasięgu czaru. Każde światło musi znajdować się do 6 metrów od innego światła stworzonego tym czarem i gaśnie, gdy wyjdzie poza zasięg czaru.</p>",
@@ -569,18 +497,15 @@
         },
         "Darkvision": {
             "name": "Widzenie w ciemności",
-            "description": "<p>Dotykasz przychylnej istoty i zapewniasz jej możliwość widzenia w mroku. W czasie trwania czaru ma ona zdolność widzenia w ciemności na odległość 18 metrów.</p>",
-            "materials": "Agat lub szczypta suszonej marchwi",
-            "effects": {
-                "Darkvision": {
-                    "name": "Widzenie w ciemności",
-                    "description": "<p>Cel ma zdolność widzenia w ciemności na odległość 18 metrów.</p>"
-                }
-            }
+            "description": "<p>Cel ma zdolność widzenia w ciemności na odległość 18 metrów.</p>"
         },
         "Daylight": {
             "name": "Światło dnia",
             "description": "<p>Z wybranego punktu w zasięgu czaru wyłania się kula jasnego światła o promieniu 18 metrów. Świeci ona słabym światłem na odległość kolejnych 18 metrów.</p><p>Jeśli jako cel zaklęcia wskażesz przedmiot, który trzymasz, albo taki, którego nie trzyma ani nie nosi ktoś inny, to światło dobywa się z tego przedmiotu i przemieszcza się wraz z nim. Można je stłumić, zakrywając całkowicie świecący obiekt czymś nieprzezroczystym, na przykład miską lub hełmem.</p><p>W przypadku nawet częściowego nakładania się obszaru tego czaru na obszar ciemności stworzonej zaklęciem kręgu 3. lub niższego, zaklęcie tworzące ciemność zostaje rozproszone.</p>"
+        },
+        "Deafness": {
+            "name": "Głuchota",
+            "description": "<p>Cel staje się ogłuchły na czas działania czaru. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Mądrość. Po udanym rzucie obronnym zaklęcie się kończy.</p>"
         },
         "Death Ward": {
             "name": "Osłona przed śmiercią",
@@ -597,49 +522,15 @@
         },
         "Detect Evil and Good": {
             "name": "Wykrycie dobra i zła",
-            "description": "<p>Podczas działania czaru potrafisz określić, czy w obrębie 9 metrów od ciebie przebywa czart, fey, niebianin, nieumarły, wynaturzenie lub żywiołak, i poznajesz jego lokalizację. Wiesz także, czy na tym obszarze jest miejsce, które zostało magicznie uświęcone lub splugawione.</p><p>Zaklęcie może przeniknąć przez większość barier, ale jest blokowane przez 30 centymetrów kamienia, 2,5 centymetra metalu, cienki arkusz ołowiu lub 90 centymetrów drewna bądź ziemi.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Detect Evil and Good": {
-                    "name": "Wykrycie dobra i zła",
-                    "description": "<p>Podczas działania czaru potrafisz określić, czy w obrębie 9 metrów od ciebie przebywa czart, fey, niebianin, nieumarły, wynaturzenie lub żywiołak, i poznajesz jego lokalizację. Wiesz także, czy na tym obszarze jest miejsce, które zostało magicznie uświęcone lub splugawione.</p><p>Zaklęcie może przeniknąć przez większość barier, ale jest blokowane przez 30 centymetrów kamienia, 2,5 centymetra metalu, cienki arkusz ołowiu lub 90 centymetrów drewna bądź ziemi.</p>"
-                }
-            }
+            "description": "<p>Podczas działania czaru potrafisz określić, czy w obrębie 9 metrów od ciebie przebywa czart, fey, niebianin, nieumarły, wynaturzenie lub żywiołak, i poznajesz jego lokalizację. Wiesz także, czy na tym obszarze jest miejsce, które zostało magicznie uświęcone lub splugawione.</p><p>Zaklęcie może przeniknąć przez większość barier, ale jest blokowane przez 30 centymetrów kamienia, 2,5 centymetra metalu, cienki arkusz ołowiu lub 90 centymetrów drewna bądź ziemi.</p>"
         },
         "Detect Magic": {
             "name": "Wykrycie magii",
-            "description": "<p>Podczas trwania czaru wyczuwasz magię w obrębie 9 metrów od siebie. Gdy wykryjesz w ten sposób obecność magii w stworzeniu lub obiekcie, możesz wykorzystać swoją akcję, by zobaczyć jego nikłą aurę i dowiedzieć się, z jakiej szkoły pochodzi ta magia (jeśli przynależy do którejś ze szkół).</p><p>Zaklęcie może przeniknąć przez większość barier, ale jest blokowane przez 30 centymetrów kamienia, 2,5 centymetra metalu, cienki arkusz ołowiu lub 90 centymetrów drewna bądź ziemi.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Detect Magic": {
-                    "name": "Wykrycie magii",
-                    "description": "<p>Podczas trwania czaru wyczuwasz magię w obrębie 9 metrów od siebie. Gdy wykryjesz w ten sposób obecność magii w stworzeniu lub obiekcie, możesz wykorzystać swoją akcję, by zobaczyć jego nikłą aurę i dowiedzieć się, z jakiej szkoły pochodzi ta magia (jeśli przynależy do którejś ze szkół).</p><p>Zaklęcie może przeniknąć przez większość barier, ale jest blokowane przez 30 centymetrów kamienia, 2,5 centymetra metalu, cienki arkusz ołowiu lub 90 centymetrów drewna bądź ziemi.</p>"
-                }
-            }
+            "description": "<p>Podczas trwania czaru wyczuwasz magię w obrębie 9 metrów od siebie. Gdy wykryjesz w ten sposób obecność magii w stworzeniu lub obiekcie, możesz wykorzystać swoją akcję, by zobaczyć jego nikłą aurę i dowiedzieć się, z jakiej szkoły pochodzi ta magia (jeśli przynależy do którejś ze szkół).</p><p>Zaklęcie może przeniknąć przez większość barier, ale jest blokowane przez 30 centymetrów kamienia, 2,5 centymetra metalu, cienki arkusz ołowiu lub 90 centymetrów drewna bądź ziemi.</p>"
         },
         "Detect Poison and Disease": {
             "name": "Wykrycie trucizny i choroby",
-            "description": "<p>Podczas trwania czaru wyczuwasz obecność i lokalizację trucizn, jadowitych istot i chorób w obrębie 9 metrów od siebie. W każdym przypadku potrafisz rozpoznać rodzaj wykrytej trucizny, gatunek istoty czy chorobę.</p><p>Zaklęcie może przeniknąć przez większość barier, ale jest blokowane przez 30 centymetrów kamienia, 2,5 centymetra metalu, cienki arkusz ołowiu lub 90 centymetrów drewna bądź ziemi.</p>",
-            "materials": "Liść cisu",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Detect Poison and Disease": {
-                    "name": "Wykrycie trucizny i choroby",
-                    "description": "<p>Podczas trwania czaru wyczuwasz obecność i lokalizację trucizn, jadowitych istot i chorób w obrębie 9 metrów od siebie. W każdym przypadku potrafisz rozpoznać rodzaj wykrytej trucizny, gatunek istoty czy chorobę.</p><p>Zaklęcie może przeniknąć przez większość barier, ale jest blokowane przez 30 centymetrów kamienia, 2,5 centymetra metalu, cienki arkusz ołowiu lub 90 centymetrów drewna bądź ziemi.</p>"
-                }
-            }
+            "description": "<p>Podczas trwania czaru wyczuwasz obecność i lokalizację trucizn, jadowitych istot i chorób w obrębie 9 metrów od siebie. W każdym przypadku potrafisz rozpoznać rodzaj wykrytej trucizny, gatunek istoty czy chorobę.</p><p>Zaklęcie może przeniknąć przez większość barier, ale jest blokowane przez 30 centymetrów kamienia, 2,5 centymetra metalu, cienki arkusz ołowiu lub 90 centymetrów drewna bądź ziemi.</p>"
         },
         "Detect Thoughts": {
             "name": "Wykrycie myśli",
@@ -687,18 +578,7 @@
         },
         "Divine Favor": {
             "name": "Boska łaska",
-            "description": "<p>Modlitwa napełnia cię boskim blaskiem. Póki trwa zaklęcie, twoje ataki bronią zadają po trafieniu dodatkowe 1k4 obrażeń od światłości.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Divine Favor": {
-                    "name": "Boska łaska",
-                    "description": "<p>Modlitwa napełnia cię boskim blaskiem. Póki trwa zaklęcie, twoje ataki bronią zadają po trafieniu dodatkowe 1k4 obrażeń od światłości.</p>"
-                }
-            }
+            "description": "<p>Modlitwa napełnia cię boskim blaskiem. Póki trwa zaklęcie, twoje ataki bronią zadają po trafieniu dodatkowe 1k4 obrażeń od światłości.</p>"
         },
         "Divine Word": {
             "name": "Słowo boże",
@@ -718,35 +598,29 @@
                 }
             }
         },
+        "Divine Word (30 hp or fewer)": {
+            "name": "Słowo boże (30 PW lub mniej)",
+            "description": "<p>Istota staje się oślepiona, ogłuchła i ogłuszona na 1 godzinę.</p>"
+        },
+        "Divine Word (40 hp or fewer)": {
+            "name": "Słowo boże (40 PW lub mniej)",
+            "description": "<p>Istota staje się ogłuchła i oślepiona na 10 minut.</p>"
+        },
+        "Divine Word (50 hp or fewer)": {
+            "name": "Słowo boże (50 PW lub mniej)",
+            "description": "<p>Istota staje się ogłuchła na 1 minutę.</p>"
+        },
         "Dominate Beast": {
             "name": "Dominacja nad bestią",
-            "description": "<p>Próbujesz zawładnąć bestią, którą widzisz w zasięgu czaru. Jeśli nie zda rzutu obronnego na Mądrość, zostanie &Reference[charmed]{zauroczona}. Ma ułatwienie w tym teście, jeśli akurat walczyła z tobą lub twoimi sojusznikami.</p><p>Gdy cel jest zauroczony, łączy was telepatyczna więź, dopóki przebywacie w tej samej sferze egzystencji. Będąc przytomnym, możesz dzięki tej więzi bez użycia akcji wydawać telepatyczne polecenia zauroczonemu stworzeniu, które będzie starało się jak najlepiej je wypełnić. Możesz posłużyć się prostym i ogólnym rozkazem, takim jak: 'Zaatakuj go', 'Pobiegnij tam' czy 'Przynieś tamten przedmiot'. Jeśli stworzenie po wypełnieniu polecenia nie otrzyma kolejnego, będzie ograniczało się do obrony własnej z użyciem wszystkich swych zdolności.</p><p>W ramach swojej akcji możesz przejąć nad zauroczonym stworzeniem całkowitą kontrolę. Do końca twojej następnej tury będzie wówczas wykonywało tylko wybrane przez ciebie akcje i nie zrobi niczego bez twojej zgody. Przez ten czas możesz zmusić je też do podjęcia reakcji, ale musisz na to zużyć również swoją.</p><p>Za każdym razem, gdy zniewolone stworzenie otrzyma obrażenia, ponawia rzut obronny na Mądrość. Jeśli odniesie sukces, czar się kończy.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę 5. kręgu, wydłużasz maksymalny czas trwania do 10 minut. Jeśli rzucasz ten czar, wykorzystując komórkę 6. kręgu, wydłużasz maksymalny czas trwania do 1 godziny. Jeśli używasz komórki co najmniej 7. kręgu, zaklęcie trwa 8 godzin (przy koncentracji).</p>",
-            "effects": {
-                "Dominate Beast": {
-                    "name": "Dominacja nad bestią",
-                    "description": "<p>Cel zostaje zauroczony i musi jak najlepiej wypełniać polecenia osoby rzucającej czar.</p>"
-                }
-            }
+            "description": "<p>Cel zostaje zauroczony i musi jak najlepiej wypełniać polecenia osoby rzucającej czar.</p>"
         },
         "Dominate Monster": {
             "name": "Dominacja nad potworem",
-            "description": "<p>Próbujesz zawładnąć stworzeniem, które widzisz w zasięgu czaru. Jeśli nie zda rzutu obronnego na Mądrość, zostanie &Reference[charmed]{zauroczone}. Ma ułatwienie w tym teście, jeśli akurat walczyła z tobą lub twoimi sojusznikami.</p><p>Gdy cel jest zauroczony, łączy was telepatyczna więź, dopóki przebywacie w tej samej sferze egzystencji. Będąc przytomnym, możesz dzięki tej więzi bez użycia akcji wydawać telepatyczne polecenia zauroczonemu stworzeniu, które będzie starało się jak najlepiej je wypełnić. Możesz posłużyć się prostym i ogólnym rozkazem, takim jak: 'Zaatakuj go', 'Pobiegnij tam' czy 'Przynieś tamten przedmiot'. Jeśli stworzenie po wypełnieniu polecenia nie otrzyma kolejnego, będzie ograniczało się do obrony własnej z użyciem wszystkich swych zdolności.</p><p>W ramach swojej akcji możesz przejąć nad zauroczonym stworzeniem całkowitą kontrolę. Do końca twojej następnej tury będzie wówczas wykonywało tylko wybrane przez ciebie akcje i nie zrobi niczego bez twojej zgody. Przez ten czas możesz zmusić je też do podjęcia reakcji, ale musisz na to zużyć również swoją.</p><p>Za każdym razem, gdy zniewolone stworzenie otrzyma obrażenia, ponawia rzut obronny na Mądrość. Jeśli odniesie sukces, czar się kończy.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę 9. kręgu, wydłużasz maksymalny czas trwania do 8 godzin (przy koncentracji).</p>",
-            "effects": {
-                "Dominate Monster": {
-                    "name": "Dominacja nad potworem",
-                    "description": "<p>Cel zostaje zauroczony i musi jak najlepiej wypełniać polecenia osoby rzucającej czar.</p>"
-                }
-            }
+            "description": "<p>Cel zostaje zauroczony i musi jak najlepiej wypełniać polecenia osoby rzucającej czar.</p>"
         },
         "Dominate Person": {
             "name": "Dominacja nad osobą",
-            "description": "<p>Próbujesz owładnąć umysł humanoidalnego stworzenia, które widzisz w zasięgu czaru. Jeśli nie zda rzutu obronnego na Mądrość, zostanie &Reference[charmed]{zauroczone}. Ma ułatwienie w tym teście, jeśli akurat walczyła z tobą lub twoimi sojusznikami.</p><p>Kiedy cel jest zauroczony, masz z nim połączenie telepatyczne dopóki przebywacie w tej samej sferze egzystencji. Będąc przytomnym, możesz dzięki tej więzi bez użycia akcji wydawać telepatyczne polecenia zauroczonemu stworzeniu, które będzie starało się jak najlepiej je wypełnić. Możesz posłużyć się prostym i ogólnym rozkazem, takim jak: 'Zaatakuj go', 'Pobiegnij tam' czy 'Przynieś tamten przedmiot'. Jeśli stworzenie po wypełnieniu polecenia nie otrzyma kolejnego, będzie ograniczało się do obrony własnej z użyciem wszystkich swych zdolności.</p><p>W ramach swojej akcji możesz przejąć nad zauroczonym stworzeniem całkowitą kontrolę. Do końca twojej następnej tury będzie wówczas wykonywała tylko wybrane przez ciebie akcje i nie zrobi niczego bez twojej zgody. Przez ten czas możesz zmusić ją też do podjęcia reakcji, ale musisz na to zużyć również swoją.</p><p>Za każdym razem, gdy zniewolone stworzenie otrzyma obrażenia, ponawia rzut obronny na Mądrość. Jeśli odniesie sukces, czar się kończy.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę 6. kręgu, wydłużasz maksymalny czas trwania do 10 minut. Jeśli rzucasz ten czar, wykorzystując komórkę 7. kręgu, wydłużasz maksymalny czas trwania do 1 godziny. Jeśli używasz komórki co najmniej 8. kręgu, zaklęcie trwa 8 godzin (przy koncentracji).</p>",
-            "effects": {
-                "Dominate Person": {
-                    "name": "Dominacja nad osobą",
-                    "description": "<p>Cel zostaje zauroczony i musi jak najlepiej wypełniać polecenia osoby rzucającej czar.</p>"
-                }
-            }
+            "description": "<p>Cel zostaje zauroczony i musi jak najlepiej wypełniać polecenia osoby rzucającej czar.</p>"
         },
         "Dream": {
             "name": "Sen",
@@ -788,21 +662,7 @@
         },
         "Entangle": {
             "name": "Oplątanie",
-            "description": "<p>Chwytne pnącza wyrastają z podłoża na obszarze kwadratu boku 6 metrów, ze środkiem we wskazanym punkcie w zasięgu czaru. Rośliny zamieniają ten obszar w &reference[difficult terrain]{trudny teren} na cały czas trwania czaru.</p><p>Istoty znajdujące się na obszarze działania czaru muszą wykonać rzut obronny na Siłę. W przypadku niepowodzenia zostaną &reference[Restrained]{unieruchomione} przez oplątujące je rośliny na czas trwania zaklęcia. Unieruchomiona istota może w ramach swojej akcji wykonać test Siły z ST rzutu obronnego przeciw twoim czarom. Jeśli jej się uda, uwalnia się.</p><p>Gdy zaklęcie wygasa, przywołane rośliny więdną.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                },
-                "Escape Plants Check": {
-                    "name": "Test wyswobodzenia się z roślin"
-                }
-            },
-            "effects": {
-                "Entangle": {
-                    "name": "Oplątanie",
-                    "description": "<p>Zostajesz &reference[Restrained apply=false]{unieruchomiony} przez oplątujące cię rośliny na czas trwania zaklęcia. Możesz w ramach swojej akcji wykonać [[/check str]]{test Siły} o ST rzutu obronnego przeciw czarom rzucającego. Jeśli ci się uda, uwalniasz się.</p>"
-                }
-            }
+            "description": "<p>Zostajesz &reference[Restrained apply=false]{unieruchomiony} przez oplątujące cię rośliny na czas trwania zaklęcia. Możesz w ramach swojej akcji wykonać [[/check str]]{test Siły} o ST rzutu obronnego przeciw czarom rzucającego. Jeśli ci się uda, uwalniasz się.</p>"
         },
         "Enthrall": {
             "name": "Fascynacja",
@@ -814,18 +674,7 @@
         },
         "Expeditious Retreat": {
             "name": "Błyskawiczny odwrót",
-            "description": "<p>Ten czar pozwala ci niewiarygodnie szybko się przemieszczać. Gdy go rzucisz, a potem w ramach każdej swojej akcji dodatkowej w czasie jego trwania możesz wykonać &reference[Dash]{Sprint}.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Expeditious Retreat": {
-                    "name": "Błyskawiczny odwrót",
-                    "description": "<p>Możesz w ramach każdej swojej akcji dodatkowej w czasie trwania czaru wykonać &reference[Dash]{Sprint}.</p>"
-                }
-            }
+            "description": "<p>Możesz w ramach każdej swojej akcji dodatkowej w czasie trwania czaru wykonać &reference[Dash]{Sprint}.</p>"
         },
         "Eyebite": {
             "name": "Kąśliwy wzrok",
@@ -841,24 +690,21 @@
                 }
             }
         },
+        "Eyebite (alseep)": {
+            "name": "Kąśliwy wzrok (uśpienie)",
+            "description": "<p>Ofiara pada nieprzytomna. Obudzi się w momencie otrzymania obrażeń albo gdy inna istota w ramach swojej akcji nią potrząśnie</p>"
+        },
+        "Eyebite (panicked)": {
+            "name": "Kąśliwy wzrok (panika)",
+            "description": "<p>Cel jest przerażony rzucającym zaklęcie. W każdej swojej turze musi wykonać akcję Sprintu, by jak najbardziej oddalić się od rzucającego zaklęcie najbezpieczniejszą i najkrótszą drogą, chyba że nie ma dokąd się poruszyć. Jeśli cel znajdzie się w miejscu oddalonym od rzucającego co najmniej o 18 metrów, z którego nie będzie mógł go zobaczyć, efekt ustaje.</p>"
+        },
         "Fabricate": {
             "name": "Produkcja",
             "description": "<p>Dokonujesz przemiany surowych materiałów w złożone z nich produkty. Przykładowo, budujesz drewniany most z kępy drzew, skręcasz sznur z grządki konopi albo zmieniasz len lub wełnę w gotowe ubrania.</p><p>Wybierz surowce, które widzisz w zasięgu czaru. Dysponując ich odpowiednią ilością, możesz wytworzyć Duży lub mniejszy przedmiot mieszczący się w sześcianie o boku 3 metrów lub w 8 połączonych sześcianach o boku 1,5 metra. Jeżeli pracujesz z metalem, kamieniem lub innym surowcem mineralnym, to wytwarzany przedmiot może być nie większy niż Średni i musi mieścić się w pojedynczym sześcianie o boku 1,5 metra. Jakość otrzymanego przedmiotu odpowiada jakości użytych surowców.</p><p>Nie możesz tym zaklęciem stworzyć lub przetworzyć istot lub magicznych przedmiotów. Nie możesz także użyć go do stworzenia rzeczy, które zwykle wymagają wysokiego stopnia znajomości rzemiosła, takich jak: biżuteria, bronie, kieliszki lub pancerze, chyba że biegle posługujesz się narzędziami służącymi do wytwarzania takich rzeczy.</p>"
         },
         "Faerie Fire": {
             "name": "Blask faerie",
-            "description": "<p>Każdy obiekt w sześcianie o boku 6 metrów w zasięgu czaru zostaje spowity niebieskim, zielonym lub czerwonym światłem (ty wybierasz kolor). Istoty znajdujące się w obszarze działania w chwili rzucania zaklęcia również zostają podświetlone, jeśli nie zdadzą rzutu obronnego na Zręczność. Przez okres trwania czaru od tych istot i obiektów emanuje na 3 metry &reference[dim light]{słabe światło}.</p><p>Obiekty i istoty znajdujące się pod wpływem zaklęcia nie czerpią żadnych korzyści ze swojej &reference[invisible apply=false]{niewidzialności}, a ataki przeciwko nim są przeprowadzane z ułatwieniem, jeśli napastnik jest w stanie zobaczyć cel.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Faerie Fire": {
-                    "name": "Blask faerie",
-                    "description": "<p>Zostajesz spowity światłem, emanującym na 3 metry &reference[dim light]{słabe światło}.</p><p>Ataki przeciwko tobie są przeprowadzane z ułatwieniem, jeśli atakujący cię widzi, oraz nie czerpiesz żadnych korzyści z bycia &reference[invisible apply=false]{niewidzialnym}.</p>"
-                }
-            }
+            "description": "<p>Zostajesz spowity światłem, emanującym na 3 metry &reference[dim light]{słabe światło}.</p><p>Ataki przeciwko tobie są przeprowadzane z ułatwieniem, jeśli atakujący cię widzi, oraz nie czerpiesz żadnych korzyści z bycia &reference[invisible apply=false]{niewidzialnym}.</p>"
         },
         "Faithful Hound": {
             "name": "Wierny ogar",
@@ -867,57 +713,23 @@
         },
         "False Life": {
             "name": "Fałszywe życie",
-            "description": "<p>Wspomagając się nekromantyczną namiastką życia, zysku jesz 1k4 + 4 tymczasowych PW na czas trwania czaru.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zyskujesz 5 dodatkowych PW.</p>",
-            "materials": "Niewielka ilość alkoholu lub spirytusu",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "False Life": {
-                    "name": "Fałszywe życie",
-                    "description": "<p>Zyskujesz tymczasowe PW na czas trwania czaru.</p>"
-                }
-            }
+            "description": "<p>Zyskujesz tymczasowe PW na czas trwania czaru.</p>"
+        },
+        "Familiar": {
+            "name": "Chowaniec",
+            "description": "<p>To stworzenie jest @UUID[Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz]{chowańcem}. Chowaniec nie może atakować, ale może normalnie podejmować inne akcje.</p>"
         },
         "Fear": {
             "name": "Strach",
-            "description": "<p>Tworzysz koszmarną projekcję najgorszych lęków innego stworzenia. Każda istota na obszarze stożka o długości 9 metrów musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia upuszcza trzymane rzeczy i staje się &Reference[Frightened]{przerażona} na czas działania czaru.</p><p>Istota przerażona tym czarem musi w każdej swojej turze wykonać akcję Sprintu, by jak najbardziej oddalać się od ciebie najbezpieczniejszą możliwą drogą, chyba że nie ma dokąd uciec. Jeśli zakończy swoją turę w miejscu, w którym nie ma cię już w zasięgu wzroku, może wykonać rzut obronny na Mądrość. Udany rzut wyzwala daną istotę spod działania czaru</p>",
-            "materials": "Białe piórko lub kurze serce.",
-            "effects": {
-                "Fear": {
-                    "name": "Strach",
-                    "description": "<p>Cel zaklęcia upuszcza trzymane rzeczy i staje się przerażony na czas działania czaru. Istota przerażona tym czarem musi w każdej swojej turze musi wykonać akcję Sprintu, by jak najbardziej oddalić się od ciebie najbezpieczniejszą i najkrótszą drogą, chyba że nie ma dokąd się poruszyć.</p>"
-                }
-            }
+            "description": "<p>Cel zaklęcia upuszcza trzymane rzeczy i staje się przerażony na czas działania czaru. Istota przerażona tym czarem musi w każdej swojej turze musi wykonać akcję Sprintu, by jak najbardziej oddalić się od ciebie najbezpieczniejszą i najkrótszą drogą, chyba że nie ma dokąd się poruszyć.</p>"
         },
         "Feather Fall": {
             "name": "Piórkospadanie",
-            "description": "<p>Wybierz do 5 spadających istot znajdujących się w zasięgu czaru. W czasie działania czaru ich szybkość spadania maleje do 18 metrów na rundę. Jeżeli któraś z nich w tym czasie wyląduje, to nie otrzyma obrażeń od upadku i może wylądować na nogach, a działanie zaklęcia dla niej się kończy.</p>",
-            "materials": "Piórko albo trochę puchu",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Feather Fall": {
-                    "name": "Piórkospadanie",
-                    "description": "W czasie działania czaru twoja szybkość spadania maleje do 18 metrów na rundę. Jeżeli w tym czasie wylądujesz, to nie otrzymasz obrażeń od upadku i możesz wylądować na nogach, a działanie zaklęcia dla ciebie się kończy."
-                }
-            }
+            "description": "W czasie działania czaru twoja szybkość spadania maleje do 18 metrów na rundę. Jeżeli w tym czasie wylądujesz, to nie otrzymasz obrażeń od upadku i możesz wylądować na nogach, a działanie zaklęcia dla ciebie się kończy."
         },
         "Feeblemind": {
             "name": "Osłabienie umysłu",
-            "description": "<p>Uderzasz w umysł istoty, którą widzisz w zasięgu czaru, próbując rozbić w pył jej intelekt i osobowość. Cel otrzymuje 4k6 obrażeń psychicznych i musi wykonać rzut obronny na Inteligencję.</p><p>W przypadku niepowodzenia jego Inteligencja i Charyzma przyjmują wartość 1. W tym stanie cel nie może rzucać zaklęć i aktywować magicznych przedmiotów, nie rozumie języków i nie potrafi porozumieć się w zrozumiały sposób, ale rozpoznaje swoich przyjaciół i jest w stanie za nimi podążać, a nawet ich bronić.</p><p>Na koniec każdych 30 dni cel zaklęcia może ponowić rzut obronny. W przypadku powodzenia zaklęcie się kończy.</p><p>Czar można również zakończyć przy pomocy większego przywrócenia, uleczenia lub życzenia.</p>",
-            "materials": "Garść kulek z gliny, kryształu, szkła lub minerałów",
-            "effects": {
-                "Feeblemind": {
-                    "name": "Osłabienie umysłu",
-                    "description": "<p>Inteligencja i Charyzma stworzenia przyjmują wartość 1. Cel nie może rzucać zaklęć i aktywować magicznych przedmiotów, nie rozumie języków i nie potrafi porozumieć się w zrozumiały sposób, ale rozpoznaje swoich przyjaciół i jest w stanie za nimi podążać, a nawet ich bronić.</p>"
-                }
-            }
+            "description": "<p>Inteligencja i Charyzma stworzenia przyjmują wartość 1. Cel nie może rzucać zaklęć i aktywować magicznych przedmiotów, nie rozumie języków i nie potrafi porozumieć się w zrozumiały sposób, ale rozpoznaje swoich przyjaciół i jest w stanie za nimi podążać, a nawet ich bronić.</p>"
         },
         "Find Familiar": {
             "name": "Znalezienie chowańca",
@@ -1009,14 +821,7 @@
         },
         "Flesh to Stone": {
             "name": "Ciało w kamień",
-            "description": "<p>Próbujesz zmienić w kamień jedną istotę, którą widzisz w zasięgu zaklęcia. Jeśli posiada ona organiczne ciało (składające się z mięśni, kości, ścięgien itd. ), musi wykonać rzut obronny na Kondycję. Udany rzut oznacza, że udało jej się odeprzeć zaklęcie, natomiast po nieudanym staje się &Reference[Restrained]{unieruchomiona}, gdyż jej ciało zaczyna tężeć.</p><p>Stworzenie unieruchomione zaklęciem wykonuje kolejne rzuty obronne pod koniec każdej swojej tury. Jeśli zda je trzy razy, zaklęcie się kończy. Jeśli natomiast trzy razy poniesie porażkę, zostaje zamienione w kamień i do końca trwania czaru jest &Reference[Petrified]{skamieniałe}. Sukcesy i porażki nie muszą następować bezpośrednio po sobie; notuj je do momentu zebrania przez cel trzech wyników jednego rodzaju.</p><p>Jeśli skamieniała istota zostanie uszkodzona fizycznie, to zachowa te deformacje, powracając do swojej naturalnej formy.</p><p>Jeśli utrzymasz koncentrację na zaklęciu przez pełną minutę, skamienienie utrwali się i utrzyma aż do czasu usunięcia efektu.</p>",
-            "materials": "Odrobina wapna, wody i ziemi",
-            "effects": {
-                "Flesh to Stone": {
-                    "name": "Ciało w kamień",
-                    "description": "<p>Cel staje się unieruchomiony, gdyż jego ciało zaczyna tężeć. Stworzenie unieruchomione zaklęciem wykonuje kolejne rzuty obronne pod koniec każdej swojej tury. Jeśli zda je trzy razy, zaklęcie się kończy. Jeśli natomiast trzy razy poniesie porażkę, zostaje zamienione w kamień i do końca trwania czaru jest skamieniałe.</p>"
-                }
-            }
+            "description": "<p>Cel staje się unieruchomiony, gdyż jego ciało zaczyna tężeć. Stworzenie unieruchomione zaklęciem wykonuje kolejne rzuty obronne pod koniec każdej swojej tury. Jeśli zda je trzy razy, zaklęcie się kończy. Jeśli natomiast trzy razy poniesie porażkę, zostaje zamienione w kamień i do końca trwania czaru jest skamieniałe.</p>"
         },
         "Floating Disk": {
             "name": "Wędrujący dysk",
@@ -1054,14 +859,7 @@
         },
         "Freedom of Movement": {
             "name": "Swoboda ruchu",
-            "description": "<p>Dotykasz przychylnej ci istoty. Przez czas trwania czaru na jej poruszanie się nie wpływa trudny teren, a zaklęcia i magiczne efekty nie mogą zredukować jej szybkości ani spowodować paraliżu lub unieruchomienia.</p><p>Istota będąca pod wpływem tego zaklęcia może również zużyć 1,5 metra szybkości, aby automatycznie oswobodzić się z niemagicznych więzów, takich jak kajdany albo bycie pochwyconą. Ponadto przebywanie pod wodą nie powoduje u niej kar do ruchu i ataków.</p>",
-            "materials": "Rzemień zawiązany wokół ramienia lub podobnej kończyny",
-            "effects": {
-                "Freedom of Movement": {
-                    "name": "Swoboda ruchu",
-                    "description": "<p>Na poruszanie się celu nie wpływa trudny teren, a zaklęcia i magiczne efekty nie mogą zredukować jego szybkości ani spowodować paraliżu lub unieruchomienia.</p>"
-                }
-            }
+            "description": "<p>Na poruszanie się celu nie wpływa trudny teren, a zaklęcia i magiczne efekty nie mogą zredukować jego szybkości ani spowodować paraliżu lub unieruchomienia.</p>"
         },
         "Freezing Sphere": {
             "name": "Mrożąca sfera",
@@ -1080,13 +878,7 @@
         },
         "Geas": {
             "name": "Geas",
-            "description": "<p>Nakładasz magiczny nakaz na stworzenie, które widzisz i znajdujące się w zasięgu czaru. Nakaz ten - zależnie od twojej decyzji - może dotyczyć wykonania określonych działań albo powstrzymania się od nich.  Jeśli cel zaklęcia cię rozumie, musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia zostanie przez ciebie &Reference[Charmed]{zauroczony} na czas trwania zaklęcia. Zauroczona istota otrzymuje 5k10 obrażeń psychicznych za każdym razem, kiedy działa w sposób przeciwny do twojego polecenia, ale nie częściej niż raz dziennie. Istota, która nie rozumie twojego nakazu, nie zostaje nim objęta.</p><p>Możesz wydać dowolny rozkaz z wyjątkiem działań, które w oczywisty sposób prowadziłyby do śmierci zauroczonej istoty. Sformułowanie samobójczego nakazu kończy działanie czaru.</p><p>Możesz odwołać ten czar w ramach swojej akcji. Można go rozproszyć również zdjęciem klątwy, większym przywróceniem lub życzeniem.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę 7. lub 8. kręgu, wydłużasz czas trwania do 1 roku. Po wykorzystaniu komórki 9. kręgu zaklęcie trwa, póki nie zostanie zakończone jednym z czarów wymienionych powyżej.</p>",
-            "effects": {
-                "Geas": {
-                    "name": "Geas",
-                    "description": "<p>Stworzenie staje się zauroczone na czas działania czaru. Zauroczona istota otrzymuje obrażenia psychiczne za każdym razem, kiedy działa w sposób przeciwny do polecenia, ale nie częściej niż raz dziennie.</p>"
-                }
-            }
+            "description": "<p>Stworzenie staje się zauroczone na czas działania czaru. Zauroczona istota otrzymuje obrażenia psychiczne za każdym razem, kiedy działa w sposób przeciwny do polecenia, ale nie częściej niż raz dziennie.</p>"
         },
         "Gentle Repose": {
             "name": "Bezpieczny spoczynek",
@@ -1137,13 +929,7 @@
         },
         "Greater Invisibility": {
             "name": "Większa niewidzialność",
-            "description": "<p>Dotknięta przez ciebie istota staje się niewidzialna na czas trwania czaru. Cale wyposażenie, jakie nosi lub ma przy sobie cel zaklęcia, jest niewidzialne, dopóki nie opuści jego posiadania.</p>",
-            "effects": {
-                "Greater Invisibility": {
-                    "name": "Większa niewidzialność",
-                    "description": "<p>Cel staje się niewidzialny na czas trwania czaru. Cale wyposażenie, jakie nosi lub ma przy sobie cel zaklęcia, jest niewidzialne, dopóki nie opuści jego posiadania.</p>"
-                }
-            }
+            "description": "<p>Cel staje się niewidzialny na czas trwania czaru. Cale wyposażenie, jakie nosi lub ma przy sobie cel zaklęcia, jest niewidzialne, dopóki nie opuści jego posiadania.</p>"
         },
         "Greater Restoration": {
             "name": "Większe przywrócenie",
@@ -1161,33 +947,11 @@
         },
         "Guidance": {
             "name": "Wskazówki",
-            "description": "<p>Dotykasz przychylnej istoty. Przed zakończeniem działania czaru może ona dodać k4 do wyniku jednego wybranego testu Cechy. Może wykonać ten rzut przed testem lub po nim. Kiedy to zrobi, zaklęcie dobiega końca.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Guidance": {
-                    "name": "Wskazówki",
-                    "description": "<p>Dotykasz przychylnej istoty. Przed zakończeniem działania czaru może ona dodać k4 do wyniku jednego wybranego testu Cechy. Może wykonać ten rzut przed testem lub po nim. Kiedy to zrobi, zaklęcie dobiega końca.</p>"
-                }
-            }
+            "description": "<p>Dotykasz przychylnej istoty. Przed zakończeniem działania czaru może ona dodać k4 do wyniku jednego wybranego testu Cechy. Może wykonać ten rzut przed testem lub po nim. Kiedy to zrobi, zaklęcie dobiega końca.</p>"
         },
         "Guiding Bolt": {
             "name": "Pocisk wiodący",
-            "description": "<p>Ku wybranej istocie w zasięgu czaru mknie świetlisty pocisk. Wykonaj atak dystansowy czarem przeciwko celowi. Trafiony cel otrzymuje 4k6 obrażeń od światłości, a następny atak przeciw niemu wykonany przed końcem twojej następnej tury ma ułatwienie, ponieważ cel jest podświetlony słabym magicznym poblaskiem.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz zadawane obrażenia o 1k6.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Guiding Bolt": {
-                    "name": "Pocisk wiodący",
-                    "description": "<p>Następny atak przeciwko tobie wykonany przed upływem następnej tury rzucającego czar, jest wykonywany z ułatwieniem dzięki mistycznemu słabemu światłu, które cię otacza.</p>"
-                }
-            }
+            "description": "<p>Następny atak przeciwko tobie wykonany przed upływem następnej tury rzucającego czar, jest wykonywany z ułatwieniem dzięki mistycznemu słabemu światłu, które cię otacza.</p>"
         },
         "Gust of Wind": {
             "name": "Poryw wiatru",
@@ -1210,14 +974,7 @@
         },
         "Haste": {
             "name": "Przyspieszenie",
-            "description": "<p>Wybierz przychylną istotę, którą widzisz w zasięgu czaru. Podczas działania zaklęcia porusza się ona z podwójną szybkością, otrzymuje modyfikator +2 do KP, ma ułatwienie w rzutach obronnych na Zręczność oraz zyskuje dodatkową akcję w każdej swojej turze. Akcja ta może zostać wykorzystana tylko jako: Atak (pojedynczy), Odstąpienie, Sprint, Ukrycie się lub Użycie obiektu.</p><p>Kiedy czar dobiegnie końca, jego cel nie może się poruszyć ani wykonać akcji do końca swojej następnej tury, ponieważ dogania go własne zmęczenie.</p>",
-            "materials": "Wiórek z korzenia lukrecji",
-            "effects": {
-                "Haste": {
-                    "name": "Przyspieszenie",
-                    "description": "<p>Podczas działania zaklęcia porusza się ona z podwójną szybkością, otrzymuje modyfikator +2 do KP, ma ułatwienie w rzutach obronnych na Zręczność oraz zyskuje dodatkową akcję w każdej swojej turze. Akcja ta może zostać wykorzystana tylko jako: Atak (pojedynczy), Odstąpienie, Sprint, Ukrycie się lub Użycie obiektu.</p>"
-                }
-            }
+            "description": "<p>Podczas działania zaklęcia porusza się ona z podwójną szybkością, otrzymuje modyfikator +2 do KP, ma ułatwienie w rzutach obronnych na Zręczność oraz zyskuje dodatkową akcję w każdej swojej turze. Akcja ta może zostać wykorzystana tylko jako: Atak (pojedynczy), Odstąpienie, Sprint, Ukrycie się lub Użycie obiektu.</p>"
         },
         "Heal": {
             "name": "Leczenie",
@@ -1248,106 +1005,40 @@
         },
         "Heroes' Feast": {
             "name": "Uczta bohaterów",
-            "description": "<p>Urządzasz wspaniały bankiet, pełen doskonałego jadła i napitku. Uczta trwa 1 godzinę, po czym wszystko znika. Korzystne efekty posiłku zaczynają działać dopiero po upływie tej godziny. W uczcie może uczestniczyć 12 istot.</p><p>Uczestnik uczty zyskuje kilka korzyści. Zostaje uleczony z wszystkich chorób i trucizn, staje się niepodatny na trucizny i przerażenie oraz ma ułatwienie we wszystkich rzutach obronnych na Mądrość. Jego maksymalne punkty wytrzymałości zwiększają się o 2k10, odzyskuje także taką samą liczbę punktów wytrzymałości. Efekty uczty utrzymują się przez 24 godziny.</p>",
-            "materials": "Misa wysadzana klejnotami o wartości co najmniej 1000 sz, zużywana przez zaklęcie",
-            "effects": {
-                "Heroes' Feast": {
-                    "name": "Uczta bohaterów",
-                    "description": "<p>Zostaje uleczony z wszystkich chorób i trucizn, staje się niepodatny na trucizny i przerażenie oraz ma ułatwienie we wszystkich rzutach obronnych na Mądrość. Jego maksymalne punkty wytrzymałości zwiększają się o 2k10, odzyskuje także taką samą liczbę punktów wytrzymałości. Efekty uczty utrzymują się przez 24 godziny.</p>"
-                }
-            }
+            "description": "<p>Zostaje uleczony z wszystkich chorób i trucizn, staje się niepodatny na trucizny i przerażenie oraz ma ułatwienie we wszystkich rzutach obronnych na Mądrość. Jego maksymalne punkty wytrzymałości zwiększają się o 2k10, odzyskuje także taką samą liczbę punktów wytrzymałości. Efekty uczty utrzymują się przez 24 godziny.</p>"
         },
         "Heroism": {
             "name": "Heroizm",
-            "description": "<p>Twoje dotknięcie napełnia odwagą wybraną istotę. Do końca trwania czaru jest niepodatna na &reference[Frightened apply=false]{przerażenie}, a na początku każdej swojej tury zyskuje tymczasowe PW równe twojemu modyfikatorowi z cechy bazowej. Po wygaśnięciu zaklęcia znikają wszystkie pochodzące z niego tymczasowe PW.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę.</p>",
-            "activities": {
-                "Grant Temporary Hit Points": {
-                    "name": "Zyskaj tymczasowe PW.",
-                    "condition": "Kiedy stworzenie pod wpływem efektu czary zaczyna swoją turę."
-                },
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Heroism": {
-                    "name": "Heroizm",
-                    "description": "<p>Zostajesz napełniony odwagą. Do końca trwania czaru jesteś niepodatny na &reference[Frightened apply=false]{przerażenie}, a na początku każdej swojej tury zyskujesz tymczasowe PW równe modyfikatorowi z cechy bazowej rzucającego. Po wygaśnięciu zaklęcia znikają wszystkie pochodzące z niego tymczasowe PW.</p>"
-                }
-            }
+            "description": "<p>Zostajesz napełniony odwagą. Do końca trwania czaru jesteś niepodatny na &reference[Frightened apply=false]{przerażenie}, a na początku każdej swojej tury zyskujesz tymczasowe PW równe modyfikatorowi z cechy bazowej rzucającego. Po wygaśnięciu zaklęcia znikają wszystkie pochodzące z niego tymczasowe PW.</p>"
         },
         "Hideous Laughter": {
             "name": "Ohydny śmiech",
-            "description": "<p>Wybrana istota, którą widzisz w zasięgu czaru, postrzega wszystko jako niesamowicie śmieszne i jeśli nie oprze się zaklęciu, pada na ziemię ze śmiechu. Musi wykonać udany rzut obronny na Mądrość albo przewróci się, stanie się &reference[Incapacitated]{obezwładniona} i do końca trwania czaru nie będzie mogła się podnieść. Stworzenia o Inteligencji 4 lub mniejszej są niepodatne na to zaklęcie.</p><p>Cel zaklęcia może ponowić rzut obronny na Mądrość pod koniec każdej swojej tury i za każdym razem, gdy otrzymuje obrażenia. Ma ułatwienie w tym rzucie, jeśli został wywołany obrażeniami. Po udanym rzucie obronnym zaklęcie się kończy.</p>",
-            "materials": "Ciastko z kremem i pióro, którym machasz w powietrzu",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Hideous Laughter": {
-                    "name": "Ohydny śmiech",
-                    "description": "<p>Postrzegasz wszystko jako niesamowicie śmieszne i padasz na ziemię ze śmiechu. Jesteś &reference[Incapacitated apply=false]{obezwładniony} i do końca trwania czaru nie możesz się podnieść.</p><p>Możesz ponowić rzut obronny na Mądrość pod koniec każdej swojej tury i za każdym razem, gdy otrzymujesz obrażenia. Masz ułatwienie w tym rzucie, jeśli został wywołany obrażeniami. Po udanym rzucie obronnym zaklęcie się kończy.</p>"
-                }
-            }
+            "description": "<p>Postrzegasz wszystko jako niesamowicie śmieszne i padasz na ziemię ze śmiechu. Jesteś &reference[Incapacitated apply=false]{obezwładniony} i do końca trwania czaru nie możesz się podnieść.</p><p>Możesz ponowić rzut obronny na Mądrość pod koniec każdej swojej tury i za każdym razem, gdy otrzymujesz obrażenia. Masz ułatwienie w tym rzucie, jeśli został wywołany obrażeniami. Po udanym rzucie obronnym zaklęcie się kończy.</p>"
         },
         "Hold Monster": {
             "name": "Unieruchomienie potwora",
-            "description": "<p>Wybierasz stworzenie, które widzisz w zasięgu czaru. Cel musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia zostaje &Reference[Paralyzed]{sparaliżowany} na czas trwania czaru. Zaklęcie nie działa na nieumarłych. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Mądrość. Udany rzut oznacza wyzwolenie się z efektu czaru.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 6. kręgu, za każdy krąg powyżej 5. możesz objąć czarem jedno dodatkowe stworze nie. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
-            "materials": "Mały, prosty kawałek żelaza",
-            "effects": {
-                "Hold Monster": {
-                    "name": "Unieruchomienie potwora",
-                    "description": "<p>Cel staje się sparaliżowany na czas działania czaru. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Mądrość. Udany rzut oznacza wyzwolenie się z efektu czaru.</p>"
-                }
-            }
+            "description": "<p>Cel staje się sparaliżowany na czas działania czaru. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Mądrość. Udany rzut oznacza wyzwolenie się z efektu czaru.</p>"
         },
         "Hold Person": {
             "name": "Unieruchomienie osoby",
-            "description": "<p>Wybierasz humanoida, którego widzisz w zasięgu czaru. Cel musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia zostaje &Reference[Paralyzed]{sparaliżowany} na czas trwania czaru. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Mądrość. Udany rzut oznacza wyzwolenie się z efektu czaru.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 3. kręgu, za każdy krąg powyżej 2. możesz objąć czarem jednego dodatkowego humanoida. Wszystkie cele zaklęcia muszą znajdować się w obrębie 9 metrów od siebie.</p>",
-            "materials": "Mały, prosty kawałek żelaza",
-            "effects": {
-                "Hold Person": {
-                    "name": "Unieruchomienie osoby",
-                    "description": "<p>Cel staje się sparaliżowany na czas działania czaru. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Mądrość. Udany rzut oznacza wyzwolenie się z efektu czaru.</p>"
-                }
-            }
+            "description": "<p>Cel staje się sparaliżowany na czas działania czaru. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Mądrość. Udany rzut oznacza wyzwolenie się z efektu czaru.</p>"
         },
         "Holy Aura": {
             "name": "Święta aura",
             "description": "<p>Boskie światło rozlewa się od ciebie, tworząc łagodny blask w promieniu 9 metrów. Wybrane stworzenia w jego obszarze zaczynają świecić słabym światłem w promieniu 1,5 metra i mają ułatwienie we wszystkich rzutach obronnych, podczas gdy pozostałe istoty mają utrudnienie w testach ataku przeciw nim aż do końca trwania czaru. Ponadto, gdy promieniująca światłem istota zostanie trafiona atakiem wręcz przez czarta lub nieumarłego, jej aura rozbłyska mocno, a napastnik musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia zostaje oślepiony na czas działania czaru.</p>",
             "materials": "Malutki relikwiarz o wartości co najmniej 1000 sz zawierający relikwię, na przykład strzęp szaty świętego albo stronicę religijnego manuskryptu"
         },
+        "Hopeful": {
+            "name": "Pełen nadziei",
+            "description": "<p>Cel ma ułatwienie w rzutach obronnych na Mądrość i w rzutach obronnych przeciw śmierci oraz odzyskuje maksymalną możliwą liczbę punktów wytrzymałości zapewnianą przez jakiekolwiek leczenie.</p>"
+        },
         "Hunter's Mark": {
             "name": "Znak łowcy",
-            "description": "<p>Wybierasz istotę, którą widzisz w zasięgu czaru i magicznie oznaczasz ją jako swoją zdobycz. Podczas trwania czaru przy każdym trafieniu bronią zadajesz jej dodatkowo 1k6 obrażeń, a ponadto masz ułatwienie w testach Mądrości (Percepcja) i Mądrości (Sztuka przetrwania), gdy chcesz ją odnaleźć. Jeżeli przed zakończeniem działania czaru punkty wytrzymałości celu spadną do 0, możesz w ramach akcji dodatkowej w swojej następnej turze przenieść to oznaczenie na następną istotę.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę 3. lub 4. kręgu, możesz utrzymać koncentrację na nim do 8 godzin. Jeśli używasz komórki czaru 5. kręgu lub wyższego, możesz utrzymać koncentrację do 24 godzin.</p>",
-            "activities": {
-                "Bonus Mark Damage": {
-                    "name": "Dodatkowe obrażenia dla oznakowanej zdobyczy",
-                    "condition": "Kiedy trafiasz bronią stworzenie pod wpływem efektu czaru."
-                },
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Hunter's Mark": {
-                    "name": "Znak łowcy",
-                    "description": "Zostajesz magicznie oznaczony jako zdobycz rzucającego czar. Podczas trwania czaru przy każdym trafieniu bronią otrzymujesz dodatkowo 1k6 obrażeń, a ponadto rzucający ułatwienie w testach Mądrości (Percepcja) i Mądrości (Sztuka przetrwania), gdy chce cię odnaleźć."
-                }
-            }
+            "description": "Zostajesz magicznie oznaczony jako zdobycz rzucającego czar. Podczas trwania czaru przy każdym trafieniu bronią otrzymujesz dodatkowo 1k6 obrażeń, a ponadto rzucający ułatwienie w testach Mądrości (Percepcja) i Mądrości (Sztuka przetrwania), gdy chce cię odnaleźć."
         },
         "Hypnotic Pattern": {
             "name": "Hipnotyczny wzór",
-            "description": "<p>Tworzysz wijący się barwny wzór, poruszający się w powietrzu w obrębie sześcianu o boku 9 metrów. Wzór pojawia się na chwilę, po czym znika. Stworzenia w obszarze działania zaklęcia, które widzą wzór, muszą zdać rzut obronny na Mądrość albo zostaną &Reference[charmed]{zauroczone} na czas trwania zaklęcia. Zauroczone istoty są traktowane jako &Reference[incapacitated]{obezwładnione}, a ich szybkość wynosi 0.</p><p>Zauroczenie mija, jeśli istota otrzyma obrażenia albo ktoś przeznaczy swoją akcję, by wyrwać ją z otępienia.</p>",
-            "materials": "Płonące kadzidełko albo kryształowa fiolka z fosforyzującą zawartością",
-            "effects": {
-                "Hypnotic Pattern": {
-                    "name": "Hipnotyczny wzór",
-                    "description": "<p>Stworzenie staje się zauroczone na czas działania czaru. Zauroczone istoty są traktowane jako obezwładnione, a ich szybkość wynosi 0.</p>"
-                }
-            }
+            "description": "<p>Stworzenie staje się zauroczone na czas działania czaru. Zauroczone istoty są traktowane jako obezwładnione, a ich szybkość wynosi 0.</p>"
         },
         "Ice Storm": {
             "name": "Burza lodu",
@@ -1404,14 +1095,7 @@
         },
         "Invisibility": {
             "name": "Niewidzialność",
-            "description": "<p>Istota, której dotykasz, staje się niewidzialna na czas trwania czaru. Całe jej wyposażenie i odzienie również jest niewidzialne, dopóki się na niej znajduje. Zaklęcie kończy się, gdy jego cel wykona atak lub rzuci czar.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 3. kręgu, za każdy krąg powyżej 2. możesz objąć zaklęciem dodatkową istotę.</p>",
-            "materials": "Rzęsa zatopiona w gumie arabskiej",
-            "effects": {
-                "Invisibility": {
-                    "name": "Niewidzialność",
-                    "description": "<p>Cel staje się niewidzialny na czas trwania czaru. Całe jej wyposażenie i odzienie również jest niewidzialne, dopóki się na niej znajduje. Zaklęcie kończy się, gdy jego cel wykona atak lub rzuci czar.</p>"
-                }
-            }
+            "description": "<p>Cel staje się niewidzialny na czas trwania czaru. Całe jej wyposażenie i odzienie również jest niewidzialne, dopóki się na niej znajduje. Zaklęcie kończy się, gdy jego cel wykona atak lub rzuci czar.</p>"
         },
         "Irresistible Dance": {
             "name": "Nieodparty taniec",
@@ -1419,19 +1103,7 @@
         },
         "Jump": {
             "name": "Skok",
-            "description": "<p>Dotykasz wybranej istoty. Odległość jej &reference[jumping]{skoku} zostaje potrojona na czas działania czaru.</p>",
-            "materials": "Tylna noga pasikonika",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Jump": {
-                    "name": "Skok",
-                    "description": "<p>Odległość twojego &reference[jumping]{skoku} zostaje potrojona na czas działania czaru.</p>"
-                }
-            }
+            "description": "<p>Odległość twojego &reference[jumping]{skoku} zostaje potrojona na czas działania czaru.</p>"
         },
         "Knock": {
             "name": "Kołatka",
@@ -1487,35 +1159,11 @@
         },
         "Longstrider": {
             "name": "Szybkonogi",
-            "description": "<p>Dotykasz wybranej istoty. Szybkość celu zwiększa się o 3 metry do momentu zakończenia czaru.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę.</p>",
-            "materials": "Szczypta pyłu",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Longstrider": {
-                    "name": "Szybkonogi",
-                    "description": "<p>Twoja szybkość zwiększa się o 3 metry do momentu zakończenia czaru.</p>"
-                }
-            }
+            "description": "<p>Twoja szybkość zwiększa się o 3 metry do momentu zakończenia czaru.</p>"
         },
         "Mage Armor": {
             "name": "Zbroja maga",
-            "description": "<p>Dotykasz przychylnej istoty, która nie nosi pancerza, i na czas trwania czaru otaczasz ją ochronną magiczną energią. KP celu przyjmuje wartość 13 + jego modyfikator ze Zręczności. Efekt mija, gdy cel założy zbroję lub gdy zakończysz czar w ramach swojej akcji.</p>",
-            "materials": "Kawałek wyprawionej skóry",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Mage Armor": {
-                    "name": "Zbroja maga",
-                    "description": "<p>Na czas trwania czaru otacza cię ochronna magiczna energia.</p><p>Twoje KP przyjmuje wartość 13 + modyfikator ze Zręczności. Efekt mija, gdy założysz zbroję lub gdy rzucający zakończy czar w ramach swojej akcji.</p>"
-                }
-            }
+            "description": "<p>Na czas trwania czaru otacza cię ochronna magiczna energia.</p><p>Twoje KP przyjmuje wartość 13 + modyfikator ze Zręczności. Efekt mija, gdy założysz zbroję lub gdy rzucający zakończy czar w ramach swojej akcji.</p>"
         },
         "Mage Hand": {
             "name": "Magiczna dłoń",
@@ -1579,6 +1227,18 @@
                     }
                 }
             }
+        },
+        "Magic Weapon, +1": {
+            "name": "Magiczna broń, +1",
+            "description": "<p>Ta broń staje się magiczną bronią z modyfikatorem +1 do ataku i obrażeń.</p>"
+        },
+        "Magic Weapon, +2": {
+            "name": "Magiczna broń, +2",
+            "description": "<p>Ta broń staje się magiczną bronią z modyfikatorem +2 do ataku i obrażeń.</p>"
+        },
+        "Magic Weapon, +3": {
+            "name": "Magiczna broń, +3",
+            "description": "<p>Ta broń staje się magiczną bronią z modyfikatorem +3 do ataku i obrażeń.</p>"
         },
         "Magnificent Mansion": {
             "name": "Wspaniała posiadłość",
@@ -1703,13 +1363,7 @@
         },
         "Phantasmal Killer": {
             "name": "Urojony zabójca",
-            "description": "<p>Czerpiesz wprost z koszmarów wybranej istoty, którą widzisz w zasięgu czaru, i tworzysz widoczne tylko dla niej iluzoryczne ucieleśnienie jej największych lęków. Cel musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia zostaje &Reference[Frightened]{przerażony} na czas trwania czaru. Pod koniec każdej swojej tury cel musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia otrzymuje 4k10 obrażeń psychicznych. Udany rzut oznacza wyzwolenie się spod działania zaklęcia.</p><p><strong>Na wyższych kręgach</strong>. Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 5. kręgu, za każdy krąg powyżej 4. zwiększasz zadawane obrażenia o 1k10.</p>",
-            "effects": {
-                "Phantasmal Killer": {
-                    "name": "Urojony zabójca",
-                    "description": "<p>Cel staje przerażony na czas działania czaru. Pod koniec każdej swojej tury cel musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia otrzymuje obrażenia psychiczne. Udany rzut oznacza wyzwolenie się spod działania zaklęcia.</p>"
-                }
-            }
+            "description": "<p>Cel staje przerażony na czas działania czaru. Pod koniec każdej swojej tury cel musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia otrzymuje obrażenia psychiczne. Udany rzut oznacza wyzwolenie się spod działania zaklęcia.</p>"
         },
         "Phantom Steed": {
             "name": "Widmowy wierzchowiec",
@@ -1743,14 +1397,7 @@
             }
         },
         "Polymorph": {
-            "name": "Polimorfia",
-            "description": "<p>Przy pomocy tego zaklęcia zmieniasz istotę, która widzisz w jego zasięgu i nadajesz jej nową formę. Istota opierająca się zaklęciu musi wykonać udany rzut obronny na Mądrość, by uniknąć tej zmiany. Zaklęcie nie działa na zmiennokształtnych ani istoty mające 0 Punktów Wytrzymałości.</p><p>Zmienna forma trwa, dopóki działa czar, a jego cel żyje i ma więcej niż 0 punktów wytrzymałości. Nową formą może być postać jakiejkolwiek bestii o stopniu wyzwania nie większym od SW polimorfowanej istoty (lub od jej poziomu, jeśli nie posiada ona stopnia wyzwania). Statystyki nowej formy, w tym cechy umysłowe, zostają zastąpione statystykami wybranej bestii. Zachowany zostaje tylko charakter i osobowość.</p><p>Polimorfowana istota przyjmuje punkty wytrzymałości swojej nowej formy. Gdy wraca do swojej naturalnej postaci, otrzymuje z powrotem liczbę punktów wytrzymałości posiadaną przed zmianą. Jeśli wróci do poprzedniej formy w wyniku otrzymania obrażeń, które spowodują wyczerpanie PW do 0, to pozostałe obrażenia otrzymuje jej naturalna forma. Dopóki te dodatkowe obrażenia nie obniżą PW naturalnej formy do 0, to istota pozostaje przytomna.</p><p>Akcje polimorfowanej istoty ograniczone są możliwościami jej nowej formy, a przy tym nie może mówić, rzucać zaklęć ani przeprowadzać innych akcji wymagających użycia rąk lub mowy.</p><p>Wyposażenie stapia się z nową formą i istota nie może go używać, aktywować, trzymać ani w inny sposób z niego korzystać.</p>",
-            "materials": "Kokon gąsienicy",
-            "effects": {
-                "Polymorph": {
-                    "name": "Polimorfia"
-                }
-            }
+            "name": "Polimorfia"
         },
         "Power Word Kill": {
             "name": "Słowo mocy Giń",
@@ -1758,13 +1405,7 @@
         },
         "Power Word Stun": {
             "name": "Słowo mocy Stój",
-            "description": "<p>Wypowiadasz słowo mocy przytłaczające umysł istoty, którą widzisz w zasięgu czaru, i wprawiające ją w osłupienie. Jeżeli cel ma do 150 punktów wytrzymałości, zostaje &Reference[Stunned]{ogłuszony}. W przeciwnym wypadku zaklęcie nie przynosi efektu.</p><p>Ogłuszona istota pod koniec każdej swojej tury wykonuje rzut obronny na Kondycję. Sukces wyzwala ją z efektu ogłuszenia.</p>",
-            "effects": {
-                "Power Word Stun": {
-                    "name": "Słowo mocy Stój",
-                    "description": "<p>Cel zostaje ogłuszony. Ogłuszona istota pod koniec każdej swojej tury wykonuje rzut obronny na Kondycję. Sukces wyzwala ją z efektu ogłuszenia.</p>"
-                }
-            }
+            "description": "<p>Cel zostaje ogłuszony. Ogłuszona istota pod koniec każdej swojej tury wykonuje rzut obronny na Kondycję. Sukces wyzwala ją z efektu ogłuszenia.</p>"
         },
         "Prayer of Healing": {
             "name": "Uzdrawiająca modlitwa",
@@ -1792,6 +1433,14 @@
                     "description": "<p>Cel zostaje oślepiony. Na początku następnej tury rzucającego musi wykonać rzut obronny na Mądrość. Sukces pozwala jej przełamać efekt oślepienia. Porażka w tym rzucie obronnym powoduje, że istota zostanie przeniesiona do innej sfery egzystencji i przestaje być oślepiona.</p>"
                 }
             }
+        },
+        "Prismatic Spray (indigo)": {
+            "name": "Pryzmatyczny rozprysk (indygo)",
+            "description": "<p>Cel zostaje unieruchomiony. Na końcu każdej swojej tury musi wykonywać rzut obronny na Kondycję. Jeśli odniesie trzy sukcesy, zaklęcie dobiega końca. Jeżeli wcześniej uzbiera trzy porażki, to na stałe zmienia się w głaz i jest skamieniała.</p>"
+        },
+        "Prismatic Spray (violet)": {
+            "name": "Pryzmatyczny rozprysk (fiolet)",
+            "description": "<p>Cel zostaje oślepiony. Na początku następnej tury rzucającego musi wykonać rzut obronny na Mądrość. Sukces pozwala jej przełamać efekt oślepienia. Porażka w tym rzucie obronnym powoduje, że istota zostanie przeniesiona do innej sfery egzystencji i przestaje być oślepiona.</p>"
         },
         "Prismatic Wall": {
             "name": "Pryzmatyczny mur",
@@ -1827,29 +1476,11 @@
         },
         "Protection from Evil and Good": {
             "name": "Ochrona przed dobrem i złem",
-            "description": "<p>Podczas trwania czaru jedna przychylna istota jest chroniona przed określonymi rodzajami stworzeń: czartami, fey, niebianami, nieumarłymi, wynaturzeniami i żywiołakami.</p><p>Ochrona zapewnia kilka korzyści. Istoty wymienionych typów mają utrudnienie w testach ataku przeciwko celowi zaklęcia. Jest on również niepodatny na &reference[charmed apply=false]{zauroczenie}, &reference[frightened apply=false]{przerażenie} lub opętanie przez te istoty. Jeśli podczas rzucania czaru był zauroczony, przerażony lub opętany przez jedną z takich istot, to ma ułatwienie w kolejnych rzutach obronnych przeciwko odpowiedniemu efektowi.</p>",
-            "materials": "(woda święcona albo sproszkowane srebro i żelazo, zużywane przez zaklęcie)",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Protection from Evil and Good": {
-                    "name": "Ochrona przed dobrem i złem",
-                    "description": "<p>Podczas trwania czaru jesteś chroniony przed określonymi rodzajami stworzeń: czartami, fey, niebianami, nieumarłymi, wynaturzeniami i żywiołakami.</p><p>Ochrona zapewnia ci kilka korzyści. Istoty wymienionych typów mają utrudnienie w testach ataku przeciwko tobie. Stajesz się również niepodatny na &reference[charmed apply=false]{zauroczenie}, &reference[frightened apply=false]{przerażenie} lub opętanie przez te istoty. Jeśli podczas rzucania czaru byłeś już zauroczony, przerażony lub opętany przez jedną z takich istot, to masz ułatwienie w kolejnych rzutach obronnych przeciwko odpowiedniemu efektowi.</p>"
-                }
-            }
+            "description": "<p>Podczas trwania czaru jesteś chroniony przed określonymi rodzajami stworzeń: czartami, fey, niebianami, nieumarłymi, wynaturzeniami i żywiołakami.</p><p>Ochrona zapewnia ci kilka korzyści. Istoty wymienionych typów mają utrudnienie w testach ataku przeciwko tobie. Stajesz się również niepodatny na &reference[charmed apply=false]{zauroczenie}, &reference[frightened apply=false]{przerażenie} lub opętanie przez te istoty. Jeśli podczas rzucania czaru byłeś już zauroczony, przerażony lub opętany przez jedną z takich istot, to masz ułatwienie w kolejnych rzutach obronnych przeciwko odpowiedniemu efektowi.</p>"
         },
         "Protection from Poison": {
             "name": "Ochrona przed trucizną",
-            "description": "<p>Dotykasz wybranej istoty. Jeśli było zatrute, neutralizujesz truciznę. Jeśli działających na stworzenie trucizn jest więcej, neutralizujesz jedną, którą potrafisz zidentyfikować, albo jedną ustaloną losowo.</p><p>Podczas trwania czaru cel ma ułatwienie w rzutach obronnych przeciw &Reference[poisoned]{zatruciu} oraz odporność na obrażenia od trucizny.</p>",
-            "effects": {
-                "Protection from Poison": {
-                    "name": "Ochrona przed trucizną",
-                    "description": "<p>Podczas trwania czaru cel ma ułatwienie w rzutach obronnych przeciw truciznom oraz odporność na obrażenia od trucizny.</p>"
-                }
-            }
+            "description": "<p>Podczas trwania czaru cel ma ułatwienie w rzutach obronnych przeciw truciznom oraz odporność na obrażenia od trucizny.</p>"
         },
         "Purify Food and Drink": {
             "name": "Oczyszczenie jadła i napoju",
@@ -1905,19 +1536,7 @@
         },
         "Resistance": {
             "name": "Odporność",
-            "description": "<p>Dotykasz przychylnej istoty. Póki zaklęcie trwa, może ona rzucić jeden raz k4 i dodać otrzymany wynik do wybranego rzutu obronnego. Dodatkową kością można rzucić przed rzutem obronnym lub po nim. Kiedy to zrobi, zaklęcie dobiega końca.</p>",
-            "materials": "Miniaturowa peleryna",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Resistance": {
-                    "name": "Odporność",
-                    "description": "<p>Póki zaklęcie trwa, możesz rzucić jeden raz [[/r d4]]{k4} i dodać otrzymany wynik do wybranego rzutu obronnego. Dodatkową kością można rzucić przed rzutem obronnym lub po nim. Kiedy to zrobisz, zaklęcie dobiega końca.</p>"
-                }
-            }
+            "description": "<p>Póki zaklęcie trwa, możesz rzucić jeden raz [[/r d4]]{k4} i dodać otrzymany wynik do wybranego rzutu obronnego. Dodatkową kością można rzucić przed rzutem obronnym lub po nim. Kiedy to zrobisz, zaklęcie dobiega końca.</p>"
         },
         "Resurrection": {
             "name": "Zmartwychwstanie",
@@ -1950,23 +1569,7 @@
         },
         "Sanctuary": {
             "name": "Sanktuarium",
-            "description": "<p>Osłaniasz przed atakiem istotę znajdującą się w zasięgu. Do końca trwania czaru każde stworzenie chcące ją zaatakować lub rzucić na nią wyrządzający krzywdę czar musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia musi wybrać inny cel albo utracić ten atak lub czar. Sanktuarium nie chroni przed efektami obszarowymi, takimi jak eksplozja @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{kuli ognia}.</p><p>Czar kończy się, kiedy ochraniana istota wykona atak, rzuci zaklęcie obejmujące działaniem przeciwnika lub zada obrażenia innemu stworzeniu.</p>",
-            "materials": "Małe srebrne lusterko",
-            "activities": {
-                "Ward Save": {
-                    "name": "Rzut obronny przy ataku na chronioną istotę",
-                    "condition": "Kiedy stworzenie chce cię zaatakować lub rzucić na ciebie wyrządzający krzywdę czar."
-                },
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Sanctuary": {
-                    "name": "Sanktuarium",
-                    "description": "<p>Zostajesz osłonięty przed atakiem. Do końca trwania czaru każde stworzenie chcące cię zaatakować lub rzucić na ciebie wyrządzający krzywdę czar musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia musi wybrać inny cel albo utracić ten atak lub czar. Ten czar nie chroni przed efektami obszarowymi, takimi jak eksplozja @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{kuli ognia}.</p><p>Czar kończy się, kiedy wykonasz atak, rzucisz zaklęcie obejmujące działaniem przeciwnika lub zadasz obrażenia innemu stworzeniu.</p>"
-                }
-            }
+            "description": "<p>Zostajesz osłonięty przed atakiem. Do końca trwania czaru każde stworzenie chcące cię zaatakować lub rzucić na ciebie wyrządzający krzywdę czar musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia musi wybrać inny cel albo utracić ten atak lub czar. Ten czar nie chroni przed efektami obszarowymi, takimi jak eksplozja @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{kuli ognia}.</p><p>Czar kończy się, kiedy wykonasz atak, rzucisz zaklęcie obejmujące działaniem przeciwnika lub zadasz obrażenia innemu stworzeniu.</p>"
         },
         "Scorching Ray": {
             "name": "Wypalający promień",
@@ -2013,71 +1616,19 @@
         },
         "Shield": {
             "name": "Tarcza",
-            "description": "<p>Pojawia się przy tobie chroniąca cię bariera magicznej mocy. Do rozpoczęcia swojej następnej tury masz premię +5 do KP, również przeciwko atakowi, na który reagujesz, oraz nie otrzymujesz obrażeń od @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{magicznego pocisku}.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Shield": {
-                    "name": "Tarcza",
-                    "description": "<p>Do rozpoczęcia swojej następnej tury masz premię +5 do KP, również przeciwko atakowi, na który reagujesz, oraz nie otrzymujesz obrażeń od @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{magicznego pocisku}.</p>"
-                }
-            }
+            "description": "<p>Do rozpoczęcia swojej następnej tury masz premię +5 do KP, również przeciwko atakowi, na który reagujesz, oraz nie otrzymujesz obrażeń od @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{magicznego pocisku}.</p>"
         },
         "Shield of Faith": {
             "name": "Tarcza wiary",
-            "description": "<p>Wybraną przez ciebie istotę w zasięgu czaru otacza migocząca osłona, które zapewnia jej +2 do KP na czas trwania zaklęcia.</p>",
-            "materials": "Niewielki pergamin z fragmentem świętego tekstu.",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Shield of Faith": {
-                    "name": "Tarcza wiary",
-                    "description": "<p>Otacza cię migocząca osłona, które zapewnia ci +2 do KP na czas trwania zaklęcia.</p>"
-                }
-            }
+            "description": "<p>Otacza cię migocząca osłona, które zapewnia ci +2 do KP na czas trwania zaklęcia.</p>"
         },
         "Shillelagh": {
             "name": "Shillelagh",
-            "description": "<p>Drewno drąga lub pałki napełnia się w twoich rękach mocą natury. Podczas działania czaru w testach ataku tą bronią i przy zadawaniu nią obrażeń możesz zamiast Siły użyć swojej cechy bazowej, a kość obrażeń zamieniasz na k8. Broń staje się też magiczna, jeśli wcześniej nie była. Czar wygasa, kiedy rzucisz go ponownie albo gdy wypuścisz zaklętą broń z rąk.</p>",
-            "materials": "Liść koniczyny i pałka lub drąg",
-            "activities": {
-                "Imbue Weapon": {
-                    "name": "Nasycenie broni"
-                },
-                "Spellcasting Attack": {
-                    "name": "Atak czarem"
-                }
-            },
-            "effects": {
-                "Shillelagh": {
-                    "name": "Shillelagh",
-                    "description": "<p>Podczas działania czaru w testach ataku tą bronią i przy zadawaniu nią obrażeń możesz zamiast Siły użyć swojej cechy bazowej, a kość obrażeń zamieniasz na k8. Broń staje się też magiczna, jeśli wcześniej nie była. Czar wygasa, kiedy rzucisz go ponownie albo gdy wypuścisz zaklętą broń z rąk.</p>",
-                    "changes": {
-                        "name": ", Shillelagh"
-                    }
-                }
-            }
+            "description": "<p>Podczas działania czaru w testach ataku tą bronią i przy zadawaniu nią obrażeń możesz zamiast Siły użyć swojej cechy bazowej, a kość obrażeń zamieniasz na k8. Broń staje się też magiczna, jeśli wcześniej nie była. Czar wygasa, kiedy rzucisz go ponownie albo gdy wypuścisz zaklętą broń z rąk.</p>"
         },
         "Shocking Grasp": {
             "name": "Porażający uścisk",
-            "description": "<p>Z twojej dłoni wyskakuje błyskawica porażająca istotę, której uda ci się dotknąć. Wykonaj atak wręcz czarem przeciwko wybranemu celowi. Jeśli nosi on metalową zbroję, masz ułatwienie w tym teście. Przy trafieniu cel otrzymuje 1k8 obrażeń od elektryczności i do początku swojej następnej tury nie może wykonać reakcji.</p><p>Obrażenia z tego zaklęcia zwiększają się o 1k8, gdy osiągniesz 5. poziom (do 2k8), 11. poziom (do 3k8) i 17. poziom (do 4k8).</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Shocking Grasp": {
-                    "name": "Porażający uścisk",
-                    "description": "<p>Nie możesz podejmować reakcji aż do początku twojej następnej tury.</p>"
-                }
-            }
+            "description": "<p>Nie możesz podejmować reakcji aż do początku twojej następnej tury.</p>"
         },
         "Silence": {
             "name": "Cisza",
@@ -2103,20 +1654,7 @@
         },
         "Sleep": {
             "name": "Uśpienie",
-            "description": "<p>To zaklęcie powoduje, że stworzenia zapadają w magiczny sen. Rzuć 5k8, by określić łączną pulę punktów wytrzymałości stworzeń, które obejmie to zaklęcie. Czar działa na istoty znajdujące się w obrębie 6 metrów od wskazanego punktu w zasięgu, w kolejności rosnącej według aktualnie posiadanych PW (z pominięciem istot nieprzytomnych).</p><p>Poczynając od istoty mającej najmniej aktualnych punktów wytrzymałości, wszystkie kolejne objęte tym czarem padają &Reference[unconscious]{nieprzytomne} i śpią do momentu wygaśnięcia czaru, otrzymania obrażeń albo bądź do chwili, w której ktoś przeznaczy swoją akcję na obudzenie ich potrząśnięciem lub uderzeniem. Odejmuj od puli PW każdej objętej już istoty przed przejściem do kolejnej. Aby czar zadziałał na kolejną istotę, jej aktualne PW muszą mieścić się w pozostałej jeszcze puli punktów.</p><p>Zaklęcie to nie działa na nieumarłych i stworzenia niepodatne na zauroczenie.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. rzucasz dodatkowe 2k8 przy określaniu puli PW objętych czarem.</p>",
-            "materials": "Szczypta drobnego piasku, płatki róż lub świerszcz.",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar",
-                    "roll": "PW objęte efektem"
-                }
-            },
-            "effects": {
-                "Sleep": {
-                    "name": "Uśpienie",
-                    "description": "<p>Padasz &reference[Unconscious apply=false]{nieprzytomny}, dopóki zaklęcie się nie skończy, nie otrzymasz obrażeń lub ktoś nie użyje akcji, aby tobą potrząsnąć lub uderzyć, abyś się obudził.</p>"
-                }
-            }
+            "description": "<p>Padasz &reference[Unconscious apply=false]{nieprzytomny}, dopóki zaklęcie się nie skończy, nie otrzymasz obrażeń lub ktoś nie użyje akcji, aby tobą potrząsnąć lub uderzyć, abyś się obudził.</p>"
         },
         "Sleet Storm": {
             "name": "Śnieżyca",
@@ -2125,14 +1663,7 @@
         },
         "Slow": {
             "name": "Spowolnienie",
-            "description": "<p>Zniekształcasz czas wokół maksymalnie 6 wybranych istot znajdujących się na obszarze w kształcie sześcianu o boku 12 metrów i w zasięgu czaru. Każda z nich musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia zostanie objęta działaniem czaru na czas jego trwania.</p><p>Szybkość istoty objętej czarem zostaje zmniejszona o połowę. Otrzymuje ona także modyfikator -2 do KP i rzutów obronnych na Zręczność, nie może też używać reakcji. W swojej turze może jedynie wykonać akcję albo akcję dodatkową, nigdy obie. Niezależnie od swoich zdolności lub posiadanych magicznych przedmiotów nie może w swojej turze wykonać więcej niż jednego ataku wręcz lub dystansowego.</p><p>Jeżeli spowolniona istota próbuje rzucić zaklęcie, którego czas rzucania wynosi jedną akcję, rzuć k20. Wynik powyżej 10 oznacza, że zaklęcie nie przynosi efektu aż do następnej tury rzucającego, w której musi on je dokończyć. Jeśli tego nie zrobi, to zaklęcie zostaje zmarnowane.</p><p>Istota objęta działaniem tego czaru pod koniec każdej ze swoich tur ponawia rzut obronny na Mądrość. Sukces uwalniają spod działania czaru.</p>",
-            "materials": "Kropla melasy",
-            "effects": {
-                "Slow": {
-                    "name": "Spowolnienie",
-                    "description": "<p>Szybkość istoty objętej czarem zostaje zmniejszona o połowę. Otrzymuje ona także modyfikator -2 do KP i rzutów obronnych na Zręczność, nie może też używać reakcji. W swojej turze może jedynie wykonać akcję albo akcję dodatkową, nigdy obie. Niezależnie od swoich zdolności lub posiadanych magicznych przedmiotów nie może w swojej turze wykonać więcej niż jednego ataku wręcz lub dystansowego.</p>"
-                }
-            }
+            "description": "<p>Szybkość istoty objętej czarem zostaje zmniejszona o połowę. Otrzymuje ona także modyfikator -2 do KP i rzutów obronnych na Zręczność, nie może też używać reakcji. W swojej turze może jedynie wykonać akcję albo akcję dodatkową, nigdy obie. Niezależnie od swoich zdolności lub posiadanych magicznych przedmiotów nie może w swojej turze wykonać więcej niż jednego ataku wręcz lub dystansowego.</p>"
         },
         "Spare the Dying": {
             "name": "Powstrzymanie śmierci",
@@ -2145,18 +1676,7 @@
         },
         "Speak with Animals": {
             "name": "Rozmawianie ze zwierzętami",
-            "description": "<p>Na czas trwania czaru zyskujesz zdolność rozumienia bestii i słownej komunikacji z nimi. Wiedza i świadomość wielu zwierząt jest ograniczona ich poziomem Inteligencji, ale w najgorszym przypadku możesz od nich zdobyć informacje o pobliskich miejscach i potworach, włącz informacje o tym, co zwierzę postrzega obecnie lub czego doświadczyło poprzedniego dnia. Za zgodą MP możesz nakłonić zwierzę do wyświadczenia ci niewielkiej przysługi.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Speak with Animals": {
-                    "name": "Rozmawianie ze zwierzętami",
-                    "description": "<p>Na czas trwania czaru zyskujesz zdolność rozumienia bestii i słownej komunikacji z nimi. Wiedza i świadomość wielu zwierząt jest ograniczona ich poziomem Inteligencji, ale w najgorszym przypadku możesz od nich zdobyć informacje o pobliskich miejscach i potworach, włącz informacje o tym, co zwierzę postrzega obecnie lub czego doświadczyło poprzedniego dnia. Za zgodą MP możesz nakłonić zwierzę do wyświadczenia ci niewielkiej przysługi.</p>"
-                }
-            }
+            "description": "<p>Na czas trwania czaru zyskujesz zdolność rozumienia bestii i słownej komunikacji z nimi. Wiedza i świadomość wielu zwierząt jest ograniczona ich poziomem Inteligencji, ale w najgorszym przypadku możesz od nich zdobyć informacje o pobliskich miejscach i potworach, włącz informacje o tym, co zwierzę postrzega obecnie lub czego doświadczyło poprzedniego dnia. Za zgodą MP możesz nakłonić zwierzę do wyświadczenia ci niewielkiej przysługi.</p>"
         },
         "Speak with Dead": {
             "name": "Rozmawianie z umarłymi",
@@ -2168,14 +1688,7 @@
             "description": "<p>Budzisz ograniczoną świadomość w roślinach znajdujących się do 9 metrów od ciebie, obdarzając je zdolnością porozumiewania się z tobą i wypełnienia twoich prostych poleceń. Możesz pytać rośliny o wydarzenia, które miały miejsce w obrębie czaru w ciągu minionego dnia, i zdobywać informacje o przechodzących zwierzętach, pogodzie i innych zaistniałych okolicznościach.</p><p>Możesz również na czas działania czaru zmienić trudny teren spowodowany roślinnością (na przykład zarośla lub gęste podszycie) w zwyczajny teren albo odwrotnie zmienić zwykły teren, jeśli występują na nim rośliny, w trudny teren, na którym pnącza i gałęzie spowalniają ruch.</p><p>Za zgodą MP rośliny mogą być w stanie wykonać dla ciebie inne zadania. Zaklęcie nie umożliwia im wyciągnięcia z ziemi korzeni i przemieszczania się, ale mogą one swobodnie poruszać gałęziami, łodygami i pnączami.</p><p>Jeśli na obszarze zaklęcia znajduje się istota typu roślinnego, to możesz się z nią porozumiewać tak, jakbyście znali ten sam język, ale nie wywierasz na nią żadnego magicznego wpływu.</p><p>Przy pomocy tego zaklęcia możesz spowodować, że rośliny stworzone oplątaniem uwolnią uwięzioną istotę.</p>"
         },
         "Spider Climb": {
-            "name": "Pajęcza wspinaczka",
-            "description": "<p>Przychylna dotknięta przez ciebie istota zyskuje do końca trwania czaru zdolność poruszania się w górę, w dół i w poprzek pionowych powierzchni oraz chodzenia po suficie do góry nogami. Cel zaklęcia zachowuje przy tym wolne ręce, a jego szybkość wspinania się jest równa jego szybkości chodzenia.</p>",
-            "materials": "Kropla smoły i pająk",
-            "effects": {
-                "Spider Climb": {
-                    "name": "Pajęcza wspinaczka"
-                }
-            }
+            "name": "Pajęcza wspinaczka"
         },
         "Spike Growth": {
             "name": "Wzrost kolców",
@@ -2203,14 +1716,7 @@
         },
         "Stoneskin": {
             "name": "Kamienna skóra",
-            "description": "<p>Zaklęciem tym sprawiasz, że ciało dotkniętego przychylnego stworzenia staje się twarde jak głaz. Do końca trwania czaru jego cel jest odporny na niemagiczne obrażenia cięte, kłute i obuchowe.</p>",
-            "materials": "Diamentowy pył o wartości 100 sz, zużywany przez zaklęcie",
-            "effects": {
-                "Stoneskin": {
-                    "name": "Kamienna skóra",
-                    "description": "<p>Cel jest odporny na niemagiczne obrażenia cięte, kłute i obuchowe.</p>"
-                }
-            }
+            "description": "<p>Cel jest odporny na niemagiczne obrażenia cięte, kłute i obuchowe.</p>"
         },
         "Storm of Vengeance": {
             "name": "Burza zemsty",
@@ -2253,6 +1759,22 @@
                     "description": "<p>W przypadku niepowodzenia w rzucie obronnym cel staje się ogłuszony na 1 minutę.</p>"
                 }
             }
+        },
+        "Symbol (fear)": {
+            "name": "Symbol (strach)",
+            "description": "<p>W przypadku niepowodzenia w rzucie obronnym cel staje się przerażony na 1 minutę. Przerażona istota upuszcza trzymane przedmioty i w każdej swojej turze, jeśli może, musi oddalić się od glifu co najmniej o 9 metrów.</p>"
+        },
+        "Symbol (pain)": {
+            "name": "Symbol (ból)",
+            "description": "<p>W przypadku niepowodzenia w rzucie obronnym cel staje się obezwładniony na 1 minutę z powodu przeszywającego bólu.</p>"
+        },
+        "Symbol (sleep)": {
+            "name": "Symbol (uśpienie)",
+            "description": "<p>W przypadku niepowodzenia w rzucie obronnym cel pada nieprzytomny na 10 minut. Ocknie się wcześniej, jeśli otrzyma obrażenia albo ktoś użyje swojej akcji, by ją obudzić potrząśnięciem lub uderzeniem.</p>"
+        },
+        "Symbol (stunning)": {
+            "name": "Symbol (ogłuszenie)",
+            "description": "<p>W przypadku niepowodzenia w rzucie obronnym cel staje się ogłuszony na 1 minutę.</p>"
         },
         "Telekinesis": {
             "name": "Telekineza",
@@ -2329,18 +1851,7 @@
         },
         "True Strike": {
             "name": "Prawdziwe uderzenie",
-            "description": "<p>Wyciągasz dłoń, wskazując palcem cel w zasięgu czaru. Twoja magia umożliwia ci krótki wgląd w jego obronę. W swojej następnej turze masz ułatwienie w pierwszym teście ataku przeciw niemu, zakładając, że w międzyczasie czar nie dobiegł końca.</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "True Strike": {
-                    "name": "Prawdziwe uderzenie",
-                    "description": "<p>Rzucający ma ułatwienie w pierwszym teście ataku wykonanym przeciwko tobie.</p>"
-                }
-            }
+            "description": "<p>Rzucający ma ułatwienie w pierwszym teście ataku wykonanym przeciwko tobie.</p>"
         },
         "Unseen Servant": {
             "name": "Niewidoczny sługa",
@@ -2361,18 +1872,7 @@
         },
         "Vicious Mockery": {
             "name": "Zjadliwe szyderstwo",
-            "description": "<p>Wyrzucasz z siebie litanię obelg przeplecionych subtelną magią uroków i wysyłasz ją w stronę istoty, którą widzisz w zasięgu czaru. Jeżeli cel cię słyszy (choć nie musi cię rozumieć), musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia otrzymuje 1k4 obrażeń psychicznych i ma utrudnienie w następnym teście ataku wykonanym przed końcem swojej następnej tury.</p><p>Obrażenia z tego zaklęcia zwiększają się o lk4, gdy osiągniesz 5. poziom (do 2k4), 11. poziom (do 3k4) i 17. poziom (do 4k4).</p>",
-            "activities": {
-                "Cast": {
-                    "name": "Rzuć czar"
-                }
-            },
-            "effects": {
-                "Vicious Mockery": {
-                    "name": "Zjadliwe szyderstwo",
-                    "description": "<p>Masz utrudnienie w następnym teście ataku przed końcem twojej następnej tury.</p>"
-                }
-            }
+            "description": "<p>Masz utrudnienie w następnym teście ataku przed końcem twojej następnej tury.</p>"
         },
         "Wall of Fire": {
             "name": "Ściana ognia",
@@ -2403,6 +1903,10 @@
             "name": "Ochronna więź",
             "description": "<p>To zaklęcie chroni dotkniętą przychylną istotę i tworzy magiczną więź między nią a tobą na czas trwania czaru. Póki istota przebywa w obrębie 18 metrów od ciebie, ma modyfikator +1 do KP i rzutów obronnych oraz odporność na wszystkie rodzaje obrażeń. Ponadto za każdym razem, gdy otrzymuje obrażenia, ty otrzymujesz takie same.</p><p>Gdy twoje punkty wytrzymałości spadną do 0 albo gdy oddalicie się od siebie na więcej niż 18 metrów, zaklęcie wygasa. Zakończy się również wtedy, kiedy rzucisz je ponownie na którąkolwiek z połączonych istot. Możesz także zakończyć działanie czaru w ramach swojej akcji.</p>",
             "materials": "Para platynowych pierścieni o wartości co najmniej 50 sz każdy, które ty i cel czaru musicie nosić przez czas jego trwania"
+        },
+        "Warm Shield": {
+            "name": "Ciepła tarcza",
+            "description": "<p>Ciepła tarcza zapewnia odporność na obrażenia od zimna.</p>"
         },
         "Water Breathing": {
             "name": "Oddychanie pod wodą",
@@ -2445,5 +1949,17 @@
             "name": "Strefa prawdy",
             "description": "<p>Tworzysz magiczną strefę chroniącą przed fałszem na obszarze w kształcie sfery o promieniu 4. 5 metra, z punktem wyjścia wskazanym w zasięgu czaru. Do końca działania zaklęcia stworzenie wchodzące w jego obszar po raz pierwszy w swojej turze lub rozpoczynające w nim swoją turę musi wykonać rzut obronny na Charyzmę. W przypadku niepowodzenia nie może umyślnie skłamać póki pozostaje w obszarze działania zaklęcia. Zdajesz sobie sprawę, czy stworzenie zdało ten test czy nie.</p>\n        <p>Objęta czarem istota jest świadoma działania tego zaklęcia i może unikać odpowiedzi na pytanie, na które normalnie odpowiedziałaby kłamstwem. Może też udzielać wymijających odpowiedzi, jeśli mieszczą się w granicach prawdy.</p>"
         }
+    },
+    "folders": {
+        "1st Level": "1. krąg",
+        "2nd Level": "2. krąg",
+        "3rd Level": "3. krąg",
+        "4th Level": "4. krąg",
+        "5th Level": "5. krąg",
+        "6th Level": "6. krąg",
+        "7th Level": "7. krąg",
+        "8th Level": "8. krąg",
+        "9th Level": "9. krąg",
+        "Cantrip": "Sztuczka"
     }
 }
