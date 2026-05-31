@@ -2,10 +2,38 @@
     "label": "Pochodzenie (SRD)",
     "mapping": {
         "description": "system.description.value",
+        "requirements": "system.requirements",
         "materials": "system.materials.value",
+        "chat": "system.description.chat",
         "activities": {
             "path": "system.activities",
-            "converter": "activities"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "name",
+                "type"
+            ],
+            "mapping": {
+                "name": "name",
+                "condition": "activation.condition",
+                "chatFlavor": "description.chatFlavor",
+                "duration": "duration.special",
+                "roll": "roll.name",
+                "range": {
+                    "path": "range",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "target",
+                    "converter": "imperialToMetric"
+                },
+                "profiles": {
+                    "path": "profiles",
+                    "converter": "nameCollection"
+                }
+            }
         },
         "effects": {
             "path": "effects",
@@ -13,7 +41,61 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "advancement"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "title"
+            ],
+            "mapping": {
+                "title": "title",
+                "hint": "hint",
+                "_variants": [
+                    {
+                        "_when": {
+                            "path": "type",
+                            "equals": "ScaleValue"
+                        },
+                        "distance": {
+                            "path": "configuration.distance",
+                            "converter": "imperialToMetric"
+                        },
+                        "scale": {
+                            "path": "configuration.scale",
+                            "converter": "imperialToMetric"
+                        }
+                    }
+                ]
+            }
+        },
+        "movement": {
+            "path": "system.movement",
+            "converter": "imperialToMetric"
+        },
+        "weight": {
+            "path": "system.weight",
+            "converter": "imperialToMetric"
+        },
+        "range": {
+            "path": "system.range",
+            "converter": "imperialToMetric"
+        },
+        "capacityWeight": {
+            "path": "system.capacity.weight",
+            "converter": "imperialToMetric"
+        },
+        "senses": {
+            "path": "system.senses",
+            "converter": "imperialToMetric"
+        },
+        "target": {
+            "path": "system.target",
+            "converter": "imperialToMetric"
+        },
+        "volume": {
+            "path": "system.capacity.volume",
+            "converter": "imperialToMetric"
         }
     },
     "entries": {
@@ -31,7 +113,8 @@
         },
         "Shelter of the Faithful": {
             "name": "Schronienie dla wiernych",
-            "description": "<p>Jako akolita wzbudzasz szacunek osób podzielających twoją wiarę i możesz przeprowadzać ceremonie religijne poświęcone swojemu bóstwu. Wraz z towarzyszami możesz liczyć na darmowe leczenie i opiekę w świątyni, kaplicy albo innym miejscu kultu twojej religii. Choć musicie dostarczyć wszelkie komponenty materialne potrzebne do rzucenia czarów. Osoby podzielające twoją wiarę zapewnią ci życie na skromnym poziomie (ale tylko tobie).</p>\n<p>Możesz też być powiązany z konkretną świątynią poświęconą wybranemu bóstwu lub panteonowi i mieszkać w kompleksie świątynnym. Może to być ta świątynia, w której dotychczas służyłeś. Jeżeli utrzymujesz z nią przyjazne stosunki, albo świątynia, w której znalazłeś nowy dom. Gdy znajdujesz się w pobliżu możesz wezwać na pomoc kapłanów, jeśli wsparcie, o które prosisz nie jest ryzykowne, a ty cieszysz się przyjazną relacją z duchownymi.</p>"
+            "description": "<p>Jako akolita wzbudzasz szacunek osób podzielających twoją wiarę i możesz przeprowadzać ceremonie religijne poświęcone swojemu bóstwu. Wraz z towarzyszami możesz liczyć na darmowe leczenie i opiekę w świątyni, kaplicy albo innym miejscu kultu twojej religii. Choć musicie dostarczyć wszelkie komponenty materialne potrzebne do rzucenia czarów. Osoby podzielające twoją wiarę zapewnią ci życie na skromnym poziomie (ale tylko tobie).</p>\n<p>Możesz też być powiązany z konkretną świątynią poświęconą wybranemu bóstwu lub panteonowi i mieszkać w kompleksie świątynnym. Może to być ta świątynia, w której dotychczas służyłeś. Jeżeli utrzymujesz z nią przyjazne stosunki, albo świątynia, w której znalazłeś nowy dom. Gdy znajdujesz się w pobliżu możesz wezwać na pomoc kapłanów, jeśli wsparcie, o które prosisz nie jest ryzykowne, a ty cieszysz się przyjazną relacją z duchownymi.</p>",
+            "requirements": "Akolita"
         }
     },
     "folders": {
