@@ -1,4 +1,16 @@
 {
+"COMMON": {
+  "AreYouSure": "Jesteś pewien?",
+  "Cancel": "Anuluj",
+  "Confirm": "Potwierdź",
+  "Default": "Domyślny",
+  "Delete": "Usuń",
+  "No": "Nie",
+  "None": "Brak",
+  "Unknown": "Nieznany",
+  "Yes": "Tak"
+},
+
 "DOCUMENT.DND5E": {
   "Activity": "Aktywność",
   "Advancement": "Awans",

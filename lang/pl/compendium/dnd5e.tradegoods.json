@@ -1,5 +1,5 @@
 {
-    "label": "Towary handlowe (SRD)",
+    "label": "Towary handlowe",
     "mapping": {
         "description": {
             "path": "system.description.value",

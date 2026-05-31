@@ -22,23 +22,6 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "Dragonborn": "Drakon",
-        "Dragonborn Features": "Cechy rasowe drakonów",
-        "Dwarf": "Krasnolud",
-        "Dwarf Features": "Cechy rasowe krasnoludów",
-        "Elf": "Elf",
-        "Elf Features": "Cechy rasowe elfów",
-        "Gnome": "Gnom",
-        "Gnome Features": "Cechy rasowe gnomów",
-        "Halfling": "Niziołczy",
-        "Halfling Features": "Cechy rasowe niziołków",
-        "Human": "Człowiek",
-        "Orc": "Ork",
-        "Orc Features": "Cechy rasowe orków",
-        "Tiefling": "Diabelstwo",
-        "Tiefling Features": "Cechy rasowe diabelstw"
-    },
     "entries": {
         "Artificer's Lore": {
             "name": "Mądrość wynalazcy",
@@ -144,13 +127,7 @@
             }
         },
         "Halfling Nimbleness": {
-            "name": "Zwinność niziołka",
-            "description": "<p>Możesz przemieścić się przez pole zajmowane przez inną istotę, która jest większego rozmiaru niż ty.</p>",
-            "effects": {
-                "Halfling Nimbleness": {
-                    "name": "Zwinność niziołka"
-                }
-            }
+            "name": "Zwinność niziołka"
         },
         "Hellish Resistance": {
             "name": "Piekielna odporność",
@@ -245,13 +222,7 @@
             }
         },
         "Savage Attacks": {
-            "name": "Brutalne ataki",
-            "description": "<p>Kiedy trafiasz krytycznie atakiem wręcz bronią, możesz dodatkowo rzucić jedną kostką obrażeń właściwą dla używanej broni i dodać jej wynik do dodatkowych obrażeń wynikających z trafienia krytycznego.</p>",
-            "effects": {
-                "Savage Attacks": {
-                    "name": "Brutalne ataki"
-                }
-            }
+            "name": "Brutalne ataki"
         },
         "Stonecunning": {
             "name": "Wiedza o kamieniu",
@@ -285,5 +256,22 @@
             "name": "Trans",
             "description": "<p>Elfy nie potrzebują snu. Zamiast tego pogrążają się na cztery godzinny dziennie w głębokiej medytacji. (Określeniem na ten stan jest w języku wspólnym słowo 'trans'). Medytując, możesz mieć swego rodzaju sny. Naprawdę są to jednak ćwiczenia umysłowe, które po latach stały się czymś odruchowym. Trans zapewnia ci te same korzyści, co 8 godzin snu w przypadku człowieka.</p>"
         }
+    },
+    "folders": {
+        "Dragonborn": "Drakon",
+        "Dragonborn Features": "Cechy rasowe drakonów",
+        "Dwarf": "Krasnolud",
+        "Dwarf Features": "Cechy rasowe krasnoludów",
+        "Elf": "Elf",
+        "Elf Features": "Cechy rasowe elfów",
+        "Gnome": "Gnom",
+        "Gnome Features": "Cechy rasowe gnomów",
+        "Halfling": "Niziołczy",
+        "Halfling Features": "Cechy rasowe niziołków",
+        "Human": "Człowiek",
+        "Orc": "Ork",
+        "Orc Features": "Cechy rasowe orków",
+        "Tiefling": "Diabelstwo",
+        "Tiefling Features": "Cechy rasowe diabelstw"
     }
 }

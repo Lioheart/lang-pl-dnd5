@@ -22,20 +22,6 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "Backgrounds": "Pochodzenia",
-        "Dragonborn": "Drakon",
-        "Dwarf": "Krasnolud",
-        "Elf": "Elf",
-        "Gnome": "Gnom",
-        "Goliath": "Goliat",
-        "Halfling": "Nizołek",
-        "Human": "Człowiek",
-        "Orc": "Ork",
-        "Species": "Gatunki",
-        "Tiefling": "Diabelstwo",
-        "Traits": "Cechy"
-    },
     "entries": {
         "Acolyte": {
             "name": "Akolita",
@@ -84,6 +70,9 @@
                 }
             }
         },
+        "Chilled": {
+            "name": "Oziębiony"
+        },
         "Cloud's Jaunt": {
             "name": "Wędrówka chmur",
             "description": "<p>Akcją dodatkową możesz magicznie teleportować się na odległość do 30 stóp do niezajętej przestrzeni, którą widzisz.</p>",
@@ -117,18 +106,7 @@
             }
         },
         "Draconic Flight": {
-            "name": "Smoczy lot",
-            "description": "<p>Gdy osiągniesz 5. poziom postaci, możesz skupić smoczą magię, aby tymczasowo zyskać zdolność lotu. Jako Akcję Dodatkową z twoich pleców wyrastają widmowe skrzydła, które utrzymują się przez 10 minut lub do momentu, gdy je cofniesz (nie wymaga to akcji) albo gdy uzyskasz stan Obezwładniony. W tym czasie masz Szybkość Lotu równą twojej Szybkości. Twoje skrzydła wydają się być stworzone z tej samej energii, co twój Breath Weapon. Po użyciu tej cechy nie możesz jej użyć ponownie, dopóki nie zakończysz Długiego Odpoczynku.</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Ta cecha zawiera Efekt Aktywny do śledzenia, ale nie przyznaje automatycznie Szybkości Lotu.</p></section>",
-            "activities": {
-                "Draconic Flight": {
-                    "name": "Smoczy lot"
-                }
-            },
-            "effects": {
-                "Draconic Flight": {
-                    "name": "Smoczy lot"
-                }
-            }
+            "name": "Smoczy lot"
         },
         "Dragonborn": {
             "name": "Drakon",
@@ -173,13 +151,7 @@
             "description": "<p>Masz Odporność na obrażenia od trucizn. Masz także Ułatwienie do rzutów obronnych wykonywanych w celu uniknięcia lub zakończenia stanu Zatruty.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Automatycznie otrzymasz Odporność na obrażenia od trucizn, ale nie Ułatwienie do rzutów obronnych na uniknięcie lub zakończenie stanu Zatruty.</p></section>"
         },
         "Dwarven Toughness": {
-            "name": "Krasnoludzka wytrzymałość",
-            "description": "<p>Twój maksymalny limit Punktów Wytrzymałości zwiększa się o 1 i zwiększa się o kolejne 1 za każdym razem, gdy zdobywasz poziom.</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Notatka Foundry</strong></p><p>Zwiększenie maksymalnego limitu Punktów Wytrzymałości jest automatycznie uwzględniane na każdym poziomie.</p></section>",
-            "effects": {
-                "Dwarven Toughness": {
-                    "name": "Krasnoludzka wytrzymałość"
-                }
-            }
+            "name": "Krasnoludzka wytrzymałość"
         },
         "Elf, Drow": {
             "name": "Elf, Drow",
@@ -336,13 +308,7 @@
         },
         "Gnomish Cunning": {
             "name": "Gnomi spryt",
-            "description": "<p>Masz Ułatwienie do rzutów obronnych na Inteligencję, Mądrość i Charyzmę.</p>",
-            "effects": {
-                "Gnomish Cunning": {
-                    "name": "Gnomi spryt",
-                    "description": "<p>Masz Ułatwienie do rzutów obronnych na Inteligencję, Mądrość i Charyzmę.</p>"
-                }
-            }
+            "description": "<p>Masz Ułatwienie do rzutów obronnych na Inteligencję, Mądrość i Charyzmę.</p>"
         },
         "Gnomish Lineage, Forest": {
             "name": "Gnomi Rodowód, Leśny",
@@ -381,13 +347,7 @@
             }
         },
         "Halfling Nimbleness": {
-            "name": "Zwinność niziołka",
-            "description": "<p>Możesz poruszać się przez przestrzeń dowolnej istoty, która jest od ciebie o jeden rozmiar większa, ale nie możesz zatrzymać się w tej samej przestrzeni.</p>",
-            "effects": {
-                "Halfling Nimbleness": {
-                    "name": "Zwinność niziołka"
-                }
-            }
+            "name": "Zwinność niziołka"
         },
         "Hill's Tumble": {
             "name": "Upadek wzgórza",
@@ -425,27 +385,10 @@
         },
         "Large Form": {
             "name": "Duża postać",
-            "description": "<p>Od 5. poziomu postaci możesz zmienić swój rozmiar na Duży jako Akcję Dodatkową, jeśli znajdujesz się w wystarczająco dużej przestrzeni. Ta przemiana trwa 10 minut lub do momentu, gdy ją zakończysz (nie wymaga akcji). Na ten czas masz Ułatwienie w testach Siły, a twoja Szybkość wzrasta o 10 stóp. Po użyciu tej cechy nie możesz jej ponownie użyć, dopóki nie zakończysz Długiego Odpoczynku.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Notatka Foundry</strong></p><p>Ta zdolność zawiera Aktywny Efekt, który automatyzuje zwiększenie twojej Szybkości i przyznaje Ułatwienie do testów Siły.</p></section>",
-            "activities": {
-                "Enlarge": {
-                    "name": "Powiększenie"
-                }
-            },
-            "effects": {
-                "Large Form": {
-                    "name": "Duża postać",
-                    "description": "<p>Na ten czas masz Ułatwienie w testach Siły, a twoja Szybkość wzrasta o 10 stóp. Po użyciu tej cechy nie możesz jej ponownie użyć, dopóki nie zakończysz Długiego Odpoczynku.</p>"
-                }
-            }
+            "description": "<p>Na ten czas masz Ułatwienie w testach Siły, a twoja Szybkość wzrasta o 10 stóp. Po użyciu tej cechy nie możesz jej ponownie użyć, dopóki nie zakończysz Długiego Odpoczynku.</p>"
         },
         "Luck": {
-            "name": "Szczęście",
-            "description": "<p>Kiedy wyrzucisz 1 na k20 w Teście k20, możesz przerzucić kość i musisz użyć nowego wyniku.</p>",
-            "effects": {
-                "Luck": {
-                    "name": "Szczęście"
-                }
-            }
+            "name": "Szczęście"
         },
         "Naturally Stealthy": {
             "name": "Niezauważalny",
@@ -468,13 +411,7 @@
             "description": "<p>Znasz sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgia}. Kiedy rzucasz ją za pomocą tej cechy, czar wykorzystuje tę samą cechę zaklinania, której używasz dla cechy Fiendish Legacy.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Gdy otrzymasz ten czar, będziesz miał możliwość wyboru cechy zaklinania.</p></section>"
         },
         "Powerful Build": {
-            "name": "Potężna budowa",
-            "description": "<p>Masz Ułatwienie do testów cech wykonywanych w celu zakończenia stanu &amp;Reference[Grappled]. Ponadto jesteś traktowany jako istota o jeden rozmiar większa, jeśli chodzi o określanie twojej ładowności.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Notatka Foundry</strong></p><p>Ta zdolność zawiera Efekt Aktywny, który automatycznie zwiększa twój rozmiar przy określaniu ładowności.</p></section>",
-            "effects": {
-                "Powerful Build": {
-                    "name": "Potężna budowa"
-                }
-            }
+            "name": "Potężna budowa"
         },
         "Relentless Endurance": {
             "name": "Wola życia",
@@ -548,18 +485,7 @@
             }
         },
         "Stonecunning": {
-            "name": "Wiedza o kamieniu",
-            "description": "<p>Jako Akcję Dodatkową zyskujesz &amp;Reference[Tremorsense] o zasięgu 60 stóp na 10 minut. Aby korzystać z tego Zmysłu Drżeniowego, musisz znajdować się na kamiennej powierzchni lub jej dotykać. Kamień może być zarówno naturalny, jak i obrobiony. Możesz użyć tej Akcji dodatkowej liczbę razy równą twojej Premii od biegłości, a wszystkie zużyte użycia odzyskujesz po zakończeniu Długiego Odpoczynku.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Notatka Foundry</strong></p><p>Ta zdolność zawiera ograniczoną liczbę użyć oraz Efekt Aktywny, który zapewnia 60 stóp Wyczuwania drgań. Nie aktualizuje jednak automatycznie ustawień widzenia Tokena.</p></section>",
-            "activities": {
-                "Stonecunning": {
-                    "name": "Wiedza o kamieniu"
-                }
-            },
-            "effects": {
-                "Stonecunning": {
-                    "name": "Wiedza o kamieniu"
-                }
-            }
+            "name": "Wiedza o kamieniu"
         },
         "Storm's Thunder": {
             "name": "Grzmot burzy",
@@ -636,5 +562,19 @@
             "name": "Wszechstronny",
             "description": "<p>Otrzymujesz @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{atut z Pochodzenia} według własnego wyboru. Zalecany jest atut @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Uzdolniony}.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Po wybraniu tej rasy zostaniesz poproszony o dokonanie wyboru.</p></section>"
         }
+    },
+    "folders": {
+        "Backgrounds": "Pochodzenia",
+        "Dragonborn": "Drakon",
+        "Dwarf": "Krasnolud",
+        "Elf": "Elf",
+        "Gnome": "Gnom",
+        "Goliath": "Goliat",
+        "Halfling": "Nizołek",
+        "Human": "Człowiek",
+        "Orc": "Ork",
+        "Species": "Gatunki",
+        "Tiefling": "Diabelstwo",
+        "Traits": "Cechy"
     }
 }
