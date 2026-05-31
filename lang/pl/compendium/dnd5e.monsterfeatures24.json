@@ -1,17 +1,39 @@
 {
     "label": "Zdolności potworów",
     "mapping": {
-        "description": {
-            "path": "system.description.value",
-            "converter": "text"
-        },
-        "materials": {
-            "path": "system.materials.value",
-            "converter": "text"
-        },
+        "description": "system.description.value",
+        "requirements": "system.requirements",
+        "materials": "system.materials.value",
+        "chat": "system.description.chat",
         "activities": {
             "path": "system.activities",
-            "converter": "activities"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "name",
+                "type"
+            ],
+            "mapping": {
+                "name": "name",
+                "condition": "activation.condition",
+                "chatFlavor": "description.chatFlavor",
+                "duration": "duration.special",
+                "roll": "roll.name",
+                "range": {
+                    "path": "range",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "target",
+                    "converter": "imperialToMetric"
+                },
+                "profiles": {
+                    "path": "profiles",
+                    "converter": "nameCollection"
+                }
+            }
         },
         "effects": {
             "path": "effects",
@@ -19,14 +41,62 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "advancement"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "title"
+            ],
+            "mapping": {
+                "title": "title",
+                "hint": "hint",
+                "_variants": [
+                    {
+                        "_when": {
+                            "path": "type",
+                            "equals": "ScaleValue"
+                        },
+                        "distance": {
+                            "path": "configuration.distance",
+                            "converter": "imperialToMetric"
+                        },
+                        "scale": {
+                            "path": "configuration.scale",
+                            "converter": "imperialToMetric"
+                        }
+                    }
+                ]
+            }
+        },
+        "movement": {
+            "path": "system.movement",
+            "converter": "imperialToMetric"
+        },
+        "weight": {
+            "path": "system.weight",
+            "converter": "imperialToMetric"
+        },
+        "range": {
+            "path": "system.range",
+            "converter": "imperialToMetric"
+        },
+        "capacityWeight": {
+            "path": "system.capacity.weight",
+            "converter": "imperialToMetric"
+        },
+        "senses": {
+            "path": "system.senses",
+            "converter": "imperialToMetric"
+        },
+        "target": {
+            "path": "system.target",
+            "converter": "imperialToMetric"
+        },
+        "volume": {
+            "path": "system.capacity.volume",
+            "converter": "imperialToMetric"
         }
-    },
-    "folders": {
-        "Actions": "Akcje",
-        "Attacks": "Ataki",
-        "Legendary Actions": "Akcje Legendarne",
-        "Traits": "Cechy"
     },
     "entries": {
         "Abduct": {
@@ -49,6 +119,7 @@
         "Acid Absorption": {
             "name": "Acid Absorption",
             "description": "<p>Whenever the [[lookup @name lowercase]]{monster} is subjected to &amp;Reference[Acid] damage, it takes no damage and instead regains a number of Hit Points equal to the Acid damage dealt.</p>",
+            "requirements": "Subjected to Acid damage",
             "effects": {
                 "Acid Absorption": {
                     "name": "Acid Absorption",
@@ -67,6 +138,7 @@
         "Adhesive (Object Form Only)": {
             "name": "Adhesive (Object Form Only)",
             "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} adheres to anything that touches it. A Huge or smaller creature adhered to the [[lookup @name lowercase]]{monster} has the &amp;Reference[Grappled apply=false] condition (escape DC [[lookup @skills.ath.passive]]). Ability checks made to escape this grapple have Disadvantage.</p>",
+            "requirements": "Object Form Only",
             "activities": {
                 "Expend Use": {
                     "name": "Expend Use"
@@ -172,6 +244,7 @@
         "Aura of Authority": {
             "name": "Aura of Authority",
             "description": "<p>While in a [[lookup @target.template.size activity=dE4lg9tZyXtoCb5x]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}, the [[lookup @name lowercase]]{monster} and its allies have Advantage on attack rolls and saving throws, provided the [[lookup @name lowercase]]{monster} doesn't have the &amp;Reference[Incapacitated apply=false] condition.</p>",
+            "requirements": "Not Incapacitated",
             "activities": {
                 "Expend Use": {
                     "name": "Expend Use",
@@ -182,6 +255,7 @@
         "Aversion to Fire": {
             "name": "Aversion to Fire",
             "description": "<p>If the [[lookup @name lowercase]]{monster} takes Fire damage, it has Disadvantage on attack rolls and ability checks until the end of its next turn.</p>",
+            "requirements": "Takes Fire damage",
             "effects": {
                 "Averse": {
                     "name": "Averse",
@@ -343,15 +417,18 @@
         },
         "Bloodied Frenzy": {
             "name": "Bloodied Frenzy",
-            "description": "<p>While &amp;Reference[Bloodied], the [[lookup @name lowercase]]{monster} has Advantage on attack rolls and saving throws.</p>"
+            "description": "<p>While &amp;Reference[Bloodied], the [[lookup @name lowercase]]{monster} has Advantage on attack rolls and saving throws.</p>",
+            "requirements": "While Bloodied"
         },
         "Bloodied Fury": {
             "name": "Bloodied Fury",
-            "description": "<p>While &amp;Reference[Bloodied], the [[lookup @name lowercase]]{monster} has Advantage on attack rolls.</p>"
+            "description": "<p>While &amp;Reference[Bloodied], the [[lookup @name lowercase]]{monster} has Advantage on attack rolls.</p>",
+            "requirements": "While Bloodied"
         },
         "Blurred Form": {
             "name": "Blurred Form",
-            "description": "<p>Attack rolls against the [[lookup @name lowercase]]{monster} are made with Disadvantage unless the [[lookup @name lowercase]]{monster} has the Incapacitated condition.</p>"
+            "description": "<p>Attack rolls against the [[lookup @name lowercase]]{monster} are made with Disadvantage unless the [[lookup @name lowercase]]{monster} has the Incapacitated condition.</p>",
+            "requirements": "Not Incapacitated"
         },
         "Bone Bow": {
             "name": "Bone Bow",
@@ -382,6 +459,7 @@
         "Bubble Dash": {
             "name": "Bubble Dash",
             "description": "<p>While underwater, the [[lookup @name lowercase]]{monster} moves up to its Swim Speed without provoking &amp;Reference[Opportunity Attacks].</p>",
+            "requirements": "While underwater",
             "activities": {
                 "utility": {
                     "condition": "while underwater"
@@ -708,6 +786,7 @@
         "Death Burst": {
             "name": "Death Burst",
             "description": "<p>The [[lookup @name lowercase]]{monster} explodes [[lookup @activation.condition activity=1SfqWSp7RSyHgG4b]]. <em>Dexterity Saving Throw: </em>DC [[lookup @save.dc.value activity=1SfqWSp7RSyHgG4b]], each [[lookup @target.affects.type activity=1SfqWSp7RSyHgG4b]] in a [[lookup @target.template.size activity=1SfqWSp7RSyHgG4b]]-foot Emanation originating from the [[lookup @name lowercase]]{monster}. <em>Failure: </em>[[/damage average]] damage. <em>Success:</em> Half damage.</p>",
+            "requirements": "When it dies",
             "activities": {
                 "save": {
                     "condition": "when it dies"
@@ -770,7 +849,8 @@
         },
         "Demonic Restoration": {
             "name": "Demonic Restoration",
-            "description": "<p>If the [[lookup @name lowercase]]{monster} dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.</p>"
+            "description": "<p>If the [[lookup @name lowercase]]{monster} dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.</p>",
+            "requirements": "Dies outside the Abyss"
         },
         "Destroy Metal": {
             "name": "Destroy Metal",
@@ -789,7 +869,8 @@
         },
         "Diabolical Restoration": {
             "name": "Diabolical Restoration",
-            "description": "<p>If the [[lookup @name lowercase]]{monster} dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.</p>"
+            "description": "<p>If the [[lookup @name lowercase]]{monster} dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.</p>",
+            "requirements": "Dies outside the Nine Hells"
         },
         "Disrupt Life": {
             "name": "Disrupt Life",
@@ -935,7 +1016,8 @@
         },
         "Elemental Restoration": {
             "name": "Elemental Restoration",
-            "description": "<p class=\"feature\">If the [[lookup @name lowercase]]{monster} [[lookup @item.requirements]], its body dissolves into dirt, and it gains a new body in [[/r 1d4#Days]] days, reviving with all its Hit Points somewhere on the Plane of Earth.</p>"
+            "description": "<p class=\"feature\">If the [[lookup @name lowercase]]{monster} [[lookup @item.requirements]], its body dissolves into dirt, and it gains a new body in [[/r 1d4#Days]] days, reviving with all its Hit Points somewhere on the Plane of Earth.</p>",
+            "requirements": "dies outside the Elemental Plane of Earth"
         },
         "Enchanting Bow": {
             "name": "Enchanting Bow",
@@ -968,6 +1050,7 @@
         "Entangling Rope": {
             "name": "Entangling Rope",
             "description": "<p class=\"feature\"><em>Strength Saving Throw:</em> DC [[lookup @save.dc.value activity=n8nEah4vbrEPphNF]], one creature the [[lookup @name lowercase]]{monster} can see within [[lookup @range.value activity=n8nEah4vbrEPphNF]] feet. <em>Failure:</em> [[/damage average]] damage, and the target has the &amp;Reference[Restrained apply=false] condition until the rope is destroyed, the [[lookup @name lowercase]]{monster} uses a Bonus Action to release the target, or the [[lookup @name lowercase]]{monster} uses Entangling Rope again.</p>",
+            "requirements": "Requires Magic Rope",
             "effects": {
                 "Restrained": {
                     "name": "Unieruchomiony",
@@ -1060,7 +1143,8 @@
         },
         "Fiendish Restoration": {
             "name": "Fiendish Restoration",
-            "description": "<p>If the [[lookup @name lowercase]]{monster} dies outside Gehenna, its body dissolves into ichor, and it gains a new body instantly and revives with all its Hit Points in Gehenna.</p>"
+            "description": "<p>If the [[lookup @name lowercase]]{monster} dies outside Gehenna, its body dissolves into ichor, and it gains a new body instantly and revives with all its Hit Points in Gehenna.</p>",
+            "requirements": "Dies outside of Gehanna"
         },
         "Fiendish Touch": {
             "name": "Fiendish Touch",
@@ -1140,7 +1224,8 @@
         },
         "Flyby": {
             "name": "Flyby",
-            "description": "<p>The [[lookup @name lowercase]]{monster} doesn't provoke an &amp;Reference[OpportunityAttacks]{Opportunity Attack} when it flies out of an enemy's reach.</p>"
+            "description": "<p>The [[lookup @name lowercase]]{monster} doesn't provoke an &amp;Reference[OpportunityAttacks]{Opportunity Attack} when it flies out of an enemy's reach.</p>",
+            "requirements": "Flies out of an enemy's reach"
         },
         "Flying Sword": {
             "name": "Flying Sword",
@@ -1599,7 +1684,8 @@
         },
         "Lightning Absorption": {
             "name": "Lightning Absorption",
-            "description": "<p class=\"feature\">Whenever the [[lookup @name lowercase]]{monster} is subjected to Lightning damage, it regains a number of Hit Points equal to the Lightning damage dealt.</p>"
+            "description": "<p class=\"feature\">Whenever the [[lookup @name lowercase]]{monster} is subjected to Lightning damage, it regains a number of Hit Points equal to the Lightning damage dealt.</p>",
+            "requirements": "Subjected to Lightning damage"
         },
         "Lightning Blade": {
             "name": "Lightning Blade",
@@ -1841,6 +1927,7 @@
         "Nightmare Haunting": {
             "name": "Nightmare Haunting",
             "description": "<p class=\"feature\">While on the Ethereal Plane, the [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Dream}</em>, using the same spellcasting ability as Spellcasting. Only the [[lookup @name lowercase]]{monster} can serve as the spell's messenger, and the target must be a [[lookup @target.affects.type activity=4GGGVhvLSrHgHdb9]] the [[lookup @name lowercase]]{monster} can see [[lookup @target.affects.special activity=4GGGVhvLSrHgHdb9]]. The spell fails and is wasted if the target is under the effect of the <em>@UUID[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</em> spell or within a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicCircl]{Magic Circle}</em> spell.</p><p class=\"feature\">If the target takes damage from the <em>Dream</em> spell, the target's Hit Point maximum decreases by an amount equal to that damage. If the spell kills the target, its soul is trapped in the [[lookup @name lowercase]]{monster}'s soul bag, and the target can't be raised from the dead until its soul is released.</p>",
+            "requirements": "Requires Soul Bag",
             "activities": {
                 "cast": {
                     "target": "on the Material Plane"
@@ -1928,7 +2015,8 @@
         },
         "Pack Tactics": {
             "name": "Pack Tactics",
-            "description": "<p>The [[lookup @name lowercase]]{monster} has Advantage on an attack roll against a creature if at least one of the [[lookup @name lowercase]]{monster}'s allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.</p>"
+            "description": "<p>The [[lookup @name lowercase]]{monster} has Advantage on an attack roll against a creature if at least one of the [[lookup @name lowercase]]{monster}'s allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.</p>",
+            "requirements": "Ally within 5 feet of attack target"
         },
         "Pact Blade": {
             "name": "Pact Blade",
@@ -2309,6 +2397,7 @@
         "Regeneration": {
             "name": "Regeneration",
             "description": "<p>The [[lookup @name lowercase]]{monster} regains [[lookup @healing.formula activity=5cGvjZJIJVicjJ3d]] Hit Points at the start of each of its turns if it has at least 1 Hit Point.</p>",
+            "requirements": "At least 1 Hit Point",
             "activities": {
                 "heal": {
                     "condition": "starts its turn with at least 1 Hit Point"
@@ -2776,11 +2865,13 @@
         },
         "Sunlight Sensitivity": {
             "name": "Sunlight Sensitivity",
-            "description": "<p>While in sunlight, the [[lookup @name lowercase]]{monster} has Disadvantage on ability checks and attack rolls.</p>"
+            "description": "<p>While in sunlight, the [[lookup @name lowercase]]{monster} has Disadvantage on ability checks and attack rolls.</p>",
+            "requirements": "While in sunlight"
         },
         "Sunlight Weakness": {
             "name": "Sunlight Weakness",
-            "description": "<p class=\"feature\">While in sunlight, the [[lookup @name lowercase]]{monster} has Disadvantage on D20 Tests.</p>"
+            "description": "<p class=\"feature\">While in sunlight, the [[lookup @name lowercase]]{monster} has Disadvantage on D20 Tests.</p>",
+            "requirements": "While in sunlight"
         },
         "Swallow": {
             "name": "Swallow",
@@ -3443,5 +3534,11 @@
                 }
             }
         }
+    },
+    "folders": {
+        "Actions": "Akcje",
+        "Attacks": "Ataki",
+        "Legendary Actions": "Akcje Legendarne",
+        "Traits": "Cechy"
     }
 }
