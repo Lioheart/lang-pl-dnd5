@@ -2468,17 +2468,5 @@
             "name": "Yellow",
             "description": "<p><em>Failed Save:</em> [[/damage 12d6 lightning]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
         }
-    },
-    "folders": {
-        "Bag of Tricks": "Bag of Tricks",
-        "Creating a Character": "Creating a Character",
-        "Item-Specific Tables": "Item-Specific Tables",
-        "Magic Items": "Magic Items",
-        "Monster Details": "Monster Details",
-        "Mysterious Deck": "Mysterious Deck",
-        "Random Magic Item Rarity by Level": "Random Magic Item Rarity by Level",
-        "Reincarnated Lineages": "Reincarnated Lineages",
-        "Sentient Item Attributes": "Sentient Item Attributes",
-        "Spells": "Spells"
     }
 }

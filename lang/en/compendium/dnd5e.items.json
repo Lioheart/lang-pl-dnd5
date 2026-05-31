@@ -4492,10 +4492,22 @@
         }
     },
     "folders": {
+        "Ammunition": "Ammunition",
         "Armor": "Armor",
         "Container": "Container",
+        "Equipment": "Equipment",
         "Equipment Packs": "Equipment Packs",
+        "Food": "Food",
+        "Loot": "Loot",
+        "Poison": "Poison",
+        "Potion": "Potion",
         "Ring": "Ring",
-        "Spellcasting Focus": "Spellcasting Focus"
+        "Rod": "Rod",
+        "Scroll": "Scroll",
+        "Spellcasting Focus": "Spellcasting Focus",
+        "Tool": "Tool",
+        "Trinket": "Trinket",
+        "Wand": "Wand",
+        "Weapon": "Weapon"
     }
 }
