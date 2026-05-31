@@ -2,317 +2,1243 @@
     "label": "Tabele (SRD)",
     "entries": {
         "Ape": {
-            "name": "Małpa"
+            "name": "Małpa",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.K5cKmPoFkpuOotis]"
         },
         "Armor of Resistance": {
-            "name": "Pancerz odporności"
+            "name": "Pancerz odporności",
+            "results": {
+                "1-1": {
+                    "description": "Od kwasu"
+                },
+                "2-2": {
+                    "description": "Od zimna"
+                },
+                "3-3": {
+                    "description": "Od ognia"
+                },
+                "4-4": {
+                    "description": "Od mocy"
+                },
+                "5-5": {
+                    "description": "Od elektryczności"
+                },
+                "6-6": {
+                    "description": "Nekrotyczne"
+                },
+                "7-7": {
+                    "description": "Od trucizny"
+                },
+                "8-8": {
+                    "description": "Psychiczne"
+                },
+                "9-9": {
+                    "description": "Od światłości"
+                },
+                "10-10": {
+                    "description": "Od dźwięku"
+                }
+            }
         },
         "Axe Beak": {
-            "name": "Toporodziób"
+            "name": "Toporodziób",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.SXXvwaLBNuzBymp3]"
         },
         "Baboon": {
-            "name": "Pawian"
+            "name": "Pawian",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.JW8bXggOMBx1S6tF]"
         },
         "Badger": {
-            "name": "Borsuk"
+            "name": "Borsuk",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.oQvORD924obyPdCc]"
         },
         "Bag of Beans": {
-            "name": "Worek fasolek"
+            "name": "Worek fasolek",
+            "results": {
+                "1-1": {
+                    "description": "Wyrasta [[/r 5d4]]{5k4} muchomorów. Jeśli stworzenie zje muchomora, rzuć dowolną kością. Przy nieparzystym wyniku istota, która zjadła grzyb musi wykonać [[/save constitution dc=15]]{rzut obronny na Kondycję o ST 15} lub otrzymać [[/damage 5d6 poison]]{5k6 obrażeń od trucizny} i stać się &Reference[poisoned]{zatruta} na 1 godzinę. Przy parzystym wyniku zyskuje [[/healing 5d6 temp]]{5k6 tymczasowych PW} na 1 godzinę."
+                },
+                "2-10": {
+                    "description": "Gejzer wybucha i tryska wodą, piwem, sokiem jagodowym, herbatą, octem, winem lub olejem (według wyboru MP) na 9 metrów w górę na [[/r 1d12]]{1k12} rund."
+                },
+                "11-20": {
+                    "description": "Wyrasta drzewiec. Istnieje 50% szansy, że drzewiec ma charakter chaotyczny zły i atakuje."
+                },
+                "21-30": {
+                    "description": "Podnosi się ożywiony, nieruchomy kamienny posąg podobny do ciebie. Wysyła pod twoim adresem werbalne groźby. Jeśli go opuścisz, a inni się zbliżą, opisuje cię jako najbardziej haniebnego złoczyńcę i nakłania przybyszów, aby cię znaleźli i zaatakowali. Jeśli ty i posąg przebywacie w tej samej sferze egzystencji, posąg wie, gdzie się znajdujesz. Posąg staje się nieożywiony po 24 godzinach."
+                },
+                "31-40": {
+                    "description": "Pojawia się ognisko o niebieskich płomieniach i płonie przez 24 godziny (lub do momentu jego ugaszenia)."
+                },
+                "41-50": {
+                    "description": "Wyrasta [[/r 1d6 + 6]]{1k6 + 6} @UUID[Compendium.dnd5e.monsters.Actor.TaK6nQMGqZ0y8gt7]{wrzaskunów}"
+                },
+                "51-60": {
+                    "description": "Wypełza [[/r 1d4 + 8]]{1k4 + 8} jasnoróżowych ropuch. W momencie gdy ropucha zostanie dotknięta, zamienia się w dużego lub mniejszego potwora wybranego przez MP. Potwór istnieje przez 1 minutę, po czym znika w obłoku jasnoróżowego dymu."
+                },
+                "61-70": {
+                    "description": "Wygrzebuje się głodna @UUID[Compendium.dnd5e.monsters.Actor.1ES45ODWg3pCrkzv]{buletta} i atakuje."
+                },
+                "71-80": {
+                    "description": "Rośnie drzewo owocowe. Zawiera [[/r 1d10 + 20]]{1k10 + 20} owoców, z których [[/r 1d8]]{1k8} działa jako losowe magiczne eliksiry, a jeden działa jako trucizna wybrana przez MP. Drzewo znika po 1 godzinie. Zerwane owoce pozostają, zachowując swoje magiczne właściwości przez 30 dni."
+                },
+                "81-90": {
+                    "description": "Wyrasta gniazdo zawierające [[/r 1d4 + 3]]{1k4 + 3} jaj. Każde stworzenie, które zje jajo z gniazda, musi wykonać [[/save constitution dc=20]]{rzut obronny na Kondycję o ST 20}. Po udanym rzucie istota trwale zwiększa swoją najniższą wartość cechy o 1, decydując losowo w przypadku równych niskich wartości więcej niż jednej cechy. W przypadku niepowodzenia, wewnątrz dochodzi do magicznej eksplozji i istota otrzymuje [[/damage 10d6 force]]{10k6 obrażeń od mocy}."
+                },
+                "91-99": {
+                    "description": "Wyłania się piramida o podstawie w kształcie kwadratu o boku 18 metrów. Wewnątrz znajduje się sarkofag, w którym spoczywa @UUID[Compendium.dnd5e.monsters.Actor.UFW8M3JHzHkxUEGM]{mumia władca}. Piramida traktowana jest jako legowisko mumii władcy, a w jej sarkofagu znajduje się skarb wybrany przez MP."
+                },
+                "100-100": {
+                    "description": "Kiełkuje gigantyczna łodyga fasoli, wyrastająca aż do wysokości określonej przez MP. Szczyt prowadzi tam, gdzie wybierze MP, na przykład do wspaniałego krajobrazu, zamku giganta chmurowego lub innej sfery egzystencji."
+                }
+            }
         },
         "Black Bear": {
-            "name": "Niedźwiedź czarny"
+            "name": "Niedźwiedź czarny",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.D5WjGwKskeUT8HXa]"
         },
         "Boar": {
-            "name": "Dzik"
+            "name": "Dzik",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.lZR4lhNmYSf89s4Q]"
         },
         "Bonds (Acolyte)": {
-            "name": "Więzi (Akolita)"
+            "name": "Więzi (Akolita)",
+            "results": {
+                "1-1": {
+                    "description": "Oddałbym życie, by odzyskać dawno utraconą starożytną relikwię mojej wiary."
+                },
+                "2-2": {
+                    "description": "Pewnego dnia zemszczę się na skorumpowanej hierarchii kościoła, która ogłosiła mnie heretykiem."
+                },
+                "3-3": {
+                    "description": "Zawdzięczam życie kapłanowi, który otoczył mnie opieką po śmierci moich rodziców."
+                },
+                "4-4": {
+                    "description": "Wszystko co czynię, czynię dla ludu."
+                },
+                "5-5": {
+                    "description": "Zrobię wszystko, by chronić świątynię, w której służyłem."
+                },
+                "6-6": {
+                    "description": "Zamierzam ocalić święty tekst, który moi wrogowie uważają za herezję i próbują zniszczyć."
+                }
+            }
         },
         "Brass Horn of Valhalla": {
-            "name": "Róg z Walhalli (mosiężny)"
+            "name": "Róg z Walhalli (mosiężny)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.QYJyQCnIQeLiMrmJ]"
         },
         "Bronze Horn of Valhalla": {
-            "name": "Róg z Walhalli (spiżowy)"
+            "name": "Róg z Walhalli (spiżowy)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.sqcerAMszpe3hwyI]"
         },
         "Brown Bear": {
-            "name": "Niedźwiedź brunatny"
+            "name": "Niedźwiedź brunatny",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.omcDpBoB69esCXeM]"
         },
         "Candle of Invocation": {
-            "name": "Świeca inwokacji"
+            "name": "Świeca inwokacji",
+            "results": {
+                "1-2": {
+                    "description": "Chaotyczny zły"
+                },
+                "3-4": {
+                    "description": "Chaotyczny neutralny"
+                },
+                "5-7": {
+                    "description": "Chaotyczny dobry"
+                },
+                "8-9": {
+                    "description": "Neutralny zły"
+                },
+                "10-11": {
+                    "description": "Neutralny"
+                },
+                "12-13": {
+                    "description": "Neutralny dobry"
+                },
+                "14-15": {
+                    "description": "Praworządny zły"
+                },
+                "16-17": {
+                    "description": "Praworządny neutralny"
+                },
+                "18-20": {
+                    "description": "Praworządny dobry"
+                }
+            }
         },
         "Carpet of Flying": {
-            "name": "Latający dywan"
+            "name": "Latający dywan",
+            "results": {
+                "1-20": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.XwqNHyox5OQQio8q] (3x5)"
+                },
+                "21-55": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.DeK9uQvNJj3JzFwe] (4x6)"
+                },
+                "56-80": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.XAr1SR4POx5BAArk] (5x7)"
+                },
+                "81-100": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.TjWk2mpNXjDdfIDM] (6x9)"
+                }
+            }
         },
         "Carpet of Flying (3x5)": {
-            "name": "Latający dywan (90cm x 150cm)"
+            "name": "Latający dywan (90cm x 150cm)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.XwqNHyox5OQQio8q] (3x5)"
         },
         "Carpet of Flying (4x6)": {
-            "name": "Latający dywan (120cm x 180cm)"
+            "name": "Latający dywan (120cm x 180cm)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.DeK9uQvNJj3JzFwe] (4x6)"
         },
         "Carpet of Flying (5x7)": {
-            "name": "Latający dywan (150cm x 210cm)"
+            "name": "Latający dywan (150cm x 210cm)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.XAr1SR4POx5BAArk] (5x7)"
         },
         "Carpet of Flying (6x9)": {
-            "name": "Latający dywan (180cm x 270cm)"
+            "name": "Latający dywan (180cm x 270cm)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.TjWk2mpNXjDdfIDM] (6x9)"
         },
         "Clay Golem": {
-            "name": "Gliniany golem"
+            "name": "Gliniany golem",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.YOqhbf8WsX0jH9Fu]"
         },
         "Confusion": {
-            "name": "Zamęt"
+            "name": "Zamęt",
+            "results": {
+                "1-1": {
+                    "description": "Stworzenie wykorzystuje całą swoją szybkość, aby poruszać się w losowym kierunku. Aby określić kierunek, rzuć [[/r d8]]{k8} i przypisz kierunek do każdego z możliwych wyników. Stworzenie nie podejmuje akcji w tej turze."
+                },
+                "2-6": {
+                    "description": "Stworzenie nie porusza się ani nie podejmuje akcji w tej turze."
+                },
+                "7-8": {
+                    "description": "Stworzenie wykorzystuje swoją akcję do wykonania ataku wręcz przeciwko losowo wybranemu stworzeniu znajdującemu się w jego zasięgu. Jeśli w jego zasięgu nie ma żadnego innego stworzenia, nie robi nic w tej turze."
+                },
+                "9-10": {
+                    "description": "Stworzenie może działać i poruszać się normalnie."
+                }
+            }
         },
         "Deva": {
-            "name": "Dewa"
+            "name": "Dewa",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.m4H3hjamBNMH09S9]"
         },
         "Dire Wolf": {
-            "name": "Straszliwy wilk"
+            "name": "Straszliwy wilk",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.EYiQZ3rFL25fEJY5]"
         },
         "Djinni": {
-            "name": "Dżin"
+            "name": "Dżin",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.5P1VGAZQwOilwZQf]"
         },
         "Efreeti": {
-            "name": "Ifryt"
+            "name": "Ifryt",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.LTomFUTBrkRi0Pj5]"
         },
         "Efreeti Bottle": {
-            "name": "Ifryt w butelce"
+            "name": "Ifryt w butelce",
+            "results": {
+                "1-10": {
+                    "description": "Ifryt atakuje. Po 5 rundach walki ifryt znika, a butelka traci swoje magiczne właściwości."
+                },
+                "11-90": {
+                    "description": "Ifryt służy Ci przez godzinę, wykonując twoje rozkazy. Następnie ifryt wraca do butelki i zatyka ją nowy korek. Korek nie może być usunięty przez 24 godziny. Przy kolejnych dwóch otwarciach butelki następuje ten sam efekt. Jeśli butelka zostanie otwarta po raz czwarty, ifryt ucieka i znika, a butelka traci swoje magiczne właściwości."
+                },
+                "91-100": {
+                    "description": "Ifryt może rzucić czar życzenie trzykrotnie w twoim imieniu. Znika po spełnieniu ostatniego życzenia lub po 1 godzinie, a butelka traci swoje magiczne właściwości."
+                }
+            }
         },
         "Feather Token": {
             "name": "Pierzasty amulet",
-            "description": "Ten malutki przedmiot wygląda jak piórko. Istnieją różne rodzaje pierzastych amuletów, a każdy z nich wywołuje inny efekt jednorazowy."
+            "description": "Ten malutki przedmiot wygląda jak piórko. Istnieją różne rodzaje pierzastych amuletów, a każdy z nich wywołuje inny efekt jednorazowy.",
+            "results": {
+                "1-20": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.DnlQkH6Bpwkd5n5Y]"
+                },
+                "21-35": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.hWqImieUaLo08l9l]"
+                },
+                "36-50": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.e98hfROZjztt7ccO]"
+                },
+                "51-65": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.UgnUJhu0tW1tLt7g]"
+                },
+                "66-90": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.NjTgPn2o0M1TGk93]"
+                },
+                "91-100": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.Fgkj11diTJJ7H3JC]"
+                }
+            }
         },
         "Feather Token Anchor": {
-            "name": "Pierzasty amulet (kotwica)"
+            "name": "Pierzasty amulet (kotwica)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.DnlQkH6Bpwkd5n5Y]"
         },
         "Feather Token Bird": {
-            "name": "Pierzasty amulet (ptak)"
+            "name": "Pierzasty amulet (ptak)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.hWqImieUaLo08l9l]"
         },
         "Feather Token Fan": {
-            "name": "Pierzasty amulet (wachlarz)"
+            "name": "Pierzasty amulet (wachlarz)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.e98hfROZjztt7ccO]"
         },
         "Feather Token Swan Boat": {
-            "name": "Pierzasty amulet (łabędzia łódź)"
+            "name": "Pierzasty amulet (łabędzia łódź)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.UgnUJhu0tW1tLt7g]"
         },
         "Feather Token Tree": {
-            "name": "Pierzasty amulet (drzewo)"
+            "name": "Pierzasty amulet (drzewo)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.NjTgPn2o0M1TGk93]"
         },
         "Feather Token Whip": {
-            "name": "Pierzasty amulet (bicz)"
+            "name": "Pierzasty amulet (bicz)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.Fgkj11diTJJ7H3JC]"
         },
         "Flaws (Acolyte)": {
-            "name": "Słabości (Akolita)"
+            "name": "Słabości (Akolita)",
+            "results": {
+                "1-1": {
+                    "description": "Oceniam innych krytycznie, a siebie jeszcze bardziej surowo."
+                },
+                "2-2": {
+                    "description": "Pokładam zbyt wiele zaufania we władzach mojego kościoła."
+                },
+                "3-3": {
+                    "description": "Przez swoją pobożność czasem ślepo ufam tym, którzy wyznają wiarę w moje bóstwo."
+                },
+                "4-4": {
+                    "description": "Mam mało elastyczne poglądy."
+                },
+                "5-5": {
+                    "description": "Jestem podejrzliwy wobec obcych i spodziewam się po nich najgorszego."
+                },
+                "6-6": {
+                    "description": "Kiedy mam jakiś cel, staje się on moją obsesją ze szkodą dla wszystkiego innego w moim życiu."
+                }
+            }
         },
         "Flesh Golem": {
-            "name": "Golem z ciał"
+            "name": "Golem z ciał",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.Hm4o2FgPZsdbXjLq]"
         },
         "Giant Badger": {
-            "name": "Olbrzymi borsuk"
+            "name": "Olbrzymi borsuk",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.cJGY1ZywUOo6heNR]"
         },
         "Giant Boar": {
-            "name": "Olbrzymi dzik"
+            "name": "Olbrzymi dzik",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.SsuCaF2fIEoDdFA3]"
         },
         "Giant Elk": {
-            "name": "Olbrzymi łoś"
+            "name": "Olbrzymi łoś",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.hQt3qIahnB1Odb40]"
         },
         "Giant Goat": {
-            "name": "Olbrzymi kozioł"
+            "name": "Olbrzymi kozioł",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.rjqk7ToMD8sGr3n4]"
         },
         "Giant Hyena": {
-            "name": "Olbrzymia hiena"
+            "name": "Olbrzymia hiena",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.aAqfEHPiVbhMwZ6j]"
         },
         "Giant Rat": {
-            "name": "Olbrzymi szczur"
+            "name": "Olbrzymi szczur",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.q1YJIeIt6rK8fCKn]"
         },
         "Giant Weasel": {
-            "name": "Olbrzymia łasica"
+            "name": "Olbrzymia łasica",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.8VXxqeBvN54rPh81]"
         },
         "Goat": {
-            "name": "Koza"
+            "name": "Koza",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.y8sRU8Ks2lcrGsaf]"
         },
         "Grey Bag of Tricks": {
-            "name": "Szara torba sztuczek"
+            "name": "Szara torba sztuczek",
+            "results": {
+                "1-1": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.WOdeacKCYVhgLDuN]"
+                },
+                "2-2": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.q1YJIeIt6rK8fCKn]"
+                },
+                "3-3": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.oQvORD924obyPdCc]"
+                },
+                "4-4": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.lZR4lhNmYSf89s4Q]"
+                },
+                "5-5": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.AijNdqMurWxDxUSl]"
+                },
+                "6-6": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.cJGY1ZywUOo6heNR]"
+                },
+                "7-7": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.EYiQZ3rFL25fEJY5]"
+                },
+                "8-8": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.hQt3qIahnB1Odb40]"
+                }
+            }
         },
         "Horn of Valhalla": {
-            "name": "Róg z Valhalli"
+            "name": "Róg z Valhalli",
+            "results": {
+                "1-40": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.lTfo6OVvAY2iJ4oq]"
+                },
+                "41-75": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.QYJyQCnIQeLiMrmJ]"
+                },
+                "76-90": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.sqcerAMszpe3hwyI]"
+                },
+                "91-100": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.qVuZznv0MnIjDU70]"
+                }
+            }
         },
         "Ideals (Acolyte)": {
-            "name": "Ideały (SRD)"
+            "name": "Ideały (SRD)",
+            "results": {
+                "1-1": {
+                    "description": "Tradycja. Należy zachowywać i kontynuować starożytne tradycje kultu i ofiary. (Praworządny)"
+                },
+                "2-2": {
+                    "description": "Szczodrość. Zawsze staram się pomagać potrzebującym, niezależnie od poniesionych kosztów. (Dobry)"
+                },
+                "3-3": {
+                    "description": "Zmiana. Musimy pomóc bogom doprowadzać do zmian, które wciąż wprowadzają w świecie. (Chaotyczny)"
+                },
+                "4-4": {
+                    "description": "Potęga. Pewnego dnia mam nadzieję wspiąć się na szczyt hierarchii mojego kościoła. (Praworządny)"
+                },
+                "5-5": {
+                    "description": "Wiara. Żyję przekonaniem, że kieruje mną bóg. Wierzę, że dzięki ciężkiej pracy wszystko się dobrze ułoży. (Praworządny)"
+                },
+                "6-6": {
+                    "description": "Aspiracje. Staram się działać zgodnie z naukami mego bóstwa, bo chcę okazać się wart jego przychylności. (Dowolny)"
+                }
+            }
         },
         "Indefinite Madness": {
             "name": "Szaleństwo bez końca",
-            "description": "Postać jest dotknięta niekończącym się szaleństwem."
+            "description": "Postać jest dotknięta niekończącym się szaleństwem.",
+            "results": {
+                "1-15": {
+                    "description": "'Bycie pijanym utrzymuje mnie przy zdrowych zmysłach.'"
+                },
+                "16-25": {
+                    "description": "'Zatrzymuję wszystko, co znajdę.'"
+                },
+                "26-30": {
+                    "description": "'Staram się być bardziej podobny do kogoś, kogo znam - przyjmując jego styl ubierania się, maniery i imię.'"
+                },
+                "31-35": {
+                    "description": "'Muszę naginać prawdę, przesadzać lub wręcz kłamać, aby być interesującym dla innych ludzi.'"
+                },
+                "36-45": {
+                    "description": "'Osiągnięcie mojego celu jest jedyną rzeczą, która mnie interesuje i zignoruję wszystko inne, aby do niego dążyć.'"
+                },
+                "46-50": {
+                    "description": "'Trudno mi dbać o cokolwiek, co dzieje się wokół mnie.'"
+                },
+                "51-55": {
+                    "description": "'Nie podoba mi się sposób, w jaki ludzie cały czas mnie oceniają.'"
+                },
+                "56-70": {
+                    "description": "'Jestem najmądrzejszą, najwspanialszą, najsilniejszą, najszybszą i najpiękniejszą osobą, jaką znam.'"
+                },
+                "71-80": {
+                    "description": "'Jestem przekonany, że polują na mnie potężni wrogowie, a ich agenci są wszędzie, gdzie się udam. Jestem pewien, że cały czas mnie obserwują.'"
+                },
+                "81-85": {
+                    "description": "'Jest tylko jedna osoba, której mogę zaufać. I tylko ja widzę tego wyjątkowego przyjaciela.'"
+                },
+                "86-95": {
+                    "description": "'Niczego nie mogę brać na poważnie. Im poważniejsza sytuacja, tym śmieszniejsza się wydaje.'"
+                },
+                "96-100": {
+                    "description": "'Odkryłem, że naprawdę lubię zabijać ludzi.'"
+                }
+            }
         },
         "Invisible Stalker": {
-            "name": "Niewidzialny łowca"
+            "name": "Niewidzialny łowca",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.oDspGxRQFBhE74L2]"
         },
         "Iron Flask": {
-            "name": "Żelazna manierka"
+            "name": "Żelazna manierka",
+            "results": {
+                "1-50": {
+                    "description": "Pusty"
+                },
+                "51-54": {
+                    "description": "Demon (typ 1)"
+                },
+                "55-58": {
+                    "description": "Demon (typ 2)"
+                },
+                "59-62": {
+                    "description": "Demon (typ 3)"
+                },
+                "63-64": {
+                    "description": "Demon (typ 4)"
+                },
+                "65-65": {
+                    "description": "Demon (typ 5)"
+                },
+                "66-66": {
+                    "description": "Demon (typ 6)"
+                },
+                "67-67": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.m4H3hjamBNMH09S9]"
+                },
+                "68-69": {
+                    "description": "Diabeł (większy)"
+                },
+                "70-73": {
+                    "description": "Diabeł (pomniejszy)"
+                },
+                "74-75": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.5P1VGAZQwOilwZQf]"
+                },
+                "76-77": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.LTomFUTBrkRi0Pj5]"
+                },
+                "78-83": {
+                    "description": "Żywiołak (dowolny)"
+                },
+                "84-86": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.oDspGxRQFBhE74L2]"
+                },
+                "87-90": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.xvh2UOKv1bh03Gih]"
+                },
+                "91-91": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.XEByBLeOkDgL3mrr]"
+                },
+                "92-95": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.yVNPVJIBpQ2Mp3Xa]"
+                },
+                "96-96": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.lOYt73eaJojBDxAV]"
+                },
+                "97-99": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.VmdyZDjqAc8vdncY]"
+                },
+                "100-100": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.2MZNHeOZweXAYbv1]"
+                }
+            }
         },
         "Iron Golem": {
-            "name": "Żelazny golem"
+            "name": "Żelazny golem",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.h98AuPfomEPcCibP]"
         },
         "Iron Horn of Valhalla": {
-            "name": "Róg z Walhalli (żelazny)"
+            "name": "Róg z Walhalli (żelazny)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.qVuZznv0MnIjDU70]"
         },
         "Jackal": {
-            "name": "Szakal"
+            "name": "Szakal",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.MZYCPIVoBs918qGZ]"
         },
         "Lion": {
-            "name": "Lew"
+            "name": "Lew",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.hjhERRzafCiFFVLA]"
         },
         "Long-Term Madness": {
             "name": "Długotrwałe szaleństwo",
-            "description": "<p>Postać zostaje dotknięta długotrwałym obłędem na [[1d10*10]]{1k10 x 10} godzin.</p>"
+            "description": "<p>Postać zostaje dotknięta długotrwałym obłędem na [[1d10*10]]{1k10 x 10} godzin.</p>",
+            "results": {
+                "1-10": {
+                    "description": "Postać czuje się zmuszona do powtarzania w kółko określonej czynności, takiej jak mycie rąk, dotykanie rzeczy, modlitwa lub liczenie monet."
+                },
+                "11-20": {
+                    "description": "Postać doświadcza realistycznych halucynacji i ma utrudnienie w testach cech."
+                },
+                "21-30": {
+                    "description": "Postać cierpi na skrajną paranoję. Postać ma utrudnienie w testach Mądrości i Charyzmy."
+                },
+                "31-40": {
+                    "description": "Postać spogląda na coś (zwykle na źródło szaleństwa) z intensywną odrazą, jakby była pod wpływem efektu antypatii zaklęcia antypatia/sympatia."
+                },
+                "41-45": {
+                    "description": "Postać doświadcza potężnego złudzenia. Wybierz miksturę. Postać wyobraża sobie, że jest pod jej wpływem."
+                },
+                "46-55": {
+                    "description": "Postać przywiązuje się do 'talizmanu szczęścia' w postaci innej osoby lub przedmiotu. Ma utrudnienie w testach ataku, testach cech i rzutach obronnych, gdy znajduje się w odległości większej niż 9 metrów od niego."
+                },
+                "56-65": {
+                    "description": "Postać jest oślepiona (25%) lub ogłuchła (75%)."
+                },
+                "66-75": {
+                    "description": "Postać doświadcza niekontrolowanych drgawek lub tików, które dają utrudnienie w testach ataku, testach cech i rzutach obronnych na Siłę lub Zręczność."
+                },
+                "76-85": {
+                    "description": "Postać cierpi na częściową amnezję. Postać wie, kim jest i zachowuje cechy rasowe i klasowe, ale nie rozpoznaje innych ludzi ani nie pamięta niczego, co wydarzyło się przed rozpoczęciem szaleństwa."
+                },
+                "86-90": {
+                    "description": "Za każdym razem, gdy postać otrzymuje obrażenia, musi wykonać udany rzut obronny na Mądrość (ST 15) lub obejmuje ją efekt, jakby nie zdała rzutu obronnego przeciwko zaklęciu zamęt. Efekt zamętu trwa 1 minutę."
+                },
+                "91-95": {
+                    "description": "Postać traci zdolność mówienia."
+                },
+                "96-100": {
+                    "description": "Postać traci przytomność. Żadna ilość szturchania ani obrażeń nie może obudzić postaci."
+                }
+            }
         },
         "Manual of Golems": {
-            "name": "Podręcznik do budowy golema"
+            "name": "Podręcznik do budowy golema",
+            "results": {
+                "1-5": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.YOqhbf8WsX0jH9Fu]"
+                },
+                "6-17": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.Hm4o2FgPZsdbXjLq]"
+                },
+                "18-18": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.h98AuPfomEPcCibP]"
+                },
+                "19-20": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.z3gSIXHHWYaHjfBT]"
+                }
+            }
         },
         "Mastiff": {
-            "name": "Mastif"
+            "name": "Mastif",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.YTpL2c3NO4sOn2UA]"
         },
         "Necklace of Prayer Beads": {
-            "name": "Naszyjnik modlitewny"
+            "name": "Naszyjnik modlitewny",
+            "results": {
+                "1-6": {
+                    "description": "Koralik błogosławieństwa"
+                },
+                "7-12": {
+                    "description": "Koralik uzdrawiania"
+                },
+                "13-16": {
+                    "description": "Koralik przychylności"
+                },
+                "17-18": {
+                    "description": "Koralik uderzenia"
+                },
+                "19-19": {
+                    "description": "Koralik przywołania"
+                },
+                "20-20": {
+                    "description": "Koralik spaceru na wietrze"
+                }
+            }
         },
         "Night Hag": {
-            "name": "Nocna wiedźma"
+            "name": "Nocna wiedźma",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.xvh2UOKv1bh03Gih]"
         },
         "Owl": {
-            "name": "Sowa"
+            "name": "Sowa",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.d0prpsGSAorDadec]"
         },
         "Panther": {
-            "name": "Pantera"
+            "name": "Pantera",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.AijNdqMurWxDxUSl]"
         },
         "Personality Traits (Acolyte)": {
-            "name": "Cechy osobowości (SRD)"
+            "name": "Cechy osobowości (SRD)",
+            "results": {
+                "1-1": {
+                    "description": "Uwielbiam określonego bohatera mojej religii i wiecznie nawiązuję do jego czynów i przykładu."
+                },
+                "2-2": {
+                    "description": "Dzięki empatii i poszukiwaniu pokojowych rozwiązań potrafię znaleźć płaszczyznę porozumienia między najzacieklejszymi wrogami."
+                },
+                "3-3": {
+                    "description": "Dostrzegam znaki w każdym wydarzeniu i działaniu. Bogowie próbują do nas przemówić. Musimy tylko posłuchać."
+                },
+                "4-4": {
+                    "description": "Nic nie jest w stanie zachwiać moim optymizmem."
+                },
+                "5-5": {
+                    "description": "W niemal każdej sytuacji przytaczam (lub przekręcam) święte teksty i przysłowia."
+                },
+                "6-6": {
+                    "description": "Jestem tolerancyjny (albo nietolerancyjny) wobec innych religii i szanuję (albo potępiam) kulty innych bogów."
+                },
+                "7-7": {
+                    "description": "Cieszyłem się dobrym jedzeniem, napitkiem i towarzystwem pośród elit mojej świątyni. Życie pozbawione wygód działa mi na nerwy."
+                },
+                "8-8": {
+                    "description": "Spędziłem tak wiele czasu w świątyni, że mam niewielkie doświadczenie w kontaktach z ludźmi z zewnątrz."
+                }
+            }
         },
         "Planetar": {
-            "name": "Planetar"
+            "name": "Planetar",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.XEByBLeOkDgL3mrr]"
         },
         "Potion of Acid Resistance": {
-            "name": "Mikstura odporności na kwas"
+            "name": "Mikstura odporności na kwas",
+            "description": "@UUID[Compendium.dnd5e.items.Item.zgZkJAyFAfYmyn11]"
         },
         "Potion of Cold Resistance": {
-            "name": "Mikstura odporności na zimno"
+            "name": "Mikstura odporności na zimno",
+            "description": "@UUID[Compendium.dnd5e.items.Item.34YKlIJVVWLeBv7R]"
         },
         "Potion of Fire Resistance": {
-            "name": "Mikstura odporności na ogień"
+            "name": "Mikstura odporności na ogień",
+            "description": "@UUID[Compendium.dnd5e.items.Item.Jj4iFQQGvckx8Wsj]"
         },
         "Potion of Force Resistance": {
-            "name": "Mikstura odporności na moc"
+            "name": "Mikstura odporności na moc",
+            "description": "@UUID[Compendium.dnd5e.items.Item.kKGJjVVlJVoakWgQ]"
         },
         "Potion of Lightning Resistance": {
-            "name": "Mikstura odporności na błyskawice"
+            "name": "Mikstura odporności na błyskawice",
+            "description": "@UUID[Compendium.dnd5e.items.Item.8MPnSrvEeZhPhtTi]"
         },
         "Potion of Necrotic Resistance": {
-            "name": "Mikstura odporności na nekrotyzm"
+            "name": "Mikstura odporności na nekrotyzm",
+            "description": "@UUID[Compendium.dnd5e.items.Item.xw99pcqPBVwtMOLw]"
         },
         "Potion of Poison Resistance": {
-            "name": "Mikstura odporności na truciznę"
+            "name": "Mikstura odporności na truciznę",
+            "description": "@UUID[Compendium.dnd5e.items.Item.f5chGcpQCi1HYPQw]"
         },
         "Potion of Psychic Resistance": {
-            "name": "Mikstura odporności psychicznej"
+            "name": "Mikstura odporności psychicznej",
+            "description": "@UUID[Compendium.dnd5e.items.Item.c0luemOP0iW8L23R]"
         },
         "Potion of Radiant Resistance": {
-            "name": "Mikstura odporności na światłość"
+            "name": "Mikstura odporności na światłość",
+            "description": "@UUID[Compendium.dnd5e.items.Item.LBQWNqX6hZOKhQ8a]"
         },
         "Potion of Resistance": {
-            "name": "Mikstura odporności"
+            "name": "Mikstura odporności",
+            "results": {
+                "1-1": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.zgZkJAyFAfYmyn11]"
+                },
+                "2-2": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.34YKlIJVVWLeBv7R]"
+                },
+                "3-3": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.Jj4iFQQGvckx8Wsj]"
+                },
+                "4-4": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.kKGJjVVlJVoakWgQ]"
+                },
+                "5-5": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.8MPnSrvEeZhPhtTi]"
+                },
+                "6-6": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.xw99pcqPBVwtMOLw]"
+                },
+                "7-7": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.f5chGcpQCi1HYPQw]"
+                },
+                "8-8": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.c0luemOP0iW8L23R]"
+                },
+                "9-9": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.LBQWNqX6hZOKhQ8a]"
+                },
+                "10-10": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.zBX8LLC2CjC89Dzl]"
+                }
+            }
         },
         "Potion of Thunder Resistance": {
-            "name": "Mikstura odporności na dźwięk"
+            "name": "Mikstura odporności na dźwięk",
+            "description": "@UUID[Compendium.dnd5e.items.Item.zBX8LLC2CjC89Dzl]"
         },
         "Rat": {
-            "name": "Szczur"
+            "name": "Szczur",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox]"
         },
         "Reincarnate": {
-            "name": "Reinkarnacja"
+            "name": "Reinkarnacja",
+            "results": {
+                "1-4": {
+                    "description": "Drakon"
+                },
+                "5-13": {
+                    "description": "Krasnolud, wzgórzowy"
+                },
+                "14-21": {
+                    "description": "Krasnolud, górski"
+                },
+                "22-25": {
+                    "description": "Elf, mroczny"
+                },
+                "26-34": {
+                    "description": "Elf, wysoki"
+                },
+                "35-42": {
+                    "description": "Elf, leśny"
+                },
+                "43-46": {
+                    "description": "Gnom, leśny"
+                },
+                "47-52": {
+                    "description": "Gnom, skalny"
+                },
+                "53-56": {
+                    "description": "Półelf"
+                },
+                "57-60": {
+                    "description": "Półork"
+                },
+                "61-68": {
+                    "description": "Niziołek, lekkostopy"
+                },
+                "69-76": {
+                    "description": "Niziołek, hardy"
+                },
+                "77-96": {
+                    "description": "Człowiek"
+                },
+                "97-100": {
+                    "description": "Diabelstwo"
+                }
+            }
         },
         "Ring of Acid Resistance": {
-            "name": "Pierścień odporności na kwas"
+            "name": "Pierścień odporności na kwas",
+            "description": "@UUID[Compendium.dnd5e.items.Item.WO8DLfz3G2QZ5njs]"
         },
         "Ring of Cold Resistance": {
-            "name": "Pierścień odporności na zimno"
+            "name": "Pierścień odporności na zimno",
+            "description": "@UUID[Compendium.dnd5e.items.Item.fvezXwRJ5PqUf5NN]"
         },
         "Ring of Fire Resistance": {
-            "name": "Pierścień odporności na ogień"
+            "name": "Pierścień odporności na ogień",
+            "description": "@UUID[Compendium.dnd5e.items.Item.3X7vdOjnCSpi40yn]"
         },
         "Ring of Force Resistance": {
-            "name": "Pierścień odporności na moc"
+            "name": "Pierścień odporności na moc",
+            "description": "@UUID[Compendium.dnd5e.items.Item.ScxK8YNU5dWELhlQ]"
         },
         "Ring of Lightning Resistance": {
-            "name": "Pierścień odporności na błyskawice"
+            "name": "Pierścień odporności na błyskawice",
+            "description": "@UUID[Compendium.dnd5e.items.Item.XJ8CG4UvLELCmOi2]"
         },
         "Ring of Necrotic Resistance": {
-            "name": "Pierścień odporności na nekrotyzm"
+            "name": "Pierścień odporności na nekrotyzm",
+            "description": "@UUID[Compendium.dnd5e.items.Item.qMGkmzfLHfXd7DiJ]"
         },
         "Ring of Poison Resistance": {
-            "name": "Pierścień odporności na truciznę"
+            "name": "Pierścień odporności na truciznę",
+            "description": "@UUID[Compendium.dnd5e.items.Item.5SorTMl8NKDO9Yge]"
         },
         "Ring of Psychic Resistance": {
-            "name": "Pierścień odporności psychicznej"
+            "name": "Pierścień odporności psychicznej",
+            "description": "@UUID[Compendium.dnd5e.items.Item.Q7E6MgPzVkwBeZ6l]"
         },
         "Ring of Radiant Resistance": {
-            "name": "Pierścień odporności na światłość"
+            "name": "Pierścień odporności na światłość",
+            "description": "@UUID[Compendium.dnd5e.items.Item.IrC5LPbWNxlAQoK7]"
         },
         "Ring of Resistance": {
-            "name": "Pierścień odporności"
+            "name": "Pierścień odporności",
+            "results": {
+                "1-1": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.WO8DLfz3G2QZ5njs]"
+                },
+                "2-2": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.fvezXwRJ5PqUf5NN]"
+                },
+                "3-3": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.3X7vdOjnCSpi40yn]"
+                },
+                "4-4": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.ScxK8YNU5dWELhlQ]"
+                },
+                "5-5": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.XJ8CG4UvLELCmOi2]"
+                },
+                "6-6": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.qMGkmzfLHfXd7DiJ]"
+                },
+                "7-7": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.5SorTMl8NKDO9Yge]"
+                },
+                "8-8": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.Q7E6MgPzVkwBeZ6l]"
+                },
+                "9-9": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.IrC5LPbWNxlAQoK7]"
+                },
+                "10-10": {
+                    "description": "@UUID[Compendium.dnd5e.items.Item.IpBBqr0r7JanyVn0]"
+                }
+            }
         },
         "Ring of Thunder Resistance": {
-            "name": "Pierścień odporności na dźwięk"
+            "name": "Pierścień odporności na dźwięk",
+            "description": "@UUID[Compendium.dnd5e.items.Item.IpBBqr0r7JanyVn0]"
         },
         "Robe of Useful Items": {
-            "name": "Szata przydatnych rzeczy"
+            "name": "Szata przydatnych rzeczy",
+            "results": {
+                "1-8": {
+                    "description": "Torba zawierająca 100 sz"
+                },
+                "9-15": {
+                    "description": "Srebrna kaseta (30 cm długości, 15 cm szerokości i głębokości) o wartości 500 sz"
+                },
+                "16-22": {
+                    "description": "Żelazne drzwi (do 3 metrów szerokości i 3 metrów wysokości, z ryglem po jednej wybranej stronie), które można umieścić w otworze, który możesz dosięgnąć; drzwi dopasowują się rozmiarem i kształtem do otworu, po czym funkcjonują jak najzwyklejsze drzwi."
+                },
+                "23-30": {
+                    "description": "10 klejnotów o wartości 100 sz każdy"
+                },
+                "31-44": {
+                    "description": "Drewniana drabina (7 metrów długości)"
+                },
+                "45-51": {
+                    "description": "Koń jeździecki z jukami przy siodle"
+                },
+                "52-59": {
+                    "description": "Dół (sześcian o boku 3 metry), który możesz umieścić na ziemi w promieniu 3 metrów od siebie"
+                },
+                "60-68": {
+                    "description": "4 mikstury leczenia"
+                },
+                "69-75": {
+                    "description": "Łódź wiosłowa (3,5 metra długości)"
+                },
+                "76-83": {
+                    "description": "Zwój zawierający jeden czar kręgu od 1. do 3."
+                },
+                "84-90": {
+                    "description": "2 mastify"
+                },
+                "91-96": {
+                    "description": "Okno (60 cm na 120 cm, do 60 cm głębokości), które można umieścić na pionowej powierzchni, ktorej możesz dosięgnąć"
+                },
+                "97-100": {
+                    "description": "Przenośny taran"
+                }
+            }
         },
         "Rust Bag of Tricks": {
-            "name": "Ruda torba sztuczek"
+            "name": "Ruda torba sztuczek",
+            "results": {
+                "1-1": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox]"
+                },
+                "2-2": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.d0prpsGSAorDadec]"
+                },
+                "3-3": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.YTpL2c3NO4sOn2UA]"
+                },
+                "4-4": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.y8sRU8Ks2lcrGsaf]"
+                },
+                "5-5": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.rjqk7ToMD8sGr3n4]"
+                },
+                "6-6": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.SsuCaF2fIEoDdFA3]"
+                },
+                "7-7": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.hjhERRzafCiFFVLA]"
+                },
+                "8-8": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.omcDpBoB69esCXeM]"
+                }
+            }
         },
         "Salamander": {
-            "name": "Salamandra"
+            "name": "Salamandra",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.yVNPVJIBpQ2Mp3Xa]"
         },
         "Sentient Magic Items Alignment": {
-            "name": "Charakter świadomych magicznych przedmiotów"
+            "name": "Charakter świadomych magicznych przedmiotów",
+            "results": {
+                "1-15": {
+                    "description": "Praworządny dobry"
+                },
+                "16-35": {
+                    "description": "Neutralny dobry"
+                },
+                "36-50": {
+                    "description": "Chaotyczny dobry"
+                },
+                "51-63": {
+                    "description": "Praworządny neutralny"
+                },
+                "64-73": {
+                    "description": "Neutralny"
+                },
+                "74-85": {
+                    "description": "Chaotyczny neutralny"
+                },
+                "86-89": {
+                    "description": "Praworządny zły"
+                },
+                "90-96": {
+                    "description": "Neutralny zły"
+                },
+                "97-100": {
+                    "description": "Chaotyczny zły"
+                }
+            }
         },
         "Sentient Magic Items Communication": {
-            "name": "Komunikacja świadomych magicznych przedmiotów"
+            "name": "Komunikacja świadomych magicznych przedmiotów",
+            "results": {
+                "1-60": {
+                    "description": "Przedmiot porozumiewa się, przekazując emocje istocie, która go nosi lub trzyma."
+                },
+                "61-90": {
+                    "description": "Przedmiot rozumie co najmniej jeden język i potrafi w nim mówić i czytać."
+                },
+                "91-100": {
+                    "description": "Przedmiot rozumie co najmniej jeden język i potrafi w nim mówić i czytać. Ponadto potrafi porozumiewać się telepatycznie z każdym, kto go nosi lub trzyma."
+                }
+            }
         },
         "Sentient Magic Items Purpose": {
-            "name": "Cel świadomych magicznych przedmiotów"
+            "name": "Cel świadomych magicznych przedmiotów",
+            "results": {
+                "1-1": {
+                    "description": "Charakterny: Przedmiot pragnie pokonywać lub niszczyć tych, którzy mają diametralnie przeciwny charakter. (Taki przedmiot nigdy nie jest neutralny)."
+                },
+                "2-2": {
+                    "description": "Zguba: Przedmiot pragnie pokonywać lub niszczyć istoty określonego rodzaju, takie jak czarty, zmiennokształtnych, trolle albo magów."
+                },
+                "3-3": {
+                    "description": "Obrońca: Przedmiot pragnie bronić określonej rasy albo grupy istot, na przykład elfów albo druidów."
+                },
+                "4-4": {
+                    "description": "Krzyżowiec: Przedmiot pragnie pokonywać, osłabiać lub niszczyć sługi określonego bóstwa."
+                },
+                "5-5": {
+                    "description": "Templariusz: Przedmiot pragnie bronić wyznawców i interesów określonego bóstwa."
+                },
+                "6-6": {
+                    "description": "Niszczyciel: Przedmiot pragnie zniszczenia i prowokuje swojego właściciela do walki bez powodu."
+                },
+                "7-7": {
+                    "description": "Poszukiwacz chwały: Przedmiot pragnie być uznawany za najwspanialszy magiczny przedmiot na świecie, więc zabiega o sławę lub niesławę swojego właściciela."
+                },
+                "8-8": {
+                    "description": "Poszukiwacz wiedzy: Przedmiot pragnie wiedzy, rozwiązania jakiejś tajemnicy, poznania sekretu albo rozwikłania zagadkowego proroctwa."
+                },
+                "9-9": {
+                    "description": "Poszukiwacz przeznaczenia: Przedmiot jest przekonany, że on i jego właściciel odegrają kluczowe role w przyszłych wydarzeniach."
+                },
+                "10-10": {
+                    "description": "Poszukiwacz twórcy: Przedmiot poszukuje swojego stwórcy i chce zrozumieć przyczyny swego powstania."
+                }
+            }
         },
         "Sentient Magic Items Senses": {
-            "name": "Zmysły świadomych magicznych przedmiotów"
+            "name": "Zmysły świadomych magicznych przedmiotów",
+            "results": {
+                "1-1": {
+                    "description": "Słuch i zwykły wzrok na odległość do 9 metrów."
+                },
+                "2-2": {
+                    "description": "Słuch i zwykły wzrok na odległość do 18 metrów."
+                },
+                "3-3": {
+                    "description": "Słuch i zwykły wzrok na odległość do 36 metrów."
+                },
+                "4-4": {
+                    "description": "Słuch i widzenie w ciemności na odległość do 36 metrów."
+                }
+            }
         },
         "Short-Term Madness": {
             "name": "Krótkotrwałe szaleństwo",
-            "description": "<p>Postać zostaje dotknięta krótkotrwałym obłędem na [[/r 1d10]]{1k10} minut.</p>"
+            "description": "<p>Postać zostaje dotknięta krótkotrwałym obłędem na [[/r 1d10]]{1k10} minut.</p>",
+            "results": {
+                "1-20": {
+                    "description": "Postać zamyka się w sobie i zostaje sparaliżowana. Efekt kończy się, jeśli postać otrzyma obrażenia."
+                },
+                "21-30": {
+                    "description": "Postać zostaje obezwładniona i na czas szaleństwa krzyczy, śmieje się lub płacze."
+                },
+                "31-40": {
+                    "description": "Postać staje się przerażona i musi wykorzystać swoją akcję i ruch w każdej rundzie, aby uciec od źródła strachu."
+                },
+                "41-50": {
+                    "description": "Postać zaczyna bełkotać i nie jest w stanie normalnie mówić ani rzucać zaklęć."
+                },
+                "51-60": {
+                    "description": "Postać musi wykorzystać swoją akcję w każdej rundzie, aby zaatakować najbliższe stworzenie."
+                },
+                "61-70": {
+                    "description": "Postać doświadcza realistycznych halucynacji i ma utrudnienie w testach cech."
+                },
+                "71-75": {
+                    "description": "Postać robi wszystko, co się jej każe i nie jest wprost dla niej szkodliwe."
+                },
+                "76-80": {
+                    "description": "Postać doświadcza przemożnej potrzeby zjedzenia czegoś dziwnego, takiego jak ziemia, śluz lub podroby."
+                },
+                "81-90": {
+                    "description": "Postać jest ogłuszona."
+                },
+                "91-100": {
+                    "description": "Postać traci przytomność."
+                }
+            }
         },
         "Silver Horn of Valhalla": {
-            "name": "Róg z Walhalli (srebrny)"
+            "name": "Róg z Walhalli (srebrny)",
+            "description": "@UUID[Compendium.dnd5e.items.Item.lTfo6OVvAY2iJ4oq]"
         },
         "Solar": {
-            "name": "Solar"
+            "name": "Solar",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.lOYt73eaJojBDxAV]"
         },
         "Sphere of Annihilation": {
-            "name": "Kula anihilacji"
+            "name": "Kula anihilacji",
+            "results": {
+                "1-50": {
+                    "description": "Kula ulega zniszczeniu."
+                },
+                "51-85": {
+                    "description": "Kula wlatuje do portalu albo przestrzeni pozawymiarowej."
+                },
+                "86-100": {
+                    "description": "Pęknięcie w przestrzeni powoduje przeniesienie wszystkich istot i obiektów znajdujących się w obrębie 54 metrów od kuli i jej samej do przypadkowej sfery egzystencji."
+                }
+            }
         },
         "Stone Golem": {
-            "name": "Kamienny golem"
+            "name": "Kamienny golem",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.z3gSIXHHWYaHjfBT]"
         },
         "Succubus/Incubus": {
-            "name": "Sukub/Inkub"
+            "name": "Sukub/Inkub",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.VmdyZDjqAc8vdncY]"
         },
         "Tan Bag of Tricks": {
-            "name": "Płowa torba sztuczek"
+            "name": "Płowa torba sztuczek",
+            "results": {
+                "1-1": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.MZYCPIVoBs918qGZ]"
+                },
+                "2-2": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.K5cKmPoFkpuOotis]"
+                },
+                "3-3": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.JW8bXggOMBx1S6tF]"
+                },
+                "4-4": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.SXXvwaLBNuzBymp3]"
+                },
+                "5-5": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.D5WjGwKskeUT8HXa]"
+                },
+                "6-6": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.8VXxqeBvN54rPh81]"
+                },
+                "7-7": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.aAqfEHPiVbhMwZ6j]"
+                },
+                "8-8": {
+                    "description": "@UUID[Compendium.dnd5e.monsters.Actor.FayqbnjBMszO6Pat]"
+                }
+            }
         },
         "Tiger": {
-            "name": "Tygrys"
+            "name": "Tygrys",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.FayqbnjBMszO6Pat]"
         },
         "Wand of Wonder": {
-            "name": "Różdżka cudów"
+            "name": "Różdżka cudów",
+            "results": {
+                "1-5": {
+                    "description": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{spowolnienie}."
+                },
+                "6-10": {
+                    "description": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{blask faerie}."
+                },
+                "11-15": {
+                    "description": "Jesteś &Reference[Stunned]{ogłuszony} do początku swojej następnej tury, wierząc, że właśnie stało się coś niesamowitego."
+                },
+                "16-20": {
+                    "description": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{poryw wiatru}."
+                },
+                "21-25": {
+                    "description": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{wykrycie myśli} na wybrany cel. Jeśli nie obrałeś za cel stworzenia, otrzymujesz [[/damage 1k6 psychic]]{1k6 obrażeń psychicznych}."
+                },
+                "26-30": {
+                    "description": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{smierdzącą chmurę}."
+                },
+                "31-33": {
+                    "description": "Ulewny deszcz pada na przestrzeni o promieniu 18 metrów od celu zaklęcia. Obszar ten ma ograniczoną widoczność. Deszcz pada do rozpoczęcia twojej następnej tury."
+                },
+                "34-36": {
+                    "description": "Zwierzę pojawia się w niezajętej przestrzeni najbliżej celu. Zwierzę nie jest pod twoją kontrolą i zachowuje się naturalnie. Rzuć [[/r 1d100]]{1k100}, aby określić, które zwierzę się pojawi. Przy 01-25 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.SBCe2BSa6opTS5M4]; przy 26-50 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.jLPhaBnMtAbB5dp1]; a przy 51-100 pojawia się @UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox]."
+                },
+                "37-46": {
+                    "description": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{piorun}."
+                },
+                "47-49": {
+                    "description": "Chmara 600 przerośniętych motyli wypełnia obszar o promieniu 9 metrów od celu zaklęcia. Obszar staje się pozbawiony widoczności. Motyle utrzymują się przez 10 minut, po czym znikają."
+                },
+                "50-53": {
+                    "description": "Powiększasz cel tak, jakbyś rzucił @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{powiększenie/pomniejszenie}. Jeśli cel nie może zostać objęty tym zaklęciem lub jeśli nie obrałeś za cel stworzenia, sam stajesz się celem."
+                },
+                "54-58": {
+                    "description": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{ciemność}."
+                },
+                "59-62": {
+                    "description": "Trawa rośnie na ziemi w promieniu 18 metrów od celu. Jeśli ziemię już pokrywa trawa, ta rośnie dziesięciokrotnie i pozostaje wielka przez 1 minutę."
+                },
+                "63-65": {
+                    "description": "Obiekt wybrany przez MP znika w Sferze Eterycznej. Obiekt nie może być noszony ani trzymany, musi znajdować się w zasięgu nie większym niż 36 metrów od celu, a żaden z jego wymiarów nie może przekraczać 3 metrów."
+                },
+                "66-69": {
+                    "description": "Kurczysz się tak, jakbyś rzucił na siebie @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{powiększenie/pomniejszenie}."
+                },
+                "70-79": {
+                    "description": "Rzucasz @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{kulę ognia}."
+                },
+                "80-84": {
+                    "description": "Rzucasz na siebie @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{niewidzialność}."
+                },
+                "85-87": {
+                    "description": "Z celu wyrastają liście. Jeśli wybierzesz punkt w przestrzeni jako cel, liście wyrastają ze stworzenia znajdującego się najbliżej tego punktu. Liście brązowieją i opadają po 24 godzinach, chyba że zostaną zerwane."
+                },
+                "88-90": {
+                    "description": "Strumień [[/r 1d4 * 10]]{1k4 × 10} klejnotów, każdy o wartości 1 sz, wystrzeliwuje z końcówki różdżki w linii prostej o długości 9 metrów i szerokości 1,5 metra. Każdy klejnot zadaje 1 punkt obrażeń obuchowych, a całkowite obrażenia klejnotów są dzielone równo między wszystkie stworzenia w linii."
+                },
+                "91-95": {
+                    "description": "Wybuch kolorowego migoczącego światła rozciąga się od ciebie w promieniu 9 metrów. Ty oraz każda istota, która posiada wzrok znajdująca się na obszarze działania światła, musi wykonać rzut obronny na Kondycję o ST 15 lub zostać &Reference[Blinded]{oślepiona} na 1 minutę. Stworzenie może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt na sobie w przypadku sukcesu."
+                },
+                "96-97": {
+                    "description": "Skóra celu zmienia kolor na jasnoniebieski na [[/r 1d10]]{1k10} dni. Jeśli wybierzesz punkt w przestrzeni jako cel, efekt obejmuje stworzenie znajdujące się najbliżej tego punktu."
+                },
+                "98-100": {
+                    "description": "Jeśli obrałeś za cel stworzenie, musi ono wykonać rzut obronny [[/save con 15]]{rzut obronny na Kondycję o ST 15}. Jeśli nie obrałeś za cel stworzenia, sam stajesz się celem i musisz wykonać rzut obronny. Jeśli rzut obronny nie powiedzie się o 5 lub więcej od ST, cel staje się natychmiast &Reference[Petrified]{skamieniały}. Przy każdym innym nieudanym rzucie cel staje się &Reference[Restrained]{unieruchomiony} i zaczyna zamieniać się w kamień. Podczas unieruchomienia w ten sposób cel musi powtórzyć rzut obronny na koniec swojej następnej tury, stając się skamieniały w przypadku porażki lub kończąc efekt w przypadku sukcesu. Skamienienie trwa, dopóki cel nie zostanie uwolniony przez zaklęcie @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{większe przywrócenie} lub podobny efekt magiczny."
+                }
+            }
         },
         "Weasel": {
-            "name": "Łasica"
+            "name": "Łasica",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.WOdeacKCYVhgLDuN]"
         },
         "Xorn": {
-            "name": "Xorn"
+            "name": "Xorn",
+            "description": "@UUID[Compendium.dnd5e.monsters.Actor.2MZNHeOZweXAYbv1]"
         }
     }
 }
