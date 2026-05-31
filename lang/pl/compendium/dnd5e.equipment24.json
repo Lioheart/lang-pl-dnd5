@@ -1,17 +1,39 @@
 {
     "label": "Wyposażenie",
     "mapping": {
-        "description": {
-            "path": "system.description.value",
-            "converter": "text"
-        },
-        "materials": {
-            "path": "system.materials.value",
-            "converter": "text"
-        },
+        "description": "system.description.value",
+        "requirements": "system.requirements",
+        "materials": "system.materials.value",
+        "chat": "system.description.chat",
         "activities": {
             "path": "system.activities",
-            "converter": "activities"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "name",
+                "type"
+            ],
+            "mapping": {
+                "name": "name",
+                "condition": "activation.condition",
+                "chatFlavor": "description.chatFlavor",
+                "duration": "duration.special",
+                "roll": "roll.name",
+                "range": {
+                    "path": "range",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "target",
+                    "converter": "imperialToMetric"
+                },
+                "profiles": {
+                    "path": "profiles",
+                    "converter": "nameCollection"
+                }
+            }
         },
         "effects": {
             "path": "effects",
@@ -19,54 +41,62 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "advancement"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "title"
+            ],
+            "mapping": {
+                "title": "title",
+                "hint": "hint",
+                "_variants": [
+                    {
+                        "_when": {
+                            "path": "type",
+                            "equals": "ScaleValue"
+                        },
+                        "distance": {
+                            "path": "configuration.distance",
+                            "converter": "imperialToMetric"
+                        },
+                        "scale": {
+                            "path": "configuration.scale",
+                            "converter": "imperialToMetric"
+                        }
+                    }
+                ]
+            }
+        },
+        "movement": {
+            "path": "system.movement",
+            "converter": "imperialToMetric"
+        },
+        "weight": {
+            "path": "system.weight",
+            "converter": "imperialToMetric"
+        },
+        "range": {
+            "path": "system.range",
+            "converter": "imperialToMetric"
+        },
+        "capacityWeight": {
+            "path": "system.capacity.weight",
+            "converter": "imperialToMetric"
+        },
+        "senses": {
+            "path": "system.senses",
+            "converter": "imperialToMetric"
+        },
+        "target": {
+            "path": "system.target",
+            "converter": "imperialToMetric"
+        },
+        "volume": {
+            "path": "system.capacity.volume",
+            "converter": "imperialToMetric"
         }
-    },
-    "folders": {
-        "Adventuring Gear": "Wyposażenie podróżne",
-        "Ammunition": "Amunicja",
-        "Arcane Focus": "Fokus magii wtajemniczeń",
-        "Armor": "Pancerz",
-        "Artisan": "Rzemieślnik",
-        "Bags of Tricks": "Torby sztuczek",
-        "Belts of Giant Strength": "Pasy Siły Olbrzyma",
-        "Consumables": "Materiały eksploatacyjne",
-        "Containers": "Pojemniki",
-        "Druidic Focus": "Druidyczny fetysz",
-        "Elemental Gems": "Klejnoty żywiołów",
-        "Equipment": "Wyposażenie",
-        "Feather Tokens": "Tokeny z piór",
-        "Figurines": "Figurki",
-        "Gaming Set": "Zestaw do gry",
-        "Healing": "Leczenie",
-        "Heavy": "Ciężki",
-        "Holy Symbol": "Święty symbol",
-        "Horns of Valhalla": "Rogi Valhalli",
-        "Ioun Stones": "Kamienie Ioun",
-        "Light": "Światło",
-        "Magical": "Magiczny",
-        "Martial Melee": "Żołnierska do walki wręcz",
-        "Martial Ranged": "Żołnierskie zasięgowe",
-        "Medium": "Średni",
-        "Musical Instrument": "Muzyczny instrument",
-        "Mysterious Deck Cards": "Tajemnicze talie kart",
-        "Other": "Inne",
-        "Poisons": "Trucizny",
-        "Potions": "Mikstury",
-        "Potions of Giant Strength": "Mikstury olbrzymiej siły",
-        "Rings": "Pierścienie",
-        "Rods": "Berła",
-        "Scrolls": "Zwoje",
-        "Simple Melee": "Prosta do walki wręcz",
-        "Simple Ranged": "Proste zasięgowe",
-        "Spell Scrolls": "Spell Scrolls",
-        "Spellcasting Focuses": "Magiczne fokusy",
-        "Staff": "Kostur",
-        "Supplemental": "Dodatkowe",
-        "Tools": "Narzędzia",
-        "Traps": "Pułapki",
-        "Wands": "Różdzki",
-        "Weapons": "Bronie"
     },
     "entries": {
         "Acid": {
@@ -329,7 +359,7 @@
             "description": "<p>Akcją dodatkową wypijasz fiolkę Antidotum, aby uzyskać Ułatwienie do rzutów obronnych mających na celu uniknięcie lub zakończenie stanu &amp;Reference[Poisoned] na 1 godzinę.</p>",
             "effects": {
                 "Antitoxin": {
-                    "name": "Antidotum"
+                    "name": "Antytoksyna"
                 }
             }
         },
@@ -487,19 +517,19 @@
                 "Bludgeoning Resistance": {
                     "name": "Bludgeoning Resistance",
                     "changes": {
-                        "name": "{} of Bludgeoning Resistance"
+                        "name": "{} of Vulnerability"
                     }
                 },
                 "Piercing Resistance": {
                     "name": "Piercing Resistance",
                     "changes": {
-                        "name": "{} of Piercing Resistance"
+                        "name": "{} of Vulnerability"
                     }
                 },
                 "Slashing Resistance": {
                     "name": "Slashing Resistance",
                     "changes": {
-                        "name": "{} of Slashing Resistance"
+                        "name": "{} of Vulnerability"
                     }
                 }
             }
@@ -6194,5 +6224,51 @@
             "name": "Cisowa różdzka",
             "description": "<p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.</p>"
         }
+    },
+    "folders": {
+        "Adventuring Gear": "Wyposażenie podróżne",
+        "Ammunition": "Amunicja",
+        "Arcane Focus": "Fokus magii wtajemniczeń",
+        "Armor": "Pancerz",
+        "Artisan": "Rzemieślnik",
+        "Bags of Tricks": "Torby sztuczek",
+        "Belts of Giant Strength": "Pasy Siły Olbrzyma",
+        "Consumables": "Materiały eksploatacyjne",
+        "Containers": "Pojemniki",
+        "Druidic Focus": "Druidyczny fetysz",
+        "Elemental Gems": "Klejnoty żywiołów",
+        "Equipment": "Wyposażenie",
+        "Feather Tokens": "Tokeny z piór",
+        "Figurines": "Figurki",
+        "Gaming Set": "Zestaw do gry",
+        "Healing": "Leczenie",
+        "Heavy": "Ciężki",
+        "Holy Symbol": "Święty symbol",
+        "Horns of Valhalla": "Rogi Valhalli",
+        "Ioun Stones": "Kamienie Ioun",
+        "Light": "Światło",
+        "Magical": "Magiczny",
+        "Martial Melee": "Żołnierska do walki wręcz",
+        "Martial Ranged": "Żołnierskie zasięgowe",
+        "Medium": "Średni",
+        "Musical Instrument": "Muzyczny instrument",
+        "Mysterious Deck Cards": "Tajemnicze talie kart",
+        "Other": "Inne",
+        "Poisons": "Trucizny",
+        "Potions": "Mikstury",
+        "Potions of Giant Strength": "Mikstury olbrzymiej siły",
+        "Rings": "Pierścienie",
+        "Rods": "Berła",
+        "Scrolls": "Zwoje",
+        "Simple Melee": "Prosta do walki wręcz",
+        "Simple Ranged": "Proste zasięgowe",
+        "Spell Scrolls": "Spell Scrolls",
+        "Spellcasting Focuses": "Magiczne fokusy",
+        "Staff": "Kostur",
+        "Supplemental": "Dodatkowe",
+        "Tools": "Narzędzia",
+        "Traps": "Pułapki",
+        "Wands": "Różdzki",
+        "Weapons": "Bronie"
     }
 }
