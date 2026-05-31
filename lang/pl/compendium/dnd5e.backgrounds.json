@@ -1,14 +1,8 @@
 {
     "label": "Pochodzenie (SRD)",
     "mapping": {
-        "description": {
-            "path": "system.description.value",
-            "converter": "text"
-        },
-        "materials": {
-            "path": "system.materials.value",
-            "converter": "text"
-        },
+        "description": "system.description.value",
+        "materials": "system.materials.value",
         "activities": {
             "path": "system.activities",
             "converter": "activities"
@@ -21,10 +15,6 @@
             "path": "system.advancement",
             "converter": "advancement"
         }
-    },
-    "folders": {
-        "Acolyte Equipment": "Wyposażenie akolity",
-        "Acolyte Feature": "Cechy akolity"
     },
     "entries": {
         "Acolyte": {
@@ -43,5 +33,9 @@
             "name": "Schronienie dla wiernych",
             "description": "<p>Jako akolita wzbudzasz szacunek osób podzielających twoją wiarę i możesz przeprowadzać ceremonie religijne poświęcone swojemu bóstwu. Wraz z towarzyszami możesz liczyć na darmowe leczenie i opiekę w świątyni, kaplicy albo innym miejscu kultu twojej religii. Choć musicie dostarczyć wszelkie komponenty materialne potrzebne do rzucenia czarów. Osoby podzielające twoją wiarę zapewnią ci życie na skromnym poziomie (ale tylko tobie).</p>\n<p>Możesz też być powiązany z konkretną świątynią poświęconą wybranemu bóstwu lub panteonowi i mieszkać w kompleksie świątynnym. Może to być ta świątynia, w której dotychczas służyłeś. Jeżeli utrzymujesz z nią przyjazne stosunki, albo świątynia, w której znalazłeś nowy dom. Gdy znajdujesz się w pobliżu możesz wezwać na pomoc kapłanów, jeśli wsparcie, o które prosisz nie jest ryzykowne, a ty cieszysz się przyjazną relacją z duchownymi.</p>"
         }
+    },
+    "folders": {
+        "Acolyte Equipment": "Wyposażenie akolity",
+        "Acolyte Feature": "Cechy akolity"
     }
 }
