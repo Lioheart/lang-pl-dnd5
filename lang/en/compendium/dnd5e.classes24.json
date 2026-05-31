@@ -72,7 +72,13 @@
         },
         "Arcane Recovery": {
             "name": "Arcane Recovery",
-            "description": "<p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p><p>Once you use this feature, you can't do so again until you finish a Long Rest.</p><p><strong>Combined Level Available:</strong> [[(@classes.wizard.levels / 2)]]</p><section id=\"secret-cO6X083GFJ1W4071\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>"
+            "description": "<p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p><p>Once you use this feature, you can't do so again until you finish a Long Rest.</p><p><strong>Combined Level Available:</strong> [[ceil(@classes.wizard.levels / 2)]]</p><section class=\"secret\" id=\"secret-cO6X083GFJ1W4071\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>",
+            "activities": {
+                "Recover": {
+                    "name": "Recover",
+                    "roll": "Combined Spell Levels"
+                }
+            }
         },
         "Archdruid": {
             "name": "Archdruid",
@@ -1005,7 +1011,7 @@
         },
         "Favored Enemy": {
             "name": "Favored Enemy",
-            "description": "<p>You always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p><section id=\"secret-cyuZuzwxsQg01vVN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you at this level and will increase the number of free uses available automatically as you level up.</p></section>"
+            "description": "<p>You always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p>"
         },
         "Feral Instinct": {
             "name": "Feral Instinct"
@@ -2148,45 +2154,7 @@
         },
         "Ranger": {
             "name": "Ranger",
-            "description": "<h3>Core Ranger Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Ranger level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 3:</em> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{sprig of mistletoe}), @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 7GP]]; or (B) [[/award 150GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgrRanger0000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Ranger Traits table.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
-            "advancement": {
-                "Class Features": {
-                    "title": "Class Features"
-                },
-                "Expertise": {
-                    "title": "Expertise"
-                },
-                "Favored Enemy": {
-                    "title": "Favored Enemy"
-                },
-                "Deft Explorer": {
-                    "title": "Deft Explorer"
-                },
-                "Hunter's Mark Damage": {
-                    "title": "Hunter's Mark Damage"
-                },
-                "Max Prepared Spells": {
-                    "title": "Max Prepared Spells"
-                },
-                "Saving Throw Proficiencies": {
-                    "title": "Saving Throw Proficiencies"
-                },
-                "Skill Proficiencies": {
-                    "title": "Skill Proficiencies"
-                },
-                "Weapon Proficiencies": {
-                    "title": "Weapon Proficiencies"
-                },
-                "Armor Training": {
-                    "title": "Armor Training"
-                },
-                "Fighting Style": {
-                    "title": "Fighting Style"
-                },
-                "Weapon Mastery": {
-                    "title": "Weapon Mastery"
-                }
-            }
+            "description": "<h3>Core Ranger Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Ranger level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 3:</em> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{sprig of mistletoe}), @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 7GP]]; or (B) [[/award 150GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgrRanger0000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Ranger Traits table.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>"
         },
         "Reckless": {
             "name": "Reckless"

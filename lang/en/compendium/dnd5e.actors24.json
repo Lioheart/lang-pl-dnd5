@@ -1763,7 +1763,7 @@
         },
         "Akra": {
             "name": "Akra",
-            "description": "<p>A devout follower of her deity and of her society's customs, Akra feels somewhat out of place adventuring in foreign lands. But she feels bound to do everything in her power to bring peace to the region.</p><p><em>Token artwork by </em><a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\"><em>Forgotten Adventures</em></a><em>.</em></p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "description": "<p>A devout follower of her deity and of her society's customs, Akra feels somewhat out of place adventuring in foreign lands. But she feels bound to do everything in her power to bring peace to the region.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Dragonborn": {
                     "name": "Dragonborn",
@@ -4623,7 +4623,7 @@
         },
         "Aoth": {
             "name": "Aoth",
-            "description": "<p>Aoth lived among animals for so long that he now has difficulty speaking Common. His natural habitat in danger, he decided to join an adventuring group to return balance to his land.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "description": "<p>Aoth lived among animals for so long that he now has difficulty speaking Common. His natural habitat in danger, he decided to join an adventuring group to return balance to his land.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Human": {
                     "name": "Human",
@@ -6417,7 +6417,7 @@
         },
         "Beiro": {
             "name": "Beiro",
-            "description": "<p>Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again at his tavern.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "description": "<p>Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again at his tavern.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Musician": {
                     "name": "Musician",
@@ -9259,6 +9259,37 @@
                             "name": "Resurrection Sickness (Day 3)",
                             "description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>"
                         },
+                        "Spell Changes": {
+                            "name": "Spell Changes"
+                        }
+                    }
+                },
+                "Divine Aid": {
+                    "name": "Divine Aid",
+                    "description": "<p class=\"feature\">The [[lookup @name lowercase]]{monster} casts <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em> using the same spellcasting ability as Spellcasting.</p>"
+                },
+                "Lesser Restoration": {
+                    "name": "Lesser Restoration",
+                    "description": "<p>You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed], or &amp;Reference[poisoned].</p>",
+                    "effects": {
+                        "Spell Changes": {
+                            "name": "Spell Changes"
+                        }
+                    }
+                },
+                "Cure Wounds": {
+                    "name": "Cure Wounds",
+                    "description": "<p>A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 2d8 for each spell slot level above 1.</p>",
+                    "effects": {
+                        "Spell Changes": {
+                            "name": "Spell Changes"
+                        }
+                    }
+                },
+                "Remove Curse": {
+                    "name": "Remove Curse",
+                    "description": "<p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded.</p>",
+                    "effects": {
                         "Spell Changes": {
                             "name": "Spell Changes"
                         }
@@ -20302,38 +20333,9 @@
                     "name": "Spellcasting",
                     "description": "<p>You have learned to channel the magical essence of nature to cast spells. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{rules on spellcasting}. The information below details how you use those rules with Ranger spells, which appear in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.5HnIk6HsrSxkvkz5]{Ranger spell list}.</p><p><strong>Spell Slots.</strong> The @UUID[Compendium.dnd5e.content24.JournalEntry.phbRanger0000000.JournalEntryPage.fgzoeAJE4EEUSOYQ#class-features]{Ranger Features table} shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds} and @UUID[Compendium.dnd5e.spells24.Item.phbsplEnsnaringS]{Ensnaring Strike} are recommended.</p><p>The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.</p><p>If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.</p><p><strong>Spellcasting Ability. </strong>Wisdom is your spellcasting ability for your Ranger spells.</p><p><strong>Spellcasting Focus. </strong>You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.</p>"
                 },
-                "Favored Enemy": {
-                    "name": "Favored Enemy",
-                    "description": "<p>You always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p><section id=\"secret-cyuZuzwxsQg01vVN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you at this level and will increase the number of free uses available automatically as you level up.</p></section>"
-                },
                 "Weapon Mastery": {
                     "name": "Weapon Mastery",
                     "description": "<p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.</p><p>Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.</p>"
-                },
-                "Hunter's Mark": {
-                    "name": "Hunter's Mark",
-                    "description": "<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra [[/damage]] damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
-                    "activities": {
-                        "Bonus Mark Damage": {
-                            "name": "Bonus Mark Damage"
-                        },
-                        "Mark Creature": {
-                            "name": "Mark Creature"
-                        },
-                        "Move Mark": {
-                            "name": "Move Mark",
-                            "condition": "when the currently marked target drops to 0 Hit Points"
-                        },
-                        "Mark Creature (free casting)": {
-                            "name": "Mark Creature (free casting)"
-                        }
-                    },
-                    "effects": {
-                        "Hunter's Mark": {
-                            "name": "Hunter's Mark",
-                            "description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
-                        }
-                    }
                 },
                 "Cure Wounds": {
                     "name": "Cure Wounds",
@@ -20829,40 +20831,9 @@
                     "name": "Spell Scroll: Protection from Poison",
                     "description": "<p><em>2nd Level &amp;Reference[Spell Scroll]</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplProtection inline]</p>"
                 },
-                "Protection from Poison": {
-                    "name": "Protection from Poison",
-                    "description": "<p>You touch a creature and end the &amp;Reference[poisoned] condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.</p>",
-                    "effects": {
-                        "Poison Protection": {
-                            "name": "Poison Protection",
-                            "description": "<p><span style=\"font-family:Signika, sans-serif\">For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.</span></p>"
-                        },
-                        "Spell Changes": {
-                            "name": "Spell Changes"
-                        }
-                    }
-                },
                 "Potion of Growth": {
                     "name": "Potion of Growth",
                     "description": "<p><em>Potion, Uncommon</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the @UUID[Compendium.dnd5e.spells24.Item.phbsplEnlargeRed]{Enlarge/Reduce} spell for 10 minutes (no Concentration required).</p><p>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</p>"
-                },
-                "Enlarge/Reduce": {
-                    "name": "Enlarge/Reduce",
-                    "description": "<p>For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.</p><p>Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.</p><p><strong>Enlarge.</strong> The target's size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.</p><p><strong>Reduce.</strong> The target's size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can't reduce the damage below 1).</p>",
-                    "materials": "a pinch of powdered iron",
-                    "effects": {
-                        "Enlarged": {
-                            "name": "Enlarged",
-                            "description": "<p>The target’s size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target’s attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.</p>"
-                        },
-                        "Reduced": {
-                            "name": "Reduced",
-                            "description": "<p>The target’s size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target’s attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can’t reduce the damage below 1).</p>"
-                        },
-                        "Spell Changes": {
-                            "name": "Spell Changes"
-                        }
-                    }
                 },
                 "Potion of Fire Resistance": {
                     "name": "Potion of Fire Resistance",
@@ -21064,6 +21035,57 @@
                 },
                 "Component: Diamond Dust": {
                     "name": "Component: Diamond Dust"
+                },
+                "Favored Enemy": {
+                    "name": "Favored Enemy",
+                    "description": "<p>You always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p>"
+                },
+                "Hunter's Mark": {
+                    "name": "Hunter's Mark",
+                    "description": "<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra [[/damage]] damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
+                    "activities": {
+                        "Bonus Mark Damage": {
+                            "name": "Bonus Mark Damage"
+                        },
+                        "Mark Creature": {
+                            "name": "Mark Creature"
+                        },
+                        "Move Mark": {
+                            "name": "Move Mark",
+                            "condition": "when the currently marked target drops to 0 Hit Points"
+                        }
+                    },
+                    "effects": {
+                        "Hunter's Mark": {
+                            "name": "Hunter's Mark",
+                            "description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
+                        }
+                    }
+                },
+                "8oGjpP1SMBN3LR2S": {
+                    "name": "Hunter's Mark",
+                    "description": "<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra [[/damage]] damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
+                    "activities": {
+                        "Bonus Mark Damage": {
+                            "name": "Bonus Mark Damage"
+                        },
+                        "Mark Creature": {
+                            "name": "Mark Creature"
+                        },
+                        "Move Mark": {
+                            "name": "Move Mark",
+                            "condition": "when the currently marked target drops to 0 Hit Points"
+                        }
+                    },
+                    "effects": {
+                        "Hunter's Mark": {
+                            "name": "Hunter's Mark",
+                            "description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
+                        },
+                        "Spell Changes": {
+                            "name": "Spell Changes"
+                        }
+                    }
                 }
             }
         },
@@ -28356,7 +28378,13 @@
                 },
                 "Arcane Recovery": {
                     "name": "Arcane Recovery",
-                    "description": "<p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p><p>Once you use this feature, you can't do so again until you finish a Long Rest.</p><p><strong>Combined Level Available:</strong> [[(@classes.wizard.levels / 2)]]</p><section id=\"secret-cO6X083GFJ1W4071\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>"
+                    "description": "<p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p><p>Once you use this feature, you can't do so again until you finish a Long Rest.</p><p><strong>Combined Level Available:</strong> [[ceil(@classes.wizard.levels / 2)]]</p><section class=\"secret\" id=\"secret-cO6X083GFJ1W4071\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>",
+                    "activities": {
+                        "Recover": {
+                            "name": "Recover",
+                            "roll": "Combined Spell Levels"
+                        }
+                    }
                 },
                 "Light": {
                     "name": "Light",
