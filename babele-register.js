@@ -59,7 +59,6 @@ Hooks.once("babele.init", (babele) => {
         "pages": Dnd5ePlConverters.pages(),
         "effects": Dnd5ePlConverters.effects(),
         "activities": Dnd5ePlConverters.activities(),
-        "advancement": Dnd5ePlConverters.advancement(),
         "translateAdvancement": Dnd5ePlConverters.advancement()
     });
 });
