@@ -2,10 +2,38 @@
     "label": "Początki postaci",
     "mapping": {
         "description": "system.description.value",
+        "requirements": "system.requirements",
         "materials": "system.materials.value",
+        "chat": "system.description.chat",
         "activities": {
             "path": "system.activities",
-            "converter": "activities"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "name",
+                "type"
+            ],
+            "mapping": {
+                "name": "name",
+                "condition": "activation.condition",
+                "chatFlavor": "description.chatFlavor",
+                "duration": "duration.special",
+                "roll": "roll.name",
+                "range": {
+                    "path": "range",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "target",
+                    "converter": "imperialToMetric"
+                },
+                "profiles": {
+                    "path": "profiles",
+                    "converter": "nameCollection"
+                }
+            }
         },
         "effects": {
             "path": "effects",
@@ -13,7 +41,61 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "advancement"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "title"
+            ],
+            "mapping": {
+                "title": "title",
+                "hint": "hint",
+                "_variants": [
+                    {
+                        "_when": {
+                            "path": "type",
+                            "equals": "ScaleValue"
+                        },
+                        "distance": {
+                            "path": "configuration.distance",
+                            "converter": "imperialToMetric"
+                        },
+                        "scale": {
+                            "path": "configuration.scale",
+                            "converter": "imperialToMetric"
+                        }
+                    }
+                ]
+            }
+        },
+        "movement": {
+            "path": "system.movement",
+            "converter": "imperialToMetric"
+        },
+        "weight": {
+            "path": "system.weight",
+            "converter": "imperialToMetric"
+        },
+        "range": {
+            "path": "system.range",
+            "converter": "imperialToMetric"
+        },
+        "capacityWeight": {
+            "path": "system.capacity.weight",
+            "converter": "imperialToMetric"
+        },
+        "senses": {
+            "path": "system.senses",
+            "converter": "imperialToMetric"
+        },
+        "target": {
+            "path": "system.target",
+            "converter": "imperialToMetric"
+        },
+        "volume": {
+            "path": "system.capacity.volume",
+            "converter": "imperialToMetric"
         }
     },
     "entries": {
@@ -42,6 +124,7 @@
         "Adrenaline Rush": {
             "name": "Przypływ adrenaliny",
             "description": "<p>Możesz wykonać akcję Sprint jako Akcję Dodatkową. Gdy to zrobisz, zyskujesz liczbę Tymczasowych Punktów Wytrzymałości równą twojej Premii od biegłości. Możesz użyć tej cechy liczbę razy równą twojej Premii od biegłości, a wszystkie zużyte użycia odzyskujesz po zakończeniu Krótkiego lub Długiego Odpoczynku.</p>",
+            "requirements": "Ork",
             "activities": {
                 "Adrenaline Rush: Dash": {
                     "name": "Przypływ adrenaliny: Sprint"
@@ -50,11 +133,13 @@
         },
         "Brave": {
             "name": "Odważny",
-            "description": "<p>Masz Ułatwienie do rzutów obronnych wykonywanych w celu uniknięcia lub zakończenia stanu &amp;Reference[Frightened]{Przerażony}.</p>"
+            "description": "<p>Masz Ułatwienie do rzutów obronnych wykonywanych w celu uniknięcia lub zakończenia stanu &amp;Reference[Frightened]{Przerażony}.</p>",
+            "requirements": "Nizołek"
         },
         "Breath Weapon": {
             "name": "Zionięcie",
             "description": "<p>Kiedy wykonujesz akcję Atak w swojej turze, możesz zastąpić jeden ze swoich ataków wydechem magicznej energii w formie stożka o zasięgu 15 stóp lub linii o długości 30 stóp i szerokości 5 stóp (wybierz kształt za każdym razem). Każda istota w tym obszarze musi wykonać rzut obronny na Zręczność (ST 8 plus twój modyfikator Budowy i Premia do Biegłości). W przypadku nieudanego rzutu istota otrzymuje 1k10 obrażeń typu określonego przez cechę Pochodzenia Smoczego. W przypadku udanego rzutu istota otrzymuje połowę obrażeń. Obrażenia te zwiększają się o 1k10, gdy osiągniesz poziomy postaci 5 (2k10), 11 (3k10) i 17 (4k10). Możesz użyć tej Broni Oddechowej liczbę razy równą twojej Premii do Biegłości, a wszystkie zużyte użycia odzyskujesz po zakończeniu Długiego Odpoczynku.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Notatka Foundry</strong></p><p>Aktywności <strong>Broń Oddechowa (Stożek)</strong> i <strong>Broń Oddechowa (Linia)</strong> są skonfigurowane dla swojego typu szablonu i obejmują każdy typ obrażeń. Obrażenia skalują się wraz ze wzrostem poziomu.</p><p>Typ obrażeń możesz wybrać w oknie dialogowym rzutu na obrażenia. Wybór typu obrażeń zostanie zapamiętany na przyszłość. Możesz edytować aktywności, aby usunąć inne typy obrażeń i pominąć ten krok.</p></section>",
+            "requirements": "Drakon",
             "activities": {
                 "Breath Weapon (Cone)": {
                     "name": "Zionięcie (Stożek)"
@@ -64,12 +149,10 @@
                 }
             }
         },
-        "Chilled": {
-            "name": "Oziębiony"
-        },
         "Cloud's Jaunt": {
             "name": "Wędrówka chmur",
             "description": "<p>Akcją dodatkową możesz magicznie teleportować się na odległość do 30 stóp do niezajętej przestrzeni, którą widzisz.</p>",
+            "requirements": "Goliat (Gigant chmurowy)",
             "activities": {
                 "Cloud's Jaunt": {
                     "name": "Wędrówka chmur",
@@ -100,7 +183,19 @@
             }
         },
         "Draconic Flight": {
-            "name": "Smoczy lot"
+            "name": "Smoczy lot",
+            "description": "<p>Gdy osiągniesz 5. poziom postaci, możesz skupić smoczą magię, aby tymczasowo zyskać zdolność lotu. Jako Akcję Dodatkową z twoich pleców wyrastają widmowe skrzydła, które utrzymują się przez 10 minut lub do momentu, gdy je cofniesz (nie wymaga to akcji) albo gdy uzyskasz stan Obezwładniony. W tym czasie masz Szybkość Lotu równą twojej Szybkości. Twoje skrzydła wydają się być stworzone z tej samej energii, co twój Breath Weapon. Po użyciu tej cechy nie możesz jej użyć ponownie, dopóki nie zakończysz Długiego Odpoczynku.</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Ta cecha zawiera Efekt Aktywny do śledzenia, ale nie przyznaje automatycznie Szybkości Lotu.</p></section>",
+            "requirements": "Drakon",
+            "activities": {
+                "Draconic Flight": {
+                    "name": "Smoczy lot"
+                }
+            },
+            "effects": {
+                "Draconic Flight": {
+                    "name": "Smoczy lot"
+                }
+            }
         },
         "Dragonborn": {
             "name": "Drakon",
@@ -142,10 +237,18 @@
         },
         "Dwarven Resilience": {
             "name": "Krasnoludzka odporność",
-            "description": "<p>Masz Odporność na obrażenia od trucizn. Masz także Ułatwienie do rzutów obronnych wykonywanych w celu uniknięcia lub zakończenia stanu Zatruty.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Automatycznie otrzymasz Odporność na obrażenia od trucizn, ale nie Ułatwienie do rzutów obronnych na uniknięcie lub zakończenie stanu Zatruty.</p></section>"
+            "description": "<p>Masz Odporność na obrażenia od trucizn. Masz także Ułatwienie do rzutów obronnych wykonywanych w celu uniknięcia lub zakończenia stanu Zatruty.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Automatycznie otrzymasz Odporność na obrażenia od trucizn, ale nie Ułatwienie do rzutów obronnych na uniknięcie lub zakończenie stanu Zatruty.</p></section>",
+            "requirements": "Krasnolud"
         },
         "Dwarven Toughness": {
-            "name": "Krasnoludzka wytrzymałość"
+            "name": "Krasnoludzka wytrzymałość",
+            "description": "<p>Twój maksymalny limit Punktów Wytrzymałości zwiększa się o 1 i zwiększa się o kolejne 1 za każdym razem, gdy zdobywasz poziom.</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Notatka Foundry</strong></p><p>Zwiększenie maksymalnego limitu Punktów Wytrzymałości jest automatycznie uwzględniane na każdym poziomie.</p></section>",
+            "requirements": "Krasnolud",
+            "effects": {
+                "Dwarven Toughness": {
+                    "name": "Krasnoludzka wytrzymałość"
+                }
+            }
         },
         "Elf, Drow": {
             "name": "Elf, Drow",
@@ -209,35 +312,43 @@
         },
         "Elven Lineage, Drow": {
             "name": "Elfi Rodowód, Drow",
-            "description": "<p>Należysz do linii, która zapewnia ci nadprzyrodzone zdolności.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze rodowodu).</p><h3>Cechy rodowodu Drowów</h3><table><thead><tr><td><p>Poziom 1</p></td><td><p>Poziom 3</p></td><td><p>Poziom 5</p></td></tr></thead><tbody><tr><td><p>Zasięg twojego Widzenia w Ciemności zwiększa się do 120 stóp. Znasz także sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Tańczące Światła}.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Blask Faerie}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Ciemność}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Notatka Foundry</strong></p><p>Odpowiednie cechy i czary zostaną automatycznie przyznane po wybraniu rasy oraz podczas awansu na kolejne poziomy.</p></section>"
+            "description": "<p>Należysz do linii, która zapewnia ci nadprzyrodzone zdolności.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze rodowodu).</p><h3>Cechy rodowodu Drowów</h3><table><thead><tr><td><p>Poziom 1</p></td><td><p>Poziom 3</p></td><td><p>Poziom 5</p></td></tr></thead><tbody><tr><td><p>Zasięg twojego Widzenia w Ciemności zwiększa się do 120 stóp. Znasz także sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Tańczące Światła}.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Blask Faerie}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Ciemność}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Notatka Foundry</strong></p><p>Odpowiednie cechy i czary zostaną automatycznie przyznane po wybraniu rasy oraz podczas awansu na kolejne poziomy.</p></section>",
+            "requirements": "Elf (Drow)"
         },
         "Elven Lineage, High Elf": {
             "name": "Elfi Rodowód, Wysoki Elf",
-            "description": "<p>Należysz do linii, która zapewnia ci nadprzyrodzone zdolności.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze linii).</p><table><caption>Cechy Linii krwi Wysokiego Elfa</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Znasz sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Kuglarstwo}. Po zakończeniu Długiego Odpoczynku możesz zastąpić tę sztuczkę inną sztuczką z listy czarów Maga.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Notatka Foundry</strong></p><p>Odpowiednie cechy i czary zostaną automatycznie przyznane po wybraniu rasy oraz podczas awansu na kolejne poziomy.</p></section>"
+            "description": "<p>Należysz do linii, która zapewnia ci nadprzyrodzone zdolności.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze linii).</p><table><caption>Cechy Linii krwi Wysokiego Elfa</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Znasz sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Kuglarstwo}. Po zakończeniu Długiego Odpoczynku możesz zastąpić tę sztuczkę inną sztuczką z listy czarów Maga.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Notatka Foundry</strong></p><p>Odpowiednie cechy i czary zostaną automatycznie przyznane po wybraniu rasy oraz podczas awansu na kolejne poziomy.</p></section>",
+            "requirements": "Elf (Wysoki)"
         },
         "Elven Lineage, Wood Elf": {
             "name": "Elfi Rodowód, Leśny Elf",
-            "description": "<p>Należysz do linii, która zapewnia ci nadprzyrodzone zdolności.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze linii).</p><table><caption>Cechy Linii Leśnego Elfa</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Twoja Szybkość zwiększa się do 35 stóp. Znasz także sztuczkę UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft].</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Notatka Foundry</strong></p><p>Odpowiednie cechy i czary zostaną automatycznie przyznane po wybraniu rasy oraz podczas awansu na kolejne poziomy.</p></section>"
+            "description": "<p>Należysz do linii, która zapewnia ci nadprzyrodzone zdolności.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze linii).</p><table><caption>Cechy Linii Leśnego Elfa</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Twoja Szybkość zwiększa się do 35 stóp. Znasz także sztuczkę UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft].</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Notatka Foundry</strong></p><p>Odpowiednie cechy i czary zostaną automatycznie przyznane po wybraniu rasy oraz podczas awansu na kolejne poziomy.</p></section>",
+            "requirements": "Elf (Leśny)"
         },
         "Fey Ancestry": {
             "name": "Rodowód fey",
-            "description": "<p>Masz Ułatwienie do rzutów obronnych wykonywanych w celu uniknięcia lub zakończenia stanu &amp;Reference[Charmed]{Zauroczony}.</p>"
+            "description": "<p>Masz Ułatwienie do rzutów obronnych wykonywanych w celu uniknięcia lub zakończenia stanu &amp;Reference[Charmed]{Zauroczony}.</p>",
+            "requirements": "Elf"
         },
         "Fiendish Legacy, Abyssal": {
             "name": "Czarcia spuścizna, Otchłanne",
-            "description": "<p>Jesteś spadkobiercą dziedzictwa, które obdarza cię nadprzyrodzonymi zdolnościami.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze dziedzictwa).</p><h3 data-anchor=\"abyssal\">Otchłanna spuścizna</h3><p>Entropia Otchłani, chaos Pandemonium i rozpacz Carceri przyciągają diabelstwa posiadające otchłanne dziedzictwo. Rogi, futro, kły oraz charakterystyczne zapachy to częste cechy fizyczne takich diabelstw, z których większość ma w żyłach demoniczną krew.</p><table><caption>Cechy Otchłannej spuścizny</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Masz Odporność na obrażenia od trucizn. Znasz także sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Trujący Rozprysk}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Promień Zatrucia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Unieruchomienie Osoby}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Notatka Foundry</strong></p><p>Odporność oraz czary zostaną przyznane automatycznie, a podczas awansu zostaniesz poproszony o wybór cechy zaklinania.</p></section>"
+            "description": "<p>Jesteś spadkobiercą dziedzictwa, które obdarza cię nadprzyrodzonymi zdolnościami.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze dziedzictwa).</p><h3 data-anchor=\"abyssal\">Otchłanna spuścizna</h3><p>Entropia Otchłani, chaos Pandemonium i rozpacz Carceri przyciągają diabelstwa posiadające otchłanne dziedzictwo. Rogi, futro, kły oraz charakterystyczne zapachy to częste cechy fizyczne takich diabelstw, z których większość ma w żyłach demoniczną krew.</p><table><caption>Cechy Otchłannej spuścizny</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Masz Odporność na obrażenia od trucizn. Znasz także sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{Trujący Rozprysk}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Promień Zatrucia}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Unieruchomienie Osoby}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Notatka Foundry</strong></p><p>Odporność oraz czary zostaną przyznane automatycznie, a podczas awansu zostaniesz poproszony o wybór cechy zaklinania.</p></section>",
+            "requirements": "Diabelstwo"
         },
         "Fiendish Legacy, Chthonic": {
             "name": "Czarcia spuścizna, Chitoniczne",
-            "description": "<p>Jesteś spadkobiercą dziedzictwa, które obdarza cię nadprzyrodzonymi zdolnościami.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze dziedzictwa).</p><h3 data-anchor=\"chthonic\">Chtoniczna spuścizna</h3><p>Diabelstwa posiadające chtoniczne dziedzictwo odczuwają nie tylko przyciąganie Carceri, ale także chciwość Gehenny i ponurość Hadesu. Niektóre z tych diabelstw wyglądają na wyniszczone, inne zaś posiadają nadziemską urodę sukkuba lub cechy fizyczne wspólne z nocną wiedźmą, yugolothem lub innym Neutralnie Złym przodkiem o plugawym rodowodzie.</p><table><caption>Cechy Chtonicznego Dziedzictwa</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Masz Odporność na obrażenia nekrotyczne. Znasz także sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]]{Przeszywający Dotyk}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{Fałszywe Życie}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Promień Osłabienia}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Notatka Foundry</strong></p><p>Odporność oraz czary zostaną przyznane automatycznie, a podczas awansu zostaniesz poproszony o wybór cechy zaklinania.</p></section>"
+            "description": "<p>Jesteś spadkobiercą dziedzictwa, które obdarza cię nadprzyrodzonymi zdolnościami.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze dziedzictwa).</p><h3 data-anchor=\"chthonic\">Chtoniczna spuścizna</h3><p>Diabelstwa posiadające chtoniczne dziedzictwo odczuwają nie tylko przyciąganie Carceri, ale także chciwość Gehenny i ponurość Hadesu. Niektóre z tych diabelstw wyglądają na wyniszczone, inne zaś posiadają nadziemską urodę sukkuba lub cechy fizyczne wspólne z nocną wiedźmą, yugolothem lub innym Neutralnie Złym przodkiem o plugawym rodowodzie.</p><table><caption>Cechy Chtonicznego Dziedzictwa</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Masz Odporność na obrażenia nekrotyczne. Znasz także sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]]{Przeszywający Dotyk}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{Fałszywe Życie}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{Promień Osłabienia}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Notatka Foundry</strong></p><p>Odporność oraz czary zostaną przyznane automatycznie, a podczas awansu zostaniesz poproszony o wybór cechy zaklinania.</p></section>",
+            "requirements": "Diabelstwo"
         },
         "Fiendish Legacy, Infernal": {
             "name": "Czarcia Spuścizna, Piekielne",
-            "description": "<p>Jesteś spadkobiercą dziedzictwa, które obdarza cię nadprzyrodzonymi zdolnościami.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze dziedzictwa).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>Piekielne dziedzictwo łączy diabelstwa nie tylko z Gehenną, ale także z Dziewięcioma Piekłami i ogarniętymi wojną polami bitewnymi Acheronu. Rogi, kolce, ogony, złote oczy oraz delikatny zapach siarki lub dymu to częste cechy fizyczne takich diabelstw, z których większość wywodzi swoje pochodzenie od diabłów.</p><table><caption>Cechy piekielnej spuścizny</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Masz Odporność na obrażenia od ognia. Znasz także sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Ognisty Pocisk}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Piekielna Reprymenda}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Ciemność}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Notatka Foundry</strong></p><p>Odporność oraz czary zostaną przyznane automatycznie, a podczas awansu zostaniesz poproszony o wybór cechy zaklinania.</p></section>"
+            "description": "<p>Jesteś spadkobiercą dziedzictwa, które obdarza cię nadprzyrodzonymi zdolnościami.</p><p>Gdy osiągniesz 3. i 5. poziom postaci, uczysz się czaru wyższego kręgu, jak pokazano w tabeli. Zawsze masz ten czar przygotowany. Możesz rzucić go raz bez użycia komórki czaru, a zdolność ta odnawia się po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru odpowiedniego poziomu. Inteligencja, Mądrość lub Charyzma jest twoją cechą bazową rzucania czarów dla zaklęć rzucanych za pomocą tej cechy (wybierz cechę przy wyborze dziedzictwa).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>Piekielne dziedzictwo łączy diabelstwa nie tylko z Gehenną, ale także z Dziewięcioma Piekłami i ogarniętymi wojną polami bitewnymi Acheronu. Rogi, kolce, ogony, złote oczy oraz delikatny zapach siarki lub dymu to częste cechy fizyczne takich diabelstw, z których większość wywodzi swoje pochodzenie od diabłów.</p><table><caption>Cechy piekielnej spuścizny</caption><thead><tr><td>Poziom 1</td><td>Poziom 3</td><td>Poziom 5</td></tr></thead><tbody><tr><td>Masz Odporność na obrażenia od ognia. Znasz także sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Ognisty Pocisk}.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Piekielna Reprymenda}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Ciemność}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Notatka Foundry</strong></p><p>Odporność oraz czary zostaną przyznane automatycznie, a podczas awansu zostaniesz poproszony o wybór cechy zaklinania.</p></section>",
+            "requirements": "Diabelstwo"
         },
         "Fire's Burn": {
             "name": "Ognisty żar",
             "description": "<p>Kiedy trafisz cel w teście ataku i zadasz mu obrażenia, możesz także zadać temu celowi 1k10 obrażeń od ognia.</p>",
+            "requirements": "Goliat (Gigant ogniowy)",
             "activities": {
                 "Burn": {
                     "name": "Żar",
@@ -248,6 +359,7 @@
         "Frost's Chill": {
             "name": "Mroźny chłód",
             "description": "<p>Kiedy trafisz cel w teście ataku i zadasz mu obrażenia, możesz także zadać temu celowi 1k6 obrażeń od zimna oraz zmniejszyć jego Szybkość o 10 stóp do początku swojej następnej tury.</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Ta zdolność zawiera Efekt Aktywny, który może być użyty do śledzenia i zmniejsza Szybkość celu o 10.</p></section>",
+            "requirements": "Goliat (Gigant lodowy)",
             "activities": {
                 "Chill": {
                     "name": "Chłód",
@@ -262,7 +374,8 @@
         },
         "Giant Ancestry": {
             "name": "Rodowód olbrzymów",
-            "description": "<p>Jesteś potomkiem Olbrzymów. Wybierz jedną z poniższych korzyści – nadprzyrodzony dar wynikający z twojego dziedzictwa. Możesz użyć wybranego efektu liczbę razy równą twojej Premii od biegłości, a wszystkie zużyte użycia odzyskujesz po zakończeniu Długiego Odpoczynku:</p><p><strong>Wędrówka chmur (Olbrzym Chmurowy).</strong> Jako Akcję Dodatkową możesz magicznie teleportować się na odległość do 30 stóp do niezajętej przestrzeni, którą widzisz.</p><p><strong>Ognisty żar (Olbrzym Ognisty).</strong> Kiedy trafisz cel w teście ataku i zadasz mu obrażenia, możesz także zadać temu celowi 1k10 obrażeń od ognia.</p><p><strong>Mroźny chłód (Olbrzym Mroźny).</strong> Kiedy trafisz cel w teście ataku i zadasz mu obrażenia, możesz także zadać temu celowi 1k6 obrażeń od zimna oraz zmniejszyć jego Szybkość o 10 stóp do początku swojej następnej tury.</p><p><strong>Upadek wzgórza (Olbrzym Wzgórzowy).</strong> Kiedy trafisz Duże lub mniejsze stworzenie w teście ataku i zadasz mu obrażenia, możesz nadać mu stan Powalony.</p><p><strong>Wytrzymałość kamienia (Olbrzym Kamienny).</strong> Kiedy otrzymujesz obrażenia, możesz użyć Reakcji, aby wykonać rzut 1k12. Dodaj swój modyfikator z Kondycji do wyniku i zmniejsz otrzymane obrażenia o tę wartość.</p><p><strong>Grzmot burzy (Olbrzym Burzowy).</strong> Kiedy otrzymasz obrażenia od istoty znajdującej się w odległości do 60 stóp, możesz użyć Reakcji, aby zadać tej istocie 1k8 obrażeń od dźwięku.</p>"
+            "description": "<p>Jesteś potomkiem Olbrzymów. Wybierz jedną z poniższych korzyści – nadprzyrodzony dar wynikający z twojego dziedzictwa. Możesz użyć wybranego efektu liczbę razy równą twojej Premii od biegłości, a wszystkie zużyte użycia odzyskujesz po zakończeniu Długiego Odpoczynku:</p><p><strong>Wędrówka chmur (Olbrzym Chmurowy).</strong> Jako Akcję Dodatkową możesz magicznie teleportować się na odległość do 30 stóp do niezajętej przestrzeni, którą widzisz.</p><p><strong>Ognisty żar (Olbrzym Ognisty).</strong> Kiedy trafisz cel w teście ataku i zadasz mu obrażenia, możesz także zadać temu celowi 1k10 obrażeń od ognia.</p><p><strong>Mroźny chłód (Olbrzym Mroźny).</strong> Kiedy trafisz cel w teście ataku i zadasz mu obrażenia, możesz także zadać temu celowi 1k6 obrażeń od zimna oraz zmniejszyć jego Szybkość o 10 stóp do początku swojej następnej tury.</p><p><strong>Upadek wzgórza (Olbrzym Wzgórzowy).</strong> Kiedy trafisz Duże lub mniejsze stworzenie w teście ataku i zadasz mu obrażenia, możesz nadać mu stan Powalony.</p><p><strong>Wytrzymałość kamienia (Olbrzym Kamienny).</strong> Kiedy otrzymujesz obrażenia, możesz użyć Reakcji, aby wykonać rzut 1k12. Dodaj swój modyfikator z Kondycji do wyniku i zmniejsz otrzymane obrażenia o tę wartość.</p><p><strong>Grzmot burzy (Olbrzym Burzowy).</strong> Kiedy otrzymasz obrażenia od istoty znajdującej się w odległości do 60 stóp, możesz użyć Reakcji, aby zadać tej istocie 1k8 obrażeń od dźwięku.</p>",
+            "requirements": "Goliat"
         },
         "Gnome, Forest": {
             "name": "Gnom, Leśny",
@@ -302,15 +415,24 @@
         },
         "Gnomish Cunning": {
             "name": "Gnomi spryt",
-            "description": "<p>Masz Ułatwienie do rzutów obronnych na Inteligencję, Mądrość i Charyzmę.</p>"
+            "description": "<p>Masz Ułatwienie do rzutów obronnych na Inteligencję, Mądrość i Charyzmę.</p>",
+            "requirements": "Gnom",
+            "effects": {
+                "Gnomish Cunning": {
+                    "name": "Gnomi spryt",
+                    "description": "<p>Masz Ułatwienie do rzutów obronnych na Inteligencję, Mądrość i Charyzmę.</p>"
+                }
+            }
         },
         "Gnomish Lineage, Forest": {
             "name": "Gnomi Rodowód, Leśny",
-            "description": "<p>Znasz sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Pomniejsza Iluzja}. Zawsze masz także przygotowany czar @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Rozmawianie ze Zwierzętami}. Możesz rzucić go bez użycia komórki czaru liczbę razy równą twojej Premii od biegłości, a wszystkie zużyte użycia odzyskujesz po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru.</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Darmowe rzuty czaru są uwzględnione w opisie czaru.</p></section>"
+            "description": "<p>Znasz sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{Pomniejsza Iluzja}. Zawsze masz także przygotowany czar @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Rozmawianie ze Zwierzętami}. Możesz rzucić go bez użycia komórki czaru liczbę razy równą twojej Premii od biegłości, a wszystkie zużyte użycia odzyskujesz po zakończeniu Długiego Odpoczynku. Możesz również rzucać ten czar, używając dowolnych posiadanych komórek czaru.</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Darmowe rzuty czaru są uwzględnione w opisie czaru.</p></section>",
+            "requirements": "Gnom (Leśny)"
         },
         "Gnomish Lineage, Rock": {
             "name": "Gnomi Rodowód, Skalny",
-            "description": "<p>Znasz sztuczki @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Naprawa} i @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Kuglarstwo}. Dodatkowo możesz poświęcić 10 minut na rzucenie <em>Kuglarstwa</em>, aby stworzyć Malutkie mechaniczne urządzenie (KP 5, 1 PW), takie jak zabawka, zapalniczka lub pozytywka. Tworząc urządzenie, określasz jego funkcję, wybierając jeden efekt z <em>Kuglarstwa</em>; urządzenie wywołuje ten efekt, gdy ty lub inna istota aktywujecie je dotykiem, używając Akcji dodatkowej. Jeśli wybrany efekt ma opcje, wybierasz jedną z nich podczas tworzenia urządzenia. Na przykład, jeśli wybierzesz efekt zapalania i gaszenia ognia, określasz, czy urządzenie zapala, czy gasi ogień – nie może robić obu rzeczy jednocześnie. Możesz mieć jednocześnie do trzech takich urządzeń, a każde z nich rozpada się po 8 godzinach od stworzenia lub gdy je rozmontujesz dotykiem, używając akcji Użycie Obiektu.</p>"
+            "description": "<p>Znasz sztuczki @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Naprawa} i @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Kuglarstwo}. Dodatkowo możesz poświęcić 10 minut na rzucenie <em>Kuglarstwa</em>, aby stworzyć Malutkie mechaniczne urządzenie (KP 5, 1 PW), takie jak zabawka, zapalniczka lub pozytywka. Tworząc urządzenie, określasz jego funkcję, wybierając jeden efekt z <em>Kuglarstwa</em>; urządzenie wywołuje ten efekt, gdy ty lub inna istota aktywujecie je dotykiem, używając Akcji dodatkowej. Jeśli wybrany efekt ma opcje, wybierasz jedną z nich podczas tworzenia urządzenia. Na przykład, jeśli wybierzesz efekt zapalania i gaszenia ognia, określasz, czy urządzenie zapala, czy gasi ogień – nie może robić obu rzeczy jednocześnie. Możesz mieć jednocześnie do trzech takich urządzeń, a każde z nich rozpada się po 8 godzinach od stworzenia lub gdy je rozmontujesz dotykiem, używając akcji Użycie Obiektu.</p>",
+            "requirements": "Gnom (Skalny)"
         },
         "Goliath": {
             "name": "Goliat",
@@ -341,11 +463,19 @@
             }
         },
         "Halfling Nimbleness": {
-            "name": "Zwinność niziołka"
+            "name": "Zwinność niziołka",
+            "description": "<p>Możesz poruszać się przez przestrzeń dowolnej istoty, która jest od ciebie o jeden rozmiar większa, ale nie możesz zatrzymać się w tej samej przestrzeni.</p>",
+            "requirements": "Nizołek",
+            "effects": {
+                "Halfling Nimbleness": {
+                    "name": "Zwinność niziołka"
+                }
+            }
         },
         "Hill's Tumble": {
             "name": "Upadek wzgórza",
             "description": "<p>Kiedy trafisz Duże lub mniejsze stworzenie w teście ataku i zadasz mu obrażenia, możesz nadać mu stan &amp;Reference[Prone]{Powalony}.</p>",
+            "requirements": "Goliat (Gigant wzgórzowy)",
             "activities": {
                 "Hill's Tumble": {
                     "name": "Upadek wzgórza",
@@ -375,18 +505,39 @@
         },
         "Keen Senses": {
             "name": "Wyostrzone zmysły",
-            "description": "<p>Masz biegłość w umiejętności Intuicja, Percepcja lub Sztuka Przetrwania.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Po wybraniu tej rasy zostaniesz poproszony o dokonanie wyboru.</p></section>"
+            "description": "<p>Masz biegłość w umiejętności Intuicja, Percepcja lub Sztuka Przetrwania.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Po wybraniu tej rasy zostaniesz poproszony o dokonanie wyboru.</p></section>",
+            "requirements": "Elf"
         },
         "Large Form": {
             "name": "Duża postać",
-            "description": "<p>Na ten czas masz Ułatwienie w testach Siły, a twoja Szybkość wzrasta o 10 stóp. Po użyciu tej cechy nie możesz jej ponownie użyć, dopóki nie zakończysz Długiego Odpoczynku.</p>"
+            "description": "<p>Od 5. poziomu postaci możesz zmienić swój rozmiar na Duży jako Akcję Dodatkową, jeśli znajdujesz się w wystarczająco dużej przestrzeni. Ta przemiana trwa 10 minut lub do momentu, gdy ją zakończysz (nie wymaga akcji). Na ten czas masz Ułatwienie w testach Siły, a twoja Szybkość wzrasta o 10 stóp. Po użyciu tej cechy nie możesz jej ponownie użyć, dopóki nie zakończysz Długiego Odpoczynku.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Notatka Foundry</strong></p><p>Ta zdolność zawiera Aktywny Efekt, który automatyzuje zwiększenie twojej Szybkości i przyznaje Ułatwienie do testów Siły.</p></section>",
+            "requirements": "Goliat",
+            "activities": {
+                "Enlarge": {
+                    "name": "Powiększenie"
+                }
+            },
+            "effects": {
+                "Large Form": {
+                    "name": "Duża postać",
+                    "description": "<p>Na ten czas masz Ułatwienie w testach Siły, a twoja Szybkość wzrasta o 10 stóp. Po użyciu tej cechy nie możesz jej ponownie użyć, dopóki nie zakończysz Długiego Odpoczynku.</p>"
+                }
+            }
         },
         "Luck": {
-            "name": "Szczęście"
+            "name": "Szczęście",
+            "description": "<p>Kiedy wyrzucisz 1 na k20 w Teście k20, możesz przerzucić kość i musisz użyć nowego wyniku.</p>",
+            "requirements": "Nizołek",
+            "effects": {
+                "Luck": {
+                    "name": "Szczęście"
+                }
+            }
         },
         "Naturally Stealthy": {
             "name": "Niezauważalny",
-            "description": "<p>Możesz wykonać akcję &amp;Reference[Hide]{Ukrycie}, nawet jeśli jesteś zasłonięty jedynie przez istotę, która jest co najmniej o jeden rozmiar większa od ciebie.</p>"
+            "description": "<p>Możesz wykonać akcję &amp;Reference[Hide]{Ukrycie}, nawet jeśli jesteś zasłonięty jedynie przez istotę, która jest co najmniej o jeden rozmiar większa od ciebie.</p>",
+            "requirements": "Nizołek"
         },
         "Orc": {
             "name": "Ork",
@@ -402,14 +553,23 @@
         },
         "Otherworldly Presence": {
             "name": "Nieziemska obecność",
-            "description": "<p>Znasz sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgia}. Kiedy rzucasz ją za pomocą tej cechy, czar wykorzystuje tę samą cechę zaklinania, której używasz dla cechy Fiendish Legacy.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Gdy otrzymasz ten czar, będziesz miał możliwość wyboru cechy zaklinania.</p></section>"
+            "description": "<p>Znasz sztuczkę @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgia}. Kiedy rzucasz ją za pomocą tej cechy, czar wykorzystuje tę samą cechę zaklinania, której używasz dla cechy Fiendish Legacy.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Gdy otrzymasz ten czar, będziesz miał możliwość wyboru cechy zaklinania.</p></section>",
+            "requirements": "Diabelstwo"
         },
         "Powerful Build": {
-            "name": "Potężna budowa"
+            "name": "Potężna budowa",
+            "description": "<p>Masz Ułatwienie do testów cech wykonywanych w celu zakończenia stanu &amp;Reference[Grappled]. Ponadto jesteś traktowany jako istota o jeden rozmiar większa, jeśli chodzi o określanie twojej ładowności.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Notatka Foundry</strong></p><p>Ta zdolność zawiera Efekt Aktywny, który automatycznie zwiększa twój rozmiar przy określaniu ładowności.</p></section>",
+            "requirements": "Goliat",
+            "effects": {
+                "Powerful Build": {
+                    "name": "Potężna budowa"
+                }
+            }
         },
         "Relentless Endurance": {
             "name": "Wola życia",
             "description": "<p>Kiedy twoje Punkty Wytrzymałości zostaną zredukowane do 0, ale nie zostaniesz od razu zabity, zamiast tego możesz pozostać z 1 Punktem Wytrzymałości. Po użyciu tej cechy nie możesz jej użyć ponownie, dopóki nie zakończysz Długiego Odpoczynku.</p>",
+            "requirements": "Ork",
             "activities": {
                 "Relentlessly Endure": {
                     "name": "Wola życia",
@@ -419,7 +579,8 @@
         },
         "Resourceful": {
             "name": "Zaradny",
-            "description": "<p>Zyskujesz Heroiczną Inspirację za każdym razem, gdy zakończysz Długi Odpoczynek.</p>"
+            "description": "<p>Zyskujesz Heroiczną Inspirację za każdym razem, gdy zakończysz Długi Odpoczynek.</p>",
+            "requirements": "Człowiek"
         },
         "Sage": {
             "name": "Mędrzec",
@@ -445,7 +606,8 @@
         },
         "Skillful": {
             "name": "Umiejętny",
-            "description": "<p>Zyskujesz biegłość w jednej umiejętności według własnego wyboru.</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Po wybraniu tej rasy zostaniesz poproszony o dokonanie wyboru.</p></section>"
+            "description": "<p>Zyskujesz biegłość w jednej umiejętności według własnego wyboru.</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Po wybraniu tej rasy zostaniesz poproszony o dokonanie wyboru.</p></section>",
+            "requirements": "Człowiek"
         },
         "Soldier": {
             "name": "Żołnierz",
@@ -472,6 +634,7 @@
         "Stone's Endurance": {
             "name": "Wytrzymałość kamienia",
             "description": "<p>Kiedy otrzymujesz obrażenia, możesz użyć Reakcji, aby wykonać rzut 1k12. Dodaj swój modyfikator z Kondycji do wyniku i zmniejsz otrzymane obrażenia o tę wartość.</p>",
+            "requirements": "Goliat (Gigant kamienny)",
             "activities": {
                 "heal": {
                     "condition": "Gdy otrzymujesz obrażenia"
@@ -479,11 +642,24 @@
             }
         },
         "Stonecunning": {
-            "name": "Wiedza o kamieniu"
+            "name": "Wiedza o kamieniu",
+            "description": "<p>Jako Akcję Dodatkową zyskujesz &amp;Reference[Tremorsense] o zasięgu 60 stóp na 10 minut. Aby korzystać z tego Zmysłu Drżeniowego, musisz znajdować się na kamiennej powierzchni lub jej dotykać. Kamień może być zarówno naturalny, jak i obrobiony. Możesz użyć tej Akcji dodatkowej liczbę razy równą twojej Premii od biegłości, a wszystkie zużyte użycia odzyskujesz po zakończeniu Długiego Odpoczynku.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Notatka Foundry</strong></p><p>Ta zdolność zawiera ograniczoną liczbę użyć oraz Efekt Aktywny, który zapewnia 60 stóp Wyczuwania drgań. Nie aktualizuje jednak automatycznie ustawień widzenia Tokena.</p></section>",
+            "requirements": "Krasnolud",
+            "activities": {
+                "Stonecunning": {
+                    "name": "Wiedza o kamieniu"
+                }
+            },
+            "effects": {
+                "Stonecunning": {
+                    "name": "Wiedza o kamieniu"
+                }
+            }
         },
         "Storm's Thunder": {
             "name": "Grzmot burzy",
             "description": "<p>Kiedy otrzymasz obrażenia od istoty znajdującej się w odległości do 60 stóp od ciebie, możesz użyć Reakcji, aby zadać tej istocie 1k8 obrażeń od dźwięku.</p>",
+            "requirements": "Goliat (Gigant burzowy)",
             "activities": {
                 "Storm's Thunder": {
                     "name": "Grzmot burzy",
@@ -550,11 +726,13 @@
         },
         "Trance": {
             "name": "Trans",
-            "description": "<p>Nie musisz spać, a magia nie może cię uśpić. Możesz zakończyć Długi Odpoczynek w 4 godziny, jeśli spędzisz ten czas w transie medytacyjnym, podczas którego pozostajesz świadomy otoczenia.</p>"
+            "description": "<p>Nie musisz spać, a magia nie może cię uśpić. Możesz zakończyć Długi Odpoczynek w 4 godziny, jeśli spędzisz ten czas w transie medytacyjnym, podczas którego pozostajesz świadomy otoczenia.</p>",
+            "requirements": "Elf"
         },
         "Versatile": {
             "name": "Wszechstronny",
-            "description": "<p>Otrzymujesz @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{atut z Pochodzenia} według własnego wyboru. Zalecany jest atut @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Uzdolniony}.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Po wybraniu tej rasy zostaniesz poproszony o dokonanie wyboru.</p></section>"
+            "description": "<p>Otrzymujesz @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{atut z Pochodzenia} według własnego wyboru. Zalecany jest atut @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{Uzdolniony}.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Notatka Foundry</strong></p><p>Po wybraniu tej rasy zostaniesz poproszony o dokonanie wyboru.</p></section>",
+            "requirements": "Człowiek"
         }
     },
     "folders": {
