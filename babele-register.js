@@ -41,6 +41,7 @@ Hooks.once("babele.init", (babele) => {
         "effectsChanges": Dnd5ePlConverters.effectsChanges(),
         "tableResultRange": Dnd5ePlConverters.tableResultRange(),
         "imperialToMetric": Dnd5ePlConverters.imperialToMetric(),
+        "nameCollection": Dnd5ePlConverters.nameCollection(),
 
         // Konwertery zachowane dla starszych lub mieszanych plików z sekcją mapping.
         "items": babeleConverters.fromDefaultMapping("Item", "items"),
@@ -215,6 +216,64 @@ class Dnd5ePlConverters {
             return Object.keys(converted).length
                 ? foundry.utils.mergeObject(value, converted, { inplace: false, overwrite: true })
                 : value;
+        };
+    }
+
+    static nameCollection() {
+        return (data, translations) => {
+            if (!data || !translations) return data;
+
+            const cloned = foundry.utils.deepClone(data);
+
+            if (Array.isArray(cloned)) {
+                for (const [translationKey, translation] of Object.entries(translations)) {
+                    const item = cloned.find(entry =>
+                        entry?._id === translationKey
+                        || entry?.name === translationKey
+                        || entry?.type === translationKey
+                    );
+
+                    if (!item) continue;
+
+                    if (typeof translation === "string") {
+                        item.name = translation;
+                    } else if (translation && typeof translation === "object") {
+                        foundry.utils.mergeObject(item, translation, {
+                            inplace: true,
+                            overwrite: true
+                        });
+                    }
+                }
+
+                return cloned;
+            }
+
+            if (typeof cloned === "object") {
+                for (const [translationKey, translation] of Object.entries(translations)) {
+                    const key = cloned[translationKey]
+                        ? translationKey
+                        : Object.entries(cloned).find(([, value]) =>
+                            value?._id === translationKey
+                            || value?.name === translationKey
+                            || value?.type === translationKey
+                        )?.[0];
+
+                    if (!key || !cloned[key]) continue;
+
+                    if (typeof translation === "string") {
+                        cloned[key].name = translation;
+                    } else if (translation && typeof translation === "object") {
+                        foundry.utils.mergeObject(cloned[key], translation, {
+                            inplace: true,
+                            overwrite: true
+                        });
+                    }
+                }
+
+                return cloned;
+            }
+
+            return data;
         };
     }
 
