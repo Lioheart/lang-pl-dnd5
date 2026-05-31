@@ -13,41 +13,19 @@
             "path": "system.attributes.movement",
             "converter": "movement"
         },
-        "senses": {
-            "path": "system.attributes.senses",
-            "converter": "senses"
-        },
         "items": {
             "path": "items",
             "converter": "items"
         },
-        "travel": {
-            "path": "system.attributes.travel",
-            "converter": "travel"
-        },
-        "capacityCargo": {
-            "path": "system.attributes.capacity.cargo",
-            "converter": "weight"
-        },
-        "effects": {
-            "path": "effects",
-            "converter": "effects"
-        },
-        "tokenLight": {
-            "path": "prototypeToken.light",
-            "converter": "tokenLight"
-        },
-        "communication": {
-            "path": "system.traits.languages.communication",
-            "converter": "communication"
+        "senses": {
+            "path": "system.attributes.senses",
+            "converter": "senses"
         }
-    },
-    "folders": {
-        "Summons": "Summons"
     },
     "entries": {
         "Aboleth": {
             "name": "Aboleth",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Enslave": {
                     "name": "Enslave",
@@ -105,7 +83,7 @@
         },
         "Acolyte": {
             "name": "Akolita",
-            "alignment": "Dowolny",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spellcasting": {
                     "name": "Rzucanie czarów",
@@ -151,6 +129,7 @@
         },
         "Adult Black Dragon": {
             "name": "Adult Black Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -204,6 +183,7 @@
         },
         "Adult Blue Dragon": {
             "name": "Adult Blue Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -253,6 +233,7 @@
         },
         "Adult Brass Dragon": {
             "name": "Adult Brass Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -310,6 +291,7 @@
         },
         "Adult Bronze Dragon": {
             "name": "Adult Bronze Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -375,6 +357,7 @@
         },
         "Adult Copper Dragon": {
             "name": "Adult Copper Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendarna Odporność",
@@ -432,6 +415,7 @@
         },
         "Adult Gold Dragon": {
             "name": "Adult Gold Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -497,6 +481,7 @@
         },
         "Adult Green Dragon": {
             "name": "Adult Green Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -550,6 +535,7 @@
         },
         "Adult Red Dragon": {
             "name": "Adult Red Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendarna Odporność",
@@ -599,6 +585,7 @@
         },
         "Adult Silver Dragon": {
             "name": "Adult Silver Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendarna Odporność",
@@ -660,6 +647,7 @@
         },
         "Adult White Dragon": {
             "name": "Adult White Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -713,6 +701,7 @@
         },
         "Air Elemental": {
             "name": "Żywiołak powietrza",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Air Form": {
                     "name": "Air Form",
@@ -742,6 +731,7 @@
         },
         "Ancient Black Dragon": {
             "name": "Ancient Black Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -795,6 +785,7 @@
         },
         "Ancient Blue Dragon": {
             "name": "Ancient Blue Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendarna Odporność",
@@ -844,6 +835,7 @@
         },
         "Ancient Brass Dragon": {
             "name": "Ancient Brass Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendarna Odporność",
@@ -905,6 +897,7 @@
         },
         "Ancient Bronze Dragon": {
             "name": "Ancient Bronze Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -970,6 +963,7 @@
         },
         "Ancient Copper Dragon": {
             "name": "Ancient Copper Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Legendary Actions": {
                     "name": "Akcje Legendarne",
@@ -1031,6 +1025,7 @@
         },
         "Ancient Gold Dragon": {
             "name": "Ancient Gold Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -1096,6 +1091,7 @@
         },
         "Ancient Green Dragon": {
             "name": "Ancient Green Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -1149,6 +1145,7 @@
         },
         "Ancient Red Dragon": {
             "name": "Ancient Red Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -1198,6 +1195,7 @@
         },
         "Ancient Silver Dragon": {
             "name": "Ancient Silver Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendarna Odporność",
@@ -1259,6 +1257,7 @@
         },
         "Ancient White Dragon": {
             "name": "Ancient White Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -1312,6 +1311,7 @@
         },
         "Androsphinx": {
             "name": "Androsphinx",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Inscrutable": {
                     "name": "Inscrutable",
@@ -1438,6 +1438,7 @@
         },
         "Animated Armor": {
             "name": "Animated Armor",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Antimagic Susceptibility": {
                     "name": "Antimagic Susceptibility",
@@ -1459,6 +1460,7 @@
         },
         "Ankheg": {
             "name": "Ankheg",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -1472,6 +1474,7 @@
         },
         "Ape": {
             "name": "Małpa człekokształtna",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -1489,6 +1492,7 @@
         },
         "Arcane Eye": {
             "name": "Magiczne Oko",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "effects": {
                 "Invisible": {
                     "name": "Niewidzialny",
@@ -1498,6 +1502,7 @@
         },
         "Arcane Hand": {
             "name": "Wielka magiczna dłoń",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Clenched Fist": {
                     "name": "Clenched Fist",
@@ -1520,6 +1525,7 @@
         "Arcane Sword": {
             "name": "Magiczny miecz",
             "tokenName": "Acane Sword",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Attack": {
                     "name": "Atak"
@@ -1528,6 +1534,7 @@
         },
         "Archmage": {
             "name": "Archmage",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spellcasting": {
                     "name": "Rzucanie czarów",
@@ -1685,7 +1692,7 @@
         },
         "Assassin": {
             "name": "Skrytobójca",
-            "alignment": "Any non-good",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Studded Leather Armor": {
                     "name": "Ćwiekowana skóra",
@@ -1724,6 +1731,7 @@
         },
         "Avatar of Death": {
             "name": "Avatar of Death",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Incorporeal Movement": {
                     "name": "Incorporeal Movement",
@@ -1741,6 +1749,7 @@
         },
         "Awakened Shrub": {
             "name": "Awakened Shrub",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Rake": {
                     "name": "Rake",
@@ -1748,12 +1757,14 @@
                 },
                 "False Appearance": {
                     "name": "False Appearance",
-                    "description": "<p>While the shrub remains motionless, it is indistinguishable from a normal shrub.</p>"
+                    "description": "<p>While the shrub remains motionless, it is indistinguishable from a normal shrub.</p>",
+                    "requirements": "Awakened Shrub"
                 }
             }
         },
         "Awakened Tree": {
             "name": "Awakened Tree",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "False Appearance": {
                     "name": "False Appearance",
@@ -1767,6 +1778,7 @@
         },
         "Axe Beak": {
             "name": "Toporodziób",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Beak": {
                     "name": "Beak",
@@ -1776,6 +1788,7 @@
         },
         "Azer": {
             "name": "Azer",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shield": {
                     "name": "Tarcza",
@@ -1801,10 +1814,12 @@
         },
         "Baboon": {
             "name": "Pawian",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Pack Tactics": {
                     "name": "Pack Tactics",
-                    "description": "<p>The baboon has<strong> advantage </strong>on an attack roll against a creature if at least one of the baboon's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>"
+                    "description": "<p>The baboon has<strong> advantage </strong>on an attack roll against a creature if at least one of the baboon's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>",
+                    "requirements": "Pawian"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -1814,10 +1829,12 @@
         },
         "Badger": {
             "name": "Borsuk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
                     "description": "<p>The badger has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
+                    "requirements": "Borsuk",
                     "activities": {
                         "check": {
                             "chatFlavor": "The badger sniffs around!"
@@ -1835,6 +1852,7 @@
         },
         "Balor": {
             "name": "Balor",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Death Throes": {
                     "name": "Death Throes",
@@ -1877,7 +1895,7 @@
         },
         "Bandit": {
             "name": "Bandyta",
-            "alignment": "Any Non-Lawful",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Scimitar": {
                     "name": "Sejmitar",
@@ -1895,7 +1913,7 @@
         },
         "Bandit Captain": {
             "name": "Bandit Captain",
-            "alignment": "Any Non-Lawful Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Studded Leather Armor": {
                     "name": "Ćwiekowana skóra",
@@ -1921,6 +1939,7 @@
         },
         "Barbed Devil": {
             "name": "Kolczasty diabeł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Barbed Hide": {
                     "name": "Barbed Hide",
@@ -1954,6 +1973,7 @@
         },
         "Basilisk": {
             "name": "Bazyliszek",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Petrifying Gaze": {
                     "name": "Petrifying Gaze",
@@ -1967,14 +1987,17 @@
         },
         "Bat": {
             "name": "Nietoperz",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Echolocation": {
                     "name": "Echolocation",
-                    "description": "<p>The bat can't use its blindsight while deafened.</p>"
+                    "description": "<p>The bat can't use its blindsight while deafened.</p>",
+                    "requirements": "Nietoperz"
                 },
                 "Keen Hearing": {
                     "name": "Keen Hearing",
-                    "description": "<p>The bat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing.</p>"
+                    "description": "<p>The bat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing.</p>",
+                    "requirements": "Nietoperz"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -1984,6 +2007,7 @@
         },
         "Bearded Devil": {
             "name": "Brodaty diabeł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Devil's Sight": {
                     "name": "Diabelski wzrok",
@@ -2013,6 +2037,7 @@
         },
         "Behir": {
             "name": "Behir",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -2038,7 +2063,7 @@
         },
         "Berserker": {
             "name": "Berserker",
-            "alignment": "Any Chaotic",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hide Armor": {
                     "name": "Zbroja skórzana",
@@ -2062,6 +2087,7 @@
         },
         "Black Bear": {
             "name": "Niedźwiedź czarny",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -2083,6 +2109,7 @@
         },
         "Black Dragon Wyrmling": {
             "name": "Pisklę czarnego smoka",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Acid Breath": {
                     "name": "Acid Breath",
@@ -2100,6 +2127,7 @@
         },
         "Black Pudding": {
             "name": "Czarny pudding",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amorphous": {
                     "name": "Amorphous",
@@ -2125,6 +2153,7 @@
         },
         "Blink Dog": {
             "name": "Migopies",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -2142,6 +2171,7 @@
         },
         "Blood Hawk": {
             "name": "Krwiastrząb",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -2167,6 +2197,7 @@
         },
         "Blue Dragon Wyrmling": {
             "name": "Blue Dragon Wyrmling",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2180,6 +2211,7 @@
         },
         "Boar": {
             "name": "Dzik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Tusk": {
                     "name": "Tusk",
@@ -2197,6 +2229,7 @@
         },
         "Bone Devil": {
             "name": "Kościany diabeł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Claw": {
                     "name": "Claw",
@@ -2222,6 +2255,7 @@
         },
         "Brass Dragon Wyrmling": {
             "name": "Brass Dragon Wyrmling",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2243,6 +2277,7 @@
         },
         "Bronze Dragon Wyrmling": {
             "name": "Bronze Dragon Wyrmling",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -2268,6 +2303,7 @@
         },
         "Brown Bear": {
             "name": "Niedźwiedź brunatny",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2289,6 +2325,7 @@
         },
         "Bugbear": {
             "name": "Bugbear",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Morningstar": {
                     "name": "Morgensztern",
@@ -2318,6 +2355,7 @@
         },
         "Bulette": {
             "name": "Buletta",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2335,6 +2373,7 @@
         },
         "Camel": {
             "name": "Wielbłąd",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2344,6 +2383,7 @@
         },
         "Cat": {
             "name": "Kot",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Claws": {
                     "name": "Claws",
@@ -2352,6 +2392,7 @@
                 "Keen Smell": {
                     "name": "Keen Smell",
                     "description": "<p>The cat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
+                    "requirements": "Kot",
                     "activities": {
                         "check": {
                             "chatFlavor": "The cat raises its head, sniffing the air."
@@ -2365,6 +2406,7 @@
         },
         "Centaur": {
             "name": "Centaur",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Pike": {
                     "name": "Pika",
@@ -2390,6 +2432,7 @@
         },
         "Chain Devil": {
             "name": "Łańcuchowy diabeł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Chain": {
                     "name": "Łańcuch",
@@ -2419,6 +2462,7 @@
         },
         "Chimera": {
             "name": "Chimera",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2444,6 +2488,7 @@
         },
         "Chuul": {
             "name": "Chuul",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Pincer": {
                     "name": "Pincer",
@@ -2469,6 +2514,7 @@
         },
         "Clay Golem": {
             "name": "Gliniany golem",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Slam": {
                     "name": "Slam",
@@ -2506,6 +2552,7 @@
         },
         "Cloaker": {
             "name": "Płaszczowyj",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2543,7 +2590,7 @@
         },
         "Cloud Giant": {
             "name": "Gigant chmurowy",
-            "alignment": "Neutral Good Evil(50%) or Neutral Evil(50%)",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -2610,6 +2657,7 @@
         },
         "Cockatrice": {
             "name": "Kuroliszek",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2619,7 +2667,7 @@
         },
         "Commoner": {
             "name": "Plebejusz",
-            "alignment": "Dowolny",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Club": {
                     "name": "Pałka",
@@ -2629,6 +2677,7 @@
         },
         "Constrictor Snake": {
             "name": "Wąż dusiciel",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2642,6 +2691,7 @@
         },
         "Copper Dragon Wyrmling": {
             "name": "Pisklę miedzianego smoka",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2663,6 +2713,7 @@
         },
         "Couatl": {
             "name": "Couatl",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2777,6 +2828,7 @@
         },
         "Crab": {
             "name": "Krab",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Claw": {
                     "name": "Claw",
@@ -2790,6 +2842,7 @@
         },
         "Crocodile": {
             "name": "Krokodyl",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2803,7 +2856,7 @@
         },
         "Cult Fanatic": {
             "name": "Cult Fanatic",
-            "alignment": "Any Non-Good",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Leather Armor": {
                     "name": "Skórznia",
@@ -2864,7 +2917,7 @@
         },
         "Cultist": {
             "name": "Kultysta",
-            "alignment": "Any Non-Good Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Leather Armor": {
                     "name": "Skórznia",
@@ -2882,14 +2935,17 @@
         },
         "Dancing Lights (medium)": {
             "name": "Dancing Lights (medium)",
-            "tokenName": "Tańczące światła"
+            "tokenName": "Tańczące światła",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>"
         },
         "Dancing Lights (tiny)": {
             "name": "Dancing Lights (tiny)",
-            "tokenName": "Tańczące światła"
+            "tokenName": "Tańczące światła",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>"
         },
         "Darkmantle": {
             "name": "Mroczna płaszczka",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Echolocation": {
                     "name": "Echolocation",
@@ -2916,6 +2972,7 @@
         },
         "Death Dog": {
             "name": "Morowy kundel",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2933,6 +2990,7 @@
         },
         "Deep Gnome": {
             "name": "Deep Gnome",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Chain Shirt": {
                     "name": "Koszula kolcza",
@@ -2979,6 +3037,7 @@
         },
         "Deer": {
             "name": "Jeleń",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2988,6 +3047,7 @@
         },
         "Deva": {
             "name": "Dewa",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Angelic Weapons": {
                     "name": "Angelic Weapons",
@@ -3035,6 +3095,7 @@
         },
         "Dire Wolf": {
             "name": "Straszliwy wilk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -3052,6 +3113,7 @@
         },
         "Djinni": {
             "name": "Dżin",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Elemental Demise": {
                     "name": "Elemental Demise",
@@ -3138,6 +3200,7 @@
         },
         "Doppelganger": {
             "name": "Doppelganger",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Ambusher": {
                     "name": "Ambusher",
@@ -3167,6 +3230,7 @@
         },
         "Draft Horse": {
             "name": "Koń pociągowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -3176,6 +3240,7 @@
         },
         "Dragon Turtle": {
             "name": "Smokożółw",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -3205,6 +3270,7 @@
         },
         "Dretch": {
             "name": "Dretch",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -3226,6 +3292,7 @@
         },
         "Drider": {
             "name": "Drider",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Fey Ancestry": {
                     "name": "Rodowód fey",
@@ -3281,6 +3348,7 @@
         },
         "Drow": {
             "name": "Drow",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Fey Ancestry": {
                     "name": "Rodowód fey",
@@ -3324,7 +3392,7 @@
         },
         "Druid": {
             "name": "Druid",
-            "alignment": "any alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spellcasting": {
                     "name": "Rzucanie czarów",
@@ -3412,6 +3480,7 @@
         },
         "Dryad": {
             "name": "Driada",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Innate Spellcasting": {
                     "name": "Wrodzone czarowanie",
@@ -3482,6 +3551,7 @@
         },
         "Duergar": {
             "name": "Duergar",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Scale Mail": {
                     "name": "Zbroja łuskowa",
@@ -3529,6 +3599,7 @@
         },
         "Dust Mephit": {
             "name": "Dust Mephit",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Death Burst": {
                     "name": "Death Burst",
@@ -3560,10 +3631,12 @@
         },
         "Eagle": {
             "name": "Orzeł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
-                    "description": "<p>The eagle has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight.</p>"
+                    "description": "<p>The eagle has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight.</p>",
+                    "requirements": "Orzeł"
                 },
                 "Talons": {
                     "name": "Talons",
@@ -3573,6 +3646,7 @@
         },
         "Earth Elemental": {
             "name": "Żywiołak ziemi",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Earth Glide": {
                     "name": "Earth Glide",
@@ -3594,6 +3668,7 @@
         },
         "Efreeti": {
             "name": "Ifryt",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Elemental Demise": {
                     "name": "Elemental Demise",
@@ -3662,6 +3737,7 @@
         },
         "Elephant": {
             "name": "Słoń",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Trampling Charge": {
                     "name": "Trampling Charge",
@@ -3684,6 +3760,7 @@
         },
         "Elk": {
             "name": "Łoś",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
@@ -3701,6 +3778,7 @@
         },
         "Erinyes": {
             "name": "Erynia",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hellish Weapons": {
                     "name": "Hellish Weapons",
@@ -3734,6 +3812,7 @@
         },
         "Ettercap": {
             "name": "Pajęczarz",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spider Climb": {
                     "name": "Pajęcza wspinaczka",
@@ -3772,6 +3851,7 @@
         },
         "Ettin": {
             "name": "Ettin",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Two Heads": {
                     "name": "Two Heads",
@@ -3797,6 +3877,7 @@
         },
         "Fire Elemental": {
             "name": "Żywiołak ognia",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Fire Form": {
                     "name": "Fire Form",
@@ -3822,6 +3903,7 @@
         },
         "Fire Giant": {
             "name": "Gigant ogniowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Plate Armor": {
                     "name": "Zbroja płytowa",
@@ -3843,6 +3925,7 @@
         },
         "Flesh Golem": {
             "name": "Golem z ciał",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Berserk": {
                     "name": "Berserk",
@@ -3880,10 +3963,12 @@
         },
         "Flying Snake": {
             "name": "Wąż latający",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Flyby": {
                     "name": "Flyby",
-                    "description": "<p>The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>"
+                    "description": "<p>The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+                    "requirements": "Sowa"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -3893,6 +3978,7 @@
         },
         "Flying Sword": {
             "name": "Flying Sword",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Antimagic Susceptibility": {
                     "name": "Antimagic Susceptibility",
@@ -3910,6 +3996,7 @@
         },
         "Frog": {
             "name": "Żaba",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -3917,12 +4004,14 @@
                 },
                 "Standing Leap": {
                     "name": "Standing Leap",
-                    "description": "<p>The frog's long jump is up to <strong>10 ft.</strong> and its high jump is up to <strong>5 ft.</strong>, with or without a running start.</p>"
+                    "description": "<p>The frog's long jump is up to <strong>10 ft.</strong> and its high jump is up to <strong>5 ft.</strong>, with or without a running start.</p>",
+                    "requirements": "Żaba"
                 }
             }
         },
         "Frost Giant": {
             "name": "Gigant lodowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Rock": {
                     "name": "Rock",
@@ -3944,6 +4033,7 @@
         },
         "Gargoyle": {
             "name": "Gargulec",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "False Appearance": {
                     "name": "False Appearance",
@@ -3965,6 +4055,7 @@
         },
         "Gelatinous Cube": {
             "name": "Galaretowaty sześcian",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Ooze Cube": {
                     "name": "Ooze Cube",
@@ -3996,6 +4087,7 @@
         },
         "Ghast": {
             "name": "Ghast",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Stench": {
                     "name": "Stench",
@@ -4017,7 +4109,7 @@
         },
         "Ghost": {
             "name": "Duch",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Ethereal Sight": {
                     "name": "Ethereal Sight",
@@ -4047,6 +4139,7 @@
         },
         "Ghoul": {
             "name": "Ghul",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4060,6 +4153,7 @@
         },
         "Giant Ape": {
             "name": "Olbrzymia małpa człekokształtna",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -4077,6 +4171,7 @@
         },
         "Giant Badger": {
             "name": "Olbrzymi borsuk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -4098,6 +4193,7 @@
         },
         "Giant Bat": {
             "name": "Olbrzymi nietoperz",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Echolocation": {
                     "name": "Echolocation",
@@ -4115,6 +4211,7 @@
         },
         "Giant Boar": {
             "name": "Olbrzymi dzik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
@@ -4132,6 +4229,7 @@
         },
         "Giant Centipede": {
             "name": "Olbrzymia stonoga",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4141,6 +4239,7 @@
         },
         "Giant Constrictor Snake": {
             "name": "Olbrzymi wąż dusiciel",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4154,6 +4253,7 @@
         },
         "Giant Crab": {
             "name": "Olbrzymi krab",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4167,6 +4267,7 @@
         },
         "Giant Crocodile": {
             "name": "Olbrzymi krokodyl",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hold Breath": {
                     "name": "Hold Breath",
@@ -4188,6 +4289,7 @@
         },
         "Giant Eagle": {
             "name": "Olbrzymi orzeł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -4209,6 +4311,7 @@
         },
         "Giant Elk": {
             "name": "Olbrzymi łoś",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
@@ -4226,6 +4329,7 @@
         },
         "Giant Fire Beetle": {
             "name": "Olbrzymi żuk ogniowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4233,15 +4337,18 @@
                 },
                 "Illumination": {
                     "name": "Illumination",
-                    "description": "<p>The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</p>"
+                    "description": "<p>The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</p>",
+                    "requirements": "Fire Beetle"
                 }
             }
         },
         "Giant Fly": {
-            "name": "Giant Fly"
+            "name": "Giant Fly",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>"
         },
         "Giant Frog": {
             "name": "Olbrzymia żaba",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4263,10 +4370,12 @@
         },
         "Giant Goat": {
             "name": "Olbrzymi kozioł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
-                    "description": "<p>If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra [[/damage average]] damage.</p><p>If the target is a creature, it must succeed on a [[/save]] saving throw or be knocked &amp;Reference[prone].</p>"
+                    "description": "<p>If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra [[/damage average]] damage.</p><p>If the target is a creature, it must succeed on a [[/save]] saving throw or be knocked &amp;Reference[prone].</p>",
+                    "requirements": "Koza"
                 },
                 "Sure-Footed": {
                     "name": "Sure-Footed",
@@ -4280,6 +4389,7 @@
         },
         "Giant Hyena": {
             "name": "Olbrzymia hiena",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Rampage": {
                     "name": "Rampage",
@@ -4293,6 +4403,7 @@
         },
         "Giant Lizard": {
             "name": "Olbrzymia jaszczurka",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4302,6 +4413,7 @@
         },
         "Giant Octopus": {
             "name": "Olbrzymia ośmiornica",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hold Breath": {
                     "name": "Hold Breath",
@@ -4309,11 +4421,13 @@
                 },
                 "Underwater Camouflage": {
                     "name": "Underwater Camouflage",
-                    "description": "<p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>"
+                    "description": "<p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>",
+                    "requirements": "Ośmiornica"
                 },
                 "Water Breathing": {
                     "name": "Oddychanie pod wodą",
-                    "description": "<p>The octopus can breathe only underwater.</p>"
+                    "description": "<p>The octopus can breathe only underwater.</p>",
+                    "requirements": "Ośmiornica"
                 },
                 "Ink Cloud": {
                     "name": "Ink Cloud",
@@ -4327,10 +4441,12 @@
         },
         "Giant Owl": {
             "name": "Olbrzymia sowa",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Flyby": {
                     "name": "Flyby",
-                    "description": "<p>The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>"
+                    "description": "<p>The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+                    "requirements": "Sowa"
                 },
                 "Keen Hearing and Sight": {
                     "name": "Keen Hearing and Sight",
@@ -4344,6 +4460,7 @@
         },
         "Giant Poisonous Snake": {
             "name": "Giant Poisonous Snake",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4353,6 +4470,7 @@
         },
         "Giant Rat": {
             "name": "Olbrzymi szczur",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -4370,6 +4488,7 @@
         },
         "Giant Rat (Diseased)": {
             "name": "Giant Rat (Diseased)",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4387,6 +4506,7 @@
         },
         "Giant Scorpion": {
             "name": "Olbrzymi skorpion",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -4404,6 +4524,7 @@
         },
         "Giant Sea Horse": {
             "name": "Giant Sea Horse",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
@@ -4421,6 +4542,7 @@
         },
         "Giant Shark": {
             "name": "Olbrzymi rekin",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Blood Frenzy": {
                     "name": "Blood Frenzy",
@@ -4438,6 +4560,7 @@
         },
         "Giant Spider": {
             "name": "Olbrzymi pająk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spider Climb": {
                     "name": "Pajęcza wspinaczka",
@@ -4463,6 +4586,7 @@
         },
         "Giant Toad": {
             "name": "Olbrzymia ropucha",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4484,6 +4608,7 @@
         },
         "Giant Vulture": {
             "name": "Olbrzymi sęp",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Sight and Smell": {
                     "name": "Keen Sight and Smell",
@@ -4509,6 +4634,7 @@
         },
         "Giant Wasp": {
             "name": "Olbrzymia osa",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Sting": {
                     "name": "Sting",
@@ -4518,6 +4644,7 @@
         },
         "Giant Weasel": {
             "name": "Olbrzymia łasica",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -4531,6 +4658,7 @@
         },
         "Giant Wolf Spider": {
             "name": "Olbrzymi pogoniec",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spider Climb": {
                     "name": "Pajęcza wspinaczka",
@@ -4552,6 +4680,7 @@
         },
         "Gibbering Mouther": {
             "name": "Bełkoczący paszczowiec",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Aberrant Ground": {
                     "name": "Aberrant Ground",
@@ -4577,6 +4706,7 @@
         },
         "Glabrezu": {
             "name": "Glabrezu",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Innate Spellcasting": {
                     "name": "Wrodzone czarowanie",
@@ -4629,7 +4759,7 @@
         },
         "Gladiator": {
             "name": "Gladiator",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Studded Leather Armor": {
                     "name": "Ćwiekowana skóra",
@@ -4682,6 +4812,7 @@
         },
         "Gnoll": {
             "name": "Gnoll",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hide Armor": {
                     "name": "Zbroja skórzana",
@@ -4711,6 +4842,7 @@
         },
         "Goat": {
             "name": "Koza",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
@@ -4718,7 +4850,8 @@
                 },
                 "Sure-Footed": {
                     "name": "Sure-Footed",
-                    "description": "<p>The goat has<strong> advantage </strong>on Strength and Dexterity saving throws made against effects that would knock it prone.</p>"
+                    "description": "<p>The goat has<strong> advantage </strong>on Strength and Dexterity saving throws made against effects that would knock it prone.</p>",
+                    "requirements": "Koza"
                 },
                 "Ram": {
                     "name": "Ram",
@@ -4728,6 +4861,7 @@
         },
         "Goblin": {
             "name": "Goblini",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Leather Armor": {
                     "name": "Skórznia",
@@ -4753,6 +4887,7 @@
         },
         "Gold Dragon Wyrmling": {
             "name": "Gold Dragon Wyrmling",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4778,6 +4913,7 @@
         },
         "Gorgon": {
             "name": "Gorgona",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Trampling Charge": {
                     "name": "Trampling Charge",
@@ -4799,6 +4935,7 @@
         },
         "Gray Ooze": {
             "name": "Szary szlam",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amorphous": {
                     "name": "Amorphous",
@@ -4820,6 +4957,7 @@
         },
         "Green Dragon Wyrmling": {
             "name": "Green Dragon Wyrmling",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Poison Breath": {
                     "name": "Poison Breath",
@@ -4837,6 +4975,7 @@
         },
         "Green Hag": {
             "name": "Zielona wiedźma",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4880,6 +5019,7 @@
         },
         "Grick": {
             "name": "Grik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Stone Camouflage": {
                     "name": "Stone Camouflage",
@@ -4901,6 +5041,7 @@
         },
         "Griffon": {
             "name": "Gryf",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -4922,6 +5063,7 @@
         },
         "Grimlock": {
             "name": "Grimlok",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Blind Senses": {
                     "name": "Blind Senses",
@@ -4943,7 +5085,7 @@
         },
         "Guard": {
             "name": "Strażnik",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Chain Shirt": {
                     "name": "Koszula kolcza",
@@ -4961,6 +5103,7 @@
         },
         "Guardian Naga": {
             "name": "Strażnicza naga",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Rejuvenation": {
                     "name": "Rejuvenation",
@@ -5050,6 +5193,7 @@
         },
         "Gynosphinx": {
             "name": "Gynosphinx",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Inscrutable": {
                     "name": "Inscrutable",
@@ -5160,7 +5304,7 @@
         },
         "Half-Red Dragon Veteran": {
             "name": "Half-Red Dragon Veteran",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Plate Armor": {
                     "name": "Zbroja płytowa",
@@ -5190,6 +5334,7 @@
         },
         "Harpy": {
             "name": "Harpia",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -5211,10 +5356,12 @@
         },
         "Hawk": {
             "name": "Jastrząb",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
-                    "description": "<p>The eagle has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight.</p>"
+                    "description": "<p>The eagle has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight.</p>",
+                    "requirements": "Jastrząb"
                 },
                 "Talons": {
                     "name": "Talons",
@@ -5224,6 +5371,7 @@
         },
         "Hell Hound": {
             "name": "Piekielny ogar",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -5245,6 +5393,7 @@
         },
         "Hezrou": {
             "name": "Hezrou",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Magic Resistance": {
                     "name": "Magic Resistance",
@@ -5270,6 +5419,7 @@
         },
         "Hill Giant": {
             "name": "Gigant wzgórzowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -5287,6 +5437,7 @@
         },
         "Hippogriff": {
             "name": "Hipogryf",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -5308,6 +5459,7 @@
         },
         "Hobgoblin": {
             "name": "Hobgoblin",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Martial Advantage": {
                     "name": "Martial Advantage",
@@ -5333,6 +5485,7 @@
         },
         "Homunculus": {
             "name": "Homunkulus",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -5346,6 +5499,7 @@
         },
         "Horned Devil": {
             "name": "Rogaty diabeł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Fork": {
                     "name": "Fork",
@@ -5375,6 +5529,7 @@
         },
         "Hunter Shark": {
             "name": "Rekin łowca",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Blood Frenzy": {
                     "name": "Blood Frenzy",
@@ -5392,6 +5547,7 @@
         },
         "Hydra": {
             "name": "Hydra",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hold Breath": {
                     "name": "Hold Breath",
@@ -5421,10 +5577,12 @@
         },
         "Hyena": {
             "name": "Hiena",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Pack Tactics": {
                     "name": "Pack Tactics",
-                    "description": "<p>The hyena has<strong> advantage </strong>on an attack roll against a creature if at least one of the hyena's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>"
+                    "description": "<p>The hyena has<strong> advantage </strong>on an attack roll against a creature if at least one of the hyena's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>",
+                    "requirements": "Hiena"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -5434,6 +5592,7 @@
         },
         "Ice Devil": {
             "name": "Lodowy diabeł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -5476,6 +5635,7 @@
         },
         "Ice Mephit": {
             "name": "Ice Mephit",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Death Burst": {
                     "name": "Death Burst",
@@ -5510,6 +5670,7 @@
         },
         "Imp": {
             "name": "Diablik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -5535,6 +5696,7 @@
         },
         "Invisible Stalker": {
             "name": "Niewidzialny łowca",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Faultless Tracker": {
                     "name": "Faultless Tracker",
@@ -5556,6 +5718,7 @@
         },
         "Iron Golem": {
             "name": "Żelazny golem",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Fire Absorption": {
                     "name": "Fire Absorption",
@@ -5593,14 +5756,17 @@
         },
         "Jackal": {
             "name": "Szakal",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
-                    "description": "<p>The jackal has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>"
+                    "description": "<p>The jackal has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+                    "requirements": "Szakal"
                 },
                 "Pack Tactics": {
                     "name": "Pack Tactics",
-                    "description": "<p>The jackal has<strong> advantage </strong>on an attack roll against a creature if at least one of the jackal's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>"
+                    "description": "<p>The jackal has<strong> advantage </strong>on an attack roll against a creature if at least one of the jackal's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>",
+                    "requirements": "Szakal"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -5610,6 +5776,7 @@
         },
         "Killer Whale": {
             "name": "Orka",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Echolocation": {
                     "name": "Echolocation",
@@ -5631,7 +5798,7 @@
         },
         "Knight": {
             "name": "Rycerz",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Plate Armor": {
                     "name": "Zbroja płytowa",
@@ -5665,6 +5832,7 @@
         },
         "Kobold": {
             "name": "Kobold",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Sunlight Sensitivity": {
                     "name": "Sunlight Sensitivity",
@@ -5686,6 +5854,7 @@
         },
         "Kraken": {
             "name": "Kraken",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -5744,6 +5913,7 @@
         },
         "Lamia": {
             "name": "Lamia",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Disguise Self": {
                     "name": "Przebranie siebie",
@@ -5800,14 +5970,17 @@
         },
         "Lemure": {
             "name": "Lemur",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Devil's Sight": {
                     "name": "Diabelski wzrok",
-                    "description": "<p>Magical darkness doesn't impede the lemure's darkvision.</p>"
+                    "description": "<p>Magical darkness doesn't impede the lemure's darkvision.</p>",
+                    "requirements": "Lemur"
                 },
                 "Hellish Rejuvenation": {
                     "name": "Hellish Rejuvenation",
-                    "description": "<p>A lemure that dies in the Nine Hells sometimes comes back to comes back to life with all its hit points in [[/r 1d10]] days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.</p>"
+                    "description": "<p>A lemure that dies in the Nine Hells sometimes comes back to comes back to life with all its hit points in [[/r 1d10]] days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.</p>",
+                    "requirements": "Lemur"
                 },
                 "Fist": {
                     "name": "Fist",
@@ -5817,7 +5990,7 @@
         },
         "Lich": {
             "name": "Lisz",
-            "alignment": "Any Evil",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Cantrip": {
                     "name": "Sztuczka",
@@ -5981,6 +6154,7 @@
         },
         "Lion": {
             "name": "Lew",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -6010,6 +6184,7 @@
         },
         "Lizard": {
             "name": "Jaszczurka",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -6019,6 +6194,7 @@
         },
         "Lizardfolk": {
             "name": "Lizardfolk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hold Breath": {
                     "name": "Hold Breath",
@@ -6052,7 +6228,7 @@
         },
         "Mage": {
             "name": "Czarodziej",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spellcasting": {
                     "name": "Rzucanie czarów",
@@ -6146,10 +6322,12 @@
             }
         },
         "Mage Hand": {
-            "name": "Magiczna dłoń"
+            "name": "Magiczna dłoń",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>"
         },
         "Magma Mephit": {
             "name": "Magma Mephit",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Innate Spellcasting": {
                     "name": "Wrodzone czarowanie",
@@ -6185,6 +6363,7 @@
         },
         "Magmin": {
             "name": "Magmin",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Death Burst": {
                     "name": "Death Burst",
@@ -6207,6 +6386,7 @@
         },
         "Mammoth": {
             "name": "Mamut",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Trampling Charge": {
                     "name": "Trampling Charge",
@@ -6224,6 +6404,7 @@
         },
         "Manticore": {
             "name": "Mantikora",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Tail Spike Regrowth": {
                     "name": "Tail Spike Regrowth",
@@ -6249,6 +6430,7 @@
         },
         "Marilith": {
             "name": "Marilith",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Magic Resistance": {
                     "name": "Magic Resistance",
@@ -6286,6 +6468,7 @@
         },
         "Mastiff": {
             "name": "Mastif",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -6299,6 +6482,7 @@
         },
         "Medusa": {
             "name": "Meduza",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Petrifying Gaze": {
                     "name": "Petrifying Gaze",
@@ -6324,6 +6508,7 @@
         },
         "Merfolk": {
             "name": "Morzan",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -6337,6 +6522,7 @@
         },
         "Merrow": {
             "name": "Merrow",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -6362,6 +6548,7 @@
         },
         "Mimic": {
             "name": "Mimik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -6391,6 +6578,7 @@
         },
         "Minotaur": {
             "name": "Minotaur",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
@@ -6416,6 +6604,7 @@
         },
         "Minotaur Skeleton": {
             "name": "Minotaur Skeleton",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
@@ -6433,6 +6622,7 @@
         },
         "Mule": {
             "name": "Muł",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Beast of Burden": {
                     "name": "Beast of Burden",
@@ -6450,6 +6640,7 @@
         },
         "Mummy": {
             "name": "Mummy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -6467,6 +6658,7 @@
         },
         "Mummy Lord": {
             "name": "Mummy Lord",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Blinding Dust": {
                     "name": "Blinding Dust",
@@ -6585,6 +6777,7 @@
         },
         "Nalfeshnee": {
             "name": "Nalfeshnee",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Magic Resistance": {
                     "name": "Magic Resistance",
@@ -6614,6 +6807,7 @@
         },
         "Night Hag": {
             "name": "Nocna wiedźma",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Innate Spellcasting": {
                     "name": "Wrodzone czarowanie",
@@ -6664,6 +6858,7 @@
         },
         "Nightmare": {
             "name": "Koszmar",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Confer Fire Resistance": {
                     "name": "Confer Fire Resistance",
@@ -6685,7 +6880,7 @@
         },
         "Noble": {
             "name": "Szlachcic",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Breastplate": {
                     "name": "Napierśnik",
@@ -6703,6 +6898,7 @@
         },
         "Ochre Jelly": {
             "name": "Żółta galareta",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Pseudopod": {
                     "name": "Pseudopod",
@@ -6724,6 +6920,7 @@
         },
         "Octopus": {
             "name": "Ośmiornica",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Tentacles": {
                     "name": "Tentacles",
@@ -6749,6 +6946,7 @@
         },
         "Ogre": {
             "name": "Ogr",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Greatclub": {
                     "name": "Maczuga",
@@ -6766,6 +6964,7 @@
         },
         "Ogre Zombie": {
             "name": "Zombi ogr",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Morningstar": {
                     "name": "Morgensztern",
@@ -6779,6 +6978,7 @@
         },
         "Oni": {
             "name": "Oni",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Chain Mail": {
                     "name": "Kolczuga",
@@ -6853,6 +7053,7 @@
         },
         "Orc": {
             "name": "Ork",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hide Armor": {
                     "name": "Zbroja skórzana",
@@ -6874,6 +7075,7 @@
         },
         "Otyugh": {
             "name": "Otyugh",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Limited Telepathy": {
                     "name": "Limited Telepathy",
@@ -6899,6 +7101,7 @@
         },
         "Owl": {
             "name": "Sowa",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Flyby": {
                     "name": "Flyby",
@@ -6916,6 +7119,7 @@
         },
         "Owlbear": {
             "name": "Sowodźwiedź",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Sight and Smell": {
                     "name": "Keen Sight and Smell",
@@ -6937,6 +7141,7 @@
         },
         "Panther": {
             "name": "Pantera",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -6958,6 +7163,7 @@
         },
         "Pegasus": {
             "name": "Pegaz",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -6967,6 +7173,7 @@
         },
         "Phase Spider": {
             "name": "Pająk fazowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Ethereal Jaunt": {
                     "name": "Ethereal Jaunt",
@@ -6988,6 +7195,7 @@
         },
         "Pit Fiend": {
             "name": "Piekielny czart",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Fear Aura": {
                     "name": "Fear Aura",
@@ -7048,6 +7256,7 @@
         },
         "Planetar": {
             "name": "Planetar",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Angelic Weapons": {
                     "name": "Angelic Weapons",
@@ -7123,6 +7332,7 @@
         },
         "Plesiosaurus": {
             "name": "Plezjozaur",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -7136,6 +7346,7 @@
         },
         "Poisonous Snake": {
             "name": "Poisonous Snake",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -7145,6 +7356,7 @@
         },
         "Polar Bear": {
             "name": "Niedźwiedź biały",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -7166,6 +7378,7 @@
         },
         "Pony": {
             "name": "Kucyk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -7175,7 +7388,7 @@
         },
         "Priest": {
             "name": "Kapłan",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spellcasting": {
                     "name": "Rzucanie czarów",
@@ -7240,6 +7453,7 @@
         },
         "Pseudodragon": {
             "name": "Pseudosmok",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Senses": {
                     "name": "Wyostrzone zmysły",
@@ -7265,6 +7479,7 @@
         },
         "Purple Worm": {
             "name": "Purpurowy czerw",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Tunneler": {
                     "name": "Tunneler",
@@ -7286,6 +7501,7 @@
         },
         "Quasit": {
             "name": "Quasit",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Invisibility": {
                     "name": "Niewidzialność",
@@ -7311,6 +7527,7 @@
         },
         "Quipper": {
             "name": "Quipper",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Blood Frenzy": {
                     "name": "Blood Frenzy",
@@ -7328,6 +7545,7 @@
         },
         "Rakshasa": {
             "name": "Rakszasa",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Limited Magic Immunity": {
                     "name": "Limited Magic Immunity",
@@ -7409,10 +7627,12 @@
         },
         "Rat": {
             "name": "Szczur",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
-                    "description": "<p>The rat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>"
+                    "description": "<p>The rat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
+                    "requirements": "Szczur"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -7422,10 +7642,12 @@
         },
         "Raven": {
             "name": "Kruk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Mimicry": {
                     "name": "Mimicry",
-                    "description": "<p>The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check.</p>"
+                    "description": "<p>The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check.</p>",
+                    "requirements": "Kruk"
                 },
                 "Beak": {
                     "name": "Beak",
@@ -7435,6 +7657,7 @@
         },
         "Red Dragon Wyrmling": {
             "name": "Pisklę czerwonego smoka",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -7448,6 +7671,7 @@
         },
         "Reef Shark": {
             "name": "Rekin rafowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Pack Tactics": {
                     "name": "Pack Tactics",
@@ -7465,6 +7689,7 @@
         },
         "Remorhaz": {
             "name": "Remorhaz",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -7482,6 +7707,7 @@
         },
         "Rhinoceros": {
             "name": "Nosorożec",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
@@ -7495,6 +7721,7 @@
         },
         "Riding Horse": {
             "name": "Koń wierzchowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -7504,6 +7731,7 @@
         },
         "Roc": {
             "name": "Rok",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Beak": {
                     "name": "Beak",
@@ -7525,6 +7753,7 @@
         },
         "Roper": {
             "name": "Powroźnik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "False Appearance": {
                     "name": "False Appearance",
@@ -7558,6 +7787,7 @@
         },
         "Rug of Smothering": {
             "name": "Rug of Smothering",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Antimagic Susceptibility": {
                     "name": "Antimagic Susceptibility",
@@ -7579,6 +7809,7 @@
         },
         "Rust Monster": {
             "name": "Rdzewnik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Iron Scent": {
                     "name": "Iron Scent",
@@ -7600,6 +7831,7 @@
         },
         "Saber-Toothed Tiger": {
             "name": "Tygrys szablozębny",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -7621,6 +7853,7 @@
         },
         "Sahuagin": {
             "name": "Sahuagin",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spear": {
                     "name": "Włócznia",
@@ -7654,6 +7887,7 @@
         },
         "Salamander": {
             "name": "Salamandra",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Heated Body": {
                     "name": "Heated Body",
@@ -7679,6 +7913,7 @@
         },
         "Satyr": {
             "name": "Satyr",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shortbow": {
                     "name": "Krótki łuk",
@@ -7704,6 +7939,7 @@
         },
         "Scorpion": {
             "name": "Skorpion",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Sting": {
                     "name": "Sting",
@@ -7713,7 +7949,7 @@
         },
         "Scout": {
             "name": "Zwiadowca",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Leather Armor": {
                     "name": "Skórznia",
@@ -7739,6 +7975,7 @@
         },
         "Sea Hag": {
             "name": "Morska wiedźma",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -7764,6 +8001,7 @@
         },
         "Sea Horse": {
             "name": "Sea Horse",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Water Breathing": {
                     "name": "Oddychanie pod wodą",
@@ -7773,6 +8011,7 @@
         },
         "Shadow": {
             "name": "Cień",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amorphous": {
                     "name": "Amorphous",
@@ -7799,6 +8038,7 @@
         },
         "Shambling Mound": {
             "name": "Gnilec",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Lightning Absorption": {
                     "name": "Lightning Absorption",
@@ -7820,6 +8060,7 @@
         },
         "Shield Guardian": {
             "name": "Tarczownik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bound": {
                     "name": "Bound",
@@ -7849,6 +8090,7 @@
         },
         "Shrieker": {
             "name": "Shrieker",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shriek": {
                     "name": "Shriek",
@@ -7862,6 +8104,7 @@
         },
         "Silver Dragon Wyrmling": {
             "name": "Pisklę srebrnego smoka",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -7883,6 +8126,7 @@
         },
         "Skeleton": {
             "name": "Szkielet",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shortbow": {
                     "name": "Krótki łuk",
@@ -7896,6 +8140,7 @@
         },
         "Solar": {
             "name": "Solar",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Angelic Weapons": {
                     "name": "Angelic Weapons",
@@ -7992,6 +8237,7 @@
         },
         "Specter": {
             "name": "Widmo",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Incorporeal Movement": {
                     "name": "Incorporeal Movement",
@@ -8009,6 +8255,7 @@
         },
         "Spider": {
             "name": "Pająk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Spider Climb": {
                     "name": "Pajęcza wspinaczka",
@@ -8030,6 +8277,7 @@
         },
         "Spirit Naga": {
             "name": "Duchowa naga",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -8105,6 +8353,7 @@
         },
         "Sprite": {
             "name": "Chochlik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Leather Armor (tiny)": {
                     "name": "Leather Armor (tiny)",
@@ -8130,7 +8379,7 @@
         },
         "Spy": {
             "name": "Szpieg",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Cunning Action": {
                     "name": "Chytre zagranie",
@@ -8156,6 +8405,7 @@
         },
         "Steam Mephit": {
             "name": "Mefit parowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Claws": {
                     "name": "Claws",
@@ -8186,6 +8436,7 @@
         },
         "Stirge": {
             "name": "Żądlak",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Blood Drain": {
                     "name": "Blood Drain",
@@ -8195,6 +8446,7 @@
         },
         "Stone Giant": {
             "name": "Gigant kamienny",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Greatclub": {
                     "name": "Maczuga",
@@ -8220,6 +8472,7 @@
         },
         "Stone Golem": {
             "name": "Kamienny golem",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Immutable Form": {
                     "name": "Immutable Form",
@@ -8249,6 +8502,7 @@
         },
         "Storm Giant": {
             "name": "Gigant burzowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Scale Mail": {
                     "name": "Zbroja łuskowa",
@@ -8311,6 +8565,7 @@
         },
         "Succubus/Incubus": {
             "name": "Sukub/Inkub",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Telepathic Bond": {
                     "name": "Telepatia",
@@ -8342,6 +8597,7 @@
                 "Draining Kiss": {
                     "name": "Draining Kiss",
                     "description": "<p>The fiend kisses a creature charmed by it or a willing creature. The target must make a [[/save]] saving throw against this magic, taking [[/damage]] damage on a failed save, or half as much damage on a successful one.</p><p>The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>",
+                    "requirements": "Targets a charmed or willing creature",
                     "activities": {
                         "save": {
                             "target": "charmed or willing creature"
@@ -8361,6 +8617,7 @@
         },
         "Swarm of Bats": {
             "name": "Rój nietoperzy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bites": {
                     "name": "Bites",
@@ -8368,24 +8625,29 @@
                 },
                 "Swarm": {
                     "name": "Rój",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Keen Hearing": {
                     "name": "Keen Hearing",
-                    "description": "<p>The swarm has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing.</p>"
+                    "description": "<p>The swarm has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing.</p>",
+                    "requirements": "Bats"
                 },
                 "Echolocation": {
                     "name": "Echolocation",
-                    "description": "<p>The swarm can't use its blindsight while deafened.</p>"
+                    "description": "<p>The swarm can't use its blindsight while deafened.</p>",
+                    "requirements": "Bats"
                 }
             }
         },
         "Swarm of Beetles": {
             "name": "Swarm of Beetles",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Swarm": {
                     "name": "Rój",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -8395,10 +8657,12 @@
         },
         "Swarm of Centipedes": {
             "name": "Swarm of Centipedes",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Swarm": {
                     "name": "Rój",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -8408,10 +8672,12 @@
         },
         "Swarm of Insects": {
             "name": "Rój owadów",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Swarm": {
                     "name": "Rój",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -8421,10 +8687,12 @@
         },
         "Swarm of Poisonous Snakes": {
             "name": "Swarm of Poisonous Snakes",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Swarm": {
                     "name": "Rój",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -8434,6 +8702,7 @@
         },
         "Swarm of Quippers": {
             "name": "Swarm of Quippers",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Blood Frenzy": {
                     "name": "Blood Frenzy",
@@ -8455,6 +8724,7 @@
         },
         "Swarm of Rats": {
             "name": "Rój szczurów",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -8472,6 +8742,7 @@
         },
         "Swarm of Ravens": {
             "name": "Rój kruków",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Swarm": {
                     "name": "Rój",
@@ -8485,6 +8756,7 @@
         },
         "Swarm of Spiders": {
             "name": "Swarm of Spiders",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Swarm": {
                     "name": "Rój",
@@ -8510,10 +8782,12 @@
         },
         "Swarm of Wasps": {
             "name": "Swarm of Wasps",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Swarm": {
                     "name": "Rój",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -8523,6 +8797,7 @@
         },
         "Tarrasque": {
             "name": "Tarrasque",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendarna Odporność",
@@ -8588,7 +8863,7 @@
         },
         "Thug": {
             "name": "Thug",
-            "alignment": "Any non-good alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Leather Armor": {
                     "name": "Skórznia",
@@ -8614,6 +8889,7 @@
         },
         "Tiger": {
             "name": "Tygrys",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -8635,6 +8911,7 @@
         },
         "Treant": {
             "name": "Drzewiec",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Animate Trees": {
                     "name": "Animate Trees",
@@ -8664,7 +8941,7 @@
         },
         "Tribal Warrior": {
             "name": "Tribal Warrior",
-            "alignment": "any alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hide Armor": {
                     "name": "Zbroja skórzana",
@@ -8682,6 +8959,7 @@
         },
         "Triceratops": {
             "name": "Triceratops",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Gore": {
                     "name": "Gore",
@@ -8704,6 +8982,7 @@
         },
         "Troll": {
             "name": "Troll",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -8729,6 +9008,7 @@
         },
         "Tyrannosaurus Rex": {
             "name": "Tyranozaur",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -8746,6 +9026,7 @@
         },
         "Unicorn": {
             "name": "Jednorożec",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge": {
                     "name": "Ładuj",
@@ -8829,6 +9110,7 @@
         },
         "Unseen Servant": {
             "name": "Niewidoczny sługa",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "effects": {
                 "Invisible": {
                     "name": "Niewidzialny",
@@ -8838,6 +9120,7 @@
         },
         "Vampire": {
             "name": "Vampire",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -8908,6 +9191,7 @@
         },
         "Vampire Spawn": {
             "name": "Vampire Spawn",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -8937,7 +9221,7 @@
         },
         "Veteran": {
             "name": "Veteran",
-            "alignment": "Any Alignment",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Splint Armor": {
                     "name": "Zbroja płytkowa",
@@ -8963,6 +9247,7 @@
         },
         "Violet Fungus": {
             "name": "Violet Fungus",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Rotting Touch": {
                     "name": "Rotting Touch",
@@ -8980,6 +9265,7 @@
         },
         "Vrock": {
             "name": "Vrock",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Magic Resistance": {
                     "name": "Magic Resistance",
@@ -9009,14 +9295,17 @@
         },
         "Vulture": {
             "name": "Sęp",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Sight and Smell": {
                     "name": "Keen Sight and Smell",
-                    "description": "<p>The vulture has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight or smell.</p>"
+                    "description": "<p>The vulture has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight or smell.</p>",
+                    "requirements": "Sęp"
                 },
                 "Pack Tactics": {
                     "name": "Pack Tactics",
-                    "description": "<p>The vulture has<strong> advantage </strong>on an attack roll against a creature if at least one of the vulture's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>"
+                    "description": "<p>The vulture has<strong> advantage </strong>on an attack roll against a creature if at least one of the vulture's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>",
+                    "requirements": "Sęp"
                 },
                 "Beak": {
                     "name": "Beak",
@@ -9026,6 +9315,7 @@
         },
         "Warhorse": {
             "name": "Rumak bojowy",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Trampling Charge": {
                     "name": "Trampling Charge",
@@ -9039,6 +9329,7 @@
         },
         "Warhorse Skeleton": {
             "name": "Warhorse Skeleton",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -9048,6 +9339,7 @@
         },
         "Water Elemental": {
             "name": "Żywiołak wody",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Freeze": {
                     "name": "Freeze",
@@ -9078,10 +9370,12 @@
         },
         "Weasel": {
             "name": "Łasica",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
-                    "description": "<p>The weasel has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>"
+                    "description": "<p>The weasel has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+                    "requirements": "Łasica"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -9091,6 +9385,7 @@
         },
         "Werebear": {
             "name": "Niedźwiedziołak",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -9120,6 +9415,7 @@
         },
         "Wereboar": {
             "name": "Dzikołak",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Charge (Boar or Hybrid Form Only)": {
                     "name": "Charge (Boar or Hybrid Form Only)",
@@ -9149,6 +9445,7 @@
         },
         "Wererat": {
             "name": "Szczurołak",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -9178,6 +9475,7 @@
         },
         "Weretiger": {
             "name": "Tygrysołak",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -9190,6 +9488,7 @@
                 "Pounce (Tiger or Hybrid Form Only)": {
                     "name": "Pounce (Tiger or Hybrid Form Only)",
                     "description": "<p>If the [[lookup @name lowercase]]{monster} moves at <strong>least 15 feet</strong> straight toward a creature and then hits it with a [[/item .HPmjVRKpG08bgohb]]{claw} attack on the same turn, that target must succeed on a [[/save]] saving throw or be knocked &amp;Reference[prone]. If the target is prone, the weretiger can make one [[/item .FOkSL18gU0Sli5ZA]]{bite} attack against it as a bonus action.</p>",
+                    "requirements": "Tiger or Hybrid Form",
                     "activities": {
                         "save": {
                             "condition": "moves 15 feet and hits with a claw attack"
@@ -9203,7 +9502,8 @@
                 },
                 "Multiattack (Humanoid or Hybrid Form Only)": {
                     "name": "Multiattack (Humanoid or Hybrid Form Only)",
-                    "description": "<p>In humanoid form, the weretiger makes two [[/item .vtnEGCOptmp2bcqG]]{scimitar} attacks or two [[/item .onmNGMiE4AyvYxDQ]]{longbow} attacks.</p><p>In hybrid form, it can attack like a humanoid or make two [[/item .HPmjVRKpG08bgohb]]{claw} attacks.</p>"
+                    "description": "<p>In humanoid form, the weretiger makes two [[/item .vtnEGCOptmp2bcqG]]{scimitar} attacks or two [[/item .onmNGMiE4AyvYxDQ]]{longbow} attacks.</p><p>In hybrid form, it can attack like a humanoid or make two [[/item .HPmjVRKpG08bgohb]]{claw} attacks.</p>",
+                    "requirements": "Humanoid or Hybrid Form"
                 },
                 "Bite (Tiger or Hybrid Form Only)": {
                     "name": "Bite (Tiger or Hybrid Form Only)",
@@ -9225,6 +9525,7 @@
         },
         "Werewolf": {
             "name": "Wilkołak",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite (Wolf or Hybrid Form Only)": {
                     "name": "Bite (Wolf or Hybrid Form Only)",
@@ -9254,6 +9555,7 @@
         },
         "White Dragon Wyrmling": {
             "name": "White Dragon Wyrmling",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9267,6 +9569,7 @@
         },
         "Wight": {
             "name": "Zjawa",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Studded Leather Armor": {
                     "name": "Ćwiekowana skóra",
@@ -9296,6 +9599,7 @@
         },
         "Will-o'-Wisp": {
             "name": "Błędny ognik",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Consume Life": {
                     "name": "Consume Life",
@@ -9330,6 +9634,7 @@
         },
         "Winter Wolf": {
             "name": "Zimowy wilk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -9355,6 +9660,7 @@
         },
         "Wolf": {
             "name": "Wilk",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -9372,6 +9678,7 @@
         },
         "Worg": {
             "name": "Worg",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -9385,6 +9692,7 @@
         },
         "Wraith": {
             "name": "Upiór",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Create Specter": {
                     "name": "Create Specter",
@@ -9406,6 +9714,7 @@
         },
         "Wyvern": {
             "name": "Wiwerna",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Multiattack": {
                     "name": "Atak wielokrotny",
@@ -9427,6 +9736,7 @@
         },
         "Xorn": {
             "name": "Xorn",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9456,6 +9766,7 @@
         },
         "Young Black Dragon": {
             "name": "Young Black Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Acid Breath": {
                     "name": "Acid Breath",
@@ -9481,6 +9792,7 @@
         },
         "Young Blue Dragon": {
             "name": "Young Blue Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9502,6 +9814,7 @@
         },
         "Young Brass Dragon": {
             "name": "Young Brass Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9533,6 +9846,7 @@
         },
         "Young Bronze Dragon": {
             "name": "Young Bronze Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -9566,6 +9880,7 @@
         },
         "Young Copper Dragon": {
             "name": "Young Copper Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9595,6 +9910,7 @@
         },
         "Young Gold Dragon": {
             "name": "Young Gold Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -9628,6 +9944,7 @@
         },
         "Young Green Dragon": {
             "name": "Young Green Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -9653,6 +9970,7 @@
         },
         "Young Red Dragon": {
             "name": "Young Red Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9679,6 +9997,7 @@
         },
         "Young Silver Dragon": {
             "name": "Young Silver Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9708,6 +10027,7 @@
         },
         "Young White Dragon": {
             "name": "Young White Dragon",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9748,6 +10068,7 @@
         },
         "Zombie": {
             "name": "Zombi",
+            "description": "<p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "items": {
                 "Slam": {
                     "name": "Slam",
@@ -9759,5 +10080,8 @@
                 }
             }
         }
+    },
+    "folders": {
+        "Summons": "Summons"
     }
 }
