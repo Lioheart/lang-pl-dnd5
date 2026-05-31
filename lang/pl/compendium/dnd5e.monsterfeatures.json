@@ -1,17 +1,39 @@
 {
     "label": "Zdolności potworów (SRD)",
     "mapping": {
-        "description": {
-            "path": "system.description.value",
-            "converter": "text"
-        },
-        "materials": {
-            "path": "system.materials.value",
-            "converter": "text"
-        },
+        "description": "system.description.value",
+        "requirements": "system.requirements",
+        "materials": "system.materials.value",
+        "chat": "system.description.chat",
         "activities": {
             "path": "system.activities",
-            "converter": "activities"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "name",
+                "type"
+            ],
+            "mapping": {
+                "name": "name",
+                "condition": "activation.condition",
+                "chatFlavor": "description.chatFlavor",
+                "duration": "duration.special",
+                "roll": "roll.name",
+                "range": {
+                    "path": "range",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "target",
+                    "converter": "imperialToMetric"
+                },
+                "profiles": {
+                    "path": "profiles",
+                    "converter": "nameCollection"
+                }
+            }
         },
         "effects": {
             "path": "effects",
@@ -19,7 +41,61 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "advancement"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "title"
+            ],
+            "mapping": {
+                "title": "title",
+                "hint": "hint",
+                "_variants": [
+                    {
+                        "_when": {
+                            "path": "type",
+                            "equals": "ScaleValue"
+                        },
+                        "distance": {
+                            "path": "configuration.distance",
+                            "converter": "imperialToMetric"
+                        },
+                        "scale": {
+                            "path": "configuration.scale",
+                            "converter": "imperialToMetric"
+                        }
+                    }
+                ]
+            }
+        },
+        "movement": {
+            "path": "system.movement",
+            "converter": "imperialToMetric"
+        },
+        "weight": {
+            "path": "system.weight",
+            "converter": "imperialToMetric"
+        },
+        "range": {
+            "path": "system.range",
+            "converter": "imperialToMetric"
+        },
+        "capacityWeight": {
+            "path": "system.capacity.weight",
+            "converter": "imperialToMetric"
+        },
+        "senses": {
+            "path": "system.senses",
+            "converter": "imperialToMetric"
+        },
+        "target": {
+            "path": "system.target",
+            "converter": "imperialToMetric"
+        },
+        "volume": {
+            "path": "system.capacity.volume",
+            "converter": "imperialToMetric"
         }
     },
     "entries": {
@@ -307,7 +383,8 @@
         },
         "Echolocation": {
             "name": "Echolocation",
-            "description": "<p>the [[lookup @name lowercase]]{monster} can't use its blindsight while deafened.</p>"
+            "description": "<p>the [[lookup @name lowercase]]{monster} can't use its blindsight while deafened.</p>",
+            "requirements": "Nietoperz"
         },
         "Elemental Demise": {
             "name": "Elemental Demise",
@@ -407,7 +484,8 @@
         },
         "Flyby": {
             "name": "Flyby",
-            "description": "<p>the [[lookup @name lowercase]]{monster} doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>"
+            "description": "<p>the [[lookup @name lowercase]]{monster} doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+            "requirements": "Sowa"
         },
         "Flying Sword": {
             "name": "Flying Sword",
@@ -475,7 +553,8 @@
         },
         "Hellish Rejuvenation": {
             "name": "Hellish Rejuvenation",
-            "description": "<section class=\"secret\">\n<p>A [[lookup @name lowercase]]{monster} that dies in the Nine Hells sometimes comes back to comes back to life with all its<strong> hit points</strong> in 1d10 days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.</p>\n</section>\n<p>A [[lookup @name lowercase]]{monster} that dies in the Nine Hells sometimes comes back to life.</p>"
+            "description": "<section class=\"secret\">\n<p>A [[lookup @name lowercase]]{monster} that dies in the Nine Hells sometimes comes back to comes back to life with all its<strong> hit points</strong> in 1d10 days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.</p>\n</section>\n<p>A [[lookup @name lowercase]]{monster} that dies in the Nine Hells sometimes comes back to life.</p>",
+            "requirements": "Lemur"
         },
         "Hellish Weapons": {
             "name": "Hellish Weapons",
@@ -669,7 +748,8 @@
         },
         "Pack Tactics": {
             "name": "Pack Tactics",
-            "description": "<p>the [[lookup @name lowercase]]{monster} has<strong> advantage </strong>on an attack roll against a creature if at least one of the [[lookup @name lowercase]]{monster}'s allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>"
+            "description": "<p>the [[lookup @name lowercase]]{monster} has<strong> advantage </strong>on an attack roll against a creature if at least one of the [[lookup @name lowercase]]{monster}'s allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>",
+            "requirements": "Pawian"
         },
         "Paralyzing Breath": {
             "name": "Paralyzing Breath",
@@ -931,7 +1011,8 @@
         },
         "Swarm": {
             "name": "Rój",
-            "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny [[lookup @name lowercase]]{monster}. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+            "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny [[lookup @name lowercase]]{monster}. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+            "requirements": "Bats"
         },
         "Tail Spike Regrowth": {
             "name": "Tail Spike Regrowth",
@@ -1019,7 +1100,8 @@
         },
         "Underwater Camouflage": {
             "name": "Underwater Camouflage",
-            "description": "<p>the [[lookup @name lowercase]]{monster} has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>"
+            "description": "<p>the [[lookup @name lowercase]]{monster} has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>",
+            "requirements": "Ośmiornica"
         },
         "Unnerving Mask": {
             "name": "Unnerving Mask",
@@ -1054,7 +1136,8 @@
         },
         "Water Breathing": {
             "name": "Oddychanie pod wodą",
-            "description": "<p>the [[lookup @name lowercase]]{monster} can breathe only underwater.</p>"
+            "description": "<p>the [[lookup @name lowercase]]{monster} can breathe only underwater.</p>",
+            "requirements": "Ośmiornica"
         },
         "Water Form": {
             "name": "Water Form",

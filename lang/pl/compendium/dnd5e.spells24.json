@@ -1,17 +1,39 @@
 {
     "label": "Czary",
     "mapping": {
-        "description": {
-            "path": "system.description.value",
-            "converter": "text"
-        },
-        "materials": {
-            "path": "system.materials.value",
-            "converter": "text"
-        },
+        "description": "system.description.value",
+        "requirements": "system.requirements",
+        "materials": "system.materials.value",
+        "chat": "system.description.chat",
         "activities": {
             "path": "system.activities",
-            "converter": "activities"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "name",
+                "type"
+            ],
+            "mapping": {
+                "name": "name",
+                "condition": "activation.condition",
+                "chatFlavor": "description.chatFlavor",
+                "duration": "duration.special",
+                "roll": "roll.name",
+                "range": {
+                    "path": "range",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "target",
+                    "converter": "imperialToMetric"
+                },
+                "profiles": {
+                    "path": "profiles",
+                    "converter": "nameCollection"
+                }
+            }
         },
         "effects": {
             "path": "effects",
@@ -19,21 +41,62 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "advancement"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "title"
+            ],
+            "mapping": {
+                "title": "title",
+                "hint": "hint",
+                "_variants": [
+                    {
+                        "_when": {
+                            "path": "type",
+                            "equals": "ScaleValue"
+                        },
+                        "distance": {
+                            "path": "configuration.distance",
+                            "converter": "imperialToMetric"
+                        },
+                        "scale": {
+                            "path": "configuration.scale",
+                            "converter": "imperialToMetric"
+                        }
+                    }
+                ]
+            }
+        },
+        "movement": {
+            "path": "system.movement",
+            "converter": "imperialToMetric"
+        },
+        "weight": {
+            "path": "system.weight",
+            "converter": "imperialToMetric"
+        },
+        "range": {
+            "path": "system.range",
+            "converter": "imperialToMetric"
+        },
+        "capacityWeight": {
+            "path": "system.capacity.weight",
+            "converter": "imperialToMetric"
+        },
+        "senses": {
+            "path": "system.senses",
+            "converter": "imperialToMetric"
+        },
+        "target": {
+            "path": "system.target",
+            "converter": "imperialToMetric"
+        },
+        "volume": {
+            "path": "system.capacity.volume",
+            "converter": "imperialToMetric"
         }
-    },
-    "folders": {
-        "1st Level": "1. krąg",
-        "2nd Level": "2. krąg",
-        "3rd Level": "3. krąg",
-        "4th Level": "4. krąg",
-        "5th Level": "5. krąg",
-        "6th Level": "6. krąg",
-        "7th Level": "7. krąg",
-        "8th Level": "8. krąg",
-        "9th Level": "9. krąg",
-        "Cantrips": "Sztuczki",
-        "Supplemental Items": "Supplemental Items"
     },
     "entries": {
         "Acid Arrow": {
@@ -1956,7 +2019,7 @@
             "description": "<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra [[/damage]] damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
             "activities": {
                 "Bonus Mark Damage": {
-                    "name": "Dodatkowe obrażenia oznakowanej zdobyczy"
+                    "name": "Dodatkowe obrażenia dla oznakowanej zdobyczy"
                 },
                 "Mark Creature": {
                     "name": "Mark Creature"
@@ -3813,5 +3876,18 @@
                 }
             }
         }
+    },
+    "folders": {
+        "1st Level": "1. krąg",
+        "2nd Level": "2. krąg",
+        "3rd Level": "3. krąg",
+        "4th Level": "4. krąg",
+        "5th Level": "5. krąg",
+        "6th Level": "6. krąg",
+        "7th Level": "7. krąg",
+        "8th Level": "8. krąg",
+        "9th Level": "9. krąg",
+        "Cantrips": "Sztuczki",
+        "Supplemental Items": "Supplemental Items"
     }
 }

@@ -2,10 +2,38 @@
     "label": "Rasy (SRD)",
     "mapping": {
         "description": "system.description.value",
+        "requirements": "system.requirements",
         "materials": "system.materials.value",
+        "chat": "system.description.chat",
         "activities": {
             "path": "system.activities",
-            "converter": "activities"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "name",
+                "type"
+            ],
+            "mapping": {
+                "name": "name",
+                "condition": "activation.condition",
+                "chatFlavor": "description.chatFlavor",
+                "duration": "duration.special",
+                "roll": "roll.name",
+                "range": {
+                    "path": "range",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "target",
+                    "converter": "imperialToMetric"
+                },
+                "profiles": {
+                    "path": "profiles",
+                    "converter": "nameCollection"
+                }
+            }
         },
         "effects": {
             "path": "effects",
@@ -13,57 +41,123 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "advancement"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "title"
+            ],
+            "mapping": {
+                "title": "title",
+                "hint": "hint",
+                "_variants": [
+                    {
+                        "_when": {
+                            "path": "type",
+                            "equals": "ScaleValue"
+                        },
+                        "distance": {
+                            "path": "configuration.distance",
+                            "converter": "imperialToMetric"
+                        },
+                        "scale": {
+                            "path": "configuration.scale",
+                            "converter": "imperialToMetric"
+                        }
+                    }
+                ]
+            }
+        },
+        "movement": {
+            "path": "system.movement",
+            "converter": "imperialToMetric"
+        },
+        "weight": {
+            "path": "system.weight",
+            "converter": "imperialToMetric"
+        },
+        "range": {
+            "path": "system.range",
+            "converter": "imperialToMetric"
+        },
+        "capacityWeight": {
+            "path": "system.capacity.weight",
+            "converter": "imperialToMetric"
+        },
+        "senses": {
+            "path": "system.senses",
+            "converter": "imperialToMetric"
+        },
+        "target": {
+            "path": "system.target",
+            "converter": "imperialToMetric"
+        },
+        "volume": {
+            "path": "system.capacity.volume",
+            "converter": "imperialToMetric"
         }
     },
     "entries": {
         "Artificer's Lore": {
             "name": "Mądrość wynalazcy",
-            "description": "<p>Za każdym razem, gdy wykonujesz test Inteligencji (Historia) odnoszący się do magicznych przedmiotów, obiektów alchemicznych lub urządzeń technologicznych, możesz dodać podwojoną premię z biegłości zamiast premii z biegłości, którą normalnie stosujesz.</p>"
+            "description": "<p>Za każdym razem, gdy wykonujesz test Inteligencji (Historia) odnoszący się do magicznych przedmiotów, obiektów alchemicznych lub urządzeń technologicznych, możesz dodać podwojoną premię z biegłości zamiast premii z biegłości, którą normalnie stosujesz.</p>",
+            "requirements": "Gnom skalny"
         },
         "Brave": {
             "name": "Odwaga",
-            "description": "<p>Masz ułatwienie w rzutach obronnych przeciw przerażeniu.</p>"
+            "description": "<p>Masz ułatwienie w rzutach obronnych przeciw przerażeniu.</p>",
+            "requirements": "Nizołek"
         },
         "Breath Weapon - Black": {
             "name": "Zionięcie - czarny smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Czarny drakon"
         },
         "Breath Weapon - Blue": {
             "name": "Zionięcie - niebieski smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Niebieski drakon"
         },
         "Breath Weapon - Brass": {
             "name": "Zionięcie - mosiężny smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Mosiężny drakon"
         },
         "Breath Weapon - Bronze": {
             "name": "Zionięcie - spiżowy smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Brązowy drakon"
         },
         "Breath Weapon - Copper": {
             "name": "Zionięcie - miedziany smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Miedziany drakon"
         },
         "Breath Weapon - Gold": {
             "name": "Zionięcie - złoty smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Złoty drakon"
         },
         "Breath Weapon - Green": {
             "name": "Zionięcie - zielony smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od trucizny. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od trucizny. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Zielony drakon"
         },
         "Breath Weapon - Red": {
             "name": "Zionięcie - czerwony smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Czerwony drakon"
         },
         "Breath Weapon - Silver": {
             "name": "Zionięcie - srebrny smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Srebrny drakon"
         },
         "Breath Weapon - White": {
             "name": "Zionięcie - biały smok",
-            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>"
+            "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
+            "requirements": "Biały drakon"
         },
         "Dragonborn": {
             "name": "Drakon",
@@ -86,15 +180,18 @@
         },
         "Dwarven Resilience": {
             "name": "Krasnoludzka odporność",
-            "description": "<p>Masz ułatwienie w rzutach obronnych przeciw truciznom i odporność na obrażenia od trucizn.</p>"
+            "description": "<p>Masz ułatwienie w rzutach obronnych przeciw truciznom i odporność na obrażenia od trucizn.</p>",
+            "requirements": "Krasnolud"
         },
         "Fey Ancestry": {
             "name": "Rodowód fey",
-            "description": "<p>Masz ułatwienie w rzutach obronnych przeciw zauroczeniu i magia nie może cię uśpić.</p>"
+            "description": "<p>Masz ułatwienie w rzutach obronnych przeciw zauroczeniu i magia nie może cię uśpić.</p>",
+            "requirements": "Elf, Półelf"
         },
         "Gnome Cunning": {
             "name": "Gnomi spryt",
-            "description": "<p>Masz ułatwienie we wszystkich rzutach obronnych przeciwko magii, które opierają się na Inteligencji, Mądrości lub Charyzmie.</p>"
+            "description": "<p>Masz ułatwienie we wszystkich rzutach obronnych przeciwko magii, które opierają się na Inteligencji, Mądrości lub Charyzmie.</p>",
+            "requirements": "Gnom"
         },
         "Half-Elf": {
             "name": "Półelf",
@@ -121,11 +218,19 @@
             }
         },
         "Halfling Nimbleness": {
-            "name": "Zwinność niziołka"
+            "name": "Zwinność niziołka",
+            "description": "<p>Możesz przemieścić się przez pole zajmowane przez inną istotę, która jest większego rozmiaru niż ty.</p>",
+            "requirements": "Nizołek",
+            "effects": {
+                "Halfling Nimbleness": {
+                    "name": "Zwinność niziołka"
+                }
+            }
         },
         "Hellish Resistance": {
             "name": "Piekielna odporność",
-            "description": "<p>Masz odporność na obrażenia od ognia.</p>"
+            "description": "<p>Masz odporność na obrażenia od ognia.</p>",
+            "requirements": "Diabelstwo"
         },
         "High Elf": {
             "name": "Elf wysoki",
@@ -175,10 +280,11 @@
         },
         "Infernal Legacy": {
             "name": "Diabelska spuścizna",
-            "description": "<p>Znasz sztuczkę @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{taumaturgia}.</p>\n<p>Kiedy osiągasz 3. poziom. możesz rzucić raz @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{Piekielna reprymenda} jako czar 2. kręgu i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku.</p>\n<p>Kiedy osiągasz 5. poziom, możesz rzucić raz czar @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Ciemność} i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Twoją cechą bazową dla tych czarów jest Charyzma.</p>"
+            "description": "<p>Znasz sztuczkę @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{taumaturgia}.</p>\n<p>Kiedy osiągasz 3. poziom. możesz rzucić raz @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{Piekielna reprymenda} jako czar 2. kręgu i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku.</p>\n<p>Kiedy osiągasz 5. poziom, możesz rzucić raz czar @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Ciemność} i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Twoją cechą bazową dla tych czarów jest Charyzma.</p>",
+            "requirements": "Diabelstwo"
         },
         "Lightfoot Halfling": {
-            "name": "Niziołek",
+            "name": "Niziołek lekkostopy",
             "description": "<p>Twój niziołek dysponuje wachlarzem wrodzonych przymiotów. które są wspólne dla całej rasy.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Zręczności wzrasta o 2.</p><p><em><strong>Wiek.</strong></em> Niziołki osiągają dojrzałość w wieku 20 lat i żyją zazwyczaj około 150 lat.</p><p><em><strong>Charakter.</strong></em> Większość niziołków jest praworządna dobra. To z zasady życzliwe i uprzejme istoty, które nie znoszą, gdy ktoś cierpi, i nie tolerują ucisku. Są przy tym niezwykle uporządkowane i tradycjonalistycznie nastawione do świata, co przejawia się w mocnym poleganiu na wspólnocie i starych zwyczajach.</p><p><em><strong>Rozmiar.</strong></em> Wzrost niziołków wynosi przeciętnie nieco mniej niż metr, a waga około 20 kilogramów. Twój rozmiar jest Mały.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 7,5 metra.</p><p><em><strong>Szczęście.</strong></em> Kiedy wyrzucisz 1 w teście ataku, teście cechy lub rzucie obronnym, możesz przerzucić kość. Musisz jednak zaakceptować nowy wynik.</p><p><em><strong>Odwaga.</strong></em> Masz ułatwienie w rzutach obronnych przeciw przerażeniu.</p><p><em><strong>Zwinność niziołka.</strong></em> Możesz przemieścić się przez pole zajmowane przez inną istotę, która jest większego rozmiaru niż ty.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz niziołczym. Język niziołków nie jest sekretny, jednak oni sami niechętnie uczą go innych. Przedstawiciele tej rasy niewiele piszą. Nie mają więc zbyt bogatej literatury. Lecz ich tradycja przekazów ustnych jest bardzo rozwinięta. Praktycznie wszystkie niziołki używają wspólnego, aby rozmawiać z istotami, na których ziemiach zamieszkują lub przez które podróżują.</p><h5>Niziołek lekkostopy</h5><p>Jako niziołek lekkostopy możesz w łatwy sposób unikać uwagi, a nawet używać innych osób w charakterze zasłony. Twoje usposobienie jest bardzo przyjazne i dobrze dogadujesz się z innymi.</p><p>Lekkostopi mają o wiele większe zamiłowanie do wędrówek niż inne niziołki i często mieszkają pośród innych ras lub wybierają nomadyczny styl życia.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Charyzmy wzrasta o 1.</p><p><em><strong>Niezauważalny.</strong></em> Możesz spróbować się ukryć, gdy zasłania cię istota, która jest przynajmniej jeden rozmiar większa od ciebie.</p>",
             "advancement": {
                 "hv2bcANK5jEJZaAb": {
@@ -188,15 +294,18 @@
         },
         "Lucky": {
             "name": "Szczęście",
-            "description": "<p>Kiedy wyrzucisz 1 w teście ataku, teście cechy lub rzucie obronnym, możesz przerzucić kość. Musisz jednak zaakceptować nowy wynik.</p><section class=\"secret foundry-note\" id=\"secret-S04TPyvUh05Dz0Ng\"><p><strong>Notka Foundry</strong></p><p>Tę właściwość można włączyć w ustawieniach karty postaci w zakładce Zdolności, w oknie Specjalne zdolności.</p></section>"
+            "description": "<p>Kiedy wyrzucisz 1 w teście ataku, teście cechy lub rzucie obronnym, możesz przerzucić kość. Musisz jednak zaakceptować nowy wynik.</p><section class=\"secret foundry-note\" id=\"secret-S04TPyvUh05Dz0Ng\"><p><strong>Notka Foundry</strong></p><p>Tę właściwość można włączyć w ustawieniach karty postaci w zakładce Zdolności, w oknie Specjalne zdolności.</p></section>",
+            "requirements": "Nizołek"
         },
         "Naturally Stealthy": {
             "name": "Niezauważalny",
-            "description": "<p>Możesz spróbować się ukryć, gdy zasłania cię istota, która jest przynajmniej jeden rozmiar większa od ciebie.</p>"
+            "description": "<p>Możesz spróbować się ukryć, gdy zasłania cię istota, która jest przynajmniej jeden rozmiar większa od ciebie.</p>",
+            "requirements": "Niziołek lekkostopy"
         },
         "Relentless Endurance": {
             "name": "Wola życia",
             "description": "<p>Kiedy twoje punkty wytrzymałości spadną do 0, ale nie giniesz od razu, możesz zdecydować, że zamiast tego spadają do 1. Możesz ponownie skorzystać z tej zdolności po zakończeniu długiego odpoczynku.</p>",
+            "requirements": "Półork",
             "activities": {
                 "heal": {
                     "condition": "Kiedy twoje PW spadną do 0"
@@ -216,11 +325,19 @@
             }
         },
         "Savage Attacks": {
-            "name": "Brutalne ataki"
+            "name": "Brutalne ataki",
+            "description": "<p>Kiedy trafiasz krytycznie atakiem wręcz bronią, możesz dodatkowo rzucić jedną kostką obrażeń właściwą dla używanej broni i dodać jej wynik do dodatkowych obrażeń wynikających z trafienia krytycznego.</p>",
+            "requirements": "Półork",
+            "effects": {
+                "Savage Attacks": {
+                    "name": "Brutalne ataki"
+                }
+            }
         },
         "Stonecunning": {
             "name": "Wiedza o kamieniu",
-            "description": "<p>Za każdym razem, gdy wykonujesz test inteligencji (Historia) związany z pochodzeniem jakiejś rzeczy stworzonej z kamienia, jesteś traktowany jak biegły w umiejętności Historia i dodajesz podwójną premię z biegłości do wyniku testu.</p>"
+            "description": "<p>Za każdym razem, gdy wykonujesz test inteligencji (Historia) związany z pochodzeniem jakiejś rzeczy stworzonej z kamienia, jesteś traktowany jak biegły w umiejętności Historia i dodajesz podwójną premię z biegłości do wyniku testu.</p>",
+            "requirements": "Krasnolud"
         },
         "Tiefling": {
             "name": "Diabelstwo",
@@ -240,6 +357,7 @@
         "Tinker": {
             "name": "Majsterkowicz",
             "description": "<p>Masz biegłość w używaniu narzędzi rzemieślniczych (narzędzi majsterkowicza). Korzystając z nich, możesz spędzić 1 godzinę i zużyć materiały o wartości 10 sz, aby skonstruować Malutkie urządzenie mechaniczne (KP 5, 1 PW). Urządzenie to przestanie działać po 24 godzinach (chyba że spędzisz 1 godzinę, naprawiając je, aby mogło dalej funkcjonować) lub gdy użyjesz akcji, aby je rozmontować. W takiej sytuacji możesz odzyskać wykorzystane materiały. Możesz posiadać do trzech tego rodzaju urządzeń jednocześnie. Kiedy tworzysz urządzenie, wybierz jedną z poniższych opcji:</p>\n<p><em>Kiedy tworzysz urządzenie, wybierz jedną z poniższych opcji:</em> Zabawka jest mechanicznym zwierzęciem, potworem lub osobą, na przykład żabą, myszą, ptakiem, smokiem albo żołnierzem. Po położeniu jej na ziemi zabawka porusza się w twojej turze 1,5 metra w losowym kierunku, wydając z siebie odgłosy właściwe istocie, którą przedstawia.</p>\n<p><em>Skrzeszacz ognia.</em> Urządzenie tworzy niewielki płomień, którym można rozpalić świecę, pochodnię lub ognisko. Skorzystanie z tego urządzenia wymaga wykorzystania akcji.</p>\n<p><em>Pozytywka.</em> Po otworzeniu pozytywka odtwarza jeden utwór muzyczny z umiarkowaną głośnością. Przestaje grać, gdy utwór dobiegnie końca lub gdy zostanie zamknięta.</p>",
+            "requirements": "Gnom skalny",
             "activities": {
                 "utility": {
                     "condition": "Zużyj materiały o wartości 10 sz"
@@ -248,7 +366,8 @@
         },
         "Trance": {
             "name": "Trans",
-            "description": "<p>Elfy nie potrzebują snu. Zamiast tego pogrążają się na cztery godzinny dziennie w głębokiej medytacji. (Określeniem na ten stan jest w języku wspólnym słowo 'trans'). Medytując, możesz mieć swego rodzaju sny. Naprawdę są to jednak ćwiczenia umysłowe, które po latach stały się czymś odruchowym. Trans zapewnia ci te same korzyści, co 8 godzin snu w przypadku człowieka.</p>"
+            "description": "<p>Elfy nie potrzebują snu. Zamiast tego pogrążają się na cztery godzinny dziennie w głębokiej medytacji. (Określeniem na ten stan jest w języku wspólnym słowo 'trans'). Medytując, możesz mieć swego rodzaju sny. Naprawdę są to jednak ćwiczenia umysłowe, które po latach stały się czymś odruchowym. Trans zapewnia ci te same korzyści, co 8 godzin snu w przypadku człowieka.</p>",
+            "requirements": "Elf"
         }
     },
     "folders": {
