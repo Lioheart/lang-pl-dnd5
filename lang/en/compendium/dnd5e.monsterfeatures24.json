@@ -1,14 +1,8 @@
 {
     "label": "Monster Features",
     "mapping": {
-        "description": {
-            "path": "system.description.value",
-            "converter": "text"
-        },
-        "materials": {
-            "path": "system.materials.value",
-            "converter": "text"
-        },
+        "description": "system.description.value",
+        "materials": "system.materials.value",
         "activities": {
             "path": "system.activities",
             "converter": "activities"
