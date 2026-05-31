@@ -2,10 +2,38 @@
     "label": "Races (SRD)",
     "mapping": {
         "description": "system.description.value",
+        "requirements": "system.requirements",
         "materials": "system.materials.value",
+        "chat": "system.description.chat",
         "activities": {
             "path": "system.activities",
-            "converter": "activities"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "name",
+                "type"
+            ],
+            "mapping": {
+                "name": "name",
+                "condition": "activation.condition",
+                "chatFlavor": "description.chatFlavor",
+                "duration": "duration.special",
+                "roll": "roll.name",
+                "range": {
+                    "path": "range",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "target",
+                    "converter": "imperialToMetric"
+                },
+                "profiles": {
+                    "path": "profiles",
+                    "converter": "nameCollection"
+                }
+            }
         },
         "effects": {
             "path": "effects",
@@ -40,56 +68,96 @@
                     }
                 ]
             }
+        },
+        "movement": {
+            "path": "system.movement",
+            "converter": "imperialToMetric"
+        },
+        "weight": {
+            "path": "system.weight",
+            "converter": "imperialToMetric"
+        },
+        "range": {
+            "path": "system.range",
+            "converter": "imperialToMetric"
+        },
+        "capacityWeight": {
+            "path": "system.capacity.weight",
+            "converter": "imperialToMetric"
+        },
+        "senses": {
+            "path": "system.senses",
+            "converter": "imperialToMetric"
+        },
+        "target": {
+            "path": "system.target",
+            "converter": "imperialToMetric"
+        },
+        "volume": {
+            "path": "system.capacity.volume",
+            "converter": "imperialToMetric"
         }
     },
     "entries": {
         "Artificer's Lore": {
             "name": "Artificer's Lore",
-            "description": "<p>Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</p>"
+            "description": "<p>Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</p>",
+            "requirements": "Rock Gnome"
         },
         "Brave": {
             "name": "Brave",
-            "description": "<p>You have advantage on saving throws against being frightened.</p>"
+            "description": "<p>You have advantage on saving throws against being frightened.</p>",
+            "requirements": "Halfling"
         },
         "Breath Weapon - Black": {
             "name": "Breath Weapon - Black",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "Black Dragonborn"
         },
         "Breath Weapon - Blue": {
             "name": "Breath Weapon - Blue",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "Blue Dragonborn"
         },
         "Breath Weapon - Brass": {
             "name": "Breath Weapon - Brass",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "Brass Dragonborn"
         },
         "Breath Weapon - Bronze": {
             "name": "Breath Weapon - Bronze",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "Bronze Dragonborn"
         },
         "Breath Weapon - Copper": {
             "name": "Breath Weapon - Copper",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "Copper Dragonborn"
         },
         "Breath Weapon - Gold": {
             "name": "Breath Weapon - Gold",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "Gold Dragonborn"
         },
         "Breath Weapon - Green": {
             "name": "Breath Weapon - Green",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 poison damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 poison damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "Green Dragonborn"
         },
         "Breath Weapon - Red": {
             "name": "Breath Weapon - Red",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "Red Dragonborn"
         },
         "Breath Weapon - Silver": {
             "name": "Breath Weapon - Silver",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "Silver Dragonborn"
         },
         "Breath Weapon - White": {
             "name": "Breath Weapon - White",
-            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>"
+            "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
+            "requirements": "White Dragonborn"
         },
         "Dragonborn": {
             "name": "Dragonborn",
@@ -112,15 +180,18 @@
         },
         "Dwarven Resilience": {
             "name": "Dwarven Resilience",
-            "description": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>"
+            "description": "<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>",
+            "requirements": "Dwarf"
         },
         "Fey Ancestry": {
             "name": "Fey Ancestry",
-            "description": "<p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>"
+            "description": "<p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>",
+            "requirements": "Elf, Half-Elf"
         },
         "Gnome Cunning": {
             "name": "Gnome Cunning",
-            "description": "<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>"
+            "description": "<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>",
+            "requirements": "Gnome"
         },
         "Half-Elf": {
             "name": "Half-Elf",
@@ -147,11 +218,19 @@
             }
         },
         "Halfling Nimbleness": {
-            "name": "Halfling Nimbleness"
+            "name": "Halfling Nimbleness",
+            "description": "<p>You can move through the space of any creature that is of a size larger than yours.</p>",
+            "requirements": "Halfling",
+            "effects": {
+                "Halfling Nimbleness": {
+                    "name": "Halfling Nimbleness"
+                }
+            }
         },
         "Hellish Resistance": {
             "name": "Hellish Resistance",
-            "description": "<p>You have resistance to fire damage.</p>"
+            "description": "<p>You have resistance to fire damage.</p>",
+            "requirements": "Tiefling"
         },
         "High Elf": {
             "name": "High Elf",
@@ -201,7 +280,8 @@
         },
         "Infernal Legacy": {
             "name": "Infernal Legacy",
-            "description": "<p>You know the @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{Thaumaturgy} cantrip.</p>\n<p>When you reach 3rd level, you can cast the @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{Hellish Rebuke} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest.</p>\n<p>When you reach 5th level, you can cast the @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>"
+            "description": "<p>You know the @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{Thaumaturgy} cantrip.</p>\n<p>When you reach 3rd level, you can cast the @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{Hellish Rebuke} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest.</p>\n<p>When you reach 5th level, you can cast the @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>",
+            "requirements": "Tiefling"
         },
         "Lightfoot Halfling": {
             "name": "Lightfoot Halfling",
@@ -214,15 +294,18 @@
         },
         "Lucky": {
             "name": "Lucky",
-            "description": "<p>When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p><section class=\"secret foundry-note\" id=\"secret-S04TPyvUh05Dz0Ng\"><p><strong>Foundry Note</strong></p><p>This property can be enabled on your character sheet in the Special Traits configuration on the Attributes tab.</p></section>"
+            "description": "<p>When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p><section class=\"secret foundry-note\" id=\"secret-S04TPyvUh05Dz0Ng\"><p><strong>Foundry Note</strong></p><p>This property can be enabled on your character sheet in the Special Traits configuration on the Attributes tab.</p></section>",
+            "requirements": "Halfling"
         },
         "Naturally Stealthy": {
             "name": "Naturally Stealthy",
-            "description": "<p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>"
+            "description": "<p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>",
+            "requirements": "Lightfoot Halfling"
         },
         "Relentless Endurance": {
             "name": "Relentless Endurance",
             "description": "<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p>",
+            "requirements": "Half-Orc",
             "activities": {
                 "heal": {
                     "condition": "When you are reduced to 0 hit points"
@@ -242,11 +325,19 @@
             }
         },
         "Savage Attacks": {
-            "name": "Savage Attacks"
+            "name": "Savage Attacks",
+            "description": "<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>",
+            "requirements": "Half-Orc",
+            "effects": {
+                "Savage Attacks": {
+                    "name": "Savage Attacks"
+                }
+            }
         },
         "Stonecunning": {
             "name": "Stonecunning",
-            "description": "<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>"
+            "description": "<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>",
+            "requirements": "Dwarf"
         },
         "Tiefling": {
             "name": "Tiefling",
@@ -266,6 +357,7 @@
         "Tinker": {
             "name": "Tinker",
             "description": "<p>You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:</p>\n<p><em>Clockwork Toy:</em> This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</p>\n<p><em>Fire Starter:</em> The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</p>\n<p><em>Music Box:</em> When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</p>",
+            "requirements": "Rock Gnome",
             "activities": {
                 "utility": {
                     "condition": "Expend 10 gp worth of materials"
@@ -274,7 +366,8 @@
         },
         "Trance": {
             "name": "Trance",
-            "description": "<p>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>"
+            "description": "<p>Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>",
+            "requirements": "Elf"
         }
     },
     "folders": {

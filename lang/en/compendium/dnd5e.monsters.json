@@ -1757,7 +1757,8 @@
                 },
                 "False Appearance": {
                     "name": "False Appearance",
-                    "description": "<p>While the shrub remains motionless, it is indistinguishable from a normal shrub.</p>"
+                    "description": "<p>While the shrub remains motionless, it is indistinguishable from a normal shrub.</p>",
+                    "requirements": "Awakened Shrub"
                 }
             }
         },
@@ -1817,7 +1818,8 @@
             "items": {
                 "Pack Tactics": {
                     "name": "Pack Tactics",
-                    "description": "<p>The baboon has<strong> advantage </strong>on an attack roll against a creature if at least one of the baboon's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>"
+                    "description": "<p>The baboon has<strong> advantage </strong>on an attack roll against a creature if at least one of the baboon's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>",
+                    "requirements": "Baboon"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -1832,6 +1834,7 @@
                 "Keen Smell": {
                     "name": "Keen Smell",
                     "description": "<p>The badger has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
+                    "requirements": "Badger",
                     "activities": {
                         "check": {
                             "chatFlavor": "The badger sniffs around!"
@@ -1988,11 +1991,13 @@
             "items": {
                 "Echolocation": {
                     "name": "Echolocation",
-                    "description": "<p>The bat can't use its blindsight while deafened.</p>"
+                    "description": "<p>The bat can't use its blindsight while deafened.</p>",
+                    "requirements": "Bat"
                 },
                 "Keen Hearing": {
                     "name": "Keen Hearing",
-                    "description": "<p>The bat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing.</p>"
+                    "description": "<p>The bat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing.</p>",
+                    "requirements": "Bat"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -2387,6 +2392,7 @@
                 "Keen Smell": {
                     "name": "Keen Smell",
                     "description": "<p>The cat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
+                    "requirements": "Cat",
                     "activities": {
                         "check": {
                             "chatFlavor": "The cat raises its head, sniffing the air."
@@ -3629,7 +3635,8 @@
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
-                    "description": "<p>The eagle has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight.</p>"
+                    "description": "<p>The eagle has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight.</p>",
+                    "requirements": "Eagle"
                 },
                 "Talons": {
                     "name": "Talons",
@@ -3960,7 +3967,8 @@
             "items": {
                 "Flyby": {
                     "name": "Flyby",
-                    "description": "<p>The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>"
+                    "description": "<p>The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+                    "requirements": "Owl"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -3996,7 +4004,8 @@
                 },
                 "Standing Leap": {
                     "name": "Standing Leap",
-                    "description": "<p>The frog's long jump is up to <strong>10 ft.</strong> and its high jump is up to <strong>5 ft.</strong>, with or without a running start.</p>"
+                    "description": "<p>The frog's long jump is up to <strong>10 ft.</strong> and its high jump is up to <strong>5 ft.</strong>, with or without a running start.</p>",
+                    "requirements": "Frog"
                 }
             }
         },
@@ -4328,7 +4337,8 @@
                 },
                 "Illumination": {
                     "name": "Illumination",
-                    "description": "<p>The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</p>"
+                    "description": "<p>The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</p>",
+                    "requirements": "Fire Beetle"
                 }
             }
         },
@@ -4364,7 +4374,8 @@
             "items": {
                 "Charge": {
                     "name": "Charge",
-                    "description": "<p>If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra [[/damage average]] damage.</p><p>If the target is a creature, it must succeed on a [[/save]] saving throw or be knocked &amp;Reference[prone].</p>"
+                    "description": "<p>If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra [[/damage average]] damage.</p><p>If the target is a creature, it must succeed on a [[/save]] saving throw or be knocked &amp;Reference[prone].</p>",
+                    "requirements": "Goat"
                 },
                 "Sure-Footed": {
                     "name": "Sure-Footed",
@@ -4410,11 +4421,13 @@
                 },
                 "Underwater Camouflage": {
                     "name": "Underwater Camouflage",
-                    "description": "<p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>"
+                    "description": "<p>The octopus has<strong> advantage </strong>on Dexterity (Stealth) checks made while underwater.</p>",
+                    "requirements": "Octopus"
                 },
                 "Water Breathing": {
                     "name": "Water Breathing",
-                    "description": "<p>The octopus can breathe only underwater.</p>"
+                    "description": "<p>The octopus can breathe only underwater.</p>",
+                    "requirements": "Octopus"
                 },
                 "Ink Cloud": {
                     "name": "Ink Cloud",
@@ -4432,7 +4445,8 @@
             "items": {
                 "Flyby": {
                     "name": "Flyby",
-                    "description": "<p>The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>"
+                    "description": "<p>The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+                    "requirements": "Owl"
                 },
                 "Keen Hearing and Sight": {
                     "name": "Keen Hearing and Sight",
@@ -4836,7 +4850,8 @@
                 },
                 "Sure-Footed": {
                     "name": "Sure-Footed",
-                    "description": "<p>The goat has<strong> advantage </strong>on Strength and Dexterity saving throws made against effects that would knock it prone.</p>"
+                    "description": "<p>The goat has<strong> advantage </strong>on Strength and Dexterity saving throws made against effects that would knock it prone.</p>",
+                    "requirements": "Goat"
                 },
                 "Ram": {
                     "name": "Ram",
@@ -5345,7 +5360,8 @@
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
-                    "description": "<p>The eagle has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight.</p>"
+                    "description": "<p>The eagle has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight.</p>",
+                    "requirements": "Hawk"
                 },
                 "Talons": {
                     "name": "Talons",
@@ -5565,7 +5581,8 @@
             "items": {
                 "Pack Tactics": {
                     "name": "Pack Tactics",
-                    "description": "<p>The hyena has<strong> advantage </strong>on an attack roll against a creature if at least one of the hyena's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>"
+                    "description": "<p>The hyena has<strong> advantage </strong>on an attack roll against a creature if at least one of the hyena's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>",
+                    "requirements": "Hyena"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -5743,11 +5760,13 @@
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
-                    "description": "<p>The jackal has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>"
+                    "description": "<p>The jackal has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+                    "requirements": "Jackal"
                 },
                 "Pack Tactics": {
                     "name": "Pack Tactics",
-                    "description": "<p>The jackal has<strong> advantage </strong>on an attack roll against a creature if at least one of the jackal's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>"
+                    "description": "<p>The jackal has<strong> advantage </strong>on an attack roll against a creature if at least one of the jackal's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>",
+                    "requirements": "Jackal"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -5955,11 +5974,13 @@
             "items": {
                 "Devil's Sight": {
                     "name": "Devil's Sight",
-                    "description": "<p>Magical darkness doesn't impede the lemure's darkvision.</p>"
+                    "description": "<p>Magical darkness doesn't impede the lemure's darkvision.</p>",
+                    "requirements": "Lemure"
                 },
                 "Hellish Rejuvenation": {
                     "name": "Hellish Rejuvenation",
-                    "description": "<p>A lemure that dies in the Nine Hells sometimes comes back to comes back to life with all its hit points in [[/r 1d10]] days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.</p>"
+                    "description": "<p>A lemure that dies in the Nine Hells sometimes comes back to comes back to life with all its hit points in [[/r 1d10]] days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.</p>",
+                    "requirements": "Lemure"
                 },
                 "Fist": {
                     "name": "Fist",
@@ -7610,7 +7631,8 @@
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
-                    "description": "<p>The rat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>"
+                    "description": "<p>The rat has<strong> advantage </strong>on Wisdom (Perception) checks that rely on smell.</p>",
+                    "requirements": "Rat"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -7624,7 +7646,8 @@
             "items": {
                 "Mimicry": {
                     "name": "Mimicry",
-                    "description": "<p>The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check.</p>"
+                    "description": "<p>The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check.</p>",
+                    "requirements": "Raven"
                 },
                 "Beak": {
                     "name": "Beak",
@@ -8574,6 +8597,7 @@
                 "Draining Kiss": {
                     "name": "Draining Kiss",
                     "description": "<p>The fiend kisses a creature charmed by it or a willing creature. The target must make a [[/save]] saving throw against this magic, taking [[/damage]] damage on a failed save, or half as much damage on a successful one.</p><p>The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>",
+                    "requirements": "Targets a charmed or willing creature",
                     "activities": {
                         "save": {
                             "target": "charmed or willing creature"
@@ -8601,15 +8625,18 @@
                 },
                 "Swarm": {
                     "name": "Swarm",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Keen Hearing": {
                     "name": "Keen Hearing",
-                    "description": "<p>The swarm has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing.</p>"
+                    "description": "<p>The swarm has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing.</p>",
+                    "requirements": "Bats"
                 },
                 "Echolocation": {
                     "name": "Echolocation",
-                    "description": "<p>The swarm can't use its blindsight while deafened.</p>"
+                    "description": "<p>The swarm can't use its blindsight while deafened.</p>",
+                    "requirements": "Bats"
                 }
             }
         },
@@ -8619,7 +8646,8 @@
             "items": {
                 "Swarm": {
                     "name": "Swarm",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -8633,7 +8661,8 @@
             "items": {
                 "Swarm": {
                     "name": "Swarm",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -8647,7 +8676,8 @@
             "items": {
                 "Swarm": {
                     "name": "Swarm",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -8661,7 +8691,8 @@
             "items": {
                 "Swarm": {
                     "name": "Swarm",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -8755,7 +8786,8 @@
             "items": {
                 "Swarm": {
                     "name": "Swarm",
-                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>"
+                    "description": "<p>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain<strong> hit points</strong> or gain temporary<strong> hit points</strong>.</p>",
+                    "requirements": "Bats"
                 },
                 "Bites": {
                     "name": "Bites",
@@ -9267,11 +9299,13 @@
             "items": {
                 "Keen Sight and Smell": {
                     "name": "Keen Sight and Smell",
-                    "description": "<p>The vulture has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight or smell.</p>"
+                    "description": "<p>The vulture has<strong> advantage </strong>on Wisdom (Perception) checks that rely on sight or smell.</p>",
+                    "requirements": "Vulture"
                 },
                 "Pack Tactics": {
                     "name": "Pack Tactics",
-                    "description": "<p>The vulture has<strong> advantage </strong>on an attack roll against a creature if at least one of the vulture's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>"
+                    "description": "<p>The vulture has<strong> advantage </strong>on an attack roll against a creature if at least one of the vulture's allies is within <strong>5 ft.</strong> of the creature and the ally isn't incapacitated.</p>",
+                    "requirements": "Vulture"
                 },
                 "Beak": {
                     "name": "Beak",
@@ -9340,7 +9374,8 @@
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
-                    "description": "<p>The weasel has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>"
+                    "description": "<p>The weasel has<strong> advantage </strong>on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+                    "requirements": "Weasel"
                 },
                 "Bite": {
                     "name": "Bite",
@@ -9453,6 +9488,7 @@
                 "Pounce (Tiger or Hybrid Form Only)": {
                     "name": "Pounce (Tiger or Hybrid Form Only)",
                     "description": "<p>If the [[lookup @name lowercase]]{monster} moves at <strong>least 15 feet</strong> straight toward a creature and then hits it with a [[/item .HPmjVRKpG08bgohb]]{claw} attack on the same turn, that target must succeed on a [[/save]] saving throw or be knocked &amp;Reference[prone]. If the target is prone, the weretiger can make one [[/item .FOkSL18gU0Sli5ZA]]{bite} attack against it as a bonus action.</p>",
+                    "requirements": "Tiger or Hybrid Form",
                     "activities": {
                         "save": {
                             "condition": "moves 15 feet and hits with a claw attack"
@@ -9466,7 +9502,8 @@
                 },
                 "Multiattack (Humanoid or Hybrid Form Only)": {
                     "name": "Multiattack (Humanoid or Hybrid Form Only)",
-                    "description": "<p>In humanoid form, the weretiger makes two [[/item .vtnEGCOptmp2bcqG]]{scimitar} attacks or two [[/item .onmNGMiE4AyvYxDQ]]{longbow} attacks.</p><p>In hybrid form, it can attack like a humanoid or make two [[/item .HPmjVRKpG08bgohb]]{claw} attacks.</p>"
+                    "description": "<p>In humanoid form, the weretiger makes two [[/item .vtnEGCOptmp2bcqG]]{scimitar} attacks or two [[/item .onmNGMiE4AyvYxDQ]]{longbow} attacks.</p><p>In hybrid form, it can attack like a humanoid or make two [[/item .HPmjVRKpG08bgohb]]{claw} attacks.</p>",
+                    "requirements": "Humanoid or Hybrid Form"
                 },
                 "Bite (Tiger or Hybrid Form Only)": {
                     "name": "Bite (Tiger or Hybrid Form Only)",
