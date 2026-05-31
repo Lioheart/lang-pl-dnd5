@@ -1,17 +1,39 @@
 {
     "label": "Klasy postaci",
     "mapping": {
-        "description": {
-            "path": "system.description.value",
-            "converter": "text"
-        },
-        "materials": {
-            "path": "system.materials.value",
-            "converter": "text"
-        },
+        "description": "system.description.value",
+        "requirements": "system.requirements",
+        "materials": "system.materials.value",
+        "chat": "system.description.chat",
         "activities": {
             "path": "system.activities",
-            "converter": "activities"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "name",
+                "type"
+            ],
+            "mapping": {
+                "name": "name",
+                "condition": "activation.condition",
+                "chatFlavor": "description.chatFlavor",
+                "duration": "duration.special",
+                "roll": "roll.name",
+                "range": {
+                    "path": "range",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "target",
+                    "converter": "imperialToMetric"
+                },
+                "profiles": {
+                    "path": "profiles",
+                    "converter": "nameCollection"
+                }
+            }
         },
         "effects": {
             "path": "effects",
@@ -19,38 +41,62 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "advancement"
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "keyed",
+            "keys": [
+                "_id",
+                "title"
+            ],
+            "mapping": {
+                "title": "title",
+                "hint": "hint",
+                "_variants": [
+                    {
+                        "_when": {
+                            "path": "type",
+                            "equals": "ScaleValue"
+                        },
+                        "distance": {
+                            "path": "configuration.distance",
+                            "converter": "imperialToMetric"
+                        },
+                        "scale": {
+                            "path": "configuration.scale",
+                            "converter": "imperialToMetric"
+                        }
+                    }
+                ]
+            }
+        },
+        "movement": {
+            "path": "system.movement",
+            "converter": "imperialToMetric"
+        },
+        "weight": {
+            "path": "system.weight",
+            "converter": "imperialToMetric"
+        },
+        "range": {
+            "path": "system.range",
+            "converter": "imperialToMetric"
+        },
+        "capacityWeight": {
+            "path": "system.capacity.weight",
+            "converter": "imperialToMetric"
+        },
+        "senses": {
+            "path": "system.senses",
+            "converter": "imperialToMetric"
+        },
+        "target": {
+            "path": "system.target",
+            "converter": "imperialToMetric"
+        },
+        "volume": {
+            "path": "system.capacity.volume",
+            "converter": "imperialToMetric"
         }
-    },
-    "folders": {
-        "Barbarian": "Barbarzyńca",
-        "Bard": "Bard",
-        "Champion": "Czempion",
-        "Circle of Land": "Krąg ziemi",
-        "Class Features": "Właściwości Klasy",
-        "Cleric": "Kleryk",
-        "Draconic Sorcery": "Smocza magia",
-        "Druid": "Druid",
-        "Eldritch Invocation Options": "Opcje Mistycznych inwokacji",
-        "Evoker": "Mag wywoływań",
-        "Fiend Patron": "Czart patron",
-        "Fighter": "Wojownik",
-        "Hunter": "Myśliwy",
-        "Life Domain": "Domena Życia",
-        "Lore": "Lore",
-        "Metamagic Options": "Opcje metamagii",
-        "Monk": "Mnich",
-        "Oath of Devotion": "Przysięga gorliwości",
-        "Paladin": "Paladyn",
-        "Path of the Berserker": "Ścieżka berserkera",
-        "Ranger": "Łowca",
-        "Rogue": "Łotr",
-        "Sorcerer": "Zaklinacz",
-        "Subclass Features": "Subclass Features",
-        "Thief": "Złodziej",
-        "Warlock": "Czarownik",
-        "Warrior of the Open Hand": "Wojownik otwartej dłoni",
-        "Wizard": "Mag"
     },
     "entries": {
         "Abjure Foes": {
@@ -81,7 +127,8 @@
         },
         "Agonizing Blast": {
             "name": "Bolesne uderzenie",
-            "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</p></blockquote><p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell's damage rolls.</p><p><strong>Repeatable. </strong>You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section class=\"secret\" id=\"secret-e2JfbLoZ7SLiWlcU\"><p><strong>Foundry Note</strong></p><p>The change to your cantrip will have to be made manually by adding \"@abilities.cha.mod\" to the \"Bonus\" field of your spell's damage.</p></section>"
+            "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</p></blockquote><p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell's damage rolls.</p><p><strong>Repeatable. </strong>You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section class=\"secret\" id=\"secret-e2JfbLoZ7SLiWlcU\"><p><strong>Foundry Note</strong></p><p>The change to your cantrip will have to be made manually by adding \"@abilities.cha.mod\" to the \"Bonus\" field of your spell's damage.</p></section>",
+            "requirements": "Warlock Cantrip That Deals Damage"
         },
         "Arcane Apotheosis": {
             "name": "Arcane Apotheosis",
@@ -89,11 +136,18 @@
         },
         "Arcane Recovery": {
             "name": "Odzyskanie mocy",
-            "description": "<p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p><p>Once you use this feature, you can't do so again until you finish a Long Rest.</p><p><strong>Combined Level Available:</strong> [[(@classes.wizard.levels / 2)]]</p><section id=\"secret-cO6X083GFJ1W4071\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>"
+            "description": "<p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p><p>Once you use this feature, you can't do so again until you finish a Long Rest.</p><p><strong>Combined Level Available:</strong> [[ceil(@classes.wizard.levels / 2)]]</p><section class=\"secret\" id=\"secret-cO6X083GFJ1W4071\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>",
+            "activities": {
+                "Recover": {
+                    "name": "Recover",
+                    "roll": "Combined Spell Levels"
+                }
+            }
         },
         "Archdruid": {
             "name": "Arcydruid",
             "description": "<p>The vitality of nature constantly blooms within you, granting you the following benefits.</p><p><strong>Evergreen Wild Shape.</strong> Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.</p><p><strong>Nature Magician.</strong> You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot. Once you use this benefit, you can't do so again until you finish a Long Rest.</p><p><strong>Longevity.</strong> The primal magic that you wield causes you to age more slowly. For every ten years that pass, your body ages only one year.</p><section class=\"secret\" id=\"secret-qKoW7fFZUwKC0IOG\"><p><strong>Foundry Note</strong></p><p>This feature does not automate regaining a use of Wild Shape when rolling initiative but it does include an activity which will restore a use when activated.</p><p>The <strong>Nature Magician</strong> activity can be used to convert Wild Shape uses to spell slots.</p></section>",
+            "requirements": "Druid",
             "activities": {
                 "Nature Magician": {
                     "name": "Nature Magician"
@@ -253,6 +307,7 @@
         "Bardic Inspiration": {
             "name": "Bardowska inspiracja",
             "description": "<p>You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which starts as a d6 (currently, [[lookup @scale.bard.inspiration.die]]).</p><p><strong>Using Bardic Inspiration.</strong> As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.</p><p>Once within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.</p><p><strong>Number of Uses.</strong> You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><p><strong>At Higher Levels. </strong>Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.</p><section class=\"secret\" id=\"secret-PtUXhUXS84HSdaew\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking when a character has Bardic Inspiration to use.</p><p>Recovery is set to long rest (for levels before @UUID[Compendium.dnd5e.classes24.Item.phbbrdFontOfInsp]{Font of Inspiration} is gained). Please manually adjust as required.</p></section>",
+            "requirements": "Bard",
             "activities": {
                 "Inspire": {
                     "name": "Inspire",
@@ -268,19 +323,23 @@
         },
         "Beast Spells": {
             "name": "Czary w formie zwierzęcej",
-            "description": "<p>While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.</p>"
+            "description": "<p>While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.</p>",
+            "requirements": "Druid"
         },
         "Blessed Healer": {
             "name": "Błogosławiony uzdrowiciel",
-            "description": "<p>The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.</p><section class=\"secret\" id=\"secret-B3oOPhBUFT9dOwUQ\"><p><strong>Foundry Note</strong></p><p>This feature includes a healing activity. Set the scale to the spell slot level you cast and it will provide a healing roll for you.</p></section>"
+            "description": "<p>The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.</p><section class=\"secret\" id=\"secret-B3oOPhBUFT9dOwUQ\"><p><strong>Foundry Note</strong></p><p>This feature includes a healing activity. Set the scale to the spell slot level you cast and it will provide a healing roll for you.</p></section>",
+            "requirements": "Domena życia"
         },
         "Blessed Strikes": {
             "name": "Blessed Strikes",
-            "description": "<p>Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature).</p><p><strong>Divine Strike.</strong> Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><p><strong>Potent Spellcasting.</strong> Add your Wisdom modifier to the damage you deal with any Cleric cantrip.</p><section id=\"secret-1YTjpzZamslVlTTM\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>During advancement you will be able to choose which option you prefer.</p></section>"
+            "description": "<p>Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature).</p><p><strong>Divine Strike.</strong> Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><p><strong>Potent Spellcasting.</strong> Add your Wisdom modifier to the damage you deal with any Cleric cantrip.</p><section id=\"secret-1YTjpzZamslVlTTM\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>During advancement you will be able to choose which option you prefer.</p></section>",
+            "requirements": "Kleryk"
         },
         "Blessed Strikes: Divine Strike": {
             "name": "Blessed Strikes: Divine Strike",
             "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><section id=\"secret-iZHQe1DZBrtcFZCk\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd5e.classes24.Item.phbclcImprovedBl]{Improved Blessed Strikes}.</p></section>",
+            "requirements": "Kleryk",
             "activities": {
                 "Necrotic Divine Strike": {
                     "name": "Necrotic Divine Strike",
@@ -295,6 +354,7 @@
         "Blessed Strikes: Potent Spellcasting": {
             "name": "Blessed Strikes: Potent Spellcasting",
             "description": "<p>Add your Wisdom modifier to the damage you deal with any Cleric cantrip.</p><section class=\"secret\" id=\"secret-bDHa7ClHZ3YPWKvs\"><p><strong>Foundry Note</strong></p><p>This bonus damage is not automatically included in your cantrips.</p><p>You can add [[lookup @abilities.wis.mod]] to the Situational Bonus field of your cantrip's damage rolls or you can permanently add it to your cantrips by adding \"@abilities.wis.mod\" (minus the quotes) in the Bonus field.</p><p>Alternatively, the <strong>Damage</strong> activity on this feature includes your Wisdom modifier and allows you to choose the damage type in the roll's dialog box.</p></section>",
+            "requirements": "Kleryk",
             "activities": {
                 "damage": {
                     "condition": "Deal damage with any Cleric cantrip"
@@ -304,6 +364,7 @@
         "Blessed Warrior": {
             "name": "Blessed Warrior",
             "description": "<p>You learn two @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj#cantrip]{Cleric cantrips} of your choice. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidance00]{Guidance}</em> and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSacredFlam]{Sacred Flame}</em> are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.</p>",
+            "requirements": "Paladyn",
             "advancement": {
                 "Choose Cantrips": {
                     "title": "Choose Cantrips",
@@ -317,7 +378,8 @@
         },
         "Bonus Proficiencies": {
             "name": "Dodatkowe biegłości",
-            "description": "<p>You gain proficiency with three skills of your choice.</p>"
+            "description": "<p>You gain proficiency with three skills of your choice.</p>",
+            "requirements": "Kolegium Mądrości"
         },
         "Book of Shadows": {
             "name": "Księga Cieni"
@@ -325,6 +387,7 @@
         "Brutal Strike": {
             "name": "Brutal Strike",
             "description": "<p>If you use [[/item Reckless Attack]], you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra [[lookup @scale.barbarian.brutal-strike]] damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.</p><p><strong>Forceful Blow. </strong>The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking &amp;Reference[Opportunity Attacks].</p><p><strong>Hamstring Blow. </strong>The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time - the most recent one.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for the Hamstring Blow which can be applied to a target.</p><p>The <strong>damage</strong> activity automatically scales when you gain Improved Brutal Strike (2).</p></section>",
+            "requirements": "Barbarzyńca",
             "activities": {
                 "Brutal Strike": {
                     "name": "Brutal Strike"
@@ -387,7 +450,8 @@
         },
         "Circle of the Land Spells": {
             "name": "Circle of the Land Spells",
-            "description": "<p>Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells listed for your Druid level and lower prepared.</p><table><caption>Arid Land</caption><thead><tr><td>Druid Level</td><td>Circle Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlur000000]{Blur}, @UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlight0000]{Blight}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall of Stone}</td></tr></tbody></table><table><caption>Polar Land</caption><thead><tr><td>Druid Level</td><td>Circle Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFogCloud00]{Fog Cloud}, @UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplSleetStorm]{Sleet Storm}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{Cone of Cold}</td></tr></tbody></table><table><caption>Temperate Land</caption><thead><tr><td>Druid Level</td><td>Circle Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty Step}, @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFreedomofM]{Freedom of Movement}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplTreeStride]{Tree Stride}</td></tr></tbody></table><table><caption>Tropical Land</caption><thead><tr><td>Druid Level</td><td>Circle Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAcidSplash]{Acid Splash}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}, @UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplInsectPlag]{Insect Plague}</td></tr></tbody></table><section class=\"secret\" id=\"secret-0B8V69GLRm5swkth\"><p><strong>Foundry Note</strong></p><p>This feature does not automate swapping between prepared spell options.</p></section>"
+            "description": "<p>Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells listed for your Druid level and lower prepared.</p><table><caption>Arid Land</caption><thead><tr><td>Druid Level</td><td>Circle Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlur000000]{Blur}, @UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlight0000]{Blight}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall of Stone}</td></tr></tbody></table><table><caption>Polar Land</caption><thead><tr><td>Druid Level</td><td>Circle Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFogCloud00]{Fog Cloud}, @UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold Person}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplSleetStorm]{Sleet Storm}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice Storm}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{Cone of Cold}</td></tr></tbody></table><table><caption>Temperate Land</caption><thead><tr><td>Druid Level</td><td>Circle Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty Step}, @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning Bolt}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFreedomofM]{Freedom of Movement}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplTreeStride]{Tree Stride}</td></tr></tbody></table><table><caption>Tropical Land</caption><thead><tr><td>Druid Level</td><td>Circle Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAcidSplash]{Acid Splash}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of Sickness}, @UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplInsectPlag]{Insect Plague}</td></tr></tbody></table><section class=\"secret\" id=\"secret-0B8V69GLRm5swkth\"><p><strong>Foundry Note</strong></p><p>This feature does not automate swapping between prepared spell options.</p></section>",
+            "requirements": "Krąg Ziemi"
         },
         "Cleric": {
             "name": "Kleryk",
@@ -452,6 +516,7 @@
         "Countercharm": {
             "name": "Przeciwurok",
             "description": "<p>You can use musical notes or words of power to disrupt mind-influencing effects. If you or a creature within 30 feet of you fails a saving throw against an effect that applies the Charmed or Frightened condition, you can take a Reaction to cause the save to be rerolled, and the new roll has Advantage.</p>",
+            "requirements": "Bard",
             "activities": {
                 "utility": {
                     "condition": "You or a creature within 30 feet of you fails a saving throw against an effect that applies the Charmed or Frightened condition"
@@ -513,6 +578,7 @@
         "Cutting Words": {
             "name": "Cięta riposta",
             "description": "<p>You learn to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can take a Reaction to expend one use of your Bardic Inspiration; roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure.</p>",
+            "requirements": "Kolegium Mądrości",
             "activities": {
                 "Cut with Words": {
                     "name": "Cut with Words",
@@ -524,6 +590,7 @@
         "Danger Sense": {
             "name": "Wyczucie zagrożenia",
             "description": "<p>You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the &amp;Reference[Incapacitated] condition.</p><section id=\"secret-gIJELszWrIqRFCxF\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature automates the Advantage on Dexterity saving throws but is not automatically disabled when Incapacitated. It can be temporarily deactivated in the Effects tab.</p></section>",
+            "requirements": "Barbarzyńca",
             "effects": {
                 "Danger Sense": {
                     "name": "Wyczucie zagrożenia",
@@ -650,6 +717,7 @@
         "Disciple of Life": {
             "name": "Akolita życia",
             "description": "<p>When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.</p><section class=\"secret\" id=\"secret-Gy6bYP3AKuabnUlQ\"><p><strong>Foundry Note</strong></p><p>This feature includes a healing activity. Set the scale to the spell slot level you cast and it will provide a healing roll for you.</p></section>",
+            "requirements": "Domena życia",
             "activities": {
                 "heal": {
                     "target": "Create you cast a healing spell on"
@@ -683,15 +751,18 @@
         },
         "Divine Intervention": {
             "name": "Boska interwencja",
-            "description": "<p>You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell} of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest.</p><section id=\"secret-LP7yqqobTjOqeswv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Uncheck the \"Consumption\" box when casting the spell for the free use. This feature can be used to track available uses.</p></section>"
+            "description": "<p>You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell} of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest.</p><section id=\"secret-LP7yqqobTjOqeswv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Uncheck the \"Consumption\" box when casting the spell for the free use. This feature can be used to track available uses.</p></section>",
+            "requirements": "Kleryk"
         },
         "Divine Order": {
             "name": "Divine Order",
-            "description": "<p>You have dedicated yourself to one of the following sacred roles of your choice.</p><p><strong>Protector.</strong> Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.</p><p><strong>Thaumaturge.</strong> You know one extra cantrip from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell list}. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).</p><section class=\"secret\" id=\"secret-mBkdTF86GHVjdNKD\"><p><strong>Foundry Note</strong></p><p>During advancement you will be able to choose which option you prefer.</p></section>"
+            "description": "<p>You have dedicated yourself to one of the following sacred roles of your choice.</p><p><strong>Protector.</strong> Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.</p><p><strong>Thaumaturge.</strong> You know one extra cantrip from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell list}. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).</p><section class=\"secret\" id=\"secret-mBkdTF86GHVjdNKD\"><p><strong>Foundry Note</strong></p><p>During advancement you will be able to choose which option you prefer.</p></section>",
+            "requirements": "Kleryk"
         },
         "Divine Order: Protector": {
             "name": "Divine Order: Protector",
             "description": "<p>You have dedicated yourself to the following sacred role:</p><p><strong>Protector.</strong> Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.</p><section id=\"secret-Tsm148wTyiFWlMFv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants the proficiency and training.</p></section>",
+            "requirements": "Kleryk",
             "effects": {
                 "Divine Order: Protector": {
                     "name": "Divine Order: Protector"
@@ -796,8 +867,7 @@
                     "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
                 },
                 "Elemental Fury": {
-                    "title": "Elemental Fury",
-                    "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
+                    "title": "Elemental Fury"
                 },
                 "Saving Throw Proficiencies": {
                     "title": "Biegłości w rzutach obronnych"
@@ -822,11 +892,13 @@
         },
         "Druidic": {
             "name": "Druidzki",
-            "description": "<p>You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared.</p><p>You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful [[/check inv 15]] check but can't decipher it without magic.</p><section class=\"secret\" id=\"secret-5uD3Qi61JX7q2Fk8\"><p><strong>Foundry Note</strong></p><p>Druidic and Speak with Animals are automatically added during advancement.</p></section>"
+            "description": "<p>You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared.</p><p>You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful [[/check inv 15]] check but can't decipher it without magic.</p><section class=\"secret\" id=\"secret-5uD3Qi61JX7q2Fk8\"><p><strong>Foundry Note</strong></p><p>Druidic and Speak with Animals are automatically added during advancement.</p></section>",
+            "requirements": "Druid"
         },
         "Druidic Warrior": {
             "name": "Druidic Warrior",
             "description": "<p>You learn two @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid cantrips} of your choice. @UUID[Compendium.dnd5e.spells24.Item.phbsplGuidance00]{Guidance} and @UUID[Compendium.dnd5e.spells24.Item.phbsplStarryWisp]{Starry Wisp} are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.</p>",
+            "requirements": "Łowca",
             "advancement": {
                 "Choose Cantrips": {
                     "title": "Choose Cantrips",
@@ -870,6 +942,7 @@
         "Eldritch Spear": {
             "name": "Mistyczna włócznia",
             "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</p></blockquote><p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p><p><strong>Repeatable.</strong> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section id=\"secret-7hr3xIfya7IOq7pj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Use the <strong>Increase Range</strong> enchantment activity and drag your chosen cantrip to the chat card to increase its range and append \", Eldritch Spear\" for easier identification.</p></section>",
+            "requirements": "Warlock Cantrip That Deals Damage",
             "activities": {
                 "Increase Range": {
                     "name": "Increase Range"
@@ -912,15 +985,18 @@
         },
         "Elemental Fury": {
             "name": "Elemental Fury",
-            "description": "<p>The might of the elements flows through you. You gain one of the following options of your choice.</p><p><strong>Potent Spellcasting.</strong> Add your Wisdom modifier to the damage you deal with any Druid cantrip.</p><p><strong>Primal Strike.</strong> Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8 type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage 1d8 type=thunder]]{thunder} damage (choose when you hit).</p><section id=\"secret-kkxN7n7UL9XB7kWf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted to choose during advancement.</p></section>"
+            "description": "<p>The might of the elements flows through you. You gain one of the following options of your choice.</p><p><strong>Potent Spellcasting.</strong> Add your Wisdom modifier to the damage you deal with any Druid cantrip.</p><p><strong>Primal Strike.</strong> Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8 type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage 1d8 type=thunder]]{thunder} damage (choose when you hit).</p><section id=\"secret-kkxN7n7UL9XB7kWf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted to choose during advancement.</p></section>",
+            "requirements": "Druid"
         },
         "Elemental Fury: Potent Spellcasting": {
             "name": "Elemental Fury: Potent Spellcasting",
-            "description": "<p>Add your Wisdom modifier to the damage you deal with any Druid cantrip (currently, [[lookup @abilities.wis.mod]]).</p><section class=\"secret\" id=\"secret-kC2Lr5eZe550Tams\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the addition of the Wisdom modifier to Druid cantrips.</p></section>"
+            "description": "<p>Add your Wisdom modifier to the damage you deal with any Druid cantrip (currently, [[lookup @abilities.wis.mod]]).</p><section class=\"secret\" id=\"secret-kC2Lr5eZe550Tams\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the addition of the Wisdom modifier to Druid cantrips.</p></section>",
+            "requirements": "Druid"
         },
         "Elemental Fury: Primal Strike": {
             "name": "Elemental Fury: Primal Strike",
             "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8 type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage 1d8 type=thunder]]{thunder} damage (choose when you hit).</p><section class=\"secret\" id=\"secret-teMMREyPGTtod1kP\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd5e.classes24.Item.phbdrdImprovedEl]{Improved Elemental Fury}. If using the activity you will be able to select the damage type when rolling. It will default to your previously chosen damage type.</p></section>",
+            "requirements": "Druid",
             "activities": {
                 "Primal Strike": {
                     "name": "Primal Strike",
@@ -1021,6 +1097,7 @@
         "Fast Movement": {
             "name": "Szybki ruch",
             "description": "<p>Your speed increases by 10 feet while you aren't wearing Heavy armor.</p><section id=\"secret-6cmMiIJhUk5cpOGz\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will automatically increase your movement speed. Disable the Fast Movement Active Effect if you're wearing Heavy armor.</p></section>",
+            "requirements": "Barbarzyńca",
             "effects": {
                 "Fast Movement": {
                     "name": "Szybki ruch"
@@ -1029,11 +1106,12 @@
         },
         "Favored Enemy": {
             "name": "Ulubiony wróg",
-            "description": "<p>You always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p><section id=\"secret-cyuZuzwxsQg01vVN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you at this level and will increase the number of free uses available automatically as you level up.</p></section>"
+            "description": "<p>You always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p>"
         },
         "Feral Instinct": {
             "name": "Zwierzęcy instynkt",
             "description": "<p>Your instincts are so honed that you have Advantage on Initiative rolls.</p>",
+            "requirements": "Barbarzyńca",
             "effects": {
                 "Feral Instinct": {
                     "name": "Zwierzęcy instynkt"
@@ -1176,6 +1254,7 @@
         "Font of Inspiration": {
             "name": "Źródło inspiracji",
             "description": "<p>You now regain all your expended uses of Bardic Inspiration when you finish a Short or Long Rest.</p><p>In addition, you can expend a spell slot (no action required) to regain one expended use of Bardic Inspiration.</p><section class=\"secret\" id=\"secret-KgQeVfHTLTrKK1s0\"><p><strong>Foundry Note</strong></p><p>You must update the Bardic Inspiration feature on your sheet to refresh on Short Rest as it defaults to Long rest.</p><p>The <strong>Recharge with Spell Slot</strong> activity will expend a spell slot and grant another use of Bardic Inspiration.</p></section>",
+            "requirements": "Bard",
             "activities": {
                 "Recharge with Spell Slot": {
                     "name": "Recharge with Spell Slot"
@@ -1196,7 +1275,8 @@
         },
         "Frenzy": {
             "name": "Furia",
-            "description": "<p>If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity scales automatically as you level up and allows you to select the type of damage to use in the damage roll's dialog box. It will then remember your choice going forward.</p></section>"
+            "description": "<p>If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity scales automatically as you level up and allows you to select the type of damage to use in the damage roll's dialog box. It will then remember your choice going forward.</p></section>",
+            "requirements": "Ścieżka Berserkera"
         },
         "Gaze of Two Minds": {
             "name": "Połączenie zmysłów",
@@ -1240,7 +1320,8 @@
         },
         "Greater Divine Intervention": {
             "name": "Greater Divine Intervention",
-            "description": "<p>You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose @UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish} when you select a spell. If you do so, you can't use Divine Intervention again until you finish [[/r 2d4]] Long Rests.</p><section class=\"secret\" id=\"secret-LP9WqNdaJevppYeM\"><p><strong>Foundry Note</strong></p><p>This feature will consume a use of your Divine Intervention but it can not automatically recharge the usage after the rolled number of Long Rests.</p></section>"
+            "description": "<p>You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose @UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish} when you select a spell. If you do so, you can't use Divine Intervention again until you finish [[/r 2d4]] Long Rests.</p><section class=\"secret\" id=\"secret-LP9WqNdaJevppYeM\"><p><strong>Foundry Note</strong></p><p>This feature will consume a use of your Divine Intervention but it can not automatically recharge the usage after the rolled number of Long Rests.</p></section>",
+            "requirements": "Kleryk"
         },
         "Heightened Focus": {
             "name": "Heightened Focus",
@@ -1324,6 +1405,7 @@
         "Improved Blessed Strikes": {
             "name": "Improved Blessed Strikes",
             "description": "<p>The option you chose for Blessed Strikes grows more powerful.</p><p><strong>Divine Strike.</strong> The extra damage of your Divine Strike increases to 2d8.</p><p><strong>Potent Spellcasting.</strong> When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.</p><section class=\"secret\" id=\"secret-UW0So7XcJyHUaivE\"><p><strong>Foundry Note</strong></p><p>If you chose <strong>Divine Strike</strong> the damage is automatically increased. If you chose <strong>Potent Spellcasting</strong> you can use the Potent Spellcasting activity on this feature.</p></section>",
+            "requirements": "Kleryk",
             "activities": {
                 "Potent Spellcasting: Heal": {
                     "name": "Potent Spellcasting: Heal",
@@ -1334,6 +1416,7 @@
         "Improved Brutal Strike": {
             "name": "Improved Brutal Strike",
             "description": "<p>You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.</p><p><strong>Staggering Blow.</strong> The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn.</p><p><strong>Sundering Blow.</strong> Before the start of your next turn, the next attack roll made by another creature against the target gains a +5 bonus to the roll. An attack roll can gain only one Sundering Blow bonus.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for each option which includes an Active Effect for tracking the Staggering and Sundering Blows but does not automate their effects.</p></section>",
+            "requirements": "Barbarzyńca",
             "activities": {
                 "Sundering Blow": {
                     "name": "Sundering Blow"
@@ -1355,7 +1438,8 @@
         },
         "Improved Brutal Strike (2)": {
             "name": "Improved Brutal Strike (2)",
-            "description": "<p>The extra damage of your Brutal Strike increases to 2d10. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature.</p><section id=\"secret-XCUecJBPB6amtvj9\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The damage roll in Brutal Strike will automatically scale to use this new value.</p></section>"
+            "description": "<p>The extra damage of your Brutal Strike increases to 2d10. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature.</p><section id=\"secret-XCUecJBPB6amtvj9\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The damage roll in Brutal Strike will automatically scale to use this new value.</p></section>",
+            "requirements": "Barbarzyńca"
         },
         "Improved Critical": {
             "name": "Ulepszone trafienie krytyczne",
@@ -1372,7 +1456,8 @@
         },
         "Improved Elemental Fury": {
             "name": "Improved Elemental Fury",
-            "description": "<p>The option you chose for Elemental Fury grows more powerful, as detailed below.</p><p><strong>Potent Spellcasting.</strong> When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.</p><p><strong>Primal Strike.</strong> The extra damage of your Primal Strike increases to 2d8.</p><section id=\"secret-7G1qK3zQ41zJONSd\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The damage for Primal Strike is automatically increased at this level. This feature does not automate the range changes.</p></section>"
+            "description": "<p>The option you chose for Elemental Fury grows more powerful, as detailed below.</p><p><strong>Potent Spellcasting.</strong> When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.</p><p><strong>Primal Strike.</strong> The extra damage of your Primal Strike increases to 2d8.</p><section id=\"secret-7G1qK3zQ41zJONSd\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The damage for Primal Strike is automatically increased at this level. This feature does not automate the range changes.</p></section>",
+            "requirements": "Druid"
         },
         "Indomitable": {
             "name": "Nieugięty",
@@ -1385,7 +1470,8 @@
         },
         "Indomitable Might": {
             "name": "Niezłomna potęga",
-            "description": "<p>If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.</p>"
+            "description": "<p>If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.</p>",
+            "requirements": "Barbarzyńca"
         },
         "Innate Sorcery": {
             "name": "Innate Sorcery",
@@ -1404,11 +1490,13 @@
         },
         "Instinctive Pounce": {
             "name": "Instinctive Pounce",
-            "description": "<p>As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.</p>"
+            "description": "<p>As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.</p>",
+            "requirements": "Barbarzyńca"
         },
         "Intimidating Presence": {
             "name": "Złowroga postawa",
             "description": "<p>As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the &amp;Reference[Frightened] creature's turns, the creature repeats the save, ending the effect on itself on a success.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>Foundry Note</strong></p><p>The <strong>Save</strong> activity includes an Active Effect which adds the Frightened condition.</p><p>The <strong>Recharge</strong> activity consumes a use of Rage and recharges your use of Intimidating Presence.</p></section>",
+            "requirements": "Ścieżka Berserkera",
             "activities": {
                 "Recharge with Rage": {
                     "name": "Recharge with Rage"
@@ -1496,6 +1584,7 @@
         "Jack of All Trades": {
             "name": "Wszechstronność",
             "description": "<p>You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.</p><p>For example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check.</p><section id=\"secret-su4PzYrZZDdS1qZg\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will automatically grant you half proficiency for all skills which you aren't currently proficient in.</p></section>",
+            "requirements": "Bard",
             "effects": {
                 "Jack of All Trades": {
                     "name": "Wszechstronność"
@@ -1504,7 +1593,8 @@
         },
         "Land's Aid": {
             "name": "Land's Aid",
-            "description": "<p>As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius Sphere centered on that point. Each creature of your choice in the Sphere must make a Constitution saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains [[/healing @scale.land.lands-aid]]{[[lookup @scale.land.lands-aid]] Hit Points}.</p><p>The damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).</p><section class=\"secret\" id=\"secret-T1DFK6QJjzeJsysz\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for the saving throw and the healing.</p><p>The healing/damage values automatically scale as you level up.</p></section>"
+            "description": "<p>As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius Sphere centered on that point. Each creature of your choice in the Sphere must make a Constitution saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains [[/healing @scale.land.lands-aid]]{[[lookup @scale.land.lands-aid]] Hit Points}.</p><p>The damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).</p><section class=\"secret\" id=\"secret-T1DFK6QJjzeJsysz\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for the saving throw and the healing.</p><p>The healing/damage values automatically scale as you level up.</p></section>",
+            "requirements": "Krąg Ziemi"
         },
         "Lay on Hands": {
             "name": "Nakładanie rąk",
@@ -1533,7 +1623,8 @@
         },
         "Life Domain Spells": {
             "name": "Czary Domeny życia",
-            "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Life Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplAid0000000]{Aid}, @UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Bless}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds},<br />@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMassHealin]{Mass Healing Word}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRevivify00]{Revivify}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAuraofLife]{Aura of Life}, @UUID[Compendium.dnd5e.spells24.Item.phbsplDeathWard0]{Death Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMassCureWo]{Mass Cure Wounds}</td></tr></tbody></table><section class=\"secret\" id=\"secret-Z9pAhvumQlf7onuP\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>"
+            "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Life Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplAid0000000]{Aid}, @UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Bless}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds},<br />@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMassHealin]{Mass Healing Word}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRevivify00]{Revivify}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAuraofLife]{Aura of Life}, @UUID[Compendium.dnd5e.spells24.Item.phbsplDeathWard0]{Death Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMassCureWo]{Mass Cure Wounds}</td></tr></tbody></table><section class=\"secret\" id=\"secret-Z9pAhvumQlf7onuP\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>",
+            "requirements": "Domena życia"
         },
         "Lifedrinker": {
             "name": "Wyssanie życia",
@@ -1563,11 +1654,13 @@
         },
         "Magical Discoveries": {
             "name": "Magical Discoveries",
-            "description": "<p>You learn two spells of your choice. These spells can come from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid}, or @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard} spell list or any combination thereof. A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#equipment]{Bard Features} table.</p><p>You always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements.</p>"
+            "description": "<p>You learn two spells of your choice. These spells can come from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid}, or @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard} spell list or any combination thereof. A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#equipment]{Bard Features} table.</p><p>You always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements.</p>",
+            "requirements": "Kolegium Mądrości"
         },
         "Magical Secrets": {
             "name": "Magiczne tajemnice",
-            "description": "<p>You've learned secrets from various magical traditions. Whenever you reach a Bard level (including this level) and the Prepared Spells number in the Bard Features table increases, you can choose any of your new prepared spells from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{Bard}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid}, and @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard} spell lists, and the chosen spells count as Bard spells for you. In addition, whenever you replace a spell prepared for this class, you can replace it with a spell from those lists.</p>"
+            "description": "<p>You've learned secrets from various magical traditions. Whenever you reach a Bard level (including this level) and the Prepared Spells number in the Bard Features table increases, you can choose any of your new prepared spells from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{Bard}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid}, and @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard} spell lists, and the chosen spells count as Bard spells for you. In addition, whenever you replace a spell prepared for this class, you can replace it with a spell from those lists.</p>",
+            "requirements": "Bard"
         },
         "Martial Arts": {
             "name": "Sztuki walki",
@@ -1648,6 +1741,7 @@
         "Mindless Rage": {
             "name": "Bezmyślny szał",
             "description": "<p>You have Immunity to the &amp;Reference[Charmed] and &amp;Reference[Frightened] conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants the Charmed and Frightened condition immunity. It is not applied automatically when you begin your Rage though.</p></section>",
+            "requirements": "Ścieżka Berserkera",
             "effects": {
                 "Mindless Rage": {
                     "name": "Bezmyślny szał"
@@ -1694,6 +1788,7 @@
         "Monk's Focus": {
             "name": "Monk's Focus",
             "description": "<p>Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.</p><p>You can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.</p><p>When you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.</p><p>Some features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Wisdom modifier and Proficiency Bonus.</p><p><strong>Flurry of Blows.</strong> You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.</p><p><strong>Patient Defense.</strong> You can take the Disengage action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.</p><p><strong>Step of the Wind.</strong> You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Foundry Note</strong></p><p>The <strong>Flurry of Blows</strong> activity is a Bonus Action which expends a Focus Point and includes the Attack Roll and Damage for an Unarmored Strike using your Martial Arts Die which automatically scales as you level up.</p><p>The <strong>Patient Defense</strong> Bonus Action activity includes an Active Effect for tracking that you're Disengaged. The <strong>Patient Defense (Focus Point)</strong> activity expends a Focus Point and includes an Active Effect that adds the Dodging status.</p><p>The <strong>Step of the Wind</strong> Bonus Action activity expends 1 Focus Point and includes an Active Effect for tracking that you're Disengaged.</p></section>",
+            "requirements": "Mnich",
             "activities": {
                 "Flurry of Blows": {
                     "name": "Grad ciosów",
@@ -1743,6 +1838,7 @@
         "Natural Recovery": {
             "name": "Naturalna regeneracja",
             "description": "<p>You can cast one of the level 1+ spells that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.</p><p>In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up, currently [[lookup @classes.druid.levels]]), and none of them can be level 6+. For example, if you're a level 6 Druid, you can recover up to three levels' worth of spell slots. You can recover a level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-xLFXthYlJ7wwFlSS\"><p><strong>Foundry Note</strong></p><p>The <strong>Cast Spell</strong> activity can be used to track its single free use.</p><p>The <strong>Recover Spell Slot</strong> activity does not automate the restoration of spell slots but can be used for tracking its own single use.</p></section>",
+            "requirements": "Krąg Ziemi",
             "activities": {
                 "Cast Spell": {
                     "name": "Rzuć Czar"
@@ -1756,6 +1852,7 @@
         "Nature's Sanctuary": {
             "name": "Sanktuarium dziczy",
             "description": "<p>As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot Cube on the ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition or die. You and your allies have Half Cover while in that area, and your allies gain the current Resistance of your Nature's Ward while there.</p><p>As a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet of yourself.</p><section class=\"secret\" id=\"secret-OyXlvV2zR9s0WXyn\"><p><strong>Foundry Note</strong></p><p>This feature includes Active Effects for each Nature's Ward land type and adds the Half Cover status effect which automatically applies the relevant bonuses. Apply the relevant effect to your allies.</p><p>These Active Effects are not automatically added/removed to/from Actors in the designated area however.</p><p>It also includes an activity which can be used for tracking your Bonus Action usage when moving the spectral trees and vines.</p></section>",
+            "requirements": "Krąg Ziemi",
             "activities": {
                 "Spectral Trees and Vines": {
                     "name": "Spectral Trees and Vines"
@@ -1796,6 +1893,7 @@
         "Nature's Ward": {
             "name": "Wybraniec dziczy",
             "description": "<p>You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.</p><table><caption>Nature's Ward</caption><thead><tr><td>Land Type</td><td>Resistance</td></tr></thead><tbody><tr><td>Arid</td><td>Fire</td></tr><tr><td>Polar</td><td>Cold</td></tr><tr><td>Temperate</td><td>Lightning</td></tr><tr><td>Tropical</td><td>Poison</td></tr></tbody></table><section class=\"secret\" id=\"secret-0muLLDjt1zqXptme\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for the Poison condition immunity and an Active Effect for each land type. You can activate the Active Effect for your chosen land type.</p></section>",
+            "requirements": "Krąg Ziemi",
             "effects": {
                 "Nature's Ward": {
                     "name": "Wybraniec dziczy"
@@ -1987,6 +2085,7 @@
         "Peerless Skill": {
             "name": "Niezrównana umiejętność",
             "description": "<p>When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended.</p>",
+            "requirements": "Kolegium Mądrości",
             "activities": {
                 "utility": {
                     "condition": "When you fail an ability check or attack roll",
@@ -2001,6 +2100,7 @@
         "Persistent Rage": {
             "name": "Trwały szał",
             "description": "<p>When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.</p><p>In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the &amp;Reference[Unconscious] condition (not just the &amp;Reference[Incapacitated] condition) or don Heavy armor.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity which can be used when you roll Initiative which will recharge all of your Rage uses.</p></section>",
+            "requirements": "Barbarzyńca",
             "activities": {
                 "Recharge Rage on Initiative": {
                     "name": "Recharge Rage on Initiative",
@@ -2019,6 +2119,7 @@
         "Preserve Life": {
             "name": "Preserve Life",
             "description": "<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose &amp;Reference[Bloodied] creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity does not automatically restrict the HP gained to 50% of the target's max.</p></section>",
+            "requirements": "Domena życia",
             "activities": {
                 "heal": {
                     "target": "Blooed creatures"
@@ -2028,6 +2129,7 @@
         "Primal Champion": {
             "name": "Pierwotny mocarz",
             "description": "<p>You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.</p>",
+            "requirements": "Barbarzyńca",
             "advancement": {
                 "Primal Champion": {
                     "title": "Pierwotny mocarz",
@@ -2038,6 +2140,7 @@
         "Primal Knowledge": {
             "name": "Primal Knowledge",
             "description": "<p>You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.</p><p>In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses.</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will cause those skills to automatically use your Strength modifier if it is higher than the normal Ability Score associated with the Skill.</p></section>",
+            "requirements": "Barbarzyńca",
             "effects": {
                 "Primal Knowledge": {
                     "name": "Primal Knowledge"
@@ -2046,11 +2149,13 @@
         },
         "Primal Order": {
             "name": "Primal Order",
-            "description": "<p>You have dedicated yourself to one of the following sacred roles of your choice.</p><p><strong>Magician.</strong> You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).</p><p><strong>Warden.</strong> Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p><section id=\"secret-SgYOtpnQW9hL4WJ8\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted to choose during advancement.</p></section>"
+            "description": "<p>You have dedicated yourself to one of the following sacred roles of your choice.</p><p><strong>Magician.</strong> You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).</p><p><strong>Warden.</strong> Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p><section id=\"secret-SgYOtpnQW9hL4WJ8\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted to choose during advancement.</p></section>",
+            "requirements": "Druid"
         },
         "Primal Order: Magician": {
             "name": "Primal Order: Magician",
             "description": "<p>You know one extra cantrip from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU#cantrip]{Druid spell list}. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1, currently [[lookup @abilities.wis.mod]]).</p><section class=\"secret\" id=\"secret-adiIB9wCX5zZdZ9F\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the increase to your known cantrips and the bonus to your Arcane and Nature checks.</p></section>",
+            "requirements": "Druid",
             "effects": {
                 "Magician": {
                     "name": "Magician"
@@ -2060,6 +2165,7 @@
         "Primal Order: Warden": {
             "name": "Primal Order: Warden",
             "description": "<p>Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p><section id=\"secret-hVQSjHcU93Zpf54G\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the addition of your Martial weapons proficiency and Medium armor training.</p></section>",
+            "requirements": "Druid",
             "effects": {
                 "Primal Order: Warden": {
                     "name": "Primal Order: Warden"
@@ -2107,6 +2213,7 @@
         "Rage": {
             "name": "Szał",
             "description": "<p>You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.</p><p>You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table (currently [[lookup @scale.barbarian.rages]]). You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p><p>While active, your Rage follows the rules below.</p><p><strong>Damage Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</p><p><strong>Rage Damage.</strong> When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p><p><strong>No Concentration or Spells.</strong> You can't maintain Concentration, and you can't cast spells.</p><p><strong>Duration.</strong> The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:</p><ul><li>Make an attack roll against an enemy.</li><li>Force an enemy to make a saving throw.</li><li>Take a Bonus Action to extend your Rage.</li></ul><p>Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the Resistance and additional damage. This feature will also automatically recharge your Rage uses on a Short and Long Rest.</p></section>",
+            "requirements": "Barbarzyńca",
             "activities": {
                 "Expend Rage": {
                     "name": "Expend Rage"
@@ -2120,49 +2227,12 @@
         },
         "Ranger": {
             "name": "Łowca",
-            "description": "<h3>Core Ranger Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Ranger level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 3:</em> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{sprig of mistletoe}), @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 7GP]]; or (B) [[/award 150GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgrRanger0000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Ranger Traits table.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
-            "advancement": {
-                "Class Features": {
-                    "title": "Właściwości klasy"
-                },
-                "Expertise": {
-                    "title": "Znawstwo"
-                },
-                "Favored Enemy": {
-                    "title": "Ulubiony wróg"
-                },
-                "Deft Explorer": {
-                    "title": "Deft Explorer"
-                },
-                "Hunter's Mark Damage": {
-                    "title": "Hunter's Mark Damage"
-                },
-                "Max Prepared Spells": {
-                    "title": "Max Prepared Spells"
-                },
-                "Saving Throw Proficiencies": {
-                    "title": "Biegłości w rzutach obronnych"
-                },
-                "Skill Proficiencies": {
-                    "title": "Biegłości w umiejętnościach"
-                },
-                "Weapon Proficiencies": {
-                    "title": "Biegłości w posługiwaniu się bronią"
-                },
-                "Armor Training": {
-                    "title": "Biegłośc w pancerzu"
-                },
-                "Fighting Style": {
-                    "title": "Styl walki"
-                },
-                "Weapon Mastery": {
-                    "title": "Mistrzostwo Broni"
-                }
-            }
+            "description": "<h3>Core Ranger Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Ranger level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 3:</em> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{sprig of mistletoe}), @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 7GP]]; or (B) [[/award 150GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgrRanger0000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Ranger Traits table.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>"
         },
         "Reckless Attack": {
             "name": "Szaleńczy atak",
             "description": "<p>You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time.</p><section id=\"secret-W7MI2ZVKsMQcSW6d\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking whether you are reckless or not but it does not automate Advantage on your attacks or attacks against you.</p></section>",
+            "requirements": "Barbarzyńca",
             "effects": {
                 "Reckless": {
                     "name": "Reckless"
@@ -2175,14 +2245,15 @@
         },
         "Relentless Rage": {
             "name": "Niepowstrzymany szał",
-            "description": "<p>Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.</p><p>Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>Foundry Note</strong></p><p>This feature will automatically increase the DC by 5 if you consume the resource when activating it. It will also automatically reset to 10 after a Short or Long Rest.</p></section>"
+            "description": "<p>Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.</p><p>Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>Foundry Note</strong></p><p>This feature will automatically increase the DC by 5 if you consume the resource when activating it. It will also automatically reset to 10 after a Short or Long Rest.</p></section>",
+            "requirements": "Barbarzyńca"
         },
         "Reliable Talent": {
             "name": "Niezawodny Talent",
             "description": "<p>Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.</p><section class=\"secret\" id=\"secret-FOATC0HOce35kD20\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the minimum roll of 10 on your skill and tool proficiencies.</p></section>",
             "effects": {
                 "Reliable Talent": {
-                    "name": "Niezawodny Talent"
+                    "name": "Niezawodny talent"
                 }
             }
         },
@@ -2191,13 +2262,14 @@
             "description": "<p>Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.</p><p>In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.</p><section class=\"secret\" id=\"secret-uyi38uA0t76MZ3Ae\"><p><strong>Foundry Note</strong></p><p>This feature automatically grants Advantage on Initiative rolls.</p></section>",
             "effects": {
                 "Remarkable Athlete": {
-                    "name": "Niezwykły Atleta"
+                    "name": "Niezwykły atleta"
                 }
             }
         },
         "Repelling Blast": {
             "name": "Odpychające uderzenie",
             "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</p></blockquote><p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p><p>Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Foundry Note</strong></p><p>The <strong>Make Repelling</strong> activity can be used to enchant a cantrip which adds \", Repelling\" as a reminder.</p></section>",
+            "requirements": "Warlock Cantrip That Deals Damage via an Attack",
             "activities": {
                 "Make Repelling": {
                     "name": "Make Repelling"
@@ -2220,6 +2292,7 @@
         "Retaliation": {
             "name": "Odwet",
             "description": "<p>When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.</p>",
+            "requirements": "Ścieżka Berserkera",
             "activities": {
                 "Retaliate": {
                     "name": "Retaliate",
@@ -2239,8 +2312,7 @@
                     "title": "Właściwości klasy"
                 },
                 "Expertise": {
-                    "title": "Znawstwo",
-                    "hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them."
+                    "title": "Znawstwo"
                 },
                 "Sneak Attack": {
                     "title": "Ukradkowy atak"
@@ -2309,6 +2381,7 @@
         "Sear Undead": {
             "name": "Sear Undead",
             "description": "<p>Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of 1d8, currently [[lookup @abilities.wis.mod]]) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</p><section class=\"secret\" id=\"secret-VJPPRFTlu1fFg8XB\"><p><strong>Foundry Note</strong></p><p>This feature can be used in place of Turn Undead. It consumes a use of Channel Divinity, includes the Save, Active Effects for the conditions, and this feature's damage roll.</p></section>",
+            "requirements": "Kleryk",
             "activities": {
                 "Channel Divinity: Turn Undead": {
                     "name": "Akt wiary: Odpędzanie nieumarłych",
@@ -2599,11 +2672,13 @@
         },
         "Superior Inspiration": {
             "name": "PIerwszorzędna inspiracja",
-            "description": "<p>When you roll Initiative, you regain expended uses of Bardic Inspiration until you have two if you have fewer than that.</p>"
+            "description": "<p>When you roll Initiative, you regain expended uses of Bardic Inspiration until you have two if you have fewer than that.</p>",
+            "requirements": "Bard"
         },
         "Supreme Healing": {
             "name": "Niezwykłe uzdrawianie",
-            "description": "<p>When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.</p><section id=\"secret-1Bw7MOem4xyPO17q\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the maximizing of all of your rolls.</p></section>"
+            "description": "<p>When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.</p><section id=\"secret-1Bw7MOem4xyPO17q\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the maximizing of all of your rolls.</p></section>",
+            "requirements": "Domena życia"
         },
         "Supreme Sneak": {
             "name": "Pierwszorzędne skradanie",
@@ -2621,6 +2696,7 @@
         "Tactical Master": {
             "name": "Tactical Master",
             "description": "<p>When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.</p>",
+            "requirements": "Wojownik",
             "effects": {
                 "Tactial Master": {
                     "name": "Tactial Master"
@@ -2661,7 +2737,8 @@
         },
         "Thirsting Blade": {
             "name": "Spragnione ostrze",
-            "description": "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd5e.classes24.Item.phbinvPactBlade0]{Pact of the Blade} Invocation.</p></blockquote><p>You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.</p>"
+            "description": "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd5e.classes24.Item.phbinvPactBlade0]{Pact of the Blade} Invocation.</p></blockquote><p>You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.</p>",
+            "requirements": "Pact of the Blade Invocation"
         },
         "Three Extra Attacks": {
             "name": "Three Extra Attacks",
@@ -2857,6 +2934,7 @@
         "Wild Companion": {
             "name": "Wild Companion",
             "description": "<p>You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Find Familiar} spell without Material components.</p><p>When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.</p><section id=\"secret-4iYtjsPCmpeQTKY5\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a Summon activity which can be used to summon your wild companion. You can choose whether to expend a use of wild shape or a spell slot when activating it.</p><p>The summon does not automatically disappear when you finish a Long Rest.</p></section>",
+            "requirements": "Druid",
             "activities": {
                 "Summon with Spell Slot": {
                     "name": "Summon with Spell Slot"
@@ -2869,6 +2947,7 @@
         "Wild Resurgence": {
             "name": "Wild Resurgence",
             "description": "<p>Once on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).</p><p>In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, but you can't do so again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-b0eq9t1Lkei4tN53\"><p><strong>Foundry Note</strong></p><p>The <strong>Regain Wild Shape</strong> activity consumes a spell slot and grants you another use of Wild Shape.</p><p>The <strong>Regain Spell Slot</strong> activity will consume a use of Wild Shape and grant you a level 1 spell slot.</p></section>",
+            "requirements": "Druid",
             "activities": {
                 "Regain Spell Slot": {
                     "name": "Odzyskanie komórki czaru",
@@ -2883,6 +2962,7 @@
         "Wild Shape": {
             "name": "Dzika postać",
             "description": "<p>The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see \"Known Forms\" below). You stay in that form for a number of hours equal to half your Druid level (currently [[lookup @classes.druid.levels]]) or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.</p><p><strong>Number of Uses.</strong> You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p><p>You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid Features} table.</p><p><strong>Current Number of Uses:</strong> [[lookup @scale.druid.wild-shape-uses]]</p><p><strong>Known Forms. </strong>You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. The @UUID[Compendium.dnd5e.actors24.Actor.mmRat00000000000]{Rat}, @UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Riding Horse}, @UUID[Compendium.dnd5e.actors24.Actor.mmSpider00000000]{Spider}, and @UUID[Compendium.dnd5e.actors24.Actor.mmWolf0000000000]{Wolf} are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Wild Shape Automation</h3><p>When you've selected the creature you would like to wild shape into you can drag it onto your character sheet, select the Wild Shape option, and Foundry will automatically update your sheet. You can revert the transformation at the top of your sheet or by right clicking on your Actor in the sidebar.</p></article></section><p>When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.</p><p><strong>Current Known Forms Limit:</strong> [[lookup @scale.druid.known-forms]]</p><p><strong>Current CR Limit:</strong> [[lookup @scale.druid.wild-shape]]</p><p>When choosing known forms, you may look in the <em>Monster Manual</em> or elsewhere for eligible Beasts if the Dungeon Master permits you to do so.</p><table><caption>Beast Shapes</caption><thead><tr><td>Druid Level</td><td>Known Forms</td><td>Max CR</td><td>Fly Speed</td></tr></thead><tbody><tr><td>2</td><td>4</td><td>1/4</td><td>No</td></tr><tr><td>4</td><td>6</td><td>1/2</td><td>No</td></tr><tr><td>8</td><td>8</td><td>1</td><td>Yes</td></tr></tbody></table><p><strong>Rules While Shape-Shifted.</strong> While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:</p><p><strong>Temporary Hit Points. </strong>When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.</p><p><strong>Game Statistics.</strong> Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.</p><p><strong>No Spellcasting.</strong> You can't cast spells, but shape-shifting doesn't break your Concentration or otherwise interfere with a spell you've already cast.</p><p><strong>Objects. </strong>Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.</p><section class=\"secret\" id=\"secret-FZNGONDktXDnwY0x\"><p><strong>Foundry Note</strong></p><p>You can activate this feature to track uses of your Wild Shape.</p><p>It will automatically restore a use on a Short Rest and all uses on a Long Rest.</p></section>",
+            "requirements": "Druid",
             "activities": {
                 "transform": {
                     "profiles": {
@@ -2938,7 +3018,38 @@
         },
         "Words of Creation": {
             "name": "Words of Creation",
-            "description": "<p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplPowerWordH]{Power Word Heal} and @UUID[Compendium.dnd5e.spells24.Item.phbsplPowerWordK]{Power Word Kill} spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p><section id=\"secret-aHHp3ZnTrWPHHB7j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You are automatically granted these spells as you level up.</p></section>"
+            "description": "<p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplPowerWordH]{Power Word Heal} and @UUID[Compendium.dnd5e.spells24.Item.phbsplPowerWordK]{Power Word Kill} spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p><section id=\"secret-aHHp3ZnTrWPHHB7j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You are automatically granted these spells as you level up.</p></section>",
+            "requirements": "Bard"
         }
+    },
+    "folders": {
+        "Barbarian": "Barbarzyńca",
+        "Bard": "Bard",
+        "Champion": "Czempion",
+        "Circle of Land": "Krąg ziemi",
+        "Class Features": "Właściwości Klasy",
+        "Cleric": "Kleryk",
+        "Draconic Sorcery": "Smocza magia",
+        "Druid": "Druid",
+        "Eldritch Invocation Options": "Opcje Mistycznych inwokacji",
+        "Evoker": "Mag wywoływań",
+        "Fiend Patron": "Czart patron",
+        "Fighter": "Wojownik",
+        "Hunter": "Myśliwy",
+        "Life Domain": "Domena Życia",
+        "Lore": "Lore",
+        "Metamagic Options": "Opcje metamagii",
+        "Monk": "Mnich",
+        "Oath of Devotion": "Przysięga gorliwości",
+        "Paladin": "Paladyn",
+        "Path of the Berserker": "Ścieżka berserkera",
+        "Ranger": "Łowca",
+        "Rogue": "Łotr",
+        "Sorcerer": "Zaklinacz",
+        "Subclass Features": "Subclass Features",
+        "Thief": "Złodziej",
+        "Warlock": "Czarownik",
+        "Warrior of the Open Hand": "Wojownik otwartej dłoni",
+        "Wizard": "Mag"
     }
 }
