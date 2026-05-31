@@ -22,48 +22,6 @@
             "converter": "advancement"
         }
     },
-    "folders": {
-        "Barbarian": "Barbarzyńca",
-        "Barbarian Features": "Właściwości barbarzyńcy",
-        "Bard": "Bard",
-        "Bard Features": "Właściwości barda",
-        "Champion Features": "Właściwości czempiona",
-        "Circle of the Land Features": "Właściwości Kręgu Ziemi",
-        "Cleric": "Kleryk",
-        "Cleric Features": "Właściwości kleryka",
-        "College of Lore Features": "Właściwości Kolegium mądrości",
-        "Draconic Bloodline Features": "Właściwości Smoczego dziedzictwa",
-        "Druid": "Druid",
-        "Druid Features": "Właściwości druida",
-        "Eldritch Invocations": "Mistyczne inwokacje",
-        "Fighter": "Wojownik",
-        "Fighter Features": "Właściwości wojownika",
-        "Fighting Styles": "Style walki",
-        "Hunter Features": "Właściwości Myśliwego",
-        "Life Domain Features": "Właściwości Domeny życia",
-        "Metamagic": "Metamagia",
-        "Monk": "Mnich",
-        "Monk Features": "Właściwości mnicha",
-        "Oath of Devotion Features": "Właściwości Przysięgi gorliwości",
-        "Paladin": "Paladyn",
-        "Paladin Features": "Właściwości paladyna",
-        "Path of the Berserker Features": "Właściwości Ścieżki Berserkera",
-        "Ranger": "Łowca",
-        "Ranger Features": "Właściwości łowcy",
-        "Rogue": "Łotr",
-        "Rogue Features": "Właściwości łotra",
-        "School of Evocation Features": "Właściwości Szkoły wywoływania",
-        "Shared Features": "Właściwości współdzielone",
-        "Sorcerer": "Zaklinacz",
-        "Sorcerer Features": "Właściwości zaklinacza",
-        "The Fiend Features": "Właściwości paktu z Czartem",
-        "Thief Features": "Właściwości złodzieja",
-        "Warlock": "Czarownik",
-        "Warlock Features": "Właściwości czarownika",
-        "Way of the Open Hand Features": "Właściwości Drogi otwartej dłoni",
-        "Wizard": "Mag",
-        "Wizard Features": "Właściwości maga"
-    },
     "entries": {
         "Ability Score Improvement": {
             "name": "Zwiększenie wartości Cech",
@@ -294,27 +252,10 @@
             "description": "<p>Od 5. poziomu nieumarły, który nie oparł się twemu @UUID[Compendium.dnd5e.classfeatures.Item.r91UIgwFdHwkXdia]{odpędzaniu nieumarłych}, zostaje natychmiast zniszczony, o ile jego stopień wyzwania jest równy lub mniejszy od określonego w tabeli Zniszczenie nieumarłego.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Poziom kleryka</strong></td>\n<td><strong>Niszczy nieumarłego o SW...</strong></td>\n</tr>\n<tr>\n<td>5.</td>\n<td>1/2 lub niższym</td>\n</tr>\n<tr>\n<td>8.</td>\n<td>1 lub niższym</td>\n</tr>\n<tr>\n<td>11.</td>\n<td>2 lub niższym</td>\n</tr>\n<tr>\n<td>14.</td>\n<td>3 lub niższym</td>\n</tr>\n<tr>\n<td>17.</td>\n<td>4 lub niższym</td>\n</tr>\n</tbody>\n</table>"
         },
         "Devil's Sight": {
-            "name": "Diabelski wzrok",
-            "description": "<p>Widzisz normalnie w magicznej i niemagicznej ciemności na odległość 36 metrów.</p>",
-            "effects": {
-                "Devil's Sight": {
-                    "name": "Diabelski wzrok"
-                }
-            }
+            "name": "Diabelski wzrok"
         },
         "Diamond Soul": {
-            "name": "Diamentowa Dusza",
-            "description": "<p>Od 14. poziomu twoja kontrola nad ki zapewnia ci biegłość we wszystkich rzutach obronnych. Ponadto, po nieudanym rzucie obronnym możesz przerzucić go za 1 punkt ki i przyjąć nowy wynik.</p>",
-            "activities": {
-                "utility": {
-                    "condition": "Za każdym razem, gdy wykonujesz rzut obronny i nie udaje ci się"
-                }
-            },
-            "effects": {
-                "Diamond Soul": {
-                    "name": "Diamentowa Dusza"
-                }
-            }
+            "name": "Diamentowa Dusza"
         },
         "Disciple of Life": {
             "name": "Akolita życia",
@@ -363,13 +304,7 @@
             }
         },
         "Draconic Resilience": {
-            "name": "Odporność Drakona",
-            "description": "<p>Magia krążąca w twoim ciele sprawia, że ujawniają się pewne cechy twoich smoczych przodków. Twoje maksymalne punkty wytrzymałości zwiększają się o 1 na 1. poziomie, a także na każdym kolejnym poziomie tej klasy.</p><p>Co więcej, łuski podobne do smoczych pokrywają cienką warstwą część twojej skóry. Kiedy nie nosisz pancerza, masz KP równą 13 + twój modyfikator ze Zręczności.</p>",
-            "effects": {
-                "Draconic Resilience": {
-                    "name": "Odporność Drakona"
-                }
-            }
+            "name": "Odporność Drakona"
         },
         "Dragon Ancestor": {
             "name": "Smoczy przodek",
@@ -493,39 +428,21 @@
             "description": "<p>Począwszy od 3. poziomu, możesz w ramach akcji dodatkowej zapewnionej przez @UUID[Compendium.dnd5e.classfeatures.Item.01pcLg6PRu5zGrsb]{chytre zagranie} wykonać test Zręczności (Zwinne dłonie), użyć narzędzi złodziejskich do rozbrojenia pułapki lub otwarcia zamka albo wykonać akcję użycia obiektu.</p>"
         },
         "Fast Movement": {
-            "name": "Szybki ruch",
-            "description": "<p>Twoja szybkość jest większa o 3 metry, gdy nie nosisz ciężkiego pancerza.</p>",
-            "effects": {
-                "Fast Movement": {
-                    "name": "Szybki ruch"
-                }
-            }
+            "name": "Szybki ruch"
         },
         "Favored Enemy": {
             "name": "Ulubiony wróg",
             "description": "<p>Już od 1. poziomu możesz pochwalić się znacznym doświadczeniem w studiowaniu określonego typu wroga - w rozpoznawaniu go, tropieniu, polowaniu na niego, a nawet porozumiewaniu się z nim.</p><p>Wybierz rodzaj ulubionego wroga spośród następujących: bestie, czarty, fey, konstrukty, niebianie, nieumarli, olbrzymy, potworności, rośliny, smoki, szlamy, wynaturzenia, żywiołaki. Zamiast tego możesz na ulubionych wrogów wybrać dwa gatunki humanoidów (takich jak gnolle i orki).</p><p>Masz ułatwienie w testach Mądrości (Sztuka przetrwania), gdy dotyczą ulubionego wroga, a także w testach Inteligencji, gdy próbujesz przypomnieć sobie informacje z nim związane.</p><p>Gdy zyskujesz tę korzyść, uczysz się również jednego języka twych ulubionych wrogów, o ile w ogóle się jakimś posługują.</p><p>Następnego ulubionego wroga i związany z nim język wybierasz na poziomach 6. i 14. Dobór kolejnych ulubionych wrogów powinien odzwierciedlać to, co spotyka cię podczas twoich przygód.</p><section class=\"secret foundry-note\" id=\"secret-2vKbF8oen9AQiV1L\"><p><strong>Notka Foundry</strong></p><p>Jeśli chcesz, ręcznie edytuj ten wpis i zanotuj swoje wybory tutaj:</p><ul><li><em>1. poziom</em></li><li><em>6. poziom</em></li><li><em>14. poziom</em></li></ul></section>"
         },
         "Feral Instinct": {
-            "name": "Zwierzęcy instynkt",
-            "description": "<p>Na 7. poziomie twoje zmysły stają się tak wyczulone, że zyskujesz ułatwienie w testach inicjatywy.</p><p>Co więcej, jeśli jesteś zaskoczony podczas rozpoczęcia walki, a nie jesteś obezwładniony, możesz normalnie działać w swojej turze, o ile zaczniesz od wpadnięcia w szal.</p>",
-            "effects": {
-                "Feral Instinct": {
-                    "name": "Zwierzęcy instynkt"
-                }
-            }
+            "name": "Zwierzęcy instynkt"
         },
         "Feral Senses": {
             "name": "Zwierzęce zmysły",
             "description": "<p>Na 18. poziomie wyrabiasz sobie nadprzyrodzone zmysły, pomagające ci walczyć z niewidocznym celem. Gdy atakujesz istotę, której nie widzisz, nie masz wynikającego z tego utrudnienia w teście ataku.</p><p>Masz również świadomość położenia wszystkich niewidzialnych istot w obrębie 9 metrów, o ile nie są ukryte przed tobą i nie jesteś oślepiony lub ogłuchły.</p>"
         },
         "Fiendish Resilience": {
-            "name": "Czarcia odporność",
-            "description": "<p>Począwszy od 10. poziomu, gdy kończysz krótki lub długi odpoczynek, możesz wybrać typ obrażeń. Zyskujesz na niego odporność aż do chwili wybrania innego typu przy użyciu tej samej zdolności. Obrażenia zadawane magiczną lub srebrną bronią ignorują tę odporność.</p>",
-            "effects": {
-                "Fiendish Resilience": {
-                    "name": "Czarcia odporność"
-                }
-            }
+            "name": "Czarcia odporność"
         },
         "Fiendish Vigor": {
             "name": "Diabelski wigor",
@@ -534,6 +451,15 @@
         "Fighting Style": {
             "name": "Styl walki",
             "description": "<p>Specjalizujesz się w określonym stylu walki. Wybierz jedną spośród następujących możliwości. Nie możesz wybrać danego stylu walki więcej niż raz, nawet jeśli później otrzymujesz taką szansę.</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Strzelectwo}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defensywa}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Fechtunek}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Walka dwiema broniami}</p>"
+        },
+        "Fighting Style: Archery": {
+            "name": "Styl walki: Strzelectwo"
+        },
+        "Fighting Style: Defense": {
+            "name": "Styl walki: Defensywa"
+        },
+        "Fighting Style: Dueling": {
+            "name": "Styl walki: Fechtunek"
         },
         "Flurry of Blows": {
             "name": "Grad ciosów",
@@ -599,13 +525,7 @@
             "description": "<p>Gdy rzucasz czar wymuszający na celu rzut obronny, by oprzeć się jego efektom, możesz wydać 3 punkty zaklinania i dać jednemu celowi tego zaklęcia utrudnienie w pierwszym rzucie obronnym.</p>"
         },
         "Hide in Plain Sight": {
-            "name": "Ukrycie na widoku",
-            "description": "<p>Od 10. poziomu możesz spędzić 1 minutę, by przygotować sobie kamuflaż. W tym celu musisz mieć dostęp do świeżego błota, ziemi, roślin, sadzy lub innych naturalnie występujących materiałów.</p><p>Zakamuflowawszy się w ten sposób, możesz próbować się ukryć, przywierając do stałej powierzchni, takiej jak drzewo lub ściana, będącej co najmniej twoich rozmiarów. Dopóki pozostajesz w bezruchu i nie podejmiesz żadnej akcji, masz modyfikator +10 do testów Zręczności (Skradanie się). Po wykonaniu ruchu lub akcji musisz zakamuflować się od nowa, by odzyskać premię.</p>",
-            "effects": {
-                "Hide in Plain Sight": {
-                    "name": "Ukrycie na widoku"
-                }
-            }
+            "name": "Ukrycie na widoku"
         },
         "Holy Nimbus": {
             "name": "Nimb świętości",
@@ -628,13 +548,7 @@
             "description": "<p>Od chwili, gdy wybierasz ten archetyp na 3. poziomie, twoje ataki bronią skutkują trafieniem krytycznym przy wyniku 19 lub 20.</p>"
         },
         "Improved Divine Smite": {
-            "name": "Ulepszone boskie ugodzenie",
-            "description": "<p>Po osiągnięciu 11. poziomu moc prawości przepełnia cię do tego stopnia, że twoje ataki bronią białą również niosą ze sobą boską moc.</p><p>Za każdym razem, gdy trafiasz cel bronią białą, otrzymuje on dodatkowe 1k8 obrażeń od światłości. Kiedy użyjesz @UUID[Compendium.dnd5e.classfeatures.Item.ySMPQ6zNSlvkrl2f]{boskiego ugodzenia} wraz z atakiem, dodajesz powyższe dodatkowe obrażenia do obrażeń z Boskiego ugodzenia.</p>",
-            "effects": {
-                "Improved Divine Smite": {
-                    "name": "Ulepszone boskie ugodzenie"
-                }
-            }
+            "name": "Ulepszone boskie ugodzenie"
         },
         "Indomitable": {
             "name": "Nieugięty",
@@ -649,13 +563,7 @@
             "description": "<p>Od 10. poziomu możesz użyć swojej akcji, aby przestraszyć kogoś swoją groźną postawą.</p><p>Wybierz jedną istotę znajdującą się do 9 metrów od ciebie. Jeżeli cię widzi lub słyszy, musi wykonać rzut obronny na Mądrość (o ST równym 8+ twoja premia z biegłości + twój modyfikator z Charyzmy). W przypadku niepowodzenia cel staje się przerażony do końca twojej następnej tury. W następnych turach możesz w ramach swojej akcji przedłużać działanie efektu o kolejną turę. Efekt kończy się, jeśli przerażona istota zakończy swoją turę poza zasięgiem wzroku lub dalej niż 18 metrów od ciebie.</p><p>Jeśli cel zda rzut obronny, nie możesz na nim powtarzać próby zastraszenia przez najbliższe 24 godziny.</p>"
         },
         "Jack of All Trades": {
-            "name": "Wszechstronność",
-            "description": "<p>Począwszy od 2. poziomu, możesz dodać połowę swej premii z biegłości, zaokrągloną w dól, do dowolnego testu cechy, który już tej premii nie uwzględnia.</p>",
-            "effects": {
-                "Jack of All Trades": {
-                    "name": "Wszechstronność"
-                }
-            }
+            "name": "Wszechstronność"
         },
         "Ki": {
             "name": "Ki",
@@ -664,6 +572,9 @@
         "Ki-Empowered Strikes": {
             "name": "Cios wzmocniony ki",
             "description": "<p>Począwszy od 6. poziomu, twoje ataki bez broni liczą się jak magiczne przy rozliczaniu odporności i niepodatności na niemagiczne ataki.</p>"
+        },
+        "Ki: Empty Body": {
+            "name": "Ki: Ciało ascety"
         },
         "Land's Stride": {
             "name": "Lekki krok",
@@ -760,13 +671,7 @@
             "description": "<p>Gdy osiągasz 14. poziom, stworzenia pochodzące ze świata przyrody wyczuwają twoje powiązania z naturą i wahają się, zanim cię zaatakują.</p><p>Kiedy atakuje cię bestia lub roślina, stworzenie to musi wykonać rzut obronny na Mądrość o ST rzutu przeciw twoim czarom. W przypadku niepowodzenia stworzenie musi wybrać inny cel albo jego atak automatycznie chybia. Przy udanym rzucie cel staje się niepodatny na ten efekt przez najbliższe 24 godziny.</p><p>Stworzenie jest świadome tego efektu, zanim zaatakuje ciebie.</p>"
         },
         "Nature's Ward": {
-            "name": "Wybraniec dziczy",
-            "description": "<p>Gdy zdobywasz 10. poziom, żywiołaki i fey nie mogą już dłużej cię zauroczyć ani przerazić, a także zyskujesz niepodatność na trucizny i choroby.</p>",
-            "effects": {
-                "Nature's Ward": {
-                    "name": "Wybraniec dziczy"
-                }
-            }
+            "name": "Wybraniec dziczy"
         },
         "One With Shadows": {
             "name": "Jedność z cieniem",
@@ -876,13 +781,7 @@
             }
         },
         "Rage": {
-            "name": "Szał",
-            "description": "<p>W starciu walczysz z pierwotną zawziętością. W swojej turze możesz wpaść w szał w ramach akcji dodatkowej. Podczas szału, o ile nie nosisz ciężkiego pancerza, zyskujesz następujące korzyści:</p>\n<ul>\n<li>\n<p>Masz ułatwienie w testach Siły i w rzutach obronnych opartych na Sile.</p>\n</li>\n<li>\n<p>Podczas ataku wręcz bronią opartą na Sile otrzymujesz premię do obrażeń rosnącą wraz z poziomem barbarzyńcy, zgodnie z kolumną Obrażenia w szale w tabeli rozwoju Barbarzyńcy.</p>\n</li>\n<li>\n<p>Masz odporność na obrażenia obuchowe, kłute i cięte.</p>\n</li>\n</ul>\n<p>Jeśli posiadasz magiczne zdolności, podczas szału nie możesz rzucać czarów ani koncentrować się na nich. </p>\n<p>Twój szał trwa 1 minutę. Zostaje zakończony, jeśli stracisz przytomność lub jeśli twoja tura się skończy, a ty od swojej ostatniej tury nie zaatakowałeś wrogiej istoty lub nie otrzymałeś obrażeń. Możesz również samemu zakończyć szal w swojej turze w ramach akcji dodatkowej. </p>\n<p>Po zużyciu liczby szałów dostępnej na danym poziomie, zgodnie z wartością podaną w tabeli, musisz ukończyć długi odpoczynek, zanim znowu będziesz mógł wpadać w szał.</p>",
-            "effects": {
-                "Rage": {
-                    "name": "Szał"
-                }
-            }
+            "name": "Szał"
         },
         "Ranger Archetype": {
             "name": "Archetyp łowcy",
@@ -897,13 +796,7 @@
             "description": "<p>Począwszy od 11. poziomu, szał pozwala ci walczyć niezależnie od otrzymanych ran.</p><p>Gdy twoje punkty wytrzymałości podczas szału spadną do 0, ale nie zginiesz od razu, możesz wykonać rzut obrnonny na kondycję o ST 10. Jeśli go zdasz, twoje PW spadają do 1.</p><p>Z każdym kolejnym użyciem tej zdolności ST testu wzrasta o 5. Kiedy ukończysz krótki lub długi odpoczynek, ST powraca do poziomu 10.</p>"
         },
         "Reliable Talent": {
-            "name": "Niezawodny Talent",
-            "description": "<p>Do poziomu 11. opanowałeś swój fach do perfekcji. Przy każdym teście cechy uwzględniającym premię z biegłości możesz traktować wynik 9 lub mniej na k20 jak 10.</p>",
-            "effects": {
-                "Reliable Talent": {
-                    "name": "Niezawodny Talent"
-                }
-            }
+            "name": "Niezawodny Talent"
         },
         "Remarkable Athlete": {
             "name": "Niezwykły Atleta",
@@ -1002,13 +895,7 @@
             "description": "<p>Od poziomu 20. masz niesamowitego farta, jeśli coś musi ci się udać. Gdy twój atak chybi, a cel znajduje się w zasięgu, możesz zamienić pudło na trafienie. Kiedy nie zdasz testu cechy, możesz uznać, że na k20 wypadło 20.</p><p>Musisz ukończyć krótki lub długi odpoczynek, aby ponownie skorzystać z tej zdolności.</p>"
         },
         "Stunning Strike": {
-            "name": "Ogłuszający cios",
-            "description": "<p>Od poziomu 5. możesz zakłócić przepływ ki w ciele przeciwnika. Gdy trafiasz inną istotę atakiem wręcz bronią, możesz wydać 1 punkt ki, by wykonać ogłuszający cios. Cel musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia zostaje ogłuszony do końca twojej następnej tury.</p>",
-            "effects": {
-                "Stunning Strike": {
-                    "name": "Ogłuszający cios"
-                }
-            }
+            "name": "Ogłuszający cios"
         },
         "Subtle Spell": {
             "name": "Dyskretne zaklęcie",
@@ -1084,13 +971,7 @@
             "description": "<p>Cios pięścią, głową lub inne podobne silne uderzenie (żadne nie liczy się jako broń). Gdy atakujesz bez broni, możesz w testach ataku i rzutach na obrażenia używać Zręczności zamiast Siły. Zamiast zwykłych obrażeń z ataku bez broni możesz rzucić swoją kością sztuk walki mnicha.</p>\n<p><em>Zobacz: @UUID[Compendium.dnd5e.classfeatures.Item.l50hjTxO2r0iecKw]{Sztuki walki (Mnich)}</em></p>"
         },
         "Unarmored Defense": {
-            "name": "Obrona bez pancerza",
-            "description": "<p>Począwszy od 1. poziomu, kiedy nie nosisz pancerza ani tarczy, twoja KP = 10 + modyfikator ze Zręczności + modyfikator z Mądrości.</p>",
-            "effects": {
-                "Unarmored Defense": {
-                    "name": "Obrona bez pancerza"
-                }
-            }
+            "name": "Obrona bez pancerza"
         },
         "Unarmored Defense (Barbarian)": {
             "name": "Obrona bez pancerza (Barbarzyńca)",
@@ -1102,13 +983,7 @@
             }
         },
         "Unarmored Movement": {
-            "name": "Szybkość mnicha",
-            "description": "<p>Począwszy od 2. poziomu, twoja szybkość wzrasta o 3 metry, kiedy nie nosisz pancerza ani tarczy. Premia ta rośnie w miarę rozwoju w klasie mnicha, tak jak pokazano w tabeli Mnich.</p>\n<p>Na poziomie 9. zyskujesz możliwość przemieszczenia się w swojej turze po powierzchniach pionowych i płynnych bez ryzyka upadku podczas tego ruchu.</p>",
-            "effects": {
-                "Unarmored Movement": {
-                    "name": "Szybkość mnicha"
-                }
-            }
+            "name": "Szybkość mnicha"
         },
         "Uncanny Dodge": {
             "name": "Niesamowity Unik",
@@ -1169,5 +1044,47 @@
             "name": "Wiedźmi wzrok",
             "description": "<p>Potrafisz dostrzec prawdziwą formę istoty zmiennokształtnej lub ukrytej przez magię szkoły iluzji albo przemian, o ile znajduje się na twojej linii wzroku w obrębie 9 metrów od ciebie.</p>"
         }
+    },
+    "folders": {
+        "Barbarian": "Barbarzyńca",
+        "Barbarian Features": "Właściwości barbarzyńcy",
+        "Bard": "Bard",
+        "Bard Features": "Właściwości barda",
+        "Champion Features": "Właściwości czempiona",
+        "Circle of the Land Features": "Właściwości Kręgu Ziemi",
+        "Cleric": "Kleryk",
+        "Cleric Features": "Właściwości kleryka",
+        "College of Lore Features": "Właściwości Kolegium mądrości",
+        "Draconic Bloodline Features": "Właściwości Smoczego dziedzictwa",
+        "Druid": "Druid",
+        "Druid Features": "Właściwości druida",
+        "Eldritch Invocations": "Mistyczne inwokacje",
+        "Fighter": "Wojownik",
+        "Fighter Features": "Właściwości wojownika",
+        "Fighting Styles": "Style walki",
+        "Hunter Features": "Właściwości Myśliwego",
+        "Life Domain Features": "Właściwości Domeny życia",
+        "Metamagic": "Metamagia",
+        "Monk": "Mnich",
+        "Monk Features": "Właściwości mnicha",
+        "Oath of Devotion Features": "Właściwości Przysięgi gorliwości",
+        "Paladin": "Paladyn",
+        "Paladin Features": "Właściwości paladyna",
+        "Path of the Berserker Features": "Właściwości Ścieżki Berserkera",
+        "Ranger": "Łowca",
+        "Ranger Features": "Właściwości łowcy",
+        "Rogue": "Łotr",
+        "Rogue Features": "Właściwości łotra",
+        "School of Evocation Features": "Właściwości Szkoły wywoływania",
+        "Shared Features": "Właściwości współdzielone",
+        "Sorcerer": "Zaklinacz",
+        "Sorcerer Features": "Właściwości zaklinacza",
+        "The Fiend Features": "Właściwości paktu z Czartem",
+        "Thief Features": "Właściwości złodzieja",
+        "Warlock": "Czarownik",
+        "Warlock Features": "Właściwości czarownika",
+        "Way of the Open Hand Features": "Właściwości Drogi otwartej dłoni",
+        "Wizard": "Mag",
+        "Wizard Features": "Właściwości maga"
     }
 }
