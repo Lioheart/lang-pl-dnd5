@@ -381,7 +381,7 @@
             "description": "<p>Gdy wyciągasz przed siebie rozczapierzone palce dłoni złączonych kciukami, bucha z nich wachlarz płomieni. Każda istota znajdująca się na obszarze stożka o długości 4,5 metra musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 3k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</p><p>Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz zadawane obrażenia o 1k6.</p>",
             "activities": {
                 "Cast": {
-                    "name": "Rzuć czar czar"
+                    "name": "Rzuć czar"
                 }
             }
         },
