@@ -26,6 +26,7 @@
         "Aboleth": {
             "name": "Aboleth",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Enslave": {
                     "name": "Enslave",
@@ -84,6 +85,7 @@
         "Acolyte": {
             "name": "Acolyte",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any",
             "items": {
                 "Spellcasting": {
                     "name": "Spellcasting",
@@ -130,6 +132,7 @@
         "Adult Black Dragon": {
             "name": "Adult Black Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -184,6 +187,7 @@
         "Adult Blue Dragon": {
             "name": "Adult Blue Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -234,6 +238,7 @@
         "Adult Brass Dragon": {
             "name": "Adult Brass Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -292,6 +297,7 @@
         "Adult Bronze Dragon": {
             "name": "Adult Bronze Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -358,6 +364,7 @@
         "Adult Copper Dragon": {
             "name": "Adult Copper Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendary Resistance",
@@ -416,6 +423,7 @@
         "Adult Gold Dragon": {
             "name": "Adult Gold Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -482,6 +490,7 @@
         "Adult Green Dragon": {
             "name": "Adult Green Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -536,6 +545,7 @@
         "Adult Red Dragon": {
             "name": "Adult Red Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendary Resistance",
@@ -586,6 +596,7 @@
         "Adult Silver Dragon": {
             "name": "Adult Silver Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendary Resistance",
@@ -648,6 +659,7 @@
         "Adult White Dragon": {
             "name": "Adult White Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -702,6 +714,7 @@
         "Air Elemental": {
             "name": "Air Elemental",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Air Form": {
                     "name": "Air Form",
@@ -732,6 +745,7 @@
         "Ancient Black Dragon": {
             "name": "Ancient Black Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -786,6 +800,7 @@
         "Ancient Blue Dragon": {
             "name": "Ancient Blue Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendary Resistance",
@@ -836,6 +851,7 @@
         "Ancient Brass Dragon": {
             "name": "Ancient Brass Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendary Resistance",
@@ -898,6 +914,7 @@
         "Ancient Bronze Dragon": {
             "name": "Ancient Bronze Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -964,6 +981,7 @@
         "Ancient Copper Dragon": {
             "name": "Ancient Copper Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Legendary Actions": {
                     "name": "Legendary Actions",
@@ -1026,6 +1044,7 @@
         "Ancient Gold Dragon": {
             "name": "Ancient Gold Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -1092,6 +1111,7 @@
         "Ancient Green Dragon": {
             "name": "Ancient Green Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -1146,6 +1166,7 @@
         "Ancient Red Dragon": {
             "name": "Ancient Red Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -1196,6 +1217,7 @@
         "Ancient Silver Dragon": {
             "name": "Ancient Silver Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendary Resistance",
@@ -1258,6 +1280,7 @@
         "Ancient White Dragon": {
             "name": "Ancient White Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -1312,6 +1335,7 @@
         "Androsphinx": {
             "name": "Androsphinx",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Neutral",
             "items": {
                 "Inscrutable": {
                     "name": "Inscrutable",
@@ -1439,6 +1463,7 @@
         "Animated Armor": {
             "name": "Animated Armor",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Antimagic Susceptibility": {
                     "name": "Antimagic Susceptibility",
@@ -1461,6 +1486,7 @@
         "Ankheg": {
             "name": "Ankheg",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -1475,6 +1501,7 @@
         "Ape": {
             "name": "Ape",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -1693,6 +1720,7 @@
         "Assassin": {
             "name": "Assassin",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any non-good",
             "items": {
                 "Studded Leather Armor": {
                     "name": "Studded Leather Armor",
@@ -1732,6 +1760,7 @@
         "Avatar of Death": {
             "name": "Avatar of Death",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Incorporeal Movement": {
                     "name": "Incorporeal Movement",
@@ -1750,6 +1779,7 @@
         "Awakened Shrub": {
             "name": "Awakened Shrub",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Rake": {
                     "name": "Rake",
@@ -1765,6 +1795,7 @@
         "Awakened Tree": {
             "name": "Awakened Tree",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "False Appearance": {
                     "name": "False Appearance",
@@ -1779,6 +1810,7 @@
         "Axe Beak": {
             "name": "Axe Beak",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Beak": {
                     "name": "Beak",
@@ -1789,6 +1821,7 @@
         "Azer": {
             "name": "Azer",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Neutral",
             "items": {
                 "Shield": {
                     "name": "Shield",
@@ -1815,6 +1848,7 @@
         "Baboon": {
             "name": "Baboon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Pack Tactics": {
                     "name": "Pack Tactics",
@@ -1830,6 +1864,7 @@
         "Badger": {
             "name": "Badger",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -1853,6 +1888,7 @@
         "Balor": {
             "name": "Balor",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Death Throes": {
                     "name": "Death Throes",
@@ -1896,6 +1932,7 @@
         "Bandit": {
             "name": "Bandit",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Non-Lawful",
             "items": {
                 "Scimitar": {
                     "name": "Scimitar",
@@ -1914,6 +1951,7 @@
         "Bandit Captain": {
             "name": "Bandit Captain",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Non-Lawful Alignment",
             "items": {
                 "Studded Leather Armor": {
                     "name": "Studded Leather Armor",
@@ -1940,6 +1978,7 @@
         "Barbed Devil": {
             "name": "Barbed Devil",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Barbed Hide": {
                     "name": "Barbed Hide",
@@ -1974,6 +2013,7 @@
         "Basilisk": {
             "name": "Basilisk",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Petrifying Gaze": {
                     "name": "Petrifying Gaze",
@@ -1988,6 +2028,7 @@
         "Bat": {
             "name": "Bat",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Echolocation": {
                     "name": "Echolocation",
@@ -2008,6 +2049,7 @@
         "Bearded Devil": {
             "name": "Bearded Devil",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Devil's Sight": {
                     "name": "Devil's Sight",
@@ -2038,6 +2080,7 @@
         "Behir": {
             "name": "Behir",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -2064,6 +2107,7 @@
         "Berserker": {
             "name": "Berserker",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Chaotic",
             "items": {
                 "Hide Armor": {
                     "name": "Hide Armor",
@@ -2088,6 +2132,7 @@
         "Black Bear": {
             "name": "Black Bear",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -2110,6 +2155,7 @@
         "Black Dragon Wyrmling": {
             "name": "Black Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Acid Breath": {
                     "name": "Acid Breath",
@@ -2128,6 +2174,7 @@
         "Black Pudding": {
             "name": "Black Pudding",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Amorphous": {
                     "name": "Amorphous",
@@ -2154,6 +2201,7 @@
         "Blink Dog": {
             "name": "Blink Dog",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -2172,6 +2220,7 @@
         "Blood Hawk": {
             "name": "Blood Hawk",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -2198,6 +2247,7 @@
         "Blue Dragon Wyrmling": {
             "name": "Blue Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2212,6 +2262,7 @@
         "Boar": {
             "name": "Boar",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Tusk": {
                     "name": "Tusk",
@@ -2230,6 +2281,7 @@
         "Bone Devil": {
             "name": "Bone Devil",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Claw": {
                     "name": "Claw",
@@ -2256,6 +2308,7 @@
         "Brass Dragon Wyrmling": {
             "name": "Brass Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2278,6 +2331,7 @@
         "Bronze Dragon Wyrmling": {
             "name": "Bronze Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -2304,6 +2358,7 @@
         "Brown Bear": {
             "name": "Brown Bear",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2326,6 +2381,7 @@
         "Bugbear": {
             "name": "Bugbear",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Morningstar": {
                     "name": "Morningstar",
@@ -2356,6 +2412,7 @@
         "Bulette": {
             "name": "Bulette",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2374,6 +2431,7 @@
         "Camel": {
             "name": "Camel",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2384,6 +2442,7 @@
         "Cat": {
             "name": "Cat",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Claws": {
                     "name": "Claws",
@@ -2407,6 +2466,7 @@
         "Centaur": {
             "name": "Centaur",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Good",
             "items": {
                 "Pike": {
                     "name": "Pike",
@@ -2433,6 +2493,7 @@
         "Chain Devil": {
             "name": "Chain Devil",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Chain": {
                     "name": "Chain",
@@ -2463,6 +2524,7 @@
         "Chimera": {
             "name": "Chimera",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2489,6 +2551,7 @@
         "Chuul": {
             "name": "Chuul",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Pincer": {
                     "name": "Pincer",
@@ -2515,6 +2578,7 @@
         "Clay Golem": {
             "name": "Clay Golem",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Slam": {
                     "name": "Slam",
@@ -2553,6 +2617,7 @@
         "Cloaker": {
             "name": "Cloaker",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Neutral",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2591,6 +2656,7 @@
         "Cloud Giant": {
             "name": "Cloud Giant",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Good Evil(50%) or Neutral Evil(50%)",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -2658,6 +2724,7 @@
         "Cockatrice": {
             "name": "Cockatrice",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2668,6 +2735,7 @@
         "Commoner": {
             "name": "Commoner",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any",
             "items": {
                 "Club": {
                     "name": "Club",
@@ -2678,6 +2746,7 @@
         "Constrictor Snake": {
             "name": "Constrictor Snake",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2692,6 +2761,7 @@
         "Copper Dragon Wyrmling": {
             "name": "Copper Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2714,6 +2784,7 @@
         "Couatl": {
             "name": "Couatl",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2829,6 +2900,7 @@
         "Crab": {
             "name": "Crab",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Claw": {
                     "name": "Claw",
@@ -2843,6 +2915,7 @@
         "Crocodile": {
             "name": "Crocodile",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2857,6 +2930,7 @@
         "Cult Fanatic": {
             "name": "Cult Fanatic",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Non-Good",
             "items": {
                 "Leather Armor": {
                     "name": "Leather Armor",
@@ -2918,6 +2992,7 @@
         "Cultist": {
             "name": "Cultist",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Non-Good Alignment",
             "items": {
                 "Leather Armor": {
                     "name": "Leather Armor",
@@ -2946,6 +3021,7 @@
         "Darkmantle": {
             "name": "Darkmantle",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Echolocation": {
                     "name": "Echolocation",
@@ -2973,6 +3049,7 @@
         "Death Dog": {
             "name": "Death Dog",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -2991,6 +3068,7 @@
         "Deep Gnome": {
             "name": "Deep Gnome",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Good",
             "items": {
                 "Chain Shirt": {
                     "name": "Chain Shirt",
@@ -3038,6 +3116,7 @@
         "Deer": {
             "name": "Deer",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -3048,6 +3127,7 @@
         "Deva": {
             "name": "Deva",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Angelic Weapons": {
                     "name": "Angelic Weapons",
@@ -3096,6 +3176,7 @@
         "Dire Wolf": {
             "name": "Dire Wolf",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -3114,6 +3195,7 @@
         "Djinni": {
             "name": "Djinni",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Elemental Demise": {
                     "name": "Elemental Demise",
@@ -3201,6 +3283,7 @@
         "Doppelganger": {
             "name": "Doppelganger",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Ambusher": {
                     "name": "Ambusher",
@@ -3231,6 +3314,7 @@
         "Draft Horse": {
             "name": "Draft Horse",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -3241,6 +3325,7 @@
         "Dragon Turtle": {
             "name": "Dragon Turtle",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -3271,6 +3356,7 @@
         "Dretch": {
             "name": "Dretch",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -3293,6 +3379,7 @@
         "Drider": {
             "name": "Drider",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Fey Ancestry": {
                     "name": "Fey Ancestry",
@@ -3349,6 +3436,7 @@
         "Drow": {
             "name": "Drow",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Fey Ancestry": {
                     "name": "Fey Ancestry",
@@ -3393,6 +3481,7 @@
         "Druid": {
             "name": "Druid",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "any alignment",
             "items": {
                 "Spellcasting": {
                     "name": "Spellcasting",
@@ -3481,6 +3570,7 @@
         "Dryad": {
             "name": "Dryad",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Innate Spellcasting": {
                     "name": "Innate Spellcasting",
@@ -3552,6 +3642,7 @@
         "Duergar": {
             "name": "Duergar",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Scale Mail": {
                     "name": "Scale Mail",
@@ -3600,6 +3691,7 @@
         "Dust Mephit": {
             "name": "Dust Mephit",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Death Burst": {
                     "name": "Death Burst",
@@ -3632,6 +3724,7 @@
         "Eagle": {
             "name": "Eagle",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -3647,6 +3740,7 @@
         "Earth Elemental": {
             "name": "Earth Elemental",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Earth Glide": {
                     "name": "Earth Glide",
@@ -3669,6 +3763,7 @@
         "Efreeti": {
             "name": "Efreeti",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Elemental Demise": {
                     "name": "Elemental Demise",
@@ -3738,6 +3833,7 @@
         "Elephant": {
             "name": "Elephant",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Trampling Charge": {
                     "name": "Trampling Charge",
@@ -3761,6 +3857,7 @@
         "Elk": {
             "name": "Elk",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -3779,6 +3876,7 @@
         "Erinyes": {
             "name": "Erinyes",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Hellish Weapons": {
                     "name": "Hellish Weapons",
@@ -3813,6 +3911,7 @@
         "Ettercap": {
             "name": "Ettercap",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Spider Climb": {
                     "name": "Spider Climb",
@@ -3852,6 +3951,7 @@
         "Ettin": {
             "name": "Ettin",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Two Heads": {
                     "name": "Two Heads",
@@ -3878,6 +3978,7 @@
         "Fire Elemental": {
             "name": "Fire Elemental",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Fire Form": {
                     "name": "Fire Form",
@@ -3904,6 +4005,7 @@
         "Fire Giant": {
             "name": "Fire Giant",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Plate Armor": {
                     "name": "Plate Armor",
@@ -3926,6 +4028,7 @@
         "Flesh Golem": {
             "name": "Flesh Golem",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Berserk": {
                     "name": "Berserk",
@@ -3964,6 +4067,7 @@
         "Flying Snake": {
             "name": "Flying Snake",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Flyby": {
                     "name": "Flyby",
@@ -3979,6 +4083,7 @@
         "Flying Sword": {
             "name": "Flying Sword",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Antimagic Susceptibility": {
                     "name": "Antimagic Susceptibility",
@@ -3997,6 +4102,7 @@
         "Frog": {
             "name": "Frog",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4012,6 +4118,7 @@
         "Frost Giant": {
             "name": "Frost Giant",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Rock": {
                     "name": "Rock",
@@ -4034,6 +4141,7 @@
         "Gargoyle": {
             "name": "Gargoyle",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "False Appearance": {
                     "name": "False Appearance",
@@ -4056,6 +4164,7 @@
         "Gelatinous Cube": {
             "name": "Gelatinous Cube",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Ooze Cube": {
                     "name": "Ooze Cube",
@@ -4088,6 +4197,7 @@
         "Ghast": {
             "name": "Ghast",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Stench": {
                     "name": "Stench",
@@ -4110,6 +4220,7 @@
         "Ghost": {
             "name": "Ghost",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Ethereal Sight": {
                     "name": "Ethereal Sight",
@@ -4140,6 +4251,7 @@
         "Ghoul": {
             "name": "Ghoul",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4154,6 +4266,7 @@
         "Giant Ape": {
             "name": "Giant Ape",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -4172,6 +4285,7 @@
         "Giant Badger": {
             "name": "Giant Badger",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -4194,6 +4308,7 @@
         "Giant Bat": {
             "name": "Giant Bat",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Echolocation": {
                     "name": "Echolocation",
@@ -4212,6 +4327,7 @@
         "Giant Boar": {
             "name": "Giant Boar",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -4230,6 +4346,7 @@
         "Giant Centipede": {
             "name": "Giant Centipede",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4240,6 +4357,7 @@
         "Giant Constrictor Snake": {
             "name": "Giant Constrictor Snake",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4254,6 +4372,7 @@
         "Giant Crab": {
             "name": "Giant Crab",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4268,6 +4387,7 @@
         "Giant Crocodile": {
             "name": "Giant Crocodile",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Hold Breath": {
                     "name": "Hold Breath",
@@ -4290,6 +4410,7 @@
         "Giant Eagle": {
             "name": "Giant Eagle",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Good",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -4312,6 +4433,7 @@
         "Giant Elk": {
             "name": "Giant Elk",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -4330,6 +4452,7 @@
         "Giant Fire Beetle": {
             "name": "Giant Fire Beetle",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4344,11 +4467,13 @@
         },
         "Giant Fly": {
             "name": "Giant Fly",
-            "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>"
+            "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned"
         },
         "Giant Frog": {
             "name": "Giant Frog",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4371,6 +4496,7 @@
         "Giant Goat": {
             "name": "Giant Goat",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -4390,6 +4516,7 @@
         "Giant Hyena": {
             "name": "Giant Hyena",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Rampage": {
                     "name": "Rampage",
@@ -4404,6 +4531,7 @@
         "Giant Lizard": {
             "name": "Giant Lizard",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4414,6 +4542,7 @@
         "Giant Octopus": {
             "name": "Giant Octopus",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Hold Breath": {
                     "name": "Hold Breath",
@@ -4442,6 +4571,7 @@
         "Giant Owl": {
             "name": "Giant Owl",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Flyby": {
                     "name": "Flyby",
@@ -4461,6 +4591,7 @@
         "Giant Poisonous Snake": {
             "name": "Giant Poisonous Snake",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4471,6 +4602,7 @@
         "Giant Rat": {
             "name": "Giant Rat",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -4489,6 +4621,7 @@
         "Giant Rat (Diseased)": {
             "name": "Giant Rat (Diseased)",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -4507,6 +4640,7 @@
         "Giant Scorpion": {
             "name": "Giant Scorpion",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -4525,6 +4659,7 @@
         "Giant Sea Horse": {
             "name": "Giant Sea Horse",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -4543,6 +4678,7 @@
         "Giant Shark": {
             "name": "Giant Shark",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Blood Frenzy": {
                     "name": "Blood Frenzy",
@@ -4561,6 +4697,7 @@
         "Giant Spider": {
             "name": "Giant Spider",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Spider Climb": {
                     "name": "Spider Climb",
@@ -4587,6 +4724,7 @@
         "Giant Toad": {
             "name": "Giant Toad",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4609,6 +4747,7 @@
         "Giant Vulture": {
             "name": "Giant Vulture",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Keen Sight and Smell": {
                     "name": "Keen Sight and Smell",
@@ -4635,6 +4774,7 @@
         "Giant Wasp": {
             "name": "Giant Wasp",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Sting": {
                     "name": "Sting",
@@ -4645,6 +4785,7 @@
         "Giant Weasel": {
             "name": "Giant Weasel",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -4659,6 +4800,7 @@
         "Giant Wolf Spider": {
             "name": "Giant Wolf Spider",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Spider Climb": {
                     "name": "Spider Climb",
@@ -4681,6 +4823,7 @@
         "Gibbering Mouther": {
             "name": "Gibbering Mouther",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Aberrant Ground": {
                     "name": "Aberrant Ground",
@@ -4707,6 +4850,7 @@
         "Glabrezu": {
             "name": "Glabrezu",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Innate Spellcasting": {
                     "name": "Innate Spellcasting",
@@ -4760,6 +4904,7 @@
         "Gladiator": {
             "name": "Gladiator",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Studded Leather Armor": {
                     "name": "Studded Leather Armor",
@@ -4813,6 +4958,7 @@
         "Gnoll": {
             "name": "Gnoll",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Hide Armor": {
                     "name": "Hide Armor",
@@ -4843,6 +4989,7 @@
         "Goat": {
             "name": "Goat",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -4862,6 +5009,7 @@
         "Goblin": {
             "name": "Goblin",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Leather Armor": {
                     "name": "Leather Armor",
@@ -4888,6 +5036,7 @@
         "Gold Dragon Wyrmling": {
             "name": "Gold Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -4914,6 +5063,7 @@
         "Gorgon": {
             "name": "Gorgon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Trampling Charge": {
                     "name": "Trampling Charge",
@@ -4936,6 +5086,7 @@
         "Gray Ooze": {
             "name": "Gray Ooze",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Amorphous": {
                     "name": "Amorphous",
@@ -4958,6 +5109,7 @@
         "Green Dragon Wyrmling": {
             "name": "Green Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Poison Breath": {
                     "name": "Poison Breath",
@@ -4976,6 +5128,7 @@
         "Green Hag": {
             "name": "Green Hag",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -5020,6 +5173,7 @@
         "Grick": {
             "name": "Grick",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Stone Camouflage": {
                     "name": "Stone Camouflage",
@@ -5042,6 +5196,7 @@
         "Griffon": {
             "name": "Griffon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -5064,6 +5219,7 @@
         "Grimlock": {
             "name": "Grimlock",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Blind Senses": {
                     "name": "Blind Senses",
@@ -5086,6 +5242,7 @@
         "Guard": {
             "name": "Guard",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Chain Shirt": {
                     "name": "Chain Shirt",
@@ -5104,6 +5261,7 @@
         "Guardian Naga": {
             "name": "Guardian Naga",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Rejuvenation": {
                     "name": "Rejuvenation",
@@ -5194,6 +5352,7 @@
         "Gynosphinx": {
             "name": "Gynosphinx",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Neutral",
             "items": {
                 "Inscrutable": {
                     "name": "Inscrutable",
@@ -5305,6 +5464,7 @@
         "Half-Red Dragon Veteran": {
             "name": "Half-Red Dragon Veteran",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Plate Armor": {
                     "name": "Plate Armor",
@@ -5335,6 +5495,7 @@
         "Harpy": {
             "name": "Harpy",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -5357,6 +5518,7 @@
         "Hawk": {
             "name": "Hawk",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -5372,6 +5534,7 @@
         "Hell Hound": {
             "name": "Hell Hound",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -5394,6 +5557,7 @@
         "Hezrou": {
             "name": "Hezrou",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Magic Resistance": {
                     "name": "Magic Resistance",
@@ -5420,6 +5584,7 @@
         "Hill Giant": {
             "name": "Hill Giant",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -5438,6 +5603,7 @@
         "Hippogriff": {
             "name": "Hippogriff",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Sight": {
                     "name": "Keen Sight",
@@ -5460,6 +5626,7 @@
         "Hobgoblin": {
             "name": "Hobgoblin",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Martial Advantage": {
                     "name": "Martial Advantage",
@@ -5486,6 +5653,7 @@
         "Homunculus": {
             "name": "Homunculus",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -5500,6 +5668,7 @@
         "Horned Devil": {
             "name": "Horned Devil",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Fork": {
                     "name": "Fork",
@@ -5530,6 +5699,7 @@
         "Hunter Shark": {
             "name": "Hunter Shark",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Blood Frenzy": {
                     "name": "Blood Frenzy",
@@ -5548,6 +5718,7 @@
         "Hydra": {
             "name": "Hydra",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Hold Breath": {
                     "name": "Hold Breath",
@@ -5578,6 +5749,7 @@
         "Hyena": {
             "name": "Hyena",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Pack Tactics": {
                     "name": "Pack Tactics",
@@ -5593,6 +5765,7 @@
         "Ice Devil": {
             "name": "Ice Devil",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -5636,6 +5809,7 @@
         "Ice Mephit": {
             "name": "Ice Mephit",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Death Burst": {
                     "name": "Death Burst",
@@ -5671,6 +5845,7 @@
         "Imp": {
             "name": "Imp",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -5697,6 +5872,7 @@
         "Invisible Stalker": {
             "name": "Invisible Stalker",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Faultless Tracker": {
                     "name": "Faultless Tracker",
@@ -5719,6 +5895,7 @@
         "Iron Golem": {
             "name": "Iron Golem",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Fire Absorption": {
                     "name": "Fire Absorption",
@@ -5757,6 +5934,7 @@
         "Jackal": {
             "name": "Jackal",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -5777,6 +5955,7 @@
         "Killer Whale": {
             "name": "Killer Whale",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Echolocation": {
                     "name": "Echolocation",
@@ -5799,6 +5978,7 @@
         "Knight": {
             "name": "Knight",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Plate Armor": {
                     "name": "Plate Armor",
@@ -5833,6 +6013,7 @@
         "Kobold": {
             "name": "Kobold",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Sunlight Sensitivity": {
                     "name": "Sunlight Sensitivity",
@@ -5855,6 +6036,7 @@
         "Kraken": {
             "name": "Kraken",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -5914,6 +6096,7 @@
         "Lamia": {
             "name": "Lamia",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Disguise Self": {
                     "name": "Disguise Self",
@@ -5971,6 +6154,7 @@
         "Lemure": {
             "name": "Lemure",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Devil's Sight": {
                     "name": "Devil's Sight",
@@ -5991,6 +6175,7 @@
         "Lich": {
             "name": "Lich",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Evil",
             "items": {
                 "Cantrip": {
                     "name": "Cantrip",
@@ -6155,6 +6340,7 @@
         "Lion": {
             "name": "Lion",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -6185,6 +6371,7 @@
         "Lizard": {
             "name": "Lizard",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -6195,6 +6382,7 @@
         "Lizardfolk": {
             "name": "Lizardfolk",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Hold Breath": {
                     "name": "Hold Breath",
@@ -6229,6 +6417,7 @@
         "Mage": {
             "name": "Mage",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Spellcasting": {
                     "name": "Spellcasting",
@@ -6328,6 +6517,7 @@
         "Magma Mephit": {
             "name": "Magma Mephit",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Innate Spellcasting": {
                     "name": "Innate Spellcasting",
@@ -6364,6 +6554,7 @@
         "Magmin": {
             "name": "Magmin",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Neutral",
             "items": {
                 "Death Burst": {
                     "name": "Death Burst",
@@ -6387,6 +6578,7 @@
         "Mammoth": {
             "name": "Mammoth",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Trampling Charge": {
                     "name": "Trampling Charge",
@@ -6405,6 +6597,7 @@
         "Manticore": {
             "name": "Manticore",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Tail Spike Regrowth": {
                     "name": "Tail Spike Regrowth",
@@ -6431,6 +6624,7 @@
         "Marilith": {
             "name": "Marilith",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Magic Resistance": {
                     "name": "Magic Resistance",
@@ -6469,6 +6663,7 @@
         "Mastiff": {
             "name": "Mastiff",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -6483,6 +6678,7 @@
         "Medusa": {
             "name": "Medusa",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Petrifying Gaze": {
                     "name": "Petrifying Gaze",
@@ -6509,6 +6705,7 @@
         "Merfolk": {
             "name": "Merfolk",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -6523,6 +6720,7 @@
         "Merrow": {
             "name": "Merrow",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -6549,6 +6747,7 @@
         "Mimic": {
             "name": "Mimic",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -6579,6 +6778,7 @@
         "Minotaur": {
             "name": "Minotaur",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -6605,6 +6805,7 @@
         "Minotaur Skeleton": {
             "name": "Minotaur Skeleton",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -6623,6 +6824,7 @@
         "Mule": {
             "name": "Mule",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Beast of Burden": {
                     "name": "Beast of Burden",
@@ -6641,6 +6843,7 @@
         "Mummy": {
             "name": "Mummy",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -6659,6 +6862,7 @@
         "Mummy Lord": {
             "name": "Mummy Lord",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Blinding Dust": {
                     "name": "Blinding Dust",
@@ -6778,6 +6982,7 @@
         "Nalfeshnee": {
             "name": "Nalfeshnee",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Magic Resistance": {
                     "name": "Magic Resistance",
@@ -6808,6 +7013,7 @@
         "Night Hag": {
             "name": "Night Hag",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Innate Spellcasting": {
                     "name": "Innate Spellcasting",
@@ -6859,6 +7065,7 @@
         "Nightmare": {
             "name": "Nightmare",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Confer Fire Resistance": {
                     "name": "Confer Fire Resistance",
@@ -6881,6 +7088,7 @@
         "Noble": {
             "name": "Noble",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Breastplate": {
                     "name": "Breastplate",
@@ -6899,6 +7107,7 @@
         "Ochre Jelly": {
             "name": "Ochre Jelly",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Pseudopod": {
                     "name": "Pseudopod",
@@ -6921,6 +7130,7 @@
         "Octopus": {
             "name": "Octopus",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Tentacles": {
                     "name": "Tentacles",
@@ -6947,6 +7157,7 @@
         "Ogre": {
             "name": "Ogre",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Greatclub": {
                     "name": "Greatclub",
@@ -6965,6 +7176,7 @@
         "Ogre Zombie": {
             "name": "Ogre Zombie",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Morningstar": {
                     "name": "Morningstar",
@@ -6979,6 +7191,7 @@
         "Oni": {
             "name": "Oni",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Chain Mail": {
                     "name": "Chain Mail",
@@ -7054,6 +7267,7 @@
         "Orc": {
             "name": "Orc",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Hide Armor": {
                     "name": "Hide Armor",
@@ -7076,6 +7290,7 @@
         "Otyugh": {
             "name": "Otyugh",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Limited Telepathy": {
                     "name": "Limited Telepathy",
@@ -7102,6 +7317,7 @@
         "Owl": {
             "name": "Owl",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Flyby": {
                     "name": "Flyby",
@@ -7120,6 +7336,7 @@
         "Owlbear": {
             "name": "Owlbear",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Sight and Smell": {
                     "name": "Keen Sight and Smell",
@@ -7142,6 +7359,7 @@
         "Panther": {
             "name": "Panther",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -7164,6 +7382,7 @@
         "Pegasus": {
             "name": "Pegasus",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -7174,6 +7393,7 @@
         "Phase Spider": {
             "name": "Phase Spider",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Ethereal Jaunt": {
                     "name": "Ethereal Jaunt",
@@ -7196,6 +7416,7 @@
         "Pit Fiend": {
             "name": "Pit Fiend",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Fear Aura": {
                     "name": "Fear Aura",
@@ -7257,6 +7478,7 @@
         "Planetar": {
             "name": "Planetar",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Angelic Weapons": {
                     "name": "Angelic Weapons",
@@ -7333,6 +7555,7 @@
         "Plesiosaurus": {
             "name": "Plesiosaurus",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -7347,6 +7570,7 @@
         "Poisonous Snake": {
             "name": "Poisonous Snake",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -7357,6 +7581,7 @@
         "Polar Bear": {
             "name": "Polar Bear",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -7379,6 +7604,7 @@
         "Pony": {
             "name": "Pony",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -7389,6 +7615,7 @@
         "Priest": {
             "name": "Priest",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Spellcasting": {
                     "name": "Spellcasting",
@@ -7454,6 +7681,7 @@
         "Pseudodragon": {
             "name": "Pseudodragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Good",
             "items": {
                 "Keen Senses": {
                     "name": "Keen Senses",
@@ -7480,6 +7708,7 @@
         "Purple Worm": {
             "name": "Purple Worm",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Tunneler": {
                     "name": "Tunneler",
@@ -7502,6 +7731,7 @@
         "Quasit": {
             "name": "Quasit",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Invisibility": {
                     "name": "Invisibility",
@@ -7528,6 +7758,7 @@
         "Quipper": {
             "name": "Quipper",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Blood Frenzy": {
                     "name": "Blood Frenzy",
@@ -7546,6 +7777,7 @@
         "Rakshasa": {
             "name": "Rakshasa",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Limited Magic Immunity": {
                     "name": "Limited Magic Immunity",
@@ -7628,6 +7860,7 @@
         "Rat": {
             "name": "Rat",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -7643,6 +7876,7 @@
         "Raven": {
             "name": "Raven",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Mimicry": {
                     "name": "Mimicry",
@@ -7658,6 +7892,7 @@
         "Red Dragon Wyrmling": {
             "name": "Red Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -7672,6 +7907,7 @@
         "Reef Shark": {
             "name": "Reef Shark",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Pack Tactics": {
                     "name": "Pack Tactics",
@@ -7690,6 +7926,7 @@
         "Remorhaz": {
             "name": "Remorhaz",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -7708,6 +7945,7 @@
         "Rhinoceros": {
             "name": "Rhinoceros",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -7722,6 +7960,7 @@
         "Riding Horse": {
             "name": "Riding Horse",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -7732,6 +7971,7 @@
         "Roc": {
             "name": "Roc",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Beak": {
                     "name": "Beak",
@@ -7754,6 +7994,7 @@
         "Roper": {
             "name": "Roper",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "False Appearance": {
                     "name": "False Appearance",
@@ -7788,6 +8029,7 @@
         "Rug of Smothering": {
             "name": "Rug of Smothering",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Antimagic Susceptibility": {
                     "name": "Antimagic Susceptibility",
@@ -7810,6 +8052,7 @@
         "Rust Monster": {
             "name": "Rust Monster",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Iron Scent": {
                     "name": "Iron Scent",
@@ -7832,6 +8075,7 @@
         "Saber-Toothed Tiger": {
             "name": "Saber-Toothed Tiger",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -7854,6 +8098,7 @@
         "Sahuagin": {
             "name": "Sahuagin",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Spear": {
                     "name": "Spear",
@@ -7888,6 +8133,7 @@
         "Salamander": {
             "name": "Salamander",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Heated Body": {
                     "name": "Heated Body",
@@ -7914,6 +8160,7 @@
         "Satyr": {
             "name": "Satyr",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Neutral",
             "items": {
                 "Shortbow": {
                     "name": "Shortbow",
@@ -7940,6 +8187,7 @@
         "Scorpion": {
             "name": "Scorpion",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Sting": {
                     "name": "Sting",
@@ -7950,6 +8198,7 @@
         "Scout": {
             "name": "Scout",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Leather Armor": {
                     "name": "Leather Armor",
@@ -7976,6 +8225,7 @@
         "Sea Hag": {
             "name": "Sea Hag",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -8002,6 +8252,7 @@
         "Sea Horse": {
             "name": "Sea Horse",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Water Breathing": {
                     "name": "Water Breathing",
@@ -8012,6 +8263,7 @@
         "Shadow": {
             "name": "Shadow",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Amorphous": {
                     "name": "Amorphous",
@@ -8039,6 +8291,7 @@
         "Shambling Mound": {
             "name": "Shambling Mound",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Lightning Absorption": {
                     "name": "Lightning Absorption",
@@ -8061,6 +8314,7 @@
         "Shield Guardian": {
             "name": "Shield Guardian",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bound": {
                     "name": "Bound",
@@ -8091,6 +8345,7 @@
         "Shrieker": {
             "name": "Shrieker",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Shriek": {
                     "name": "Shriek",
@@ -8105,6 +8360,7 @@
         "Silver Dragon Wyrmling": {
             "name": "Silver Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -8127,6 +8383,7 @@
         "Skeleton": {
             "name": "Skeleton",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Shortbow": {
                     "name": "Shortbow",
@@ -8141,6 +8398,7 @@
         "Solar": {
             "name": "Solar",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Angelic Weapons": {
                     "name": "Angelic Weapons",
@@ -8238,6 +8496,7 @@
         "Specter": {
             "name": "Specter",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Incorporeal Movement": {
                     "name": "Incorporeal Movement",
@@ -8256,6 +8515,7 @@
         "Spider": {
             "name": "Spider",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Spider Climb": {
                     "name": "Spider Climb",
@@ -8278,6 +8538,7 @@
         "Spirit Naga": {
             "name": "Spirit Naga",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -8354,6 +8615,7 @@
         "Sprite": {
             "name": "Sprite",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Good",
             "items": {
                 "Leather Armor (tiny)": {
                     "name": "Leather Armor (tiny)",
@@ -8380,6 +8642,7 @@
         "Spy": {
             "name": "Spy",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Cunning Action": {
                     "name": "Cunning Action",
@@ -8406,6 +8669,7 @@
         "Steam Mephit": {
             "name": "Steam Mephit",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Claws": {
                     "name": "Claws",
@@ -8437,6 +8701,7 @@
         "Stirge": {
             "name": "Stirge",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Blood Drain": {
                     "name": "Blood Drain",
@@ -8447,6 +8712,7 @@
         "Stone Giant": {
             "name": "Stone Giant",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Greatclub": {
                     "name": "Greatclub",
@@ -8473,6 +8739,7 @@
         "Stone Golem": {
             "name": "Stone Golem",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Immutable Form": {
                     "name": "Immutable Form",
@@ -8503,6 +8770,7 @@
         "Storm Giant": {
             "name": "Storm Giant",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Scale Mail": {
                     "name": "Scale Mail",
@@ -8566,6 +8834,7 @@
         "Succubus/Incubus": {
             "name": "Succubus/Incubus",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "neutral evil",
             "items": {
                 "Telepathic Bond": {
                     "name": "Telepathic Bond",
@@ -8618,6 +8887,7 @@
         "Swarm of Bats": {
             "name": "Swarm of Bats",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bites": {
                     "name": "Bites",
@@ -8643,6 +8913,7 @@
         "Swarm of Beetles": {
             "name": "Swarm of Beetles",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Swarm": {
                     "name": "Swarm",
@@ -8658,6 +8929,7 @@
         "Swarm of Centipedes": {
             "name": "Swarm of Centipedes",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Swarm": {
                     "name": "Swarm",
@@ -8673,6 +8945,7 @@
         "Swarm of Insects": {
             "name": "Swarm of Insects",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Swarm": {
                     "name": "Swarm",
@@ -8688,6 +8961,7 @@
         "Swarm of Poisonous Snakes": {
             "name": "Swarm of Poisonous Snakes",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Swarm": {
                     "name": "Swarm",
@@ -8703,6 +8977,7 @@
         "Swarm of Quippers": {
             "name": "Swarm of Quippers",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Blood Frenzy": {
                     "name": "Blood Frenzy",
@@ -8725,6 +9000,7 @@
         "Swarm of Rats": {
             "name": "Swarm of Rats",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -8743,6 +9019,7 @@
         "Swarm of Ravens": {
             "name": "Swarm of Ravens",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Swarm": {
                     "name": "Swarm",
@@ -8757,6 +9034,7 @@
         "Swarm of Spiders": {
             "name": "Swarm of Spiders",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Swarm": {
                     "name": "Swarm",
@@ -8783,6 +9061,7 @@
         "Swarm of Wasps": {
             "name": "Swarm of Wasps",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Swarm": {
                     "name": "Swarm",
@@ -8798,6 +9077,7 @@
         "Tarrasque": {
             "name": "Tarrasque",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Legendary Resistance": {
                     "name": "Legendary Resistance",
@@ -8864,6 +9144,7 @@
         "Thug": {
             "name": "Thug",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any non-good alignment",
             "items": {
                 "Leather Armor": {
                     "name": "Leather Armor",
@@ -8890,6 +9171,7 @@
         "Tiger": {
             "name": "Tiger",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Smell": {
                     "name": "Keen Smell",
@@ -8912,6 +9194,7 @@
         "Treant": {
             "name": "Treant",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Animate Trees": {
                     "name": "Animate Trees",
@@ -8942,6 +9225,7 @@
         "Tribal Warrior": {
             "name": "Tribal Warrior",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "any alignment",
             "items": {
                 "Hide Armor": {
                     "name": "Hide Armor",
@@ -8960,6 +9244,7 @@
         "Triceratops": {
             "name": "Triceratops",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Gore": {
                     "name": "Gore",
@@ -8983,6 +9268,7 @@
         "Troll": {
             "name": "Troll",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9009,6 +9295,7 @@
         "Tyrannosaurus Rex": {
             "name": "Tyrannosaurus Rex",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9027,6 +9314,7 @@
         "Unicorn": {
             "name": "Unicorn",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Charge": {
                     "name": "Charge",
@@ -9121,6 +9409,7 @@
         "Vampire": {
             "name": "Vampire",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -9192,6 +9481,7 @@
         "Vampire Spawn": {
             "name": "Vampire Spawn",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9222,6 +9512,7 @@
         "Veteran": {
             "name": "Veteran",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Any Alignment",
             "items": {
                 "Splint Armor": {
                     "name": "Splint Armor",
@@ -9248,6 +9539,7 @@
         "Violet Fungus": {
             "name": "Violet Fungus",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Rotting Touch": {
                     "name": "Rotting Touch",
@@ -9266,6 +9558,7 @@
         "Vrock": {
             "name": "Vrock",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Magic Resistance": {
                     "name": "Magic Resistance",
@@ -9296,6 +9589,7 @@
         "Vulture": {
             "name": "Vulture",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Sight and Smell": {
                     "name": "Keen Sight and Smell",
@@ -9316,6 +9610,7 @@
         "Warhorse": {
             "name": "Warhorse",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Trampling Charge": {
                     "name": "Trampling Charge",
@@ -9330,6 +9625,7 @@
         "Warhorse Skeleton": {
             "name": "Warhorse Skeleton",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Hooves": {
                     "name": "Hooves",
@@ -9340,6 +9636,7 @@
         "Water Elemental": {
             "name": "Water Elemental",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Freeze": {
                     "name": "Freeze",
@@ -9371,6 +9668,7 @@
         "Weasel": {
             "name": "Weasel",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -9386,6 +9684,7 @@
         "Werebear": {
             "name": "Werebear",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Good",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -9416,6 +9715,7 @@
         "Wereboar": {
             "name": "Wereboar",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Charge (Boar or Hybrid Form Only)": {
                     "name": "Charge (Boar or Hybrid Form Only)",
@@ -9446,6 +9746,7 @@
         "Wererat": {
             "name": "Wererat",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -9476,6 +9777,7 @@
         "Weretiger": {
             "name": "Weretiger",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Shapechanger": {
                     "name": "Shapechanger",
@@ -9526,6 +9828,7 @@
         "Werewolf": {
             "name": "Werewolf",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite (Wolf or Hybrid Form Only)": {
                     "name": "Bite (Wolf or Hybrid Form Only)",
@@ -9556,6 +9859,7 @@
         "White Dragon Wyrmling": {
             "name": "White Dragon Wyrmling",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9570,6 +9874,7 @@
         "Wight": {
             "name": "Wight",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Studded Leather Armor": {
                     "name": "Studded Leather Armor",
@@ -9600,6 +9905,7 @@
         "Will-o'-Wisp": {
             "name": "Will-o'-Wisp",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Consume Life": {
                     "name": "Consume Life",
@@ -9635,6 +9941,7 @@
         "Winter Wolf": {
             "name": "Winter Wolf",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -9661,6 +9968,7 @@
         "Wolf": {
             "name": "Wolf",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -9679,6 +9987,7 @@
         "Worg": {
             "name": "Worg",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Keen Hearing and Smell": {
                     "name": "Keen Hearing and Smell",
@@ -9693,6 +10002,7 @@
         "Wraith": {
             "name": "Wraith",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Create Specter": {
                     "name": "Create Specter",
@@ -9715,6 +10025,7 @@
         "Wyvern": {
             "name": "Wyvern",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Unaligned",
             "items": {
                 "Multiattack": {
                     "name": "Multiattack",
@@ -9737,6 +10048,7 @@
         "Xorn": {
             "name": "Xorn",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9767,6 +10079,7 @@
         "Young Black Dragon": {
             "name": "Young Black Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Acid Breath": {
                     "name": "Acid Breath",
@@ -9793,6 +10106,7 @@
         "Young Blue Dragon": {
             "name": "Young Blue Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9815,6 +10129,7 @@
         "Young Brass Dragon": {
             "name": "Young Brass Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9847,6 +10162,7 @@
         "Young Bronze Dragon": {
             "name": "Young Bronze Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -9881,6 +10197,7 @@
         "Young Copper Dragon": {
             "name": "Young Copper Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9911,6 +10228,7 @@
         "Young Gold Dragon": {
             "name": "Young Gold Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -9945,6 +10263,7 @@
         "Young Green Dragon": {
             "name": "Young Green Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Evil",
             "items": {
                 "Amphibious": {
                     "name": "Amphibious",
@@ -9971,6 +10290,7 @@
         "Young Red Dragon": {
             "name": "Young Red Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -9998,6 +10318,7 @@
         "Young Silver Dragon": {
             "name": "Young Silver Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -10028,6 +10349,7 @@
         "Young White Dragon": {
             "name": "Young White Dragon",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Evil",
             "items": {
                 "Bite": {
                     "name": "Bite",
@@ -10069,6 +10391,7 @@
         "Zombie": {
             "name": "Zombie",
             "description": "<p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Slam": {
                     "name": "Slam",

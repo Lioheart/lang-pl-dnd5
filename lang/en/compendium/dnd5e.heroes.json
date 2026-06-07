@@ -27,6 +27,7 @@
             "name": "Akra (Dragonborn Cleric)",
             "tokenName": "Akra",
             "description": "<p>A devout follower of her deity and of her society's customs, Akra feels somewhat out of place adventuring in foreign lands. But she feels bound to do everything in her power to bring peace to the region.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Holy Symbol": {
                     "name": "Holy Symbol",
@@ -539,6 +540,7 @@
             "name": "Beiro (Half-Elf Bard)",
             "tokenName": "Beiro",
             "description": "<p>Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again at his tavern.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Neutral",
             "items": {
                 "Musical Instrument: Lute": {
                     "name": "Musical Instrument: Lute",
@@ -738,6 +740,7 @@
             "name": "Krusk (Half-Orc Paladin)",
             "tokenName": "Krusk",
             "description": "<p>Roaming the land brigning justice to all, Krusk has just one goal: the destruction of evil wherever it lies.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Lawful Good",
             "items": {
                 "Amulet (Holy Symbol)": {
                     "name": "Amulet (Holy Symbol)",
@@ -899,6 +902,7 @@
             "name": "Merric (Halfling Barbarian)",
             "tokenName": "Merric",
             "description": "<p>Merric was once a vigilante, due to her innate sense of street justice. Though her small size may not seem like much in combat, she more than makes up for it with her violent outbursts of anger.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Vigilante": {
                     "name": "Vigilante",
@@ -1029,6 +1033,7 @@
             "name": "Morthos (Tiefling Sorcerer)",
             "tokenName": "Morthos",
             "description": "<p>Morthos's investigation into her complex draconic-infernal ancestry led her to an academic life, but it soon became apparent that the fools in charge were keeping many secrets from her.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Evil",
             "items": {
                 "Scholar": {
                     "name": "Scholar",
@@ -1399,6 +1404,7 @@
             "name": "Quillathe (Elf Ranger)",
             "tokenName": "Quillathe",
             "description": "<p>Quillathe cleanses monsters from her woods as a hobby, but now a new force menaces her land and she must band with adventurers to defeat it.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Neutral",
             "items": {
                 "Monster Hunter": {
                     "name": "Monster Hunter",
@@ -1538,6 +1544,7 @@
             "name": "Randal (Human Fighter)",
             "tokenName": "Randal",
             "description": "<p>Randal worked his way through the ranks of his hometown's guard, ultimately growing restless with city life and wandering off in search of adventure.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutral Good",
             "items": {
                 "Grappler": {
                     "name": "Grappler",
@@ -1860,6 +1867,7 @@
             "name": "Sefris (Half-Elf Warlock)",
             "tokenName": "Sefris",
             "description": "<p>Sefris's pickpocketing as a child grew into small burglaries and eventually complex heists, using the dark bond with his fiend to aid his exploits. He'll work for anyone who can throw some coin his way.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Neutral",
             "items": {
                 "Burglar": {
                     "name": "Burglar",
@@ -2057,6 +2065,7 @@
             "name": "Zanna (Gnome Wizard)",
             "tokenName": "Zanna",
             "description": "<p>Always interested in tinkering, Zanna set out for adventure in order to find more spells for her spellbook, and perhaps one day create some of her own.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotic Good",
             "items": {
                 "Tinker": {
                     "name": "Tinker",
