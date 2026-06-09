@@ -27,6 +27,7 @@
             "name": "Akra (Drakon Kleryk)",
             "tokenName": "Akra",
             "description": "<p>Będąc pobożną wyznawczynią swojego bóstwa i obyczajów swojego ludu, Akra czuje się nieco nie na miejscu poszukując przygód w obcych krainach. Czuje się jednak zobowiązana do zrobienia wszystkiego, co w jej mocy, aby zaprowadzić pokój w regionie.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Praworządny Dobry",
             "items": {
                 "Holy Symbol": {
                     "name": "Święty symbol",
@@ -539,6 +540,7 @@
             "name": "Beiro (Pół-elf Bard)",
             "tokenName": "Beiro",
             "description": "<p>Beiro był znanym artystą w swojej lokalnej tawernie, kiedy pewnego dnia zabrakło mu historii do opowiedzenia. Aby rozwiązać ten problem, postanowił stworzyć własne historie, aby pewnego dnia opowiedzieć je w swojej tawernie.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotyczny Neutralny",
             "items": {
                 "Musical Instrument: Lute": {
                     "name": "Instrument muzyczny Lutnia",
@@ -738,6 +740,7 @@
             "name": "Krusk (Pół-Ork Paladyn)",
             "tokenName": "Krusk",
             "description": "<p>Krusk, przemierzając krainy i niosąc sprawiedliwość dla wszystkich, ma tylko jeden cel: zniszczenie zła, gdziekolwiek ono leży.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Praworządny Dobry",
             "items": {
                 "Amulet (Holy Symbol)": {
                     "name": "Amulet (Święty Symbol)",
@@ -899,6 +902,7 @@
             "name": "Merric (Niziołek Barbarzyńca)",
             "tokenName": "Merric",
             "description": "<p>Merric była niegdyś samozwańczą mścicielką, ze względu na jej wrodzone poczucie sprawiedliwości. Chociaż jej niewielki wzrost może nie wydawać się zbyt pokaźny w walce, nadrabia to gwałtownymi wybuchami gniewu.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotyczny Dobry",
             "items": {
                 "Vigilante": {
                     "name": "Mściciel",
@@ -1029,6 +1033,7 @@
             "name": "Morthos (Diabelstwo Zaklinacz)",
             "tokenName": "Morthos",
             "description": "<p>Ze względu na złożone, drakońsko-piekielne pochodzenie Morthos postanowiła poświęcić się akademickiemu życiu. Wkrótce jednak stało się jasne, że głupcy u władzy mają przed nią wiele tajemnic.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutralny Zły",
             "items": {
                 "Scholar": {
                     "name": "Mędrzec",
@@ -1399,6 +1404,7 @@
             "name": "Quillathe (Elf Łowca)",
             "tokenName": "Quillathe",
             "description": "<p>Quillathe zrobiła hobby z oczyszczania lasów z potworów, ale teraz nowa siła zagraża jej krainie i musi połączyć siły z poszukiwaczami przygód, aby ją pokonać.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotyczny Neutralny",
             "items": {
                 "Monster Hunter": {
                     "name": "Łowca potworów",
@@ -1538,6 +1544,7 @@
             "name": "Randal (Człowiek Wojownik)",
             "tokenName": "Randal",
             "description": "<p>Randal awansował w szeregach strażników swojego rodzinnego miasta. Ostatecznie jednak miejskie życie stało się zbyt męczące i postanowił poświęcić się poszukiwaniu przygód.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Neutralny Dobry",
             "items": {
                 "Grappler": {
                     "name": "Zapaśnik",
@@ -1860,6 +1867,7 @@
             "name": "Sefris (Pół-elf Czarownik)",
             "tokenName": "Sefris",
             "description": "<p>Sefris w dzieciństwie zaczynał o kieszonkowstwa, co szybko przeszło w małe włamania i ostatecznie złożone napady. Wykorzystuje mroczną więź ze swoim Czartem, aby wspomóc swoje wyczyny. Będzie pracował dla każdego, kto rzuci monetą w jego stronę.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotyczny Neutralny",
             "items": {
                 "Burglar": {
                     "name": "Włamywacz",
@@ -2057,6 +2065,7 @@
             "name": "Zanna (Gnom Mag)",
             "tokenName": "Zanna",
             "description": "<p>Zawsze zainteresowana majsterkowaniem, Zanna wyruszyła w poszukiwaniu przygód, aby znaleźć więcej zaklęć do swojej księgi czarów i być może pewnego dnia stworzyć własne.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
+            "alignment": "Chaotyczny Dobry",
             "items": {
                 "Tinker": {
                     "name": "Majsterkowicz",
