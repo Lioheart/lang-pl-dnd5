@@ -5,6 +5,8 @@
         "requirements": "system.requirements",
         "materials": "system.materials.value",
         "chat": "system.description.chat",
+        "activation": "system.activation.condition",
+        "activationValue": "system.activation.value",
         "activities": {
             "path": "system.activities",
             "converter": "structured",
@@ -18,6 +20,7 @@
             "mapping": {
                 "name": "name",
                 "condition": "activation.condition",
+                "activationValue": "activation.value",
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
                 "roll": "roll.name",
@@ -41,33 +44,7 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "structured",
-            "cardinality": "many",
-            "container": "keyed",
-            "keys": [
-                "_id",
-                "title"
-            ],
-            "mapping": {
-                "title": "title",
-                "hint": "hint",
-                "_variants": [
-                    {
-                        "_when": {
-                            "path": "type",
-                            "equals": "ScaleValue"
-                        },
-                        "distance": {
-                            "path": "configuration.distance",
-                            "converter": "imperialToMetric"
-                        },
-                        "scale": {
-                            "path": "configuration.scale",
-                            "converter": "imperialToMetric"
-                        }
-                    }
-                ]
-            }
+            "converter": "translateAdvancement"
         },
         "movement": {
             "path": "system.movement",
