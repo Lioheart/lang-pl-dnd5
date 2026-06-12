@@ -46,7 +46,7 @@
             "path": "system.advancement",
             "converter": "structured",
             "cardinality": "many",
-            "container": "keyed",
+            "container": "array",
             "keys": [
                 "_id",
                 "title"
