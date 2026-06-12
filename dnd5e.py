@@ -987,6 +987,18 @@ JOURNAL_LABEL_OVERRIDES = {
     "content24": "Rules",
 }
 
+def looks_like_journal_pack(data: list[dict]) -> bool:
+    """Rozpoznaje paczkę JournalEntry niezależnie od jej nazwy."""
+    if not isinstance(data, list):
+        return False
+
+    return any(
+        isinstance(record, dict)
+        and isinstance(record.get("pages"), list)
+        and isinstance(record.get("name"), str)
+        and bool(record["name"].strip())
+        for record in data
+    )
 
 def is_folder_record(record: dict) -> bool:
     """
@@ -1388,6 +1400,98 @@ def extract_journal_page_descriptions(page: dict) -> dict:
 
     return result
 
+def build_journal_pages_mapping(data: list[dict]) -> dict:
+    """
+    Dodaje pola stron JournalEntryPage, których nie obejmuje domyślne
+    mapowanie Babele dla D&D 5e.
+    """
+    page_mapping: dict[str, str] = {}
+
+    for record in data:
+        if not isinstance(record, dict):
+            continue
+
+        if isinstance(record.get("pages"), list):
+            continue
+
+        description = record.get("system", {}).get("description")
+
+        if isinstance(description, dict):
+            for source_key, value in description.items():
+                if not isinstance(value, str) or not value.strip():
+                    continue
+
+                output_key = (
+                    "description"
+                    if source_key == "value"
+                    else source_key
+                )
+
+                page_mapping[output_key] = (
+                    f"system.description.{source_key}"
+                )
+
+        dnd5e_title = (
+            record.get("flags", {})
+            .get("dnd5e", {})
+            .get("title")
+        )
+
+        if isinstance(dnd5e_title, str) and dnd5e_title.strip():
+            page_mapping["chapterTitle"] = "flags.dnd5e.title"
+
+    pages_mapping = {
+        "path": "pages",
+        "converter": "document",
+        "documentType": "JournalEntryPage",
+        "cardinality": "many"
+    }
+
+    if page_mapping:
+        pages_mapping["mapping"] = dict(
+            sorted(
+                page_mapping.items(),
+                key=lambda item: item[0].casefold()
+            )
+        )
+
+    return pages_mapping
+
+
+def collect_journal_folder_names(
+        data: list[dict]
+) -> dict[str, str]:
+    """Zwraca foldery JournalEntry w kolejności pola sort."""
+    folder_records = []
+
+    for record in data:
+        if not isinstance(record, dict):
+            continue
+
+        if not is_folder_record(record):
+            continue
+
+        name = (record.get("name") or "").strip()
+        if not name:
+            continue
+
+        sort_value = record.get("sort")
+        if not isinstance(sort_value, (int, float)):
+            sort_value = 0
+
+        folder_records.append(
+            (sort_value, name.casefold(), name)
+        )
+
+    folder_records.sort(
+        key=lambda item: (item[0], item[1])
+    )
+
+    return {
+        name: name
+        for _, _, name in folder_records
+    }
+
 
 def resolve_journal_pages(pages_value, id_index: dict) -> list[dict]:
     pages = []
@@ -1405,16 +1509,54 @@ def resolve_journal_pages(pages_value, id_index: dict) -> list[dict]:
     return pages
 
 
-def process_rules_pack(data: list[dict], pack_name: str) -> dict:
+def process_rules_pack(
+        data: list[dict],
+        pack_name: str,
+        pack_label: str | None = None
+) -> dict:
     """
-    JournalEntry rules exportujemy bez mapping i bez folders:
-    entries[JournalEntry.name].pages[JournalEntryPage.name].text.
+    Eksportuje paczkę JournalEntry w kształcie zgodnym z eksportem Babele.
+
+    Zachowuje standardowe pola Babele i dodaje pola specyficzne dla D&D 5e,
+    których domyślne mapowanie Babele nie obejmuje:
+        - flags.dnd5e.title na JournalEntry,
+        - flags.dnd5e.title na JournalEntryPage,
+        - system.description.* na JournalEntryPage.
     """
     id_index = build_id_index(data)
+    folders = collect_journal_folder_names(data)
+
+    mapping = {
+        "pages": build_journal_pages_mapping(data)
+    }
+
+    has_entry_title = any(
+        isinstance(record, dict)
+        and isinstance(record.get("pages"), list)
+        and isinstance(
+            record.get("flags", {}).get("dnd5e", {}).get("title"),
+            str
+        )
+        and bool(
+            record.get("flags", {}).get("dnd5e", {}).get("title").strip()
+        )
+        for record in data
+    )
+
+    if has_entry_title:
+        mapping["chapterTitle"] = "flags.dnd5e.title"
+
     transifex_dict = {
-        "label": JOURNAL_LABEL_OVERRIDES.get(pack_name, pack_name.title()),
+        "label": JOURNAL_LABEL_OVERRIDES.get(
+            pack_name,
+            pack_name.title()
+        ),
+        "mapping": mapping,
         "entries": {},
     }
+
+    if folders:
+        transifex_dict["folders"] = folders
 
     for record in data:
         if not isinstance(record, dict):
@@ -1431,7 +1573,24 @@ def process_rules_pack(data: list[dict], pack_name: str) -> dict:
         if not entry_name:
             continue
 
-        entry = {"name": entry_name, "pages": {}}
+        entry = {
+            "name": entry_name,
+            "pages": {},
+        }
+
+        chapter_title = (
+            record.get("flags", {})
+            .get("dnd5e", {})
+            .get("title")
+        )
+
+        if isinstance(chapter_title, str) and chapter_title.strip():
+            entry["chapterTitle"] = chapter_title.strip()
+
+        journal_content = record.get("content")
+        if isinstance(journal_content, str) and journal_content.strip():
+            entry["description"] = journal_content.strip()
+
         for page in resolve_journal_pages(pages_value, id_index):
             page_name = (page.get("name") or "").strip()
             if not page_name:
@@ -1441,24 +1600,57 @@ def process_rules_pack(data: list[dict], pack_name: str) -> dict:
                 "name": page_name
             }
 
-            # Standardowa strona JournalEntryPage typu text.
             text = extract_journal_page_text(page)
             if text:
                 page_entry["text"] = text
 
-            # Specjalna strona D&D 5e typu class, subclass itp.
-            # system.description.value zostanie zapisane jako description.
             page_entry.update(
                 extract_journal_page_descriptions(page)
             )
+
+            page_title = (
+                page.get("flags", {})
+                .get("dnd5e", {})
+                .get("title")
+            )
+
+            if isinstance(page_title, str) and page_title.strip():
+                page_entry["chapterTitle"] = page_title.strip()
+
+            image = page.get("image")
+            if isinstance(image, dict):
+                caption = image.get("caption")
+                if isinstance(caption, str) and caption.strip():
+                    page_entry["caption"] = caption.strip()
+
+            src = page.get("src")
+            if isinstance(src, str) and src.strip():
+                page_entry["src"] = src.strip()
+
+            video = page.get("video")
+            if isinstance(video, dict):
+                width = video.get("width")
+                height = video.get("height")
+
+                if width not in (None, ""):
+                    page_entry["width"] = width
+
+                if height not in (None, ""):
+                    page_entry["height"] = height
 
             entry["pages"][page_name] = page_entry
 
         if entry["pages"]:
             transifex_dict["entries"][entry_name] = entry
 
-    return remove_empty_keys(transifex_dict)
+    transifex_dict["entries"] = dict(
+        sorted(
+            transifex_dict["entries"].items(),
+            key=lambda item: item[0].casefold()
+        )
+    )
 
+    return remove_empty_keys(transifex_dict)
 
 TOKEN_ARTWORK_DESCRIPTION = '<p><em>Token artwork by <a href="https://www.forgotten-adventures.net/" target="_blank" rel="noopener">Forgotten Adventures</a>.</em></p>'
 
@@ -2325,7 +2517,10 @@ def process_files(folders: str, version: str) -> None:
                     json.dump(transifex_dict, outfile, ensure_ascii=False, indent=4)
                 continue
 
-            if pack_name in JOURNAL_LABEL_OVERRIDES:
+            if (
+                    pack_name in JOURNAL_LABEL_OVERRIDES
+                    or looks_like_journal_pack(data)
+            ):
                 transifex_dict = process_rules_pack(data, pack_name)
                 with open(new_name, "w", encoding="utf-8") as outfile:
                     json.dump(transifex_dict, outfile, ensure_ascii=False, indent=4)
