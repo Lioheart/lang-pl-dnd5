@@ -4492,10 +4492,22 @@
         }
     },
     "folders": {
+        "Ammunition": "Amunicja",
         "Armor": "Pancerz",
         "Container": "Pojemnik",
+        "Equipment": "Wyposażenie",
         "Equipment Packs": "Zestawy wyposażenia",
+        "Food": "Jedzenie",
+        "Loot": "Przedmiot",
+        "Poison": "Od trucizny",
+        "Potion": "Mikstura",
         "Ring": "Pierścień",
-        "Spellcasting Focus": "Magiczny fokus"
+        "Rod": "Berło",
+        "Scroll": "Zwój",
+        "Spellcasting Focus": "Magiczny fokus",
+        "Tool": "Narzędzie",
+        "Trinket": "Drobiazg",
+        "Wand": "Różdżka",
+        "Weapon": "Broń"
     }
 }
