@@ -1709,10 +1709,14 @@ def add_activities_to_item(entry: dict, item: dict) -> None:
             entry["activities"][activity_key] = activity_entry
 
 
+
 def add_advancement_to_item(entry: dict, item: dict) -> None:
     advancement = item.get("system", {}).get("advancement")
+
     if not isinstance(advancement, list):
         return
+
+    translated_entries = {}
 
     for advancement_entry in advancement:
         if not isinstance(advancement_entry, dict):
@@ -1722,22 +1726,51 @@ def add_advancement_to_item(entry: dict, item: dict) -> None:
         hint = advancement_entry.get("hint")
         advancement_id = advancement_entry.get("_id")
 
-        clean_title = title.strip() if isinstance(title, str) and title.strip() else ""
-        clean_hint = hint.strip() if isinstance(hint, str) and hint.strip() else ""
-        key = clean_title or advancement_id
+        clean_title = (
+            title.strip()
+            if isinstance(title, str) and title.strip()
+            else ""
+        )
 
-        if not key or (not clean_title and not clean_hint):
+        clean_hint = (
+            hint.strip()
+            if isinstance(hint, str) and hint.strip()
+            else ""
+        )
+
+        clean_id = (
+            advancement_id.strip()
+            if isinstance(advancement_id, str) and advancement_id.strip()
+            else ""
+        )
+
+        # Pomijamy wpisy, które nie zawierają tekstu do tłumaczenia.
+        if not clean_title and not clean_hint:
             continue
 
-        entry.setdefault("advancement", {})
-        translated_advancement = {}
+        # Pierwszy wpis może być kluczowany po title.
+        # Kolejne wpisy o identycznym title muszą być kluczowane po _id,
+        # aby nie nadpisywały wcześniejszych advancementów.
+        key = clean_title or clean_id
+
+        if key in translated_entries:
+            key = clean_id
+
+        if not key or key in translated_entries:
+            continue
+
+        translated_entry = {}
+
         if clean_title:
-            translated_advancement["title"] = clean_title
+            translated_entry["title"] = clean_title
+
         if clean_hint:
-            translated_advancement["hint"] = clean_hint
+            translated_entry["hint"] = clean_hint
 
-        entry["advancement"][key] = translated_advancement
+        translated_entries[key] = translated_entry
 
+    if translated_entries:
+        entry["advancement"] = translated_entries
 
 def populate_dnd5e_item(entry: dict, item: dict, id_index: dict | None = None) -> None:
     name = (item.get("name") or "").strip()
