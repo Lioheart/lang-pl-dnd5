@@ -55,7 +55,6 @@ Hooks.once("babele.init", (babele) => {
         "sightRange": Dnd5ePlConverters.imperialToMetric("sightRange"),
         "communication": Dnd5ePlConverters.imperialToMetric("communication"),
         "rangeActivities": Dnd5ePlConverters.imperialToMetric("rangeActivities"),
-        "distanceAdvancement": Dnd5ePlConverters.imperialToMetric("distanceAdvancement"),
 
         "pages": Dnd5ePlConverters.pages(),
         "effects": Dnd5ePlConverters.effects(),
