@@ -240,6 +240,39 @@
                 "Class Features": {
                     "title": "Zdolności Klasy"
                 },
+                "vbNdqiHqN2qTbnUw": {
+                    "title": "Zdolności Klasy"
+                },
+                "MUU3y634K3edUdyL": {
+                    "title": "Zdolności Klasy"
+                },
+                "49KNhnvoZJduJaOI": {
+                    "title": "Zdolności Klasy"
+                },
+                "ALO7yStJ7IHDxOss": {
+                    "title": "Zdolności Klasy"
+                },
+                "JNtXQqEZhCUM1NLJ": {
+                    "title": "Zdolności Klasy"
+                },
+                "5S7821U8Dtg9egZu": {
+                    "title": "Zdolności Klasy"
+                },
+                "zqXib0MKbaqrTTVR": {
+                    "title": "Zdolności Klasy"
+                },
+                "YYXyPXHTKRgnPswF": {
+                    "title": "Zdolności Klasy"
+                },
+                "e5XIkDQYhqNDImgs": {
+                    "title": "Zdolności Klasy"
+                },
+                "WlOoBbYeEoCTcD0t": {
+                    "title": "Zdolności Klasy"
+                },
+                "vsCiTVHhgLseNJjr": {
+                    "title": "Zdolności Klasy"
+                },
                 "Primal Knowledge": {
                     "title": "Pierwotna wiedza",
                     "hint": "Zyskujesz biegłość w jednej dodatkowej umiejętności według własnego wyboru z listy umiejętności dostępnych dla Barbarzyńców na 1. poziomie."
@@ -259,7 +292,21 @@
                 "Armor Training": {
                     "title": "Biegłośc w pancerzu"
                 },
+                "yj2VgvjKystoRCK6": {
+                    "title": "Biegłości w broniach"
+                },
+                "oxhsE5PIGxe6mO4s": {
+                    "title": "Biegłośc w pancerzu"
+                },
                 "Weapon Mastery": {
+                    "title": "Mistrzostwo broni",
+                    "hint": "Twoje szkolenie w posługiwaniu się bronią pozwala ci korzystać z właściwości mistrzowskich dodatkowych rodzajów broni."
+                },
+                "WYkWGiSyjLN4WC4x": {
+                    "title": "Mistrzostwo broni",
+                    "hint": "Twoje szkolenie w posługiwaniu się bronią pozwala ci korzystać z właściwości mistrzowskich dodatkowych rodzajów broni."
+                },
+                "EUfvF7zVF9ooQGUg": {
                     "title": "Mistrzostwo broni",
                     "hint": "Twoje szkolenie w posługiwaniu się bronią pozwala ci korzystać z właściwości mistrzowskich dodatkowych rodzajów broni."
                 },
@@ -273,6 +320,24 @@
             "description": "<h3>Podstawowe cechy barda</h3><table class=\"core-class-traits\"><tbody><tr><th><p><strong>Cecha Podstawowa</strong></p></th><td><p>Charyzma</p></td></tr><tr><th><p><strong>Kość Punktów Wytrzymałości</strong></p></th><td><p>K8 na poziom barda</p></td></tr><tr><th><p><strong>Biegłości w rzutach obronnych</strong></p></th><td><p>Zręczność i Charyzma</p></td></tr><tr><th><p><strong>Biegłości w umiejętnościach</strong></p></th><td><p><em>Wybierz dowolne 3 umiejętności</em></p></td></tr><tr><th><p><strong>Biegłości w broniach</strong></p></th><td><p>Broń prosta</p></td></tr><tr><th><p><strong>Biegłości w narzędziach</strong></p></th><td><p><em>Wybierz 3 instrumenty muzyczne</em></p></td></tr><tr><th><p><strong>Biegłość w pancerzu</strong></p></th><td><p>Lekkie pancerze</p></td></tr><tr><th><p><strong>Ekwipunek startowy</strong></p></th><td><p><em>Wybierz A lub B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm], 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Sztylety}, Instrument muzyczny do wyboru, @UUID[Compendium.dnd5e.equipment24.Item.phbagEntertainer], and [[/award 19gp]]; lub (B) [[/award 90GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrdBard000000 inline classes=\"free-rules-embed\"]</p><h2>Zostanie bardem …</h2><h3>Jako postać 1. poziomu</h3><ul><li>Zyskaj wszystkie cechy z tabeli Podstawowe cechy barda.</li><li>Zyskaj cechy barda 1. poziomu, które są wymienione w tabeli cech barda.</li></ul><h3>Jako postać wieloklasowa</h3><ul><li>Zyskaj następujące cechy z tabeli Podstawowe cechy barda: Kość Punktów Wytrzymałości, biegłość w jednej umiejętności do wyboru, biegłość w jednym instrumencie muzycznym do wyboru i wyszkolenie w lekkich pancerzach.</li><li>Zyskaj cechy barda 1. poziomu, które są wymienione w tabeli cech barda. Zobacz zasady wieloklasowości w rozdziale 2, aby określić dostępne komórki czarów.</li></ul>",
             "advancement": {
                 "Class Features": {
+                    "title": "Zdolności Klasy"
+                },
+                "eHieMgibvVLqVjY8": {
+                    "title": "Zdolności Klasy"
+                },
+                "L3wEIpgyQxfW3Cbu": {
+                    "title": "Zdolności Klasy"
+                },
+                "hqCCMUsYBCaBxjd1": {
+                    "title": "Zdolności Klasy"
+                },
+                "GXUFneKrn7jWh8FI": {
+                    "title": "Zdolności Klasy"
+                },
+                "9n9yDwqtG7foinNB": {
+                    "title": "Zdolności Klasy"
+                },
+                "G2PRnWVCjP5c3Cm7": {
                     "title": "Zdolności Klasy"
                 },
                 "Max Prepared Spells": {
@@ -304,6 +369,12 @@
                 },
                 "Armor Training": {
                     "title": "Biegłośc w pancerzu"
+                },
+                "kPeKGxUo8GJygCJG": {
+                    "title": "Biegłości w umiejętnościach"
+                },
+                "n0aMUQr79P5Pkjpf": {
+                    "title": "Biegłości w narzędziach"
                 }
             }
         },
@@ -420,6 +491,18 @@
                 "Subclass Features": {
                     "title": "Zdolności Podklasy"
                 },
+                "WS2baKDHOKdTHvn4": {
+                    "title": "Zdolności Podklasy"
+                },
+                "ifmHcVXF9ZqyVhXa": {
+                    "title": "Zdolności Podklasy"
+                },
+                "DNwHuSG5CFe5o94z": {
+                    "title": "Zdolności Podklasy"
+                },
+                "nAg9H5fvgytySqaf": {
+                    "title": "Zdolności Podklasy"
+                },
                 "Fighting Style": {
                     "title": "Styl walki"
                 }
@@ -446,6 +529,15 @@
                 "Subclass Features": {
                     "title": "Zdolności Podklasy"
                 },
+                "9l1ICcnaGx27bdOp": {
+                    "title": "Zdolności Podklasy"
+                },
+                "tQpnSPCulIWNV3ZV": {
+                    "title": "Zdolności Podklasy"
+                },
+                "tdzTZSOWJgyhnk5X": {
+                    "title": "Zdolności Podklasy"
+                },
                 "Lands Aid Damage": {
                     "title": "Obrażenia Pomocy natury"
                 }
@@ -461,6 +553,21 @@
             "description": "<h3>Podstawowe cechy kleryka</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Cecha Podstawowa</p></th><td><p>Mądrość</p></td></tr><tr><th scope=\"row\"><p>Kość Punktów Wytrzymałości</p></th><td><p>K8 na poziom kleryka</p></td></tr><tr><th scope=\"row\"><p>Biegłości w rzutach obronnych</p></th><td><p>Mądrość i Charyzma</p></td></tr><tr><th scope=\"row\"><p>Biegłości w umiejętnościach</p></th><td><p><em>Wybierz 2: </em>Historia, Intuicja, Medycyna, Perswazja lub Religia</p></td></tr><tr><th scope=\"row\"><p>Biegłości w broniach</p></th><td><p>Broń prosta</p></td></tr><tr><th scope=\"row\"><p>Biegłość w pancerzu</p></th><td><p>Lekkie i średnie pancerze oraz tarcze</p></td></tr><tr><th scope=\"row\"><p>Ekwipunek startowy</p></th><td><p><em>Wybierz A lub B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainShirt], @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000], @UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000], @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV], @UUID[Compendium.dnd5e.equipment24.Item.phbagPriestsPack] i [[/award 7GP]]; lub (B) [[/award 110GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbclcCleric0000 inline classes=\"free-rules-embed\"]</p><h2>Zostanie klerykiem …</h2><h3>Jako postać 1. poziomu</h3><ul><li>Zyskaj wszystkie cechy z tabeli Podstawowe cechy kleryka.</li><li>Zyskaj cechy kleryka 1. poziomu, które są wymienione w tabeli cech kleryka.</li></ul><h3>Jako postać wieloklasowa</h3><ul><li>Zyskaj następujące cechy z tabeli Podstawowe cechy kleryka: Kość Punktów Wytrzymałości oraz wyszkolenie w lekkich i średnich pancerzach oraz tarczach.</li><li>Zyskaj cechy kleryka 1. poziomu, które są wymienione w tabeli cech kleryka. Zobacz zasady wieloklasowości w rozdziale 2, aby określić dostępne komórki czarów.</li></ul>",
             "advancement": {
                 "Class Features": {
+                    "title": "Zdolności Klasy"
+                },
+                "sbC9gYqIKyBudLEX": {
+                    "title": "Zdolności Klasy"
+                },
+                "iyByIlgOSTkVdiIb": {
+                    "title": "Zdolności Klasy"
+                },
+                "fMMlnS7XNj4jHolA": {
+                    "title": "Zdolności Klasy"
+                },
+                "db2RJZ0xSSbbOPIk": {
+                    "title": "Zdolności Klasy"
+                },
+                "ilTop8eaoKLL9KVJ": {
                     "title": "Zdolności Klasy"
                 },
                 "Channel Divinity Uses": {
@@ -505,6 +612,12 @@
             "description": "<blockquote><p>Odkrywanie Głębi Magicznej Wiedzy</p></blockquote><p>Bardowie z Kolegium Mądrości zbierają czary i sekrety z różnych źródeł, takich jak uczone księgi, mistyczne rytuały i ludowe opowieści. Członkowie kolegium gromadzą się w bibliotekach i uniwersytetach, aby dzielić się swoją wiedzą. Spotykają się również na festiwalach lub wydarzeniach państwowych, gdzie mogą ujawniać korupcję, demaskować kłamstwa i kpić z nadętych autorytetów.</p>",
             "advancement": {
                 "Subclass Features": {
+                    "title": "Zdolności Podklasy"
+                },
+                "yiYMrVRwPpGHPk0N": {
+                    "title": "Zdolności Podklasy"
+                },
+                "P34BmKnqAYXUdYol": {
                     "title": "Zdolności Podklasy"
                 },
                 "Bonus Proficiencies": {
@@ -800,7 +913,28 @@
                 "Subclass Features": {
                     "title": "Zdolności Podklasy"
                 },
+                "3ptQZs8Z30J3e8MH": {
+                    "title": "Zdolności Podklasy"
+                },
+                "Rr3BfHIS9JdX6c5X": {
+                    "title": "Zdolności Podklasy"
+                },
+                "zWNxZUTJugO6duSj": {
+                    "title": "Zdolności Podklasy"
+                },
                 "Draconic Spells": {
+                    "title": "Smocze czary",
+                    "hint": "Gdy osiągniesz poziom zaklinacza wskazany w tabeli Smoczych czarów, od tego momentu zawsze masz przygotowane wymienione tam czary."
+                },
+                "VLhcXqbjyXnCbXTP": {
+                    "title": "Smocze czary",
+                    "hint": "Gdy osiągniesz poziom zaklinacza wskazany w tabeli Smoczych czarów, od tego momentu zawsze masz przygotowane wymienione tam czary."
+                },
+                "nQwB2GYHgvg5IRhf": {
+                    "title": "Smocze czary",
+                    "hint": "Gdy osiągniesz poziom zaklinacza wskazany w tabeli Smoczych czarów, od tego momentu zawsze masz przygotowane wymienione tam czary."
+                },
+                "zKCculAFWxVPXhnA": {
                     "title": "Smocze czary",
                     "hint": "Gdy osiągniesz poziom zaklinacza wskazany w tabeli Smoczych czarów, od tego momentu zawsze masz przygotowane wymienione tam czary."
                 },
@@ -847,6 +981,24 @@
                 "Class Features": {
                     "title": "Zdolności Klasy"
                 },
+                "hmO24ovOBpmXAb4U": {
+                    "title": "Zdolności Klasy"
+                },
+                "J2JpbQEZhVD3Dnjz": {
+                    "title": "Zdolności Klasy"
+                },
+                "2G5tFifGdMns95Jw": {
+                    "title": "Zdolności Klasy"
+                },
+                "uNjxqZQ9lZuOKmU7": {
+                    "title": "Zdolności Klasy"
+                },
+                "3DZ1Olv41g5BzP4z": {
+                    "title": "Zdolności Klasy"
+                },
+                "K72jypxSpzVJRXDh": {
+                    "title": "Zdolności Klasy"
+                },
                 "Cantrips Known": {
                     "title": "Znane sztuczki"
                 },
@@ -870,6 +1022,10 @@
                     "hint": "Poświęcasz się jednej z poniższych świętych ról według własnego wyboru."
                 },
                 "Elemental Fury": {
+                    "title": "Furia żywiołów",
+                    "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
+                },
+                "W0d3c6X31SgnFFYM": {
                     "title": "Furia żywiołów"
                 },
                 "Saving Throw Proficiencies": {
@@ -1057,6 +1213,15 @@
             "advancement": {
                 "Subclass Features": {
                     "title": "Zdolności Podklasy"
+                },
+                "MnGUHDUfl1pqbwJK": {
+                    "title": "Zdolności Podklasy"
+                },
+                "vyrvNKiCAYyJcR9l": {
+                    "title": "Zdolności Podklasy"
+                },
+                "GeBj8GgEaEGUkxxL": {
+                    "title": "Zdolności Podklasy"
                 }
             }
         },
@@ -1137,7 +1302,28 @@
                 "Subclass Features": {
                     "title": "Zdolności Podklasy"
                 },
+                "pkjDsDeyI1xHOSDb": {
+                    "title": "Zdolności Podklasy"
+                },
+                "hEHLXeuzpfLUyPbb": {
+                    "title": "Zdolności Podklasy"
+                },
+                "BXdX73NWYsGIrZyc": {
+                    "title": "Zdolności Podklasy"
+                },
                 "Fiend Spells": {
+                    "title": "Czarcie czary",
+                    "hint": "Magia twojego patrona zapewnia, że zawsze masz przygotowane określone czary; gdy osiągniesz poziom Czarownika określony w tabeli Czary Czarta, zawsze będziesz mieć przygotowane te czary."
+                },
+                "RQGbS50hbBG90d1e": {
+                    "title": "Czarcie czary",
+                    "hint": "Magia twojego patrona zapewnia, że zawsze masz przygotowane określone czary; gdy osiągniesz poziom Czarownika określony w tabeli Czary Czarta, zawsze będziesz mieć przygotowane te czary."
+                },
+                "HI0odgqJuVranhPH": {
+                    "title": "Czarcie czary",
+                    "hint": "Magia twojego patrona zapewnia, że zawsze masz przygotowane określone czary; gdy osiągniesz poziom Czarownika określony w tabeli Czary Czarta, zawsze będziesz mieć przygotowane te czary."
+                },
+                "Aqu6VkaM9Z70GTtM": {
                     "title": "Czarcie czary",
                     "hint": "Magia twojego patrona zapewnia, że zawsze masz przygotowane określone czary; gdy osiągniesz poziom Czarownika określony w tabeli Czary Czarta, zawsze będziesz mieć przygotowane te czary."
                 }
@@ -1205,6 +1391,24 @@
                 "Class Features": {
                     "title": "Zdolności Klasy"
                 },
+                "T2FovyKDjcIGMPCW": {
+                    "title": "Zdolności Klasy"
+                },
+                "9UkcNtQ0HwJhmwKQ": {
+                    "title": "Zdolności Klasy"
+                },
+                "wKoM6KOIKl1HWVpR": {
+                    "title": "Zdolności Klasy"
+                },
+                "gxbvTuKFKDsuzCmp": {
+                    "title": "Zdolności Klasy"
+                },
+                "pUT3XfEF6U1xeY18": {
+                    "title": "Zdolności Klasy"
+                },
+                "knLMZh9N1O50qEcV": {
+                    "title": "Zdolności Klasy"
+                },
                 "Action Surge": {
                     "title": "Przypływ sił"
                 },
@@ -1226,6 +1430,12 @@
                 "Armor Training": {
                     "title": "Biegłośc w pancerzu"
                 },
+                "fK62ORkG9cOsa3XL": {
+                    "title": "Biegłości w broniach"
+                },
+                "Nl6NkDxsiWjv7MfC": {
+                    "title": "Biegłośc w pancerzu"
+                },
                 "Weapon Mastery": {
                     "title": "Mistrzostwo broni"
                 },
@@ -1234,6 +1444,15 @@
                 },
                 "Weapon Masteries Known": {
                     "title": "Znane mistrzostwa broni"
+                },
+                "oQeuiFaWAVOPtJPt": {
+                    "title": "Mistrzostwo broni"
+                },
+                "4QKhDAuuM8x78quv": {
+                    "title": "Mistrzostwo broni"
+                },
+                "YSAbsXV9zn9eX9p7": {
+                    "title": "Mistrzostwo broni"
                 }
             }
         },
@@ -1375,6 +1594,15 @@
             "description": "<blockquote><p>Chroń naturę i ludzi przed zniszczeniem</p></blockquote><p>Śledzisz zdobycz w dziczy i innych miejscach, wykorzystując swoje umiejętności jako Myśliwy, aby chronić naturę i ludzi przed siłami, które chciałyby je zniszczyć.</p>",
             "advancement": {
                 "Subclass Features": {
+                    "title": "Zdolności Podklasy"
+                },
+                "4nA7C6uQhBJBtWdS": {
+                    "title": "Zdolności Podklasy"
+                },
+                "gBE1JZA0jf6dglQu": {
+                    "title": "Zdolności Podklasy"
+                },
+                "1P4RbYyrzFoutFrj": {
                     "title": "Zdolności Podklasy"
                 }
             }
@@ -1619,7 +1847,22 @@
                 "Subclass Features": {
                     "title": "Zdolności Podklasy"
                 },
+                "Qkx3Cd07TGIwBX91": {
+                    "title": "Zdolności Podklasy"
+                },
+                "fke7bQihEBwKmOXP": {
+                    "title": "Zdolności Podklasy"
+                },
                 "Life Domain Spells": {
+                    "title": "Czary Domeny życia"
+                },
+                "zfcT1xCvqRLRZXiH": {
+                    "title": "Czary Domeny życia"
+                },
+                "1FttAn0lw9lBpofn": {
+                    "title": "Czary Domeny życia"
+                },
+                "iYrz7E0p8N6pp5Uy": {
                     "title": "Czary Domeny życia"
                 }
             }
@@ -1760,6 +2003,45 @@
             "description": "<h3>Podstawowe cechy mnicha</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Cecha Podstawowa</p></th><td><p>Zręczność i Mądrość</p></td></tr><tr><th scope=\"row\"><p>Kość Punktów Wytrzymałości</p></th><td><p>K8 na poziom mnicha</p></td></tr><tr><th scope=\"row\"><p>Biegłości w rzutach obronnych</p></th><td><p>Siła i Zręczność</p></td></tr><tr><th scope=\"row\"><p>Biegłości w umiejętnościach</p></th><td><p><em>Wybierz 2:</em> Akrobatyka, Atletyka, Historia, Intuicja, Religia lub Skradanie się</p></td></tr><tr><th scope=\"row\"><p>Biegłości w broniach</p></th><td><p>Broń prosta i broń żołnierska, która ma właściwość Lekka</p></td></tr><tr><th scope=\"row\"><p>Biegłości w narzędziach</p></th><td><p><em>Wybierz jeden rodzaj Narzędzi rzemieślniczych lub Instrument muzyczny</em></p></td></tr><tr><th scope=\"row\"><p>Biegłość w pancerzu</p></th><td><p>Brak</p></td></tr><tr><th scope=\"row\"><p>Ekwipunek startowy</p></th><td><p><em>Wybierz A lub B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000], 5 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000], Narzędzia rzemieślnicze lub Instrument muzyczny wybrane dla powyższej biegłości w narzędziach, @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa] i [[/award 11GP]]; lub (B) [[/award 50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbmnkMonk000000 inline classes=\"free-rules-embed\"]</p><h2>Zostanie mnichem …</h2><h3>Jako postać 1. poziomu</h3><ul><li>Zyskaj wszystkie cechy z tabeli Podstawowe cechy mnicha.</li><li>Zyskaj cechy mnicha 1. poziomu, które są wymienione w tabeli cech mnicha.</li></ul><h3>Jako postać wieloklasowa</h3><ul><li>Zyskaj cechę Kość Punktów Wytrzymałości z tabeli Podstawowe cechy mnicha.</li><li>Zyskaj cechy mnicha 1. poziomu, które są wymienione w tabeli cech mnicha.</li></ul>",
             "advancement": {
                 "Class Features": {
+                    "title": "Zdolności Klasy"
+                },
+                "mrRoW8wNhjYbeqH1": {
+                    "title": "Zdolności Klasy"
+                },
+                "ms2HaCjkdW9DV3KG": {
+                    "title": "Zdolności Klasy"
+                },
+                "8tQG3hCcquAKQaPI": {
+                    "title": "Zdolności Klasy"
+                },
+                "W4pBCGfpgL3LjHT0": {
+                    "title": "Zdolności Klasy"
+                },
+                "TIzNw6t61wYmtj6V": {
+                    "title": "Zdolności Klasy"
+                },
+                "Rfq6ZXQhdFm3Zmjx": {
+                    "title": "Zdolności Klasy"
+                },
+                "26AlznyWcDuaFTCY": {
+                    "title": "Zdolności Klasy"
+                },
+                "H32KYn1ozuG9jgYH": {
+                    "title": "Zdolności Klasy"
+                },
+                "p4M4GK8yYVPY4Nsc": {
+                    "title": "Zdolności Klasy"
+                },
+                "l5WJg41iXSVd88sd": {
+                    "title": "Zdolności Klasy"
+                },
+                "9EzbkaZcskpZqLAv": {
+                    "title": "Zdolności Klasy"
+                },
+                "BJBdi5OYKS2pvCeV": {
+                    "title": "Zdolności Klasy"
+                },
+                "DOmTqz4RzFr3Scvj": {
                     "title": "Zdolności Klasy"
                 },
                 "Body and Mind": {
@@ -1922,7 +2204,28 @@
                 "Subclass Features": {
                     "title": "Zdolności Podklasy"
                 },
+                "jix1tV556sLlpGYr": {
+                    "title": "Zdolności Podklasy"
+                },
+                "3t0heVzpZV6AClAz": {
+                    "title": "Zdolności Podklasy"
+                },
+                "1Koj8mZO5gVtRril": {
+                    "title": "Zdolności Podklasy"
+                },
                 "Oath of Devotion Spells": {
+                    "title": "Czary Przysięgi Gorliwości"
+                },
+                "9rAVikjK0DFEkhXH": {
+                    "title": "Czary Przysięgi Gorliwości"
+                },
+                "K8RRsq7vmiYuKAAv": {
+                    "title": "Czary Przysięgi Gorliwości"
+                },
+                "VuZSFzUklRDrpP5g": {
+                    "title": "Czary Przysięgi Gorliwości"
+                },
+                "Qji0iHmIWmCZcKt8": {
                     "title": "Czary Przysięgi Gorliwości"
                 }
             }
@@ -2043,6 +2346,33 @@
                 "Class Features": {
                     "title": "Zdolności Klasy"
                 },
+                "AKkVlHKAVYHNqf6q": {
+                    "title": "Zdolności Klasy"
+                },
+                "8I26b7hyVhhTyCho": {
+                    "title": "Zdolności Klasy"
+                },
+                "ETE0AFEPZYVKhGeV": {
+                    "title": "Zdolności Klasy"
+                },
+                "4ZvtY8dxJGz7VaDN": {
+                    "title": "Zdolności Klasy"
+                },
+                "S2e43900sVur7sOK": {
+                    "title": "Zdolności Klasy"
+                },
+                "7Nhpo9BJt103peym": {
+                    "title": "Zdolności Klasy"
+                },
+                "sBD0PwAIuNSCs9Px": {
+                    "title": "Zdolności Klasy"
+                },
+                "G6XicWkWUTdMTmC9": {
+                    "title": "Zdolności Klasy"
+                },
+                "dChGldRqBZQFRIoP": {
+                    "title": "Zdolności Klasy"
+                },
                 "Aura Distance": {
                     "title": "Zasięg aury"
                 },
@@ -2064,6 +2394,12 @@
                 "Armor Training": {
                     "title": "Biegłośc w pancerzu"
                 },
+                "dSjz0J0F5cQLvWTd": {
+                    "title": "Biegłości w broniach"
+                },
+                "TZP9M5VqcBv8D313": {
+                    "title": "Biegłośc w pancerzu"
+                },
                 "Fighting Style": {
                     "title": "Styl walki"
                 },
@@ -2081,6 +2417,15 @@
             "description": "<blockquote><p>Przelej Szał w Bezwzględną Furie</p></blockquote><p>Barbarzyńcy podążający Ścieżką berserkera kierują swój Szał głównie ku przemocy. Ich ścieżka to droga nieograniczonej furii, a oni czerpią radość z chaosu walki, pozwalając, by ich Szał przejął nad nimi kontrolę i ich wzmocnił.</p>",
             "advancement": {
                 "Subclass Features": {
+                    "title": "Zdolności Podklasy"
+                },
+                "2AGvW4P2FHYxDTmU": {
+                    "title": "Zdolności Podklasy"
+                },
+                "HPirEn8oG5KFLosG": {
+                    "title": "Zdolności Podklasy"
+                },
+                "GouI4YrjO1nFz4uM": {
                     "title": "Zdolności Podklasy"
                 }
             }
@@ -2314,7 +2659,38 @@
                 "Class Features": {
                     "title": "Zdolności Klasy"
                 },
+                "MWgIb29krlDy6YW6": {
+                    "title": "Zdolności Klasy"
+                },
+                "py3wJiuRo9A5PlZb": {
+                    "title": "Zdolności Klasy"
+                },
+                "hsOIIBWwSrWJvTuc": {
+                    "title": "Zdolności Klasy"
+                },
+                "6lgPpApxgrLKsNdH": {
+                    "title": "Zdolności Klasy"
+                },
+                "G8gk2pfQ2FIn6lX9": {
+                    "title": "Zdolności Klasy"
+                },
+                "bUBIV36rJZHw5GKr": {
+                    "title": "Zdolności Klasy"
+                },
+                "mC2Y1MpLlQ7uSnvk": {
+                    "title": "Zdolności Klasy"
+                },
+                "n1IVdZzKh3PPG915": {
+                    "title": "Zdolności Klasy"
+                },
+                "Rb7qWhNRuua2brG0": {
+                    "title": "Zdolności Klasy"
+                },
                 "Expertise": {
+                    "title": "Znawstwo",
+                    "hint": "Zyskujesz biegłość w dwóch wybranych przez siebie umiejętnościach. Jeśli posiadasz biegłość w tych umiejętnościach, zalecamy wybranie „Zręczności rąk” i „Ukrycie”."
+                },
+                "sqWH6tnUg7jiGaEj": {
                     "title": "Znawstwo"
                 },
                 "Sneak Attack": {
@@ -2344,6 +2720,9 @@
                 },
                 "Armor Training": {
                     "title": "Biegłośc w pancerzu"
+                },
+                "tSxdQdTxlNVE1kdD": {
+                    "title": "Biegłości w umiejętnościach"
                 }
             }
         },
@@ -2475,6 +2854,18 @@
             "description": "<h3>Podstawowe cechy zaklinacza</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Cecha Podstawowa</strong></p></th><td><p>Charyzma</p></td></tr><tr><th scope=\"row\"><p><strong>Kość Punktów Wytrzymałości</strong></p></th><td><p>K6 na poziom zaklinacza</p></td></tr><tr><th scope=\"row\"><p><strong>Biegłości w rzutach obronnych</strong></p></th><td><p>Kondycja i Charyzma</p></td></tr><tr><th scope=\"row\"><p><strong>Biegłości w umiejętnościach</strong></p></th><td><p><em>Wybierz 2:</em> Wiedza tajemna, Oszustwo, Intuicja, Zastraszanie, Perswazja lub Religia</p></td></tr><tr><th scope=\"row\"><p><strong>Biegłości w broniach</strong></p></th><td><p>Broń prosta</p></td></tr><tr><th scope=\"row\"><p><strong>Biegłość w pancerzu</strong></p></th><td><p>Brak</p></td></tr><tr><th scope=\"row\"><p><strong>Ekwipunek startowy</strong></p></th><td><p><em>Wybierz A lub B: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000], 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Sztylety}, @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus] (@UUID[Compendium.dnd5e.equipment24.Item.phbafcCrystal000]), @UUID[Compendium.dnd5e.equipment24.Item.phbagDungeoneers] i [[/award 28GP]]; lub (B) [[/award 50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbscrSorcerer00 inline classes=\"free-rules-embed\"]</p><h2>Zostanie zaklinaczem …</h2><h3>Jako postać 1. poziomu</h3><ul><li>Zyskaj wszystkie cechy z tabeli Podstawowe cechy zaklinacza.</li><li>Zyskaj cechy zaklinacza 1. poziomu, które są wymienione w @UUID[Compendium.dnd5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features].</li></ul><h3>Jako postać wieloklasowa</h3><ul><li>Zyskaj Kość Punktów Wytrzymałości z tabeli Podstawowe cechy zaklinacza.</li><li>Zyskaj cechy zaklinacza 1. poziomu, które są wymienione w tabeli cech zaklinacza. Zobacz @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm], aby określić dostępne komórki czarów.</li></ul>",
             "advancement": {
                 "Class Features": {
+                    "title": "Zdolności Klasy"
+                },
+                "c5fRAxTbRHamZM7M": {
+                    "title": "Zdolności Klasy"
+                },
+                "SihgGDvXjAktGkt1": {
+                    "title": "Zdolności Klasy"
+                },
+                "vGoDRNITjHNqxW1z": {
+                    "title": "Zdolności Klasy"
+                },
+                "g3PLJU1zYyUrHCY0": {
                     "title": "Zdolności Klasy"
                 },
                 "Max Prepared Spells": {
@@ -2727,6 +3118,15 @@
             "advancement": {
                 "Subclass Features": {
                     "title": "Zdolności Podklasy"
+                },
+                "MlEcUhyGRGitfiUJ": {
+                    "title": "Zdolności Podklasy"
+                },
+                "aNcqA4J0puHsYiyv": {
+                    "title": "Zdolności Podklasy"
+                },
+                "Q45sJX4IS3NbsrtV": {
+                    "title": "Zdolności Podklasy"
                 }
             }
         },
@@ -2861,6 +3261,18 @@
                 "Class Features": {
                     "title": "Zdolności Klasy"
                 },
+                "IUkGspfJYbVXFLjw": {
+                    "title": "Zdolności Klasy"
+                },
+                "sDYsem2WwWHtRGj9": {
+                    "title": "Zdolności Klasy"
+                },
+                "T6SDpQI1L8qivGUw": {
+                    "title": "Zdolności Klasy"
+                },
+                "E698BngQ7tgxYG9T": {
+                    "title": "Zdolności Klasy"
+                },
                 "bwCLOdauuzoHofil": {
                     "hint": "Zyskujesz atut Zwiększenie Cechy lub inny atut, do którego się kwalifikujesz. Zyskujesz tę zdolność ponownie na poziomach Czarownika 8, 12 i 16."
                 },
@@ -2912,6 +3324,15 @@
             "description": "<blockquote><p>Opanuj Techniki Walki bez broni</p></blockquote><p>Wojownicy Otwartej Dłoni są mistrzami walki bez broni. Uczą się technik, które pozwalają odepchnąć i powalić przeciwników oraz manipulować własną energią, by chronić się przed obrażeniami.</p>",
             "advancement": {
                 "Subclass Features": {
+                    "title": "Zdolności Podklasy"
+                },
+                "KKc6VtzWsSGh2NnC": {
+                    "title": "Zdolności Podklasy"
+                },
+                "M7cvHrnI6p0Yo150": {
+                    "title": "Zdolności Podklasy"
+                },
+                "1kqB8Z5f6UcgmGjY": {
                     "title": "Zdolności Podklasy"
                 }
             }
@@ -2996,6 +3417,18 @@
             "description": "<h3>Podstawowe cechy maga</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Cecha Podstawowa</strong></p></th><td><p>Inteligencja</p></td></tr><tr><th scope=\"row\"><p><strong>Kość Punktów Wytrzymałości</strong></p></th><td><p>K6 na poziom maga</p></td></tr><tr><th scope=\"row\"><p><strong>Biegłości w rzutach obronnych</strong></p></th><td><p>Inteligencja i Mądrość</p></td></tr><tr><th scope=\"row\"><p><strong>Biegłości w umiejętnościach</strong></p></th><td><p><em>Wybierz 2:</em>Wiedza tajemna, Historia, Intuicja, Śledztwo, Medycyna, Natura lub Religia</p></td></tr><tr><th scope=\"row\"><p><strong>Biegłości w broniach</strong></p></th><td><p>Broń prosta</p></td></tr><tr><th scope=\"row\"><p><strong>Biegłość w pancerzu</strong></p></th><td><p>Brak</p></td></tr><tr><th scope=\"row\"><p><strong>Ekwipunek startowy</strong></p></th><td><p><em>Wybierz A lub B:</em> (A) 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Sztylety}, @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus] (@UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000], @UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr], @UUID[Compendium.dnd5e.equipment24.Item.phbagScholarsPac], and [[/award 5GP]]; or (B) [[/award 55GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwzdWizard0000 inline classes=\"free-rules-embed\"]</p><h2>Zostanie magiem …</h2><h3>Jako postać 1. poziomu</h3><ul><li>Zyskaj wszystkie cechy z tabeli Podstawowe cechy maga.</li><li>Zyskaj cechy maga 1. poziomu, które są wymienione w tabeli cech maga.</li></ul><h3>Jako postać wieloklasowa</h3><ul><li>Zyskaj Kość Punktów Wytrzymałości z tabeli Podstawowe cechy maga.</li><li>Zyskaj cechy maga 1. poziomu, które są wymienione w @UUID[Compendium.dnd5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]. Zobacz @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm], aby określić dostępne komórki czarów.</li></ul><aside class=\"notable\"><p><strong>Rozszerzanie i zastępowanie księgi zaklęć</strong></p><p>Czary, które dodajesz do swojej księgi zaklęć wraz ze zdobywaniem poziomów, odzwierciedlają twoje nieustanne badania magiczne, ale podczas swoich przygód możesz znaleźć też inne czary, które da się dodać do księgi. Możesz na przykład odkryć czar Maga na Magicznym zwoju, a następnie przepisać go do swojej księgi zaklęć.</p><p><strong>Przepisywanie czaru do księgi.</strong> Kiedy znajdziesz czar Maga 1. kręgu lub wyższego, możesz przepisać go do swojej księgi zaklęć, jeśli jest to czar kręgu, który możesz przygotować, oraz jeśli masz czas, by go przepisać. Za każdy krąg czaru przepisanie zajmuje 2 godziny i kosztuje 50 GP. Później możesz przygotować ten czar tak jak inne czary ze swojej księgi zaklęć.</p><p><strong>Przepisywanie księgi.</strong> Możesz przepisać czar ze swojej księgi zaklęć do innej księgi. Działa to tak jak przepisywanie nowego czaru do swojej księgi zaklęć, ale szybciej, ponieważ już wiesz, jak rzucać ten czar. Musisz poświęcić tylko 1 godzinę i 10 GP za każdy krąg przepisywanego czaru.</p><p>Jeśli utracisz swoją księgę zaklęć, możesz użyć tej samej procedury, aby przepisać do nowej księgi zaklęć przygotowane przez siebie czary Maga. Uzupełnienie pozostałej części nowej księgi wymaga odnalezienia nowych czarów, aby to zrobić. Z tego powodu wielu magów trzyma zapasową księgę zaklęć.</p></aside>",
             "advancement": {
                 "Class Features": {
+                    "title": "Zdolności Klasy"
+                },
+                "JTCSb4dfm8Auy6WD": {
+                    "title": "Zdolności Klasy"
+                },
+                "tQSiUAW1DhfY3Idi": {
+                    "title": "Zdolności Klasy"
+                },
+                "rZqSZS149KxDBwjI": {
+                    "title": "Zdolności Klasy"
+                },
+                "ssLPH7qn9DUncfJ1": {
                     "title": "Zdolności Klasy"
                 },
                 "Max Prepared Spells": {
