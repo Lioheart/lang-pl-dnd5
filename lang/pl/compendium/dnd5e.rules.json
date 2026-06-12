@@ -3,7 +3,7 @@
     "mapping": {
         "pages": {
             "path": "pages",
-            "converter": "dokument",
+            "converter": "document",
             "documentType": "JournalEntryPage",
             "cardinality": "many",
             "mapping": {
