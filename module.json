@@ -3,7 +3,7 @@
   "title": "Polska wersja SRD D&D 5.0",
   "version": "vDev",
   "compatibility": {
-    "minimum": "13",
+    "minimum": "14",
     "verified": "14"
   },
   "authors": [
