@@ -2291,6 +2291,7 @@
                 "Shield": {
                     "name": "Tarcza",
                     "description": "<p>Sprawiasz, że pojawia się przy tobie chroniąca cię bariera magicznej mocy. Do rozpoczęcia swojej następnej tury masz premię +5 do KP, również przeciwko atakowi, na który reagujesz, oraz nie otrzymujesz obrażeń od magicznego pocisku.</p>",
+                    "activation": "Rzucasz kiedy zostajesz trafiony atakiem lub jesteś celem magicznego pocisku.",
                     "effects": {
                         "Shield": {
                             "name": "Tarcza",
