@@ -5,6 +5,8 @@
         "requirements": "system.requirements",
         "materials": "system.materials.value",
         "chat": "system.description.chat",
+        "activation": "system.activation.condition",
+        "activationValue": "system.activation.value",
         "activities": {
             "path": "system.activities",
             "converter": "structured",
@@ -18,6 +20,7 @@
             "mapping": {
                 "name": "name",
                 "condition": "activation.condition",
+                "activationValue": "activation.value",
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
                 "roll": "roll.name",
@@ -41,33 +44,7 @@
         },
         "advancement": {
             "path": "system.advancement",
-            "converter": "structured",
-            "cardinality": "many",
-            "container": "keyed",
-            "keys": [
-                "_id",
-                "title"
-            ],
-            "mapping": {
-                "title": "title",
-                "hint": "hint",
-                "_variants": [
-                    {
-                        "_when": {
-                            "path": "type",
-                            "equals": "ScaleValue"
-                        },
-                        "distance": {
-                            "path": "configuration.distance",
-                            "converter": "imperialToMetric"
-                        },
-                        "scale": {
-                            "path": "configuration.scale",
-                            "converter": "imperialToMetric"
-                        }
-                    }
-                ]
-            }
+            "converter": "translateAdvancement"
         },
         "movement": {
             "path": "system.movement",
@@ -528,7 +505,8 @@
         "Conjure Elemental": {
             "name": "Przywołanie żywiołaka",
             "description": "<p>Przyzywasz żywiołaka, by ci służył. Wybierz obszar powietrza, ziemi, ognia lub wody wypełniający sześcian o boku 3 metrów i znajdujący się w zasięgu czaru. Żywiołak o stopniu wyzwania nie większym niż 5, odpowiadający wybranemu obszarowi, pojawia się w obrębie 3 metrów od niego w wolnym, wskazanym przez ciebie miejscu. Przykładowo, z ogniska wyłania się żywiołak ognia, a z gruntu wygrzebuje się żywiołak ziemi. Istota znika, kiedy jej punkty wytrzymałości spadają do 0 lub gdy czar dobiega końca.</p><p>Istota jest przyjazna tobie i twoim sprzymierzeńcom. Wykonujesz za nią rzut na inicjatywę, gdyż działa w swoich własnych turach. Jest posłuszna twoim słownym poleceniom, dopóki są zgodne z jej charakterem (nie zużywają one twojej akcji). Jeśli nie wydasz polecenia, przywołana istota ogranicza się do obrony przed wrogami, ale nie wykonuje innych akcji.</p><p>Gdy twoja koncentracja zostanie przerwana, żywiołak nie znika, lecz tracisz nad nim kontrolę. Stworzenie staje się wrogie tobie i twoim sprzymierzeńcom, może też was zaatakować. Nie możesz odwołać niekontrolowanej istoty, znika ona dopiero godzinę po przywołaniu.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 6. kręgu, za każdy krąg powyżej 5. maksymalny stopień wyzwania przywołanej istoty wzrasta o 1.</p>",
-            "materials": "Zapalone kadzidło dla powietrza, miękka glina dla ziemi, siarka i fosfor dla ognia lub woda z piaskiem dla wody"
+            "materials": "Zapalone kadzidło dla powietrza, miękka glina dla ziemi, siarka i fosfor dla ognia lub woda z piaskiem dla wody",
+            "activation": "obszar powietrza, ziemi, ognia lub wody, o kształcie sześcianu o boku 3m, znajdujący się w zasięgu czaru"
         },
         "Conjure Fey": {
             "name": "Przywołanie fey",
@@ -573,7 +551,8 @@
         },
         "Counterspell": {
             "name": "Przeciwzaklęcie",
-            "description": "<p>Próbujesz przerwać proces rzucania czaru przez inną istotę. Jeśli rzuca ona czar z kręgu 3. lub niższego, to jej zaklęcie kończy się fiaskiem i nie przynosi żadnych efektów. Jeśli jednak rzuca czar co najmniej 4. kręgu, wykonaj test swojej cechy bazowej. ST wynosi 10 + krąg czaru. Przy udanym teście rozpraszasz rzucane zaklęcie i nie przynosi ono żadnych efektów.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 4. kręgu, przerwane zaklęcie nie przynosi efektów, jeśli jego krąg nie przewyższa tego, z którego rzucasz przeciwzaklęcie.</p>"
+            "description": "<p>Próbujesz przerwać proces rzucania czaru przez inną istotę. Jeśli rzuca ona czar z kręgu 3. lub niższego, to jej zaklęcie kończy się fiaskiem i nie przynosi żadnych efektów. Jeśli jednak rzuca czar co najmniej 4. kręgu, wykonaj test swojej cechy bazowej. ST wynosi 10 + krąg czaru. Przy udanym teście rozpraszasz rzucane zaklęcie i nie przynosi ono żadnych efektów.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 4. kręgu, przerwane zaklęcie nie przynosi efektów, jeśli jego krąg nie przewyższa tego, z którego rzucasz przeciwzaklęcie.</p>",
+            "activation": "Rzucasz kiedy widzisz istotę rzucającą czar w obrębie 18 metrów od ciebie."
         },
         "Create Food and Water": {
             "name": "Stworzenie jadła i wody",
@@ -600,7 +579,8 @@
         "Create Undead": {
             "name": "Stworzenie nieumarłego",
             "description": "<p>Czar ten możesz rzucić tylko nocą. Wybierasz do trzech zwłok Średnich lub Małych humanoidów znajdujących się w zasięgu. Każde z nich stają się ghulem, którego możesz kontrolować (MP ma ich statystyki).</p><p>W ramach akcji dodatkowej w swojej turze możesz wydać telepatyczny rozkaz ożywionemu tym zaklęciem słudze, o ile znajduje się on w obrębie 36 metrów od ciebie. (Jeśli kontrolujesz grupę istot, polecenie kierujesz do jednej z nich bądź do całej grupy, wydając wszystkim ten sam rozkaz). Decydujesz o kierunku ruchu i akcji podejmowanej przez stworzenie w jego następnej turze albo wydajesz ogólne polecenie, na przykład strzeżenia komnaty czy korytarza. Gdy nie wydasz rozkazu, sługa ograniczy się do obrony własnej. Otrzymawszy polecenie, sługa będzie je wypełniał aż do ukończenia zadania.</p><p>Kontrolujesz stworzoną istotę przez 24 godziny. Po tym czasie przestaje ona wykonywać twoje polecenia. Aby zachować kontrolę przez następne 24 godziny, musisz ponownie rzucić to zaklęcie na tę istotę przed upływem 24 godzin. Czar wykorzystany w ten sposób zapewnia ci kontrolę nad grupą liczącą do trzech sług, zamiast tworzenia kolejnych.</p><p><strong>Na wyższych kręgach. </strong>Gdy rzucasz ten czar, wykorzystując komórkę 7. kręgu, tworzysz cztery ghule (lub podtrzymujesz nad nimi kontrolę). Gdy wykorzystujesz komórkę 8. kręgu, możesz stworzyć pięć ghuli albo dwa ghasty, albo dwie zjawy (lub podtrzymać nad nimi kontrolę). Gdy wykorzystujesz komórkę 9. kręgu, możesz stworzyć sześć ghuli albo trzy ghasty, albo trzy zjawy, albo dwie mumie (lub podtrzymać nad nimi kontrolę).</p>",
-            "materials": "Po jednym glinianym dzbanie z grobową ziemią, jednym glinianym dzbanie ze słonawą wodą oraz jednym czarnym onyksie o wartości 150 sz na każde ożywiane zwłoki."
+            "materials": "Po jednym glinianym dzbanie z grobową ziemią, jednym glinianym dzbanie ze słonawą wodą oraz jednym czarnym onyksie o wartości 150 sz na każde ożywiane zwłoki.",
+            "activation": "Możesz rzucić ten czar tylko w nocy."
         },
         "Creation": {
             "name": "Cieniste formowanie",
@@ -960,6 +940,7 @@
             "name": "Piórkospadanie",
             "description": "<p>Wybierz do 5 spadających istot znajdujących się w zasięgu czaru. W czasie działania czaru ich szybkość spadania maleje do 18 metrów na rundę. Jeżeli któraś z nich w tym czasie wyląduje, to nie otrzyma obrażeń od upadku i może wylądować na nogach, a działanie zaklęcia dla niej się kończy.</p>",
             "materials": "Piórko albo trochę puchu",
+            "activation": "Rzucasz kiedy ty lub istota w obrębie 18 metrów spada.",
             "activities": {
                 "Cast": {
                     "name": "Rzuć czar"
@@ -1304,6 +1285,7 @@
         "Hellish Rebuke": {
             "name": "Piekielna reprymenda",
             "description": "<p>Pokazujesz palcem istotę, którą widzisz w obrębie 18 metrów od ciebie, która cię zraniła, i natychmiast spowijają ją ognie piekielne. Musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymują 2k10 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz zadawane obrażenia o 1k10.</p>",
+            "activation": "Rzucasz w odpowiedzi na zranienie przez istotę, którą widzisz w obrębie 18 metrów od ciebie.",
             "activities": {
                 "Cast": {
                     "name": "Rzuć czar"
@@ -2078,6 +2060,7 @@
         "Shield": {
             "name": "Tarcza",
             "description": "<p>Pojawia się przy tobie chroniąca cię bariera magicznej mocy. Do rozpoczęcia swojej następnej tury masz premię +5 do KP, również przeciwko atakowi, na który reagujesz, oraz nie otrzymujesz obrażeń od @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{magicznego pocisku}.</p>",
+            "activation": "Rzucasz kiedy zostajesz trafiony atakiem lub jesteś celem magicznego pocisku.",
             "activities": {
                 "Cast": {
                     "name": "Rzuć czar"
