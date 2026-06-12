@@ -1623,7 +1623,7 @@
     },
     "Warning": {
       "Document": {
-        "one": "document",
+        "one": "dokument",
         "other": "dokumenty"
       },
       "Max": "Należy wybrać najwyżej {max} {document}, {value} wybranych.",
