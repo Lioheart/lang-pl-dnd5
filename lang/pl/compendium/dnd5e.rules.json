@@ -1350,25 +1350,32 @@
                     "name": "Wojownik"
                 },
                 "Monk": {
-                    "name": "Mnich"
+                    "name": "Mnich",
+                    "subclass": "<p>W klasztorach rozsianych po multiwersum powszechnie spotyka się trzy tradycje monastycznych dążeń. Większość klasztorów praktykuje wyłącznie jedną tradycję, ale nieliczne oddają cześć wszystkim trzem i szkolą każdego mnicha zgodnie z jego lub jej predyspozycjami oraz zainteresowaniami. Wszystkie trzy tradycje opierają się na tych samych podstawowych technikach, różnicując się wraz z rosnącą biegłością ucznia. Dlatego mnich musi wybrać tradycję dopiero po osiągnięciu 3. poziomu.</p>"
                 },
                 "Paladin": {
-                    "name": "Paladyn"
+                    "name": "Paladyn",
+                    "subclass": "<p>Zostanie paladynem wiąże się ze złożeniem ślubów, które zobowiązują paladyna do sprawy prawości, aktywnej ścieżki zwalczania zła. Ostateczna przysięga, składana po osiągnięciu 3. poziomu, jest zwieńczeniem całego szkolenia paladyna. Niektóre postacie tej klasy nie uważają się za prawdziwych paladynów, dopóki nie osiągną 3. poziomu i nie złożą tej przysięgi. Dla innych samo jej zaprzysiężenie jest jedynie formalnością, oficjalnym potwierdzeniem tego, co od zawsze było prawdą w sercu paladyna.</p>"
                 },
                 "Ranger": {
-                    "name": "Łowca"
+                    "name": "Łowca",
+                    "subclass": "<p>Klasycznym ucieleśnieniem ideału tropiciela jest Łowca.</p>"
                 },
                 "Rogue": {
-                    "name": "Łotr"
+                    "name": "Łotr",
+                    "subclass": "<p>Łotry mają wiele cech wspólnych, w tym nacisk na doskonalenie umiejętności, precyzyjne i zabójcze podejście do walki oraz coraz szybsze refleksy. Różni łotry kierują jednak te talenty w odmiennych kierunkach, co odzwierciedlają archetypy łotrzyka. Wybór archetypu jest wyrazem twojego ukierunkowania - niekoniecznie wskazuje na wykonywany zawód, lecz opisuje preferowane techniki.</p>"
                 },
                 "Sorcerer": {
-                    "name": "Zaklinacz"
+                    "name": "Zaklinacz",
+                    "subclass": "<p>Różni czarownicy przypisują swoje wrodzone moce magiczne różnym źródłom, takim jak smocza linia krwi.</p>"
                 },
                 "Warlock": {
-                    "name": "Czarownik"
+                    "name": "Czarownik",
+                    "subclass": "<p>Istoty, które służą jako patroni zaklinaczy, są potężnymi mieszkańcami innych planów istnienia - nie bogami, ale niemal boskimi pod względem mocy. Różni patroni zapewniają swoim zaklinaczom dostęp do odmiennych mocy i inwokacji oraz oczekują w zamian znaczących przysług.</p>\n<p>Niektórzy patroni gromadzą zaklinaczy, dość swobodnie rozdając mistyczną wiedzę albo chełpiąc się zdolnością podporządkowywania sobie śmiertelników. Inni obdarzają mocą niechętnie i mogą zawrzeć pakt tylko z jednym zaklinaczem. Zaklinacze służący temu samemu patronowi mogą postrzegać się nawzajem jako sojuszników, rodzeństwo lub rywali.</p>"
                 },
                 "Wizard": {
-                    "name": "Mag"
+                    "name": "Mag",
+                    "subclass": "<p>Badanie sztuki czarodziejstwa jest bardzo stare i sięga najwcześniejszych śmiertelnych odkryć magii. Jest ono głęboko zakorzenione w fantastycznych światach gry, z wieloma tradycjami poświęconymi jej złożonym studiom.</p>\n<p>Najpowszechniejsze tradycje magiczne w multiwersum koncentrują się wokół szkół magii. Czarodzieje na przestrzeni wieków skatalogowali tysiące zaklęć, grupując je w osiem kategorii zwanych szkołami. W niektórych miejscach tradycje te są dosłownie szkołami. W innych instytucjach szkoły przypominają raczej wydziały akademickie, z rywalizującymi katedrami walczącymi o studentów i fundusze. Nawet czarodzieje szkolący uczniów w odosobnieniu własnych wież wykorzystują podział magii na szkoły jako narzędzie nauki, ponieważ zaklęcia każdej szkoły wymagają opanowania odmiennych technik.</p>"
                 }
             }
         },
