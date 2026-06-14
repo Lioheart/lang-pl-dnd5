@@ -219,6 +219,60 @@ def build_id_index(data: list[dict]) -> dict:
             index[obj["_id"]] = obj
     return index
 
+def build_records_by_id(data: list[dict], predicate) -> dict[str, list[dict]]:
+    """
+    Zachowuje wszystkie rekordy o tym samym _id.
+
+    W paczkach Actor dokumenty osadzone, np. Itemy potworów, mogą mieć takie
+    samo _id u wielu różnych aktorów. Zwykły indeks {id: record} zachowuje
+    tylko ostatni rekord i gubi informację, który wariant należy do aktora.
+    """
+    records_by_id: dict[str, list[dict]] = {}
+
+    for record in data:
+        if not isinstance(record, dict):
+            continue
+
+        if not predicate(record):
+            continue
+
+        record_id = record.get("_id")
+        if not isinstance(record_id, str) or not record_id.strip():
+            continue
+
+        records_by_id.setdefault(record_id, []).append(record)
+
+    return records_by_id
+
+
+def resolve_record_in_actor_order(
+        record_id: str,
+        id_index: dict,
+        records_by_id: dict[str, list[dict]] | None,
+        record_positions: dict[str, int] | None
+) -> dict | None:
+    """
+    Rozwiązuje ID rekordu osadzonego z zachowaniem kolejności aktorów.
+
+    LevelDB przechowuje osadzone dokumenty pod kluczami zawierającymi rodzica,
+    ale po eksporcie do listy JSON pozostaje tylko wartość dokumentu. Gdy wiele
+    osadzonych itemów ma ten sam _id, jedyną dostępną informacją pozwalającą
+    odtworzyć przypisanie jest kolejność rekordów w paczce. Dlatego kolejne
+    odwołania aktorów do tego samego ID zużywają kolejne rekordy o tym ID.
+    """
+    if not isinstance(record_id, str) or not record_id.strip():
+        return None
+
+    if records_by_id is not None and record_positions is not None:
+        records = records_by_id.get(record_id)
+        if records:
+            position = record_positions.get(record_id, 0)
+            if position < len(records):
+                record_positions[record_id] = position + 1
+                return records[position]
+
+    record = id_index.get(record_id)
+    return record if isinstance(record, dict) else None
 
 def extract_description(record: dict) -> str:
     if not isinstance(record, dict):
@@ -1461,10 +1515,16 @@ def build_journal_pages_mapping(data: list[dict]) -> dict:
 def collect_journal_folder_names(
         data: list[dict]
 ) -> dict[str, str]:
-    """Zwraca foldery JournalEntry w kolejności pola sort."""
+    """
+    Zwraca foldery JournalEntry w kolejności zgodnej
+    z eksportem Babele.
+
+    Przy jednakowym sort zachowuje kolejność rekordów
+    z paczki źródłowej.
+    """
     folder_records = []
 
-    for record in data:
+    for source_index, record in enumerate(data):
         if not isinstance(record, dict):
             continue
 
@@ -1476,15 +1536,16 @@ def collect_journal_folder_names(
             continue
 
         sort_value = record.get("sort")
+
         if not isinstance(sort_value, (int, float)):
             sort_value = 0
 
         folder_records.append(
-            (sort_value, name.casefold(), name)
+            (sort_value, source_index, name)
         )
 
     folder_records.sort(
-        key=lambda item: (item[0], item[1])
+        key=lambda item: item[0]
     )
 
     return {
@@ -1508,6 +1569,41 @@ def resolve_journal_pages(pages_value, id_index: dict) -> list[dict]:
 
     return pages
 
+def resolve_journal_categories(
+        categories_value,
+        id_index: dict
+) -> dict[str, str]:
+    """
+    Odtwarza JournalEntry.categories w formacie eksportu Babele.
+
+    Foundry przechowuje kategorie jako listę identyfikatorów.
+    Babele eksportuje je jako:
+        {"Nazwa kategorii": "Nazwa kategorii"}
+    """
+    if not isinstance(categories_value, list):
+        return {}
+
+    categories: dict[str, str] = {}
+
+    for category_value in categories_value:
+        category_record = None
+
+        if isinstance(category_value, str):
+            category_record = id_index.get(category_value)
+        elif isinstance(category_value, dict):
+            category_record = category_value
+
+        if not isinstance(category_record, dict):
+            continue
+
+        category_name = (
+            category_record.get("name") or ""
+        ).strip()
+
+        if category_name:
+            categories[category_name] = category_name
+
+    return categories
 
 def process_rules_pack(
         data: list[dict],
@@ -1574,8 +1670,7 @@ def process_rules_pack(
             continue
 
         entry = {
-            "name": entry_name,
-            "pages": {},
+            "name": entry_name
         }
 
         chapter_title = (
@@ -1590,6 +1685,16 @@ def process_rules_pack(
         journal_content = record.get("content")
         if isinstance(journal_content, str) and journal_content.strip():
             entry["description"] = journal_content.strip()
+
+        categories = resolve_journal_categories(
+            record.get("categories"),
+            id_index
+        )
+
+        if categories:
+            entry["categories"] = categories
+
+        entry["pages"] = {}
 
         for page in resolve_journal_pages(pages_value, id_index):
             page_name = (page.get("name") or "").strip()
@@ -1642,13 +1747,6 @@ def process_rules_pack(
 
         if entry["pages"]:
             transifex_dict["entries"][entry_name] = entry
-
-    transifex_dict["entries"] = dict(
-        sorted(
-            transifex_dict["entries"].items(),
-            key=lambda item: item[0].casefold()
-        )
-    )
 
     return remove_empty_keys(transifex_dict)
 
@@ -2005,7 +2103,12 @@ def populate_dnd5e_item(entry: dict, item: dict, id_index: dict | None = None) -
     add_advancement_to_item(entry, item)
 
 
-def resolve_actor_item_records(actor: dict, id_index: dict) -> list[dict]:
+def resolve_actor_item_records(
+        actor: dict,
+        id_index: dict,
+        item_records_by_id: dict[str, list[dict]] | None = None,
+        item_record_positions: dict[str, int] | None = None
+) -> list[dict]:
     items_value = actor.get("items")
     items = []
 
@@ -2014,14 +2117,26 @@ def resolve_actor_item_records(actor: dict, id_index: dict) -> list[dict]:
             if isinstance(item_ref, dict):
                 items.append(item_ref)
             elif isinstance(item_ref, str):
-                resolved = id_index.get(item_ref)
+                resolved = resolve_record_in_actor_order(
+                    item_ref,
+                    id_index,
+                    item_records_by_id,
+                    item_record_positions
+                )
                 if isinstance(resolved, dict):
                     items.append(resolved)
 
     return items
 
 
-def populate_dnd5e_actor(entry: dict, actor: dict, id_index: dict, pack_name: str) -> None:
+def populate_dnd5e_actor(
+        entry: dict,
+        actor: dict,
+        id_index: dict,
+        pack_name: str,
+        item_records_by_id: dict[str, list[dict]] | None = None,
+        item_record_positions: dict[str, int] | None = None
+) -> None:
     actor_name = (actor.get("name") or "").strip()
     if actor_name:
         entry["name"] = actor_name
@@ -2038,7 +2153,12 @@ def populate_dnd5e_actor(entry: dict, actor: dict, id_index: dict, pack_name: st
     if alignment:
         entry["alignment"] = alignment
 
-    items = resolve_actor_item_records(actor, id_index)
+    items = resolve_actor_item_records(
+        actor,
+        id_index,
+        item_records_by_id,
+        item_record_positions
+    )
     if items:
         entry.setdefault("items", {})
         for item in items:
@@ -2057,6 +2177,9 @@ def populate_dnd5e_actor(entry: dict, actor: dict, id_index: dict, pack_name: st
 
 def process_actor_pack(data: list[dict], pack_name: str) -> dict:
     id_index = build_id_index(data)
+    item_records_by_id = build_records_by_id(data, is_item_record)
+    item_record_positions: dict[str, int] = {}
+
     transifex_dict = {
         "label": ACTOR_LABEL_OVERRIDES.get(pack_name, pack_name.title()),
         "mapping": actor_mapping_for_pack(pack_name),
@@ -2080,7 +2203,14 @@ def process_actor_pack(data: list[dict], pack_name: str) -> dict:
             continue
 
         entry = {}
-        populate_dnd5e_actor(entry, record, id_index, pack_name)
+        populate_dnd5e_actor(
+            entry,
+            record,
+            id_index,
+            pack_name,
+            item_records_by_id,
+            item_record_positions
+        )
         if entry:
             transifex_dict["entries"][name] = entry
 
