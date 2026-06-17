@@ -59,7 +59,12 @@
                 "Breath Weapon - White": {
                     "name": "Breath Weapon - White",
                     "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-                    "requirements": "White Dragonborn"
+                    "requirements": "White Dragonborn",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Cleric": {
                     "name": "Cleric",
@@ -250,6 +255,11 @@
                     "name": "Bane",
                     "description": "<p>Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.</p>\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>",
                     "materials": "A drop of blood",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    },
                     "effects": {
                         "Bane": {
                             "name": "Bane",
@@ -280,7 +290,12 @@
                 },
                 "Command": {
                     "name": "Command",
-                    "description": "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target falls prone and then ends its turn.</p><p><strong>Halt.</strong> The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p><p><strong>Higher Levels. </strong>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>"
+                    "description": "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target falls prone and then ends its turn.</p><p><strong>Halt.</strong> The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p><p><strong>Higher Levels. </strong>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Detect Magic": {
                     "name": "Detect Magic",
@@ -289,7 +304,12 @@
                 "Sanctuary": {
                     "name": "Sanctuary",
                     "description": "<p>You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a Fireball.</p><p>If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.</p>",
-                    "materials": "A small silver mirror"
+                    "materials": "A small silver mirror",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Shield of Faith": {
                     "name": "Shield of Faith",
@@ -308,7 +328,12 @@
                 },
                 "Sacred Flame": {
                     "name": "Sacred Flame",
-                    "description": "<p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.</p><p>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
+                    "description": "<p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.</p><p>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "none"
+                        }
+                    }
                 },
                 "Healing Word": {
                     "name": "Healing Word",
@@ -525,7 +550,12 @@
                 },
                 "Thunderwave": {
                     "name": "Thunderwave",
-                    "description": "<p>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.</p><p>In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>"
+                    "description": "<p>A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.</p><p>In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Jump": {
                     "name": "Jump",
@@ -544,6 +574,11 @@
                 "Charm Person": {
                     "name": "Charm Person",
                     "description": "<p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is &amp;Reference[charmed] by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    },
                     "effects": {
                         "Charm Person": {
                             "name": "Charm Person",
@@ -554,6 +589,11 @@
                 "Entangle": {
                     "name": "Entangle",
                     "description": "<p>Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For the Duration, these Plants turn the ground in the area into difficult terrain.</p><p>A creature in the area when you cast the spell must succeed on a Strength saving throw or be &amp;Reference[Restrained] by the entangling Plants until the spell ends. A creature restrained by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself.</p><p>When the spell ends, the conjured Plants wilt away.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    },
                     "effects": {
                         "Entangle": {
                             "name": "Entangle",
@@ -568,11 +608,21 @@
                 "Animal Friendship": {
                     "name": "Animal Friendship",
                     "description": "<p>This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spell ends.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.</p>",
-                    "materials": "A morsel of food."
+                    "materials": "A morsel of food.",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Faerie Fire": {
                     "name": "Faerie Fire",
-                    "description": "<p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</p><p>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</p>"
+                    "description": "<p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</p><p>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Healing Word": {
                     "name": "Healing Word",
@@ -787,12 +837,22 @@
                 "Hideous Laughter": {
                     "name": "Hideous Laughter",
                     "description": "<p>A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming Incapacitated and unable to stand up for the Duration. A creature with an Intelligence score of 4 or less isn't affected.</p><p>At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it's triggered by damage. On a success, the spell ends.</p>",
-                    "materials": "Tiny tarts and a feather that is waved in the air"
+                    "materials": "Tiny tarts and a feather that is waved in the air",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Light": {
                     "name": "Light",
                     "description": "<p>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</p><p>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</p>",
-                    "materials": "A firefly or phosphorescent moss."
+                    "materials": "A firefly or phosphorescent moss.",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "none"
+                        }
+                    }
                 },
                 "Mage Hand": {
                     "name": "Mage Hand",
@@ -801,6 +861,11 @@
                 "Charm Person": {
                     "name": "Charm Person",
                     "description": "<p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is &amp;Reference[charmed] by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    },
                     "effects": {
                         "Charm Person": {
                             "name": "Charm Person",
@@ -1376,7 +1441,12 @@
                 },
                 "Burning Hands": {
                     "name": "Burning Hands",
-                    "description": "<p>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>The fire ignites any flammable objects in the area that aren't being worn or carried.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>"
+                    "description": "<p>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>The fire ignites any flammable objects in the area that aren't being worn or carried.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Disguise Self": {
                     "name": "Disguise Self",
@@ -2381,7 +2451,12 @@
                 },
                 "Burning Hands": {
                     "name": "Burning Hands",
-                    "description": "<p>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>The fire ignites any flammable objects in the area that aren't being worn or carried.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>"
+                    "description": "<p>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>The fire ignites any flammable objects in the area that aren't being worn or carried.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Eldritch Blast": {
                     "name": "Eldritch Blast",
@@ -2389,7 +2464,12 @@
                 },
                 "Command": {
                     "name": "Command",
-                    "description": "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target falls prone and then ends its turn.</p><p><strong>Halt.</strong> The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p><p><strong>Higher Levels. </strong>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>"
+                    "description": "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target falls prone and then ends its turn.</p><p><strong>Halt.</strong> The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p><p><strong>Higher Levels. </strong>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "half"
+                        }
+                    }
                 },
                 "Chill Touch": {
                     "name": "Chill Touch",
@@ -2596,7 +2676,12 @@
                 "Light": {
                     "name": "Light",
                     "description": "<p>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</p><p>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</p>",
-                    "materials": "A firefly or phosphorescent moss."
+                    "materials": "A firefly or phosphorescent moss.",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "none"
+                        }
+                    }
                 },
                 "Mage Armor": {
                     "name": "Mage Armor",

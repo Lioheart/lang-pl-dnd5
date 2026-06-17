@@ -24,6 +24,7 @@
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
                 "roll": "roll.name",
+                "damageOnSave": "damage.onSave",
                 "range": {
                     "path": "range",
                     "converter": "imperialToMetric"
@@ -115,52 +116,102 @@
         "Breath Weapon - Black": {
             "name": "Breath Weapon - Black",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "Black Dragonborn"
+            "requirements": "Black Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Breath Weapon - Blue": {
             "name": "Breath Weapon - Blue",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "Blue Dragonborn"
+            "requirements": "Blue Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Breath Weapon - Brass": {
             "name": "Breath Weapon - Brass",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "Brass Dragonborn"
+            "requirements": "Brass Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Breath Weapon - Bronze": {
             "name": "Breath Weapon - Bronze",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "Bronze Dragonborn"
+            "requirements": "Bronze Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Breath Weapon - Copper": {
             "name": "Breath Weapon - Copper",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "Copper Dragonborn"
+            "requirements": "Copper Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Breath Weapon - Gold": {
             "name": "Breath Weapon - Gold",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "Gold Dragonborn"
+            "requirements": "Gold Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Breath Weapon - Green": {
             "name": "Breath Weapon - Green",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 poison damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "Green Dragonborn"
+            "requirements": "Green Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Breath Weapon - Red": {
             "name": "Breath Weapon - Red",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "Red Dragonborn"
+            "requirements": "Red Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Breath Weapon - Silver": {
             "name": "Breath Weapon - Silver",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "Silver Dragonborn"
+            "requirements": "Silver Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Breath Weapon - White": {
             "name": "Breath Weapon - White",
             "description": "<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p><p>When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p><p>After you use your breath weapon, you can't use it again until you complete a short or long rest.</p>",
-            "requirements": "White Dragonborn"
+            "requirements": "White Dragonborn",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Dragonborn": {
             "name": "Dragonborn",

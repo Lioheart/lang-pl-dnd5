@@ -24,6 +24,7 @@
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
                 "roll": "roll.name",
+                "damageOnSave": "damage.onSave",
                 "range": {
                     "path": "range",
                     "converter": "imperialToMetric"
@@ -210,7 +211,12 @@
         "Bewitching Whispers": {
             "name": "Bewitching Whispers",
             "description": "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.P6f1PPKPd9BCb742]{Compulsion} once using a warlock spell slot. You can't do so again until you finish a long rest.</p>",
-            "requirements": "Warlock 7"
+            "requirements": "Warlock 7",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Blessed Healer": {
             "name": "Blessed Healer",
@@ -255,7 +261,12 @@
         "Chains of Carceri": {
             "name": "Chains of Carceri",
             "description": "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm]{Hold Monster} at will - targeting a celestial, fiend, or elemental - without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.</p>",
-            "requirements": "Warlock 15, Pact of the Chain"
+            "requirements": "Warlock 15, Pact of the Chain",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Channel Divinity": {
             "name": "Channel Divinity",
@@ -280,7 +291,12 @@
         "Channel Divinity: Turn the Unholy": {
             "name": "Channel Divinity: Turn the Unholy",
             "description": "<p>As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.</p><p>A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</p>",
-            "requirements": "Oath of Devotion 3"
+            "requirements": "Oath of Devotion 3",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Channel Divinity: Turn Undead": {
             "name": "Channel Divinity: Turn Undead",
@@ -288,7 +304,8 @@
             "requirements": "Cleric 2",
             "activities": {
                 "save": {
-                    "condition": "Targets must be able to see or hear you."
+                    "condition": "Targets must be able to see or hear you.",
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -453,7 +470,8 @@
             "requirements": "Draconic Bloodline 18",
             "activities": {
                 "save": {
-                    "condition": "Also requires 5 sorcery points."
+                    "condition": "Also requires 5 sorcery points.",
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -480,7 +498,12 @@
         "Dreadful Word": {
             "name": "Dreadful Word",
             "description": "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{Confusion} once using a warlock spell slot. You can't do so again until you finish a long rest.</p>",
-            "requirements": "Warlock 7"
+            "requirements": "Warlock 7",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Druid Circle": {
             "name": "Druid Circle",
@@ -793,7 +816,12 @@
         "Intimidating Presence": {
             "name": "Intimidating Presence",
             "description": "<p>Beginning at 10th level, you can use your action to frighten someone with your menacing presence.</p><p>When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.</p><p>If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.</p>",
-            "requirements": "Path of the Berserker 10"
+            "requirements": "Path of the Berserker 10",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Jack of All Trades": {
             "name": "Jack of All Trades",
@@ -882,7 +910,12 @@
         "Mire the Mind": {
             "name": "Mire the Mind",
             "description": "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{Slow} once using a warlock spell slot. You can't do so again until you finish a long rest.</p>",
-            "requirements": "Warlock 5"
+            "requirements": "Warlock 5",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Misty Visions": {
             "name": "Misty Visions",
@@ -927,7 +960,12 @@
         "Nature's Sanctuary": {
             "name": "Nature's Sanctuary",
             "description": "<p>When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you.</p><p>When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.</p><p>The creature is aware of this effect before it makes its attack against you.</p>",
-            "requirements": "Circle of the Land 14"
+            "requirements": "Circle of the Land 14",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Nature's Ward": {
             "name": "Nature's Ward",
@@ -1065,7 +1103,8 @@
             "requirements": "Way of the Open Hand 17",
             "activities": {
                 "save": {
-                    "condition": "Only ending the vibrations harmfully requires an action."
+                    "condition": "Only ending the vibrations harmfully requires an action.",
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1092,7 +1131,12 @@
         "Relentless Rage": {
             "name": "Relentless Rage",
             "description": "<p>Starting at 11th level, your rage can keep you fighting despite grievous wounds.</p><p>If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</p><p>Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</p>",
-            "requirements": "Barbarian 11"
+            "requirements": "Barbarian 11",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Reliable Talent": {
             "name": "Reliable Talent",
@@ -1137,7 +1181,12 @@
         "Sculptor of Flesh": {
             "name": "Sculptor of Flesh",
             "description": "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{Polymorph} once using a warlock spell slot. You can't do so again until you finish a long rest.</p>",
-            "requirements": "Warlock 7"
+            "requirements": "Warlock 7",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Second Wind": {
             "name": "Second Wind",
@@ -1152,7 +1201,12 @@
         "Sign of Ill Omen": {
             "name": "Sign of Ill Omen",
             "description": "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL]{Bestow Curse} once using a warlock spell slot. You can't do so again until you finish a long rest.</p>",
-            "requirements": "Warlock 5"
+            "requirements": "Warlock 5",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Signature Spells": {
             "name": "Signature Spells",
@@ -1228,6 +1282,11 @@
             "name": "Stunning Strike",
             "description": "<p>Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</p>",
             "requirements": "Monk 5",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            },
             "effects": {
                 "Stunning Strike": {
                     "name": "Stunning Strike"
@@ -1277,7 +1336,12 @@
         "Thief of Five Fates": {
             "name": "Thief of Five Fates",
             "description": "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf]{Bane} once using a warlock spell slot. You can't do so again until you finish a long rest.</p>",
-            "requirements": "Warlock 2"
+            "requirements": "Warlock 2",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Thief's Reflexes": {
             "name": "Thief's Reflexes",
@@ -1307,7 +1371,12 @@
         "Tranquility": {
             "name": "Tranquility",
             "description": "<p>Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a @UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{Sanctuary} spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.</p>",
-            "requirements": "Way of the Open Hand 11"
+            "requirements": "Way of the Open Hand 11",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Twinned Spell": {
             "name": "Twinned Spell",

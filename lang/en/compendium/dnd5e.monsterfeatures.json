@@ -24,6 +24,7 @@
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
                 "roll": "roll.name",
+                "damageOnSave": "damage.onSave",
                 "range": {
                     "path": "range",
                     "converter": "imperialToMetric"
@@ -104,7 +105,12 @@
     "entries": {
         "Aberrant Ground": {
             "name": "Aberrant Ground",
-            "description": "<section class=\"secret\" id=\"secret-ZvMor4KTuP30JdUm\"><p>The ground in a <strong>10-foot radius</strong> around the [[lookup @name lowercase]]{monster} is doughlike difficult terrain.</p><p>Each creature that starts its turn in that area must succeed on a <strong>DC 10 Strength saving throw</strong> or have its speed reduced to 0 until the start of its next turn.</p></section><p>The ground in a <strong>10-foot radius</strong> around the [[lookup @name lowercase]]{monster} is doughlike difficult terrain. Make a <strong>Strength</strong> saving throw.</p>"
+            "description": "<section class=\"secret\" id=\"secret-ZvMor4KTuP30JdUm\"><p>The ground in a <strong>10-foot radius</strong> around the [[lookup @name lowercase]]{monster} is doughlike difficult terrain.</p><p>Each creature that starts its turn in that area must succeed on a <strong>DC 10 Strength saving throw</strong> or have its speed reduced to 0 until the start of its next turn.</p></section><p>The ground in a <strong>10-foot radius</strong> around the [[lookup @name lowercase]]{monster} is doughlike difficult terrain. Make a <strong>Strength</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Acid Absorption": {
             "name": "Acid Absorption",
@@ -112,11 +118,21 @@
         },
         "Acid Breath": {
             "name": "Acid Breath",
-            "description": "<section class=\"secret\"><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales acid in a 60-foot line that is 5 feet wide. </p><p>Each creature in that line must make a  <strong>DC 18 Dexterity</strong> saving throw, taking <strong>54 (12d8) <em>acid damage</em></strong> on a failed save, or half as much damage on a successful one.</p></section><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales acid in a 60-foot line that is 5 feet wide. </p><p>Each creature in that line must make a  <strong>DC 18 Dexterity</strong> saving throw, taking <strong>54 (12d8) <em>acid damage</em></strong> on a failed save, or half as much damage on a successful one.</p></section><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Acid Spray": {
             "name": "Acid Spray",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} spits acid in a line that is 30 ft. long and 5 ft. wide, provided that it has no creature grappled.</p><p>Each creature in that line must make a  <strong>DC 13 Dexterity</strong> saving throw, taking <strong>10 (3d6) <em>acid damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} spits acid in a line that is 30 ft. long and 5 ft. wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} spits acid in a line that is 30 ft. long and 5 ft. wide, provided that it has no creature grappled.</p><p>Each creature in that line must make a  <strong>DC 13 Dexterity</strong> saving throw, taking <strong>10 (3d6) <em>acid damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} spits acid in a line that is 30 ft. long and 5 ft. wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Adhesive": {
             "name": "Adhesive",
@@ -156,7 +172,12 @@
         },
         "Antennae": {
             "name": "Antennae",
-            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} corrodes a nonmagical ferrous metal object it can see within 5 feet of it. If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. </p><p>If the object is being worn or carried by a creature, the creature can make a  <strong>DC 11 Dexterity</strong> saving throw to avoid the [[lookup @name lowercase]]{monster}'s touch.If the object touched is either metal armor or a metal shield being worn or carried, its takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. If the object touched is a held metal weapon, it rusts as described in the Rust Metal trait.</p></section><p>the [[lookup @name lowercase]]{monster} corrodes a ferrous metal object it can see within 5 feet of it. If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. </p>"
+            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} corrodes a nonmagical ferrous metal object it can see within 5 feet of it. If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. </p><p>If the object is being worn or carried by a creature, the creature can make a  <strong>DC 11 Dexterity</strong> saving throw to avoid the [[lookup @name lowercase]]{monster}'s touch.If the object touched is either metal armor or a metal shield being worn or carried, its takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. If the object touched is a held metal weapon, it rusts as described in the Rust Metal trait.</p></section><p>the [[lookup @name lowercase]]{monster} corrodes a ferrous metal object it can see within 5 feet of it. If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. </p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Antimagic Susceptibility": {
             "name": "Antimagic Susceptibility",
@@ -193,7 +214,12 @@
         },
         "Blasphemous Word": {
             "name": "Blasphemous Word",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} utters a blasphemous word. Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 10 feet of the [[lookup @name lowercase]]{monster} that can hear the magical utterance must succeed on a  <strong>DC 16 Constitution</strong> saving throw or be stunned until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} utters a blasphemous word. Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 10 feet of the [[lookup @name lowercase]]{monster} that can hear the magical utterance must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} utters a blasphemous word. Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 10 feet of the [[lookup @name lowercase]]{monster} that can hear the magical utterance must succeed on a  <strong>DC 16 Constitution</strong> saving throw or be stunned until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} utters a blasphemous word. Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 10 feet of the [[lookup @name lowercase]]{monster} that can hear the magical utterance must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Blind Senses": {
             "name": "Blind Senses",
@@ -201,19 +227,39 @@
         },
         "Blinding Breath": {
             "name": "Blinding Breath",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} exhales a 15-foot cone of blinding dust.</p><p>Each creature in that area must succeed on a <strong>DC 10 Dexterity</strong> saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} exhales a 15-foot cone of blinding dust. Each creature in that area must make a <strong>Dexterity</strong> saving throw. A creature can repeat the saving throw at the end of each of its turns.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} exhales a 15-foot cone of blinding dust.</p><p>Each creature in that area must succeed on a <strong>DC 10 Dexterity</strong> saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} exhales a 15-foot cone of blinding dust. Each creature in that area must make a <strong>Dexterity</strong> saving throw. A creature can repeat the saving throw at the end of each of its turns.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Blinding Dust": {
             "name": "Blinding Dust",
-            "description": "<section class=\"secret\">\n<p>Blinding dust and sand swirls magically around the [[lookup @name lowercase]]{monster}. Each creature within 5 feet of the [[lookup @name lowercase]]{monster} must succeed on a  <strong>DC 16 Constitution</strong> saving throw or be blinded until the end of the creature's next turn.</p>\n</section>\n<p>Blinding dust and sand swirls magically around the [[lookup @name lowercase]]{monster}. Each creature within 5 feet of the [[lookup @name lowercase]]{monster} must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>Blinding dust and sand swirls magically around the [[lookup @name lowercase]]{monster}. Each creature within 5 feet of the [[lookup @name lowercase]]{monster} must succeed on a  <strong>DC 16 Constitution</strong> saving throw or be blinded until the end of the creature's next turn.</p>\n</section>\n<p>Blinding dust and sand swirls magically around the [[lookup @name lowercase]]{monster}. Each creature within 5 feet of the [[lookup @name lowercase]]{monster} must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Blinding Gaze": {
             "name": "Blinding Gaze",
-            "description": "<section class=\"secret\">the [[lookup @name lowercase]]{monster} targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a <strong>DC 15 Constitution</strong> saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.\n</section>\n<p>the [[lookup @name lowercase]]{monster} targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a Constitution saving throw or be blinded.</p>"
+            "description": "<section class=\"secret\">the [[lookup @name lowercase]]{monster} targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a <strong>DC 15 Constitution</strong> saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.\n</section>\n<p>the [[lookup @name lowercase]]{monster} targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a Constitution saving throw or be blinded.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Blinding Spittle": {
             "name": "Blinding Spittle",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact.</p><p>Each creature within 5 feet of the flash must succeed on a <strong>DC 13 Dexterity</strong> saving throw or be blinded until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must make a <strong>Dexterity</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact.</p><p>Each creature within 5 feet of the flash must succeed on a <strong>DC 13 Dexterity</strong> saving throw or be blinded until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must make a <strong>Dexterity</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Blood Frenzy": {
             "name": "Blood Frenzy",
@@ -249,11 +295,21 @@
         },
         "Charge": {
             "name": "Charge",
-            "description": "<section class=\"secret\">\n<p>If the [[lookup @name lowercase]]{monster} moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra <strong>3 (1d6) <em>slashing damage</em></strong>.</p><p>If the target is a creature, it must succeed on a  <strong>DC 11 Strength</strong> saving throw or be knocked prone.</p>\n</section>\n<p>If the [[lookup @name lowercase]]{monster} moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes extra <em>slashing damage</em>. If the target is a creature, it must make a <strong>Strength</strong> saving throw or be knocked prone.</p>"
+            "description": "<section class=\"secret\">\n<p>If the [[lookup @name lowercase]]{monster} moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra <strong>3 (1d6) <em>slashing damage</em></strong>.</p><p>If the target is a creature, it must succeed on a  <strong>DC 11 Strength</strong> saving throw or be knocked prone.</p>\n</section>\n<p>If the [[lookup @name lowercase]]{monster} moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes extra <em>slashing damage</em>. If the target is a creature, it must make a <strong>Strength</strong> saving throw or be knocked prone.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Charm": {
             "name": "Charm",
-            "description": "<section class=\"secret\">\n<p>One humanoid the [[lookup @name lowercase]]{monster} can see within 30 feet of it must make a <strong>Wisdom</strong> saving throw or be magically charmed for 1 day. The charmed target obeys the [[lookup @name lowercase]]{monster}'s verbal or telepathic commands.</p><p>If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this [[lookup @name lowercase]]{monster}'s Charm for the next 24 hours. the [[lookup @name lowercase]]{monster} can have only one target charmed at a time. If it charms another, the effect on the previous target ends.</p>\n</section>\n<p>One humanoid the [[lookup @name lowercase]]{monster} can see within 30 feet of it must make a <strong>Wisdom</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>One humanoid the [[lookup @name lowercase]]{monster} can see within 30 feet of it must make a <strong>Wisdom</strong> saving throw or be magically charmed for 1 day. The charmed target obeys the [[lookup @name lowercase]]{monster}'s verbal or telepathic commands.</p><p>If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this [[lookup @name lowercase]]{monster}'s Charm for the next 24 hours. the [[lookup @name lowercase]]{monster} can have only one target charmed at a time. If it charms another, the effect on the previous target ends.</p>\n</section>\n<p>One humanoid the [[lookup @name lowercase]]{monster} can see within 30 feet of it must make a <strong>Wisdom</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Children of the Night": {
             "name": "Children of the Night",
@@ -269,7 +325,12 @@
         },
         "Cold Breath": {
             "name": "Cold Breath",
-            "description": "<section class=\"secret\">\n<p>**Cold Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales an icy blast in a 60-foot cone. Each creature in that area must make a  <strong>DC 20 Constitution</strong> saving throw, taking <strong>58 (13d8) <em>cold damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales an icy blast in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>**Cold Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales an icy blast in a 60-foot cone. Each creature in that area must make a  <strong>DC 20 Constitution</strong> saving throw, taking <strong>58 (13d8) <em>cold damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales an icy blast in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Confer Fire Resistance": {
             "name": "Confer Fire Resistance",
@@ -277,7 +338,12 @@
         },
         "Consume Life": {
             "name": "Consume Life",
-            "description": "<section class=\"secret\"><p>As a bonus action, the [[lookup @name lowercase]]{monster} can target one creature it can see within <strong>5 ft.</strong> of it that has <strong>0 hit points</strong> and is still alive. </p><p>The target must succeed on a <strong>DC 10 Constitution saving throw</strong> against this magic or die. If the target dies, the [[lookup @name lowercase]]{monster} regains 10 (3d6)<strong> hit points</strong>.</p></section><p>the [[lookup @name lowercase]]{monster} can target one creature it can see within <strong>5 ft.</strong> The target must succeed on a Constitution saving throw.</p>"
+            "description": "<section class=\"secret\"><p>As a bonus action, the [[lookup @name lowercase]]{monster} can target one creature it can see within <strong>5 ft.</strong> of it that has <strong>0 hit points</strong> and is still alive. </p><p>The target must succeed on a <strong>DC 10 Constitution saving throw</strong> against this magic or die. If the target dies, the [[lookup @name lowercase]]{monster} regains 10 (3d6)<strong> hit points</strong>.</p></section><p>the [[lookup @name lowercase]]{monster} can target one creature it can see within <strong>5 ft.</strong> The target must succeed on a Constitution saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Corrode Metal": {
             "name": "Corrode Metal",
@@ -293,7 +359,12 @@
         },
         "Create Whirlwind": {
             "name": "Create Whirlwind",
-            "description": "<section class=\"secret\">\n<p>A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the [[lookup @name lowercase]]{monster} can see within 120 feet of it. The whirlwind lasts as long as the [[lookup @name lowercase]]{monster} maintains concentration (as if concentrating on a spell).</p><p>Any creature but the [[lookup @name lowercase]]{monster} that enters the whirlwind must succeed on a <strong>DC 18 Strength</strong> saving throw or be restrained by it. the [[lookup @name lowercase]]{monster} can move the whirlwind up to 60 feet as an action, and creatures restrained by the whirlwind move with it. The whirlwind ends if the [[lookup @name lowercase]]{monster} loses sight of it.</p><p>A creature can use its action to free a creature restrained by the whirlwind, including itself, by succeeding on a DC 18 Strength check. If the check succeeds, the creature is no longer restrained and moves to the nearest space outside the whirlwind.</p>\n</section>\n<p>A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the [[lookup @name lowercase]]{monster} can see within 120 feet of it. Any creature but the [[lookup @name lowercase]]{monster} that enters the whirlwind must make a <strong>Strength</strong> saving throw or be restrained by it. the [[lookup @name lowercase]]{monster} can move the whirlwind up to 60 feet as an action, and creatures restrained by the whirlwind move with it. A creature can use its action to free a creature restrained by the whirlwind, including itself, by succeeding on a Strength check. If the check succeeds, the creature is no longer restrained and moves to the nearest space outside the whirlwind.</p>"
+            "description": "<section class=\"secret\">\n<p>A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the [[lookup @name lowercase]]{monster} can see within 120 feet of it. The whirlwind lasts as long as the [[lookup @name lowercase]]{monster} maintains concentration (as if concentrating on a spell).</p><p>Any creature but the [[lookup @name lowercase]]{monster} that enters the whirlwind must succeed on a <strong>DC 18 Strength</strong> saving throw or be restrained by it. the [[lookup @name lowercase]]{monster} can move the whirlwind up to 60 feet as an action, and creatures restrained by the whirlwind move with it. The whirlwind ends if the [[lookup @name lowercase]]{monster} loses sight of it.</p><p>A creature can use its action to free a creature restrained by the whirlwind, including itself, by succeeding on a DC 18 Strength check. If the check succeeds, the creature is no longer restrained and moves to the nearest space outside the whirlwind.</p>\n</section>\n<p>A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the [[lookup @name lowercase]]{monster} can see within 120 feet of it. Any creature but the [[lookup @name lowercase]]{monster} that enters the whirlwind must make a <strong>Strength</strong> saving throw or be restrained by it. the [[lookup @name lowercase]]{monster} can move the whirlwind up to 60 feet as an action, and creatures restrained by the whirlwind move with it. A creature can use its action to free a creature restrained by the whirlwind, including itself, by succeeding on a Strength check. If the check succeeds, the creature is no longer restrained and moves to the nearest space outside the whirlwind.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Cunning Action": {
             "name": "Cunning Action",
@@ -313,7 +384,12 @@
         },
         "Deadly leap": {
             "name": "Deadly leap",
-            "description": "<section class=\"secret\">\n<p>If the [[lookup @name lowercase]]{monster} jumps at least 15 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures.</p><p>Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take <strong>14 (3d6 + 4) <em>bludgeoning damage</em></strong> plus <strong>14 (3d6 + 4) <em>slashing damage</em></strong>. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the [[lookup @name lowercase]]{monster}'s space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the [[lookup @name lowercase]]{monster}'s space.</p>\n</section>\n<p>If the [[lookup @name lowercase]]{monster} jumps at least 15 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must make a Strength or Dexterity saving throw (target's choice) or be knocked prone.</p>"
+            "description": "<section class=\"secret\">\n<p>If the [[lookup @name lowercase]]{monster} jumps at least 15 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures.</p><p>Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take <strong>14 (3d6 + 4) <em>bludgeoning damage</em></strong> plus <strong>14 (3d6 + 4) <em>slashing damage</em></strong>. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the [[lookup @name lowercase]]{monster}'s space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the [[lookup @name lowercase]]{monster}'s space.</p>\n</section>\n<p>If the [[lookup @name lowercase]]{monster} jumps at least 15 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must make a Strength or Dexterity saving throw (target's choice) or be knocked prone.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Death Burst": {
             "name": "Death Burst",
@@ -323,20 +399,27 @@
                     "condition": "on death"
                 },
                 "save": {
-                    "condition": "on death"
+                    "condition": "on death",
+                    "damageOnSave": "half"
                 }
             }
         },
         "Death Glare": {
             "name": "Death Glare",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} targets one frightened creature she can see within 30 ft. of her. If the target can see the [[lookup @name lowercase]]{monster}, it must succeed on a <strong>DC 11 Wisdom</strong> saving throw against this magic or drop to 0 hit points.</p><p></p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} targets one frightened creature she can see within 30 ft. of her. If the target can see the [[lookup @name lowercase]]{monster}, it must make a <strong>Wisdom</strong> saving throw against this magic.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} targets one frightened creature she can see within 30 ft. of her. If the target can see the [[lookup @name lowercase]]{monster}, it must succeed on a <strong>DC 11 Wisdom</strong> saving throw against this magic or drop to 0 hit points.</p><p></p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} targets one frightened creature she can see within 30 ft. of her. If the target can see the [[lookup @name lowercase]]{monster}, it must make a <strong>Wisdom</strong> saving throw against this magic.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Death Throes": {
             "name": "Death Throes",
             "description": "<section class=\"secret\">\n<p>When the [[lookup @name lowercase]]{monster} dies, it explodes, and each creature within 30 feet of it must make a  <strong>DC 20 Dexterity</strong> saving throw, taking <strong>70 (20d6) <em>fire damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p>The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the [[lookup @name lowercase]]{monster}'s weapons.</p>\n</section>\n<p>When the [[lookup @name lowercase]]{monster} dies, it explodes, and each creature within 30 feet of it must make a <strong>Dexterity</strong> saving throw. The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the [[lookup @name lowercase]]{monster}'s weapons.</p>",
             "activities": {
                 "save": {
-                    "condition": "Upon death"
+                    "condition": "Upon death",
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -358,7 +441,12 @@
         },
         "Disrupt Life": {
             "name": "Disrupt Life",
-            "description": "<section class=\"secret\">\n<p>Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 20 feet of the [[lookup @name lowercase]]{monster} must make a  <strong>DC 18 Constitution</strong> saving throw against this magic, taking <strong>21 (6d6) <em>necrotic damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 20 feet of the [[lookup @name lowercase]]{monster} must make a <strong>Constitution</strong> saving throw against this magic.</p>"
+            "description": "<section class=\"secret\">\n<p>Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 20 feet of the [[lookup @name lowercase]]{monster} must make a  <strong>DC 18 Constitution</strong> saving throw against this magic, taking <strong>21 (6d6) <em>necrotic damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 20 feet of the [[lookup @name lowercase]]{monster} must make a <strong>Constitution</strong> saving throw against this magic.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Divine Awareness": {
             "name": "Divine Awareness",
@@ -370,11 +458,21 @@
         },
         "Draining Kiss": {
             "name": "Draining Kiss",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} kisses a creature charmed by it or a willing creature. The target must make a <strong>DC 15 Constitution</strong> saving throw against this magic, taking <strong>32 (5d10 + 5) <em>psychic damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p>The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>\n</section>\n<p>The target must make a <strong>Constitution</strong> saving throw against this magic.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} kisses a creature charmed by it or a willing creature. The target must make a <strong>DC 15 Constitution</strong> saving throw against this magic, taking <strong>32 (5d10 + 5) <em>psychic damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p>The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>\n</section>\n<p>The target must make a <strong>Constitution</strong> saving throw against this magic.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Dreadful Glare": {
             "name": "Dreadful Glare",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} targets one creature it can see within 60 ft. of it. If the target can see the [[lookup @name lowercase]]{monster}, it must succeed on a <strong>DC 11 Wisdom</strong> saving throw against this magic or become frightened until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p><p>If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} targets one creature it can see within 60 ft. of it. If the target can see the [[lookup @name lowercase]]{monster}, it must make a <strong>Wisdom</strong> saving throw against this magic.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} targets one creature it can see within 60 ft. of it. If the target can see the [[lookup @name lowercase]]{monster}, it must succeed on a <strong>DC 11 Wisdom</strong> saving throw against this magic or become frightened until the end of the [[lookup @name lowercase]]{monster}'s next turn.</p><p>If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} targets one creature it can see within 60 ft. of it. If the target can see the [[lookup @name lowercase]]{monster}, it must make a <strong>Wisdom</strong> saving throw against this magic.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Duergar Resilience": {
             "name": "Duergar Resilience",
@@ -395,7 +493,12 @@
         },
         "Engulf": {
             "name": "Engulf",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the [[lookup @name lowercase]]{monster} enters a creature's space, the creature must make a <strong>DC 12 Dexterity</strong> saving throw.On a successful save, the creature can choose to be pushed 5 feet back or to the side of the [[lookup @name lowercase]]{monster}. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.</p><p>On a failed save, the [[lookup @name lowercase]]{monster} enters the creature's space, and the creature takes <strong>10 (3d6) <em>acid damage</em></strong> and is engulfed. The engulfed creature can't breathe, is restrained, and takes <strong>21 (6d6) <em>acid damage</em></strong> at the start of each of the [[lookup @name lowercase]]{monster}'s turns. When the [[lookup @name lowercase]]{monster} moves, the engulfed creature moves with it. An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the [[lookup @name lowercase]]{monster}.</p>\n</section>\n<p>Whenever the [[lookup @name lowercase]]{monster} enters a creature's space, the creature must make a <strong>Dexterity</strong> saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of the [[lookup @name lowercase]]{monster}. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the [[lookup @name lowercase]]{monster} enters a creature's space, the creature must make a <strong>DC 12 Dexterity</strong> saving throw.On a successful save, the creature can choose to be pushed 5 feet back or to the side of the [[lookup @name lowercase]]{monster}. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.</p><p>On a failed save, the [[lookup @name lowercase]]{monster} enters the creature's space, and the creature takes <strong>10 (3d6) <em>acid damage</em></strong> and is engulfed. The engulfed creature can't breathe, is restrained, and takes <strong>21 (6d6) <em>acid damage</em></strong> at the start of each of the [[lookup @name lowercase]]{monster}'s turns. When the [[lookup @name lowercase]]{monster} moves, the engulfed creature moves with it. An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the [[lookup @name lowercase]]{monster}.</p>\n</section>\n<p>Whenever the [[lookup @name lowercase]]{monster} enters a creature's space, the creature must make a <strong>Dexterity</strong> saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of the [[lookup @name lowercase]]{monster}. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Enlarge": {
             "name": "Enlarge",
@@ -403,7 +506,12 @@
         },
         "Enslave": {
             "name": "Enslave",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} targets one creature it can see within 30 ft. of it. The target must succeed on a  <strong>DC 14 Wisdom</strong> saving throw or be magically charmed by the [[lookup @name lowercase]]{monster} until the [[lookup @name lowercase]]{monster} dies or until it is on a different plane of existence from the target.</p><p>The charmed target is under the [[lookup @name lowercase]]{monster}'s control and can't take reactions, and the [[lookup @name lowercase]]{monster} and the target can communicate telepathically with each other over any distance.Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the [[lookup @name lowercase]]{monster}.</p>\n</section>\n<p>The target must make a <strong>Wisdom</strong> saving throw. Whenever the target takes damage, the target can repeat the saving throw. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the [[lookup @name lowercase]]{monster}.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} targets one creature it can see within 30 ft. of it. The target must succeed on a  <strong>DC 14 Wisdom</strong> saving throw or be magically charmed by the [[lookup @name lowercase]]{monster} until the [[lookup @name lowercase]]{monster} dies or until it is on a different plane of existence from the target.</p><p>The charmed target is under the [[lookup @name lowercase]]{monster}'s control and can't take reactions, and the [[lookup @name lowercase]]{monster} and the target can communicate telepathically with each other over any distance.Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the [[lookup @name lowercase]]{monster}.</p>\n</section>\n<p>The target must make a <strong>Wisdom</strong> saving throw. Whenever the target takes damage, the target can repeat the saving throw. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the [[lookup @name lowercase]]{monster}.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Ephemeral": {
             "name": "Ephemeral",
@@ -439,11 +547,21 @@
         },
         "Fear Aura": {
             "name": "Fear Aura",
-            "description": "<section class=\"secret\"><p>Any creature hostile to the [[lookup @name lowercase]]{monster} that starts its turn <strong>within 20 feet</strong> of the [[lookup @name lowercase]]{monster} must make a <strong>DC 21 Wisdom saving throw</strong>, unless the [[lookup @name lowercase]]{monster} is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the [[lookup @name lowercase]]{monster}'s Fear Aura for the next 24 hours.</p></section><p>Any creature hostile to the [[lookup @name lowercase]]{monster} that starts its turn <strong>within 20 feet</strong> of the [[lookup @name lowercase]]{monster} must make a <strong>Wisdom</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>Any creature hostile to the [[lookup @name lowercase]]{monster} that starts its turn <strong>within 20 feet</strong> of the [[lookup @name lowercase]]{monster} must make a <strong>DC 21 Wisdom saving throw</strong>, unless the [[lookup @name lowercase]]{monster} is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the [[lookup @name lowercase]]{monster}'s Fear Aura for the next 24 hours.</p></section><p>Any creature hostile to the [[lookup @name lowercase]]{monster} that starts its turn <strong>within 20 feet</strong> of the [[lookup @name lowercase]]{monster} must make a <strong>Wisdom</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Fetid Cloud": {
             "name": "Fetid Cloud",
-            "description": "<section class=\"secret\">\n<p>A 10-foot radius of disgusting green gas extends out from the [[lookup @name lowercase]]{monster}. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it.</p><p>Any creature that starts its turn in that area must succeed on a  <strong>DC 11 Constitution</strong> saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions. 1 use per day.</p>\n</section>\n<p>A 10-foot radius of disgusting green gas extends out from the [[lookup @name lowercase]]{monster}. The gas spreads around corners, and its area is lightly obscured. Any creature that starts its turn in that area must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>A 10-foot radius of disgusting green gas extends out from the [[lookup @name lowercase]]{monster}. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it.</p><p>Any creature that starts its turn in that area must succeed on a  <strong>DC 11 Constitution</strong> saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions. 1 use per day.</p>\n</section>\n<p>A 10-foot radius of disgusting green gas extends out from the [[lookup @name lowercase]]{monster}. The gas spreads around corners, and its area is lightly obscured. Any creature that starts its turn in that area must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Fey Ancestry": {
             "name": "Fey Ancestry",
@@ -457,7 +575,8 @@
                     "condition": "one humanoid or beast"
                 },
                 "save": {
-                    "condition": "one humanoid or beast"
+                    "condition": "one humanoid or beast",
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -471,7 +590,12 @@
         },
         "Fire Breath": {
             "name": "Fire Breath",
-            "description": "<section class=\"secret\">\n<p>**Fire Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a  <strong>DC 18 Dexterity</strong> saving throw, taking <strong>45 (13d6) <em>fire damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>**Fire Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a  <strong>DC 18 Dexterity</strong> saving throw, taking <strong>45 (13d6) <em>fire damage</em></strong> on a failed save, or half as much damage on a successful one.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Fire Form": {
             "name": "Fire Form",
@@ -479,7 +603,12 @@
         },
         "First Roar": {
             "name": "First Roar",
-            "description": "<p>Each creature that fails a  <strong>DC 18 Wisdom</strong> saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>"
+            "description": "<p>Each creature that fails a  <strong>DC 18 Wisdom</strong> saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Fling": {
             "name": "Fling",
@@ -504,19 +633,39 @@
         },
         "Frightening Gaze": {
             "name": "Frightening Gaze",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a  <strong>DC 18 Wisdom</strong> saving throw against this magic or become grappled for 1 minute. The grappled target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the [[lookup @name lowercase]]{monster}'s gaze for the next 24 hours.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} fixes its gaze on one creature it can see within 10 feet of it. The target must make a <strong>Wisdom</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a  <strong>DC 18 Wisdom</strong> saving throw against this magic or become grappled for 1 minute. The grappled target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the [[lookup @name lowercase]]{monster}'s gaze for the next 24 hours.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} fixes its gaze on one creature it can see within 10 feet of it. The target must make a <strong>Wisdom</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Frightful Presence": {
             "name": "Frightful Presence",
-            "description": "<section class=\"secret\"><p>Each creature of the [[lookup @details.type.config.label lowercase]]{monster}'s choice that is <strong>within 120 feet</strong> of the [[lookup @details.type.config.label lowercase]]{monster} and aware of it must succeed on a <strong>DC 16 Wisdom saving throw</strong> or become frightened for <strong>1 minute</strong>. </p><p>A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [[lookup @details.type.config.label lowercase]]{monster}'s Frightful Presence for the next 24 hours.</p></section><p>Each creature of the [[lookup @details.type.config.label lowercase]]{monster}'s choice that is <strong>within 120 feet</strong> of the [[lookup @details.type.config.label lowercase]]{monster} and aware of it must succeed on a Wisdom saving throw. A creature can repeat the saving throw at the end of each of its turns.</p>"
+            "description": "<section class=\"secret\"><p>Each creature of the [[lookup @details.type.config.label lowercase]]{monster}'s choice that is <strong>within 120 feet</strong> of the [[lookup @details.type.config.label lowercase]]{monster} and aware of it must succeed on a <strong>DC 16 Wisdom saving throw</strong> or become frightened for <strong>1 minute</strong>. </p><p>A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [[lookup @details.type.config.label lowercase]]{monster}'s Frightful Presence for the next 24 hours.</p></section><p>Each creature of the [[lookup @details.type.config.label lowercase]]{monster}'s choice that is <strong>within 120 feet</strong> of the [[lookup @details.type.config.label lowercase]]{monster} and aware of it must succeed on a Wisdom saving throw. A creature can repeat the saving throw at the end of each of its turns.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Frost Breath": {
             "name": "Frost Breath",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} exhales a 15-foot cone of cold air. Each creature in that area must succeed on a <strong>DC 10 Dexterity</strong> saving throw, taking <strong>5 (2d4) <em>cold damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} exhales a 15-foot cone of cold air. Each creature in that area must make a <strong>Dexterity</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} exhales a 15-foot cone of cold air. Each creature in that area must succeed on a <strong>DC 10 Dexterity</strong> saving throw, taking <strong>5 (2d4) <em>cold damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} exhales a 15-foot cone of cold air. Each creature in that area must make a <strong>Dexterity</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Gibbering": {
             "name": "Gibbering",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} babbles incoherently while it can see any creature and isn't incapacitated. Each creature that starts its turn <strong>within 20 feet</strong> of the mouther and can hear the gibbering must succeed on a <strong>DC 10 Wisdom saving throw</strong>. On a failure, the creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during its turn.</p><p>On a 1 to 4, the [[lookup @name lowercase]]{monster} does nothing. On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} babbles incoherently while it can see any creature. Each creature that starts its turn <strong>within 20 feet</strong> of the [[lookup @name lowercase]]{monster} and can hear the gibbering must succeed on a Wisdom saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} babbles incoherently while it can see any creature and isn't incapacitated. Each creature that starts its turn <strong>within 20 feet</strong> of the mouther and can hear the gibbering must succeed on a <strong>DC 10 Wisdom saving throw</strong>. On a failure, the creature can't take reactions until the start of its next turn and rolls a d8 to determine what it does during its turn.</p><p>On a 1 to 4, the [[lookup @name lowercase]]{monster} does nothing. On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} babbles incoherently while it can see any creature. Each creature that starts its turn <strong>within 20 feet</strong> of the [[lookup @name lowercase]]{monster} and can hear the gibbering must succeed on a Wisdom saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Gnome Cunning": {
             "name": "Gnome Cunning",
@@ -544,7 +693,12 @@
         },
         "Heart Sight": {
             "name": "Heart Sight",
-            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} touches a creature and magically knows the creature's current emotional state. </p><p>If the target fails a  <strong>DC 10 Charisma</strong> saving throw, the [[lookup @name lowercase]]{monster} also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.</p></section><p>the [[lookup @name lowercase]]{monster} touches a creature. target must make a <strong>Charisma</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} touches a creature and magically knows the creature's current emotional state. </p><p>If the target fails a  <strong>DC 10 Charisma</strong> saving throw, the [[lookup @name lowercase]]{monster} also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.</p></section><p>the [[lookup @name lowercase]]{monster} touches a creature. target must make a <strong>Charisma</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Heated Body": {
             "name": "Heated Body",
@@ -573,15 +727,30 @@
         },
         "Horrific Appearance": {
             "name": "Horrific Appearance",
-            "description": "<section class=\"secret\">\n<p>Any humanoid that starts its turn <strong>within 30 feet</strong> of the [[lookup @name lowercase]]{monster} and can see the [[lookup @name lowercase]]{monster}'s true form must make a <strong>DC 11 Wisdom saving throw</strong>. On a failed save, the creature is frightened for <strong>1 minute</strong>. A creature can repeat the saving throw at the end of each of its turns, with<strong> disadvantage </strong>if the hag is within line of sight, ending the effect on itself on a success.</p><p>If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [[lookup @name lowercase]]{monster}'s Horrific Appearance for the next 24 hours<strong>. </strong>Unless the target is surprised or the revelation of the hag's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has<strong> disadvantage </strong>on attack rolls against the [[lookup @name lowercase]]{monster}.</p>\n</section>\n<p>Any humanoid that starts its turn <strong>within 30 feet</strong> of the [[lookup @name lowercase]]{monster} and can see the [[lookup @name lowercase]]{monster}'s true form must make a <strong>Wisdom</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>Any humanoid that starts its turn <strong>within 30 feet</strong> of the [[lookup @name lowercase]]{monster} and can see the [[lookup @name lowercase]]{monster}'s true form must make a <strong>DC 11 Wisdom saving throw</strong>. On a failed save, the creature is frightened for <strong>1 minute</strong>. A creature can repeat the saving throw at the end of each of its turns, with<strong> disadvantage </strong>if the hag is within line of sight, ending the effect on itself on a success.</p><p>If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [[lookup @name lowercase]]{monster}'s Horrific Appearance for the next 24 hours<strong>. </strong>Unless the target is surprised or the revelation of the hag's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has<strong> disadvantage </strong>on attack rolls against the [[lookup @name lowercase]]{monster}.</p>\n</section>\n<p>Any humanoid that starts its turn <strong>within 30 feet</strong> of the [[lookup @name lowercase]]{monster} and can see the [[lookup @name lowercase]]{monster}'s true form must make a <strong>Wisdom</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Horrifying Visage": {
             "name": "Horrifying Visage",
-            "description": "<section class=\"secret\"><p>Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 60 ft. of the [[lookup @name lowercase]]{monster} that can see it must succeed on a  <strong>DC 13 Wisdom</strong> saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 x 10 years. </p><p>A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this [[lookup @name lowercase]]{monster}'s Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.</p></section><p>Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 60 ft. of the [[lookup @name lowercase]]{monster} that can see it must succeed make a <strong>Wisdom</strong> saving throw. A target can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.</p>"
+            "description": "<section class=\"secret\"><p>Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 60 ft. of the [[lookup @name lowercase]]{monster} that can see it must succeed on a  <strong>DC 13 Wisdom</strong> saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 x 10 years. </p><p>A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this [[lookup @name lowercase]]{monster}'s Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.</p></section><p>Each non-[[lookup @details.type.config.label lowercase]]{monster} creature within 60 ft. of the [[lookup @name lowercase]]{monster} that can see it must succeed make a <strong>Wisdom</strong> saving throw. A target can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Horror Nimbus": {
             "name": "Horror Nimbus",
-            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} magically emits scintillating, multicolored light. Each creature within 15 feet of the [[lookup @name lowercase]]{monster} that can see the light must succeed on a <strong>DC 15 Wisdom</strong> saving throw or be frightened for 1 minute. </p><p>A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [[lookup @name lowercase]]{monster}'s Horror Nimbus for the next 24 hours.</p></section><p>A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [[lookup @name lowercase]]{monster}'s Horror Nimbus for the next 24 hours.</p>"
+            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} magically emits scintillating, multicolored light. Each creature within 15 feet of the [[lookup @name lowercase]]{monster} that can see the light must succeed on a <strong>DC 15 Wisdom</strong> saving throw or be frightened for 1 minute. </p><p>A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [[lookup @name lowercase]]{monster}'s Horror Nimbus for the next 24 hours.</p></section><p>A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [[lookup @name lowercase]]{monster}'s Horror Nimbus for the next 24 hours.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Ice Walk": {
             "name": "Ice Walk",
@@ -675,11 +844,21 @@
         },
         "Lightning Breath": {
             "name": "Lightning Breath",
-            "description": "<section class=\"secret\"><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales lightning in a 90-foot line that is 5 ft. wide. Each creature in that line must make a  <strong>DC 19 Dexterity</strong> saving throw, taking <strong>66 (12d10) <em>lightning damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales lightning in a 90-foot line that is 5 ft. wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales lightning in a 90-foot line that is 5 ft. wide. Each creature in that line must make a  <strong>DC 19 Dexterity</strong> saving throw, taking <strong>66 (12d10) <em>lightning damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales lightning in a 90-foot line that is 5 ft. wide. Each creature in that line must make a <strong>Dexterity</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Lightning Storm": {
             "name": "Lightning Storm",
-            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} magically creates three bolts of lightning, each of which can strike a target the [[lookup @name lowercase]]{monster} can see within 120 feet of it. </p><p>A target must make a  <strong>DC 23 Dexterity</strong> saving throw, taking <strong>22 (4d10) <em>lightning damage</em></strong> on a failed save, or half as much damage on a successful one.</p></section><p>the [[lookup @name lowercase]]{monster} magically creates three bolts of lightning, each of which can strike a target the [[lookup @name lowercase]]{monster} can see within 120 feet of it. A target must make a <strong>Dexterity</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} magically creates three bolts of lightning, each of which can strike a target the [[lookup @name lowercase]]{monster} can see within 120 feet of it. </p><p>A target must make a  <strong>DC 23 Dexterity</strong> saving throw, taking <strong>22 (4d10) <em>lightning damage</em></strong> on a failed save, or half as much damage on a successful one.</p></section><p>the [[lookup @name lowercase]]{monster} magically creates three bolts of lightning, each of which can strike a target the [[lookup @name lowercase]]{monster} can see within 120 feet of it. A target must make a <strong>Dexterity</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Limited Amphibiousness": {
             "name": "Limited Amphibiousness",
@@ -695,7 +874,12 @@
         },
         "Luring Song": {
             "name": "Luring Song",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} sings a magical melody. Every humanoid and giant within 300 ft. of the [[lookup @name lowercase]]{monster} that can hear the song must succeed on a  <strong>DC 11 Wisdom</strong> saving throw or be charmed until the song ends. the [[lookup @name lowercase]]{monster} must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the [[lookup @name lowercase]]{monster} is incapacitated.</p><p>While charmed by the [[lookup @name lowercase]]{monster}, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 feet away from the [[lookup @name lowercase]]{monster}, the target must move on its turn toward the [[lookup @name lowercase]]{monster} by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the [[lookup @name lowercase]]{monster}, the target can repeat the saving throw. A charmed target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.</p><p>A target that successfully saves is immune to this [[lookup @name lowercase]]{monster}'s song for the next 24 hours.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} sings a magical melody. Every humanoid and giant within 300 ft. of the [[lookup @name lowercase]]{monster} that can hear the song must make a <strong>Wisdom</strong> saving throw. A creature can also repeat the saving throw at the end of each of its turns.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} sings a magical melody. Every humanoid and giant within 300 ft. of the [[lookup @name lowercase]]{monster} that can hear the song must succeed on a  <strong>DC 11 Wisdom</strong> saving throw or be charmed until the song ends. the [[lookup @name lowercase]]{monster} must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the [[lookup @name lowercase]]{monster} is incapacitated.</p><p>While charmed by the [[lookup @name lowercase]]{monster}, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 feet away from the [[lookup @name lowercase]]{monster}, the target must move on its turn toward the [[lookup @name lowercase]]{monster} by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the [[lookup @name lowercase]]{monster}, the target can repeat the saving throw. A charmed target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it.</p><p>A target that successfully saves is immune to this [[lookup @name lowercase]]{monster}'s song for the next 24 hours.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} sings a magical melody. Every humanoid and giant within 300 ft. of the [[lookup @name lowercase]]{monster} that can hear the song must make a <strong>Wisdom</strong> saving throw. A creature can also repeat the saving throw at the end of each of its turns.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Magic Resistance": {
             "name": "Magic Resistance",
@@ -719,7 +903,12 @@
         },
         "Moan": {
             "name": "Moan",
-            "description": "<section class=\"secret\"><p>Each creature within 60 feet of the [[lookup @name lowercase]]{monster} that can hear its moan and that isn't an [[lookup @details.type.config.label lowercase]]{monster} must succeed on a  <strong>DC 13 Wisdom</strong> saving throw or become frightened until the end of the [[lookup @name lowercase]]{monster}'s next turn. </p><p>If a creature's saving throw is successful, the creature is immune to the [[lookup @name lowercase]]{monster}'s moan for the next 24 hours.</p></section><p>Each creature within 60 feet of the [[lookup @name lowercase]]{monster} that can hear its moan and that isn't an [[lookup @details.type.config.label lowercase]]{monster} must make a <strong>Wisdom</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>Each creature within 60 feet of the [[lookup @name lowercase]]{monster} that can hear its moan and that isn't an [[lookup @details.type.config.label lowercase]]{monster} must succeed on a  <strong>DC 13 Wisdom</strong> saving throw or become frightened until the end of the [[lookup @name lowercase]]{monster}'s next turn. </p><p>If a creature's saving throw is successful, the creature is immune to the [[lookup @name lowercase]]{monster}'s moan for the next 24 hours.</p></section><p>Each creature within 60 feet of the [[lookup @name lowercase]]{monster} that can hear its moan and that isn't an [[lookup @details.type.config.label lowercase]]{monster} must make a <strong>Wisdom</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Move (legendary)": {
             "name": "Move (legendary)",
@@ -727,7 +916,12 @@
         },
         "Mucous Cloud": {
             "name": "Mucous Cloud",
-            "description": "<section class=\"secret\">\n<p>While underwater, the [[lookup @name lowercase]]{monster} is surrounded by transformative mucus. A creature that touches the [[lookup @name lowercase]]{monster} or that hits it with a melee attack while within <strong>5 ft.</strong> of it must make a <strong>DC 14 Constitution saving throw</strong>. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.</p>\n</section>\n<p>While underwater, the [[lookup @name lowercase]]{monster} is surrounded by transformative mucus. A creature that touches the [[lookup @name lowercase]]{monster} or that hits it with a melee attack while within <strong>5 ft.</strong> of it must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>While underwater, the [[lookup @name lowercase]]{monster} is surrounded by transformative mucus. A creature that touches the [[lookup @name lowercase]]{monster} or that hits it with a melee attack while within <strong>5 ft.</strong> of it must make a <strong>DC 14 Constitution saving throw</strong>. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.</p>\n</section>\n<p>While underwater, the [[lookup @name lowercase]]{monster} is surrounded by transformative mucus. A creature that touches the [[lookup @name lowercase]]{monster} or that hits it with a melee attack while within <strong>5 ft.</strong> of it must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Multiattack": {
             "name": "Multiattack",
@@ -756,7 +950,12 @@
         },
         "Paralyzing Breath": {
             "name": "Paralyzing Breath",
-            "description": "<section class=\"secret\">\n<p>**Paralyzing Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a  <strong>DC 20 Constitution</strong> saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales paralyzing gas in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>**Paralyzing Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a  <strong>DC 20 Constitution</strong> saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales paralyzing gas in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Paralyzing Touch": {
             "name": "Paralyzing Touch",
@@ -768,11 +967,21 @@
         },
         "Petrifying Breath": {
             "name": "Petrifying Breath",
-            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a  <strong>DC 13 Constitution</strong> saving throw. </p><p>On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic.</p></section><p>the [[lookup @name lowercase]]{monster} exhales petrifying gas in a 30-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw. </p>"
+            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a  <strong>DC 13 Constitution</strong> saving throw. </p><p>On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic.</p></section><p>the [[lookup @name lowercase]]{monster} exhales petrifying gas in a 30-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw. </p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Petrifying Gaze": {
             "name": "Petrifying Gaze",
-            "description": "<section class=\"secret\">\n<p>If a creature starts its turn within <strong>30 ft.</strong> of the [[lookup @name lowercase]]{monster} and the two of them can see each other, the [[lookup @name lowercase]]{monster} can force the creature to make a <strong>DC 12 Constitution saving throw</strong> if the [[lookup @name lowercase]]{monster} isn't incapacitated. On a failed save, the creature magically begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic.</p><p>A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the [[lookup @name lowercase]]{monster} until the start of its next turn, when it can avert its eyes again. If it looks at the [[lookup @name lowercase]]{monster} in the meantime, it must immediately make the save<strong>. I</strong>f the [[lookup @name lowercase]]{monster} sees its reflection within <strong>30 ft.</strong> of it in bright light, it mistakes itself for a rival and targets itself with its gaze.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} can force the creature to make a <strong>Constitution</strong> saving throw. It must repeat the saving throw at the end of its next turn. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the [[lookup @name lowercase]]{monster} until the start of its next turn, when it can avert its eyes again. If it looks at the [[lookup @name lowercase]]{monster} in the meantime, it must immediately make the save.</p>"
+            "description": "<section class=\"secret\">\n<p>If a creature starts its turn within <strong>30 ft.</strong> of the [[lookup @name lowercase]]{monster} and the two of them can see each other, the [[lookup @name lowercase]]{monster} can force the creature to make a <strong>DC 12 Constitution saving throw</strong> if the [[lookup @name lowercase]]{monster} isn't incapacitated. On a failed save, the creature magically begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic.</p><p>A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the [[lookup @name lowercase]]{monster} until the start of its next turn, when it can avert its eyes again. If it looks at the [[lookup @name lowercase]]{monster} in the meantime, it must immediately make the save<strong>. I</strong>f the [[lookup @name lowercase]]{monster} sees its reflection within <strong>30 ft.</strong> of it in bright light, it mistakes itself for a rival and targets itself with its gaze.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} can force the creature to make a <strong>Constitution</strong> saving throw. It must repeat the saving throw at the end of its next turn. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the [[lookup @name lowercase]]{monster} until the start of its next turn, when it can avert its eyes again. If it looks at the [[lookup @name lowercase]]{monster} in the meantime, it must immediately make the save.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Phantasms": {
             "name": "Phantasms",
@@ -780,15 +989,30 @@
         },
         "Poison Breath": {
             "name": "Poison Breath",
-            "description": "<section class=\"secret\"><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales poisonous gas in a 60-foot cone. Each creature in that area must make a  <strong>DC 18 Constitution</strong> saving throw, taking <strong>56 (16d6) <em>poison damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales poisonous gas in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales poisonous gas in a 60-foot cone. Each creature in that area must make a  <strong>DC 18 Constitution</strong> saving throw, taking <strong>56 (16d6) <em>poison damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p></p></section><p>The [[lookup @details.type.config.label lowercase]]{monster} exhales poisonous gas in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Possession": {
             "name": "Possession",
-            "description": "<section class=\"secret\"><p>One humanoid that the [[lookup @name lowercase]]{monster} can see within 5 ft. of it must succeed on a  <strong>DC 13 Charisma</strong> saving throw or be possessed by the [[lookup @name lowercase]]{monster}; the [[lookup @name lowercase]]{monster} then disappears, and the target is incapacitated and loses control of its body. the [[lookup @name lowercase]]{monster} now controls the body but doesn't deprive the target of awareness. </p><p>the [[lookup @name lowercase]]{monster} can't be targeted by any attack, spell, or other effect, except ones that turn [[lookup @details.type.config.label lowercase]]{monster}, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.The possession lasts until the body drops to 0 hit points, the [[lookup @name lowercase]]{monster} ends it as a bonus action, or the [[lookup @name lowercase]]{monster} is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the [[lookup @name lowercase]]{monster} reappears in an unoccupied space within 5 ft. of the body. The target is immune to this [[lookup @name lowercase]]{monster}'s Possession for 24 hours after succeeding on the saving throw or after the possession ends.</p></section><p>One humanoid that the [[lookup @name lowercase]]{monster} can see within 5 ft. of it must make a <strong>Charisma</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>One humanoid that the [[lookup @name lowercase]]{monster} can see within 5 ft. of it must succeed on a  <strong>DC 13 Charisma</strong> saving throw or be possessed by the [[lookup @name lowercase]]{monster}; the [[lookup @name lowercase]]{monster} then disappears, and the target is incapacitated and loses control of its body. the [[lookup @name lowercase]]{monster} now controls the body but doesn't deprive the target of awareness. </p><p>the [[lookup @name lowercase]]{monster} can't be targeted by any attack, spell, or other effect, except ones that turn [[lookup @details.type.config.label lowercase]]{monster}, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.The possession lasts until the body drops to 0 hit points, the [[lookup @name lowercase]]{monster} ends it as a bonus action, or the [[lookup @name lowercase]]{monster} is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the [[lookup @name lowercase]]{monster} reappears in an unoccupied space within 5 ft. of the body. The target is immune to this [[lookup @name lowercase]]{monster}'s Possession for 24 hours after succeeding on the saving throw or after the possession ends.</p></section><p>One humanoid that the [[lookup @name lowercase]]{monster} can see within 5 ft. of it must make a <strong>Charisma</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Pounce": {
             "name": "Pounce",
-            "description": "<section class=\"secret\">\n<p>If the [[lookup @name lowercase]]{monster} moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a <strong>DC 13 Strength saving throw</strong> or be knocked prone.</p><p>If the target is prone, the [[lookup @name lowercase]]{monster} can make one bite attack against it as a bonus action.</p>\n</section>\n<p>If the [[lookup @name lowercase]]{monster} moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a claw attack on the same turn, that target must make a <strong>Strength</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>If the [[lookup @name lowercase]]{monster} moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a <strong>DC 13 Strength saving throw</strong> or be knocked prone.</p><p>If the target is prone, the [[lookup @name lowercase]]{monster} can make one bite attack against it as a bonus action.</p>\n</section>\n<p>If the [[lookup @name lowercase]]{monster} moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a claw attack on the same turn, that target must make a <strong>Strength</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Probing Telepathy": {
             "name": "Probing Telepathy",
@@ -848,7 +1072,12 @@
         },
         "Repulsion Breath": {
             "name": "Repulsion Breath",
-            "description": "<section class=\"secret\">\n<p>**Repulsion Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a  <strong>DC 19 Strength</strong> saving throw. On a failed save, the creature is pushed 60 feet away from the [[lookup @details.type.config.label lowercase]]{monster}.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales repulsion energy in a 30-foot cone. Each creature in that area must make a <strong>Strength</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>**Repulsion Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a  <strong>DC 19 Strength</strong> saving throw. On a failed save, the creature is pushed 60 feet away from the [[lookup @details.type.config.label lowercase]]{monster}.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales repulsion energy in a 30-foot cone. Each creature in that area must make a <strong>Strength</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Roar": {
             "name": "Roar",
@@ -856,7 +1085,12 @@
         },
         "Rock Catching": {
             "name": "Rock Catching",
-            "description": "<section class=\"secret\"><p>If a rock or similar object is hurled at the [[lookup @details.type.config.label lowercase]]{monster}, the [[lookup @details.type.config.label lowercase]]{monster} can, with a successful DC 10 Dexterity saving throw, catch the missile and take no <em>bludgeoning damage</em> from it.</p></section><p>If a rock or similar object is hurled at the [[lookup @details.type.config.label lowercase]]{monster}, the [[lookup @details.type.config.label lowercase]]{monster} can catch the missile and take no <em>bludgeoning damage</em> from it.</p>"
+            "description": "<section class=\"secret\"><p>If a rock or similar object is hurled at the [[lookup @details.type.config.label lowercase]]{monster}, the [[lookup @details.type.config.label lowercase]]{monster} can, with a successful DC 10 Dexterity saving throw, catch the missile and take no <em>bludgeoning damage</em> from it.</p></section><p>If a rock or similar object is hurled at the [[lookup @details.type.config.label lowercase]]{monster}, the [[lookup @details.type.config.label lowercase]]{monster} can catch the missile and take no <em>bludgeoning damage</em> from it.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Running Leap": {
             "name": "Running Leap",
@@ -868,15 +1102,30 @@
         },
         "Scare": {
             "name": "Scare",
-            "description": "<section class=\"secret\"><p>One creature of the [[lookup @name lowercase]]{monster}'s choice within 20 ft. of it must succeed on a  <strong>DC 10 Wisdom</strong> saving throw or be frightened for 1 minute. </p><p>The target can repeat the saving throw at the end of each of its turns, with disadvantage if the [[lookup @name lowercase]]{monster} is within line of sight, ending the effect on itself on a success.</p></section><p>One creature of the [[lookup @name lowercase]]{monster}'s choice within 20 ft. of it must make a <strong>Wisdom</strong> saving throw. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the [[lookup @name lowercase]]{monster} is within line of sight, ending the effect on itself on a success.</p>"
+            "description": "<section class=\"secret\"><p>One creature of the [[lookup @name lowercase]]{monster}'s choice within 20 ft. of it must succeed on a  <strong>DC 10 Wisdom</strong> saving throw or be frightened for 1 minute. </p><p>The target can repeat the saving throw at the end of each of its turns, with disadvantage if the [[lookup @name lowercase]]{monster} is within line of sight, ending the effect on itself on a success.</p></section><p>One creature of the [[lookup @name lowercase]]{monster}'s choice within 20 ft. of it must make a <strong>Wisdom</strong> saving throw. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the [[lookup @name lowercase]]{monster} is within line of sight, ending the effect on itself on a success.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Searing Burst": {
             "name": "Searing Burst",
-            "description": "<section class=\"secret\">the [[lookup @name lowercase]]{monster} emits magical, divine energy. Each creature of its choice in a 10-foot radius must make a  <strong>DC 23 Dexterity</strong> saving throw, taking <strong>14 (4d6) <em>fire damage</em></strong> plus <strong>14 (4d6) <em>radiant damage</em></strong> on a failed save, or half as much damage on a successful one.</section>\n<p>the [[lookup @name lowercase]]{monster} emits magical, divine energy. Each creature of its choice in a 10-foot radius must make a <strong>Dexterity</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">the [[lookup @name lowercase]]{monster} emits magical, divine energy. Each creature of its choice in a 10-foot radius must make a  <strong>DC 23 Dexterity</strong> saving throw, taking <strong>14 (4d6) <em>fire damage</em></strong> plus <strong>14 (4d6) <em>radiant damage</em></strong> on a failed save, or half as much damage on a successful one.</section>\n<p>the [[lookup @name lowercase]]{monster} emits magical, divine energy. Each creature of its choice in a 10-foot radius must make a <strong>Dexterity</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Second Roar": {
             "name": "Second Roar",
-            "description": "<p>Each creature that fails a  <strong>DC 18 Wisdom</strong> saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>"
+            "description": "<p>Each creature that fails a  <strong>DC 18 Wisdom</strong> saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Sense Magic": {
             "name": "Sense Magic",
@@ -921,11 +1170,21 @@
         },
         "Sleep Breath": {
             "name": "Sleep Breath",
-            "description": "<section class=\"secret\">\n<p>**Sleep Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a  <strong>DC 18 Constitution</strong> saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales sleep gas in a 90-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>**Sleep Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a  <strong>DC 18 Constitution</strong> saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales sleep gas in a 90-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Slowing Breath": {
             "name": "Slowing Breath",
-            "description": "<section class=\"secret\">\n<p>**Slowing Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales gas in a 60-foot cone. Each creature in that area must succeed on a  <strong>DC 18 Constitution</strong> saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales gas in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>**Slowing Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales gas in a 60-foot cone. Each creature in that area must succeed on a  <strong>DC 18 Constitution</strong> saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales gas in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Sneak Attack": {
             "name": "Sneak Attack",
@@ -962,7 +1221,12 @@
         },
         "Spores": {
             "name": "Spores",
-            "description": "<section class=\"secret\"><p>A 15-foot-radius cloud of toxic spores extends out from the [[lookup @name lowercase]]{monster}. The spores spread around corners. Each creature in that area must succeed on a  <strong>DC 14 Constitution</strong> saving throw or become poisoned. </p><p>While poisoned in this way, a target takes <strong>5 (1d10) <em>poison damage</em></strong> at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it.</p></section><p>A 15-foot-radius cloud of toxic spores extends out from the [[lookup @name lowercase]]{monster}. The spores spread around corners. Each creature in that area must make a <strong>Constitution</strong> saving throw. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>"
+            "description": "<section class=\"secret\"><p>A 15-foot-radius cloud of toxic spores extends out from the [[lookup @name lowercase]]{monster}. The spores spread around corners. Each creature in that area must succeed on a  <strong>DC 14 Constitution</strong> saving throw or become poisoned. </p><p>While poisoned in this way, a target takes <strong>5 (1d10) <em>poison damage</em></strong> at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it.</p></section><p>A 15-foot-radius cloud of toxic spores extends out from the [[lookup @name lowercase]]{monster}. The spores spread around corners. Each creature in that area must make a <strong>Constitution</strong> saving throw. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Standing Leap": {
             "name": "Standing Leap",
@@ -974,11 +1238,21 @@
         },
         "Steam Breath": {
             "name": "Steam Breath",
-            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} exhales scalding steam in a 60-foot cone. Each creature in that area must make a <strong>DC 18 Constitution</strong> saving throw, taking <strong>52 (15d6) <em>fire damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p>Being underwater doesn't grant resistance against this damage.</p></section><p>the [[lookup @name lowercase]]{monster} exhales scalding steam in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} exhales scalding steam in a 60-foot cone. Each creature in that area must make a <strong>DC 18 Constitution</strong> saving throw, taking <strong>52 (15d6) <em>fire damage</em></strong> on a failed save, or half as much damage on a successful one.</p><p>Being underwater doesn't grant resistance against this damage.</p></section><p>the [[lookup @name lowercase]]{monster} exhales scalding steam in a 60-foot cone. Each creature in that area must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Stench": {
             "name": "Stench",
-            "description": "<section class=\"secret\"><p>Any creature that starts its turn within <strong>5 ft.</strong> of the [[lookup @name lowercase]]{monster} must succeed on a <strong>DC 10 Constitution saving throw</strong> or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the [[lookup @name lowercase]]{monster}'s Stench for 24 hours.</p></section><p>Any creature that starts its turn within <strong>5 ft.</strong> of the [[lookup @name lowercase]]{monster} must succeed on a Constitution saving throw.</p>"
+            "description": "<section class=\"secret\"><p>Any creature that starts its turn within <strong>5 ft.</strong> of the [[lookup @name lowercase]]{monster} must succeed on a <strong>DC 10 Constitution saving throw</strong> or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the [[lookup @name lowercase]]{monster}'s Stench for 24 hours.</p></section><p>Any creature that starts its turn within <strong>5 ft.</strong> of the [[lookup @name lowercase]]{monster} must succeed on a Constitution saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Stone Camouflage": {
             "name": "Stone Camouflage",
@@ -986,11 +1260,21 @@
         },
         "Stone Golem - Slow": {
             "name": "Stone Golem - Slow",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} targets one or more creatures it can see within 10 ft. of it. Each target must make a <strong>DC 17 Wisdom</strong> saving throw against this magic.</p><p>On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} targets one or more creatures it can see within 10 ft. of it. Each target must make a <strong>Wisdom</strong> saving throw against this magic. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} targets one or more creatures it can see within 10 ft. of it. Each target must make a <strong>DC 17 Wisdom</strong> saving throw against this magic.</p><p>On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} targets one or more creatures it can see within 10 ft. of it. Each target must make a <strong>Wisdom</strong> saving throw against this magic. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Stunning Screech": {
             "name": "Stunning Screech",
-            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a [[lookup @details.type.config.label lowercase]]{monster} must succeed on a <strong>DC 14 Constitution</strong> saving throw or be stunned until the end of the [[lookup @name lowercase]]{monster}'s next turn .</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a [[lookup @details.type.config.label lowercase]]{monster} must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>the [[lookup @name lowercase]]{monster} emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a [[lookup @details.type.config.label lowercase]]{monster} must succeed on a <strong>DC 14 Constitution</strong> saving throw or be stunned until the end of the [[lookup @name lowercase]]{monster}'s next turn .</p>\n</section>\n<p>the [[lookup @name lowercase]]{monster} emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a [[lookup @details.type.config.label lowercase]]{monster} must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Sunlight Sensitivity": {
             "name": "Sunlight Sensitivity",
@@ -1043,19 +1327,39 @@
         },
         "Tentacle Slam": {
             "name": "Tentacle Slam",
-            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a  <strong>DC 14 Constitution</strong> saving throw or take <strong>10 (2d6 + 3) <em>bludgeoning damage</em></strong> and be stunned until the end of the [[lookup @name lowercase]]{monster}'s next turn. </p><p>On a successful save, the target takes half the <em>bludgeoning damage</em> and isn't stunned.</p></section><p>the [[lookup @name lowercase]]{monster} slams creatures grappled by it into each other or a solid surface. Each creature must make a <strong>Constitution</strong> saving throw.</p>"
+            "description": "<section class=\"secret\"><p>the [[lookup @name lowercase]]{monster} slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a  <strong>DC 14 Constitution</strong> saving throw or take <strong>10 (2d6 + 3) <em>bludgeoning damage</em></strong> and be stunned until the end of the [[lookup @name lowercase]]{monster}'s next turn. </p><p>On a successful save, the target takes half the <em>bludgeoning damage</em> and isn't stunned.</p></section><p>the [[lookup @name lowercase]]{monster} slams creatures grappled by it into each other or a solid surface. Each creature must make a <strong>Constitution</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Tentacles": {
             "name": "Tentacles",
-            "description": "<section class=\"secret\">\n<p>One creature grappled by the [[lookup @name lowercase]]{monster} must succeed on a  <strong>DC 13 Constitution</strong> saving throw or be poisoned for 1 minute.</p><p>Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>One creature grappled by the [[lookup @name lowercase]]{monster} must make a <strong>Constitution</strong> saving throw. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>"
+            "description": "<section class=\"secret\">\n<p>One creature grappled by the [[lookup @name lowercase]]{monster} must succeed on a  <strong>DC 13 Constitution</strong> saving throw or be poisoned for 1 minute.</p><p>Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>One creature grappled by the [[lookup @name lowercase]]{monster} must make a <strong>Constitution</strong> saving throw. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Third Roar": {
             "name": "Third Roar",
-            "description": "<p>Each creature makes a  <strong>DC 18 Constitution</strong> saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.</p>"
+            "description": "<p>Each creature makes a  <strong>DC 18 Constitution</strong> saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Trampling Charge": {
             "name": "Trampling Charge",
-            "description": "<section class=\"secret\">\n<p>If the [[lookup @name lowercase]]{monster} moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a <strong>DC 12 Strength saving throw</strong> or be knocked prone. If the target is prone, the [[lookup @name lowercase]]{monster} can make one stomp attack against it as a bonus action.</p>\n</section>\n<p>If the [[lookup @name lowercase]]{monster} moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a Strength saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>If the [[lookup @name lowercase]]{monster} moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a <strong>DC 12 Strength saving throw</strong> or be knocked prone. If the target is prone, the [[lookup @name lowercase]]{monster} can make one stomp attack against it as a bonus action.</p>\n</section>\n<p>If the [[lookup @name lowercase]]{monster} moves at least <strong>20 ft.</strong> straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a Strength saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Transparent": {
             "name": "Transparent",
@@ -1108,7 +1412,12 @@
         },
         "Unnerving Mask": {
             "name": "Unnerving Mask",
-            "description": "<section class=\"secret\">\n<p>When a creature the [[lookup @details.type.config.label lowercase]]{monster} can see starts its turn within 30 feet of the [[lookup @details.type.config.label lowercase]]{monster}, the [[lookup @details.type.config.label lowercase]]{monster} can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the [[lookup @details.type.config.label lowercase]]{monster}, it must succeed on a <strong> DC 14 Wisdom saving throw</strong> or be Frightened until the end of its turn.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. Make a <strong>Wisdom</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>When a creature the [[lookup @details.type.config.label lowercase]]{monster} can see starts its turn within 30 feet of the [[lookup @details.type.config.label lowercase]]{monster}, the [[lookup @details.type.config.label lowercase]]{monster} can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the [[lookup @details.type.config.label lowercase]]{monster}, it must succeed on a <strong> DC 14 Wisdom saving throw</strong> or be Frightened until the end of its turn.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. Make a <strong>Wisdom</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Vampire Weaknesses": {
             "name": "Vampire Weaknesses",
@@ -1130,7 +1439,8 @@
                     "condition": "a solid surface it can see within 60 ft."
                 },
                 "save": {
-                    "condition": "a solid surface it can see within 60 ft."
+                    "condition": "a solid surface it can see within 60 ft.",
+                    "damageOnSave": "half"
                 },
                 "utility": {
                     "condition": "a solid surface it can see within 60 ft."
@@ -1152,11 +1462,21 @@
         },
         "Weakening Breath": {
             "name": "Weakening Breath",
-            "description": "<section class=\"secret\">\n<p>**Weakening Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales gas in a 60-foot cone. Each creature in that area must succeed on a  <strong>DC 21 Strength</strong> saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales gas in a 60-foot cone. Each creature in that area must make a <strong>Strength</strong> saving throw.</p>"
+            "description": "<section class=\"secret\">\n<p>**Weakening Breath.** The [[lookup @details.type.config.label lowercase]]{monster} exhales gas in a 60-foot cone. Each creature in that area must succeed on a  <strong>DC 21 Strength</strong> saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n</section>\n<p>The [[lookup @details.type.config.label lowercase]]{monster} exhales gas in a 60-foot cone. Each creature in that area must make a <strong>Strength</strong> saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Web": {
             "name": "Web",
-            "description": "<section class=\"secret\"><p>Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller creature. Hit: The creature is restrained by webbing. </p><p>As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to <em>fire damage</em> and immune to <em>bludgeoning damage</em>.</p></section><p>The creature is restrained by webbing. As an action, the restrained creature can make a Strength check, escaping from the webbing on a success. </p>"
+            "description": "<section class=\"secret\"><p>Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller creature. Hit: The creature is restrained by webbing. </p><p>As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to <em>fire damage</em> and immune to <em>bludgeoning damage</em>.</p></section><p>The creature is restrained by webbing. As an action, the restrained creature can make a Strength check, escaping from the webbing on a success. </p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Web Sense": {
             "name": "Web Sense",
@@ -1168,11 +1488,21 @@
         },
         "Whelm": {
             "name": "Whelm",
-            "description": "<section class=\"secret\"><p>Each creature in the [[lookup @details.type.config.label lowercase]]{monster}'s space must make a  <strong>DC 15 Strength</strong> saving throw. On a failure, a target takes <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. </p><p>If the saving throw is successful, the target is pushed out of the [[lookup @details.type.config.label lowercase]]{monster}'s space.The [[lookup @details.type.config.label lowercase]]{monster} can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the [[lookup @details.type.config.label lowercase]]{monster}'s turns, each target grappled by it takes <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>. A creature within 5 feet of the [[lookup @details.type.config.label lowercase]]{monster} can pull a creature or object out of it by taking an action to make a DC 14 Strength check and succeeding.</p></section><p>Each creature in the [[lookup @details.type.config.label lowercase]]{monster}'s space must make a <strong>Strength</strong> saving throw. If it is Large or smaller, it is also grappled. Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. A creature within 5 feet of the [[lookup @details.type.config.label lowercase]]{monster} can pull a creature or object out of it by taking an action to make a Strength check and succeeding.</p>"
+            "description": "<section class=\"secret\"><p>Each creature in the [[lookup @details.type.config.label lowercase]]{monster}'s space must make a  <strong>DC 15 Strength</strong> saving throw. On a failure, a target takes <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. </p><p>If the saving throw is successful, the target is pushed out of the [[lookup @details.type.config.label lowercase]]{monster}'s space.The [[lookup @details.type.config.label lowercase]]{monster} can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the [[lookup @details.type.config.label lowercase]]{monster}'s turns, each target grappled by it takes <strong>13 (2d8 + 4) <em>bludgeoning damage</em></strong>. A creature within 5 feet of the [[lookup @details.type.config.label lowercase]]{monster} can pull a creature or object out of it by taking an action to make a DC 14 Strength check and succeeding.</p></section><p>Each creature in the [[lookup @details.type.config.label lowercase]]{monster}'s space must make a <strong>Strength</strong> saving throw. If it is Large or smaller, it is also grappled. Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. A creature within 5 feet of the [[lookup @details.type.config.label lowercase]]{monster} can pull a creature or object out of it by taking an action to make a Strength check and succeeding.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Whirlwind": {
             "name": "Whirlwind",
-            "description": "<section class=\"secret\">\n<p>Each creature in the [[lookup @details.type.config.label lowercase]]{monster}'s space must make a  <strong>DC 13 Strength</strong> saving throw. On a failure, a target takes <strong>15 (3d8 + 2) <em>bludgeoning damage</em></strong> and is flung up 20 feet away from the [[lookup @details.type.config.label lowercase]]{monster} in a random direction and knocked prone.</p><p>If a thrown target strikes an object, such as a wall or floor, the target takes <strong>3 (1d6) <em>bludgeoning damage</em></strong> for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a  <strong>DC 13 Dexterity</strong> saving throw or take the same damage and be knocked prone. If the saving throw is successful, the target takes half the <em>bludgeoning damage</em> and isn't flung away or knocked prone.</p>\n</section>\n<p>Each creature in the [[lookup @details.type.config.label lowercase]]{monster}'s space must make a <strong>Strength</strong> saving throw. On a failure, a target is flung up 20 feet away from the [[lookup @details.type.config.label lowercase]]{monster} in a random direction and knocked prone. If the target is thrown at another creature, that creature must make a <strong>Dexterity</strong> saving throw or take the same damage and be knocked prone.</p>"
+            "description": "<section class=\"secret\">\n<p>Each creature in the [[lookup @details.type.config.label lowercase]]{monster}'s space must make a  <strong>DC 13 Strength</strong> saving throw. On a failure, a target takes <strong>15 (3d8 + 2) <em>bludgeoning damage</em></strong> and is flung up 20 feet away from the [[lookup @details.type.config.label lowercase]]{monster} in a random direction and knocked prone.</p><p>If a thrown target strikes an object, such as a wall or floor, the target takes <strong>3 (1d6) <em>bludgeoning damage</em></strong> for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a  <strong>DC 13 Dexterity</strong> saving throw or take the same damage and be knocked prone. If the saving throw is successful, the target takes half the <em>bludgeoning damage</em> and isn't flung away or knocked prone.</p>\n</section>\n<p>Each creature in the [[lookup @details.type.config.label lowercase]]{monster}'s space must make a <strong>Strength</strong> saving throw. On a failure, a target is flung up 20 feet away from the [[lookup @details.type.config.label lowercase]]{monster} in a random direction and knocked prone. If the target is thrown at another creature, that creature must make a <strong>Dexterity</strong> saving throw or take the same damage and be knocked prone.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Whirlwind of Sand": {
             "name": "Whirlwind of Sand",
