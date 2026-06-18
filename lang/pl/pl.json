@@ -2047,7 +2047,7 @@
       "critical": {
         "allow": {
           "label": "Zezwalaj na krytyczne",
-          "hint": "Czy stworzenie powinno być w stanie zadawać krytyczne obrażenia?"
+          "hint": "Czy istota powinna być w stanie zadawać krytyczne obrażenia?"
         },
         "bonus": {
           "label": "Dodatkowe obrażenia trafienia krytycznego",
