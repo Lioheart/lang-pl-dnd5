@@ -1999,7 +1999,7 @@
 "DND5E.CreatureSwarmSize": "Rozmiar roju",
 "DND5E.CreatureSwarmPhrase": "Rój {size} {type}",
 "DND5E.CreatureTag": "{size} {type}, {alignment}",
-"DND5E.CreatureTypeConfig": "Skonfiguruj typ stworzenia",
+"DND5E.CreatureTypeConfig": "Skonfiguruj typ istoty",
 "DND5E.CreatureTypeSelectorCustom": "Niestandardowy rodzaj",
 "DND5E.CreatureTypeSelectorSubtype": "Podtyp",
 "DND5E.CreatureUndead": "Nieumarły",
