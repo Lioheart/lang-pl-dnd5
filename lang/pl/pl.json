@@ -4329,7 +4329,7 @@
       "hint": "Przywołane stworzenie i token zostaną zmienione na ten rozmiar. Jeśli wybrano więcej niż jeden rozmiar, gracz będzie mógł wybrać jeden podczas przywoływania."
     },
     "creatureTypes": {
-      "label": "Rodzaje stworzeń",
+      "label": "Rodzaje istot",
       "hint": "Przywołane stworzenie zostanie zmienione w ten rodzaj. Jeśli wybrano więcej niż jeden rodzaj, gracz będzie mógł wybrać jeden podczas przywoływania."
     },
     "match": {
