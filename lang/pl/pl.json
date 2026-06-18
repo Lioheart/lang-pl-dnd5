@@ -1994,7 +1994,7 @@
 "DND5E.CreaturePlant": "Roślina",
 "DND5E.CreaturePlantPl": "Rośliny",
 "DND5E.CreatureType": "Rodzaj istoty",
-"DND5E.CreatureTypeTitle": "Skonfiguruj typ stworzenia",
+"DND5E.CreatureTypeTitle": "Skonfiguruj typ istoty",
 "DND5E.CreatureSwarm": "Rój",
 "DND5E.CreatureSwarmSize": "Rozmiar roju",
 "DND5E.CreatureSwarmPhrase": "Rój {size} {type}",
