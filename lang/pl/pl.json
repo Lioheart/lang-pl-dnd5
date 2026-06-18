@@ -4563,7 +4563,7 @@
       }
     },
     "Creature": {
-      "Label": "Stworzenie",
+      "Label": "Istota",
       "Counted": {
         "any": "dowolne stworzenia",
         "each": "każde stworzenie",
