@@ -4444,7 +4444,7 @@
   "Warning": {
     "NoOwnership": "Musisz mieć własność '{actor}', aby go przywołać.",
     "NoProfile": "Nie można znaleźć profilu przywołania {profileId} w '{item}'.",
-    "Wildcard": "Musisz mieć uprawnienia \"Użyj przeglądarki plików\", aby przywoływać stworzenia ze zmiennymi grafikami."
+    "Wildcard": "Musisz mieć uprawnienia \"Użyj przeglądarki plików\", aby przywoływać istoty ze zmiennymi grafikami."
   }
 },
 
