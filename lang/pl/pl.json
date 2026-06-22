@@ -4578,7 +4578,7 @@
         "any": "dowolne istoty lub obiekty",
         "each": "każda istota lub obiekt",
         "every": "wszystkie istoty lub obiekty",
-        "one": "{number} stworzenie lub obiekt",
+        "one": "{number} istota lub obiekt",
         "other": "{number} stworzeń lub obiektów"
       }
     },
