@@ -4317,7 +4317,7 @@
       },
       "hp": {
         "label": "Premia do Punktów wytrzymałości",
-        "hint": "Dodatkowe Punkty wytrzymałości dodane stworzeniu ponad te określone w statystykach."
+        "hint": "Dodatkowe Punkty Wytrzymałości dodawane istocie ponad to, co określono w jej bloku statystyk."
       },
       "saveDamage": {
         "label": "Premia do obrażeń wymagających rzutu obronnego",
