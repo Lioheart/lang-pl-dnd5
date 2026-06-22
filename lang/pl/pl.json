@@ -4347,7 +4347,7 @@
       },
       "proficiency": {
         "label": "Dopasuj biegłość",
-        "hint": "Zmodyfikuj biegłości przywołanego stworzenia, aby odpowiadały biegłościom przywołującego."
+        "hint": "Zmodyfikuj biegłości przywołanej istoty, aby odpowiadały biegłościom przywołującego."
       },
       "saves": {
         "label": "Dopasuj rzuty obronne",
