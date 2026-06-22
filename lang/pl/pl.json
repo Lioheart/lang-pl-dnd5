@@ -2416,7 +2416,7 @@
 
 "DND5E.ENCOUNTER": {
   "Action": {
-    "AddCreature": "Dodaj stworzenie",
+    "AddCreature": "Dodaj istotę",
     "Award": "Przyznaj PD i monety"
   },
   "Difficulty": {
