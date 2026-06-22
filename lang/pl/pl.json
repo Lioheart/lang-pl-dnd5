@@ -2107,7 +2107,7 @@
       }
     }
   },
-  "Hint": "Zadaj obrażenia stworzeniu bez wykonywania ataku czy rzutu obronnego.",
+  "Hint": "Zadaj obrażenia istocie bez wykonywania ataku czy rzutu obronnego.",
   "Part": {
     "Action": {
       "Create": "Stwórz składnik obrażeń",
