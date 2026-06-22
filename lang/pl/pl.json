@@ -4380,7 +4380,7 @@
         },
         "types": {
           "label": "Rodzaje istot",
-          "hint": "Lista rodzajów stworzeń, z których można wybrać przywołane stworzenie."
+          "hint": "Lista rodzajów istot, z których można wybrać przywołaną istotę."
         },
         "uuid": {
           "label": "Powiązana istota"
