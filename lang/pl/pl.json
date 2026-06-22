@@ -4568,7 +4568,7 @@
         "any": "dowolne istoty",
         "each": "każda istota",
         "every": "wszystkie istoty",
-        "one": "{number} stworzenie",
+        "one": "{number} istota",
         "other": "{number} stworzenia"
       }
     },
