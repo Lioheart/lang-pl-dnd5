@@ -4383,7 +4383,7 @@
           "hint": "Lista rodzajów stworzeń, z których można wybrać przywołane stworzenie."
         },
         "uuid": {
-          "label": "Powiązane stworzenie"
+          "label": "Powiązana istota"
         }
       },
       "label": "Profile przywoływań"
