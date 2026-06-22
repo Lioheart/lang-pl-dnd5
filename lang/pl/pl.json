@@ -2232,7 +2232,7 @@
       "label": "Czas trwania",
       "concentration": {
         "label": "Koncentracja",
-        "hint": "Stworzenie musi utrzymać koncentrację, by efekt był aktywny."
+        "hint": "Istota musi utrzymać koncentrację, by efekt był aktywny."
       },
       "override": {
         "label": "Nadpisz czas trwania",
