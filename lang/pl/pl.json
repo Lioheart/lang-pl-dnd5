@@ -4575,7 +4575,7 @@
     "CreatureOrObject": {
       "Label": "Istota lub obiekt",
       "Counted": {
-        "any": "dowolne stworzenia lub obiekty",
+        "any": "dowolna istota lub obiekty",
         "each": "każde stworzenie lub obiekt",
         "every": "wszystkie stworzenia lub obiekty",
         "one": "{number} stworzenie lub obiekt",
