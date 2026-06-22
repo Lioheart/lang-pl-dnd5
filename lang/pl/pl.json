@@ -1384,7 +1384,7 @@
       "label": "Szczegóły rzucania",
       "ability": {
         "label": "Cecha bazowa rzucania czarów",
-        "hint": "Zastępcza zdolność, zamiast standardowej zdolności rzucania czarów."
+        "hint": "Możliwość nadpisania standardowej Cechy bazowej istoty."
       },
       "challenge": {
         "attack": {
