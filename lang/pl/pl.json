@@ -4326,7 +4326,7 @@
     },
     "creatureSizes": {
       "label": "Rozmiary istot",
-      "hint": "Przywołane stworzenie i token zostaną zmienione na ten rozmiar. Jeśli wybrano więcej niż jeden rozmiar, gracz będzie mógł wybrać jeden podczas przywoływania."
+      "hint": "Przywołana istota i token zostaną zmienione na ten rozmiar. Jeśli wybrano więcej niż jeden rozmiar, gracz będzie mógł wybrać jeden podczas przywoływania."
     },
     "creatureTypes": {
       "label": "Rodzaje istot",
