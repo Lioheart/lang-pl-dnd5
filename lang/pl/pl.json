@@ -2902,7 +2902,7 @@
 "DND5E.FlagsHalflingLucky": "Szczęście nizołka",
 "DND5E.FlagsHalflingLuckyHint": "Możesz przerzucić jedynki, kiedy wykonujesz test k20.",
 "DND5E.FlagsHalflingNimbleness": "Zwinność niziołka",
-"DND5E.FlagsHalflingNimblenessHint": "Ruch przez pola zajmowane przez stworzenia większego rozmiaru nie jest blokowany.",
+"DND5E.FlagsHalflingNimblenessHint": "Ruch przez większe istoty nie jest blokowany.",
 "DND5E.FlagsAlert": "Atut: Czujny",
 "DND5E.FlagsAlertHint": "Biegłość w rzutach na inicjatywę.",
 "DND5E.FlagsAlertHintLegacy": "Zapewnia +5 do Inicjatywy.",
