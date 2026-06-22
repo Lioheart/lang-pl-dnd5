@@ -4396,7 +4396,7 @@
       },
       "mode": {
         "label": "Tryb",
-        "hint": "Określa, w jaki sposób określane są stworzenia, które mają zostać wezwane.",
+        "hint": "Określa, w jaki sposób określane są istoty, które mają zostać wezwane.",
         "CR": "Według stopnia wyzwania i rodzaju stworzenia",
         "Direct": "Według bezpośredniego odnośnika"
       },
