@@ -4970,7 +4970,7 @@
         "label": "Scal"
       },
       "minimumAC": {
-        "hint": "Wzór określający Klasę Pancerza dla przekształconego stworzenia, jeśli KP Aktora docelowego nie jest już wyższa.",
+        "hint": "Wzór określający Klasę Pancerza przekształconej istoty, jeśli KP docelowej istoty nie jest już wyższa.",
         "label": "Minimalna Klasa Pancerza"
       },
       "other": {
