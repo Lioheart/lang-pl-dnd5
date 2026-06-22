@@ -4309,7 +4309,7 @@
       },
       "hd": {
         "label": "Bonusowe Kości Wytrzymałości",
-        "hint": "Dodatkowe Kości wytrzymałości dodane ponad te pochodzące ze wzoru rzutu na HP w statystykach stworzenia. Mogą być używane tylko podczas przywoływania aktorów NPC."
+        "hint": "Dodatkowe Kości wytrzymałości dodane ponad te pochodzące ze wzoru rzutu na HP w statystykach istoty. Mogą być używane tylko podczas przywoływania aktorów NPC."
       },
       "healing": {
         "label": "Premia do leczenia",
