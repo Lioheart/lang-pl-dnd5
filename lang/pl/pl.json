@@ -652,7 +652,7 @@
             "label": "SW"
           }
         },
-        "Hint": "Służy do reprezentowania stopnia wyzwania stworzeń wykorzystywanych w zdolnościach takich jak Dzika Postać.",
+        "Hint": "Służy do reprezentowania stopnia wyzwania istot wykorzystywanych w zdolnościach takich jak Dzika Postać.",
         "Label": "Stopień Wyzwania"
       },
       "Dice": {
