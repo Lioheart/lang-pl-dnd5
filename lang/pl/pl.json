@@ -4419,7 +4419,7 @@
     "Label": "Zmiany w istocie",
     "Hint": "Zmiany, które zostaną wprowadzone w przywołanej istocie. Wszelkie odnośniki @ użyte w poniższych wzorach będą oparte na statystykach osoby przywołującej. Do statystyk przywołanych istot można odwoływać się za pomocą @summon (np. @summon.attributes.hd.max, aby odwołać się do liczby Kości Wytrzymałości istoty)."
   },
-  "Hint": "Przywołaj nowe stworzenie do sceny.",
+  "Hint": "Przywołaj nową istotę do sceny.",
   "ItemChanges": {
     "Label": "Zmiany w przedmiotach",
     "Hint": "Zmiany wprowadzone do wyposażenia przywołanej istoty."
@@ -4431,7 +4431,7 @@
       "Delete": "Usuń profil"
     },
     "ChallengeRatingLabel": "Stopień wyzwania {cr} lub niższy",
-    "DropHint": "Upuść stworzenie tutaj",
+    "DropHint": "Upuść istotę tutaj",
     "Empty": "Kliknij przycisk <i class=\"fas fa-plus\"></i> powyżej aby stworzyć profil.",
     "EmptyDrop": "Kliknij przycisk <i class=\"fas fa-plus\"></i> powyżej, aby dodać profil lub upuść stworzenie, aby je przywołać."
   },
