@@ -211,6 +211,8 @@
     "Crew": {
       "Counted": {
         "one": "{number} crew action",
+	"few": "{number} crew actions",
+	"many": "{number} crew actions",
         "other": "{number} crew actions"
       },
       "Header": "Crew Actions",
@@ -234,6 +236,8 @@
     "Legendary": {
       "Counted": {
         "one": "{number} legendary action",
+	"few": "{number} legendary actions",
+	"many": "{number} legendary actions",
         "other": "{number} legendary actions"
       },
       "Header": "Legendary Actions",
@@ -249,6 +253,8 @@
     "Mythic": {
       "Counted": {
         "one": "{number} mythic action",
+	"few": "{number} mythic actions",
+	"many": "{number} mythic actions",
         "other": "{number} mythic actions"
       },
       "Header": "Mythic Actions",
@@ -292,6 +298,8 @@
   },
   "Title": {
     "one": "Activity",
+    "few": "Activities",
+    "many": "Activities",
     "other": "Activities"
   },
   "FIELDS": {
@@ -388,6 +396,8 @@
     },
     "CapDisplay": {
       "one": "Max {points} point per score",
+      "few": "Max {points} points per score",
+      "many": "Max {points} points per score",
       "other": "Max {points} points per score"
     },
     "Details": "Improvement Details",
@@ -437,6 +447,8 @@
     "LockedHint": "Scores cannot be modified with a feat selected.",
     "PointsRemaining": {
       "one": "{points} Point Remaining",
+      "few": "{points} Points Remaining",
+      "many": "{points} Points Remaining",
       "other": "{points} Points Remaining"
     },
     "Title": "Ability Score Improvement",
@@ -979,6 +991,8 @@
   },
   "Title": {
     "one": "Attack",
+    "few": "Attacks",
+    "many": "Attacks",
     "other": "Attacks"
   },
   "Type": {
@@ -1033,6 +1047,8 @@
       "Damaged": "{link} damaged in the attack.",
       "Deaths": {
         "one": "<strong>{deaths}</strong> defender was slain in an attack on their bastion!",
+	"few": "<strong>{deaths}</strong> defenders were slain in an attack on their bastion!",
+	"many": "<strong>{deaths}</strong> defenders were slain in an attack on their bastion!",
         "other": "<strong>{deaths}</strong> defenders were slain in an attack on their bastion!"
       },
       "NoDeaths": "Fended off an attack on their bastion with no casualties!",
@@ -1590,6 +1606,8 @@
 "DND5E.COMBATANT": {
   "Counted": {
     "one": "{number} combatant",
+    "few": "{number} combatants",
+    "many": "{number} combatants",
     "other": "{number} combatants"
   }
 },
@@ -1624,6 +1642,8 @@
     "Warning": {
       "Document": {
         "one": "document",
+        "few": "documents",
+        "many": "documents",
         "other": "documents"
       },
       "Max": "Must select at most {max} {document}, {value} selected.",
@@ -1910,6 +1930,8 @@
     },
     "HitDie": {
       "one": "hit die",
+      "few": "hit dice",
+      "many": "hit dice",
       "other": "hit dice"
     },
     "ItemUses": {
@@ -1932,6 +1954,8 @@
     },
     "SpellSlot": {
       "one": "{level} slot",
+      "few": "{level} slots",
+      "many": "{level} slots",
       "other": "{level} slots"
     },
     "SpellSlots": {
@@ -1944,6 +1968,8 @@
     },
     "Use": {
       "one": "use",
+      "few": "uses",
+      "many": "uses",
       "other": "uses"
     }
   },
@@ -2474,6 +2500,8 @@
   "Abbreviation": "XP",
   "Boons": {
     "one": "{number} Boon",
+    "few": "{number} Boons",
+    "many": "{number} Boons",
     "other": "{number} Boons"
   },
   "Current": "Current XP",
@@ -2694,6 +2722,8 @@
     "Basic": {
       "Label": {
         "one": "Basic Facility",
+        "few": "Basic Facilities",
+        "many": "Basic Facilities",
         "other": "Basic Facilities"
       },
       "Bedroom": "Bedroom",
@@ -2706,6 +2736,8 @@
     "Special": {
       "Label": {
         "one": "Special Facility",
+        "few": "Special Facilities",
+        "many": "Special Facilities",
         "other": "Special Facilities"
       },
       "ArcaneStudy": "Arcane Study",
@@ -2972,6 +3004,8 @@
   },
   "Member": {
     "one": "Member",
+    "few": "Members",
+    "many": "Members",
     "other": "Members"
   },
   "PlaceMembers": "Place Members",
@@ -2986,6 +3020,8 @@
   "Vehicle": {
     "Count": {
       "one": "Vehicle",
+      "few": "Vehicles",
+      "many": "Vehicles",
       "other": "Vehicles"
     },
     "Primary": {
@@ -3092,6 +3128,8 @@
 "DND5E.HITPOINTS": {
   "Counted": {
     "one": "{number} hit point",
+    "few": "{number} hit points",
+    "many": "{number} hit points",
     "other": "{number} hit points"
   },
   "DT": {
@@ -3131,6 +3169,8 @@
   "Config": "Adjust Hit Dice",
   "Counted": {
     "one": "{number} hit die",
+    "few": "{number} hit dice",
+    "many": "{number} hit dice",
     "other": "{number} hit dice"
   }
 },
@@ -3365,6 +3405,7 @@
     "one": "{n}st Legendary Action",
     "two": "{n}nd Legendary Action",
     "few": "{n}rd Legendary Action",
+    "many": "{n}rd Legendary Action",
     "other": "{n}th Legendary Action"
   },
   "Remaining": "Remaining Legendary Actions",
@@ -3383,6 +3424,7 @@
     "one": "{n}st Legendary Resistance",
     "two": "{n}nd Legendary Resistance",
     "few": "{n}rd Legendary Resistance",
+    "many": "{n}rd Legendary Resistance",
     "other": "{n}th Legendary Resistance"
   },
   "Remaining": "Remaining Legendary Resistances",
@@ -3495,6 +3537,7 @@
   "one": "{number}st",
   "two": "{number}nd",
   "few": "{number}rd",
+  "many": "{number}th",
   "other": "{number}th"
 },
 
@@ -3902,6 +3945,8 @@
   "OnSave": "On Save",
   "Title": {
     "one": "Save",
+    "few": "Saves",
+    "many": "Saves",
     "other": "Saves"
   }
 },
@@ -4538,6 +4583,8 @@
         "each": "each ally",
         "every": "every ally",
         "one": "{number} ally",
+        "few": "{number} allies",
+        "many": "{number} allies",
         "other": "{number} allies"
       }
     },
@@ -4548,6 +4595,8 @@
       "Label": "Circle",
       "Counted": {
         "one": "{number} circle",
+        "few": "{number} circles",
+        "many": "{number} circles",
         "other": "{number} circles",
         "oneSized": "{sizes} Circle",
         "otherSized": "{number} {sizes} Circles"
@@ -4557,6 +4606,8 @@
       "Label": "Cone",
       "Counted": {
         "one": "{number} cone",
+        "few": "{number} cones",
+        "many": "{number} cones",
         "other": "{number} cones",
         "oneSized": "{sizes} Cone",
         "otherSized": "{number} {sizes} Cones"
@@ -4569,6 +4620,8 @@
         "each": "each creature",
         "every": "every creature",
         "one": "{number} creature",
+        "few": "{number} creatures",
+        "many": "{number} creatures",
         "other": "{number} creatures"
       }
     },
@@ -4579,6 +4632,8 @@
         "each": "each creature or object",
         "every": "every creature or object",
         "one": "{number} creature or object",
+        "few": "{number} creatures or objects",
+        "many": "{number} creatures or objects",
         "other": "{number} creatures or objects"
       }
     },
@@ -4586,6 +4641,8 @@
       "Label": "Cube",
       "Counted": {
         "one": "{number} cube",
+        "few": "{number} cubes",
+        "many": "{number} cubes",
         "other": "{number} cubes",
         "oneSized": "{sizes} Cube",
         "otherSized": "{number} {sizes} Cubes"
@@ -4595,6 +4652,8 @@
       "Label": "Cylinder",
       "Counted": {
         "one": "{number} cylinder",
+        "few": "{number} cylinders",
+        "many": "{number} cylinders",
         "other": "{number} cylinders",
         "oneSized": "{sizes} Cylinder",
         "otherSized": "{number} {sizes} Cylinders"
@@ -4604,6 +4663,8 @@
       "Label": "Emanation",
       "Counted": {
         "one": "{number} emanation",
+        "few": "{number} emanations",
+        "many": "{number} emanations",
         "other": "{number} emanations",
         "oneSized": "{sizes} Emanation",
         "otherSized": "{number} {sizes} Emanations"
@@ -4616,6 +4677,8 @@
         "each": "each enemy",
         "every": "every enemy",
         "one": "{number} enemy",
+        "few": "{number} enemies",
+        "many": "{number} enemies",
         "other": "{number} enemies"
       }
     },
@@ -4623,6 +4686,8 @@
       "Label": "Line",
       "Counted": {
         "one": "{number} line",
+        "few": "{number} lines",
+        "many": "{number} lines",
         "other": "{number} lines",
         "oneSized": "{sizes} Line",
         "otherSized": "{number} {sizes} Lines"
@@ -4635,6 +4700,8 @@
         "each": "each object",
         "every": "every object",
         "one": "{number} object",
+        "few": "{number} objects",
+        "many": "{number} objects",
         "other": "{number} objects"
       }
     },
@@ -4642,6 +4709,8 @@
       "Label": "Radius",
       "Counted": {
         "one": "{number} radius",
+        "few": "{number} radii",
+        "many": "{number} radii",
         "other": "{number} radii",
         "oneSized": "{sizes} Radius",
         "otherSized": "{number} {sizes} Radii"
@@ -4657,6 +4726,8 @@
         "each": "each space",
         "every": "every space",
         "one": "{number} Space",
+        "few": "{number} Spaces",
+        "many": "{number} Spaces",
         "other": "{number} Spaces"
       }
     },
@@ -4664,6 +4735,8 @@
       "Label": "Sphere",
       "Counted": {
         "one": "{number} sphere",
+        "few": "{number} spheres",
+        "many": "{number} spheres",
         "other": "{number} spheres",
         "oneSized": "{sizes} Sphere",
         "otherSized": "{number} {sizes} Spheres"
@@ -4676,6 +4749,8 @@
         "each": "each {special}",
         "every": "every {special}",
         "one": "{number} {special}",
+        "few": "{number} {special}",
+        "many": "{number} {special}",
         "other": "{number} {special}"
       }
     },
@@ -4683,6 +4758,8 @@
       "Label": "Square",
       "Counted": {
         "one": "{number} square",
+        "few": "{number} squares",
+        "many": "{number} squares",
         "other": "{number} squares",
         "oneSized": "{sizes} Square",
         "otherSized": "{number} {sizes} Squares"
@@ -4695,6 +4772,8 @@
         "each": "each target",
         "every": "every target",
         "one": "{number} target",
+        "few": "{number} targets",
+        "many": "{number} targets",
         "other": "{number} targets"
       }
     },
@@ -4702,6 +4781,8 @@
       "Label": "Wall",
       "Counted": {
         "one": "{number} wall",
+        "few": "{number} walls",
+        "many": "{number} walls",
         "other": "{number} walls",
         "oneSized": "{sizes} Wall",
         "otherSized": "{number} {sizes} Walls"
@@ -4714,6 +4795,8 @@
         "each": "each willing creature",
         "every": "every willing creature",
         "one": "{number} willing creature",
+        "few": "{number} willing creatures",
+        "many": "{number} willing creatures",
         "other": "{number} willing creatures"
       }
     }
@@ -5162,6 +5245,8 @@
       "Counted": {
         "narrow": "{number}r",
         "one": "{number} round",
+        "few": "{number} rounds",
+        "many": "{number} rounds",
         "other": "{number} rounds"
       }
     },
@@ -5174,6 +5259,8 @@
       "Counted": {
         "narrow": "{number}t",
         "one": "{number} turn",
+        "few": "{number} turns",
+        "many": "{number} turns",
         "other": "{number} turns"
       }
     },
@@ -5205,14 +5292,20 @@
       "Counted": {
         "narrow": {
           "one": "{number}ft³",
+          "few": "{number}ft³",
+          "many": "{number}ft³",
           "other": "{number}ft³"
         },
         "short": {
           "one": "{number} cu ft",
+          "few": "{number} cu ft",
+          "many": "{number} cu ft",
           "other": "{number} cu ft"
         },
         "long": {
           "one": "{number} cubic foot",
+          "few": "{number} cubic feet",
+          "many": "{number} cubic feet",
           "other": "{number} cubic feet"
         }
       }
@@ -5234,14 +5327,20 @@
       "Counted": {
         "narrow": {
           "one": "{number}t",
+          "few": "{number}t",
+          "many": "{number}t",
           "other": "{number}t"
         },
         "short": {
           "one": "{number} t",
+          "few": "{number} t",
+          "many": "{number} t",
           "other": "{number} t"
         },
         "long": {
           "one": "{number} tonne",
+          "few": "{number} tonnes",
+          "many": "{number} tonnes",
           "other": "{number} tonnes"
         }
       }
@@ -5256,14 +5355,20 @@
       "Counted": {
         "narrow": {
           "one": "{number}tn",
+          "few": "{number}tn",
+          "many": "{number}tn",
           "other": "{number}tn"
         },
         "short": {
           "one": "{number} tn",
+          "other": "{number} tn",
+          "other": "{number} tn",
           "other": "{number} tn"
         },
         "long": {
           "one": "{number} ton",
+          "few": "{number} tons",
+          "many": "{number} tons",
           "other": "{number} tons"
         }
       }
@@ -5431,6 +5536,7 @@
       "one": "{n}st Action",
       "two": "{n}nd Action",
       "few": "{n}rd Action",
+      "many": "{n}rd Action",
       "other": "{n}th Action"
     }
   },
