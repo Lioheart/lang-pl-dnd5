@@ -4301,7 +4301,7 @@
     "bonuses": {
       "ac": {
         "label": "Premia do Klasy Pancerza",
-        "hint": "Premia do KP przywołanego stworzenia, dodana do tego, co jest określone w jej statystykach."
+        "hint": "Premia do KP przywołanej istoty, dodana do tego, co jest określone w jej statystykach."
       },
       "attackDamage": {
         "label": "Premia do obrażeń z ataku",
