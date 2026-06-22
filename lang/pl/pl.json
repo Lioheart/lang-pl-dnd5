@@ -4379,7 +4379,7 @@
           "hint": "Nazwa profilu wyświetlana w oknie dialogowym."
         },
         "types": {
-          "label": "Rodzaje stworzeń",
+          "label": "Rodzaje istot",
           "hint": "Lista rodzajów stworzeń, z których można wybrać przywołane stworzenie."
         },
         "uuid": {
