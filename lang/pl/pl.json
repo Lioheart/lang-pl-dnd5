@@ -4481,7 +4481,7 @@
         },
         "type": {
           "label": "Typ celu",
-          "hint": "Rodzaj celów, które mogą zostać objęte (np. stworzenia, przedmioty, pola)."
+          "hint": "Rodzaj celów, które mogą zostać objęte (np. istoty, przedmioty, pola)."
         }
       },
       "override": {
@@ -4565,9 +4565,9 @@
     "Creature": {
       "Label": "Istota",
       "Counted": {
-        "any": "dowolne stworzenia",
-        "each": "każde stworzenie",
-        "every": "wszystkie stworzenia",
+        "any": "dowolne istoty",
+        "each": "każda istota",
+        "every": "wszystkie istoty",
         "one": "{number} stworzenie",
         "other": "{number} stworzenia"
       }
