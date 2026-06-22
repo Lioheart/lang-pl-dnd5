@@ -4417,7 +4417,7 @@
   },
   "CreatureChanges": {
     "Label": "Zmiany w istocie",
-    "Hint": "Zmiany, które zostaną wprowadzone w przywołanej istocie. Wszelkie odnośniki @ użyte w poniższych wzorach będą oparte na statystykach osoby przywołującej. Do statystyk przywołanych istot można odwoływać się za pomocą @summon (np. @summon.attributes.hd.max, aby odwołać się do liczby Kości Wytrzymałości stworzenia)."
+    "Hint": "Zmiany, które zostaną wprowadzone w przywołanej istocie. Wszelkie odnośniki @ użyte w poniższych wzorach będą oparte na statystykach osoby przywołującej. Do statystyk przywołanych istot można odwoływać się za pomocą @summon (np. @summon.attributes.hd.max, aby odwołać się do liczby Kości Wytrzymałości istoty)."
   },
   "Hint": "Przywołaj nowe stworzenie do sceny.",
   "ItemChanges": {
