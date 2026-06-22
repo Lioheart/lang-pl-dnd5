@@ -4351,7 +4351,7 @@
       },
       "saves": {
         "label": "Dopasuj rzuty obronne",
-        "hint": "Zmodyfikuj wartości rzutów obronnych przywołanego stworzenia, aby odpowiadały wartościom przywołującego."
+        "hint": "Zmodyfikuj wartości rzutów obronnych przywołanej istoty, aby odpowiadały wartościom przywołującego."
       }
     },
     "profiles": {
