@@ -1702,7 +1702,7 @@
 "DND5E.Concentration": "Koncentracja",
 "DND5E.ConcentrationAbbr": "K",
 "DND5E.ConcentrationBreak": "Przerwij koncentrację",
-"DND5E.ConcentrationBreakWarning": "Przerwanie koncentracji na efekcie, który jest aktywny na innych stworzeniach, wymaga obecności aktywnego MP.",
+"DND5E.ConcentrationBreakWarning": "Przerwanie koncentracji na efekcie, który jest aktywny na innych istotach, wymaga obecności aktywnego MP.",
 "DND5E.ConcentrationBonus": "Premia do testu na koncentrację",
 "DND5E.ConcentrationDuration": "Koncentracja, aż do {duration}",
 "DND5E.ConcentratingOn": "Koncentrujesz się na efektach: \"{name}\" {type}.",
