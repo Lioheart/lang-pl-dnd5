@@ -4321,7 +4321,7 @@
       },
       "saveDamage": {
         "label": "Premia do obrażeń wymagających rzutu obronnego",
-        "hint": "Dodatkowe obrażenia zadawane przez umiejętności stworzenia, które wymagają rzutów obronnych."
+        "hint": "Dodatkowe obrażenia zadawane przez zdolności tej istoty, które wymagają rzutów obronnych."
       }
     },
     "creatureSizes": {
