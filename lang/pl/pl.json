@@ -4573,7 +4573,7 @@
       }
     },
     "CreatureOrObject": {
-      "Label": "Stworzenie lub obiekt",
+      "Label": "Istota lub obiekt",
       "Counted": {
         "any": "dowolne stworzenia lub obiekty",
         "each": "każde stworzenie lub obiekt",
