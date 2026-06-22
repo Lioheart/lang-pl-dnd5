@@ -1715,7 +1715,7 @@
 "DND5E.ConcentratingWarnLimit": "Nie możesz utrzymać koncentracji na większej ilości efektów!",
 "DND5E.ConcentratingWarnLimitOptional": "Aby użyć tego przedmiotu, możesz zakończyć koncentrację na jednym z utrzymywanych efektów.",
 "DND5E.ConcentratingWarnLimitZero": "Nie jesteś w stanie utrzymać koncentracji na żadnych efektach!",
-"DND5E.ConcentrationConfigurationHint": "Skonfiguruj modyfikatory testów koncentracji i premie, które mają zastosowanie u tego stworzenia.",
+"DND5E.ConcentrationConfigurationHint": "Konfiguracja modyfikatorów i premii do testów koncentracji, które mają zastosowanie do tej istoty.",
 "DND5E.ConsumeTitle": "Zużycie zasobów",
 "DND5E.ConsumeAmount": "Zużyta ilość",
 "DND5E.ConsumeHint": {
