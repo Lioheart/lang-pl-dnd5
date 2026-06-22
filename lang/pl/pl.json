@@ -4339,7 +4339,7 @@
       },
       "attacks": {
         "label": "Dopasuj ataki",
-        "hint": "Zmodyfikuj wartości trafień w atakach przywołanego stworzenia, aby odpowiadały wartościom przywołującego."
+        "hint": "Zmodyfikuj wartości trafień w atakach przywołanej istoty, aby odpowiadały wartościom przywołującego."
       },
       "disposition": {
         "label": "Dopasuj usposobienie",
