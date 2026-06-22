@@ -4330,7 +4330,7 @@
     },
     "creatureTypes": {
       "label": "Rodzaje istot",
-      "hint": "Przywołane stworzenie zostanie zmienione w ten rodzaj. Jeśli wybrano więcej niż jeden rodzaj, gracz będzie mógł wybrać jeden podczas przywoływania."
+      "hint": "Przywołana istota zostanie zmieniona w ten rodzaj. Jeśli wybrano więcej niż jeden rodzaj, gracz będzie mógł wybrać jeden podczas przywoływania."
     },
     "match": {
       "ability": {
