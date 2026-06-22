@@ -4343,7 +4343,7 @@
       },
       "disposition": {
         "label": "Dopasuj usposobienie",
-        "hint": "Zmodyfikuj usposobienie przywołanego stworzenia, aby odpowiadały usposobieniu przywołującego."
+        "hint": "Zmodyfikuj usposobienie przywołanej istoty, aby odpowiadały usposobieniu przywołującego."
       },
       "proficiency": {
         "label": "Dopasuj biegłość",
