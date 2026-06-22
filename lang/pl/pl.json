@@ -5881,7 +5881,7 @@
     },
     "InitiativeScore": {
       "Name": "Wartość Inicjatywy",
-      "Hint": "Użyj wartości Inicjatywy stworzenia (10 + premia), a nie rzutu na Inicjatywę.",
+      "Hint": "Użyj wartości Inicjatywy istoty (10 + premia), a nie rzutu na Inicjatywę.",
       "All": "Użyj wartości dla wszystkich",
       "None": "Zawsze rzucaj na Inicjatywę",
       "NPCs": "Użyj wartości dla BNów Mistrza Podziemi"
