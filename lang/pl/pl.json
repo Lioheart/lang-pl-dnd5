@@ -4305,7 +4305,7 @@
       },
       "attackDamage": {
         "label": "Premia do obrażeń z ataku",
-        "hint": "Dodatkowe obrażenia wyrządzone przez ataki stworzenia."
+        "hint": "Dodatkowe obrażenia wyrządzone przez ataki istoty."
       },
       "hd": {
         "label": "Bonusowe Kości Wytrzymałości",
