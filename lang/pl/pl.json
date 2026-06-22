@@ -4865,7 +4865,7 @@
         },
         "sizes": {
           "hint": "Lista rozmiarów stworzeń, z których można wybrać istotę źródłową.",
-          "label": "Rozmiary stworzeń"
+          "label": "Rozmiary istot"
         },
         "types": {
           "hint": "Lista rodzajów stworzeń, z których można wybrać istotę źródłową.",
