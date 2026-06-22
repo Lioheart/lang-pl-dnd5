@@ -2306,7 +2306,7 @@
         },
         "item": {
           "label": "Dodatkowe przedmioty",
-          "hint": "Te dodatkowe przedmioty zostaną dodane do ekwipunku stworzenia, gdy jeden z jego przedmiotów zostanie zaklęty. Zostaną usunięte, jeśli zaklęcie zostanie usunięte."
+          "hint": "Te dodatkowe przedmioty zostaną dodane do ekwipunku istoty, gdy jeden z jej przedmiotów zostanie zaklęty. Zostaną usunięte, jeśli zaklęcie zostanie usunięte."
         }
       }
     },
