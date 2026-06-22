@@ -4569,7 +4569,7 @@
         "each": "każda istota",
         "every": "wszystkie istoty",
         "one": "{number} istota",
-        "other": "{number} stworzenia"
+        "other": "{number} istoty"
       }
     },
     "CreatureOrObject": {
