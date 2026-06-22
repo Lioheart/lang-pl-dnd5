@@ -4433,7 +4433,7 @@
     "ChallengeRatingLabel": "Stopień wyzwania {cr} lub niższy",
     "DropHint": "Upuść istotę tutaj",
     "Empty": "Kliknij przycisk <i class=\"fas fa-plus\"></i> powyżej aby stworzyć profil.",
-    "EmptyDrop": "Kliknij przycisk <i class=\"fas fa-plus\"></i> powyżej, aby dodać profil lub upuść stworzenie, aby je przywołać."
+    "EmptyDrop": "Kliknij przycisk <i class=\"fas fa-plus\"></i> powyżej, aby dodać profil lub upuść istotę, aby ją przywołać."
   },
   "SECTIONS": {
     "Changes": "Zmiany",
