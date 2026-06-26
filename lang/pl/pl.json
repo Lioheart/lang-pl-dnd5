@@ -4620,7 +4620,7 @@
           "every": "wszystkie pola",
           "one": "{Number} pole",
           "other": "{number} pól",
-          "few": "{number} pól",
+          "few": "{number} pola",
           "many": "{number} pól"
         }
       },
