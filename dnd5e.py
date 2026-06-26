@@ -2867,15 +2867,47 @@ def process_files(folders: str, version: str) -> None:
             dict_key.append(f'{compendium.keys()}')
 
 
+def add_few_many_plural_forms(data):
+    """
+    Dodaje formy few oraz many do każdego słownika pluralizacji,
+    który zawiera formę one.
+
+    Dla języka angielskiego few i many mają mieć tę samą treść co other.
+    Jeżeli wyjątkowo brakuje other, używana jest treść z one.
+    """
+    if isinstance(data, dict):
+        if "one" in data:
+            plural_source = data.get("other", data["one"])
+            data["few"] = plural_source
+            data["many"] = plural_source
+
+        for value in data.values():
+            add_few_many_plural_forms(value)
+
+    elif isinstance(data, list):
+        for value in data:
+            add_few_many_plural_forms(value)
+
+    return data
+
+
 def copy_en_json(version_dnd5e: str) -> None:
     source_file = os.path.join("pack_dnd5e", "lang", "en.json")
     destination_dir = version_dnd5e
     destination_file = os.path.join(destination_dir, "en.json")
 
     os.makedirs(destination_dir, exist_ok=True)
-    shutil.copy2(source_file, destination_file)
-    print(f"Skopiowano: {source_file} -> {destination_file}")
 
+    with open(source_file, "r", encoding="utf-8") as infile:
+        en_data = json.load(infile)
+
+    add_few_many_plural_forms(en_data)
+
+    with open(destination_file, "w", encoding="utf-8") as outfile:
+        json.dump(en_data, outfile, ensure_ascii=False, indent=2)
+        outfile.write("\n")
+
+    print(f"Skopiowano i uzupełniono pluralizację: {source_file} -> {destination_file}")
 
 def move_json_files(version_dnd5e: str) -> None:
     base_path = pathlib.Path(version_dnd5e).resolve()
