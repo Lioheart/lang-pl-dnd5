@@ -4654,7 +4654,7 @@
           "other": "{number} kwadratów",
           "oneSized": "Kwadrat {sizes}",
           "otherSized": "{number} kwadratów {sizes}",
-          "few": "{number} kwadratów",
+          "few": "{number} kwadraty",
           "many": "{number} kwadratów"
         }
       },
