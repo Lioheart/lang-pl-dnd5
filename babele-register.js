@@ -378,7 +378,12 @@ class Dnd5ePlConverters {
                 const activity = updated[activityKey];
 
                 if (typeof translation.name === "string") activity.name = translation.name;
-                if (typeof translation.condition === "string") foundry.utils.setProperty(activity, "activation.condition", translation.condition);
+
+                const activationCondition = translation.activationCondition ?? translation.condition;
+                if (typeof activationCondition === "string") {
+                    foundry.utils.setProperty(activity, "activation.condition", activationCondition);
+                }
+
                 if (typeof translation.chatFlavor === "string") foundry.utils.setProperty(activity, "description.chatFlavor", translation.chatFlavor);
                 if (typeof translation.target === "string") foundry.utils.setProperty(activity, "target.affects.special", translation.target);
                 if (typeof translation.range === "string") foundry.utils.setProperty(activity, "range.special", translation.range);

@@ -219,6 +219,7 @@ def build_id_index(data: list[dict]) -> dict:
             index[obj["_id"]] = obj
     return index
 
+
 def build_records_by_id(data: list[dict], predicate) -> dict[str, list[dict]]:
     """
     Zachowuje wszystkie rekordy o tym samym _id.
@@ -273,6 +274,7 @@ def resolve_record_in_actor_order(
 
     record = id_index.get(record_id)
     return record if isinstance(record, dict) else None
+
 
 def extract_description(record: dict) -> str:
     if not isinstance(record, dict):
@@ -1041,6 +1043,7 @@ JOURNAL_LABEL_OVERRIDES = {
     "content24": "Rules",
 }
 
+
 def looks_like_journal_pack(data: list[dict]) -> bool:
     """Rozpoznaje paczkę JournalEntry niezależnie od jej nazwy."""
     if not isinstance(data, list):
@@ -1053,6 +1056,7 @@ def looks_like_journal_pack(data: list[dict]) -> bool:
         and bool(record["name"].strip())
         for record in data
     )
+
 
 def is_folder_record(record: dict) -> bool:
     """
@@ -1454,6 +1458,7 @@ def extract_journal_page_descriptions(page: dict) -> dict:
 
     return result
 
+
 def build_journal_pages_mapping(data: list[dict]) -> dict:
     """
     Dodaje pola stron JournalEntryPage, których nie obejmuje domyślne
@@ -1569,6 +1574,7 @@ def resolve_journal_pages(pages_value, id_index: dict) -> list[dict]:
 
     return pages
 
+
 def resolve_journal_categories(
         categories_value,
         id_index: dict
@@ -1597,13 +1603,14 @@ def resolve_journal_categories(
             continue
 
         category_name = (
-            category_record.get("name") or ""
+                category_record.get("name") or ""
         ).strip()
 
         if category_name:
             categories[category_name] = category_name
 
     return categories
+
 
 def process_rules_pack(
         data: list[dict],
@@ -1750,6 +1757,7 @@ def process_rules_pack(
 
     return remove_empty_keys(transifex_dict)
 
+
 TOKEN_ARTWORK_DESCRIPTION = '<p><em>Token artwork by <a href="https://www.forgotten-adventures.net/" target="_blank" rel="noopener">Forgotten Adventures</a>.</em></p>'
 
 ACTOR_TYPES = {"character", "npc", "vehicle", "group"}
@@ -1777,7 +1785,10 @@ def actor_mapping_for_pack(pack_name: str) -> dict:
         },
         "items": {
             "path": "items",
-            "converter": "items"
+            "converter": "document",
+            "documentType": "Item",
+            "cardinality": "many",
+            "mapping": default_item_mapping()
         },
         "senses": {
             "path": "system.attributes.senses",
@@ -1937,7 +1948,9 @@ def add_activities_to_item(entry: dict, item: dict) -> None:
         )
 
         if isinstance(condition, str) and condition.strip():
-            activity_entry["condition"] = condition.strip()
+            condition_text = condition.strip()
+            activity_entry["condition"] = condition_text
+            activity_entry["activationCondition"] = condition_text
 
         activation_value = (
             activation.get("value")
@@ -2007,7 +2020,6 @@ def add_activities_to_item(entry: dict, item: dict) -> None:
             entry["activities"][activity_key] = activity_entry
 
 
-
 def add_advancement_to_item(entry: dict, item: dict) -> None:
     advancement = item.get("system", {}).get("advancement")
 
@@ -2069,6 +2081,7 @@ def add_advancement_to_item(entry: dict, item: dict) -> None:
 
     if translated_entries:
         entry["advancement"] = translated_entries
+
 
 def populate_dnd5e_item(entry: dict, item: dict, id_index: dict | None = None) -> None:
     name = (item.get("name") or "").strip()
@@ -2335,6 +2348,7 @@ def default_item_mapping() -> dict:
             "mapping": {
                 "name": "name",
                 "condition": "activation.condition",
+                "activationCondition": "activation.condition",
                 "activationValue": "activation.value",
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",

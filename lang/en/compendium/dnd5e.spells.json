@@ -20,6 +20,7 @@
             "mapping": {
                 "name": "name",
                 "condition": "activation.condition",
+                "activationCondition": "activation.condition",
                 "activationValue": "activation.value",
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
@@ -836,7 +837,8 @@
                 },
                 "Change Appearance": {
                     "name": "Change Appearance",
-                    "condition": "When you cast this spell."
+                    "condition": "When you cast this spell.",
+                    "activationCondition": "When you cast this spell."
                 },
                 "Investigate Disguise Check": {
                     "name": "Investigate Disguise Check"
@@ -1428,6 +1430,7 @@
                 "Enter / End Turn in Grease Save": {
                     "name": "Enter / End Turn in Grease Save",
                     "condition": "When a creature enters the area or ends its turn there.",
+                    "activationCondition": "When a creature enters the area or ends its turn there.",
                     "damageOnSave": "none"
                 }
             }
@@ -1587,7 +1590,8 @@
             "activities": {
                 "Grant Temporary Hit Points": {
                     "name": "Grant Temporary Hit Points",
-                    "condition": "When a creature under the effects of this spell starts their turn."
+                    "condition": "When a creature under the effects of this spell starts their turn.",
+                    "activationCondition": "When a creature under the effects of this spell starts their turn."
                 },
                 "Cast": {
                     "name": "Cast"
@@ -1665,7 +1669,8 @@
             "activities": {
                 "Bonus Mark Damage": {
                     "name": "Bonus Mark Damage",
-                    "condition": "When you hit a creature under the effects of this spell with a weapon attack."
+                    "condition": "When you hit a creature under the effects of this spell with a weapon attack.",
+                    "activationCondition": "When you hit a creature under the effects of this spell with a weapon attack."
                 },
                 "Cast": {
                     "name": "Cast"
@@ -1834,6 +1839,7 @@
                 "Avoid Light Save": {
                     "name": "Avoid Light Save",
                     "condition": "When you target an object held or worn by a hostile creature.",
+                    "activationCondition": "When you target an object held or worn by a hostile creature.",
                     "damageOnSave": "none"
                 },
                 "Cast": {
@@ -2419,6 +2425,7 @@
                 "Ward Save": {
                     "name": "Ward Save",
                     "condition": "When a creature targets you with an attack or a harmful spell.",
+                    "activationCondition": "When a creature targets you with an attack or a harmful spell.",
                     "damageOnSave": "none"
                 },
                 "Cast": {

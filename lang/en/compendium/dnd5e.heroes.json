@@ -15,7 +15,112 @@
         },
         "items": {
             "path": "items",
-            "converter": "items"
+            "converter": "document",
+            "documentType": "Item",
+            "cardinality": "many",
+            "mapping": {
+                "description": "system.description.value",
+                "requirements": "system.requirements",
+                "materials": "system.materials.value",
+                "chat": "system.description.chat",
+                "activation": "system.activation.condition",
+                "activationValue": "system.activation.value",
+                "activities": {
+                    "path": "system.activities",
+                    "converter": "structured",
+                    "cardinality": "many",
+                    "container": "keyed",
+                    "keys": [
+                        "_id",
+                        "name",
+                        "type"
+                    ],
+                    "mapping": {
+                        "name": "name",
+                        "condition": "activation.condition",
+                        "activationCondition": "activation.condition",
+                        "activationValue": "activation.value",
+                        "chatFlavor": "description.chatFlavor",
+                        "duration": "duration.special",
+                        "roll": "roll.name",
+                        "damageOnSave": "damage.onSave",
+                        "range": {
+                            "path": "range",
+                            "converter": "imperialToMetric"
+                        },
+                        "target": {
+                            "path": "target",
+                            "converter": "imperialToMetric"
+                        },
+                        "profiles": {
+                            "path": "profiles",
+                            "converter": "nameCollection"
+                        }
+                    }
+                },
+                "effects": {
+                    "path": "effects",
+                    "converter": "effects"
+                },
+                "advancement": {
+                    "path": "system.advancement",
+                    "converter": "structured",
+                    "cardinality": "many",
+                    "container": "keyed",
+                    "keys": [
+                        "_id",
+                        "title"
+                    ],
+                    "mapping": {
+                        "title": "title",
+                        "hint": "hint",
+                        "_variants": [
+                            {
+                                "_when": {
+                                    "path": "type",
+                                    "equals": "ScaleValue"
+                                },
+                                "distance": {
+                                    "path": "configuration.distance",
+                                    "converter": "imperialToMetric"
+                                },
+                                "scale": {
+                                    "path": "configuration.scale",
+                                    "converter": "imperialToMetric"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "movement": {
+                    "path": "system.movement",
+                    "converter": "imperialToMetric"
+                },
+                "weight": {
+                    "path": "system.weight",
+                    "converter": "imperialToMetric"
+                },
+                "range": {
+                    "path": "system.range",
+                    "converter": "imperialToMetric"
+                },
+                "capacityWeight": {
+                    "path": "system.capacity.weight",
+                    "converter": "imperialToMetric"
+                },
+                "senses": {
+                    "path": "system.senses",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "system.target",
+                    "converter": "imperialToMetric"
+                },
+                "volume": {
+                    "path": "system.capacity.volume",
+                    "converter": "imperialToMetric"
+                }
+            }
         },
         "senses": {
             "path": "system.attributes.senses",
@@ -890,7 +995,8 @@
                     "description": "<p>An amulet depicting a symbol representing a deity through which a true believer can call forth their power and in doing so spread the faith.</p><p><strong>Spellcasting Focus</strong>. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</p>",
                     "activities": {
                         "utility": {
-                            "condition": "Holy symbol must be clearly visible."
+                            "condition": "Holy symbol must be clearly visible.",
+                            "activationCondition": "Holy symbol must be clearly visible."
                         }
                     }
                 },
@@ -920,7 +1026,8 @@
                     "requirements": "Half-Orc",
                     "activities": {
                         "heal": {
-                            "condition": "When you are reduced to 0 hit points"
+                            "condition": "When you are reduced to 0 hit points",
+                            "activationCondition": "When you are reduced to 0 hit points"
                         }
                     }
                 },
@@ -1004,11 +1111,13 @@
                     "requirements": "Paladin 1",
                     "activities": {
                         "heal": {
-                            "condition": "Target cannot be Undead or a Construct."
+                            "condition": "Target cannot be Undead or a Construct.",
+                            "activationCondition": "Target cannot be Undead or a Construct."
                         },
                         "Cure Disease and Poison": {
                             "name": "Cure Disease and Poison",
-                            "condition": "Target cannot be Undead or a Construct."
+                            "condition": "Target cannot be Undead or a Construct.",
+                            "activationCondition": "Target cannot be Undead or a Construct."
                         }
                     }
                 },
@@ -2489,7 +2598,8 @@
                     "requirements": "Rock Gnome",
                     "activities": {
                         "utility": {
-                            "condition": "Expend 10 gp worth of materials"
+                            "condition": "Expend 10 gp worth of materials",
+                            "activationCondition": "Expend 10 gp worth of materials"
                         }
                     }
                 },
@@ -2525,7 +2635,8 @@
                     "requirements": "Rock Gnome",
                     "activities": {
                         "utility": {
-                            "condition": "Expend 10 gp worth of materials"
+                            "condition": "Expend 10 gp worth of materials",
+                            "activationCondition": "Expend 10 gp worth of materials"
                         }
                     }
                 },

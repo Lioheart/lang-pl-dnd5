@@ -15,7 +15,112 @@
         },
         "items": {
             "path": "items",
-            "converter": "items"
+            "converter": "document",
+            "documentType": "Item",
+            "cardinality": "many",
+            "mapping": {
+                "description": "system.description.value",
+                "requirements": "system.requirements",
+                "materials": "system.materials.value",
+                "chat": "system.description.chat",
+                "activation": "system.activation.condition",
+                "activationValue": "system.activation.value",
+                "activities": {
+                    "path": "system.activities",
+                    "converter": "structured",
+                    "cardinality": "many",
+                    "container": "keyed",
+                    "keys": [
+                        "_id",
+                        "name",
+                        "type"
+                    ],
+                    "mapping": {
+                        "name": "name",
+                        "condition": "activation.condition",
+                        "activationCondition": "activation.condition",
+                        "activationValue": "activation.value",
+                        "chatFlavor": "description.chatFlavor",
+                        "duration": "duration.special",
+                        "roll": "roll.name",
+                        "damageOnSave": "damage.onSave",
+                        "range": {
+                            "path": "range",
+                            "converter": "imperialToMetric"
+                        },
+                        "target": {
+                            "path": "target",
+                            "converter": "imperialToMetric"
+                        },
+                        "profiles": {
+                            "path": "profiles",
+                            "converter": "nameCollection"
+                        }
+                    }
+                },
+                "effects": {
+                    "path": "effects",
+                    "converter": "effects"
+                },
+                "advancement": {
+                    "path": "system.advancement",
+                    "converter": "structured",
+                    "cardinality": "many",
+                    "container": "keyed",
+                    "keys": [
+                        "_id",
+                        "title"
+                    ],
+                    "mapping": {
+                        "title": "title",
+                        "hint": "hint",
+                        "_variants": [
+                            {
+                                "_when": {
+                                    "path": "type",
+                                    "equals": "ScaleValue"
+                                },
+                                "distance": {
+                                    "path": "configuration.distance",
+                                    "converter": "imperialToMetric"
+                                },
+                                "scale": {
+                                    "path": "configuration.scale",
+                                    "converter": "imperialToMetric"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "movement": {
+                    "path": "system.movement",
+                    "converter": "imperialToMetric"
+                },
+                "weight": {
+                    "path": "system.weight",
+                    "converter": "imperialToMetric"
+                },
+                "range": {
+                    "path": "system.range",
+                    "converter": "imperialToMetric"
+                },
+                "capacityWeight": {
+                    "path": "system.capacity.weight",
+                    "converter": "imperialToMetric"
+                },
+                "senses": {
+                    "path": "system.senses",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "system.target",
+                    "converter": "imperialToMetric"
+                },
+                "volume": {
+                    "path": "system.capacity.volume",
+                    "converter": "imperialToMetric"
+                }
+            }
         },
         "senses": {
             "path": "system.attributes.senses",
@@ -2107,7 +2212,8 @@
                     "description": "<p>The assassin deals an extra [[/damage average]] damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll.</p>",
                     "activities": {
                         "damage": {
-                            "condition": "once per turn"
+                            "condition": "once per turn",
+                            "activationCondition": "once per turn"
                         }
                     }
                 },
@@ -2274,6 +2380,7 @@
                     "activities": {
                         "save": {
                             "condition": "Upon death",
+                            "activationCondition": "Upon death",
                             "damageOnSave": "half"
                         }
                     }
@@ -4189,10 +4296,12 @@
                     "description": "<p>The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a [[/save]] saving throw or be magically &amp;Reference[charmed].</p><p>The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.The dryad can have no more than one humanoid and up to three beasts charmed at a time.</p>",
                     "activities": {
                         "utility": {
-                            "condition": "one humanoid or beast"
+                            "condition": "one humanoid or beast",
+                            "activationCondition": "one humanoid or beast"
                         },
                         "save": {
                             "condition": "one humanoid or beast",
+                            "activationCondition": "one humanoid or beast",
                             "damageOnSave": "half"
                         }
                     }
@@ -4297,6 +4406,7 @@
                     "activities": {
                         "save": {
                             "condition": "on death",
+                            "activationCondition": "on death",
                             "damageOnSave": "half"
                         }
                     }
@@ -4473,7 +4583,8 @@
                     "description": "<p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one prone creature. <em>Hit:</em><strong> </strong>[[/damage average]] damage.</p>",
                     "activities": {
                         "attack": {
-                            "condition": "one prone creature"
+                            "condition": "one prone creature",
+                            "activationCondition": "one prone creature"
                         }
                     }
                 }
@@ -5694,6 +5805,7 @@
                     "activities": {
                         "save": {
                             "condition": "On hit",
+                            "activationCondition": "On hit",
                             "damageOnSave": "none"
                         }
                     },
@@ -5708,7 +5820,8 @@
                     "description": "<p>The gladiator adds 3 to its AC against one melee Attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.</p>",
                     "activities": {
                         "utility": {
-                            "condition": "when a melee attack would hit this creature"
+                            "condition": "when a melee attack would hit this creature",
+                            "activationCondition": "when a melee attack would hit this creature"
                         }
                     }
                 }
@@ -6663,6 +6776,7 @@
                         "Create Wall": {
                             "name": "Create Wall",
                             "condition": "a solid surface it can see within 60 ft.",
+                            "activationCondition": "a solid surface it can see within 60 ft.",
                             "damageOnSave": "half"
                         },
                         "Pass Through Wall": {
@@ -6696,6 +6810,7 @@
                     "activities": {
                         "save": {
                             "condition": "death",
+                            "activationCondition": "death",
                             "damageOnSave": "half"
                         }
                     }
@@ -7563,6 +7678,7 @@
                     "activities": {
                         "save": {
                             "condition": "death",
+                            "activationCondition": "death",
                             "damageOnSave": "half"
                         }
                     }
@@ -7607,6 +7723,7 @@
                     "activities": {
                         "save": {
                             "condition": "death",
+                            "activationCondition": "death",
                             "damageOnSave": "half"
                         }
                     }
@@ -9610,7 +9727,8 @@
                     "description": "<p>While in dim light or darkness, the shadow can take the Hide action as a bonus action.</p>",
                     "activities": {
                         "utility": {
-                            "condition": "In dim light or darkness"
+                            "condition": "In dim light or darkness",
+                            "activationCondition": "In dim light or darkness"
                         }
                     }
                 },
@@ -10104,6 +10222,7 @@
                     "activities": {
                         "save": {
                             "condition": "on death",
+                            "activationCondition": "on death",
                             "damageOnSave": "none"
                         }
                     }
@@ -10737,7 +10856,8 @@
                     "description": "<p><em>Melee Weapon Attack:</em> [[/attack]], reach 5 ft., one prone creature. Hit: [[/damage average]] damage.</p>",
                     "activities": {
                         "attack": {
-                            "condition": "one prone creature"
+                            "condition": "one prone creature",
+                            "activationCondition": "one prone creature"
                         }
                     }
                 },
@@ -11344,6 +11464,7 @@
                     "activities": {
                         "save": {
                             "condition": "moves 15 feet and hits with a claw attack",
+                            "activationCondition": "moves 15 feet and hits with a claw attack",
                             "damageOnSave": "none"
                         }
                     },
@@ -11486,7 +11607,8 @@
                             "damageOnSave": "half"
                         },
                         "heal": {
-                            "condition": "if the target dies"
+                            "condition": "if the target dies",
+                            "activationCondition": "if the target dies"
                         }
                     }
                 },
@@ -11756,11 +11878,13 @@
                         "Fire Breath": {
                             "name": "Fire Breath",
                             "condition": "Breath weapon must be charged",
+                            "activationCondition": "Breath weapon must be charged",
                             "damageOnSave": "half"
                         },
                         "Sleep Breath": {
                             "name": "Sleep Breath",
                             "condition": "Breath Weapon must be charged",
+                            "activationCondition": "Breath Weapon must be charged",
                             "damageOnSave": "half"
                         }
                     }

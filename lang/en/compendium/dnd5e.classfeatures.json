@@ -20,6 +20,7 @@
             "mapping": {
                 "name": "name",
                 "condition": "activation.condition",
+                "activationCondition": "activation.condition",
                 "activationValue": "activation.value",
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
@@ -279,7 +280,8 @@
             "requirements": "Life Domain 2",
             "activities": {
                 "heal": {
-                    "condition": "The target cannot be Undead or a Construct"
+                    "condition": "The target cannot be Undead or a Construct",
+                    "activationCondition": "The target cannot be Undead or a Construct"
                 }
             }
         },
@@ -305,6 +307,7 @@
             "activities": {
                 "save": {
                     "condition": "Targets must be able to see or hear you.",
+                    "activationCondition": "Targets must be able to see or hear you.",
                     "damageOnSave": "half"
                 }
             }
@@ -320,7 +323,8 @@
             "requirements": "Paladin 14",
             "activities": {
                 "utility": {
-                    "condition": "Target must be willing."
+                    "condition": "Target must be willing.",
+                    "activationCondition": "Target must be willing."
                 }
             }
         },
@@ -335,7 +339,8 @@
             "requirements": "Bard 6",
             "activities": {
                 "utility": {
-                    "condition": "Creatures must be able to hear you to benefit."
+                    "condition": "Creatures must be able to hear you to benefit.",
+                    "activationCondition": "Creatures must be able to hear you to benefit."
                 }
             }
         },
@@ -350,7 +355,8 @@
             "requirements": "College of Lore 3",
             "activities": {
                 "utility": {
-                    "condition": "Target must be able to hear you and not be immune to being Charmed."
+                    "condition": "Target must be able to hear you and not be immune to being Charmed.",
+                    "activationCondition": "Target must be able to hear you and not be immune to being Charmed."
                 }
             }
         },
@@ -410,7 +416,8 @@
             "requirements": "Monk 14",
             "activities": {
                 "utility": {
-                    "condition": "Whenever you make a saving throw and fail"
+                    "condition": "Whenever you make a saving throw and fail",
+                    "activationCondition": "Whenever you make a saving throw and fail"
                 }
             },
             "effects": {
@@ -445,7 +452,8 @@
             "requirements": "Cleric 10",
             "activities": {
                 "utility": {
-                    "condition": "Your need must be great..."
+                    "condition": "Your need must be great...",
+                    "activationCondition": "Your need must be great..."
                 }
             }
         },
@@ -471,6 +479,7 @@
             "activities": {
                 "save": {
                     "condition": "Also requires 5 sorcery points.",
+                    "activationCondition": "Also requires 5 sorcery points.",
                     "damageOnSave": "half"
                 }
             }
@@ -551,7 +560,8 @@
             "requirements": "Draconic Bloodline 6",
             "activities": {
                 "damage": {
-                    "condition": "1 sorcery point is also required if the resistance is desired."
+                    "condition": "1 sorcery point is also required if the resistance is desired.",
+                    "activationCondition": "1 sorcery point is also required if the resistance is desired."
                 }
             }
         },
@@ -581,7 +591,8 @@
             "requirements": "Monk 18",
             "activities": {
                 "utility": {
-                    "condition": "Also requires 4 ki points (or 8 for Astral Projection)."
+                    "condition": "Also requires 4 ki points (or 8 for Astral Projection).",
+                    "activationCondition": "Also requires 4 ki points (or 8 for Astral Projection)."
                 }
             },
             "effects": {
@@ -691,7 +702,8 @@
             "requirements": "Monk 2",
             "activities": {
                 "utility": {
-                    "condition": "Comes immediately after taking the Attack action."
+                    "condition": "Comes immediately after taking the Attack action.",
+                    "activationCondition": "Comes immediately after taking the Attack action."
                 }
             }
         },
@@ -729,7 +741,8 @@
             "requirements": "Warlock 2",
             "activities": {
                 "utility": {
-                    "condition": "Target must be a willing humanoid."
+                    "condition": "Target must be a willing humanoid.",
+                    "activationCondition": "Target must be a willing humanoid."
                 }
             }
         },
@@ -739,7 +752,8 @@
             "requirements": "Hunter 3",
             "activities": {
                 "utility": {
-                    "condition": "Creature must be Large or larger and visible."
+                    "condition": "Creature must be Large or larger and visible.",
+                    "activationCondition": "Creature must be Large or larger and visible."
                 }
             }
         },
@@ -854,11 +868,13 @@
             "requirements": "Paladin 1",
             "activities": {
                 "heal": {
-                    "condition": "Target cannot be Undead or a Construct."
+                    "condition": "Target cannot be Undead or a Construct.",
+                    "activationCondition": "Target cannot be Undead or a Construct."
                 },
                 "Cure Disease and Poison": {
                     "name": "Cure Disease and Poison",
-                    "condition": "Target cannot be Undead or a Construct."
+                    "condition": "Target cannot be Undead or a Construct.",
+                    "activationCondition": "Target cannot be Undead or a Construct."
                 }
             }
         },
@@ -1068,7 +1084,8 @@
             "requirements": "Ranger 3",
             "activities": {
                 "utility": {
-                    "condition": "It also expends a spell slot; the slot level dictates duration."
+                    "condition": "It also expends a spell slot; the slot level dictates duration.",
+                    "activationCondition": "It also expends a spell slot; the slot level dictates duration."
                 }
             }
         },
@@ -1078,7 +1095,8 @@
             "requirements": "Fighter 1, Champion 10, Paladin 2",
             "activities": {
                 "utility": {
-                    "condition": "Must be wearing a shield."
+                    "condition": "Must be wearing a shield.",
+                    "activationCondition": "Must be wearing a shield."
                 }
             }
         },
@@ -1104,6 +1122,7 @@
             "activities": {
                 "save": {
                     "condition": "Only ending the vibrations harmfully requires an action.",
+                    "activationCondition": "Only ending the vibrations harmfully requires an action.",
                     "damageOnSave": "half"
                 }
             }
@@ -1314,7 +1333,8 @@
             "requirements": "Bard 20",
             "activities": {
                 "utility": {
-                    "condition": "When you roll initiative and have no uses of Bardic Inspiration"
+                    "condition": "When you roll initiative and have no uses of Bardic Inspiration",
+                    "activationCondition": "When you roll initiative and have no uses of Bardic Inspiration"
                 }
             }
         },

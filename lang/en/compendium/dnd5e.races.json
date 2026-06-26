@@ -20,6 +20,7 @@
             "mapping": {
                 "name": "name",
                 "condition": "activation.condition",
+                "activationCondition": "activation.condition",
                 "activationValue": "activation.value",
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
@@ -362,7 +363,8 @@
             "requirements": "Half-Orc",
             "activities": {
                 "heal": {
-                    "condition": "When you are reduced to 0 hit points"
+                    "condition": "When you are reduced to 0 hit points",
+                    "activationCondition": "When you are reduced to 0 hit points"
                 }
             }
         },
@@ -420,7 +422,8 @@
             "requirements": "Rock Gnome",
             "activities": {
                 "utility": {
-                    "condition": "Expend 10 gp worth of materials"
+                    "condition": "Expend 10 gp worth of materials",
+                    "activationCondition": "Expend 10 gp worth of materials"
                 }
             }
         },
