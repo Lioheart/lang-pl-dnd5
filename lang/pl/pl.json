@@ -3329,7 +3329,7 @@
     "Ordinal": {
       "one": "{n} Legendarna Akcja",
       "two": "{n} Legendarna Akcja",
-      "few": "{n} Legendarna Akcja",
+      "few": "{n} Legendarnych Akcji",
       "other": "{n} Legendarna Akcja",
       "many": "{n} Legendarna Akcja"
     },
