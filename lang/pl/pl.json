@@ -1918,7 +1918,7 @@
         "one": "komórka {level} poziomu",
         "other": "komórki {level} poziomu",
         "few": "komórki {level} poziomu",
-        "many": "komórki {level} poziomu"
+        "many": "komórek {level} poziomu"
       },
       "SpellSlots": {
         "Label": "Komórki czarów",
