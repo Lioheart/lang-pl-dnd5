@@ -652,7 +652,7 @@
             "label": "SW"
           }
         },
-        "Hint": "Służy do reprezentowania stopnia wyzwania stworzeń wykorzystywanych w zdolnościach takich jak Dzika Postać.",
+        "Hint": "Służy do reprezentowania stopnia wyzwania istot wykorzystywanych w zdolnościach takich jak Dzika Postać.",
         "Label": "Stopień Wyzwania"
       },
       "Dice": {
@@ -1384,7 +1384,7 @@
       "label": "Szczegóły rzucania",
       "ability": {
         "label": "Cecha bazowa rzucania czarów",
-        "hint": "Zastępcza zdolność, zamiast standardowej zdolności rzucania czarów."
+        "hint": "Możliwość nadpisania standardowej Cechy bazowej istoty."
       },
       "challenge": {
         "attack": {
@@ -1702,7 +1702,7 @@
 "DND5E.Concentration": "Koncentracja",
 "DND5E.ConcentrationAbbr": "K",
 "DND5E.ConcentrationBreak": "Przerwij koncentrację",
-"DND5E.ConcentrationBreakWarning": "Przerwanie koncentracji na efekcie, który jest aktywny na innych stworzeniach, wymaga obecności aktywnego MP.",
+"DND5E.ConcentrationBreakWarning": "Przerwanie koncentracji na efekcie, który jest aktywny na innych istotach, wymaga obecności aktywnego MP.",
 "DND5E.ConcentrationBonus": "Premia do testu na koncentrację",
 "DND5E.ConcentrationDuration": "Koncentracja, aż do {duration}",
 "DND5E.ConcentratingOn": "Koncentrujesz się na efektach: \"{name}\" {type}.",
@@ -1715,7 +1715,7 @@
 "DND5E.ConcentratingWarnLimit": "Nie możesz utrzymać koncentracji na większej ilości efektów!",
 "DND5E.ConcentratingWarnLimitOptional": "Aby użyć tego przedmiotu, możesz zakończyć koncentrację na jednym z utrzymywanych efektów.",
 "DND5E.ConcentratingWarnLimitZero": "Nie jesteś w stanie utrzymać koncentracji na żadnych efektach!",
-"DND5E.ConcentrationConfigurationHint": "Skonfiguruj modyfikatory testów koncentracji i premie, które mają zastosowanie u tego stworzenia.",
+"DND5E.ConcentrationConfigurationHint": "Konfiguracja modyfikatorów i premii do testów koncentracji, które mają zastosowanie do tej istoty.",
 "DND5E.ConsumeTitle": "Zużycie zasobów",
 "DND5E.ConsumeAmount": "Zużyta ilość",
 "DND5E.ConsumeHint": {
@@ -1993,13 +1993,13 @@
 "DND5E.CreatureOozePl": "Szlamy",
 "DND5E.CreaturePlant": "Roślina",
 "DND5E.CreaturePlantPl": "Rośliny",
-"DND5E.CreatureType": "Rodzaj stworzenia",
-"DND5E.CreatureTypeTitle": "Skonfiguruj typ stworzenia",
+"DND5E.CreatureType": "Rodzaj istoty",
+"DND5E.CreatureTypeTitle": "Skonfiguruj typ istoty",
 "DND5E.CreatureSwarm": "Rój",
 "DND5E.CreatureSwarmSize": "Rozmiar roju",
 "DND5E.CreatureSwarmPhrase": "Rój {size} {type}",
 "DND5E.CreatureTag": "{size} {type}, {alignment}",
-"DND5E.CreatureTypeConfig": "Skonfiguruj typ stworzenia",
+"DND5E.CreatureTypeConfig": "Skonfiguruj typ istoty",
 "DND5E.CreatureTypeSelectorCustom": "Niestandardowy rodzaj",
 "DND5E.CreatureTypeSelectorSubtype": "Podtyp",
 "DND5E.CreatureUndead": "Nieumarły",
@@ -2047,7 +2047,7 @@
       "critical": {
         "allow": {
           "label": "Zezwalaj na krytyczne",
-          "hint": "Czy stworzenie powinno być w stanie zadawać krytyczne obrażenia?"
+          "hint": "Czy istota powinna być w stanie zadawać krytyczne obrażenia?"
         },
         "bonus": {
           "label": "Dodatkowe obrażenia trafienia krytycznego",
@@ -2107,7 +2107,7 @@
       }
     }
   },
-  "Hint": "Zadaj obrażenia stworzeniu bez wykonywania ataku czy rzutu obronnego.",
+  "Hint": "Zadaj obrażenia istocie bez wykonywania ataku czy rzutu obronnego.",
   "Part": {
     "Action": {
       "Create": "Stwórz składnik obrażeń",
@@ -2232,7 +2232,7 @@
       "label": "Czas trwania",
       "concentration": {
         "label": "Koncentracja",
-        "hint": "Stworzenie musi utrzymać koncentrację, by efekt był aktywny."
+        "hint": "Istota musi utrzymać koncentrację, by efekt był aktywny."
       },
       "override": {
         "label": "Nadpisz czas trwania",
@@ -2306,7 +2306,7 @@
         },
         "item": {
           "label": "Dodatkowe przedmioty",
-          "hint": "Te dodatkowe przedmioty zostaną dodane do ekwipunku stworzenia, gdy jeden z jego przedmiotów zostanie zaklęty. Zostaną usunięte, jeśli zaklęcie zostanie usunięte."
+          "hint": "Te dodatkowe przedmioty zostaną dodane do ekwipunku istoty, gdy jeden z jej przedmiotów zostanie zaklęty. Zostaną usunięte, jeśli zaklęcie zostanie usunięte."
         }
       }
     },
@@ -2416,7 +2416,7 @@
 
 "DND5E.ENCOUNTER": {
   "Action": {
-    "AddCreature": "Dodaj stworzenie",
+    "AddCreature": "Dodaj istotę",
     "Award": "Przyznaj PD i monety"
   },
   "Difficulty": {
@@ -2902,7 +2902,7 @@
 "DND5E.FlagsHalflingLucky": "Szczęście nizołka",
 "DND5E.FlagsHalflingLuckyHint": "Możesz przerzucić jedynki, kiedy wykonujesz test k20.",
 "DND5E.FlagsHalflingNimbleness": "Zwinność niziołka",
-"DND5E.FlagsHalflingNimblenessHint": "Ruch przez pola zajmowane przez stworzenia większego rozmiaru nie jest blokowany.",
+"DND5E.FlagsHalflingNimblenessHint": "Ruch przez większe istoty nie jest blokowany.",
 "DND5E.FlagsAlert": "Atut: Czujny",
 "DND5E.FlagsAlertHint": "Biegłość w rzutach na inicjatywę.",
 "DND5E.FlagsAlertHintLegacy": "Zapewnia +5 do Inicjatywy.",
@@ -3075,7 +3075,7 @@
   },
   "HealingButton": "Leczenie",
   "HealingRoll": "Rzut na leczenie",
-  "Hint": "Ulecz stworzenie",
+  "Hint": "Ulecz istotę",
   "Title": "Leczenie",
   "Type": {
     "Healing": "Punkty wytrzymałości",
@@ -4301,15 +4301,15 @@
     "bonuses": {
       "ac": {
         "label": "Premia do Klasy Pancerza",
-        "hint": "Premia do KP przywołanego stworzenia, dodana do tego, co jest określone w jej statystykach."
+        "hint": "Premia do KP przywołanej istoty, dodana do tego, co jest określone w jej statystykach."
       },
       "attackDamage": {
         "label": "Premia do obrażeń z ataku",
-        "hint": "Dodatkowe obrażenia wyrządzone przez ataki stworzenia."
+        "hint": "Dodatkowe obrażenia zadawane przez ataki tej istoty."
       },
       "hd": {
         "label": "Bonusowe Kości Wytrzymałości",
-        "hint": "Dodatkowe Kości wytrzymałości dodane ponad te pochodzące ze wzoru rzutu na HP w statystykach stworzenia. Mogą być używane tylko podczas przywoływania aktorów NPC."
+        "hint": "Dodatkowe Kości wytrzymałości dodane ponad te pochodzące ze wzoru rzutu na HP w statystykach istoty. Mogą być używane tylko podczas przywoływania aktorów NPC."
       },
       "healing": {
         "label": "Premia do leczenia",
@@ -4317,20 +4317,20 @@
       },
       "hp": {
         "label": "Premia do Punktów wytrzymałości",
-        "hint": "Dodatkowe Punkty wytrzymałości dodane stworzeniu ponad te określone w statystykach."
+        "hint": "Dodatkowe Punkty Wytrzymałości dodawane istocie ponad to, co określono w jej bloku statystyk."
       },
       "saveDamage": {
         "label": "Premia do obrażeń wymagających rzutu obronnego",
-        "hint": "Dodatkowe obrażenia zadawane przez umiejętności stworzenia, które wymagają rzutów obronnych."
+        "hint": "Dodatkowe obrażenia zadawane przez zdolności tej istoty, które wymagają rzutów obronnych."
       }
     },
     "creatureSizes": {
-      "label": "Rozmiary stworzeń",
-      "hint": "Przywołane stworzenie i token zostaną zmienione na ten rozmiar. Jeśli wybrano więcej niż jeden rozmiar, gracz będzie mógł wybrać jeden podczas przywoływania."
+      "label": "Rozmiary istot",
+      "hint": "Przywołana istota i token zostaną zmienione na ten rozmiar. Jeśli wybrano więcej niż jeden rozmiar, gracz będzie mógł wybrać jeden podczas przywoływania."
     },
     "creatureTypes": {
-      "label": "Rodzaje stworzeń",
-      "hint": "Przywołane stworzenie zostanie zmienione w ten rodzaj. Jeśli wybrano więcej niż jeden rodzaj, gracz będzie mógł wybrać jeden podczas przywoływania."
+      "label": "Rodzaje istot",
+      "hint": "Przywołana istota zostanie zmieniona w ten rodzaj. Jeśli wybrano więcej niż jeden rodzaj, gracz będzie mógł wybrać jeden podczas przywoływania."
     },
     "match": {
       "ability": {
@@ -4339,19 +4339,19 @@
       },
       "attacks": {
         "label": "Dopasuj ataki",
-        "hint": "Zmodyfikuj wartości trafień w atakach przywołanego stworzenia, aby odpowiadały wartościom przywołującego."
+        "hint": "Zmodyfikuj wartości trafień w atakach przywołanej istoty, aby odpowiadały wartościom przywołującego."
       },
       "disposition": {
         "label": "Dopasuj usposobienie",
-        "hint": "Zmodyfikuj usposobienie przywołanego stworzenia, aby odpowiadały usposobieniu przywołującego."
+        "hint": "Zmodyfikuj usposobienie przywołanej istoty, aby odpowiadały usposobieniu przywołującego."
       },
       "proficiency": {
         "label": "Dopasuj biegłość",
-        "hint": "Zmodyfikuj biegłości przywołanego stworzenia, aby odpowiadały biegłościom przywołującego."
+        "hint": "Zmodyfikuj biegłości przywołanej istoty, aby odpowiadały biegłościom przywołującego."
       },
       "saves": {
         "label": "Dopasuj rzuty obronne",
-        "hint": "Zmodyfikuj wartości rzutów obronnych przywołanego stworzenia, aby odpowiadały wartościom przywołującego."
+        "hint": "Zmodyfikuj wartości rzutów obronnych przywołanej istoty, aby odpowiadały wartościom przywołującego."
       }
     },
     "profiles": {
@@ -4379,11 +4379,11 @@
           "hint": "Nazwa profilu wyświetlana w oknie dialogowym."
         },
         "types": {
-          "label": "Rodzaje stworzeń",
-          "hint": "Lista rodzajów stworzeń, z których można wybrać przywołane stworzenie."
+          "label": "Rodzaje istot",
+          "hint": "Lista rodzajów istot, z których można wybrać przywołaną istotę."
         },
         "uuid": {
-          "label": "Powiązane stworzenie"
+          "label": "Powiązana istota"
         }
       },
       "label": "Profile przywoływań"
@@ -4396,7 +4396,7 @@
       },
       "mode": {
         "label": "Tryb",
-        "hint": "Określa, w jaki sposób określane są stworzenia, które mają zostać wezwane.",
+        "hint": "Określa, w jaki sposób określane są istoty, które mają zostać wezwane.",
         "CR": "Według stopnia wyzwania i rodzaju stworzenia",
         "Direct": "Według bezpośredniego odnośnika"
       },
@@ -4416,10 +4416,10 @@
     "View": "Podgląd przywołania"
   },
   "CreatureChanges": {
-    "Label": "Zmiany w stworzeniu",
-    "Hint": "Zmiany, które zostaną wprowadzone w przywołanym stworzeniu. Wszelkie odnośniki @ użyte w poniższych wzorach będą oparte na statystykach osoby przywołującej. Do statystyk przywołanych stworzeń można odwoływać się za pomocą @summon (np. @summon.attributes.hd.max, aby odwołać się do liczby Kości Wytrzymałości stworzenia)."
+    "Label": "Zmiany w istocie",
+    "Hint": "Zmiany, które zostaną wprowadzone w przywołanej istocie. Wszelkie odnośniki @ użyte w poniższych wzorach będą oparte na statystykach osoby przywołującej. Do statystyk przywołanych istot można odwoływać się za pomocą @summon (np. @summon.attributes.hd.max, aby odwołać się do liczby Kości Wytrzymałości istoty)."
   },
-  "Hint": "Przywołaj nowe stworzenie do sceny.",
+  "Hint": "Przywołaj nową istotę do sceny.",
   "ItemChanges": {
     "Label": "Zmiany w przedmiotach",
     "Hint": "Zmiany wprowadzone do wyposażenia przywołanej istoty."
@@ -4431,9 +4431,9 @@
       "Delete": "Usuń profil"
     },
     "ChallengeRatingLabel": "Stopień wyzwania {cr} lub niższy",
-    "DropHint": "Upuść stworzenie tutaj",
+    "DropHint": "Upuść istotę tutaj",
     "Empty": "Kliknij przycisk <i class=\"fas fa-plus\"></i> powyżej aby stworzyć profil.",
-    "EmptyDrop": "Kliknij przycisk <i class=\"fas fa-plus\"></i> powyżej, aby dodać profil lub upuść stworzenie, aby je przywołać."
+    "EmptyDrop": "Kliknij przycisk <i class=\"fas fa-plus\"></i> powyżej, aby dodać profil lub upuść istotę, aby ją przywołać."
   },
   "SECTIONS": {
     "Changes": "Zmiany",
@@ -4444,7 +4444,7 @@
   "Warning": {
     "NoOwnership": "Musisz mieć własność '{actor}', aby go przywołać.",
     "NoProfile": "Nie można znaleźć profilu przywołania {profileId} w '{item}'.",
-    "Wildcard": "Musisz mieć uprawnienia \"Użyj przeglądarki plików\", aby przywoływać stworzenia ze zmiennymi grafikami."
+    "Wildcard": "Musisz mieć uprawnienia \"Użyj przeglądarki plików\", aby przywoływać istoty ze zmiennymi grafikami."
   }
 },
 
@@ -4481,7 +4481,7 @@
         },
         "type": {
           "label": "Typ celu",
-          "hint": "Rodzaj celów, które mogą zostać objęte (np. stworzenia, przedmioty, pola)."
+          "hint": "Rodzaj celów, które mogą zostać objęte (np. istoty, przedmioty, pola)."
         }
       },
       "override": {
@@ -4563,23 +4563,23 @@
       }
     },
     "Creature": {
-      "Label": "Stworzenie",
+      "Label": "Istota",
       "Counted": {
-        "any": "dowolne stworzenia",
-        "each": "każde stworzenie",
-        "every": "wszystkie stworzenia",
-        "one": "{number} stworzenie",
-        "other": "{number} stworzenia"
+        "any": "dowolne istoty",
+        "each": "każda istota",
+        "every": "wszystkie istoty",
+        "one": "{number} istota",
+        "other": "{number} istoty"
       }
     },
     "CreatureOrObject": {
-      "Label": "Stworzenie lub obiekt",
+      "Label": "Istota lub obiekt",
       "Counted": {
-        "any": "dowolne stworzenia lub obiekty",
-        "each": "każde stworzenie lub obiekt",
-        "every": "wszystkie stworzenia lub obiekty",
-        "one": "{number} stworzenie lub obiekt",
-        "other": "{number} stworzeń lub obiektów"
+        "any": "dowolne istoty lub obiekty",
+        "each": "każda istota lub obiekt",
+        "every": "wszystkie istoty lub obiekty",
+        "one": "{number} istota lub obiekt",
+        "other": "{number} istoty lub obiektów"
       }
     },
     "Cube": {
@@ -4865,11 +4865,11 @@
         },
         "sizes": {
           "hint": "Lista rozmiarów stworzeń, z których można wybrać istotę źródłową.",
-          "label": "Rozmiary stworzeń"
+          "label": "Rozmiary istot"
         },
         "types": {
           "hint": "Lista rodzajów stworzeń, z których można wybrać istotę źródłową.",
-          "label": "Rodzaje stworzeń"
+          "label": "Rodzaje istot"
         },
         "uuid": {
           "label": "Powiązany Aktor"
@@ -4918,7 +4918,7 @@
       "Delete": "Usuń profil"
     },
     "ChallengeRatingLabel": "Stopień wyzwania {cr} lub niższy",
-    "DropHint": "Upuść stworzenie tutaj",
+    "DropHint": "Upuść istotę tutaj",
     "Empty": "Kliknij przycisk <i class=\"fas fa-plus\"></i> powyżej aby stworzyć profil.",
     "Label": "Profil przemiany"
   },
@@ -4970,7 +4970,7 @@
         "label": "Scal"
       },
       "minimumAC": {
-        "hint": "Wzór określający Klasę Pancerza dla przekształconego stworzenia, jeśli KP Aktora docelowego nie jest już wyższa.",
+        "hint": "Wzór określający Klasę Pancerza przekształconej istoty, jeśli KP docelowej istoty nie jest już wyższa.",
         "label": "Minimalna Klasa Pancerza"
       },
       "other": {
@@ -4993,7 +4993,7 @@
         "Label": "Biografia"
       },
       "CreatureType": {
-        "Label": "Rodzaj stworzenia"
+        "Label": "Rodzaj istoty"
       },
       "Equipment": {
         "Label": "Wyposażenie"
@@ -5881,7 +5881,7 @@
     },
     "InitiativeScore": {
       "Name": "Wartość Inicjatywy",
-      "Hint": "Użyj wartości Inicjatywy stworzenia (10 + premia), a nie rzutu na Inicjatywę.",
+      "Hint": "Użyj wartości Inicjatywy istoty (10 + premia), a nie rzutu na Inicjatywę.",
       "All": "Użyj wartości dla wszystkich",
       "None": "Zawsze rzucaj na Inicjatywę",
       "NPCs": "Użyj wartości dla BNów Mistrza Podziemi"
