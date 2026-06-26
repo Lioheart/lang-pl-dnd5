@@ -4631,7 +4631,7 @@
           "other": "{number} sfer",
           "oneSized": "Sfera {sizes}",
           "otherSized": "{number} sfer {sizes}",
-          "few": "{number} sfer",
+          "few": "{number} sfery",
           "many": "{number} sfer"
         }
       },
