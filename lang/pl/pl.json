@@ -4527,7 +4527,7 @@
           "one": "{number} istota lub obiekt",
           "other": "{number} istoty lub obiektów",
           "few": "{number} istoty lub obiektów",
-          "many": "{number} istoty lub obiektów"
+          "many": "{number} istot lub obiektów"
         }
       },
       "Cube": {
