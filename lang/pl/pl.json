@@ -4526,7 +4526,7 @@
           "every": "wszystkie istoty lub obiekty",
           "one": "{number} istota lub obiekt",
           "other": "{number} istoty lub obiektów",
-          "few": "{number} istoty lub obiektów",
+          "few": "{number} istoty lub obiekty",
           "many": "{number} istot lub obiektów"
         }
       },
