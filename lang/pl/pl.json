@@ -201,7 +201,7 @@
         "Counted": {
           "one": "{number} akcja załogi",
           "other": "{number} akcji załogi",
-          "few": "{number} akcji załogi",
+          "few": "{number} akcje załogi",
           "many": "{number} akcji załogi"
         },
         "Header": "Akcje załogi",
