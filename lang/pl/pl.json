@@ -5132,7 +5132,7 @@
           "narrow": "{number} r",
           "one": "{number} runda",
           "other": "{number} rund",
-          "few": "{number} rund",
+          "few": "{number} rundy",
           "many": "{number} rund"
         }
       },
@@ -5146,7 +5146,7 @@
           "narrow": "{number} t",
           "one": "{number} tura",
           "other": "{number} tur",
-          "few": "{number} tur",
+          "few": "{number} tury",
           "many": "{number} tur"
         }
       },
