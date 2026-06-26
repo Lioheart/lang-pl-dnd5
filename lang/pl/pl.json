@@ -5414,7 +5414,7 @@
       "Ordinal": {
         "one": "{n} Akcja",
         "two": "{n} Akcja",
-        "few": "{n} Akcja",
+        "few": "{n} Akcje",
         "other": "{n} Akcja",
         "many": "{n} Akcja"
       }
