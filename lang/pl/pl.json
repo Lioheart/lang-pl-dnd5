@@ -4594,7 +4594,7 @@
           "every": "wszystkie obiekty",
           "one": "{number} obiekt",
           "other": "{number} obiektów",
-          "few": "{number} obiektów",
+          "few": "{number} obiekty",
           "many": "{number} obiektów"
         }
       },
