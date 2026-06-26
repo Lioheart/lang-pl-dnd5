@@ -4502,7 +4502,7 @@
           "other": "{number} stożków",
           "oneSized": "Stożek {sizes}",
           "otherSized": "{Number} stożków {sizes}",
-          "few": "{number} stożków",
+          "few": "{number} stożki",
           "many": "{number} stożków"
         }
       },
@@ -4515,7 +4515,7 @@
           "one": "{number} istota",
           "other": "{number} istoty",
           "few": "{number} istoty",
-          "many": "{number} istoty"
+          "many": "{number} istot"
         }
       },
       "CreatureOrObject": {
