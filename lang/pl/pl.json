@@ -1609,7 +1609,7 @@
           "one": "dokument",
           "other": "dokumenty",
           "few": "dokumenty",
-          "many": "dokumenty"
+          "many": "dokumentów"
         },
         "Max": "Należy wybrać najwyżej {max} {document}, {value} wybranych.",
         "Min": "Należy wybrać co najmniej {min} {document}, {value} wybranych.",
