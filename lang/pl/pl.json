@@ -4537,7 +4537,7 @@
           "other": "{number} sześcianów",
           "oneSized": "Sześcian {sizes}",
           "otherSized": "{number} sześcianów {sizes}",
-          "few": "{number} sześcianów",
+          "few": "{number} sześciany",
           "many": "{number} sześcianów"
         }
       },
@@ -4548,7 +4548,7 @@
           "other": "{number} walców",
           "oneSized": "Walec {sizes}",
           "otherSized": "{number} walców {sizes}",
-          "few": "{number} walców",
+          "few": "{number} walce",
           "many": "{number} walców"
         }
       },
