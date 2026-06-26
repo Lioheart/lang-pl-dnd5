@@ -3347,7 +3347,7 @@
     "Ordinal": {
       "one": "{n} Legendarna Odporność",
       "two": "{n} Legendarna Odporność",
-      "few": "{n} Legendarna Odporność",
+      "few": "{n} Legendarnych Odporności",
       "other": "{n} Legendarna Odporność",
       "many": "{n} Legendarna Odporność"
     },
