@@ -4666,7 +4666,7 @@
           "every": "wszystkie cele",
           "one": "{number} cel",
           "other": "{number} celów",
-          "few": "{number} celów",
+          "few": "{number} cele",
           "many": "{number} celów"
         }
       },
