@@ -3382,7 +3382,7 @@
   "Ordinal": {
     "one": "{n} Legendarna Odporność",
     "two": "{n} Legendarna Odporność",
-    "few": "{n} Legendarna Odporność",
+    "few": "{n} Legendarnych Odporności",
     "other": "{n} Legendarna Odporność"
   },
   "Remaining": "Pozostałe Legendarne Odporności",
@@ -4239,7 +4239,7 @@
 "DND5E.SpellSlotExpended": "Wydana komórka czarów",
 "DND5E.SpellSlotN.one": "{n} komórka czarów",
 "DND5E.SpellSlotN.two": "{n} komórka czarów",
-"DND5E.SpellSlotN.few": "{n} komórka czarów",
+"DND5E.SpellSlotN.few": "{n} komórek czarów",
 "DND5E.SpellSlotN.other": "{n} komórka czarów",
 "DND5E.SpellSlotTemporary": "Tymczasowa komórka czarów",
 "DND5E.SpellSlotsN.one": "Komórki {n}. kręgu",
