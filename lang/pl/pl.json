@@ -4689,7 +4689,7 @@
           "every": "wszystkie przychylne istoty",
           "one": "{number} przychylna istota",
           "other": "{number} przychylnych istot",
-          "few": "{number} przychylnych istot",
+          "few": "{number} przychylne istoty",
           "many": "{number} przychylnych istot"
         }
       }
