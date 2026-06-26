@@ -30,7 +30,9 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "verified": "5.3.3"
+        }
       }
     ],
     "requires": [
