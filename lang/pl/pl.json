@@ -4491,7 +4491,7 @@
           "other": "{number} okręgów",
           "oneSized": "Okrąg {sizes}",
           "otherSized": "{number} okręgów {sizes}",
-          "few": "{number} okręgów",
+          "few": "{number} okręgi",
           "many": "{number} okręgów"
         }
       },
