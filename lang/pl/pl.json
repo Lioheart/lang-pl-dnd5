@@ -2942,7 +2942,7 @@
     "Member": {
       "one": "Członek",
       "other": "Członkowie",
-      "few": "Członkowie",
+      "few": "Członków",
       "many": "Członkowie"
     },
     "PlaceMembers": "Umieść członków",
