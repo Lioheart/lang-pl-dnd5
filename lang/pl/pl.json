@@ -5226,7 +5226,7 @@
           "long": {
             "one": "{number} tona",
             "other": "{number} ton",
-            "few": "{number} ton",
+            "few": "{number} tony",
             "many": "{number} ton"
           }
         }
@@ -5254,7 +5254,7 @@
           "long": {
             "one": "{number} tona",
             "other": "{number} ton",
-            "few": "{number} ton",
+            "few": "{number} tony",
             "many": "{number} ton"
           }
         }
