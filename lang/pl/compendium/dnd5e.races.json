@@ -20,10 +20,12 @@
             "mapping": {
                 "name": "name",
                 "condition": "activation.condition",
+                "activationCondition": "activation.condition",
                 "activationValue": "activation.value",
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
                 "roll": "roll.name",
+                "damageOnSave": "damage.onSave",
                 "range": {
                     "path": "range",
                     "converter": "imperialToMetric"
@@ -115,52 +117,102 @@
         "Breath Weapon - Black": {
             "name": "Zionięcie - czarny smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Czarny drakon"
+            "requirements": "Czarny drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Breath Weapon - Blue": {
             "name": "Zionięcie - niebieski smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Niebieski drakon"
+            "requirements": "Niebieski drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Breath Weapon - Brass": {
             "name": "Zionięcie - mosiężny smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Mosiężny drakon"
+            "requirements": "Mosiężny drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Breath Weapon - Bronze": {
             "name": "Zionięcie - spiżowy smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Spiżowy drakon"
+            "requirements": "Spiżowy drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Breath Weapon - Copper": {
             "name": "Zionięcie - miedziany smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Miedziany drakon"
+            "requirements": "Miedziany drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Breath Weapon - Gold": {
             "name": "Zionięcie - złoty smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Złoty drakon"
+            "requirements": "Złoty drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Breath Weapon - Green": {
             "name": "Zionięcie - zielony smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od trucizny. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Zielony drakon"
+            "requirements": "Zielony drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Breath Weapon - Red": {
             "name": "Zionięcie - czerwony smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Zręczność. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Czerwony drakon"
+            "requirements": "Czerwony drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Breath Weapon - Silver": {
             "name": "Zionięcie - srebrny smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Srebrny drakon"
+            "requirements": "Srebrny drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Breath Weapon - White": {
             "name": "Zionięcie - biały smok",
             "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-            "requirements": "Biały drakon"
+            "requirements": "Biały drakon",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Dragonborn": {
             "name": "Drakon",
@@ -311,7 +363,8 @@
             "requirements": "Półork",
             "activities": {
                 "heal": {
-                    "condition": "Kiedy twoje PW spadną do 0"
+                    "condition": "Kiedy twoje PW spadną do 0",
+                    "activationCondition": "Kiedy twoje PW spadną do 0"
                 }
             }
         },
@@ -369,7 +422,8 @@
             "requirements": "Gnom skalny",
             "activities": {
                 "utility": {
-                    "condition": "Zużyj materiały o wartości 10 sz"
+                    "condition": "Zużyj materiały o wartości 10 sz",
+                    "activationCondition": "Zużyj materiały o wartości 10 sz"
                 }
             }
         },
