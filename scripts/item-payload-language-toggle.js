@@ -1,21 +1,16 @@
 // Przycisk przełączający przedmiot między wersją PL i EN.
 //
-// Ten wariant nie podmienia wyłącznie opisu. Stosuje cały payload Babele,
-// czyli wszystkie pola obecne w flags.babele.originalPayload, o ile dla danego
-// pola istnieje mapowanie Babele albo lokalny fallback mapowania.
-//
-// Wyjątek:
-//   pola "name" są celowo pomijane na każdym poziomie payloadu.
-//   Nazwa przedmiotu, aktywności itd. pozostaje zawsze taka sama.
+// Cel:
+//   - stosować cały flags.babele.originalPayload,
+//   - pomijać wyłącznie główne pole flags.babele.originalPayload.name,
+//   - nie pomijać zagnieżdżonych pól name, np. nazw aktywności i efektów,
+//   - używać mapowania Babele, a gdy nie jest dostępne — lokalnego fallbacku
+//     zgodnego z mapowaniem generowanym przez lang-pl-dnd5.
 //
 // Sugerowana nazwa pliku:
 //   scripts/item-payload-language-toggle.js
 
 Hooks.once("ready", injectItemPayloadLanguageToggle);
-
-const SKIPPED_PAYLOAD_KEYS = new Set([
-  "name"
-]);
 
 const TRANSLATION_FILE_CACHE = new Map();
 
@@ -28,12 +23,13 @@ const TRANSLATION_MODULES_BY_PACKAGE = {
 
 const FALLBACK_ITEM_MAPPING = {
   description: "system.description.value",
-  chat: "system.description.chat",
-  materials: "system.materials.value",
   requirements: "system.requirements",
+  materials: "system.materials.value",
+  chat: "system.description.chat",
   activation: "system.activation.condition",
   activationValue: "system.activation.value",
   unidentified: "system.unidentified.description",
+
   activities: {
     path: "system.activities",
     converter: "structured",
@@ -64,17 +60,28 @@ const FALLBACK_ITEM_MAPPING = {
       }
     }
   },
+
   effects: {
     path: "effects",
-    converter: "effects",
+    converter: "document",
+    documentType: "ActiveEffect",
     cardinality: "many",
     keys: ["_id", "name", "label"],
     mapping: {
       name: "name",
       label: "label",
-      description: "description"
+      description: "description",
+      changes: {
+        path: "changes",
+        converter: "structured",
+        cardinality: "many",
+        container: "array",
+        key: "key",
+        valuePath: "value"
+      }
     }
   },
+
   advancement: {
     path: "system.advancement",
     converter: "structured",
@@ -102,6 +109,7 @@ const FALLBACK_ITEM_MAPPING = {
       ]
     }
   },
+
   movement: {
     path: "system.movement",
     converter: "imperialToMetric"
@@ -166,10 +174,6 @@ function injectItemPayloadLanguageToggle() {
   });
 }
 
-function shouldSkipPayloadKey(payloadKey) {
-  return SKIPPED_PAYLOAD_KEYS.has(payloadKey);
-}
-
 function getDocumentData(document) {
   if (document?.toObject instanceof Function) return document.toObject();
   if (document?.toJSON instanceof Function) return document.toJSON();
@@ -189,7 +193,16 @@ function getProperty(source, path) {
 
 function setUpdate(updateData, path, value) {
   if (!path) return;
-  updateData[path] = value;
+  updateData[path] = clonePlain(value);
+}
+
+function clonePlain(value) {
+  if (value === undefined) return undefined;
+  return foundry.utils.deepClone(value);
+}
+
+function isPlainObject(value) {
+  return value && typeof value === "object" && !Array.isArray(value);
 }
 
 function getItemSourceId(item, document) {
@@ -218,9 +231,9 @@ function translationLookupKeys(item, sourceId) {
   const sourceItemId = sourceId?.split(".").pop();
 
   return [
+    item._id,
     originalName,
     originalPayload?.name,
-    item._id,
     sourceItemId,
     item.name
   ].filter((value, index, array) => (
@@ -309,11 +322,6 @@ function getMappingFromBabele(item) {
   }
 }
 
-function clonePlain(value) {
-  if (value === undefined) return undefined;
-  return foundry.utils.deepClone(value);
-}
-
 function normalizeMappingEntry(mappingEntry) {
   if (typeof mappingEntry === "string") {
     return { path: mappingEntry };
@@ -324,6 +332,24 @@ function normalizeMappingEntry(mappingEntry) {
   }
 
   return null;
+}
+
+function mergeMappings(...mappings) {
+  const result = {};
+
+  for (const mapping of mappings) {
+    if (!mapping || typeof mapping !== "object") continue;
+
+    for (const [key, value] of Object.entries(mapping)) {
+      if (isPlainObject(result[key]) && isPlainObject(value)) {
+        result[key] = mergeMappings(result[key], value);
+      } else {
+        result[key] = clonePlain(value);
+      }
+    }
+  }
+
+  return result;
 }
 
 function conditionMatches(condition, sourceObject) {
@@ -378,16 +404,19 @@ function effectiveMapping(mapping, sourceObject) {
   return result;
 }
 
+function isRootOriginalPayloadName(basePath, payloadKey) {
+  return !basePath && payloadKey === "name";
+}
+
 function recordMatchesKey(record, payloadKey, payloadValue, keys) {
   if (!record || typeof record !== "object") return false;
 
   const candidateKeys = Array.isArray(keys) && keys.length
   ? keys
-  : ["_id", "id", "name", "title", "label", "type"];
+  : ["_id", "id", "name", "label", "title", "type"];
 
-  for (const key of candidateKeys) {
-    const value = getProperty(record, key);
-    if (typeof value === "string" && value === payloadKey) return true;
+  if (candidateKeys.some(key => getProperty(record, key) === payloadKey)) {
+    return true;
   }
 
   if (payloadValue && typeof payloadValue === "object") {
@@ -396,8 +425,9 @@ function recordMatchesKey(record, payloadKey, payloadValue, keys) {
       if (typeof payloadCandidate !== "string") continue;
 
       for (const recordKey of candidateKeys) {
-        const recordCandidate = getProperty(record, recordKey);
-        if (recordCandidate === payloadCandidate) return true;
+        if (getProperty(record, recordKey) === payloadCandidate) {
+          return true;
+        }
       }
     }
   }
@@ -449,16 +479,26 @@ function findCollectionEntryPath(documentData, collectionPath, payloadKey, paylo
   return null;
 }
 
+function applyScalarEntryPayload(updateData, matchPath, payloadValue, mappingEntry) {
+  const valuePath = mappingEntry.valuePath ?? "value";
+  setUpdate(updateData, joinPath(matchPath, valuePath), payloadValue);
+}
+
 function applyCollectionPayload(updateData, documentData, basePath, payload, mappingEntry, fallbackIndexBase = 0) {
   if (!payload || typeof payload !== "object") return;
 
   const collectionPath = joinPath(basePath, mappingEntry.path);
   const nestedMapping = mappingEntry.mapping;
-  const keys = mappingEntry.keys;
+  const keys = mappingEntry.keys ?? (mappingEntry.key ? [mappingEntry.key] : undefined);
+  const isArrayPayload = Array.isArray(payload);
+  const entries = isArrayPayload ? payload.entries() : Object.entries(payload);
 
   let index = 0;
 
-  for (const [payloadKey, payloadValue] of Object.entries(payload)) {
+  for (const [payloadKeyRaw, payloadValue] of entries) {
+    if (payloadKeyRaw === "$sort") continue;
+
+    const payloadKey = String(payloadKeyRaw);
     const match = findCollectionEntryPath(
       documentData,
       collectionPath,
@@ -471,6 +511,11 @@ function applyCollectionPayload(updateData, documentData, basePath, payload, map
     index += 1;
 
     if (!match) continue;
+
+    if (mappingEntry.valuePath && !isPlainObject(payloadValue)) {
+      applyScalarEntryPayload(updateData, match.path, payloadValue, mappingEntry);
+      continue;
+    }
 
     if (nestedMapping && payloadValue && typeof payloadValue === "object") {
       applyPayloadToUpdateData(
@@ -487,33 +532,25 @@ function applyCollectionPayload(updateData, documentData, basePath, payload, map
   }
 }
 
-function applyEffectsPayload(updateData, documentData, basePath, payload, mappingEntry) {
+function applyNameCollectionPayload(updateData, documentData, basePath, payload, mappingEntry) {
   const mappingWithDefault = {
     ...mappingEntry,
     mapping: mappingEntry.mapping ?? {
       name: "name",
       label: "label",
-      description: "description"
+      title: "title",
+      text: "text"
     }
   };
 
   applyCollectionPayload(updateData, documentData, basePath, payload, mappingWithDefault);
 }
 
-function applyNameCollectionPayload(updateData, documentData, basePath, payload, mappingEntry) {
-  const collectionPath = joinPath(basePath, mappingEntry.path);
-
-  if (!payload || typeof payload !== "object") {
-    setUpdate(updateData, collectionPath, payload);
-    return;
-  }
-
+function applyTextCollectionPayload(updateData, documentData, basePath, payload, mappingEntry) {
   const mappingWithDefault = {
     ...mappingEntry,
     mapping: mappingEntry.mapping ?? {
-      name: "name",
-      label: "label",
-      title: "title"
+      text: "text"
     }
   };
 
@@ -526,15 +563,15 @@ function applyPayloadToUpdateData(updateData, documentData, payload, mapping, ba
   const activeMapping = effectiveMapping(mapping, sourceObject);
 
   for (const [payloadKey, payloadValue] of Object.entries(payload)) {
-    if (shouldSkipPayloadKey(payloadKey)) {
-      console.debug(`Pominięto pole originalPayload.${payloadKey}; nazwy nie są przełączane.`);
+    if (isRootOriginalPayloadName(basePath, payloadKey)) {
+      console.debug("Pominięto flags.babele.originalPayload.name; nazwa przedmiotu nie jest przełączana.");
       continue;
     }
 
     const mappingEntry = normalizeMappingEntry(activeMapping[payloadKey]);
 
     if (!mappingEntry) {
-      console.debug(`Brak mapowania Babele dla pola originalPayload.${payloadKey}.`);
+      console.debug(`Brak mapowania Babele dla pola originalPayload${basePath ? "." + basePath : ""}.${payloadKey}.`);
       continue;
     }
 
@@ -545,13 +582,13 @@ function applyPayloadToUpdateData(updateData, documentData, payload, mapping, ba
       continue;
     }
 
-    if (mappingEntry.converter === "effects") {
-      applyEffectsPayload(updateData, documentData, basePath, payloadValue, mappingEntry);
+    if (mappingEntry.converter === "nameCollection") {
+      applyNameCollectionPayload(updateData, documentData, basePath, payloadValue, mappingEntry);
       continue;
     }
 
-    if (mappingEntry.converter === "nameCollection") {
-      applyNameCollectionPayload(updateData, documentData, basePath, payloadValue, mappingEntry);
+    if (mappingEntry.converter === "textCollection") {
+      applyTextCollectionPayload(updateData, documentData, basePath, payloadValue, mappingEntry);
       continue;
     }
 
@@ -568,25 +605,31 @@ function applyPayloadToUpdateData(updateData, documentData, payload, mapping, ba
       continue;
     }
 
-    setUpdate(updateData, targetPath, clonePlain(payloadValue));
+    setUpdate(updateData, targetPath, payloadValue);
   }
 }
 
 function collectCurrentCollectionPayload(documentData, basePath, templatePayload, mappingEntry, fallbackIndexBase = 0) {
-  const result = {};
+  const result = Array.isArray(templatePayload) ? [] : {};
   if (!templatePayload || typeof templatePayload !== "object") return result;
 
   const collectionPath = joinPath(basePath, mappingEntry.path);
   const nestedMapping = mappingEntry.mapping;
-  const keys = mappingEntry.keys;
+  const keys = mappingEntry.keys ?? (mappingEntry.key ? [mappingEntry.key] : undefined);
+  const isArrayPayload = Array.isArray(templatePayload);
+  const entries = isArrayPayload ? templatePayload.entries() : Object.entries(templatePayload);
+
   let index = 0;
 
-  for (const [payloadKey, payloadValue] of Object.entries(templatePayload)) {
+  for (const [payloadKeyRaw, templateValue] of entries) {
+    if (payloadKeyRaw === "$sort") continue;
+
+    const payloadKey = String(payloadKeyRaw);
     const match = findCollectionEntryPath(
       documentData,
       collectionPath,
       payloadKey,
-      payloadValue,
+      templateValue,
       keys,
       fallbackIndexBase + index
     );
@@ -595,16 +638,21 @@ function collectCurrentCollectionPayload(documentData, basePath, templatePayload
 
     if (!match) continue;
 
-    if (nestedMapping && payloadValue && typeof payloadValue === "object") {
-      result[payloadKey] = collectCurrentPayloadFromMapping(
+    if (mappingEntry.valuePath && !isPlainObject(templateValue)) {
+      result[payloadKeyRaw] = clonePlain(getProperty(match.value, mappingEntry.valuePath));
+      continue;
+    }
+
+    if (nestedMapping && templateValue && typeof templateValue === "object") {
+      result[payloadKeyRaw] = collectCurrentPayloadFromMapping(
         documentData,
-        payloadValue,
+        templateValue,
         nestedMapping,
         match.path,
         match.value
       );
     } else {
-      result[payloadKey] = clonePlain(match.value);
+      result[payloadKeyRaw] = clonePlain(match.value);
     }
   }
 
@@ -618,19 +666,17 @@ function collectCurrentPayloadFromMapping(documentData, templatePayload, mapping
   const activeMapping = effectiveMapping(mapping, sourceObject);
 
   for (const [payloadKey, templateValue] of Object.entries(templatePayload)) {
-    if (shouldSkipPayloadKey(payloadKey)) {
-      console.debug(`Pominięto pole originalPayload.${payloadKey}; nazwy nie są zapisywane do plPayload.`);
+    if (isRootOriginalPayloadName(basePath, payloadKey)) {
+      console.debug("Pominięto flags.babele.originalPayload.name; nazwa przedmiotu nie jest zapisywana do plPayload.");
       continue;
     }
 
     const mappingEntry = normalizeMappingEntry(activeMapping[payloadKey]);
 
     if (!mappingEntry) {
-      console.debug(`Brak mapowania Babele dla pola originalPayload.${payloadKey}; nie zapisano lokalnego odpowiednika.`);
+      console.debug(`Brak mapowania Babele dla pola originalPayload${basePath ? "." + basePath : ""}.${payloadKey}; nie zapisano lokalnego odpowiednika.`);
       continue;
     }
-
-    const targetPath = joinPath(basePath, mappingEntry.path);
 
     if (mappingEntry.converter === "structured" || mappingEntry.converter === "document") {
       result[payloadKey] = collectCurrentCollectionPayload(
@@ -638,23 +684,6 @@ function collectCurrentPayloadFromMapping(documentData, templatePayload, mapping
         basePath,
         templateValue,
         mappingEntry
-      );
-      continue;
-    }
-
-    if (mappingEntry.converter === "effects") {
-      result[payloadKey] = collectCurrentCollectionPayload(
-        documentData,
-        basePath,
-        templateValue,
-        {
-          ...mappingEntry,
-          mapping: mappingEntry.mapping ?? {
-            name: "name",
-            label: "label",
-            description: "description"
-          }
-        }
       );
       continue;
     }
@@ -669,9 +698,39 @@ function collectCurrentPayloadFromMapping(documentData, templatePayload, mapping
           mapping: mappingEntry.mapping ?? {
             name: "name",
             label: "label",
-            title: "title"
+            title: "title",
+            text: "text"
           }
         }
+      );
+      continue;
+    }
+
+    if (mappingEntry.converter === "textCollection") {
+      result[payloadKey] = collectCurrentCollectionPayload(
+        documentData,
+        basePath,
+        templateValue,
+        {
+          ...mappingEntry,
+          mapping: mappingEntry.mapping ?? {
+            text: "text"
+          }
+        }
+      );
+      continue;
+    }
+
+    const targetPath = joinPath(basePath, mappingEntry.path);
+
+    if (mappingEntry.mapping && templateValue && typeof templateValue === "object") {
+      const childSource = getProperty(documentData, targetPath);
+      result[payloadKey] = collectCurrentPayloadFromMapping(
+        documentData,
+        templateValue,
+        mappingEntry.mapping,
+        targetPath,
+        childSource
       );
       continue;
     }
@@ -685,13 +744,18 @@ function collectCurrentPayloadFromMapping(documentData, templatePayload, mapping
   return result;
 }
 
-async function resolveMapping(item, sourceId, targetLang, translationFileMapping = null) {
+async function resolveMapping(item, sourceId, fileMapping = null) {
   const babeleMapping = getMappingFromBabele(item);
-  if (babeleMapping) return babeleMapping;
 
-  if (translationFileMapping) return translationFileMapping;
-
-  return FALLBACK_ITEM_MAPPING;
+  // Kolejność jest celowa:
+  // 1. fallback D&D5e daje pola specyficzne dla lang-pl-dnd5;
+  // 2. Babele daje mapowanie publicznie dostępne przez inspectMapping();
+  // 3. mapping z pliku kompendium jest najbardziej konkretny.
+  return mergeMappings(
+    FALLBACK_ITEM_MAPPING,
+    babeleMapping,
+    fileMapping
+  );
 }
 
 async function changeTranslation(document) {
@@ -735,9 +799,15 @@ async function changeTranslation(document) {
         translationEntry = result.entry;
         fileMapping = result.mapping;
       }
+    } else if (sourceId) {
+      // Dla EN najczęściej wystarcza originalPayload + fallback mapping.
+      // Jeżeli plik PL istnieje, jego mapping rozszerzy obsługę pól specyficznych
+      // dla danego kompendium. Brak pliku nie blokuje przełączenia.
+      const data = await getTranslationFileData(sourceId, "pl");
+      fileMapping = data?.mapping ?? null;
     }
 
-    const mapping = await resolveMapping(item, sourceId, targetLang, fileMapping);
+    const mapping = await resolveMapping(item, sourceId, fileMapping);
 
     let targetPayload = null;
 
@@ -754,9 +824,10 @@ async function changeTranslation(document) {
         targetPayload = originalPayload;
       }
 
-      if (!targetPayload) {
-        const { entry } = await getTranslationEntryAndMapping(item, sourceId, "en");
-        targetPayload = entry;
+      if (!targetPayload && sourceId) {
+        const result = await getTranslationEntryAndMapping(item, sourceId, "en");
+        targetPayload = result.entry;
+        fileMapping = fileMapping ?? result.mapping;
       }
     } else {
       targetPayload = storedPayload || translationEntry;
