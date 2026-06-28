@@ -20,10 +20,12 @@
             "mapping": {
                 "name": "name",
                 "condition": "activation.condition",
+                "activationCondition": "activation.condition",
                 "activationValue": "activation.value",
                 "chatFlavor": "description.chatFlavor",
                 "duration": "duration.special",
                 "roll": "roll.name",
+                "damageOnSave": "damage.onSave",
                 "range": {
                     "path": "range",
                     "converter": "imperialToMetric"
@@ -210,7 +212,12 @@
         "Bewitching Whispers": {
             "name": "Kuszące podszepty",
             "description": "<p>Możesz jeden raz rzucić @UUID[Compendium.dnd5e.spells.Item.P6f1PPKPd9BCb742]{przymus} używając komórki czaru czarownika. Ponownie możesz zrobić to dopiero po ukończeniu długiego odpoczynku.</p>",
-            "requirements": "Czarownik 7"
+            "requirements": "Czarownik 7",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Blessed Healer": {
             "name": "Błogosławiony uzdrowiciel",
@@ -255,7 +262,12 @@
         "Chains of Carceri": {
             "name": "Łańcuchy Carceri",
             "description": "<p>Możesz rzucić @UUID[Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm]{unieruchomienie potwora} - wskazując jako cel czarta, niebianina albo żywiołaka - bez konieczności wykorzystania komórki czaru ani komponentów materialnych. Aby ponownie użyć tej inwokacji na tej w samej istocie, musisz ukończyć długi odpoczynek.</p>",
-            "requirements": "Czarownik 15, Pakt Łańcucha"
+            "requirements": "Czarownik 15, Pakt Łańcucha",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Channel Divinity": {
             "name": "Akt wiary",
@@ -268,7 +280,8 @@
             "requirements": "Domena życia 2",
             "activities": {
                 "heal": {
-                    "condition": "Celem nie może być nieumarły ani konstrukt"
+                    "condition": "Celem nie może być nieumarły ani konstrukt",
+                    "activationCondition": "Celem nie może być nieumarły ani konstrukt"
                 }
             }
         },
@@ -280,7 +293,12 @@
         "Channel Divinity: Turn the Unholy": {
             "name": "Akt wiary: Odpędzanie upadłych",
             "description": "<p>W ramach swojej akcji okazujesz święty symbol bóstwa i wypowiadasz słowa karcące nieumarłych i czarty. Każdy czart lub nieumarły znajdujący się w obrębie 9 metrów, który cię widzi lub słyszy, musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia zostaje odpędzony na 1 minutę albo do czasu otrzymania obrażeń.</p><p>Odpędzona istota poświęca wszystkie swoje tury na próby jak największego oddalenia się od ciebie i nie może z własnej woli zbliżyć się do ciebie na odległość mniejszą niż 9 metrów. Nie ma też możliwości podejmowania reakcji. W ramach swojej akcji może jedynie wykonać Sprint bądź próbować przezwyciężyć efekt ograniczający jej ruch. Jeśli nie ma się dokąd ruszyć, może używać akcji Uniku.</p>",
-            "requirements": "Przysięga Gorliwości 3"
+            "requirements": "Przysięga Gorliwości 3",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Channel Divinity: Turn Undead": {
             "name": "Akt wiary: Odpędzanie nieumarłych",
@@ -288,7 +306,9 @@
             "requirements": "Kleryk 2",
             "activities": {
                 "save": {
-                    "condition": "Cele muszą cię widzieć lub słyszeć."
+                    "condition": "Cele muszą cię widzieć lub słyszeć.",
+                    "activationCondition": "Cele muszą cię widzieć lub słyszeć.",
+                    "damageOnSave": "połowa"
                 }
             }
         },
@@ -303,7 +323,8 @@
             "requirements": "Paladyn 14",
             "activities": {
                 "utility": {
-                    "condition": "Cel musi być przychylny."
+                    "condition": "Cel musi być przychylny.",
+                    "activationCondition": "Cel musi być przychylny."
                 }
             }
         },
@@ -318,7 +339,8 @@
             "requirements": "Bard 6",
             "activities": {
                 "utility": {
-                    "condition": "Aby skorzystać z tego efektu, istoty muszą cię słyszeć."
+                    "condition": "Aby skorzystać z tego efektu, istoty muszą cię słyszeć.",
+                    "activationCondition": "Aby skorzystać z tego efektu, istoty muszą cię słyszeć."
                 }
             }
         },
@@ -333,7 +355,8 @@
             "requirements": "Kolegium Mądrości 3",
             "activities": {
                 "utility": {
-                    "condition": "Cel musi cię słyszeć i nie być niepodatny na zauroczenie."
+                    "condition": "Cel musi cię słyszeć i nie być niepodatny na zauroczenie.",
+                    "activationCondition": "Cel musi cię słyszeć i nie być niepodatny na zauroczenie."
                 }
             }
         },
@@ -393,7 +416,8 @@
             "requirements": "Mnich 14",
             "activities": {
                 "utility": {
-                    "condition": "Za każdym razem, gdy wykonujesz rzut obronny i nie udaje ci się"
+                    "condition": "Za każdym razem, gdy wykonujesz rzut obronny i nie udaje ci się",
+                    "activationCondition": "Za każdym razem, gdy wykonujesz rzut obronny i nie udaje ci się"
                 }
             },
             "effects": {
@@ -428,7 +452,8 @@
             "requirements": "Kleryk 10",
             "activities": {
                 "utility": {
-                    "condition": "Twoja potrzeba musi być wielka..."
+                    "condition": "Twoja potrzeba musi być wielka...",
+                    "activationCondition": "Twoja potrzeba musi być wielka..."
                 }
             }
         },
@@ -453,7 +478,9 @@
             "requirements": "Smocze dziedzictwo 18",
             "activities": {
                 "save": {
-                    "condition": "Wymaga to również 5 punktów zaklinania."
+                    "condition": "Wymaga to również 5 punktów zaklinania.",
+                    "activationCondition": "Wymaga to również 5 punktów zaklinania.",
+                    "damageOnSave": "połowa"
                 }
             }
         },
@@ -480,7 +507,12 @@
         "Dreadful Word": {
             "name": "Przerażające słowo",
             "description": "<p>Możesz jeden raz rzucić @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{zamęt} używając komórki czaru czarownika. Ponownie możesz zrobić to dopiero po ukończeniu długiego odpoczynku.</p>",
-            "requirements": "Czarownik 7"
+            "requirements": "Czarownik 7",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Druid Circle": {
             "name": "Krąg druidyczny",
@@ -528,7 +560,8 @@
             "requirements": "Smocze dziedzictwo 6",
             "activities": {
                 "damage": {
-                    "condition": "Jeśli pragniesz uzyskać odporność, wymagany jest także 1 punkt zaklinania."
+                    "condition": "Jeśli pragniesz uzyskać odporność, wymagany jest także 1 punkt zaklinania.",
+                    "activationCondition": "Jeśli pragniesz uzyskać odporność, wymagany jest także 1 punkt zaklinania."
                 }
             }
         },
@@ -558,7 +591,8 @@
             "requirements": "Mnich 18",
             "activities": {
                 "utility": {
-                    "condition": "Wymaga to również 4 punktów ki (lub 8 dla projekcji astralnej)."
+                    "condition": "Wymaga to również 4 punktów ki (lub 8 dla projekcji astralnej).",
+                    "activationCondition": "Wymaga to również 4 punktów ki (lub 8 dla projekcji astralnej)."
                 }
             },
             "effects": {
@@ -668,7 +702,8 @@
             "requirements": "Mnich 2",
             "activities": {
                 "utility": {
-                    "condition": "Natychmiast po wykonaniu akcji Ataku."
+                    "condition": "Natychmiast po wykonaniu akcji Ataku.",
+                    "activationCondition": "Natychmiast po wykonaniu akcji Ataku."
                 }
             }
         },
@@ -706,7 +741,8 @@
             "requirements": "Czarownik 2",
             "activities": {
                 "utility": {
-                    "condition": "Celem musi być przychylny humanoid."
+                    "condition": "Celem musi być przychylny humanoid.",
+                    "activationCondition": "Celem musi być przychylny humanoid."
                 }
             }
         },
@@ -716,7 +752,8 @@
             "requirements": "Myśliwy 3",
             "activities": {
                 "utility": {
-                    "condition": "Stworzenie musi być duże lub większe oraz musi być widoczne."
+                    "condition": "Stworzenie musi być duże lub większe oraz musi być widoczne.",
+                    "activationCondition": "Stworzenie musi być duże lub większe oraz musi być widoczne."
                 }
             }
         },
@@ -793,7 +830,12 @@
         "Intimidating Presence": {
             "name": "Złowroga postawa",
             "description": "<p>Od 10. poziomu możesz użyć swojej akcji, aby przestraszyć kogoś swoją groźną postawą.</p><p>Wybierz jedną istotę znajdującą się do 9 metrów od ciebie. Jeżeli cię widzi lub słyszy, musi wykonać rzut obronny na Mądrość (o ST równym 8+ twoja premia z biegłości + twój modyfikator z Charyzmy). W przypadku niepowodzenia cel staje się przerażony do końca twojej następnej tury. W następnych turach możesz w ramach swojej akcji przedłużać działanie efektu o kolejną turę. Efekt kończy się, jeśli przerażona istota zakończy swoją turę poza zasięgiem wzroku lub dalej niż 18 metrów od ciebie.</p><p>Jeśli cel zda rzut obronny, nie możesz na nim powtarzać próby zastraszenia przez najbliższe 24 godziny.</p>",
-            "requirements": "Ścieżka Berserkera 10"
+            "requirements": "Ścieżka Berserkera 10",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Jack of All Trades": {
             "name": "Wszechstronność",
@@ -826,11 +868,13 @@
             "requirements": "Paladyn 1",
             "activities": {
                 "heal": {
-                    "condition": "Celem nie może być nieumarły ani konstrukt."
+                    "condition": "Celem nie może być nieumarły ani konstrukt.",
+                    "activationCondition": "Celem nie może być nieumarły ani konstrukt."
                 },
                 "Cure Disease and Poison": {
                     "name": "Leczenie chorób i trucizn",
-                    "condition": "Celem nie może być nieumarły ani konstrukt."
+                    "condition": "Celem nie może być nieumarły ani konstrukt.",
+                    "activationCondition": "Celem nie może być nieumarły ani konstrukt."
                 }
             }
         },
@@ -882,7 +926,12 @@
         "Mire the Mind": {
             "name": "Grzęznący umysł",
             "description": "<p>Możesz jeden raz rzucić @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{spowolnienie} używając komórki czaru czarownika. Ponownie możesz zrobić to dopiero po ukończeniu długiego odpoczynku.</p>",
-            "requirements": "Czarownik 5"
+            "requirements": "Czarownik 5",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Misty Visions": {
             "name": "Mgliste obrazy",
@@ -927,7 +976,12 @@
         "Nature's Sanctuary": {
             "name": "Sanktuarium dziczy",
             "description": "<p>Gdy osiągasz 14. poziom, stworzenia pochodzące ze świata przyrody wyczuwają twoje powiązania z naturą i wahają się, zanim cię zaatakują.</p><p>Kiedy atakuje cię bestia lub roślina, stworzenie to musi wykonać rzut obronny na Mądrość o ST rzutu przeciw twoim czarom. W przypadku niepowodzenia stworzenie musi wybrać inny cel albo jego atak automatycznie chybia. Przy udanym rzucie cel staje się niepodatny na ten efekt przez najbliższe 24 godziny.</p><p>Stworzenie jest świadome tego efektu, zanim zaatakuje ciebie.</p>",
-            "requirements": "Krąg ziemi 14"
+            "requirements": "Krąg ziemi 14",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Nature's Ward": {
             "name": "Wybraniec dziczy",
@@ -1030,7 +1084,8 @@
             "requirements": "Łowca 3",
             "activities": {
                 "utility": {
-                    "condition": "Zużywa również komórkę czaru; poziom komórki określa czas trwania."
+                    "condition": "Zużywa również komórkę czaru; poziom komórki określa czas trwania.",
+                    "activationCondition": "Zużywa również komórkę czaru; poziom komórki określa czas trwania."
                 }
             }
         },
@@ -1040,7 +1095,8 @@
             "requirements": "Wojownik 1, Czempion 10, Paladyn 2",
             "activities": {
                 "utility": {
-                    "condition": "Musi nosić tarczę."
+                    "condition": "Musi nosić tarczę.",
+                    "activationCondition": "Musi nosić tarczę."
                 }
             }
         },
@@ -1065,7 +1121,9 @@
             "requirements": "Droga otwartej dłoni 17",
             "activities": {
                 "save": {
-                    "condition": "Tylko zakończenie wibracji ze szkodą wymaga akcji."
+                    "condition": "Tylko zakończenie wibracji ze szkodą wymaga akcji.",
+                    "activationCondition": "Tylko zakończenie wibracji ze szkodą wymaga akcji.",
+                    "damageOnSave": "połowa"
                 }
             }
         },
@@ -1092,7 +1150,12 @@
         "Relentless Rage": {
             "name": "Niepowstrzymany szał",
             "description": "<p>Począwszy od 11. poziomu, szał pozwala ci walczyć niezależnie od otrzymanych ran.</p><p>Gdy twoje punkty wytrzymałości podczas szału spadną do 0, ale nie zginiesz od razu, możesz wykonać rzut obrnonny na kondycję o ST 10. Jeśli go zdasz, twoje PW spadają do 1.</p><p>Z każdym kolejnym użyciem tej zdolności ST testu wzrasta o 5. Kiedy ukończysz krótki lub długi odpoczynek, ST powraca do poziomu 10.</p>",
-            "requirements": "Barbarzyńca 11"
+            "requirements": "Barbarzyńca 11",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Reliable Talent": {
             "name": "Niezawodny Talent",
@@ -1137,7 +1200,12 @@
         "Sculptor of Flesh": {
             "name": "Rzeźbiarz ciała",
             "description": "<p>Możesz jeden raz rzucić @UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{polimorfię} używając komórki czaru czarownika. Ponownie możesz zrobić to dopiero po ukończeniu długiego odpoczynku.</p>",
-            "requirements": "Czarownik 7"
+            "requirements": "Czarownik 7",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Second Wind": {
             "name": "Drugi Oddech",
@@ -1152,7 +1220,12 @@
         "Sign of Ill Omen": {
             "name": "Zły omen",
             "description": "<p>Możesz jeden raz rzucić @UUID[Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL]{nałożenie klątwy} używając komórki czaru czarownika. Ponownie możesz zrobić to dopiero po ukończeniu długiego odpoczynku.</p>",
-            "requirements": "Czarownik 5"
+            "requirements": "Czarownik 5",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Signature Spells": {
             "name": "Mistrzowskie czary",
@@ -1228,6 +1301,11 @@
             "name": "Ogłuszający cios",
             "description": "<p>Od poziomu 5. możesz zakłócić przepływ ki w ciele przeciwnika. Gdy trafiasz inną istotę atakiem wręcz bronią, możesz wydać 1 punkt ki, by wykonać ogłuszający cios. Cel musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia zostaje ogłuszony do końca twojej następnej tury.</p>",
             "requirements": "Mnich 5",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            },
             "effects": {
                 "Stunning Strike": {
                     "name": "Ogłuszający cios"
@@ -1255,7 +1333,8 @@
             "requirements": "Bard 20",
             "activities": {
                 "utility": {
-                    "condition": "Gdy rzucasz na inicjatywę i nie masz dostępnych użyć bardowskiej inspiracji"
+                    "condition": "Gdy rzucasz na inicjatywę i nie masz dostępnych użyć bardowskiej inspiracji",
+                    "activationCondition": "Gdy rzucasz na inicjatywę i nie masz dostępnych użyć bardowskiej inspiracji"
                 }
             }
         },
@@ -1277,7 +1356,12 @@
         "Thief of Five Fates": {
             "name": "Złodziej dobrego losu",
             "description": "<p>Możesz jeden raz rzucić @UUID[Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf]{zgubę} używając komórki czaru czarownika. Ponownie możesz zrobić to dopiero po ukończeniu długiego odpoczynku.</p>",
-            "requirements": "Czarownik 2"
+            "requirements": "Czarownik 2",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Thief's Reflexes": {
             "name": "Złodziejski refleks",
@@ -1307,7 +1391,12 @@
         "Tranquility": {
             "name": "Uspokojenie",
             "description": "<p>Od 11. poziomu uczysz się wchodzić w stan szczególnej medytacji, która otacza cię aurą pokoju. Na zakończenie długiego odpoczynku zyskujesz efekt czaru @UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{sanktuarium}, który trwa aż do rozpoczęcia następnego długiego odpoczynku (może też zakończyć się wcześniej na zwykłych zasadach). ST rzutu przeciw czarowi wynosi 8 + twój modyfikator z Mądrości + twoja premia z biegłości.</p>",
-            "requirements": "Droga otwartej dłoni 11"
+            "requirements": "Droga otwartej dłoni 11",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Twinned Spell": {
             "name": "Bliźniacze zaklęcie",
