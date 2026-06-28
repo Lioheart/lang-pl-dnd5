@@ -15,7 +15,112 @@
         },
         "items": {
             "path": "items",
-            "converter": "items"
+            "converter": "document",
+            "documentType": "Item",
+            "cardinality": "many",
+            "mapping": {
+                "description": "system.description.value",
+                "requirements": "system.requirements",
+                "materials": "system.materials.value",
+                "chat": "system.description.chat",
+                "activation": "system.activation.condition",
+                "activationValue": "system.activation.value",
+                "activities": {
+                    "path": "system.activities",
+                    "converter": "structured",
+                    "cardinality": "many",
+                    "container": "keyed",
+                    "keys": [
+                        "_id",
+                        "name",
+                        "type"
+                    ],
+                    "mapping": {
+                        "name": "name",
+                        "condition": "activation.condition",
+                        "activationCondition": "activation.condition",
+                        "activationValue": "activation.value",
+                        "chatFlavor": "description.chatFlavor",
+                        "duration": "duration.special",
+                        "roll": "roll.name",
+                        "damageOnSave": "damage.onSave",
+                        "range": {
+                            "path": "range",
+                            "converter": "imperialToMetric"
+                        },
+                        "target": {
+                            "path": "target",
+                            "converter": "imperialToMetric"
+                        },
+                        "profiles": {
+                            "path": "profiles",
+                            "converter": "nameCollection"
+                        }
+                    }
+                },
+                "effects": {
+                    "path": "effects",
+                    "converter": "effects"
+                },
+                "advancement": {
+                    "path": "system.advancement",
+                    "converter": "structured",
+                    "cardinality": "many",
+                    "container": "keyed",
+                    "keys": [
+                        "_id",
+                        "title"
+                    ],
+                    "mapping": {
+                        "title": "title",
+                        "hint": "hint",
+                        "_variants": [
+                            {
+                                "_when": {
+                                    "path": "type",
+                                    "equals": "ScaleValue"
+                                },
+                                "distance": {
+                                    "path": "configuration.distance",
+                                    "converter": "imperialToMetric"
+                                },
+                                "scale": {
+                                    "path": "configuration.scale",
+                                    "converter": "imperialToMetric"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "movement": {
+                    "path": "system.movement",
+                    "converter": "imperialToMetric"
+                },
+                "weight": {
+                    "path": "system.weight",
+                    "converter": "imperialToMetric"
+                },
+                "range": {
+                    "path": "system.range",
+                    "converter": "imperialToMetric"
+                },
+                "capacityWeight": {
+                    "path": "system.capacity.weight",
+                    "converter": "imperialToMetric"
+                },
+                "senses": {
+                    "path": "system.senses",
+                    "converter": "imperialToMetric"
+                },
+                "target": {
+                    "path": "system.target",
+                    "converter": "imperialToMetric"
+                },
+                "volume": {
+                    "path": "system.capacity.volume",
+                    "converter": "imperialToMetric"
+                }
+            }
         },
         "senses": {
             "path": "system.attributes.senses",
@@ -59,7 +164,12 @@
                 "Breath Weapon - White": {
                     "name": "Zionięcie - biały smok",
                     "description": "<p>Możesz wykorzystać swoją akcję, aby zionąć niszczycielską energią. Twój smoczy rodowód określa rozmiar, kształt i typ obrażeń twojego zionięcia.</p><p>Kiedy używasz zionięcia jako ataku, każda istota znajdująca się w jego obrębie musi wykonać rzut obronny na Kondycję. ST tego rzutu wynosi 8 + modyfikator z twojej Kondycji + twoja premia z biegłości. W przypadku niepowodzenia cel otrzymuje 2k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Obrażenia wzrastają do 3k6 na 6. poziomie, do 4k6 na 11. poziomie i do 5k6 na 16. poziomie.</p><p>Gdy wykorzystasz zionięcie, możesz użyć go ponownie po zakończeniu krótkiego lub długiego odpoczynku.</p>",
-                    "requirements": "Biały drakon"
+                    "requirements": "Biały drakon",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Cleric": {
                     "name": "Kleryk",
@@ -250,6 +360,11 @@
                     "name": "Zguba",
                     "description": "<p>Maksymalnie trzy istoty, które widzisz w zasięgu czaru, muszą wykonywać rzuty obronne na Charyzmę. W przypadku niepowodzenia cel musi rzucić k4 i odjąć wynik od rezultatu testu za każdym razem, gdy atakuje lub wykonuje rzut obronny podczas trwania czaru.</p>\n<p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę.</p>",
                     "materials": "Kropla krwi",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    },
                     "effects": {
                         "Bane": {
                             "name": "Zguba",
@@ -280,7 +395,12 @@
                 },
                 "Command": {
                     "name": "Rozkaz",
-                    "description": "<p>Wymawiasz słowo rozkazu, kierując go do istoty, którą widzisz w zasięgu czaru. Musi ona wykonać udany rzut obronny na Mądrość albo w swojej następnej turze wypełnić twoje polecenie. Zaklęcie nie działa na nieumarłych oraz istoty nierozumiejące twojego języka. Rozkaz nie odniesie również skutku, jeśli wykonanie go będzie bezpośrednio zagrażało zauroczonej istocie.</p><p>Poniżej podano kilka typowych rozkazów i ich efekty. Możesz wydać inne polecenie, wówczas MP określa sposób zachowania istoty objętej czarem. Jeżeli cel nie jest w stanie wykonać rozkazu, to zaklęcie się kończy.</p><p><strong>Podejdź.</strong> Cel zaklęcia przemieszcza się w twoim kierunku najkrótszą i najbardziej bezpośrednią drogą, a gdy znajdzie się 1,5 metra od ciebie, jego tura się skończy.</p><p><strong>Puść.</strong> Cel zaklęcia wypuszcza trzymane rzeczy, a jego tura dobiega końca.</p><p><strong>Uciekaj.</strong> Cel zaklęcia przeznacza swoją turę na to, by jak najszybciej oddalić się od ciebie.</p><p><strong>Padnij.</strong> Cel zaklęcia pada powalony na ziemię, a jego tura się kończy.</p><p><strong>Zatrzymaj się.</strong> Cel zaklęcia nie przemieszcza się i nie wykonuje żadnych akcji. Latająca istota zawisa w powietrzu, o ile potrafi. Jeżeli musi się przemieszczać, by zostać w powietrzu, to przebywa minimalną niezbędną do tego odległość.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>"
+                    "description": "<p>Wymawiasz słowo rozkazu, kierując go do istoty, którą widzisz w zasięgu czaru. Musi ona wykonać udany rzut obronny na Mądrość albo w swojej następnej turze wypełnić twoje polecenie. Zaklęcie nie działa na nieumarłych oraz istoty nierozumiejące twojego języka. Rozkaz nie odniesie również skutku, jeśli wykonanie go będzie bezpośrednio zagrażało zauroczonej istocie.</p><p>Poniżej podano kilka typowych rozkazów i ich efekty. Możesz wydać inne polecenie, wówczas MP określa sposób zachowania istoty objętej czarem. Jeżeli cel nie jest w stanie wykonać rozkazu, to zaklęcie się kończy.</p><p><strong>Podejdź.</strong> Cel zaklęcia przemieszcza się w twoim kierunku najkrótszą i najbardziej bezpośrednią drogą, a gdy znajdzie się 1,5 metra od ciebie, jego tura się skończy.</p><p><strong>Puść.</strong> Cel zaklęcia wypuszcza trzymane rzeczy, a jego tura dobiega końca.</p><p><strong>Uciekaj.</strong> Cel zaklęcia przeznacza swoją turę na to, by jak najszybciej oddalić się od ciebie.</p><p><strong>Padnij.</strong> Cel zaklęcia pada powalony na ziemię, a jego tura się kończy.</p><p><strong>Zatrzymaj się.</strong> Cel zaklęcia nie przemieszcza się i nie wykonuje żadnych akcji. Latająca istota zawisa w powietrzu, o ile potrafi. Jeżeli musi się przemieszczać, by zostać w powietrzu, to przebywa minimalną niezbędną do tego odległość.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Detect Magic": {
                     "name": "Wykrycie magii",
@@ -289,7 +409,12 @@
                 "Sanctuary": {
                     "name": "Sanktuarium",
                     "description": "<p>Osłaniasz przed atakiem istotę znajdującą się w zasięgu. Do końca trwania czaru każde stworzenie chcące ją zaatakować lub rzucić na nią wyrządzający krzywdę czar musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia musi wybrać inny cel albo utracić ten atak lub czar. Sanktuarium nie chroni przed efektami obszarowymi, takimi jak eksplozja kuli ognia.</p><p>Czar kończy się, kiedy ochraniana istota wykona atak, rzuci zaklęcie obejmujące działaniem przeciwnika lub zada obrażenia innemu stworzeniu.</p>",
-                    "materials": "Małe srebrne lusterko"
+                    "materials": "Małe srebrne lusterko",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Shield of Faith": {
                     "name": "Tarcza wiary",
@@ -308,7 +433,12 @@
                 },
                 "Sacred Flame": {
                     "name": "Święty płomień",
-                    "description": "<p>Na stworzenie, które widzisz w zasięgu czaru, spływa płomienna światłość. Musi ono wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 1k8 obrażeń od światłości. Do tego rzutu obronnego nie liczą się korzyści z przebywania za osłoną.</p><p>Obrażenia z tego zaklęcia zwiększają się o 1k8, gdy osiągniesz 5. poziom (do 2k8), 11. poziom (do 3k8) i 17. poziom (do 4k8).</p>"
+                    "description": "<p>Na stworzenie, które widzisz w zasięgu czaru, spływa płomienna światłość. Musi ono wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 1k8 obrażeń od światłości. Do tego rzutu obronnego nie liczą się korzyści z przebywania za osłoną.</p><p>Obrażenia z tego zaklęcia zwiększają się o 1k8, gdy osiągniesz 5. poziom (do 2k8), 11. poziom (do 3k8) i 17. poziom (do 4k8).</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "none"
+                        }
+                    }
                 },
                 "Healing Word": {
                     "name": "Kojące słowo",
@@ -525,7 +655,12 @@
                 },
                 "Thunderwave": {
                     "name": "Fala gromu",
-                    "description": "<p>Uwalniasz falę ogłuszającej mocy. W przestrzeni o kształcie wychodzącego od ciebie sześcianu o boku 4,5 metra wszystkie istoty muszą wykonać rzut obronny na Kondycję. W przypadku niepowodzenia otrzymują po 2k8 obrażeń od dźwięku i zostają odepchnięte o 3 metry od ciebie. Przy udanym rzucie otrzymują połowę obrażeń i nie zostają odepchnięte.</p><p>Ponadto, niezabezpieczone przedmioty znajdujące się w całości na obszarze działania czaru zostają automatycznie odepchnięte o 3 metry od ciebie, a zaklęcie wywołuje ogłuszający huk słyszalny z odległości 90 metrów.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz obrażenia o 1k8.</p>"
+                    "description": "<p>Uwalniasz falę ogłuszającej mocy. W przestrzeni o kształcie wychodzącego od ciebie sześcianu o boku 4,5 metra wszystkie istoty muszą wykonać rzut obronny na Kondycję. W przypadku niepowodzenia otrzymują po 2k8 obrażeń od dźwięku i zostają odepchnięte o 3 metry od ciebie. Przy udanym rzucie otrzymują połowę obrażeń i nie zostają odepchnięte.</p><p>Ponadto, niezabezpieczone przedmioty znajdujące się w całości na obszarze działania czaru zostają automatycznie odepchnięte o 3 metry od ciebie, a zaklęcie wywołuje ogłuszający huk słyszalny z odległości 90 metrów.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz obrażenia o 1k8.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Jump": {
                     "name": "Skok",
@@ -544,6 +679,11 @@
                 "Charm Person": {
                     "name": "Zauroczenie osoby",
                     "description": "<p>Próbujesz zauroczyć humanoida, którego widzisz w zasięgu czaru. Musi on wykonać rzut obronny na Mądrość, w którym ma ułatwienie, jeśli walczy z tobą lub którymś z twoich towarzyszy. W przypadku niepowodzenia zostaje przez ciebie &Reference[charmed]{zauroczony} na czas trwania zaklęcia lub do momentu, w którym ty lub któryś z twoich towarzyszy zadziałacie na jego szkodę. Zauroczony humanoid postrzega ciebie jako przyjaznego znajomego. Gdy czar dobiega końca, cel ma świadomość, że został przez ciebie zauroczony.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    },
                     "effects": {
                         "Charm Person": {
                             "name": "Zauroczenie osoby",
@@ -554,6 +694,11 @@
                 "Entangle": {
                     "name": "Oplątanie",
                     "description": "<p>Chwytne pnącza wyrastają z podłoża na obszarze kwadratu boku 6 metrów, ze środkiem we wskazanym punkcie w zasięgu czaru. Rośliny zamieniają ten obszar w trudny teren na cały czas trwania czaru.</p><p>Istoty znajdujące się na obszarze działania czaru muszą wykonać rzut obronny na Siłę. W przypadku niepowodzenia zostaną &Reference[Restrained]{unieruchomione} przez oplątujące je rośliny na czas trwania zaklęcia. Unieruchomiona istota może w ramach swojej akcji wykonać test Siły z ST rzutu obronnego przeciw twoim czarom. Jeśli jej się uda, uwalnia się.</p><p>Gdy zaklęcie wygasa, przywołane rośliny więdną.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    },
                     "effects": {
                         "Entangle": {
                             "name": "Oplątanie",
@@ -568,11 +713,21 @@
                 "Animal Friendship": {
                     "name": "Przyjaciel zwierząt",
                     "description": "<p>Przy pomocy tego czaru możesz przekonać zwierzę, że nie stanowisz dla niego zagrożenia. Wybierz bestię, którą widzisz w zasięgu czaru i która widzi i słyszy ciebie. Jeśli jej inteligencja wynosi 4 lub więcej, zaklęcie się nie udaje. W przeciwnym wypadku zwierzę musi wykonać udany rzut obronny na mądrość albo zostanie przez ciebie zauroczone na czas trwania czaru. Jeżeli ty lub ktoś z twoich sojuszników skrzywdzicie to zwierzę, czar się zakończy.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć czarem dodatkowe zwierzę.</p>",
-                    "materials": "Odrobina jedzenia."
+                    "materials": "Odrobina jedzenia.",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Faerie Fire": {
                     "name": "Blask faerie",
-                    "description": "<p>Każdy obiekt w sześcianie o boku 6 metrów w zasięgu czaru zostaje spowity niebieskim, zielonym lub czerwonym światłem (ty wybierasz kolor). Istoty znajdujące się w obszarze działania w chwili rzucania zaklęcia również zostają podświetlone, jeśli nie zdadzą rzutu obronnego na Zręczność. Przez okres trwania czaru od tych istot i obiektów emanuje na 3 metry słabe światło.</p><p>Obiekty i istoty znajdujące się pod wpływem zaklęcia nie czerpią żadnych korzyści ze swojej niewidzialności, a ataki przeciwko nim są przeprowadzane z ułatwieniem, jeśli napastnik jest w stanie zobaczyć cel.</p>"
+                    "description": "<p>Każdy obiekt w sześcianie o boku 6 metrów w zasięgu czaru zostaje spowity niebieskim, zielonym lub czerwonym światłem (ty wybierasz kolor). Istoty znajdujące się w obszarze działania w chwili rzucania zaklęcia również zostają podświetlone, jeśli nie zdadzą rzutu obronnego na Zręczność. Przez okres trwania czaru od tych istot i obiektów emanuje na 3 metry słabe światło.</p><p>Obiekty i istoty znajdujące się pod wpływem zaklęcia nie czerpią żadnych korzyści ze swojej niewidzialności, a ataki przeciwko nim są przeprowadzane z ułatwieniem, jeśli napastnik jest w stanie zobaczyć cel.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Healing Word": {
                     "name": "Kojące słowo",
@@ -787,12 +942,22 @@
                 "Hideous Laughter": {
                     "name": "Ohydny śmiech",
                     "description": "<p>Wybrana istota, którą widzisz w zasięgu czaru, postrzega wszystko jako niesamowicie śmieszne i jeśli nie oprze się zaklęciu, pada na ziemię ze śmiechu. Musi wykonać udany rzut obronny na Mądrość albo przewróci się, stanie się obezwładniona i do końca trwania czaru nie będzie mogła się podnieść. Stworzenia o Inteligencji 4 lub mniejszej są niepodatne na to zaklęcie.</p><p>Cel zaklęcia może ponowić rzut obronny na Mądrość pod koniec każdej swojej tury i za każdym razem, gdy otrzymuje obrażenia. Ma ułatwienie w tym rzucie, jeśli został wywołany obrażeniami. Po udanym rzucie obronnym zaklęcie się kończy.</p>",
-                    "materials": "Ciastko z kremem i pióro, którym machasz w powietrzu"
+                    "materials": "Ciastko z kremem i pióro, którym machasz w powietrzu",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Light": {
                     "name": "Światło",
                     "description": "<p>Dotykasz obiektu, którego żaden z wymiarów nie przekracza 3 metrów. Dopóki czar trwa, obiekt świeci jasnym światłem w promieniu 6 metrów i słabym światłem w promieniu kolejnych 6 metrów. Światło może mieć dowolny kolor. Całkowite zakrycie obiektu nieprzezroczystą zasłoną blokuje światło. Czar dobiega końca, gdy rzucisz go ponownie lub zakończysz go w ramach swojej akcji.</p><p>Jeżeli rzucasz ten czar na przedmiot trzymany lub noszony przez wrogą istotę, to musi ona wykonać udany rzut obronny na Zręczność, by uniknąć efektu.</p>",
-                    "materials": "Świetlik lub fosforyzujący mech."
+                    "materials": "Świetlik lub fosforyzujący mech.",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "none"
+                        }
+                    }
                 },
                 "Mage Hand": {
                     "name": "Magiczna dłoń",
@@ -801,6 +966,11 @@
                 "Charm Person": {
                     "name": "Zauroczenie osoby",
                     "description": "<p>Próbujesz zauroczyć humanoida, którego widzisz w zasięgu czaru. Musi on wykonać rzut obronny na Mądrość, w którym ma ułatwienie, jeśli walczy z tobą lub którymś z twoich towarzyszy. W przypadku niepowodzenia zostaje przez ciebie &Reference[charmed]{zauroczony} na czas trwania zaklęcia lub do momentu, w którym ty lub któryś z twoich towarzyszy zadziałacie na jego szkodę. Zauroczony humanoid postrzega ciebie jako przyjaznego znajomego. Gdy czar dobiega końca, cel ma świadomość, że został przez ciebie zauroczony.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    },
                     "effects": {
                         "Charm Person": {
                             "name": "Zauroczenie osoby",
@@ -825,7 +995,8 @@
                     "description": "<p>Amulet przedstawiający symbol reprezentujący bóstwo, dzięki któremu prawdziwy wierzący może przywołać jego moc i w ten sposób szerzyć wiarę.</p><p><strong>Magiczny fokus</strong>. Kleryk lub paladyn może użyć świętego symbolu jak magicznego fokusu. Aby użyć symbolu w ten sposób, rzucający czar musi trzymać go w dłoni, nosić w widoczny sposób lub umieścić na tarczy.</p>",
                     "activities": {
                         "utility": {
-                            "condition": "Święty symbol musi być wyraźnie widoczny."
+                            "condition": "Święty symbol musi być wyraźnie widoczny.",
+                            "activationCondition": "Święty symbol musi być wyraźnie widoczny."
                         }
                     }
                 },
@@ -855,7 +1026,8 @@
                     "requirements": "Półork",
                     "activities": {
                         "heal": {
-                            "condition": "Kiedy twoje PW spadną do 0"
+                            "condition": "Kiedy twoje PW spadną do 0",
+                            "activationCondition": "Kiedy twoje PW spadną do 0"
                         }
                     }
                 },
@@ -939,11 +1111,13 @@
                     "requirements": "Paladyn 1",
                     "activities": {
                         "heal": {
-                            "condition": "Celem nie może być nieumarły ani konstrukt."
+                            "condition": "Celem nie może być nieumarły ani konstrukt.",
+                            "activationCondition": "Celem nie może być nieumarły ani konstrukt."
                         },
                         "Cure Disease and Poison": {
                             "name": "Leczenie chorób i trucizn",
-                            "condition": "Celem nie może być nieumarły ani konstrukt."
+                            "condition": "Celem nie może być nieumarły ani konstrukt.",
+                            "activationCondition": "Celem nie może być nieumarły ani konstrukt."
                         }
                     }
                 },
@@ -1376,7 +1550,12 @@
                 },
                 "Burning Hands": {
                     "name": "Płonące dłonie",
-                    "description": "<p>Gdy wyciągasz przed siebie rozczapierzone palce dłoni złączonych kciukami, bucha z nich wachlarz płomieni. Każda istota znajdująca się na obszarze stożka o długości 4,5 metra musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 3k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</p><p>Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz zadawane obrażenia o 1k6.</p>"
+                    "description": "<p>Gdy wyciągasz przed siebie rozczapierzone palce dłoni złączonych kciukami, bucha z nich wachlarz płomieni. Każda istota znajdująca się na obszarze stożka o długości 4,5 metra musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 3k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</p><p>Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz zadawane obrażenia o 1k6.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Disguise Self": {
                     "name": "Przebranie siebie",
@@ -2381,7 +2560,12 @@
                 },
                 "Burning Hands": {
                     "name": "Płonące dłonie",
-                    "description": "<p>Gdy wyciągasz przed siebie rozczapierzone palce dłoni złączonych kciukami, bucha z nich wachlarz płomieni. Każda istota znajdująca się na obszarze stożka o długości 4,5 metra musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 3k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</p><p>Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz zadawane obrażenia o 1k6.</p>"
+                    "description": "<p>Gdy wyciągasz przed siebie rozczapierzone palce dłoni złączonych kciukami, bucha z nich wachlarz płomieni. Każda istota znajdująca się na obszarze stożka o długości 4,5 metra musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 3k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</p><p>Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz zadawane obrażenia o 1k6.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Eldritch Blast": {
                     "name": "Nieziemskie uderzenie",
@@ -2389,7 +2573,12 @@
                 },
                 "Command": {
                     "name": "Rozkaz",
-                    "description": "<p>Wymawiasz słowo rozkazu, kierując go do istoty, którą widzisz w zasięgu czaru. Musi ona wykonać udany rzut obronny na Mądrość albo w swojej następnej turze wypełnić twoje polecenie. Zaklęcie nie działa na nieumarłych oraz istoty nierozumiejące twojego języka. Rozkaz nie odniesie również skutku, jeśli wykonanie go będzie bezpośrednio zagrażało zauroczonej istocie.</p><p>Poniżej podano kilka typowych rozkazów i ich efekty. Możesz wydać inne polecenie, wówczas MP określa sposób zachowania istoty objętej czarem. Jeżeli cel nie jest w stanie wykonać rozkazu, to zaklęcie się kończy.</p><p><strong>Podejdź.</strong> Cel zaklęcia przemieszcza się w twoim kierunku najkrótszą i najbardziej bezpośrednią drogą, a gdy znajdzie się 1,5 metra od ciebie, jego tura się skończy.</p><p><strong>Puść.</strong> Cel zaklęcia wypuszcza trzymane rzeczy, a jego tura dobiega końca.</p><p><strong>Uciekaj.</strong> Cel zaklęcia przeznacza swoją turę na to, by jak najszybciej oddalić się od ciebie.</p><p><strong>Padnij.</strong> Cel zaklęcia pada powalony na ziemię, a jego tura się kończy.</p><p><strong>Zatrzymaj się.</strong> Cel zaklęcia nie przemieszcza się i nie wykonuje żadnych akcji. Latająca istota zawisa w powietrzu, o ile potrafi. Jeżeli musi się przemieszczać, by zostać w powietrzu, to przebywa minimalną niezbędną do tego odległość.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>"
+                    "description": "<p>Wymawiasz słowo rozkazu, kierując go do istoty, którą widzisz w zasięgu czaru. Musi ona wykonać udany rzut obronny na Mądrość albo w swojej następnej turze wypełnić twoje polecenie. Zaklęcie nie działa na nieumarłych oraz istoty nierozumiejące twojego języka. Rozkaz nie odniesie również skutku, jeśli wykonanie go będzie bezpośrednio zagrażało zauroczonej istocie.</p><p>Poniżej podano kilka typowych rozkazów i ich efekty. Możesz wydać inne polecenie, wówczas MP określa sposób zachowania istoty objętej czarem. Jeżeli cel nie jest w stanie wykonać rozkazu, to zaklęcie się kończy.</p><p><strong>Podejdź.</strong> Cel zaklęcia przemieszcza się w twoim kierunku najkrótszą i najbardziej bezpośrednią drogą, a gdy znajdzie się 1,5 metra od ciebie, jego tura się skończy.</p><p><strong>Puść.</strong> Cel zaklęcia wypuszcza trzymane rzeczy, a jego tura dobiega końca.</p><p><strong>Uciekaj.</strong> Cel zaklęcia przeznacza swoją turę na to, by jak najszybciej oddalić się od ciebie.</p><p><strong>Padnij.</strong> Cel zaklęcia pada powalony na ziemię, a jego tura się kończy.</p><p><strong>Zatrzymaj się.</strong> Cel zaklęcia nie przemieszcza się i nie wykonuje żadnych akcji. Latająca istota zawisa w powietrzu, o ile potrafi. Jeżeli musi się przemieszczać, by zostać w powietrzu, to przebywa minimalną niezbędną do tego odległość.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "połowa"
+                        }
+                    }
                 },
                 "Chill Touch": {
                     "name": "Przeszywający dotyk",
@@ -2409,7 +2598,8 @@
                     "requirements": "Gnom skalny",
                     "activities": {
                         "utility": {
-                            "condition": "Zużyj materiały o wartości 10 sz"
+                            "condition": "Zużyj materiały o wartości 10 sz",
+                            "activationCondition": "Zużyj materiały o wartości 10 sz"
                         }
                     }
                 },
@@ -2445,7 +2635,8 @@
                     "requirements": "Gnom skalny",
                     "activities": {
                         "utility": {
-                            "condition": "Zużyj materiały o wartości 10 sz"
+                            "condition": "Zużyj materiały o wartości 10 sz",
+                            "activationCondition": "Zużyj materiały o wartości 10 sz"
                         }
                     }
                 },
@@ -2596,7 +2787,12 @@
                 "Light": {
                     "name": "Światło",
                     "description": "<p>Dotykasz obiektu, którego żaden z wymiarów nie przekracza 3 metrów. Dopóki czar trwa, obiekt świeci jasnym światłem w promieniu 6 metrów i słabym światłem w promieniu kolejnych 6 metrów. Światło może mieć dowolny kolor. Całkowite zakrycie obiektu nieprzezroczystą zasłoną blokuje światło. Czar dobiega końca, gdy rzucisz go ponownie lub zakończysz go w ramach swojej akcji.</p><p>Jeżeli rzucasz ten czar na przedmiot trzymany lub noszony przez wrogą istotę, to musi ona wykonać udany rzut obronny na Zręczność, by uniknąć efektu.</p>",
-                    "materials": "Świetlik lub fosforyzujący mech."
+                    "materials": "Świetlik lub fosforyzujący mech.",
+                    "activities": {
+                        "save": {
+                            "damageOnSave": "none"
+                        }
+                    }
                 },
                 "Mage Armor": {
                     "name": "Zbroja maga",
