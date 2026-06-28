@@ -53,7 +53,7 @@
     "./babele-register.js",
     "scripts/dnd5e.js",
     "scripts/original-name.js",
-    "scripts/buttons.js",
+    "scripts/item-payload-language-toggle.js",
     "scripts/translator.js"
   ],
   "styles": [
