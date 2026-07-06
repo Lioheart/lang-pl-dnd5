@@ -5302,7 +5302,7 @@
               "hint": "Jak odnawiane są ładunki użyć."
             },
             "formula": {
-              "label": "Wzór rzutu na odnawianie",
+              "label": "Wzór rzutu na odzyskiwanie",
               "hint": "Wzór używany do określenia, ile ładunków użyć zostanie odzyskanych."
             }
           }
