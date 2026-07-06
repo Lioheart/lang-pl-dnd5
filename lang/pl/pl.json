@@ -5294,7 +5294,7 @@
           "hint": "Profile odzyskiwania ładunków użyć tej aktywności.",
           "FIELDS": {
             "period": {
-              "label": "Czas odnowienia",
+              "label": "Okres odzyskiwania",
               "hint": "Okres czasu odnowienia użyć."
             },
             "type": {
