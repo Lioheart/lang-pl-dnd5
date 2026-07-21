@@ -1479,7 +1479,7 @@
         },
         "Whispers of the Grave": {
             "name": "Szept zza grobu",
-            "description": "<p>Możesz rzucać @UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{Speak with Dead} bez zużywania komórki czaru.</p>",
+            "description": "<p>Możesz rzucać @UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e] bez zużywania komórki czaru.</p>",
             "requirements": "Czarownik 9"
         },
         "Wholeness of Body": {
