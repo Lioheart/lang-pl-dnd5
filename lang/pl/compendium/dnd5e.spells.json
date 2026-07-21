@@ -1260,7 +1260,7 @@
             "materials": "Liść sumaka"
         },
         "Flame Strike": {
-            "name": "Słup ognią",
+            "name": "Słup ognia",
             "description": "<p>We wskazane przez ciebie miejsce z rykiem uderza z nieba pionowa kolumna boskiego ognia. Każde stworzenie znajdujące się na obszarze w kształcie walca o promieniu 3 metrów i wysokości 12 metrów, z punktem wyjścia we wskazanym miejscu, musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymanie 4k6 obrażeń od ognia i 4k6 obrażeń od światłości. Udany rzut zmniejsza obrażenia o połowę.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 6. kręgu, za każdy krąg powyżej 5. zwiększasz obrażenia od ognia albo światłości (wedle twojego wyboru) o 1k6.</p>",
             "materials": "Szczypta siarki",
             "activities": {
