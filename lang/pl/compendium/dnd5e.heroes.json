@@ -167,7 +167,7 @@
                     "requirements": "Biały drakon",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
@@ -362,7 +362,7 @@
                     "materials": "Kropla krwi",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     },
                     "effects": {
@@ -398,7 +398,7 @@
                     "description": "<p>Wymawiasz słowo rozkazu, kierując go do istoty, którą widzisz w zasięgu czaru. Musi ona wykonać udany rzut obronny na Mądrość albo w swojej następnej turze wypełnić twoje polecenie. Zaklęcie nie działa na nieumarłych oraz istoty nierozumiejące twojego języka. Rozkaz nie odniesie również skutku, jeśli wykonanie go będzie bezpośrednio zagrażało zauroczonej istocie.</p><p>Poniżej podano kilka typowych rozkazów i ich efekty. Możesz wydać inne polecenie, wówczas MP określa sposób zachowania istoty objętej czarem. Jeżeli cel nie jest w stanie wykonać rozkazu, to zaklęcie się kończy.</p><p><strong>Podejdź.</strong> Cel zaklęcia przemieszcza się w twoim kierunku najkrótszą i najbardziej bezpośrednią drogą, a gdy znajdzie się 1,5 metra od ciebie, jego tura się skończy.</p><p><strong>Puść.</strong> Cel zaklęcia wypuszcza trzymane rzeczy, a jego tura dobiega końca.</p><p><strong>Uciekaj.</strong> Cel zaklęcia przeznacza swoją turę na to, by jak najszybciej oddalić się od ciebie.</p><p><strong>Padnij.</strong> Cel zaklęcia pada powalony na ziemię, a jego tura się kończy.</p><p><strong>Zatrzymaj się.</strong> Cel zaklęcia nie przemieszcza się i nie wykonuje żadnych akcji. Latająca istota zawisa w powietrzu, o ile potrafi. Jeżeli musi się przemieszczać, by zostać w powietrzu, to przebywa minimalną niezbędną do tego odległość.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
@@ -412,7 +412,7 @@
                     "materials": "Małe srebrne lusterko",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
@@ -658,7 +658,7 @@
                     "description": "<p>Uwalniasz falę ogłuszającej mocy. W przestrzeni o kształcie wychodzącego od ciebie sześcianu o boku 4,5 metra wszystkie istoty muszą wykonać rzut obronny na Kondycję. W przypadku niepowodzenia otrzymują po 2k8 obrażeń od dźwięku i zostają odepchnięte o 3 metry od ciebie. Przy udanym rzucie otrzymują połowę obrażeń i nie zostają odepchnięte.</p><p>Ponadto, niezabezpieczone przedmioty znajdujące się w całości na obszarze działania czaru zostają automatycznie odepchnięte o 3 metry od ciebie, a zaklęcie wywołuje ogłuszający huk słyszalny z odległości 90 metrów.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz obrażenia o 1k8.</p>",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
@@ -681,7 +681,7 @@
                     "description": "<p>Próbujesz zauroczyć humanoida, którego widzisz w zasięgu czaru. Musi on wykonać rzut obronny na Mądrość, w którym ma ułatwienie, jeśli walczy z tobą lub którymś z twoich towarzyszy. W przypadku niepowodzenia zostaje przez ciebie &Reference[charmed]{zauroczony} na czas trwania zaklęcia lub do momentu, w którym ty lub któryś z twoich towarzyszy zadziałacie na jego szkodę. Zauroczony humanoid postrzega ciebie jako przyjaznego znajomego. Gdy czar dobiega końca, cel ma świadomość, że został przez ciebie zauroczony.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     },
                     "effects": {
@@ -696,7 +696,7 @@
                     "description": "<p>Chwytne pnącza wyrastają z podłoża na obszarze kwadratu boku 6 metrów, ze środkiem we wskazanym punkcie w zasięgu czaru. Rośliny zamieniają ten obszar w trudny teren na cały czas trwania czaru.</p><p>Istoty znajdujące się na obszarze działania czaru muszą wykonać rzut obronny na Siłę. W przypadku niepowodzenia zostaną &Reference[Restrained]{unieruchomione} przez oplątujące je rośliny na czas trwania zaklęcia. Unieruchomiona istota może w ramach swojej akcji wykonać test Siły z ST rzutu obronnego przeciw twoim czarom. Jeśli jej się uda, uwalnia się.</p><p>Gdy zaklęcie wygasa, przywołane rośliny więdną.</p>",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     },
                     "effects": {
@@ -716,7 +716,7 @@
                     "materials": "Odrobina jedzenia.",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
@@ -725,7 +725,7 @@
                     "description": "<p>Każdy obiekt w sześcianie o boku 6 metrów w zasięgu czaru zostaje spowity niebieskim, zielonym lub czerwonym światłem (ty wybierasz kolor). Istoty znajdujące się w obszarze działania w chwili rzucania zaklęcia również zostają podświetlone, jeśli nie zdadzą rzutu obronnego na Zręczność. Przez okres trwania czaru od tych istot i obiektów emanuje na 3 metry słabe światło.</p><p>Obiekty i istoty znajdujące się pod wpływem zaklęcia nie czerpią żadnych korzyści ze swojej niewidzialności, a ataki przeciwko nim są przeprowadzane z ułatwieniem, jeśli napastnik jest w stanie zobaczyć cel.</p>",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
@@ -945,7 +945,7 @@
                     "materials": "Ciastko z kremem i pióro, którym machasz w powietrzu",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
@@ -968,7 +968,7 @@
                     "description": "<p>Próbujesz zauroczyć humanoida, którego widzisz w zasięgu czaru. Musi on wykonać rzut obronny na Mądrość, w którym ma ułatwienie, jeśli walczy z tobą lub którymś z twoich towarzyszy. W przypadku niepowodzenia zostaje przez ciebie &Reference[charmed]{zauroczony} na czas trwania zaklęcia lub do momentu, w którym ty lub któryś z twoich towarzyszy zadziałacie na jego szkodę. Zauroczony humanoid postrzega ciebie jako przyjaznego znajomego. Gdy czar dobiega końca, cel ma świadomość, że został przez ciebie zauroczony.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     },
                     "effects": {
@@ -1553,7 +1553,7 @@
                     "description": "<p>Gdy wyciągasz przed siebie rozczapierzone palce dłoni złączonych kciukami, bucha z nich wachlarz płomieni. Każda istota znajdująca się na obszarze stożka o długości 4,5 metra musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 3k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</p><p>Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz zadawane obrażenia o 1k6.</p>",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
@@ -2563,7 +2563,7 @@
                     "description": "<p>Gdy wyciągasz przed siebie rozczapierzone palce dłoni złączonych kciukami, bucha z nich wachlarz płomieni. Każda istota znajdująca się na obszarze stożka o długości 4,5 metra musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 3k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</p><p>Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. zwiększasz zadawane obrażenia o 1k6.</p>",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
@@ -2576,7 +2576,7 @@
                     "description": "<p>Wymawiasz słowo rozkazu, kierując go do istoty, którą widzisz w zasięgu czaru. Musi ona wykonać udany rzut obronny na Mądrość albo w swojej następnej turze wypełnić twoje polecenie. Zaklęcie nie działa na nieumarłych oraz istoty nierozumiejące twojego języka. Rozkaz nie odniesie również skutku, jeśli wykonanie go będzie bezpośrednio zagrażało zauroczonej istocie.</p><p>Poniżej podano kilka typowych rozkazów i ich efekty. Możesz wydać inne polecenie, wówczas MP określa sposób zachowania istoty objętej czarem. Jeżeli cel nie jest w stanie wykonać rozkazu, to zaklęcie się kończy.</p><p><strong>Podejdź.</strong> Cel zaklęcia przemieszcza się w twoim kierunku najkrótszą i najbardziej bezpośrednią drogą, a gdy znajdzie się 1,5 metra od ciebie, jego tura się skończy.</p><p><strong>Puść.</strong> Cel zaklęcia wypuszcza trzymane rzeczy, a jego tura dobiega końca.</p><p><strong>Uciekaj.</strong> Cel zaklęcia przeznacza swoją turę na to, by jak najszybciej oddalić się od ciebie.</p><p><strong>Padnij.</strong> Cel zaklęcia pada powalony na ziemię, a jego tura się kończy.</p><p><strong>Zatrzymaj się.</strong> Cel zaklęcia nie przemieszcza się i nie wykonuje żadnych akcji. Latająca istota zawisa w powietrzu, o ile potrafi. Jeżeli musi się przemieszczać, by zostać w powietrzu, to przebywa minimalną niezbędną do tego odległość.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 2. kręgu, za każdy krąg powyżej 1. możesz objąć nim dodatkową istotę. W momencie rzucania czaru wszystkie cele muszą przebywać w obrębie 9 metrów od siebie.</p>",
                     "activities": {
                         "save": {
-                            "damageOnSave": "połowa"
+                            "damageOnSave": "half"
                         }
                     }
                 },
