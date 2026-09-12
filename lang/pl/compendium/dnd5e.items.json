@@ -158,7 +158,7 @@
                 },
                 "save": {
                     "chatFlavor": "broń improwizowana",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -252,7 +252,7 @@
             "description": "<p>Strzała zguby to magiczna broń przeznaczona do zabijania określonego rodzaju istot. Zastosowanie niektórych jest dokładniej określone; na przykład istnieją zarówno strzały zguby smoków, jak i strzały zguby niebieskich smoków. Jeśli istota należąca do rodzaju, rasy lub grupy związanej ze strzałą zguby otrzyma od niej obrażenia, musi wykonać rzut obronny na Kondycję o ST 17, otrzymując dodatkowe 6k10 obrażeń kłutych w przypadku niepowodzenia lub połowę dodatkowych obrażeń w przypadku udanego rzutu obronnego.<br />Gdy strzała zguby zada istocie dodatkowe obrażenia, staje się strzałą niemagiczną.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -275,7 +275,7 @@
             "description": "<p>Wewnątrz tego ciężkiego płóciennego worka znajduje się [[/r 3d4 #Bag of Beans contents]]{3k4 suchych fasolek}. Worek waży 0,25 kilograma plus 0,125 kilograma za każde znajdujące się w środku ziarno.</p><p>Jeśli wyrzucisz zawartość worka na ziemię, wywołuje ona eksplozję o promieniu 3 metrów rozciągającą się od ziaren. Każda istota na tym obszarze, w tym ty, musi wykonać rzut obronny na Zręczność o ST 15. W przypadku niepowodzenia otrzymuje 5k4 obrażeń od ognia lub połowę obrażeń w przypadku sukcesu. Ogień stworzony tym czarem podpala łatwopalne obiekty, które nie są przez nikogo noszone ani trzymane.</p><p>Jeśli wyjmiesz ziarno z worka, zasadzisz je w ziemi lub piasku, a następnie podlejesz, ziarno wywoła efekt 1 minutę później z ziemi, w której zostało zasadzone. MP może wybrać efekt z tabeli @UUID[Compendium.dnd5e.tables.RollTable.4ryVFV5LPHPzRKxl]{worek fasolek}, określić go losowo lub stworzyć własny.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.4ryVFV5LPHPzRKxl rollable]</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -312,7 +312,7 @@
             "description": "<p>W ramach swojej akcji możesz wysypać z woreczka 1000 małych metalowych kulek, aby pokryć nimi płaską powierzchnię o powierzchni 3 metrów kwadratowych. Stworzenie poruszające się po obszarze pokrytym kulkami musi wykonać rzut obronny na Zręczność o ST 10, albo zostaje powalone. Stworzenie poruszające się przez ten obszar z połową swojej prędkości nie musi wykonywać rzutu obronnego.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -327,7 +327,7 @@
                 "save": {
                     "condition": "jedna broń zadająca obrażenia cięte lub kłute albo do trzech sztuk amunicji",
                     "activationCondition": "jedna broń zadająca obrażenia cięte lub kłute albo do trzech sztuk amunicji",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -356,7 +356,7 @@
             "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ta mała czarna kulka ma 2 cm średnicy i waży 30 gramów. Zazwyczaj znajduje się 1k4 + 4 koralików mocy na raz.</p>\n<p>W ramach akcji możesz rzucić kulką na odległość do 18 metrów. Koralik eksploduje przy uderzeniu i zostaje zniszczony. Każda istota w promieniu 3 metrów od miejsca, w którym wylądował koralik, musi wykonać rzut obronny na Zręczność o ST 15. W przypadku niepowodzenia otrzymuje 5k4 obrażeń od mocy. Następnie obszar ten przez 1 minutę otacza sfera przezroczystej mocy. Każde stworzenie, które poniosło porażkę w rzucie obronnym i znajduje się całkowicie wewnątrz obszaru, zostaje uwięzione w tej sferze. Istoty, które odniosły sukces albo przebywają częściowo w obszarze, zostają wypchnięte na zewnątrz sfery. Przez ściany sfery może przeniknąć tylko powietrze nadające się do oddychania. Nie może przeniknąć żaden atak ani inny efekt.</p>\n<p>Zamknięte stworzenie może użyć swojej akcji, aby naprzeć na ścianę sfery, turlając ją z połową swojej szybkości chodzenia. Sferę można podnieść, a jej magia sprawia, że waży tylko 0,5 kilograma, niezależnie od wagi uwięzionych istot w środku.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -436,7 +436,7 @@
             "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Ponadto, gdy jesteś zestrojony z tą bronią, twoje maksymalne PW zwiększają się o 1 za każdy poziom postaci.</p>\n<p><strong>Klątwa</strong>. Ten topór jest przeklęty, a zestrojenie się z nim rzuca klątwę na ciebie. Dopóki ciąży na tobie klątwa, nie chcesz rozstawać się z toporem i trzymasz go zawsze w zasięgu ręki. Masz również utrudnienie w testach ataku bronią inną niż ta, chyba że w obrębie 18 metrów od ciebie nie ma wroga, którego możesz zobaczyć lub usłyszeć.</p>\n<p>Jeżeli topór znajduje się w twoim posiadaniu, to za każdym razem, gdy wroga istota zada ci obrażenia, musisz wykonać rzut obronny na Mądrość o ST 15. W przypadku niepowodzenia wpadasz w szał. Podczas niego w każdej rundzie musisz przeznaczyć akcję na zaatakowanie tym toporem istoty znajdującej się najbliżej ciebie. Jeśli w ramach akcji Ataku możesz wykonać dodatkowe ataki, to je wykorzystujesz, a gdy twój obecny cel padnie, przechodzisz do atakowania kolejnej najbliższej istoty.</p>\n<p>Jeśli masz wiele możliwych celów, atakujesz jeden losowo. Pozostajesz w szale, dopóki nie zaczniesz swojej tury bez stworzeń, które widzisz lub słyszysz w obrębie 18 metrów od ciebie.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -445,7 +445,7 @@
             "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Ponadto, gdy jesteś zestrojony z tą bronią, twoje maksymalne PW zwiększają się o 1 za każdy poziom postaci.</p>\n<p><strong>Klątwa</strong>. Ten topór jest przeklęty, a zestrojenie się z nim rzuca klątwę na ciebie. Dopóki ciąży na tobie klątwa, nie chcesz rozstawać się z toporem i trzymasz go zawsze w zasięgu ręki. Masz również utrudnienie w testach ataku bronią inną niż ta, chyba że w obrębie 18 metrów od ciebie nie ma wroga, którego możesz zobaczyć lub usłyszeć.</p>\n<p>Jeżeli topór znajduje się w twoim posiadaniu, to za każdym razem, gdy wroga istota zada ci obrażenia, musisz wykonać rzut obronny na Mądrość o ST 15. W przypadku niepowodzenia wpadasz w szał. Podczas niego w każdej rundzie musisz przeznaczyć akcję na zaatakowanie tym toporem istoty znajdującej się najbliżej ciebie. Jeśli w ramach akcji Ataku możesz wykonać dodatkowe ataki, to je wykorzystujesz, a gdy twój obecny cel padnie, przechodzisz do atakowania kolejnej najbliższej istoty.</p>\n<p>Jeśli masz wiele możliwych celów, atakujesz jeden losowo. Pozostajesz w szale, dopóki nie zaczniesz swojej tury bez stworzeń, które widzisz lub słyszysz w obrębie 18 metrów od ciebie.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -454,7 +454,7 @@
             "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni. Ponadto, gdy jesteś zestrojony z tą bronią, twoje maksymalne PW zwiększają się o 1 za każdy poziom postaci.</p>\n<p><strong>Klątwa</strong>. Ten topór jest przeklęty, a zestrojenie się z nim rzuca klątwę na ciebie. Dopóki ciąży na tobie klątwa, nie chcesz rozstawać się z toporem i trzymasz go zawsze w zasięgu ręki. Masz również utrudnienie w testach ataku bronią inną niż ta, chyba że w obrębie 18 metrów od ciebie nie ma wroga, którego możesz zobaczyć lub usłyszeć.</p>\n<p>Jeżeli topór znajduje się w twoim posiadaniu, to za każdym razem, gdy wroga istota zada ci obrażenia, musisz wykonać rzut obronny na Mądrość o ST 15. W przypadku niepowodzenia wpadasz w szał. Podczas niego w każdej rundzie musisz przeznaczyć akcję na zaatakowanie tym toporem istoty znajdującej się najbliżej ciebie. Jeśli w ramach akcji Ataku możesz wykonać dodatkowe ataki, to je wykorzystujesz, a gdy twój obecny cel padnie, przechodzisz do atakowania kolejnej najbliższej istoty.</p>\n<p>Jeśli masz wiele możliwych celów, atakujesz jeden losowo. Pozostajesz w szale, dopóki nie zaczniesz swojej tury bez stworzeń, które widzisz lub słyszysz w obrębie 18 metrów od ciebie.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -499,7 +499,7 @@
             "description": "<p>Bełt zguby to magiczna broń przeznaczona do zabijania określonego rodzaju istot. Niektóre są bardziej specyficzne niż inne; na przykład istnieją zarówno bełty zabijania smoków, jak i bełty zabijania niebieskich smoków. Jeśli istota należąca do rodzaju, rasy lub grupy związanej z bełtem zguby otrzyma od niego obrażenia, musi wykonać rzut obronny na Kondycję o ST 17, otrzymując dodatkowe 6k10 obrażeń kłutych w przypadku niepowodzenia lub połowę dodatkowych obrażeń w przypadku udanego rzutu obronnego.</p>\n<p>Po zadaniu dodatkowych obrażeń, bełt zguby traci swoje magiczne właściwości.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -656,7 +656,7 @@
             "description": "<p>W ramach akcji możesz rozrzucić zawartość pojedynczej torby z kolczatkami, aby pokryć nimi obszar 1,5 x 1.5 metra. Każde stworzenie, które wejdzie na ten obszar, musi wykonać rzut obronny na Zręczność o ST 15. W przypadku niepowodzenia przestaje się poruszać i otrzymuje 1 punkt obrażeń kłutych. Otrzymanie tego obrażenia sprawia, że szybkość stworzenia zostaje zmniejszona o 3 metry, dopóki nie odzyska ono przynajmniej jednego PW. Stworzenie poruszające się przez ten obszar z połową swojej prędkości nie musi wykonywać rzutu obronnego.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -739,7 +739,7 @@
             "description": "<p>Łańcuch ma 10 PW. Można go rozerwać po udanym teście Siły o ST 20.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -986,7 +986,7 @@
             "description": "<p>Zyskujesz premię +1 do testów ataku i rzutów na obrażenia zadawane za pomocą tej magicznej broni.</p>\n<p>W ramach akcji możesz spowodować, że ostrze pokryje gęsta, czarna trucizna. Trucizna pozostaje na ostrzu przez 1 minutę lub do momentu, kiedy trafisz inne stworzenie atakiem przy użyciu tej broni. Trafione stworzenie musi wykonać rzut obronny na Kondycję o ST 15. W przypadku niepowodzenia otrzymuje 2k10 obrażeń od trucizny i zostaje zatruta na 1 minutę. Sztyletu nie można w ten sposób użyć ponownie do następnego świtu</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "Poison Blade": {
                     "name": "Trujące ostrze"
@@ -1036,7 +1036,7 @@
                 "save": {
                     "condition": "Słowo rozkazu.",
                     "activationCondition": "Słowo rozkazu.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1045,7 +1045,7 @@
             "description": "<p><em>Cudowny przedmiot</em></p>\n<p>To pudełko zawiera zestaw pergaminowych kart. Pełna talia liczy 34 karty. W talii zdobytej jako skarb z reguły brakuje 1k20 - 1 kart.<br />Magia talii działa tylko wtedy, gdy karty się losuje (możesz posłużyć się zmodyfikowaną talią prawdziwych kart jako rekwizytem). W ramach akcji możesz wyciągnąć losowo kartę z talii i rzucić ją na ziemię w miejsce znajdujące się w obrębie 9 metrów od siebie.</p>\n<p>Nad kartą pojawia się iluzja jednego lub więcej stworzeń i pozostaje tam, dopóki nie zostanie rozproszona. Iluzoryczne stworzenie wydaje się prawdziwe, ma odpowiedni rozmiar i zachowuje się tak, jakby było prawdziwym stworzeniem, z wyjątkiem tego, że jest nieszkodliwa. Kiedy znajdujesz się w promieniu 36 metrów od iluzorycznej istoty, którą widzisz, możesz w ramach akcji przenieść ją magicznie w dowolne miejsce w obrębie 9 metrów od karty. Każda fizyczna interakcja z iluzorycznym stworzeniem ujawnia, że jest to iluzja, ponieważ przedmioty przez nią przenikają. Jeśli ktoś poświęci akcję, by dokładnie przyjrzeć się istocie, rozpozna w niej iluzję po udanym teście Inteligencji (Śledztwo) o ST 15. Dla niego, stworzenie staje się wówczas półprzezroczyste.</p>\n<p>Iluzja trwa, dopóki jej karta nie zostanie ruszona z miejsca lub iluzja nie zostanie rozproszona. Gdy iluzja się kończy, obrazek na karcie znika i nie można jej ponownie użyć.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Karta do gry</strong></td>\n<td><strong>Iluzji</strong></td>\n</tr>\n<tr>\n<td>As kier</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.ZyIBOoZZD0nDaO2s]{Dorosły czerwony smok}</td>\n</tr>\n<tr>\n<td>Król kier</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.D5UqYD1EnTrJaMTO]{Rycerz} i czterech @UUID[Compendium.dnd5e.monsters.Actor.E9CvDPDg5dFEpVjS]{strażników}</td>\n</tr>\n<tr>\n<td>Dama kier</td>\n<td>Sukkub lub inkub</td>\n</tr>\n<tr>\n<td>Walet kier</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.K15Yl8JmB5iPircc]{Druid}</td>\n</tr>\n<tr>\n<td>Dziesiątka kier</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.Aw2wmqGIatxe2ImI]{Gigant chmurowy}</td>\n</tr>\n<tr>\n<td>Dziewiątka kier</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.KLCkHep28HBfdsky]{Ettin}</td>\n</tr>\n<tr>\n<td>ósemka kier</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.QtJairF0h18BRhEM]{Strachun}</td>\n</tr>\n<tr>\n<td>Dwójka kier</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.TjWQOgI3A4UAl7lC]{Goblin}</td>\n</tr>\n<tr>\n<td>As karo</td>\n<td>Obserwator</td>\n</tr>\n<tr>\n<td>Król karo</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.B7lBOr1AahNZs4a6]{Arcymag} i jego uczeń</td>\n</tr>\n<tr>\n<td>Dama karo</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.xvh2UOKv1bh03Gih]{Nocna wiedźma}</td>\n</tr>\n<tr>\n<td>Walet karo</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.EMvcuOpu7ABCmBWi]{Zabójca}</td>\n</tr>\n<tr>\n<td>Dziesiątka karo</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.45Z5kogZEhawX1Ey]{Gigant ogniowy}</td>\n</tr>\n<tr>\n<td>Dziewiątka karo</td>\n<td>Ogr mag</td>\n</tr>\n<tr>\n<td>ósemka karo</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.R2GPY9BhRmmwZwkh]{Gnoll}</td>\n</tr>\n<tr>\n<td>Dwójka karo</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.5ngbctIMeEnuC1p1]{Kobold}</td>\n</tr>\n<tr>\n<td>As pik</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.bfh29vIEoGzI240e]{Lisz}</td>\n</tr>\n<tr>\n<td>Król pik</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.PVD5wRdyO7iCJPs1]{Kapłan} i dwóch @UUID[Compendium.dnd5e.monsters.Actor.CHEUjiYrVM9X0vIT]{akolitów}</td>\n</tr>\n<tr>\n<td>Walet pik</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.J8xjoG4Dxb8WkHtV]{Weteran}</td>\n</tr>\n<tr>\n<td>Dziesiątka pik</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.Buxe6dDK5Mw7kxe6]{Gigant lodowy}</td>\n</tr>\n<tr>\n<td>Dziewiątka pik</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.ZHAFrnCwCz17dmLc]{Troll}</td>\n</tr>\n<tr>\n<td>ósemka pik</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.6qnT52lZtZblgGw8]{Hobgoblin}</td>\n</tr>\n<tr>\n<td>Dwójka pik</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.TjWQOgI3A4UAl7lC]{Goblin}</td>\n</tr>\n<tr>\n<td>As trefl</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.h98AuPfomEPcCibP]{Żelazny golem}</td>\n</tr>\n<tr>\n<td>Król trefl</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.rb7OJt822wIO52qY]{Kapitan bandytów} i trzech @UUID[Compendium.dnd5e.monsters.Actor.n4TEv7inVUkyZviN]{bandytów}</td>\n</tr>\n<tr>\n<td>Dama trefl</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.3o2rQBqpzjIHmrBW]{Erynia}</td>\n</tr>\n<tr>\n<td>Walet trefl</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{Berserker}</td>\n</tr>\n<tr>\n<td>Dziesiątka trefl</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.9g4N9sjyh8Ql46to]{Gigant wzgórzowy}</td>\n</tr>\n<tr>\n<td>Dziewiątka trefl</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.eIGowKTkEBC9gUzx]{Ogr}</td>\n</tr>\n<tr>\n<td>ósemka trefl</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.HB49mCOVBXwWeKWQ]{Ork}</td>\n</tr>\n<tr>\n<td>Dwójka trefl</td>\n<td>@UUID[Compendium.dnd5e.monsters.Actor.5ngbctIMeEnuC1p1]{Kobold}</td>\n</tr>\n<tr>\n<td>Dżoker (2)</td>\n<td>Ty (właściciel talii)</td>\n</tr>\n</tbody>\n</table>\n<p></p>\n<p></p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1088,7 +1088,7 @@
                 "save": {
                     "condition": "Stworzenie Małe, Średnie lub Duże i musi być obezwładnione.",
                     "activationCondition": "Stworzenie Małe, Średnie lub Duże i musi być obezwładnione.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1170,7 +1170,7 @@
             "description": "<p><em>Cudowny przedmiot</em></p>\n<p>To niewielkie pudełko zawiera 1k6 + 4 szczypt pyłu. W ramach akcji możesz rozsypać jego szczyptę nad wodą. Pył zamienia sześcian wody o boku 4,5 metra w grudkę wielkości szklanej kulki do gry, która pływa lub spoczywa w pobliżu miejsca, w którym został rozsypany pył. Waga bryłki jest znikoma.</p>\n<p>Ktoś może w ramach akcji uderzyć kulką o twardą powierzchnię, powodując jej rozbicie i uwolnienie wody wchłoniętej przez pył. Wówczas magia grudki przestaje działać.</p>\n<p>Żywiołak złożony głównie z wody w zetknięciu z pyłem musi wykonać rzut obronny na Kondycję o ST 13. W przypadku niepowodzenia otrzymuje 10k6 obrażeń nekrotycznych lub połowę obrażeń w przypadku sukcesu.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1179,7 +1179,7 @@
             "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Przechowywany w małym pojemniku proszek, przypomina bardzo drobny piasek. Wygląda jak pył znikania, a czar <em>@UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{identyfikacja}</em> to potwierdza. Jego ilość wystarcza na jedno użycie.</p>\n<p>Kiedy w ramach akcji rzucisz garść pyłu w powietrze, ty oraz każde stworzenie, które musi oddychać w promieniu 9 metrów od ciebie musicie wykonać rzut obronny na Kondycję o ST 15. W przypadku niepowodzenia nie jesteście w stanie oddychać z powodu niekontrolowanego kichania. Istotan w takim stanie dusi się i jest uznawana za obezwładnioną. Dopóki jest przytomna, może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt w przypadku sukcesu. Efekt można również przerwać, rzucając na stworzenie czar @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{mniejsze przywrócenie}.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1310,7 +1310,7 @@
             "description": "<p><em>Cudowny przedmiot</em></p>\n<p><em>Cudowna figurka</em> przedstawia zwierzę i jest wystarczająco mała, by zmieścić się w kieszeni. Jeśli w ramach akcji wypowiesz słowo rozkazu i rzucisz figurkę na ziemię w promieniu 18 metrów od siebie, to figurka ożywa. Jeśli przestrzeń, w której pojawiłoby się stworzenie, jest zajęta przez inne istoty lub obiekt, lub jeśli nie ma wystarczającej ilości miejsca dla stworzenia, posążek nie staje się stworzeniem.</p>\n<p>Stworzenie jest przyjazne wobec ciebie i twoich towarzyszy. Rozumie znane ci języki i jest posłuszne twoim słownym poleceniom. Jeżeli nie wydajesz poleceń, stworzenie ogranicza się do obrony własnej.</p>\n<p>Stworzenie istnieje przez czas określony rodzajem figurki. Po upływie tego czasu stworzenie powraca do postaci posążka. Robi to także, gdy jego PW spadną do 0 albo kiedy w ramach akcji, dotykając go, powtórzysz słowo rozkazu. Gdy stworzenie stanie się na powrót posążkiem, nie można ponownie skorzystać z mocy figurki przez czas określony w jej opisie.</p>\n<p><strong>Kościane kozły</strong>. Te rogowe figurki kozłów zawsze są tworzone w zestawach po trzy. Każda z nich wygląda inaczej i działa inaczej niż pozostałe.</p>\n<p>Kozioł grozy może zmienić się w @UUID[Compendium.dnd5e.monsters.Actor.rjqk7ToMD8sGr3n4]{olbrzymiego kozła} na maksymalnie 3 godziny. Kozioł nie może atakować, ale możesz odłamać jego rogi i użyć ich jako broni. Jeden róg staje się @UUID[Compendium.dnd5e.items.Item.l88FXiodYofrJT8a]{lancą +1}, a drugi @UUID[Compendium.dnd5e.items.Item.bcv7J9culilK68zp]{mieczem długim +2}. Odłamanie rogu wymaga akcji, a broń znika i rogi pojawiają się z powrotem, gdy kozioł powraca do postaci figurki.</p>\n<p>Ponadto, kiedy dosiadasz tego kozła, emanuje on aurą grozy w promieniu 9 metrów. Każda wroga ci istota rozpoczynająca swoją turę w zasięgu aury musi wykonać rzut obronny na Mądrość o ST 15. W przypadku niepowodzenia staje się przerażona kozłem na 1 minutę lub do chwili zmiany kozła w posążek. Przerażona istota może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt w przypadku sukcesu. Po udanym rzucie obronnym staje się ona odporna na aurę kozła przez następne 24 godziny.</p>\n<p>Po użyciu mocy posążka nie można zrobić tego ponownie przez 15 dni.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1473,7 +1473,7 @@
                 "save": {
                     "condition": "Słowo rozkazu.",
                     "activationCondition": "Słowo rozkazu.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1712,7 +1712,7 @@
                 },
                 "Close Wound": {
                     "name": "Zamknij ranę",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1763,7 +1763,7 @@
                 "Giant's Bane (On Crit)": {
                     "name": "Zguba olbrzyma (przy trafieniu krytycznym)",
                     "chatFlavor": "Gigant musi odnieść sukces lub umrze",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "Hurl Hammer": {
                     "name": "Rzut młotem"
@@ -1771,7 +1771,7 @@
                 "Thunderclap": {
                     "name": "Grzmot",
                     "chatFlavor": "Odniesiesz sukces albo zostaniesz ogłuszony",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1891,7 +1891,7 @@
             "description": "<p>Lina ma 2 PW i może zostać rozerwana za pomocą testu Siły o ST 17, niezależnie od tego, czy jest wykonana z konopi, czy z jedwabiu.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1979,7 +1979,7 @@
                 "save": {
                     "condition": "Wypowiedz słowo rozkazu i dmuchnij w róg.",
                     "activationCondition": "Wypowiedz słowo rozkazu i dmuchnij w róg.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "utility": {
                     "condition": "Wypowiedz słowo rozkazu i dmuchnij w róg.",
@@ -2004,7 +2004,7 @@
             "description": "<p>Kiedy w ramach akcji ustawisz pułapkę, tworzy ona stalowy pierścień z ząbkowanymi zębami, który zatrzaskuje się, gdy stworzenie staje na płytce dociskowej w środku. Pułapka jest przymocowana ciężkim łańcuchem do nieruchomego obiektu, takiego jak drzewo lub kołki wbijane w ziemię. Stworzenie, które nadepnie na płytę, musi wykonać rzut obronny na Zręczność o ST 13. W przypadku niepowodzenia otrzymuje 1k4 obrażeń kłutych i przestaje się poruszać. Następnie, dopóki stworzenie nie uwolni się z pułapki, jego ruch jest ograniczony długością łańcucha (zwykle 1 metr długości). Stworzenie może użyć swojej akcji, aby wykonać test Siły o ST 13, uwalniając siebie lub inne stworzenie w swoim zasięgu w przypadku sukcesu. Każdy nieudany test zadaje 1 pkt obrażeń kłutych uwięzionemu stworzeniu.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2027,7 +2027,7 @@
                 "save": {
                     "condition": "Słowo rozkazu.",
                     "activationCondition": "Słowo rozkazu.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2142,7 +2142,7 @@
             "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ta żelazna butelka ma mosiężny korek. W ramach akcji możesz wypowiedzieć słowo rozkazu, obierając za cel istotę, którą widzisz w obrębie 18 metrów od siebie. Jeśli cel pochodzi z innej sfery egzystencji niż ta, w której się znajdujesz, musi wykonać rzut obronny na Mądrość o ST 17. W przypadku niepowodzenia zostaje uwięziony w butelce. Jeśli cel był wcześniej uwięziony przez manierkę, ma ułatwienie w rzucie obronnym. Uwięziona istota pozostaje w butelce do czasu uwolnienia. Butelka może pomieścić tylko jedną istotę na raz. Stworzenie uwięzione w manierce nie musi oddychać, jeść ani pić i nie starzeje się.</p>\n<p>W ramach akcji możesz wyjąć korek i uwolnić istotę, którą zawiera butelka. Uwolnione stworzenie przez 1 godzinę jest przyjazne wobec ciebie i twoich towarzyszy oraz wykonuje twoje polecenia. Jeśli nie wydasz mu żadnego polecenia lub wydasz takie, które może spowodować jego śmierć, ograniczy się do obrony własnej, ale poza tym nie podejmie żadnych działań. Po upływie tego czasu stworzenie zachowuje się zgodnie ze swoim normalnym usposobieniem i charakterem.</p>\n<p>Czar @UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{identyfikacja} ujawnia, że w butelce znajduje się istota, ale jedynym sposobem na ustalenie jej rodzaju jest otwarcie butelki. Nowo znaleziona manierka może już zawierać stworzenie wybrane przez MP lub wylosowane z tabeli @UUID[Compendium.dnd5e.tables.RollTable.JDtZNDaAirupdm2O]{Żelazna manierka}.</p><p></p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2185,7 +2185,7 @@
                 "save": {
                     "condition": "Słowo rozkazu.",
                     "activationCondition": "Słowo rozkazu.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2286,7 +2286,7 @@
             "description": "<p>Zamek stanowi komplet wraz z kluczem. Bez klucza, istota biegła w używaniu narzędzi złodziejskich może otworzyć ten zamek, wykonując udany test Zręczności o ST 15. MP może zdecydować, że dostępne są w sprzedaży lepsze zamki w wyższych cenach.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2364,7 +2364,7 @@
                 },
                 "Close Wound": {
                     "name": "Zamknij ranę",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2418,7 +2418,7 @@
             "activities": {
                 "Save vs Destruction": {
                     "name": "Rzut obronny przeciw unicestwieniu",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "Construct Damage": {
                     "name": "Obrażenia konstruktów"
@@ -2444,7 +2444,7 @@
             "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Ta magiczna broń ma 3 ładunki. Trzymając ją, możesz w ramach akcji wydać 1 ładunek, aby uwolnić falę grozy. Każda wybrana przez ciebie istota w promieniu 9 metrów od ciebie musi wykonać rzut obronny na Mądrość o ST 15. W przypadku niepowodzenia staje się tobą przerażona na 1 minutę.</p>\n<p>Kiedy jest w tym stanie, w każdej swojej turze musi jak najbardziej oddalić się od ciebie i nie może dobrowolnie przemieścić się na miejsce w obrębie 9 metrów od ciebie. Nie może też podejmować reakcji. W ramach swojej akcji może jedynie wykonać Sprint bądź próbować przezwyciężyć efekt ograniczający jej ruch. Jeśli istota nie ma dokąd się wycofać, może używać akcji Uniku. Stworzenie może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt na sobie w przypadku sukcesu.</p>\n<p>Buława codziennie o świcie odzyskuje 1k3 zużytych ładunków.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2564,7 +2564,7 @@
                 "save": {
                     "condition": "Słowo rozkazu. Cel musi widzieć swoje odbicie.",
                     "activationCondition": "Słowo rozkazu. Cel musi widzieć swoje odbicie.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2660,7 +2660,7 @@
             "description": "<p>Te gęsto tkane włókna są wzmocnione do użycia w walce, aby uwięzić i zaplątać nawet najbardziej niebezpiecznych wrogów, czyniąc ich podatnymi na atak inną bronią.</p>\n<p><strong>Specjalna.</strong> Duże lub mniejsze stworzenie trafione przez sieć jest unieruchomione, dopóki nie zostanie uwolnione. Sieć nie działa na stworzenia bezkształtne ani na stworzenia Wielkie lub większe. Stworzenie może użyć swojej akcji, aby wykonać test Siły o ST 10, uwalniając siebie lub inne stworzenie w swoim zasięgu w przypadku sukcesu. Zadanie sieci 5 punktów obrażeń (KP 10) również uwalnia stworzenie bez szkody dla niego, kończąc efekt i niszcząc sieć. Kiedy używasz akcji, akcji dodatkowej lub reakcji na atak siecią, możesz wykonać tylko jeden atak, niezależnie od liczby ataków na turę, które normalnie możesz wykonać.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2669,7 +2669,7 @@
             "description": "<p><em>Czy to dzięki demonicznemu błogosławieństwu, darowi niebianina, szalonemu eksperymentowi, czy też kunsztownemu rzemiosłu, broń ta została wzmocniona, by w rękach swojego właściciela siać jeszcze większy rozlew krwi.</em></p>\n<p>Zyskujesz premię do ataku i obrażeń zadawanych tą magiczną bronią.</p>\n<p><strong>Specjalna.</strong> Duże lub mniejsze stworzenie trafione przez sieć jest unieruchomione, dopóki nie zostanie uwolnione. Sieć nie działa na stworzenia bezkształtne ani na stworzenia Wielkie lub większe. Stworzenie może użyć swojej akcji, aby wykonać test Siły o ST 10, uwalniając siebie lub inne stworzenie w swoim zasięgu w przypadku sukcesu. Zadanie sieci 5 punktów obrażeń (KP 10) również uwalnia stworzenie bez szkody dla niego, kończąc efekt i niszcząc sieć. Kiedy używasz akcji, akcji dodatkowej lub reakcji na atak siecią, możesz wykonać tylko jeden atak, niezależnie od liczby ataków na turę, które normalnie możesz wykonać.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2678,7 +2678,7 @@
             "description": "<p><em>Czy to dzięki demonicznemu błogosławieństwu, darowi niebianina, szalonemu eksperymentowi, czy też kunsztownemu rzemiosłu, broń ta została wzmocniona, by w rękach swojego właściciela siać jeszcze większy rozlew krwi.</em></p>\n<p>Zyskujesz premię do ataku i obrażeń zadawanych tą magiczną bronią.</p>\n<p><strong>Specjalna.</strong> Duże lub mniejsze stworzenie trafione przez sieć jest unieruchomione, dopóki nie zostanie uwolnione. Sieć nie działa na stworzenia bezkształtne ani na stworzenia Wielkie lub większe. Stworzenie może użyć swojej akcji, aby wykonać test Siły o ST 10, uwalniając siebie lub inne stworzenie w swoim zasięgu w przypadku sukcesu. Zadanie sieci 5 punktów obrażeń (KP 10) również uwalnia stworzenie bez szkody dla niego, kończąc efekt i niszcząc sieć. Kiedy używasz akcji, akcji dodatkowej lub reakcji na atak siecią, możesz wykonać tylko jeden atak, niezależnie od liczby ataków na turę, które normalnie możesz wykonać.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2687,7 +2687,7 @@
             "description": "<p><em>Czy to dzięki demonicznemu błogosławieństwu, darowi niebianina, szalonemu eksperymentowi, czy też kunsztownemu rzemiosłu, broń ta została wzmocniona, by w rękach swojego właściciela siać jeszcze większy rozlew krwi.</em></p>\n<p>Zyskujesz premię do ataku i obrażeń zadawanych tą magiczną bronią.</p>\n<p><strong>Specjalna.</strong> Duże lub mniejsze stworzenie trafione przez sieć jest unieruchomione, dopóki nie zostanie uwolnione. Sieć nie działa na stworzenia bezkształtne ani na stworzenia Wielkie lub większe. Stworzenie może użyć swojej akcji, aby wykonać test Siły o ST 10, uwalniając siebie lub inne stworzenie w swoim zasięgu w przypadku sukcesu. Zadanie sieci 5 punktów obrażeń (KP 10) również uwalnia stworzenie bez szkody dla niego, kończąc efekt i niszcząc sieć. Kiedy używasz akcji, akcji dodatkowej lub reakcji na atak siecią, możesz wykonać tylko jeden atak, niezależnie od liczby ataków na turę, które normalnie możesz wykonać.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2703,7 +2703,7 @@
                     "name": "Rzut przeciw śmierci",
                     "condition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
                     "activationCondition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2719,7 +2719,7 @@
                     "name": "Rzut przeciw śmierci",
                     "condition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
                     "activationCondition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2735,7 +2735,7 @@
                     "name": "Rzut przeciw śmierci",
                     "condition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
                     "activationCondition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2751,7 +2751,7 @@
                     "name": "Rzut przeciw śmierci",
                     "condition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
                     "activationCondition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2767,7 +2767,7 @@
                     "name": "Rzut przeciw śmierci",
                     "condition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
                     "activationCondition": "Trafienie krytyczne w stworzenie o 100 lub mniej punktach wytrzymałości. Nieumarli i konstrukty są niepodatne.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2815,7 +2815,7 @@
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>W minionych wiekach elfy i ludzie toczyli straszną wojnę ze złymi smokami. Kiedy świat wydawał się zgubiony, magowie zebrali się i przy użyciu swych najpotężniejszych czarów stworzyli pięć Smoczych Kul (albo Kul Smoków), by pomogły im pokonać smoki. Po jednej kuli zabrano do każdej z pięciu wież, gdzie użyto ich w celu przyspieszenia zwycięskiego końca wojny. Magowie użyli kul jako przynęty na smoki, po czym zniszczyli te smoki potężną magią.</p>\n<p>Gdy w późniejszych wiekach wieże magów upadły, kule zostały zniszczone lub stały się legendą. Uważa się, że przetrwały tylko trzy z nich. Na przestrzeni wieków ich moc uległa wypaczeniu i zniekształceniu, i choć ich podstawowa funkcja przyzywania smoków nadal działa, to kule pozwalają też częściowo kontrolować smoki.</p>\n<p>Każda kula zawiera esencję złego smoka, która stara się udaremnić wszelkie próby pozyskania magii kuli. Ci, którym nie wystarcza siły osobowości, mogą zostać zniewoleni przez kulę.</p>\n<p>Kula jest oszlifowaną kryształową sferą o średnicy około 25 cm. Aktywowana rośnie do około 50 cm średnicy, a wewnątrz niej wiruje mgła.</p>\n<p>Kiedy zestroisz się z kulą, możesz w ramach akcji spojrzeć w głąb niej i wymówić jej słowo rozkazu. Następnie musisz wykonać test Charyzmy o ST 15. Udany rzut oznacza, że przejmujesz kontrolę nad kulą na tak długo, jak długo trwa zestrojenie. W przypadku niepowodzenia zostajesz zauroczony przez kulę na czas zestrojenia.</p>\n<p>Kiedy jesteś zauroczony przez kulę, nie możesz dobrowolnie zakończyć zestrojenia z nią, zaś ona rzuca na ciebie bez ograniczeń czar @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{sugestia} (ST rzutu obronnego 18) i nakazuje działania prowadzące ku realizacji jej złych zamiarów. Smocza esencja zamknięta w kuli może domagać się wielu rzeczy: zniszczenia określonego ludu, uwolnienia z kuli, szerzenia cierpienia na świecie, wzmocnienia kultu Tiamat albo czegoś innego, co wymyśli MP.</p>\n<h3 id=\"random-properties\"><strong>Losowe właściwości</strong>. Smocza kula  ma następujące losowe właściwości (patrz: Podręcznik Mistrza Podziemi, str. 226-227):</h3>\n<ul>\n<li>2 pomniejsze korzystne właściwości</li>\n<li>1 pomniejsza niekorzystna właściwość</li>\n<li>1 większa niekorzystna właściwość</li>\n</ul>\n<h3 id=\"spells\"><strong>Czary</strong>. Kula ma 7 ładunków i codziennie o świcie odzyskuje 1k4 + 3 zużytych ładunków. Jeśli kontrolujesz kulę, możesz w ramach akcji zużyć 1 lub więcej ładunków, aby rzucić jeden z następujących czarów (ST rzutu obronnego 18):</h3>\n<ul>\n<li>@UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{leczenie ran} (wersja z 5. kręgu, 3 ładunki)</li>\n<li>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{światło dnia} (1 ładunek)</li>\n<li>@UUID[Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb]{osłona przed śmiercią} (2 ładunki)</li>\n<li>@UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{wizja} (3 ładunki).</li>\n<li>Możesz również w ramach akcji rzucić czar @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{wykrycie magii} bez zużywania ładunków.</li>\n</ul>\n<p><strong>Wezwanie smoków</strong>. Jeżeli masz władzę nad kulą, możesz w ramach akcji sprawić, że artefakt wyda telepatyczne wezwanie rozchodzące się na 60 kilometrów we wszystkich kierunkach. Złe smoki w jego zasięgu czują przymus jak najszybszego dotarcia do kuli najkrótszą możliwą drogą. Smocze bóstwa, takie jak Tiamat, są niewrażliwe na to wezwanie. Smoki wezwane mocą kuli mogą być wrogie wobec ciebie, ponieważ zmuszasz je do przybycia wbrew ich woli. Nie możesz ponownie skorzystać z tej właściwości przed upływem 1 godziny.</p>\n<p><strong>Zniszczenie kuli</strong>. Smocza Kula wydaje się delikatna, ale jest niewrażliwa na większość obrażeń, w tym na ataki i zionięcia smoków. Do jej zniszczenia wystarczy jednak czar @UUID[Compendium.dnd5e.spells.Item.HBHbOGKNVVprSlwn]{dezintegracja} albo jeden porządny cios magiczną bronią +3.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2912,7 +2912,7 @@
                 "save": {
                     "condition": "Biegłość w posługiwaniu się instrumentami dętymi.",
                     "activationCondition": "Biegłość w posługiwaniu się instrumentami dętymi.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2927,7 +2927,7 @@
                 "save": {
                     "condition": "Biegłość w posługiwaniu się instrumentami dętymi.",
                     "activationCondition": "Biegłość w posługiwaniu się instrumentami dętymi.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2986,7 +2986,7 @@
             "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Ta delikatna czarna tkanina jest miękka jak jedwab i daje się złożyć do rozmiarów chusteczki. Rozkłada się w okrągły arkusz o średnicy 1,8 metra.</p>\n<p>Możesz użyć akcji, aby rozwinąć przenośną dziurę i umieścić ją na twardej powierzchni, w której przenośna dziura utworzy pozawymiarowy otwór o głębokości 3 metrów. Cylindryczna przestrzeń wewnątrz otworu istnieje w innej sferze egzystencji, więc nie można jej użyć do tworzenia przejść. Każde stworzenie wewnątrz otwartej przenośnej dziury może wyjść z niej, wspinając się na zewnątrz.</p>\n<p>W ramach akcji możesz zamknąć przenośną dziurę, chwytając krawędzie tkaniny i składając ją. Złożenie tkaniny zamyka otwór, a wszelkie stworzenia lub obiekty wewnątrz pozostają w przestrzeni pozawymiarowej. Bez względu na to, co jest w środku, dziura nie waży prawie nic.</p>\n<p>Jeśli otwór jest złożony, istota w przestrzeni pozawymiarowej otworu może w ramach akcji wykonać test Siły o ST 10. W przypadku sukcesu istota wydostaje się i pojawia się w odległości 1,5 metra od przenośnej dziury lub niosącego ją stworzenia. Oddychająca istota zamknięta w przenośnej dziurze może wytrzymać do 10 minut, po czym zaczyna się dusić.</p>\n<p>Umieszczenie przenośnej dziury wewnątrz pozawymiarowej przestrzeni stworzonej przez wygodny plecak Hewarda, torbę przechowywania albo podobny przedmiot natychmiast niszczy oba przedmioty i otwiera bramę do Sfery Astralnej. Brama powstaje tam, gdzie jeden przedmiot został umieszczony wewnątrz drugiego. Każda istota znajdująca się w promieniu 3 metrów od bramy zostaje przez nią wciągnięta i pojawia się w przypadkowym miejscu w Sferze Astralnej. Następnie brama się zamyka. Brama prowadzi tylko w jedną stronę i nie można jej ponownie otworzyć.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3005,7 +3005,7 @@
                 "save": {
                     "condition": "Bestia musi mieć Inteligencję 3 lub niższą.",
                     "activationCondition": "Bestia musi mieć Inteligencję 3 lub niższą.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3099,7 +3099,7 @@
             "description": "<p><em>Ta mikstura wygląda, pachnie i smakuje jak mikstura leczenia lub inny korzystny eliksir.</em></p><p>W rzeczywistości jest to jednak trucizna zamaskowana magią iluzji. Czar identyfikacja ujawnia jej prawdziwą naturę.</p><p>Jeśli ją wypijesz, otrzymujesz [[/damage]]{3d6 obrażeń od trucizny} i musisz wykonać [[/save]]{rzut obronny na Kondycję}. W przypadku niepowodzenia stajesz się &Reference[poisoned]{zatruty}. Na początku każdej swojej tury, gdy jesteś zatruty w ten sposób, otrzymujesz [[/damage]]{3d6 obrażeń od trucizny}. Na koniec każdej swojej tury możesz powtórzyć rzut obronny. Udany rzut zmniejsza obrażenia od trucizny o 1k6 w kolejnych turach. Trucizna przestaje działać, gdy zadawane obrażenia spadną do 0.</p><section class=\"secret\" id=\"secret-zrLCcwvOwukVWTvT\"><p>Dla wygody możesz użyć przycisków ([[/damage 2d6 poison]] lub [[/damage 1d6 poison]]), aby wykonać rzut na obrażenia dla zmniejszonych obrażeń.</p></section>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3226,7 +3226,7 @@
                 },
                 "Close Wound": {
                     "name": "Zamknij ranę",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3463,7 +3463,7 @@
             "activities": {
                 "Shooting Star": {
                     "name": "Spadająca gwiazda",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3547,7 +3547,7 @@
             "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>Kiedy nosisz ten pierścień, możesz w ramach akcji wypowiedzieć jego słowo rozkazu. Gdy to zrobisz, przez 1 minutę możesz patrzeć wgłąb i przez ciała stałe. Zasięg tego widzenia to 9 metrów. Dla ciebie lite obiekty w tym zasięgu wydają się przezroczyste i nie blokują przechodzącego przez nie światła. Prześwietlenie może przeniknąć 30 centymetrów kamienia, 2,5 centymetra zwykłego metalu albo do 90 centymetrów drewna lub ziemi. Materiały o większej grubości blokują widzenie, podobnie jak cienka warstwa ołowiu.</p>\n<p>Za każdym razem, gdy ponownie użyjesz pierścienia przed ukończeniem długiego odpoczynku, musisz wykonać rzut obronny na Kondycję o ST 15. W przypadku niepowodzenia otrzymujesz jeden poziom wyczerpania.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3559,13 +3559,13 @@
                     "name": "Rzut obronny przeciw zaklęciu światło",
                     "condition": "Na szatę rzucono czar światło",
                     "activationCondition": "Na szatę rzucono czar światło",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "Save vs. Daylight": {
                     "name": "Rzut obronny przeciw zaklęciu światło dnia",
                     "condition": "W obrębie 1,5 metra od szaty rzucono czar światło dnia",
                     "activationCondition": "W obrębie 1,5 metra od szaty rzucono czar światło dnia",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3574,7 +3574,7 @@
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia)</em></p>\n<p>Ta szata ma 3 ładunki i codziennie o świcie odzyskuje 1k3 zużytych ładunków. Kiedy ją nosisz, możesz w ramach akcji wydać 1 ładunek, aby szata zaczęła migotać olśniewającymi barwami do końca twojej następnej tury. W tym czasie szata rzuca jasne światło w promieniu 9 metrów i słabe światło na dodatkowe 9 metrów. Istoty, które cię widzą, mają utrudnienie w testach ataku przeciwko tobie. Ponadto każda istota w jasnym świetle, która widzi cię w momencie, kiedy moc szaty jest aktywowana, musi wykonać rzut obronny na Mądrość o ST 15. W przypadku niepowodzenia zostaje ogłuszona do chwili, aż zakończy się efekt działania szaty.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3639,7 +3639,7 @@
             "description": "<p><em>(Wymaga zestrojenia)</em></p>\n<p>W ramach akcji możesz okazać berło i nakazać posłuszeństwo każdej wybranej przez siebie istocie, którą widzisz w obrębie 36 metrów od siebie. Każdy cel musi wykonać rzut obronny na Mądrość o ST 15. W przypadku niepowodzenia zostaje przez ciebie zauroczony na 8 godzin. Zauroczone w ten sposób stworzenie uważa cię za swojego zaufanego przywódcę. Jeśli cel zostanie skrzywdzony przez ciebie lub twoich towarzyszy albo otrzyma rozkaz zrobienia czegoś sprzecznego z jego naturą, wyzwala się z tego efektu. Berła nie można użyć ponownie do następnego świtu.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3664,7 +3664,7 @@
                 "save": {
                     "condition": "Słowo rozkazu.",
                     "activationCondition": "Słowo rozkazu.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3772,7 +3772,7 @@
                 },
                 "Close Wound": {
                     "name": "Zamknij ranę",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3862,7 +3862,7 @@
             "activities": {
                 "Close Wound": {
                     "name": "Zamknij ranę",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "Wound Damage": {
                     "name": "Obrażenia od rany",
@@ -3953,7 +3953,7 @@
             "description": "<p>Pocisk zguby to magiczna broń przeznaczona do zabijania określonego rodzaju istot. Zastosowanie niektórych jest dokładniej określone; na przykład istnieją zarówno pociski zguby smoków, jak i pociski zguby niebieskich smoków. Jeśli istota należąca do rodzaju, rasy lub grupy związanej z pociskiem zguby otrzyma od niego obrażenia, musi wykonać rzut obronny na Kondycję o ST 17, otrzymując dodatkowe 6k10 obrażeń obuchowych w przypadku niepowodzenia lub połowę dodatkowych obrażeń w przypadku udanego rzutu obronnego.</p>\n<p>Po zadaniu dodatkowych obrażeń, pocisk zguby traci swoje magiczne właściwości.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -4060,7 +4060,7 @@
                 "save": {
                     "condition": "Niekontrolowana sfera wymaga testu Inteligencji (Wiedza tajemna) o ST 25.",
                     "activationCondition": "Niekontrolowana sfera wymaga testu Inteligencji (Wiedza tajemna) o ST 25.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -4147,7 +4147,7 @@
                 },
                 "Retributive Strike": {
                     "name": "Karzące uderzenie",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -4176,7 +4176,7 @@
             "activities": {
                 "Retributive Strike": {
                     "name": "Karzące uderzenie",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "Absorb Spell": {
                     "name": "Wchłonięcie czaru",
@@ -4226,7 +4226,7 @@
             "description": "<p><em>(Wymaga zestrojenia)</em></p><p>Kostur ma 3 ładunki i każdego dnia o świcie odzyskuje 1k3 zużytych ładunków.</p><p>Kostur może być używany jako magiczny drąg. Przy trafieniu zadaje obrażenia jak zwykły drąg, a ty możesz zużyć 1 ładunek, aby zadać celowi [[/damage 2d10 necrotic]]{dodatkowe 2k10 obrażeń nekrotycznych}. Ponadto cel musi wykonać rzut obronny na Kondycję o ST 15. W przypadku niepowodzenia przez 1 godzinę ma utrudnienie w każdym teście cechy lub rzutach obronnych opartych na Sile lub Kondycji.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "Wither": {
                     "name": "Obumieranie",
@@ -4294,7 +4294,7 @@
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia z istotą o dobrym charakterze)</em></p>\n<p>Ten talizman jest potężnym symbolem dobroci. Stworzenie, które nie ma ani dobrego ani złego charakteru, otrzymuje 6k6 obrażeń od światłości po dotknięciu talizmanu. Zła istota otrzymuje 8k6 obrażeń od światłości po dotknięciu talizmanu. Oba rodzaje stworzeń otrzymują obrażenia ponownie za każdym razem, gdy kończą swoją turę, trzymając lub mając na sobie talizman.</p>\n<p>Jeśli jesteś klerykiem lub paladynem o dobrym charakterze, możesz użyć talizmanu jako świętego symbolu i zyskujesz premię +2 do testów ataku czarem, gdy go nosisz lub trzymasz.</p>\n<p>Talizman ma 7 ładunków. Jeśli go nosisz lub trzymasz, możesz w ramach akcji zużyć 1 ładunek talizmanu i wybrać jedną istotę, którą widzisz na ziemi w obrębie 36 metrów od siebie. Jeśli cel jest złego charakteru, otwiera się pod nim płonąca rozpadlina. Cel musi wykonać rzut obronny na Zręczność o ST 20. W przypadku niepowodzenia wpada do szczeliny i zostaje unicestwiony, nie pozostawiając po sobie żadnych szczątków. Następnie rozpadlina zamyka się, nie pozostawiając po sobie śladu. Kiedy zużyjesz ostatni ładunek, talizman rozprasza się w iskierki złotego światła i zostaje zniszczony.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -4312,7 +4312,7 @@
             "description": "<p><em>Cudowny przedmiot (wymaga zestrojenia z istotą o złym charakterze)</em></p>\n<p>Ten przedmiot jest symbolem nieprzejednanego zła. Stworzenie, które nie ma ani dobrego ani złego charakteru, otrzymuje 6k6 obrażeń nekrotycznych po dotknięciu talizmanu. Dobra istota otrzymuje 8k6 obrażeń nekrotycznych po dotknięciu talizmanu. Oba rodzaje stworzeń otrzymują obrażenia ponownie za każdym razem, gdy kończą swoją turę, trzymając lub mając na sobie talizman.</p>\n<p>Jeśli jesteś klerykiem lub paladynem o złym charakterze, możesz użyć talizmanu jako świętego symbolu i zyskujesz premię +2 do testów ataku czarem, gdy go nosisz lub trzymasz.</p>\n<p>Talizman ma 6 ładunków. Jeśli go nosisz lub trzymasz, możesz w ramach akcji zużyć 1 ładunek z talizmanu i wybrać jedną istotę, którą widzisz na ziemi w obrębie 36 metrów od siebie. Jeśli cel jest dobrego charakteru, otwiera się pod nim płonąca rozpadlina. Cel musi wykonać rzut obronny na Zręczność o ST 20. W przypadku niepowodzenia wpada do szczeliny i zostaje unicestwiony, nie pozostawiając po sobie żadnych szczątków. Następnie rozpadlina zamyka się, nie pozostawiając po sobie śladu. Kiedy zużyjesz ostatni ładunek, talizman rozpuszcza się w cuchnący szlam i zostaje zniszczony.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -4403,7 +4403,7 @@
             "description": "<p>Istota poddana działaniu tej trucizny musi wykonać  [[/save]]{rzut obronny na Kondycję}. W przypadku niepowodzenia staje się &Reference[poisoned]{zatruta} na 1 godzinę. Zatruta istota nie może świadomie kłamać, tak jakby działał na nią czar @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Strefa prawdy}.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -4615,7 +4615,7 @@
             "activities": {
                 "Cone of Fear": {
                     "name": "Stożek grozy",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -4640,7 +4640,7 @@
             "description": "<p><em>Różdżka (wymaga zestrojenia z rzucającym czary)</em></p><p>Różdżka ma 7 ładunków. Kiedy ją trzymasz, możesz w ramach akcji zużyć 1 ładunek, by z jej czubka wystrzelił cienki, niebieski promień w stronę istoty, którą widzisz w promieniu 18 metrów od siebie. Cel musi wykonać rzut obronny na Kondycję o ST 15. W przypadku niepowodzenia zostaje sparaliżowany na 1 minutę. Stworzenie może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt na sobie w przypadku sukcesu.</p><p>Różdżka codziennie o świcie odzyskuje 1k6 + 1 zużytych ładunków. Jeśli zużyjesz ostatni ładunek różdżki, rzuć k20. Przy wyniku 1, różdżka rozsypuje się w pył i jest zniszczona.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -4698,7 +4698,7 @@
             "description": "<p><em>Różdżka (wymaga zestrojenia z rzucającym czary)</em></p><p>Różdżka ma 7 ładunków. Kiedy ją trzymasz, możesz w ramach akcji zużyć 1 z jej ładunków i wybrać cel w promieniu 36 metrów od siebie. Może to być stworzenie, przedmiot lub punkt w przestrzeni. Rzuć na tabelę @UUID[Compendium.dnd5e.tables.RollTable.X03rbSjVcNNJNqa8]{różdżka cudów}, aby dowiedzieć się, co się stanie.</p><p>Jeśli efekt powoduje, że rzucasz czar z różdżki, ST rzutu obronnego czaru wynosi 15. Jeśli czar ma zasięg wyrażony w metrach, jego zasięg wynosi 36 m, jeśli wcześniej był inny. Jeśli efekt jest obszarowy, musisz wycelować w jego środek i objąć nim cel. Jeśli efekt ma wiele możliwych celów, MP losowo określa, które z nich zostaną nim objęte.</p><p>Różdżka codziennie o świcie odzyskuje 1k6 + 1 zużytych ładunków. Jeśli zużyjesz ostatni ładunek różdżki, rzuć k20. Przy wyniku 1, różdżka rozsypuje się w pył i jest zniszczona.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "Slow (1–5)": {
                     "name": "Spowolnienie (1-5)"
@@ -4798,7 +4798,7 @@
             "description": "<p><em>Cudowny przedmiot</em></p>\n<p>Kiedy trzymasz ten wachlarz, możesz w ramach akcji rzucić za jego pomocą czar @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{poryw wiatru} (ST rzutu obronnego 13). Po użyciu wachlarza nie powinno się tego robić ponownie do następnego świtu. Za każdym razem, gdy zostanie użyty przed tym czasem, istnieje skumulowana 20 procentowa szansa, że nie zadziała i rozpadnie się na bezużyteczne, niemagiczne strzępy.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
