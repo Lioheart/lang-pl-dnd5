@@ -215,7 +215,7 @@
             "requirements": "Czarownik 7",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -265,7 +265,7 @@
             "requirements": "Czarownik 15, Pakt Łańcucha",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -296,7 +296,7 @@
             "requirements": "Przysięga Gorliwości 3",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -308,7 +308,7 @@
                 "save": {
                     "condition": "Cele muszą cię widzieć lub słyszeć.",
                     "activationCondition": "Cele muszą cię widzieć lub słyszeć.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -480,7 +480,7 @@
                 "save": {
                     "condition": "Wymaga to również 5 punktów zaklinania.",
                     "activationCondition": "Wymaga to również 5 punktów zaklinania.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -510,7 +510,7 @@
             "requirements": "Czarownik 7",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -833,7 +833,7 @@
             "requirements": "Ścieżka Berserkera 10",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -929,7 +929,7 @@
             "requirements": "Czarownik 5",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -979,7 +979,7 @@
             "requirements": "Krąg ziemi 14",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1123,7 +1123,7 @@
                 "save": {
                     "condition": "Tylko zakończenie wibracji ze szkodą wymaga akcji.",
                     "activationCondition": "Tylko zakończenie wibracji ze szkodą wymaga akcji.",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1153,7 +1153,7 @@
             "requirements": "Barbarzyńca 11",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1203,7 +1203,7 @@
             "requirements": "Czarownik 7",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1223,7 +1223,7 @@
             "requirements": "Czarownik 5",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1303,7 +1303,7 @@
             "requirements": "Mnich 5",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1359,7 +1359,7 @@
             "requirements": "Czarownik 2",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1394,7 +1394,7 @@
             "requirements": "Droga otwartej dłoni 11",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
