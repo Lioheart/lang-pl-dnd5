@@ -120,7 +120,7 @@
             "requirements": "Czarny drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -130,7 +130,7 @@
             "requirements": "Niebieski drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -140,7 +140,7 @@
             "requirements": "Mosiężny drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -150,7 +150,7 @@
             "requirements": "Spiżowy drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -160,7 +160,7 @@
             "requirements": "Miedziany drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -170,7 +170,7 @@
             "requirements": "Złoty drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -180,7 +180,7 @@
             "requirements": "Zielony drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -190,7 +190,7 @@
             "requirements": "Czerwony drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -200,7 +200,7 @@
             "requirements": "Srebrny drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -210,7 +210,7 @@
             "requirements": "Biały drakon",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
