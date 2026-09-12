@@ -188,7 +188,7 @@
             "materials": "Grudka ałunu nasączonego octem dla efektu antypatii lub kropla miodu dla efektu sympatii.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -261,7 +261,7 @@
             "materials": "Przedmiot obrzydliwy dla celu czaru",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -296,7 +296,7 @@
             "description": "<p>Dotykasz stworzenia, które musi wykonać udany rzut obronny na Mądrość albo zostanie przeklęte na czas trwania zaklęcia. Gdy rzucasz czar, ustalasz naturę klątwy, wybraną spośród następujących możliwości:</p>\n<ul>\n<li>Wybierasz dowolną cechę, w której testach i rzutach obronnych przeklęta istota będzie miała utrudnienie.</li>\n<li>Przeklęta istota ma utrudnienie w testach ataku przeciw tobie.</li>\n<li>Przeklęta istota na początku każdej swojej tury wykonuje rzut obronny na Mądrość. W przypadku niepowodzenia nie robi nic w ramach swojej akcji w tej turze.</li>\n<li>Twoje ataki i zaklęcia zadają przeklętej istocie dodatkowe 1k8 obrażeń nekrotycznych.</li>\n</ul>\n<p>Efekt ten można usunąć czarem zdjęcie klątwy. Za zgodą MP możesz nałożyć klątwę o innym efekcie, przy czym nie powinien być on potężniejszy od tych opisanych powyżej. W kwestii działania takiej klątwy ostateczna decyzja należy do MP.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 4. kręgu, wydłużasz czas działania czaru do 10 minut (przy koncentracji). Jeśli używasz komórki co najmniej 5. kręgu, zaklęcie trwa 8 godzin. Jeśli używasz komórki co najmniej 7. kręgu, zaklęcie trwa 24 godziny. Jeśli używasz komórki 9. kręgu, zaklęcie trwa aż do momentu rozproszenia. Czar ten rzucony z komórki co najmniej 5. kręgu będzie trwał bez potrzeby koncentracji.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -344,7 +344,7 @@
             "materials": "Fragment macki olbrzymiej ośmiornicy lub olbrzymiej kałamarnicy.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -359,7 +359,7 @@
             "description": "<p>Formujesz z magicznej energii pionową ścianę groźnych wirujących ostrzy, która pojawia się w zasięgu i utrzymuje do wygaśnięcia czasu. Możesz stworzyć prostą barierę o długości do 30 metrów, wysokości 6 metrów i grubości 1,5 metra albo barierę w kształcie pierścienia mającą średnicę do 18 metrów, wysokość 6 metrów i grubość 1,5 metra. Ściana zapewnia trzy czwarte osłony istotom znajdującym się za nią i stanowi trudny teren.</p><p>Gdy istota wejdzie w obszar bariery po raz pierwszy w swojej turze albo rozpocznie tam turę, musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 6k10 obrażeń ciętych. Udany rzut zmniejsza obrażenia o połowę.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -384,7 +384,7 @@
             "description": "<p>Nekrotyczna energia oblepia istotę, którą wskażesz w zasięgu czaru, pozbawiając jej ciało wilgoci i żywotności. Ofiara musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia otrzymuje 8k8 obrażeń nekrotycznych. Udany rzut zmniejsza obrażenia o połowę. Zaklęcie nie działa na konstrukty i nieumarłych.</p><p>Jeśli celem zaklęcia jest magiczna roślina lub stworzenie typu roślinnego, to rzut obronny przeprowadza z utrudnieniem, a zaklęcie zadaje maksymalne obrażenia.</p><p>Jeżeli zaś celem zaklęcia jest zwykła roślina nierozumna, na przykład drzewo czy krzew, to nie wykonuje ona rzutu obronnego, lecz od razu więdnie i umiera.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 5. kręgu, za każdy krąg powyżej 4. zwiększasz zadawane obrażenia o 1k8.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -393,7 +393,7 @@
             "description": "<p>Możesz pozbawić przeciwnika wzroku lub słuchu. Wybierasz istotę, którą widzisz w zasięgu czaru; musi ona wykonać rzut obronny na Kondycję. W przypadku niepowodzenia staje się &Reference[blinded]{oślepiona} albo &Reference[deafened]{ogłuchła} (zgodnie z twoim wyborem) na czas działania zaklęcia. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Kondycję. Po udanym rzucie obronnym zaklęcie się kończy.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 3. kręgu, za każdy krąg powyżej 2. możesz objąć zaklęciem dodatkową istotę.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -425,7 +425,7 @@
             "activities": {
                 "Cast": {
                     "name": "Rzuć czar",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -434,7 +434,7 @@
             "description": "<p>W punkcie, który widzisz w zasięgu czaru bezpośrednio nad sobą, przywołujesz burzową chmurę w kształcie walca o wysokości 3 metrów i promieniu 18 metrów. Zaklęcie nie udaje się, jeżeli nie możesz zobaczyć punktu, w którym powinna pojawić się chmura (na przykład przebywasz w zbyt małym pomieszczeniu).</p><p>Gdy rzucasz zaklęcie, wybierasz punkt znajdujący się pod chmurą, który widzisz. Z chmury wylatuje piorun i uderza w wybrane miejsce. Każda istota znajdująca się do 1,5 metra od niego musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 3k10 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę. W każdej ze swoich tur do końca działania czaru możesz wykorzystać swoją akcję, by ponownie wezwać błyskawicę i uderzyć ten sam lub inny punkt.</p><p>Gdy rzucasz to zaklęcie, przebywając na zewnątrz przy burzowej pogodzie, możesz przejąć kontrolę nad istniejącą burzą zamiast wywoływać nową. W takim przypadku obrażenia z tego zaklęcia wzrastają o 1k10.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 4. kręgu, za każdy krąg powyżej 3. zwiększasz zadawane obrażenia o 1k10.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -443,7 +443,7 @@
             "description": "<p>Próbujesz stłumić silne emocje u grupy osób. Każdy humanoid znajdujący się w obszarze sfery o promieniu 6 metrów wokół wybranego przez ciebie punktu w zasięgu czaru musi wykonać rzut obronny na Charyzmę, przy czym może zdecydować się na porażkę w tym rzucie. W przypadku nie powodzenia wybierasz jeden z dwóch poniższych efektów. Możesz stłumić dowolny efekt powodujący zauroczenie lub przerażenie celu. Gdy twoje zaklęcie przestanie działać, wygaszony efekt powraca, o ile w międzyczasie sam nie dobiegnie końca.</p><p>Drugi efekt czaru sprawia, że jego cel staje się obojętny na wybrane istoty, wobec których był wrogi. Obojętność ta skończy się, gdy cel zaklęcia zostanie zaatakowany, skrzywdzony czarem lub gdy będzie świadkiem krzywdzenia jego przyjaciół. Gdy czar dobiega końca, uspokojona istota ponownie staje się wroga, chyba że MP zdecyduje inaczej.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -453,7 +453,7 @@
             "materials": "Trochę futra, kawałek bursztynowego, szklanego lub kryształowego pręta, oraz trzy srebrne szpilki.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -494,7 +494,7 @@
             "materials": "Sproszkowana czarna perła o wartości co najmniej 500 sz.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -513,7 +513,7 @@
             "description": "<p>Przywołujesz obłok trującej, żółtozielonej mgły w kształcie sfery o promieniu 6 metrów z punktem wyjścia w wybranym miejscu w zasięgu czaru. Mgła rozprzestrzenia się za rogi i załomy. Utrzymuje się do końca działania czaru, chyba że wcześniej zostanie rozwiana silnym wiatrem, co również kończy zaklęcie. Obszar staje się pozbawiony widoczności.</p><p>Stworzenie wchodzące w obszar mgły po raz pierwszy w swojej turze lub rozpoczynające w niej swoją turę musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia otrzymuje 5k8 obrażeń od trucizny. Udany rzut zmniejsza obrażenia o połowę. Zaklęcie działa nawet, gdy objęte nim istoty wstrzymają oddech lub nie muszą oddychać.</p><p>Na początku każdej twojej tury mgła oddala się od ciebie o 3 metry, przelewając się po powierzchni gruntu. Opary są cięższe od powietrza, więc spływają na niższe poziomy, również przez otwory.</p><p><strong>Na wyższych kręgach. </strong>Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 6. kręgu, za każdy krąg powyżej 5. zwiększasz zadawane obrażenia o 1k8.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -579,7 +579,7 @@
             "description": "<p>Słyszące cię istoty, które wybierzesz spośród widzianych w zasięgu czaru, muszą wykonać rzut obronny na Mądrość. Stworzenia niepodatne na zauroczenie odnoszą automatyczny sukces. W przypadku niepowodzenia cel podlega działaniu czaru. Do końca trwania zaklęcia możesz wykorzystać akcję dodatkową, by wskazać poziomy (dla ciebie) kierunek. Wszystkie objęte czarem stworzenia muszą zużyć cały swój ruch, podążając w tamtą stronę w swojej następnej turze. Zanim się ruszą, mogą wykonać swoje akcje podstawowe. Po przemieszczeniu się w ten sposób mogą ponowić rzut obronny na Mądrość, by spróbować wyrwać się spod zauroczenia.</p><p>Zauroczona istota nie jest przymuszona do wejścia w śmiertelne niebezpieczeństwo, na przykład w ogień czy przepaść, ale będzie prowokować ataki okazyjne, by poruszyć się we wskazanym kierunku.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -589,7 +589,7 @@
             "materials": "Niewielki kryształ albo szklany stożek",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -599,7 +599,7 @@
             "materials": "Trzy łupiny orzecha.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -635,7 +635,7 @@
             "description": "<p>Nawiązujesz telepatyczny kontakt z półbogiem, duchem dawno zmarłego mędrca lub innym tajemniczym bytem z innej sfery egzystencji. Kontakt ten może nadwyrężyć albo nawet zniszczyć twój umysł. Gdy rzucasz ten czar, wykonaj rzut obronny na Inteligencję o ST 15. W przypadku niepowodzenia otrzymujesz 6k6 obrażeń psychicznych i stajesz się obłąkany do czasu ukończenia długiego odpoczynku. Będąc obłąkanym, nie możesz podejmować akcji, nie rozumiesz, co mówią do ciebie inni, nie potrafisz czytać, a z twoich ust dobywa się jedynie bełkot. Efekt ten można zakończyć, rzucając na ciebie większe przywrócenie.</p><p>Jeśli rzut obronny ci się powiedzie, możesz zadać bytowi do pięciu pytań, przy czym musisz z nimi zdążyć, póki trwa zaklęcie. MP na każde z pytań odpowiada jednym słowem, na przykład: 'tak', 'nie', 'może', 'nigdy', 'nieistotne' albo 'niejasne' (jeśli byt nie zna odpowiedzi na pytanie). Gdyby odpowiedź jednym słowem mogła być myląca, MP może udzielić jej krótkim zdaniem.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -644,7 +644,7 @@
             "description": "<p>Twoje dotknięcie wywołuje chorobę. Wykonaj atak wręcz czarem przeciw istocie w twojej sferze ataku. Przy trafieniu cel zostaje zatruty.</p><p>Na koniec każdej swojej tury zatruty cel zaklęcia musi wykonać rzut obronny na Kondycję. Po trzecim sukcesie przestaje być zatruty, a zaklęcie się kończy. Jeśli cel poniesie trzy porażki, przestaje być zatruty, a ty wybierasz jedną z poniższych chorób. Cel cierpi na nią do końca czasu trwania czaru.</p><p>Zaklęcie wywołuje naturalnie występującą chorobę, zatem działają na nią zaklęcia i magiczne efekty usuwające choroby lub łagodzące ich przebieg.</p><p><strong>Zaćma bolesna. </strong>Umysł istoty jest ściśnięty bólem, a jej oczy stają się mlecznobiałe. Cel jest oślepiony oraz ma utrudnienie w testach Mądrości i w rzutach obronnych na niej opartych.</p><p><strong>Plugawica.</strong> W ciele chorego szaleje gorączka powodująca utrudnienie w testach Siły oraz w atakach i rzutach obronnych dla niej opartych.</p><p><strong>Leproza gnilna. </strong>Ciało zarażonego zaczyna gnić, co powoduje utrudnienie w testach Charyzmy i podatność na wszystkie rodzaje obrażeń.</p><p><strong>Ogień umysłu.</strong> Choroba rozpala umysł chorego, powodując utrudnienie w testach Inteligencji i w rzutach obronnych na niej opartych. W czasie walki cel zachowuje się tak, jakby znajdował się pod wpływem zamętu.</p><p><strong>Wstrząsówka. </strong>Ciałem zarażonego wstrząsają dreszcze. Cel ma utrudnienie w testach Zręczności oraz w rzutach obronnych i atakach na niej opartych.</p><p><strong>Wybroczność (czerwona śmierć).</strong> U chorego występują niekontrolowane krwawienia, powodujące utrudnienie w testach Kondycji i związanych z nią rzutach obronnych. Ponadto za każdym razem, gdy chory otrzymuje obrażenia, zostaje ogłuszony do końca swojej następnej tury.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -664,7 +664,7 @@
             "materials": "Kropla wody i szczypta pyłu",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -760,7 +760,7 @@
             "materials": "Kulka nietoperzowego guana i siarki",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -820,7 +820,7 @@
             "materials": "Sztuka miedzi",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -851,7 +851,7 @@
             "materials": "Magnetyt i szczypta pyłu.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -861,7 +861,7 @@
             "materials": "Woda święcona albo sproszkowane srebro i żelazo.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -894,7 +894,7 @@
             "description": "<p>Wymawiasz boskie słowo przesiąknięte mocą, która kształtowała świat u jego zarania. Wybierz dowolną liczbę istot, które widzisz zasięgu czaru. Każda z nich, jeśli cię słyszy, musi wykonać rzut obronny na Charyzmę. W przypadku niepowodzenia zostanie objęta efektem czaru, zależnym od jej aktualnego poziomu punktów wytrzymałości:</p>\n<ul>\n<li>50 PW lub mniej: ogłuchła na 1 minutę</li>\n<li>40 PW lub mniej: ogłuchła i oślepiona na 10 minut</li>\n<li>30 PW lub mniej: oślepiona, ogłuchła i ogłuszona na 1 godzinę</li>\n<li>20 PW lub mniej:  zabita na miejscu</li>\n</ul>\n<p>Czart, fey, niebianin lub żywiołak, niezależnie od liczby posiadanych punktów wytrzymałości, po nieudanym rzucie obronnym jest zmuszony do powrotu do swojej sfery macierzystej (o ile obecnie w niej nie przebywa) i przez kolejne 24 godziny nie może powrócić do twojej obecnej sfery w żaden sposób, z wyjątkiem czaru życzenie.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -917,7 +917,7 @@
             "description": "<p>Próbujesz zawładnąć bestią, którą widzisz w zasięgu czaru. Jeśli nie zda rzutu obronnego na Mądrość, zostanie &Reference[charmed]{zauroczona}. Ma ułatwienie w tym teście, jeśli akurat walczyła z tobą lub twoimi sojusznikami.</p><p>Gdy cel jest zauroczony, łączy was telepatyczna więź, dopóki przebywacie w tej samej sferze egzystencji. Będąc przytomnym, możesz dzięki tej więzi bez użycia akcji wydawać telepatyczne polecenia zauroczonemu stworzeniu, które będzie starało się jak najlepiej je wypełnić. Możesz posłużyć się prostym i ogólnym rozkazem, takim jak: 'Zaatakuj go', 'Pobiegnij tam' czy 'Przynieś tamten przedmiot'. Jeśli stworzenie po wypełnieniu polecenia nie otrzyma kolejnego, będzie ograniczało się do obrony własnej z użyciem wszystkich swych zdolności.</p><p>W ramach swojej akcji możesz przejąć nad zauroczonym stworzeniem całkowitą kontrolę. Do końca twojej następnej tury będzie wówczas wykonywało tylko wybrane przez ciebie akcje i nie zrobi niczego bez twojej zgody. Przez ten czas możesz zmusić je też do podjęcia reakcji, ale musisz na to zużyć również swoją.</p><p>Za każdym razem, gdy zniewolone stworzenie otrzyma obrażenia, ponawia rzut obronny na Mądrość. Jeśli odniesie sukces, czar się kończy.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę 5. kręgu, wydłużasz maksymalny czas trwania do 10 minut. Jeśli rzucasz ten czar, wykorzystując komórkę 6. kręgu, wydłużasz maksymalny czas trwania do 1 godziny. Jeśli używasz komórki co najmniej 7. kręgu, zaklęcie trwa 8 godzin (przy koncentracji).</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -932,7 +932,7 @@
             "description": "<p>Próbujesz zawładnąć stworzeniem, które widzisz w zasięgu czaru. Jeśli nie zda rzutu obronnego na Mądrość, zostanie &Reference[charmed]{zauroczone}. Ma ułatwienie w tym teście, jeśli akurat walczyła z tobą lub twoimi sojusznikami.</p><p>Gdy cel jest zauroczony, łączy was telepatyczna więź, dopóki przebywacie w tej samej sferze egzystencji. Będąc przytomnym, możesz dzięki tej więzi bez użycia akcji wydawać telepatyczne polecenia zauroczonemu stworzeniu, które będzie starało się jak najlepiej je wypełnić. Możesz posłużyć się prostym i ogólnym rozkazem, takim jak: 'Zaatakuj go', 'Pobiegnij tam' czy 'Przynieś tamten przedmiot'. Jeśli stworzenie po wypełnieniu polecenia nie otrzyma kolejnego, będzie ograniczało się do obrony własnej z użyciem wszystkich swych zdolności.</p><p>W ramach swojej akcji możesz przejąć nad zauroczonym stworzeniem całkowitą kontrolę. Do końca twojej następnej tury będzie wówczas wykonywało tylko wybrane przez ciebie akcje i nie zrobi niczego bez twojej zgody. Przez ten czas możesz zmusić je też do podjęcia reakcji, ale musisz na to zużyć również swoją.</p><p>Za każdym razem, gdy zniewolone stworzenie otrzyma obrażenia, ponawia rzut obronny na Mądrość. Jeśli odniesie sukces, czar się kończy.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę 9. kręgu, wydłużasz maksymalny czas trwania do 8 godzin (przy koncentracji).</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -947,7 +947,7 @@
             "description": "<p>Próbujesz owładnąć umysł humanoidalnego stworzenia, które widzisz w zasięgu czaru. Jeśli nie zda rzutu obronnego na Mądrość, zostanie &Reference[charmed]{zauroczone}. Ma ułatwienie w tym teście, jeśli akurat walczyła z tobą lub twoimi sojusznikami.</p><p>Kiedy cel jest zauroczony, masz z nim połączenie telepatyczne dopóki przebywacie w tej samej sferze egzystencji. Będąc przytomnym, możesz dzięki tej więzi bez użycia akcji wydawać telepatyczne polecenia zauroczonemu stworzeniu, które będzie starało się jak najlepiej je wypełnić. Możesz posłużyć się prostym i ogólnym rozkazem, takim jak: 'Zaatakuj go', 'Pobiegnij tam' czy 'Przynieś tamten przedmiot'. Jeśli stworzenie po wypełnieniu polecenia nie otrzyma kolejnego, będzie ograniczało się do obrony własnej z użyciem wszystkich swych zdolności.</p><p>W ramach swojej akcji możesz przejąć nad zauroczonym stworzeniem całkowitą kontrolę. Do końca twojej następnej tury będzie wówczas wykonywała tylko wybrane przez ciebie akcje i nie zrobi niczego bez twojej zgody. Przez ten czas możesz zmusić ją też do podjęcia reakcji, ale musisz na to zużyć również swoją.</p><p>Za każdym razem, gdy zniewolone stworzenie otrzyma obrażenia, ponawia rzut obronny na Mądrość. Jeśli odniesie sukces, czar się kończy.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę 6. kręgu, wydłużasz maksymalny czas trwania do 10 minut. Jeśli rzucasz ten czar, wykorzystując komórkę 7. kręgu, wydłużasz maksymalny czas trwania do 1 godziny. Jeśli używasz komórki co najmniej 8. kręgu, zaklęcie trwa 8 godzin (przy koncentracji).</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -963,7 +963,7 @@
             "materials": "Garść piasku, odrobina inkaustu i pióro do pisania wyrwane śpiącemu ptakowi",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -982,7 +982,7 @@
             "materials": "Szczypta ziemi, kamień i grudka gliny",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1006,7 +1006,7 @@
             "materials": "Szczypta sproszkowanego żelaza.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1016,7 +1016,7 @@
             "activities": {
                 "Cast": {
                     "name": "Rzuć czar",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 },
                 "Escape Plants Check": {
                     "name": "Test wyswobodzenia się z roślin"
@@ -1034,7 +1034,7 @@
             "description": "<p>Splatasz słowa wypowiedzi przyciągającej uwagę. Wybrane istoty znajdujące się w zasięgu czaru, które widzisz i które mogą cię usłyszeć, muszą wykonać rzut obronny na Mądrość. Istoty odporne na zauroczenie odnoszą automatyczny sukces, a walczące z tobą lub twoimi sojusznikami otrzymują ułatwienie. W przypadku niepowodzenia cel otrzymuje utrudnienie w testach Mądrości (Percepcja) sprawdzających, czy dostrzega kogokolwiek poza tobą. Efekt trwa do zakończenia czaru lub do momentu, gdy zafascynowana istota przestanie cię słyszeć. Czar kończy się przedwcześnie, jeśli zostaniesz obezwładniony albo nie będziesz już mógł mówić.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1062,7 +1062,7 @@
             "description": "<p>Na czas zaklęcia twoje oczy stają się czarnymi jak atrament jeziorami pustki nasyconymi straszliwą mocą. Wybrana istota, którą widzisz w obrębie 18 metrów, musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia nakładasz na nią efekt wybrany z poniższych, utrzymujący się do końca trwania czaru. Póki zaklęcie trwa, możesz w każdej swojej akcji podstawowej wybrać kolejną ofiarę, przy czym nie możesz ponownie wskazać istoty, która zdała rzut obronny przeciw aktualnie trwającemu kąśliwemu wzrokowi.</p><ul><li><strong>Uśpienie</strong>. Ofiara pada &Reference[Unconscious]{nieprzytomna}. Obudzi się w momencie otrzymania obrażeń albo gdy inna istota w ramach swojej akcji nią potrząśnie</li><li><strong>Panika</strong>. Cel jest tobą &Reference[Frightened]{przerażony}. W każdej swojej turze musi wykonać akcję Sprintu, by jak najbardziej oddalić się od ciebie najbezpieczniejszą i najkrótszą drogą, chyba że nie ma dokąd się poruszyć. Jeśli cel znajdzie się w miejscu oddalonym od ciebie co najmniej o 18 metrów, z którego nie będzie mógł cię zobaczyć, efekt ustaje.</li><li><strong>Choroba</strong>. Ofiara ma utrudnienie w testach ataku i cech. Pod koniec każdej swojej tury cel może ponowić rzut obronny na Mądrość. Udany rzut obronny kończy działanie zaklęcia.</li></ul>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1123,7 +1123,7 @@
             "materials": "Białe piórko lub kurze serce.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1156,7 +1156,7 @@
             "materials": "Garść kulek z gliny, kryształu, szkła lub minerałów",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1207,7 +1207,7 @@
             "description": "<p>Wywołujesz u istoty, którą widzisz w zasięgu czaru, przepływ negatywnej energii powodujący przeszywający ból. Ofiara musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia otrzymuje 7k8 + 30 obrażeń nekrotycznych. Udany rzut zmniejsza obrażenia o połowę.</p><p>Jeżeli tym zaklęciem zabijesz humanoida, to na początku twojej następnej tury powstanie on jako zombi będący pod twoją trwałą kontrolą i wypełniający twoje słowne rozkazy najlepiej, jak tylko potrafi.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1240,7 +1240,7 @@
             "description": "<p>Burza ryczących płomieni pojawia się we wskazanym przez ciebie miejscu w zasięgu czaru. Obszar działania czaru składa się z maksymalnie dziesięciu 3-metrowych sześcianów, które możesz dowolnie rozmieścić, przy czym każdy sześcian musi stykać się co najmniej jedną ścianą z innym sześcianem. Istoty na obszarze działania czaru muszą wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymują 7k10 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</p><p>Ogień uszkadza obiekty na obszarze działania czaru i podpala łatwopalne przedmioty, które nie są przez kogoś trzymane lub noszone. Możesz zadecydować, czy na jego działanie będą podatne rośliny.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1250,7 +1250,7 @@
             "materials": "Kulka nietoperzowego guana i siarki",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1265,7 +1265,7 @@
             "materials": "Szczypta siarki",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1275,7 +1275,7 @@
             "materials": "Trochę łoju, szczypta siarki i pył żelazny",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1285,7 +1285,7 @@
             "materials": "Odrobina wapna, wody i ziemi",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1325,7 +1325,7 @@
             "materials": "Rubinowy pył o wartości 1500 sz",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1351,7 +1351,7 @@
             "materials": "Niewielka kryształowa kula",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1370,7 +1370,7 @@
             "description": "<p>Nakładasz magiczny nakaz na stworzenie, które widzisz i znajdujące się w zasięgu czaru. Nakaz ten - zależnie od twojej decyzji - może dotyczyć wykonania określonych działań albo powstrzymania się od nich.  Jeśli cel zaklęcia cię rozumie, musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia zostanie przez ciebie &Reference[Charmed]{zauroczony} na czas trwania zaklęcia. Zauroczona istota otrzymuje 5k10 obrażeń psychicznych za każdym razem, kiedy działa w sposób przeciwny do twojego polecenia, ale nie częściej niż raz dziennie. Istota, która nie rozumie twojego nakazu, nie zostaje nim objęta.</p><p>Możesz wydać dowolny rozkaz z wyjątkiem działań, które w oczywisty sposób prowadziłyby do śmierci zauroczonej istoty. Sformułowanie samobójczego nakazu kończy działanie czaru.</p><p>Możesz odwołać ten czar w ramach swojej akcji. Można go rozproszyć również zdjęciem klątwy, większym przywróceniem lub życzeniem.</p><p><strong>Na wyższych kręgach.</strong> Jeśli rzucasz ten czar, wykorzystując komórkę 7. lub 8. kręgu, wydłużasz czas trwania do 1 roku. Po wykorzystaniu komórki 9. kręgu zaklęcie trwa, póki nie zostanie zakończone jednym z czarów wymienionych powyżej.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1404,7 +1404,7 @@
             "materials": "Kadzidło i diamentowy proszek o wartości co najmniej 200 sz, zużywane przez zaklęcie.",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1455,7 +1455,7 @@
             "description": "<p>W wybranym wolnym miejscu, które widzisz w zasięgu, pojawia się Duży Widmowy Strażnik, unoszący się w powietrzu przez czas trwania czaru i zajmujący to miejsce. Jego postać jest niewyraźna, poza błyszczącym mieczem i tarczą noszącą symbol twego bóstwa.</p><p>Każda wroga istota, która znajdzie się w obrębie 3 metrów do strażnika po raz pierwszy w swojej turze, musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 20 obrażeń od światłości. Udany rzut zmniejsza obrażenia o połowę. Strażnik znika po zadaniu łącznie 60 punktów obrażeń.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1500,7 +1500,7 @@
             "materials": "Nasiono ze strąka",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1510,7 +1510,7 @@
             "materials": "Zioła, olejki i kadzidło o wartości co najmniej 1000 sz, zużywane przez zaklęcie",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1524,7 +1524,7 @@
             "description": "<p>Sprowadzasz złośliwą chorobę na stworzenie, które widzisz zasięgu czaru. Ofiara musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia otrzymuje 14k6 obrażeń nekrotycznych. Udany rzut zmniejsza obrażenia o połowę. Obrażenia nie mogą sprowadzić punktów wytrzymałości ofiary poniżej 1. Jeśli rzut obronny się nie powiódł, maksymalne PW celu zostają zmniejszone na 1 godzinę o liczbę równą otrzymanym obrażeniom Dowolny efekt usuwający choroby przywraca maksymalne PW celu do normalnego poziomu przed upływem tego czasu.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1558,7 +1558,7 @@
             "materials": "Kawałek żelaza i płomień",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1569,7 +1569,7 @@
             "activities": {
                 "Cast": {
                     "name": "Rzuć czar",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1627,7 +1627,7 @@
             "materials": "Mały, prosty kawałek żelaza",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1643,7 +1643,7 @@
             "materials": "Mały, prosty kawałek żelaza",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1659,7 +1659,7 @@
             "materials": "Malutki relikwiarz o wartości co najmniej 1000 sz zawierający relikwię, na przykład strzęp szaty świętego albo stronicę religijnego manuskryptu",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1689,7 +1689,7 @@
             "materials": "Płonące kadzidełko albo kryształowa fiolka z fosforyzującą zawartością",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -1705,7 +1705,7 @@
             "materials": "Szczypta pyłu i kilka kropli wody",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1735,7 +1735,7 @@
             "materials": "Podobizna na welinie lub rzeźbiona figurka przedstawiająca cel zaklęcia oraz zależny od wariantu czaru dodatkowy komponent o wartości co najmniej 500 sz za każdą Kość Wytrzymałości celu",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1744,7 +1744,7 @@
             "description": "<p>Tworzysz wypełniony rozpalonymi do białości kawałkami żaru, wirujący obłok dymu w kształcie sfery o pro mieniu 6 metrów, ze środkiem w wybranym punkcie w zasięgu czaru. Obłok rozprzestrzenia się za załomy i stanowi obszar pozbawiony widoczności. Chmura utrzymuje się do wygaśnięcia czaru, choć wcześniej może ją też rozwiać wiatr o umiarkowanej lub większej prędkości (co najmniej 15 kilometrów na godzinę).</p><p>Gdy obłok się pojawia, każda istota na jego obszarze musi wykonać rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 10k8 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Istoty muszą wykonać również rzut obronny, gdy wchodzą w obszar działania czaru po raz pierwszy w swojej turze lub kończą w nim swoją turę.</p><p>Na początku każdej twojej tury chmura oddala się od ciebie o 3 metry w wybranym przez ciebie kierunku.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1763,7 +1763,7 @@
             "materials": "Kilka kryształków cukru i ziaren zboża, trochę tłuszczu",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1788,7 +1788,7 @@
             "description": "<p>Wybrane stworzenie, które widzisz w zasięgu, rozpoczyna w miejscu zabawny taniec, powłócząc nogami, stepując i podskakując przez cały czas trwania zaklęcia. Czar nie zadziała na stworzenia odporne na zauroczenie.</p><p>Tańcząca istota zużywa cały swój ruch na taniec, pozostając w miejscu, i ma utrudnienie w rzutach obronnych oraz testach ataku opartych na Zręczności. Inne stworzenia mają ułatwienie w testach ataku przeciw tańczącemu. Aby odzyskać nad sobą kontrolę i zakończyć czar, zauroczona istota musi w ramach swojej akcji wykonać od udany rzut obronny na Mądrość. Udany rzut oznacza wyzwolenie się spod działania zaklęcia.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1827,7 +1827,7 @@
             "materials": "Mała rzemienna pętla albo kawałek złotego drutu wygiętego w kształt kielicha z długą nóżką",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1853,7 +1853,7 @@
             "materials": "Odrobina futra oraz bursztynowy, kryształowy lub szklany pręt",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1922,7 +1922,7 @@
             "materials": "Woda święcona albo sproszkowane srebro i żelazo warte co najmniej 1000 sz, zużywane przez zaklęcie",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -1932,7 +1932,7 @@
             "materials": "Klejnot, kryształ, relikwiarz lub inny zdobiony pojemnik o wartości co najmniej 500 sz",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2005,7 +2005,7 @@
             "materials": "Wężowy język i albo kawałek plastra miodu, albo kropla słodkiego olejku",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2042,7 +2042,7 @@
             "description": "<p>W czterech różnych punktach, które widzisz w zasięgu czaru, spadają na ziemię jaśniejące kule ognia. Każda istota znajdująca się w obrębie sfery o promieniu 12 metrów ze środkiem we wskazanym miejscu musi wykonać rzut obronny na Zręczność. Sfera rozprzestrzenia się za rogi i załomy. Porażka w rzucie obronnym oznacza otrzymanie 20k6 obrażeń od ognia i 20k6 obrażeń obuchowych, a sukces zmniejsza te obrażenia o połowę. Istota przebywająca w więcej niż jednym obszarze rażenia otrzymuje obrażenia tylko raz.</p><p>Zaklęcie uszkadza obiekty na obszarze działania i podpala łatwopalne przedmioty, które nie są przez kogoś noszone lub trzymane.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2084,7 +2084,7 @@
             "description": "<p>Próbujesz zmienić wspomnienia istoty, którą widzisz. Musi ona wykonać rzut obronny na Mądrość. Jeżeli akurat z nią walczysz, ma w tym rzucie ułatwienie. W przypadku niepowodzenia istota zostaje przez ciebie zauroczona na czas trwania zaklęcia - jest traktowana jako obezwładniona i nieświadoma swego otoczenia, ale mimo to cię słyszy. Jeżeli otrzyma obrażenia albo stanie się celem następnego czaru, to zaklęcie się skończy, a żadne ze wspomnień nie ulegnie zmianie.</p><p>Podczas trwania zauroczenia możesz wpłynąć na pamięć wydarzenia, którego cel doświadczył w ciągu ostatnich 24 godzin i które trwało nie dłużej niż 10 minut. Możesz trwale usunąć całą pamięć związaną z tym wydarzeniem, umożliwić celowi przypomnienie sobie tego wydarzenia doskonale wyraźnie i szczegółowo, zmienić w pamięci celu szczegóły wydarzenia albo osadzić w jego pamięci wspomnienie innego wydarzenia.</p><p>Musisz przemówić do zauroczonej istoty, żeby opisać zmiany wspomnień, a ona musi być w stanie zrozumieć twój język, aby te zmiany przyjąć. Jej umysł wypełnia wszelkie ewentualne luki w podawanym przez ciebie opisie. Jeśli zaklęcie dobiegnie końca, zanim zakończysz opisywanie zmienionych wspomnień, to pamięć celu nie zostanie zmieniona. W pozostałych przypadkach koniec zaklęcia oznacza osadzenie zmodyfikowanych wspomnień.</p><p>Podmieniona pamięć nic musi wpływać na zmianę zachowania istoty, zwłaszcza jeśli nowe wspomnienie jest sprzeczne z jej naturalnymi skłonnościami, charakterem lub przekonaniami. Nielogiczna modyfikacja pamięci, jak na przykład dodanie wspomnienia ogromnej satysfakcji z kąpieli w kwasie, jest odrzucana przez umysł na podobieństwo złego snu. MP może ocenić modyfikację pamięci jako zbyt nonsensowną, by mogła w znaczący sposób wpłynąć na postać.</p><p>Istocie potraktowanej tym zaklęciem można przywrócić jej prawdziwą pamięć, rzucając na nią zdjęcie klątwy albo większe przywrócenie.</p><p><strong>Na wyższych kręgach</strong>. Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 6. kręgu, możesz wpłynąć na wspomnienie sprzed nie więcej niż 7 dni (6. krąg), 30 dni (7. krąg), 1 roku (8. krąg) lub z dowolnego momentu w przeszłości celu (9. krąg).</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2094,7 +2094,7 @@
             "materials": "Kilka nasion rośliny miesięcznikowatej i kawałek skalenia tęczowego",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2123,7 +2123,7 @@
             "description": "<p>Czerpiesz wprost z koszmarów wybranej istoty, którą widzisz w zasięgu czaru, i tworzysz widoczne tylko dla niej iluzoryczne ucieleśnienie jej największych lęków. Cel musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia zostaje &Reference[Frightened]{przerażony} na czas trwania czaru. Pod koniec każdej swojej tury cel musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia otrzymuje 4k10 obrażeń psychicznych. Udany rzut oznacza wyzwolenie się spod działania zaklęcia.</p><p><strong>Na wyższych kręgach</strong>. Jeśli rzucasz ten czar, wykorzystując komórkę co najmniej 5. kręgu, za każdy krąg powyżej 4. zwiększasz zadawane obrażenia o 1k10.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -2147,7 +2147,7 @@
             "materials": "Klejnot o wartości co najmniej 1000 sz, zużywany przez zaklęcie",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2157,7 +2157,7 @@
             "materials": "Rozwidlony metalowy pręt o wartości co najmniej 250 sz, dostrojony do konkretnej sfery egzystencji",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2181,7 +2181,7 @@
             "materials": "Kokon gąsienicy",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -2199,7 +2199,7 @@
             "description": "<p>Wypowiadasz słowo mocy przytłaczające umysł istoty, którą widzisz w zasięgu czaru, i wprawiające ją w osłupienie. Jeżeli cel ma do 150 punktów wytrzymałości, zostaje &Reference[Stunned]{ogłuszony}. W przeciwnym wypadku zaklęcie nie przynosi efektu.</p><p>Ogłuszona istota pod koniec każdej swojej tury wykonuje rzut obronny na Kondycję. Sukces wyzwala ją z efektu ogłuszenia.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -2227,7 +2227,7 @@
             "description": "<p>Z twojej dłoni wystrzeliwuje osiem promieni światła. Każdy z nich ma odmienną barwę, moc i zastosowanie. Stworzenia znajdujące się wewnątrz stożka o długości 18 metrów muszą wykonać rzut obronny na Zręczność. Dla każdego z nich rzucasz osobno k8, by określić, który promień na nie wpłynął.</p><ol><li><strong>1. Czerwień</strong>. W przypadku niepowodzenia w rzucie obronnym zadaje 10k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę.</li><li><strong>2. Pomarańcz</strong>. W przypadku niepowodzenia w rzucie obronnym zadaje 10k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę.</li><li><strong>3. Żółć</strong>. W przypadku niepowodzenia w rzucie obronnym zadaje 10k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę.</li><li><strong>4. Zieleń</strong>. W przypadku niepowodzenia w rzucie obronnym zadaje 10k6 obrażeń od trucizny. Udany rzut zmniejsza obrażenia o połowę.</li><li><strong>5. Błękit</strong>. W przypadku niepowodzenia w rzucie obronnym zadaje 10k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę.</li><li><strong>6. Indygo</strong>. W przypadku niepowodzenia w rzucie obronnym istota zostaje &Reference[Restrained]{unieruchomiona}. Na końcu każdej swojej tury musi wykonywać rzut obronny na Kondycję. Jeśli odniesie trzy sukcesy, zaklęcie dobiega końca. Jeśli wcześniej poniesie trzy porażki, zostaje na stale zamieniona w kamień i jest traktowana jako &Reference[Petrified]{skamieniała}. Sukcesy i porażki nie muszą następować bezpośrednio po sobie; notuj je do momentu zebrania przez cel trzech wyników jednego rodzaju.</li><li><strong>7. Fiolet</strong>. W przypadku niepowodzenia w rzucie obronnym istota zostaje &Reference[Blinded]{oślepiona}. Na początku twojej następnej tury musi wykonać rzut obronny na Mądrość. Sukces pozwala jej przełamać efekt oślepienia. Porażka w tym rzucie obronnym powoduje, że istota zostanie przeniesiona do innej sfery wybranej przez MP i przestaje być oślepiona. (Istota, która nie przebywa w swojej rodzimej sferze egzystencji, zostaje odesłana właśnie do niej, a inne istoty zostają z reguły zesłane do Sfery Astralnej lub Eterycznej).</li><li><strong>Specjalna</strong>. Cel zostaje trafiony dwoma promieniami. Wykonaj dwa kolejne rzuty, przerzucając ósemki.</li></ol>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -2246,7 +2246,7 @@
             "description": "<p>W miejscu, które widzisz w zasięgu czaru, pojawia się wielokolorowa płaszczyzna migoczącego światła, tworząca pionowy, nieprzezroczysty mur o długości do 27 metrów, wysokości do 9 metrów i grubości 2,5 centymetra. Możesz także stworzyć mur w kształcie sfery o średnicy 9 metrów ze środkiem we wskazanym przez ciebie punkcie. Mur tkwi w miejscu przez cały czas działania czaru. Jeżeli umieścisz go tak, że musiałby przechodzić przez miejsce zajęte przez jakieś stworzenie, to zaklęcie się nie powiedzie, a akcja i komórka czaru zostaną zużyte.</p><p>Mur świeci jasnym światłem na odległość 30 metrów i słabym światłem na odległość kolejnych 30 metrów. Ty i istoty wskazane przez ciebie podczas rzucania zaklęcia możecie przez niego bez uszczerbku przechodzić i przebywać w jego pobliżu. Jeśli inna widząca ten mur istota przemieszcza się na odległość do 6 metrów od niego lub rozpoczyna tam swoją turę, musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia zostaje oślepiona na 1 minutę.</p><p>Mur składa się z 7 warstw o różnych barwach. Gdy jakieś stworzenie próbuje przejść przez mur lub przez niego sięgnąć, musi pokonać kolejno wszystkie warstwy. Przechodząc każdą z nich, wykonuje rzut obronny na Zręczność. W przypadku niepowodzenia zostaje objęte efektem odpowiedniej warstwy.</p><p>Mur da się zniszczyć, również warstwa po warstwie, w kolejności od czerwonej do fioletowej, a każda z warstw wymaga innej metody. Gdy warstwa zostaje zniszczona, pozostaje taka do końca działania zaklęcia. Pole antymagii nie działa na mur, a rozproszenie magii działa tylko na fioletową warstwę.</p>\n<ol>\n<li><strong>1. Czerwień</strong>. W przypadku niepowodzenia w rzucie obronnym istota otrzymuje 10k6 obrażeń od ognia. Udany rzut zmniejsza obrażenia o połowę. Dopóki stoi czerwona warstwa muru, nie mogą go przebić niemagiczne ataki dystansowe. Warstwę tę można zniszczyć, zadając jej co najmniej 25 obrażeń od zimna.</li>\n<li><strong>2. Pomarańcz</strong>. W przypadku niepowodzenia w rzucie obronnym istota otrzymuje 10k6 obrażeń od kwasu. Udany rzut zmniejsza obrażenia o połowę. Dopóki stoi pomarańczowa warstwa muru, nie mogą go przebić magiczne ataki dystansowe. Warstwę tę można zniszczyć przy pomocy silnego wiatru.</li>\n<li><strong>3. Żółć</strong>. Udany rzut zmniejsza obrażenia o połowę. Warstwę tę można zniszczyć, zadając jej co najmniej 60 obrażeń od mocy.</li>\n<li><strong>4. Zieleń</strong>. W przypadku niepowodzenia w rzucie obronnym istota otrzymuje 10k6 obrażeń od trucizny. Udany rzut zmniejsza obrażenia o połowę. Warstwę tę można zniszczyć przy pomocy czaru przejście w murze lub innego zaklęcia tego samego lub wyższego kręgu, które tworzy portal w stałej powierzchni.</li>\n<li><strong>5. Błękit</strong>. W przypadku niepowodzenia w rzucie obronnym istota otrzymuje 10k6 obrażeń od zimna. Udany rzut zmniejsza obrażenia o połowę. Warstwę tę można zniszczyć, zadając jej co najmniej 25 obrażeń od ognia.</li>\n<li><strong>6. Indygo</strong>. W przypadku niepowodzenia w rzucie obronnym istota zostaje unieruchomiona. Na końcu każdej swojej tury musi wykonywać rzut obronny na Kondycję. Jeśli odniesie trzy sukcesy, zaklęcie dobiega końca. Jeżeli wcześniej uzbiera trzy porażki, to na stałe zmienia się w głaz i jest skamieniała. Sukcesy i porażki nie muszą następować bezpośrednio po sobie; notuj je do momentu zebrania przez cel trzech wyników jednego rodzaju.<ul>\n<li>Dopóki stoi warstwa indygo, przez mur nie można rzucać zaklęć. Warstwę tę można zniszczyć jasnym światłem, na przykład wywołanym przez zaklęcie światło dnia lub podobny czar tego samego lub wyższego kręgu.</li>\n</ul>\n</li>\n<li><strong>7. Fiolet</strong>. W przypadku niepowodzenia w rzucie obronnym istota zostaje oślepiona. Na początku twojej następnej tury musi wykonać rzut obronny na Mądrość. Sukces pozwala jej przełamać efekt oślepienia. Porażka w tym rzucie obronnym powoduje, że istota zostanie przeniesiona do innej sfery wybranej przez MP i przestaje być oślepiona. (Istota, która nie przebywa w swojej rodzimej sferze egzystencji, zostaje odesłana właśnie do niej, a inne istoty zostają z reguły zesłane do Sfery Astralnej lub Eterycznej). Warstwę tę można zniszczyć rozproszeniem magii lub podobnym czarem tego samego lub wyższego kręgu, mogącym zakończyć działanie zaklęć i efektów magicznych.</li>\n</ol>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2323,7 +2323,7 @@
             "description": "<p>Czarny promień osłabiającej energii strzela z twojego palca w stronę istoty znajdującej się w zasięgu czaru. Wykonaj atak dystansowy czarem przeciwko celowi. Trafiony cel do końca trwania czaru będzie zadawał tylko połowę swoich obrażeń atakami bronią opartymi na Sile.</p><p>Pod koniec każdej swojej tury cel może spróbować wykonać rzut obronny na Kondycję przeciw twojemu zaklęciu. Po udanym rzucie obronnym zaklęcie się kończy.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2362,7 +2362,7 @@
             "materials": "Przezroczysta kryształowa półkula i dopasowana do niej półkula z gumy arabskiej",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2393,7 +2393,7 @@
             "materials": "Magnetyt i żelazne opiłki",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2449,7 +2449,7 @@
             "materials": "Fokus o wartości co najmniej 1000 sz, taki jak kryształowa kula, srebrne lustro lub misa z wodą święconą",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2468,7 +2468,7 @@
             "description": "<p>Przy pomocy tego czaru możesz zmienić wygląd dowolnej liczby istot, które widzisz w jego zasięgu. Nadajesz każdej z nich nowy iluzoryczny wygląd. Cel zaklęcia może spróbować oprzeć się jego działaniu. Jeśli wykona udany rzutem obronny na Charyzmę, nie zostanie objęty działaniem czaru.</p><p>Zmieniasz zarówno aparycję istoty, jak i wygląd jej odzienia, pancerza, broni i wyposażenia. Możesz sprawić, że każda z objętych czarem istot będzie się wydawać do 30 centymetrów niższa lub wyższa i wyglądać na grubszą lub szczuplejszą. Iluzja nie może przedstawiać ciała innego rodzaju, więc musisz działać w granicach jego kształtu, a tym samym trzymać się pierwotnego rozmieszczenia kończyn. Poza tym twoje możliwości ogranicza jedynie twoja inwencja. Iluzja będzie trwała przez cały czas działania czaru, chyba że wykorzystasz swoją akcję, by wygasić ją wcześniej.</p><p>Fizyczne sprawdzenie zdemaskuje twoją iluzję. Przykładowo, jeśli strój wybranej osoby wzbogacisz o iluzoryczny kapelusz, inne przedmioty będą przez niego przenikać, a dotykająca go osoba nie poczuje pod palcami nic albo wymaca głowę i włosy noszącej go osoby. Jeśli użyjesz tego zaklęcia, by wydać się szczuplejszym, niż jesteś, to sięgająca ku tobie dłoń zderzy się z tobą, choć będzie wyglądać, jakby właściciel zatrzymał ją w powietrzu.</p><p>Istota może w ramach swojej akcji zbadać cel objęty iluzją i wykonać test Inteligencji (Śledztwo) o ST rzutu obronnego przeciw twoim czarom. Jeśli jej się powiedzie, zorientuje się, że cel jest przebrany.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2493,7 +2493,7 @@
             "materials": "Odłamek miki",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2611,7 +2611,7 @@
             "materials": "Szczypta pyłu i kilka kropli wody",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2621,7 +2621,7 @@
             "materials": "Kropla melasy",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -2685,7 +2685,7 @@
             "materials": "Święty symbol",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2699,7 +2699,7 @@
             "materials": "Zgniłe jajo lub parę liści skupni",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2724,7 +2724,7 @@
             "description": "<p></p><p>Nad wybranym miejscem w zasięgu wzroku przywołujesz skłębioną burzową chmurę o promieniu 108 metrów. W tym obszarze błyskają pioruny, huczą grzmoty i szaleje wichura. Każda istota znajdująca się pod ową chmurą w momencie jej pojawienia (choć nie więcej niż 1500 metrów poniżej niej) musi wykonać rzut obronny na Kondycję. W przypadku niepowodzenia otrzymuje 2k6 obrażeń od dźwięku i staje się ogłuchła na 5 minut.</p><p>Jeśli w kolejnych rundach utrzymujesz koncentrację na tym zaklęciu, burza powoduje w twojej turze różne efekty .</p><p><strong>Runda 2</strong>. 7 chmury leje się kwaśny deszcz. Istoty i obiekty wystawione na jego działanie otrzymują po lk6 obrażeń od kwasu.</p><p><strong>Runda 3</strong>. Sprowadzasz z chmury na wybrane istoty i obiekty sześć piorunów, przy czym na jeden cel może przypadać tylko jeden piorun. Rażona nim istota wykonuje rzut obronny na Zręczność. W przypadku niepowodzenia otrzymuje 10k6 obrażeń od elektryczności. Udany rzut zmniejsza obrażenia o połowę.</p><p><strong>Runda 4</strong>. Z chmury leci grad, zadając wszystkim znajdującym się pod nią istotom 2k6 obrażeń obuchowych.</p><p><strong>Runda 5-10</strong>. Rozszalały huragan smaga obszar pod chmurą lodowatym deszczem. Powierzchnia pokryta marznącą wodą staje się trudnym terenem pozbawionym widoczności. Wszystkie istoty w obrębie działania chmury otrzymują 1k6 obrażeń od zimna. Ataki dystansowe są nie możliwe. Wichura i ulewa liczą się jako poważna przeszkoda w koncentracji na zaklęciach. Co więcej, silne porywy wiatru (30-75 kilometrów na godzinę) automatycznie rozpraszają wszystkie znajdujące się w obszarze mgły, opary i podobne zjawiska, zarówno naturalne, jak i magiczne.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2734,7 +2734,7 @@
             "materials": "Wężowy język i albo kawałek plastra miodu, albo kropla słodkiego olejku",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2744,7 +2744,7 @@
             "materials": "Szkło powiększające",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2754,7 +2754,7 @@
             "materials": "Ogień i kawałek awenturynu",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2764,7 +2764,7 @@
             "materials": "Rtęć, fosfor oraz sproszkowane diament i opal o łącznej wartości co najmniej 1000 sz, zużywane przez zaklęcie",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             },
             "effects": {
@@ -2819,7 +2819,7 @@
             "activities": {
                 "Cast": {
                     "name": "Rzuć czar",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2851,7 +2851,7 @@
             "materials": "Kropla rtęci, łyżka gumy arabskiej i smużka dymu",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2919,7 +2919,7 @@
             "materials": "Niewielki kawałek fosforu",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2934,7 +2934,7 @@
             "materials": "Niewielki kawałek kwarcu",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2944,7 +2944,7 @@
             "materials": "Mała granitowa kostka",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2954,7 +2954,7 @@
             "materials": "Garść kolców",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2979,7 +2979,7 @@
             "materials": "Odrobina sieci pajęczej",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -2988,7 +2988,7 @@
             "description": "<p>Każda istota znajdująca się w obrębie sfery o promieniu 9 metrów i środku w zasięgu czaru musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia staje się przerażona na czas trwania czaru. Iluzja wydobywa największe lęki celu, przedstawiając jego najstraszniejsze koszmary jako realne zagrożenie. Przerażona istota pod koniec każdej swojej tury musi wyko nać rzut obronny na Mądrość. W przypadku niepowodzenia otrzymuje 4k10 obrażeń psychicznych. Udany rzut wyzwala daną istotę spod działania czaru</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3003,7 +3003,7 @@
             "materials": "Malutki wachlarz i egzotyczne pióro",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         },
@@ -3020,7 +3020,7 @@
             "description": "<p>Tworzysz magiczną strefę chroniącą przed fałszem na obszarze w kształcie sfery o promieniu 4. 5 metra, z punktem wyjścia wskazanym w zasięgu czaru. Do końca działania zaklęcia stworzenie wchodzące w jego obszar po raz pierwszy w swojej turze lub rozpoczynające w nim swoją turę musi wykonać rzut obronny na Charyzmę. W przypadku niepowodzenia nie może umyślnie skłamać póki pozostaje w obszarze działania zaklęcia. Zdajesz sobie sprawę, czy stworzenie zdało ten test czy nie.</p>\n        <p>Objęta czarem istota jest świadoma działania tego zaklęcia i może unikać odpowiedzi na pytanie, na które normalnie odpowiedziałaby kłamstwem. Może też udzielać wymijających odpowiedzi, jeśli mieszczą się w granicach prawdy.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "half"
                 }
             }
         }
