@@ -646,10 +646,7 @@
                     },
                     "effects": {
                         "Shillelagh": {
-                            "name": "Shillelagh",
-                            "changes": {
-                                "name": ", Shillelagh"
-                            }
+                            "name": "Shillelagh"
                         }
                     }
                 },

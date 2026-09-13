@@ -2138,10 +2138,7 @@
                     "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>",
                     "effects": {
                         "Shield +3": {
-                            "name": "Shield +3",
-                            "changes": {
-                                "name": "{} +3"
-                            }
+                            "name": "Shield +3"
                         }
                     }
                 },
@@ -2889,10 +2886,7 @@
                     "name": "Plate Armor",
                     "effects": {
                         "Mithral Armor": {
-                            "name": "Mithral Armor",
-                            "changes": {
-                                "name": "Mithral {}"
-                            }
+                            "name": "Mithral Armor"
                         }
                     }
                 },
@@ -3053,10 +3047,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Fire)": {
-                            "name": "Ring of Resistance (Fire)",
-                            "changes": {
-                                "name": "Ring of Resistance (garnet)"
-                            }
+                            "name": "Ring of Resistance (Fire)"
                         },
                         "Fire Resistance": {
                             "name": "Fire Resistance"
@@ -5345,10 +5336,7 @@
                     "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>",
                     "effects": {
                         "Shield +2": {
-                            "name": "Shield +2",
-                            "changes": {
-                                "name": "{} +2"
-                            }
+                            "name": "Shield +2"
                         }
                     }
                 },
@@ -5360,10 +5348,7 @@
                     "description": "<p>An @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p><p>This item also functions as a @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>",
                     "effects": {
                         "Shillelagh (1d12)": {
-                            "name": "Shillelagh (1d12)",
-                            "changes": {
-                                "name": "{} (Shillelagh)"
-                            }
+                            "name": "Shillelagh (1d12)"
                         }
                     }
                 },
@@ -5606,28 +5591,16 @@
                     },
                     "effects": {
                         "Shillelagh (1d8)": {
-                            "name": "Shillelagh (1d8)",
-                            "changes": {
-                                "name": "{} Shillelagh"
-                            }
+                            "name": "Shillelagh (1d8)"
                         },
                         "Shillelagh (1d10)": {
-                            "name": "Shillelagh (1d10)",
-                            "changes": {
-                                "name": "{} (Shillelagh)"
-                            }
+                            "name": "Shillelagh (1d10)"
                         },
                         "Shillelagh (1d12)": {
-                            "name": "Shillelagh (1d12)",
-                            "changes": {
-                                "name": "{} (Shillelagh)"
-                            }
+                            "name": "Shillelagh (1d12)"
                         },
                         "Shillelagh (2d6)": {
-                            "name": "Shillelagh (2d6)",
-                            "changes": {
-                                "name": "{} (Shillelagh)"
-                            }
+                            "name": "Shillelagh (2d6)"
                         }
                     }
                 },
@@ -5962,10 +5935,7 @@
                     },
                     "effects": {
                         "Dwarven Plate": {
-                            "name": "Dwarven Plate",
-                            "changes": {
-                                "name": "Dwarven {}"
-                            }
+                            "name": "Dwarven Plate"
                         }
                     }
                 },
@@ -6065,10 +6035,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Necrotic)": {
-                            "name": "Ring of Resistance (Necrotic)",
-                            "changes": {
-                                "name": "Ring of Resistance (jet)"
-                            }
+                            "name": "Ring of Resistance (Necrotic)"
                         },
                         "Necrotic Resistance": {
                             "name": "Necrotic Resistance"
@@ -6106,7 +6073,7 @@
                 },
                 "Wild Shape": {
                     "name": "Wild Shape",
-                    "description": "<p>The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see \"Known Forms\" below). You stay in that form for a number of hours equal to half your Druid level (currently [[lookup @classes.druid.levels]]) or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.</p><p><strong>Number of Uses.</strong> You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p><p>You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid Features} table.</p><p><strong>Current Number of Uses:</strong> [[lookup @scale.druid.wild-shape-uses]]</p><p><strong>Known Forms. </strong>You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. The @UUID[Compendium.dnd5e.actors24.Actor.mmRat00000000000]{Rat}, @UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Riding Horse}, @UUID[Compendium.dnd5e.actors24.Actor.mmSpider00000000]{Spider}, and @UUID[Compendium.dnd5e.actors24.Actor.mmWolf0000000000]{Wolf} are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Wild Shape Automation</h3><p>When you've selected the creature you would like to wild shape into you can drag it onto your character sheet, select the Wild Shape option, and Foundry will automatically update your sheet. You can revert the transformation at the top of your sheet or by right clicking on your Actor in the sidebar.</p></article></section><p>When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.</p><p><strong>Current Known Forms Limit:</strong> [[lookup @scale.druid.known-forms]]</p><p><strong>Current CR Limit:</strong> [[lookup @scale.druid.wild-shape]]</p><p>When choosing known forms, you may look in the <em>Monster Manual</em> or elsewhere for eligible Beasts if the Dungeon Master permits you to do so.</p><table><caption>Beast Shapes</caption><thead><tr><td>Druid Level</td><td>Known Forms</td><td>Max CR</td><td>Fly Speed</td></tr></thead><tbody><tr><td>2</td><td>4</td><td>1/4</td><td>No</td></tr><tr><td>4</td><td>6</td><td>1/2</td><td>No</td></tr><tr><td>8</td><td>8</td><td>1</td><td>Yes</td></tr></tbody></table><p><strong>Rules While Shape-Shifted.</strong> While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:</p><p><strong>Temporary Hit Points. </strong>When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.</p><p><strong>Game Statistics.</strong> Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.</p><p><strong>No Spellcasting.</strong> You can't cast spells, but shape-shifting doesn't break your Concentration or otherwise interfere with a spell you've already cast.</p><p><strong>Objects. </strong>Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.</p><section class=\"secret\" id=\"secret-FZNGONDktXDnwY0x\"><p><strong>Foundry Note</strong></p><p>You can activate this feature to track uses of your Wild Shape.</p><p>It will automatically restore a use on a Short Rest and all uses on a Long Rest.</p></section>",
+                    "description": "<p>The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see \"Known Forms\" below). You stay in that form for a number of hours equal to half your Druid level (currently [[lookup @classes.druid.levels]]) or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.</p><p><strong>Number of Uses.</strong> You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p><p>You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid Features} table.</p><p><strong>Current Number of Uses:</strong> [[lookup @scale.druid.wild-shape-uses]]</p><p><strong>Known Forms. </strong>You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. The @UUID[Compendium.dnd5e.actors24.Actor.mmRat00000000000]{Rat}, @UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Riding Horse}, @UUID[Compendium.dnd5e.actors24.Actor.mmSpider00000000]{Spider}, and @UUID[Compendium.dnd5e.actors24.Actor.mmWolf0000000000]{Wolf} are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img class=\"vtt-outline\" src=\"icons/vtt-512.png\" /></figure><article><h3>Wild Shape Automation</h3><p>When you've selected the creature you would like to wild shape into you can drag it onto your character sheet, select the Wild Shape option, and Foundry will automatically update your sheet. You can revert the transformation at the top of your sheet or by right clicking on your Actor in the sidebar.</p></article></section><p>When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.</p><p><strong>Current Known Forms Limit:</strong> [[lookup @scale.druid.known-forms]]</p><p><strong>Current CR Limit:</strong> [[lookup @scale.druid.wild-shape]]</p><p>When choosing known forms, you may look in the <em>Monster Manual</em> or elsewhere for eligible Beasts if the Dungeon Master permits you to do so.</p><table><caption>Beast Shapes</caption><thead><tr><td>Druid Level</td><td>Known Forms</td><td>Max CR</td><td>Fly Speed</td></tr></thead><tbody><tr><td>2</td><td>4</td><td>1/4</td><td>No</td></tr><tr><td>4</td><td>6</td><td>1/2</td><td>No</td></tr><tr><td>8</td><td>8</td><td>1</td><td>Yes</td></tr></tbody></table><p><strong>Rules While Shape-Shifted.</strong> While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:</p><p><strong>Temporary Hit Points. </strong>When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.</p><p><strong>Game Statistics.</strong> Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.</p><p><strong>No Spellcasting.</strong> You can't cast spells, but shape-shifting doesn't break your Concentration or otherwise interfere with a spell you've already cast.</p><p><strong>Objects. </strong>Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.</p><section class=\"secret\" id=\"secret-FZNGONDktXDnwY0x\"><p><strong>Foundry Note</strong></p><p>You can activate this feature to track uses of your Wild Shape.</p><p>It will automatically restore a use on a Short Rest and all uses on a Long Rest.</p></section>",
                     "requirements": "Druid",
                     "activities": {
                         "transform": {
@@ -7219,16 +7186,10 @@
                     },
                     "effects": {
                         "True Strike": {
-                            "name": "True Strike",
-                            "changes": {
-                                "name": "{} (True Strike)"
-                            }
+                            "name": "True Strike"
                         },
                         "Ranged Weapon": {
-                            "name": "Ranged Weapon",
-                            "changes": {
-                                "name": "{} (True Strike)"
-                            }
+                            "name": "Ranged Weapon"
                         }
                     }
                 },
@@ -7311,10 +7272,7 @@
                     },
                     "effects": {
                         "True Strike": {
-                            "name": "True Strike",
-                            "changes": {
-                                "name": "{} (True Strike)"
-                            }
+                            "name": "True Strike"
                         }
                     }
                 },
@@ -7824,10 +7782,7 @@
                     "name": "Chain Shirt",
                     "effects": {
                         "Elven Chain": {
-                            "name": "Elven Chain",
-                            "changes": {
-                                "name": "Elven {}"
-                            }
+                            "name": "Elven Chain"
                         }
                     }
                 },
@@ -8022,10 +7977,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Cold)": {
-                            "name": "Ring of Resistance (Cold)",
-                            "changes": {
-                                "name": "Ring of Resistance (tourmaline)"
-                            }
+                            "name": "Ring of Resistance (Cold)"
                         },
                         "Cold Resistance": {
                             "name": "Cold Resistance"
@@ -12732,7 +12684,7 @@
                 },
                 "Multiattack": {
                     "name": "Multiattack",
-                    "description": "<p>The insect makes a number of attacks equal to half this spell's level (round down).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
+                    "description": "<p>The insect makes a number of attacks equal to half this spell's level (round down).</p><p class=\"hide-in-embed\">[[floor(@flags.dnd5e.summon.level / 2)]]{Number of attacks}</p>",
                     "activities": {
                         "Activate": {
                             "name": "Activate"
@@ -12743,19 +12695,19 @@
                     "name": "Poison Jab",
                     "description": "<p> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 10 ft. <em>Hit:</em> 1d6 + 3 plus the spell's level Piercing damage plus 1d4 Poison damage.</p>"
                 },
-                "Web Bolt": {
-                    "name": "Web Bolt",
+                "Web Bolt (Spider Only)": {
+                    "name": "Web Bolt (Spider Only)",
                     "description": "<p> <em>Ranged Attack Roll:</em> Bonus equals your spell attack modifier, range 60 ft. <em>Hit:</em> 1d10 + 3 plus the spell's level Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn.</p>",
                     "requirements": "Spider Only",
                     "effects": {
                         "Webbed": {
                             "name": "Webbed",
-                            "description": "<p><span style=\"font-family:Signika, sans-serif\">The target’s Speed is reduced to 0 until the start of the insect’s next turn.</span></p>"
+                            "description": "<p>The target’s Speed is reduced to 0 until the start of the insect’s next turn.</p>"
                         }
                     }
                 },
-                "Venomous Spew": {
-                    "name": "Venomous Spew",
+                "Venomous Spew (Centipede Only)": {
+                    "name": "Venomous Spew (Centipede Only)",
                     "description": "<p><em>Constitution Saving Throw:</em> Your spell save DC, one creature the insect can see within 10 feet. <em>Failure:</em> The target has the &amp;Reference[Poisoned apply=false] condition until the start of the insect's next turn.</p>",
                     "requirements": "Centipede Only",
                     "activities": {
@@ -13032,7 +12984,7 @@
                     "effects": {
                         "Webbed": {
                             "name": "Webbed",
-                            "description": "<p><span style=\"font-family:Signika, sans-serif\">The target’s Speed is reduced to 0 until the start of the insect’s next turn.</span></p>"
+                            "description": "<p>The target’s Speed is reduced to 0 until the start of the insect’s next turn.</p>"
                         }
                     }
                 }
@@ -15534,10 +15486,7 @@
                     "description": "<p>You gain the Armor Class benefit of a Shield only if you have training with it.</p>",
                     "effects": {
                         "Shield +2": {
-                            "name": "Shield +2",
-                            "changes": {
-                                "name": "{} +2"
-                            }
+                            "name": "Shield +2"
                         }
                     }
                 },
@@ -15708,10 +15657,7 @@
                     "description": "<p>When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.</p><p>The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.</p><p>You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.</p>",
                     "effects": {
                         "Sacred Weapon": {
-                            "name": "Sacred Weapon",
-                            "changes": {
-                                "name": ", Sacred Weapon"
-                            }
+                            "name": "Sacred Weapon"
                         }
                     }
                 },
@@ -16054,10 +16000,7 @@
                     "name": "Plate Armor",
                     "effects": {
                         "Armor +1": {
-                            "name": "Armor +1",
-                            "changes": {
-                                "name": "{} +1"
-                            }
+                            "name": "Armor +1"
                         }
                     }
                 },
@@ -16221,10 +16164,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Acid)": {
-                            "name": "Ring of Resistance (Acid)",
-                            "changes": {
-                                "name": "Ring of Resistance (pearl)"
-                            }
+                            "name": "Ring of Resistance (Acid)"
                         },
                         "Acid Resistance": {
                             "name": "Acid Resistance"
@@ -17724,10 +17664,7 @@
                     "name": "Halberd",
                     "effects": {
                         "Vicious Weapon": {
-                            "name": "Vicious Weapon",
-                            "changes": {
-                                "name": "Vicious {}"
-                            }
+                            "name": "Vicious Weapon"
                         }
                     }
                 },
@@ -17750,10 +17687,7 @@
                     "name": "Pike",
                     "effects": {
                         "Vicious Weapon": {
-                            "name": "Vicious Weapon",
-                            "changes": {
-                                "name": "Vicious {}"
-                            }
+                            "name": "Vicious Weapon"
                         }
                     }
                 },
@@ -17824,10 +17758,7 @@
                     "name": "Half Plate Armor",
                     "effects": {
                         "Adamantine Armor": {
-                            "name": "Adamantine Armor",
-                            "changes": {
-                                "name": "Adamantine {}"
-                            }
+                            "name": "Adamantine Armor"
                         }
                     }
                 },
@@ -17864,10 +17795,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Fire)": {
-                            "name": "Ring of Resistance (Fire)",
-                            "changes": {
-                                "name": "Ring of Resistance (garnet)"
-                            }
+                            "name": "Ring of Resistance (Fire)"
                         },
                         "Fire Resistance": {
                             "name": "Fire Resistance"
@@ -17989,10 +17917,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Cold)": {
-                            "name": "Ring of Resistance (Cold)",
-                            "changes": {
-                                "name": "Ring of Resistance (tourmaline)"
-                            }
+                            "name": "Ring of Resistance (Cold)"
                         },
                         "Cold Resistance": {
                             "name": "Cold Resistance"
@@ -18308,10 +18233,7 @@
                     },
                     "effects": {
                         "True Strike": {
-                            "name": "True Strike",
-                            "changes": {
-                                "name": "{} (True Strike)"
-                            }
+                            "name": "True Strike"
                         }
                     }
                 },
@@ -18420,16 +18342,10 @@
                     },
                     "effects": {
                         "True Strike": {
-                            "name": "True Strike",
-                            "changes": {
-                                "name": "{} (True Strike)"
-                            }
+                            "name": "True Strike"
                         },
                         "Ranged Weapon": {
-                            "name": "Ranged Weapon",
-                            "changes": {
-                                "name": "{} (True Strike)"
-                            }
+                            "name": "Ranged Weapon"
                         }
                     }
                 },
@@ -18718,10 +18634,7 @@
                     "description": "<p>An @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
                     "effects": {
                         "Wand of the War Mage, +3": {
-                            "name": "Wand of the War Mage, +3",
-                            "changes": {
-                                "name": "{} of the War Mage, +3"
-                            }
+                            "name": "Wand of the War Mage, +3"
                         },
                         "War Mage +3": {
                             "name": "War Mage +3"
@@ -19273,10 +19186,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Lightning)": {
-                            "name": "Ring of Resistance (Lightning)",
-                            "changes": {
-                                "name": "Ring of Resistance (citrine)"
-                            }
+                            "name": "Ring of Resistance (Lightning)"
                         },
                         "Lightning Resistance": {
                             "name": "Lightning Resistance"
@@ -20650,10 +20560,7 @@
                     "effects": {
                         "Dexterous Attacks & Martial Arts Damage": {
                             "name": "Dexterous Attacks & Martial Arts Damage",
-                            "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>",
-                            "changes": {
-                                "name": "{} (Martial Arts)"
-                            }
+                            "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>"
                         }
                     }
                 },
@@ -20950,10 +20857,7 @@
                     "effects": {
                         "Dexterous Attacks & Martial Arts Damage": {
                             "name": "Dexterous Attacks & Martial Arts Damage",
-                            "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>",
-                            "changes": {
-                                "name": "{} (Martial Arts)"
-                            }
+                            "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>"
                         }
                     }
                 },
@@ -21059,10 +20963,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Necrotic)": {
-                            "name": "Ring of Resistance (Necrotic)",
-                            "changes": {
-                                "name": "Ring of Resistance (jet)"
-                            }
+                            "name": "Ring of Resistance (Necrotic)"
                         },
                         "Necrotic Resistance": {
                             "name": "Necrotic Resistance"
@@ -21140,10 +21041,7 @@
                     "effects": {
                         "Dexterous Attacks & Martial Arts Damage": {
                             "name": "Dexterous Attacks & Martial Arts Damage",
-                            "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>",
-                            "changes": {
-                                "name": "{} (Martial Arts)"
-                            }
+                            "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>"
                         }
                     }
                 },
@@ -21180,10 +21078,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Fire)": {
-                            "name": "Ring of Resistance (Fire)",
-                            "changes": {
-                                "name": "Ring of Resistance (garnet)"
-                            }
+                            "name": "Ring of Resistance (Fire)"
                         },
                         "Fire Resistance": {
                             "name": "Fire Resistance"
@@ -22367,10 +22262,7 @@
                     "name": "Studded Leather Armor",
                     "effects": {
                         "Armor +1": {
-                            "name": "Armor +1",
-                            "changes": {
-                                "name": "{} +1"
-                            }
+                            "name": "Armor +1"
                         }
                     }
                 },
@@ -22378,10 +22270,7 @@
                     "name": "Shortsword",
                     "effects": {
                         "Weapon +2": {
-                            "name": "Weapon +2",
-                            "changes": {
-                                "name": "{} +2"
-                            }
+                            "name": "Weapon +2"
                         }
                     }
                 },
@@ -22389,10 +22278,7 @@
                     "name": "Longbow",
                     "effects": {
                         "Vicious Weapon": {
-                            "name": "Vicious Weapon",
-                            "changes": {
-                                "name": "Vicious {}"
-                            }
+                            "name": "Vicious Weapon"
                         }
                     }
                 },
@@ -22401,10 +22287,7 @@
                     "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
                     "effects": {
                         "Ammunition +2": {
-                            "name": "Ammunition +2",
-                            "changes": {
-                                "name": "{} +2"
-                            }
+                            "name": "Ammunition +2"
                         }
                     }
                 },
@@ -22634,24 +22517,15 @@
                     "effects": {
                         "Magic Weapon +1": {
                             "name": "Magic Weapon +1",
-                            "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p>",
-                            "changes": {
-                                "name": "Magic {} +1"
-                            }
+                            "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p>"
                         },
                         "Magic Weapon +2": {
                             "name": "Magic Weapon +2",
-                            "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +2 bonus to attack rolls and damage rolls.</p>",
-                            "changes": {
-                                "name": "Magic {} +2"
-                            }
+                            "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +2 bonus to attack rolls and damage rolls.</p>"
                         },
                         "Magic Weapon +3": {
                             "name": "Magic Weapon +3",
-                            "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +3 bonus to attack rolls and damage rolls.</p>",
-                            "changes": {
-                                "name": "Magic {} +3"
-                            }
+                            "description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +3 bonus to attack rolls and damage rolls.</p>"
                         }
                     }
                 },
@@ -22967,10 +22841,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Necrotic)": {
-                            "name": "Ring of Resistance (Necrotic)",
-                            "changes": {
-                                "name": "Ring of Resistance (jet)"
-                            }
+                            "name": "Ring of Resistance (Necrotic)"
                         },
                         "Necrotic Resistance": {
                             "name": "Necrotic Resistance"
@@ -22995,10 +22866,7 @@
                     "description": "<p><em><strong>Storage:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagAmmunitionV]{Ammunition} is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.</p>",
                     "effects": {
                         "Ammunition +1": {
-                            "name": "Ammunition +1",
-                            "changes": {
-                                "name": "{} +1"
-                            }
+                            "name": "Ammunition +1"
                         }
                     }
                 },
@@ -23368,10 +23236,7 @@
                     "name": "Greatsword",
                     "effects": {
                         "Vicious Weapon": {
-                            "name": "Vicious Weapon",
-                            "changes": {
-                                "name": "Vicious {}"
-                            }
+                            "name": "Vicious Weapon"
                         }
                     }
                 },
@@ -23513,10 +23378,7 @@
                     "name": "Halberd",
                     "effects": {
                         "Vicious Weapon": {
-                            "name": "Vicious Weapon",
-                            "changes": {
-                                "name": "Vicious {}"
-                            }
+                            "name": "Vicious Weapon"
                         }
                     }
                 },
@@ -23524,10 +23386,7 @@
                     "name": "Pike",
                     "effects": {
                         "Vicious Weapon": {
-                            "name": "Vicious Weapon",
-                            "changes": {
-                                "name": "Vicious {}"
-                            }
+                            "name": "Vicious Weapon"
                         }
                     }
                 },
@@ -23594,10 +23453,7 @@
                     "name": "Plate Armor",
                     "effects": {
                         "Adamantine Armor": {
-                            "name": "Adamantine Armor",
-                            "changes": {
-                                "name": "Adamantine {}"
-                            }
+                            "name": "Adamantine Armor"
                         }
                     }
                 },
@@ -23672,10 +23528,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Acid)": {
-                            "name": "Ring of Resistance (Acid)",
-                            "changes": {
-                                "name": "Ring of Resistance (pearl)"
-                            }
+                            "name": "Ring of Resistance (Acid)"
                         },
                         "Acid Resistance": {
                             "name": "Acid Resistance"
@@ -23980,10 +23833,7 @@
                     "name": "Shortbow",
                     "effects": {
                         "Weapon +1": {
-                            "name": "Weapon +1",
-                            "changes": {
-                                "name": "{} +1"
-                            }
+                            "name": "Weapon +1"
                         }
                     }
                 },
@@ -24211,10 +24061,7 @@
                     "name": "Studded Leather Armor",
                     "effects": {
                         "Armor +1": {
-                            "name": "Armor +1",
-                            "changes": {
-                                "name": "{} +1"
-                            }
+                            "name": "Armor +1"
                         }
                     }
                 },
@@ -26124,10 +25971,7 @@
                     "description": "<p>An @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.</p>",
                     "effects": {
                         "Wand of the War Mage, +2": {
-                            "name": "Wand of the War Mage, +2",
-                            "changes": {
-                                "name": "{} of the War Mage, +2"
-                            }
+                            "name": "Wand of the War Mage, +2"
                         },
                         "War Mage +2": {
                             "name": "War Mage +2"
@@ -26323,10 +26167,7 @@
                     "effects": {
                         "Repelling Blast": {
                             "name": "Repelling Blast",
-                            "description": "<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>",
-                            "changes": {
-                                "name": ", Repelling"
-                            }
+                            "description": "<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>"
                         }
                     }
                 },
@@ -26503,10 +26344,7 @@
                     "name": "Chain Mail",
                     "effects": {
                         "Elven Chain": {
-                            "name": "Elven Chain",
-                            "changes": {
-                                "name": "Elven {}"
-                            }
+                            "name": "Elven Chain"
                         }
                     }
                 },
@@ -26763,10 +26601,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Cold)": {
-                            "name": "Ring of Resistance (Cold)",
-                            "changes": {
-                                "name": "Ring of Resistance (tourmaline)"
-                            }
+                            "name": "Ring of Resistance (Cold)"
                         },
                         "Cold Resistance": {
                             "name": "Cold Resistance"
@@ -30936,16 +30771,10 @@
                     },
                     "effects": {
                         "True Strike": {
-                            "name": "True Strike",
-                            "changes": {
-                                "name": "{} (True Strike)"
-                            }
+                            "name": "True Strike"
                         },
                         "Ranged Weapon": {
-                            "name": "Ranged Weapon",
-                            "changes": {
-                                "name": "{} (True Strike)"
-                            }
+                            "name": "Ranged Weapon"
                         }
                     }
                 },
@@ -31651,10 +31480,7 @@
                     },
                     "effects": {
                         "Contingency Spell": {
-                            "name": "Contingency Spell",
-                            "changes": {
-                                "name": "Contengency: {}"
-                            }
+                            "name": "Contingency Spell"
                         }
                     }
                 },
@@ -31853,10 +31679,7 @@
                             "name": "Staff of Power"
                         },
                         "True Strike": {
-                            "name": "True Strike",
-                            "changes": {
-                                "name": "{} (True Strike)"
-                            }
+                            "name": "True Strike"
                         }
                     }
                 },
@@ -32006,10 +31829,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Necrotic)": {
-                            "name": "Ring of Resistance (Necrotic)",
-                            "changes": {
-                                "name": "Ring of Resistance (jet)"
-                            }
+                            "name": "Ring of Resistance (Necrotic)"
                         },
                         "Necrotic Resistance": {
                             "name": "Necrotic Resistance"
@@ -32020,10 +31840,7 @@
                     "name": "Ring",
                     "effects": {
                         "Ring of Resistance (Acid)": {
-                            "name": "Ring of Resistance (Acid)",
-                            "changes": {
-                                "name": "Ring of Resistance (pearl)"
-                            }
+                            "name": "Ring of Resistance (Acid)"
                         },
                         "Acid Resistance": {
                             "name": "Acid Resistance"

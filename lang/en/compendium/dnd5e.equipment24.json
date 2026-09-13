@@ -147,10 +147,7 @@
             },
             "effects": {
                 "Adamantine Armor": {
-                    "name": "Adamantine Armor",
-                    "changes": {
-                        "name": "Adamantine {}"
-                    }
+                    "name": "Adamantine Armor"
                 }
             }
         },
@@ -198,7 +195,7 @@
         },
         "Ammunition of Slaying": {
             "name": "Ammunition of Slaying",
-            "description": "<p>This magic ammunition is meant to slay creatures of a particular type, which the GM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a DC 17 Constitution saving throw, taking an extra 6d10 Force damage on a failed save or half as much extra damage on a successful one.</p><p>After dealing its extra damage to a creature, the ammunition becomes nonmagical.</p><details><summary>Creature Type Table (click to expand)</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgSlayingAmmuni rollable]</p></details><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+            "description": "<p>This magic ammunition is meant to slay creatures of a particular type, which the GM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a DC 17 Constitution saving throw, taking an extra 6d10 Force damage on a failed save or half as much extra damage on a successful one.</p><p>After dealing its extra damage to a creature, the ammunition becomes nonmagical.</p><details><summary>Creature Type Table (click to expand)</summary><p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgSlayingAmmuni rollable]</p></details> <p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
             "activities": {
                 "Slaying Save": {
                     "name": "Slaying Save",
@@ -213,88 +210,46 @@
             },
             "effects": {
                 "Ammunition of Slaying Aberrations": {
-                    "name": "Ammunition of Slaying Aberrations",
-                    "changes": {
-                        "name": "{} of Slaying (Aberrations)"
-                    }
+                    "name": "Ammunition of Slaying Aberrations"
                 },
                 "Ammunition of Slaying Beasts": {
-                    "name": "Ammunition of Slaying Beasts",
-                    "changes": {
-                        "name": "{} of Slaying (Beasts)"
-                    }
+                    "name": "Ammunition of Slaying Beasts"
                 },
                 "Ammunition of Slaying Celestials": {
-                    "name": "Ammunition of Slaying Celestials",
-                    "changes": {
-                        "name": "{} of Slaying (Celestials)"
-                    }
+                    "name": "Ammunition of Slaying Celestials"
                 },
                 "Ammunition of Slaying Constructs": {
-                    "name": "Ammunition of Slaying Constructs",
-                    "changes": {
-                        "name": "{} of Slaying (Constructs)"
-                    }
+                    "name": "Ammunition of Slaying Constructs"
                 },
                 "Ammunition of Slaying Dragons": {
-                    "name": "Ammunition of Slaying Dragons",
-                    "changes": {
-                        "name": "{} of Slaying (Dragons)"
-                    }
+                    "name": "Ammunition of Slaying Dragons"
                 },
                 "Ammunition of Slaying Elementals": {
-                    "name": "Ammunition of Slaying Elementals",
-                    "changes": {
-                        "name": "{} of Slaying (Elementals)"
-                    }
+                    "name": "Ammunition of Slaying Elementals"
                 },
                 "Ammunition of Slaying Humanoids": {
-                    "name": "Ammunition of Slaying Humanoids",
-                    "changes": {
-                        "name": "{} of Slaying (Humanoids)"
-                    }
+                    "name": "Ammunition of Slaying Humanoids"
                 },
                 "Ammunition of Slaying Fey": {
-                    "name": "Ammunition of Slaying Fey",
-                    "changes": {
-                        "name": "{} of Slaying (Fey)"
-                    }
+                    "name": "Ammunition of Slaying Fey"
                 },
                 "Ammunition of Slaying Fiends": {
-                    "name": "Ammunition of Slaying Fiends",
-                    "changes": {
-                        "name": "{} of Slaying (Fiends)"
-                    }
+                    "name": "Ammunition of Slaying Fiends"
                 },
                 "Ammunition of Slaying Giants": {
-                    "name": "Ammunition of Slaying Giants",
-                    "changes": {
-                        "name": "{} of Slaying (Giants)"
-                    }
+                    "name": "Ammunition of Slaying Giants"
                 },
                 "Ammunition of Slaying Monstrosities": {
-                    "name": "Ammunition of Slaying Monstrosities",
-                    "changes": {
-                        "name": "{} of Slaying (Monstrosities)"
-                    }
+                    "name": "Ammunition of Slaying Monstrosities"
                 },
                 "Ammunition of Slaying Oozes": {
-                    "name": "Ammunition of Slaying Oozes",
-                    "changes": {
-                        "name": "{} of Slaying (Oozes)"
-                    }
+                    "name": "Ammunition of Slaying Oozes"
                 },
                 "Ammunition of Slaying Plants": {
-                    "name": "Ammunition of Slaying Plants",
-                    "changes": {
-                        "name": "{} of Slaying (Plants)"
-                    }
+                    "name": "Ammunition of Slaying Plants"
                 },
                 "Ammunition of Slaying Undead": {
-                    "name": "Ammunition of Slaying Undead",
-                    "changes": {
-                        "name": "{} of Slaying (Undead)"
-                    }
+                    "name": "Ammunition of Slaying Undead"
                 }
             }
         },
@@ -308,22 +263,13 @@
             },
             "effects": {
                 "Ammunition +1": {
-                    "name": "Ammunition +1",
-                    "changes": {
-                        "name": "{} +1"
-                    }
+                    "name": "Ammunition +1"
                 },
                 "Ammunition +2": {
-                    "name": "Ammunition +2",
-                    "changes": {
-                        "name": "{} +2"
-                    }
+                    "name": "Ammunition +2"
                 },
                 "Ammunition +3": {
-                    "name": "Ammunition +3",
-                    "changes": {
-                        "name": "{} +3"
-                    }
+                    "name": "Ammunition +3"
                 }
             }
         },
@@ -419,64 +365,34 @@
             },
             "effects": {
                 "Armor of Acid Resistance": {
-                    "name": "Armor of Acid Resistance",
-                    "changes": {
-                        "name": "{} of Acid Resistance"
-                    }
+                    "name": "Armor of Acid Resistance"
                 },
                 "Armor of Cold Resistance": {
-                    "name": "Armor of Cold Resistance",
-                    "changes": {
-                        "name": "{} of Cold Resistance"
-                    }
+                    "name": "Armor of Cold Resistance"
                 },
                 "Armor of Fire Resistance": {
-                    "name": "Armor of Fire Resistance",
-                    "changes": {
-                        "name": "{} of Fire Resistance"
-                    }
+                    "name": "Armor of Fire Resistance"
                 },
                 "Armor of Force Resistance": {
-                    "name": "Armor of Force Resistance",
-                    "changes": {
-                        "name": "{} of Force Resistance"
-                    }
+                    "name": "Armor of Force Resistance"
                 },
                 "Armor of Lightning Resistance": {
-                    "name": "Armor of Lightning Resistance",
-                    "changes": {
-                        "name": "{} of Lightning Resistance"
-                    }
+                    "name": "Armor of Lightning Resistance"
                 },
                 "Armor of Necrotic Resistance": {
-                    "name": "Armor of Necrotic Resistance",
-                    "changes": {
-                        "name": "{} of Necrotic Resistance"
-                    }
+                    "name": "Armor of Necrotic Resistance"
                 },
                 "Armor of Poison Resistance": {
-                    "name": "Armor of Poison Resistance",
-                    "changes": {
-                        "name": "{} of Poison Resistance"
-                    }
+                    "name": "Armor of Poison Resistance"
                 },
                 "Armor of Psychic Resistance": {
-                    "name": "Armor of Psychic Resistance",
-                    "changes": {
-                        "name": "{} of Psychic Resistance"
-                    }
+                    "name": "Armor of Psychic Resistance"
                 },
                 "Armor of Radiant Resistance": {
-                    "name": "Armor of Radiant Resistance",
-                    "changes": {
-                        "name": "{} of Radiant Resistance"
-                    }
+                    "name": "Armor of Radiant Resistance"
                 },
                 "Armor of Thunder Resistance": {
-                    "name": "Armor of Thunder Resistance",
-                    "changes": {
-                        "name": "{} of Thunder Resistance"
-                    }
+                    "name": "Armor of Thunder Resistance"
                 },
                 "Acid Resistance": {
                     "name": "Acid Resistance"
@@ -529,22 +445,13 @@
                     "name": "Armor: Slashing Resistance"
                 },
                 "Bludgeoning Resistance": {
-                    "name": "Bludgeoning Resistance",
-                    "changes": {
-                        "name": "{} of Vulnerability"
-                    }
+                    "name": "Bludgeoning Resistance"
                 },
                 "Piercing Resistance": {
-                    "name": "Piercing Resistance",
-                    "changes": {
-                        "name": "{} of Vulnerability"
-                    }
+                    "name": "Piercing Resistance"
                 },
                 "Slashing Resistance": {
-                    "name": "Slashing Resistance",
-                    "changes": {
-                        "name": "{} of Vulnerability"
-                    }
+                    "name": "Slashing Resistance"
                 }
             }
         },
@@ -558,22 +465,13 @@
             },
             "effects": {
                 "Armor +1": {
-                    "name": "Armor +1",
-                    "changes": {
-                        "name": "{} +1"
-                    }
+                    "name": "Armor +1"
                 },
                 "Armor +2": {
-                    "name": "Armor +2",
-                    "changes": {
-                        "name": "{} +2"
-                    }
+                    "name": "Armor +2"
                 },
                 "Armor +3": {
-                    "name": "Armor +3",
-                    "changes": {
-                        "name": "{} +3"
-                    }
+                    "name": "Armor +3"
                 }
             }
         },
@@ -801,7 +699,7 @@
         },
         "Berserker Axe": {
             "name": "Berserker Axe",
-            "description": "<div><p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepBattleaxe0]{Battleaxe}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{Greataxe}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepHalberd000]{Halberd}), Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.</p><section class=\"secret\" id=\"secret-kIoBCQDeN3tTKast\"><p><strong>Curse.</strong> This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.</p><p>Whenever another creature damages you while the weapon is in your possession, you must succeed on a [[/save ability=wis dc=15 format=long]] or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.</p><p>While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.</p></section></div><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+            "description": "<div><p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepBattleaxe0]{Battleaxe}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{Greataxe}, or @UUID[Compendium.dnd5e.equipment24.Item.phbwepHalberd000]{Halberd}), Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.</p><section class=\"secret\" id=\"secret-kIoBCQDeN3tTKast\"><p><strong>Curse.</strong> This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one.</p><p>Whenever another creature damages you while the weapon is in your possession, you must succeed on a [[/save ability=wis dc=15 format=long]] or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.</p><p>While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.</p></section></div> <p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
             "activities": {
                 "Berserker Axe": {
                     "name": "Berserker Axe"
@@ -813,10 +711,7 @@
                     "description": "<p>While you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.</p>"
                 },
                 "Berserker Axe": {
-                    "name": "Berserker Axe",
-                    "changes": {
-                        "name": "Berserker {}"
-                    }
+                    "name": "Berserker Axe"
                 }
             }
         },
@@ -1475,10 +1370,7 @@
             },
             "effects": {
                 "Dancing Sword": {
-                    "name": "Dancing Sword",
-                    "changes": {
-                        "name": "Dancing {}"
-                    }
+                    "name": "Dancing Sword"
                 }
             }
         },
@@ -1535,10 +1427,7 @@
                     "description": "<p>The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it.</p>"
                 },
                 "Defender": {
-                    "name": "Defender",
-                    "changes": {
-                        "name": "Defender {}"
-                    }
+                    "name": "Defender"
                 },
                 "Transferred AC Bonus: 2": {
                     "name": "Transferred AC Bonus: 2",
@@ -1552,7 +1441,7 @@
         },
         "Demon Armor": {
             "name": "Demon Armor",
-            "description": "<p><em>Armor (Any Light, Medium, or Heavy), Very Rare (Requires Attunement)</em></p><p>While wearing this armor, you gain a +1 bonus to Armor Class, and you know Abyssal. In addition, the armor's clawed gauntlets allow your Unarmed Strikes to deal 1d8 Slashing damage instead of the usual Bludgeoning damage, and you gain a +1 bonus to the attack and damage rolls of your Unarmed Strikes.</p><section class=\"secret\" id=\"secret-i2l0Ym3XkTC4Qm8z\"><p><strong>Curse.</strong> Once you don this cursed armor, you can't doff it unless you are targeted by a <em>Remove Curse</em> spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.</p></section><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+            "description": "<p><em>Armor (Any Light, Medium, or Heavy), Very Rare (Requires Attunement)</em></p><p>While wearing this armor, you gain a +1 bonus to Armor Class, and you know Abyssal. In addition, the armor's clawed gauntlets allow your Unarmed Strikes to deal 1d8 Slashing damage instead of the usual Bludgeoning damage, and you gain a +1 bonus to the attack and damage rolls of your Unarmed Strikes.</p><section class=\"secret\" id=\"secret-i2l0Ym3XkTC4Qm8z\"><p><strong>Curse.</strong> Once you don this cursed armor, you can't doff it unless you are targeted by a <em>Remove Curse</em> spell or similar magic. While wearing the armor, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.</p></section> <p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
             "activities": {
                 "Demon Armor": {
                     "name": "Demon Armor"
@@ -1560,10 +1449,7 @@
             },
             "effects": {
                 "Demon Armor": {
-                    "name": "Demon Armor",
-                    "changes": {
-                        "name": "Demon {}"
-                    }
+                    "name": "Demon Armor"
                 },
                 "Abyssal Language": {
                     "name": "Abyssal Language"
@@ -1671,52 +1557,28 @@
                     "name": "Gold Scale"
                 },
                 "Blue Scale": {
-                    "name": "Blue Scale",
-                    "changes": {
-                        "name": "Blue {}"
-                    }
+                    "name": "Blue Scale"
                 },
                 "Green Scale": {
-                    "name": "Green Scale",
-                    "changes": {
-                        "name": "Green {}"
-                    }
+                    "name": "Green Scale"
                 },
                 "Brass Scale": {
-                    "name": "Brass Scale",
-                    "changes": {
-                        "name": "Fire {}"
-                    }
+                    "name": "Brass Scale"
                 },
                 "Red Scale": {
-                    "name": "Red Scale",
-                    "changes": {
-                        "name": "Red {}"
-                    }
+                    "name": "Red Scale"
                 },
                 "Bronze Scale": {
-                    "name": "Bronze Scale",
-                    "changes": {
-                        "name": "Bronze {}"
-                    }
+                    "name": "Bronze Scale"
                 },
                 "Silver Scale": {
-                    "name": "Silver Scale",
-                    "changes": {
-                        "name": "Silver {}"
-                    }
+                    "name": "Silver Scale"
                 },
                 "Copper Scale": {
-                    "name": "Copper Scale",
-                    "changes": {
-                        "name": "Copper {}"
-                    }
+                    "name": "Copper Scale"
                 },
                 "White Scale": {
-                    "name": "White Scale",
-                    "changes": {
-                        "name": "White {}"
-                    }
+                    "name": "White Scale"
                 }
             }
         },
@@ -1730,10 +1592,7 @@
             },
             "effects": {
                 "Dragon Slayer": {
-                    "name": "Dragon Slayer",
-                    "changes": {
-                        "name": "Dragon Slayer {}"
-                    }
+                    "name": "Dragon Slayer"
                 }
             }
         },
@@ -1826,7 +1685,7 @@
             "effects": {
                 "Incapacitated and Suffocating (Sneezing)": {
                     "name": "Incapacitated and Suffocating (Sneezing)",
-                    "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfSneezin]<br /></em>The creature has the Incapacitated condition and is suffocating. The creature [[/save ability=con dc=15]]{repeats the save} at the end of each of its turns, ending the effect on itself on a success. The effect also ends on any creature targeted by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em> spell.</p>"
+                    "description": "<p><em>Source: @UUID[Compendium.dnd5e.equipment24.Item.dmgDustOfSneezin]<br></em>The creature has the Incapacitated condition and is suffocating. The creature [[/save ability=con dc=15]]{repeats the save} at the end of each of its turns, ending the effect on itself on a success. The effect also ends on any creature targeted by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLesserRest]{Lesser Restoration}</em> spell.</p>"
                 }
             }
         },
@@ -1846,10 +1705,7 @@
             },
             "effects": {
                 "Dwarven Plate": {
-                    "name": "Dwarven Plate",
-                    "changes": {
-                        "name": "Dwarven {}"
-                    }
+                    "name": "Dwarven Plate"
                 }
             }
         },
@@ -2023,10 +1879,7 @@
             },
             "effects": {
                 "Elven Chain": {
-                    "name": "Elven Chain",
-                    "changes": {
-                        "name": "Elven {}"
-                    }
+                    "name": "Elven Chain"
                 }
             }
         },
@@ -2036,7 +1889,7 @@
         },
         "Energy Bow": {
             "name": "Energy Bow",
-            "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow} or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}), Very Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon, which has no string. Each time you pull your arm back in a firing motion, a magical arrow made of golden energy appears nocked and ready to fire. An arrow produced by this weapon deals Force damage instead of Piercing damage on a hit, and it disappears after it hits or misses its target. Until it disappears, the arrow emits Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.</p><p>This weapon has the following additional properties.</p><details><summary><strong>Arrow of Restraint.</strong></summary><p>Whenever you use this weapon to make a ranged attack against a creature, you can try to restrain the target instead of dealing damage to it. If the arrow hits, the target must succeed on a [[/save ability=str dc=15 format=long]] or have the &amp;Reference[Restrained apply=false] condition for 1 minute. As an action, a creature Restrained by an arrow can make a [[/check ability=str skill=ath dc=20 format=long]] to try to break the restraint, ending the effect on itself on a successful check.</p></details><details><summary><strong>Arrow of Transport.</strong></summary><p>As a Magic action, you can fire one energy arrow from this weapon at a target you can see within 60 feet of yourself. The target can be either a willing Medium or smaller creature or an object that isn't being worn or carried, provided the object is small enough to fit inside a 5-foot Cube. The arrow teleports the target to an unoccupied space you can see within 10 feet of you.</p></details><details><summary><strong>Energy Ladder.</strong></summary><p>As a Magic action, you can loose a flurry of energy arrows from this weapon at a wall up to 60 feet away from yourself. The arrows become glowing rungs that stick out of the wall, forming a magical ladder up to 60 feet long on the wall. This ladder lasts for 1 minute before disappearing.</p></details><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+            "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow} or @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}), Very Rare (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon, which has no string. Each time you pull your arm back in a firing motion, a magical arrow made of golden energy appears nocked and ready to fire. An arrow produced by this weapon deals Force damage instead of Piercing damage on a hit, and it disappears after it hits or misses its target. Until it disappears, the arrow emits Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.</p><p>This weapon has the following additional properties.</p><details><summary><strong>Arrow of Restraint.</strong></summary><p>Whenever you use this weapon to make a ranged attack against a creature, you can try to restrain the target instead of dealing damage to it. If the arrow hits, the target must succeed on a [[/save ability=str dc=15 format=long]] or have the &amp;Reference[Restrained apply=false] condition for 1 minute. As an action, a creature Restrained by an arrow can make a [[/check ability=str skill=ath dc=20 format=long]] to try to break the restraint, ending the effect on itself on a successful check.</p></details><details><summary><strong>Arrow of Transport.</strong></summary><p>As a Magic action, you can fire one energy arrow from this weapon at a target you can see within 60 feet of yourself. The target can be either a willing Medium or smaller creature or an object that isn't being worn or carried, provided the object is small enough to fit inside a 5-foot Cube. The arrow teleports the target to an unoccupied space you can see within 10 feet of you.</p></details><details><summary><strong>Energy Ladder.</strong></summary><p>As a Magic action, you can loose a flurry of energy arrows from this weapon at a wall up to 60 feet away from yourself. The arrows become glowing rungs that stick out of the wall, forming a magical ladder up to 60 feet long on the wall. This ladder lasts for 1 minute before disappearing.</p></details> <p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
             "activities": {
                 "Arrow of Transport": {
                     "name": "Arrow of Transport",
@@ -2061,10 +1914,7 @@
             },
             "effects": {
                 "Energy Bow": {
-                    "name": "Energy Bow",
-                    "changes": {
-                        "name": "Energy {}"
-                    }
+                    "name": "Energy Bow"
                 },
                 "Restrained (Arrow of Restraint)": {
                     "name": "Restrained (Arrow of Restraint)",
@@ -2325,16 +2175,10 @@
             },
             "effects": {
                 "Flame Tongue": {
-                    "name": "Flame Tongue",
-                    "changes": {
-                        "name": "Flame Tongue {}"
-                    }
+                    "name": "Flame Tongue"
                 },
                 "Ablaze": {
-                    "name": "Ablaze",
-                    "changes": {
-                        "name": "{} (Ablaze)"
-                    }
+                    "name": "Ablaze"
                 }
             }
         },
@@ -2414,10 +2258,7 @@
             },
             "effects": {
                 "Frost Brand": {
-                    "name": "Frost Brand",
-                    "changes": {
-                        "name": "Frost Brand {}"
-                    }
+                    "name": "Frost Brand"
                 },
                 "Fire Resistance": {
                     "name": "Fire Resistance"
@@ -2501,10 +2342,7 @@
             },
             "effects": {
                 "Giant Slayer": {
-                    "name": "Giant Slayer",
-                    "changes": {
-                        "name": "Giant Slayer {}"
-                    }
+                    "name": "Giant Slayer"
                 }
             }
         },
@@ -2614,7 +2452,7 @@
         },
         "Hammer of Thunderbolts": {
             "name": "Hammer of Thunderbolts",
-            "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepMaul000000]{Maul} or @UUID[Compendium.dnd5e.equipment24.Item.phbwepWarhammer0]{Warhammer}), Legendary (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains 1d4 + 1 expended charges daily at dawn.</p><p><strong>Giant's Bane.</strong> While you are attuned to the weapon and wearing either a <em>Belt of Giant Strength</em> or <em>Gauntlets of Ogre Power</em> to which you are also attuned, you gain the following benefits:</p><details><summary><strong>Giants' Bane.</strong></summary><p>When you roll a 20 on the d20 for an attack roll made with this weapon against a Giant, the creature must succeed on a DC 17 Constitution saving throw or die.</p></details><details><summary><strong>Might of Giants.</strong></summary><p>The Strength score bestowed by your <em>Belt of Giant Strength</em> or <em>Gauntlets of Ogre Power</em> increases by 4, to a maximum of 30.</p></details><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+            "description": "<p><em>Weapon (@UUID[Compendium.dnd5e.equipment24.Item.phbwepMaul000000]{Maul} or @UUID[Compendium.dnd5e.equipment24.Item.phbwepWarhammer0]{Warhammer}), Legendary (Requires Attunement)</em></p><p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p><p>The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains 1d4 + 1 expended charges daily at dawn.</p><p><strong>Giant's Bane.</strong> While you are attuned to the weapon and wearing either a <em>Belt of Giant Strength</em> or <em>Gauntlets of Ogre Power</em> to which you are also attuned, you gain the following benefits:</p><details><summary><strong>Giants' Bane.</strong></summary><p>When you roll a 20 on the d20 for an attack roll made with this weapon against a Giant, the creature must succeed on a DC 17 Constitution saving throw or die.</p></details><details><summary><strong>Might of Giants.</strong></summary><p>The Strength score bestowed by your <em>Belt of Giant Strength</em> or <em>Gauntlets of Ogre Power</em> increases by 4, to a maximum of 30.</p></details> <p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
             "activities": {
                 "Hammer of Thunderbolts": {
                     "name": "Hammer of Thunderbolts"
@@ -2633,10 +2471,7 @@
             },
             "effects": {
                 "Hammer of Thunderbolts": {
-                    "name": "Hammer of Thunderbolts",
-                    "changes": {
-                        "name": "{} of Thunderbolts"
-                    }
+                    "name": "Hammer of Thunderbolts"
                 },
                 "Stunned": {
                     "name": "Stunned",
@@ -2644,10 +2479,7 @@
                 },
                 "Giant's Bane: Paired Attunement Bonuses": {
                     "name": "Giant's Bane: Paired Attunement Bonuses",
-                    "description": "<p><strong>Giant’s Bane.</strong> While you are attuned to the weapon and wearing either a <em>Belt of Giant Strength</em> or <em>Gauntlets of Ogre Power</em> to which you are also attuned, you gain the following benefits:</p><ul><li><p><strong>Giants’ Bane.</strong> When you roll a 20 on the d20 for an attack roll made with this weapon against a Giant, the creature must succeed on a DC 17 Constitution saving throw or die.</p></li><li><p><strong>Might of Giants.</strong> The Strength score bestowed by your <em>Belt of Giant Strength</em> or <em>Gauntlets of Ogre Power</em> increases by 4, to a maximum of 30.</p></li></ul>",
-                    "changes": {
-                        "name": ", Giant's Bane"
-                    }
+                    "description": "<p><strong>Giant’s Bane.</strong> While you are attuned to the weapon and wearing either a <em>Belt of Giant Strength</em> or <em>Gauntlets of Ogre Power</em> to which you are also attuned, you gain the following benefits:</p><ul><li><p><strong>Giants’ Bane.</strong> When you roll a 20 on the d20 for an attack roll made with this weapon against a Giant, the creature must succeed on a DC 17 Constitution saving throw or die.</p></li><li><p><strong>Might of Giants.</strong> The Strength score bestowed by your <em>Belt of Giant Strength</em> or <em>Gauntlets of Ogre Power</em> increases by 4, to a maximum of 30.</p></li></ul>"
                 },
                 "Might of Giants": {
                     "name": "Might of Giants",
@@ -2784,10 +2616,7 @@
             },
             "effects": {
                 "Holy Avenger": {
-                    "name": "Holy Avenger",
-                    "changes": {
-                        "name": "Holy Avenger {}"
-                    }
+                    "name": "Holy Avenger"
                 }
             }
         },
@@ -3324,10 +3153,7 @@
             },
             "effects": {
                 "Luck Blade": {
-                    "name": "Luck Blade",
-                    "changes": {
-                        "name": "Luck Blade ({})"
-                    }
+                    "name": "Luck Blade"
                 },
                 "Saving Throw Bonus": {
                     "name": "Saving Throw Bonus",
@@ -3608,10 +3434,7 @@
             },
             "effects": {
                 "Mithral Armor": {
-                    "name": "Mithral Armor",
-                    "changes": {
-                        "name": "Mithral {}"
-                    }
+                    "name": "Mithral Armor"
                 }
             }
         },
@@ -3700,7 +3523,7 @@
         },
         "Nine Lives Stealer": {
             "name": "Nine Lives Stealer",
-            "description": "<p><em>Weapon (Any Simple or Martial), Very Rare (Requires Attunement)</em></p><p>You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.</p><p><strong>Life Stealing.</strong> The weapon has [[/r 1d8 + 1]] charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.</p><section class=\"secret\" id=\"secret-vSYC0gYqNiDynkjf\"><p><strong>Foundry Note</strong></p><p>The <strong>Life Stealing</strong> activity should be updated with its max uses set to the number of charges rolled.</p></section><p> @Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+            "description": "<p><em>Weapon (Any Simple or Martial), Very Rare (Requires Attunement)</em></p><p>You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.</p><p><strong>Life Stealing.</strong> The weapon has [[/r 1d8 + 1]] charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.</p><section class=\"secret\" id=\"secret-vSYC0gYqNiDynkjf\"><p><strong>Foundry Note</strong></p><p>The <strong>Life Stealing</strong> activity should be updated with its max uses set to the number of charges rolled.</p></section> <p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
             "activities": {
                 "Life Stealing": {
                     "name": "Life Stealing",
@@ -3714,10 +3537,7 @@
             },
             "effects": {
                 "Nine Lives Stealer": {
-                    "name": "Nine Lives Stealer",
-                    "changes": {
-                        "name": "Nine Lives Stealer {}"
-                    }
+                    "name": "Nine Lives Stealer"
                 }
             }
         },
@@ -3740,10 +3560,7 @@
             },
             "effects": {
                 "Oathbow": {
-                    "name": "Oathbow",
-                    "changes": {
-                        "name": "Oathbow ({})"
-                    }
+                    "name": "Oathbow"
                 },
                 "Sworn Enemy": {
                     "name": "Sworn Enemy",
@@ -3801,16 +3618,10 @@
             },
             "effects": {
                 "Oiled": {
-                    "name": "Oiled",
-                    "changes": {
-                        "name": "{} Oiled"
-                    }
+                    "name": "Oiled"
                 },
                 "Oiled Ammunition": {
-                    "name": "Oiled Ammunition",
-                    "changes": {
-                        "name": "{} Oiled"
-                    }
+                    "name": "Oiled Ammunition"
                 }
             }
         },
@@ -4004,10 +3815,7 @@
             },
             "effects": {
                 "Plate Armor of Etherealness": {
-                    "name": "Plate Armor of Etherealness",
-                    "changes": {
-                        "name": "{} of Etherealness"
-                    }
+                    "name": "Plate Armor of Etherealness"
                 }
             }
         },
@@ -4612,64 +4420,34 @@
                     "name": "Thunder Resistance"
                 },
                 "Ring of Resistance (Acid)": {
-                    "name": "Ring of Resistance (Acid)",
-                    "changes": {
-                        "name": "Ring of Resistance (pearl)"
-                    }
+                    "name": "Ring of Resistance (Acid)"
                 },
                 "Ring of Resistance (Cold)": {
-                    "name": "Ring of Resistance (Cold)",
-                    "changes": {
-                        "name": "Ring of Resistance (tourmaline)"
-                    }
+                    "name": "Ring of Resistance (Cold)"
                 },
                 "Ring of Resistance (Fire)": {
-                    "name": "Ring of Resistance (Fire)",
-                    "changes": {
-                        "name": "Ring of Resistance (garnet)"
-                    }
+                    "name": "Ring of Resistance (Fire)"
                 },
                 "Ring of Resistance (Force)": {
-                    "name": "Ring of Resistance (Force)",
-                    "changes": {
-                        "name": "Ring of Resistance (sapphire)"
-                    }
+                    "name": "Ring of Resistance (Force)"
                 },
                 "Ring of Resistance (Lightning)": {
-                    "name": "Ring of Resistance (Lightning)",
-                    "changes": {
-                        "name": "Ring of Resistance (citrine)"
-                    }
+                    "name": "Ring of Resistance (Lightning)"
                 },
                 "Ring of Resistance (Necrotic)": {
-                    "name": "Ring of Resistance (Necrotic)",
-                    "changes": {
-                        "name": "Ring of Resistance (jet)"
-                    }
+                    "name": "Ring of Resistance (Necrotic)"
                 },
                 "Ring of Resistance (Poison)": {
-                    "name": "Ring of Resistance (Poison)",
-                    "changes": {
-                        "name": "Ring of Resistance (amethyst)"
-                    }
+                    "name": "Ring of Resistance (Poison)"
                 },
                 "Ring of Resistance (Psychic)": {
-                    "name": "Ring of Resistance (Psychic)",
-                    "changes": {
-                        "name": "Ring of Resistance (jade)"
-                    }
+                    "name": "Ring of Resistance (Psychic)"
                 },
                 "Ring of Resistance (Radiant)": {
-                    "name": "Ring of Resistance (Radiant)",
-                    "changes": {
-                        "name": "Ring of Resistance (topaz)"
-                    }
+                    "name": "Ring of Resistance (Radiant)"
                 },
                 "Ring of Resistance (Thunder)": {
-                    "name": "Ring of Resistance (Thunder)",
-                    "changes": {
-                        "name": "Ring of Resistance (spinel)"
-                    }
+                    "name": "Ring of Resistance (Thunder)"
                 }
             }
         },
@@ -5178,22 +4956,13 @@
             },
             "effects": {
                 "Shield +1": {
-                    "name": "Shield +1",
-                    "changes": {
-                        "name": "{} +1"
-                    }
+                    "name": "Shield +1"
                 },
                 "Shield +2": {
-                    "name": "Shield +2",
-                    "changes": {
-                        "name": "{} +2"
-                    }
+                    "name": "Shield +2"
                 },
                 "Shield +3": {
-                    "name": "Shield +3",
-                    "changes": {
-                        "name": "{} +3"
-                    }
+                    "name": "Shield +3"
                 }
             }
         },
@@ -5293,7 +5062,7 @@
         },
         "Spell Scroll": {
             "name": "Spell Scroll",
-            "description": "<section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Create Scrolls from Spells</h3><p>You can easily create a Scroll for a Spell by right clicking on the spell and selecting the <span class=\"reference\"><em class=\"fa-solid fa-scroll fa-fw\"> </em> Create Scroll</span> option.</p></article></section><p>A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.</p><p>If the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell's level. On a failed check, the spell disappears from the scroll with no other effect.</p><p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the following table.</p><table><thead><tr><th><p>Spell Level</p></th><th><p>Rarity</p></th><th><p>Save DC</p></th><th><p>Attack Bonus</p></th></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>Common</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>1</p></td><td><p>Common</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>2</p></td><td><p>Uncommon</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>3</p></td><td><p>Uncommon</p></td><td><p>15</p></td><td><p>+7</p></td></tr><tr><td><p>4</p></td><td><p>Rare</p></td><td><p>15</p></td><td><p>+7</p></td></tr><tr><td><p>5</p></td><td><p>Rare</p></td><td><p>17</p></td><td><p>+9</p></td></tr><tr><td><p>6</p></td><td><p>Very Rare</p></td><td><p>17</p></td><td><p>+9</p></td></tr><tr><td><p>7</p></td><td><p>Very Rare</p></td><td><p>18</p></td><td><p>+10</p></td></tr><tr><td><p>8</p></td><td><p>Very Rare</p></td><td><p>18</p></td><td><p>+10</p></td></tr><tr><td><p>9</p></td><td><p>Legendary</p></td><td><p>19</p></td><td><p>+11</p></td></tr></tbody></table><p><em><strong>Copying a Scroll into a Spellbook.</strong></em> A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed.</p>"
+            "description": "<section class=\"fvtt advice\"><figure class=\"icon\"><img class=\"vtt-outline\" src=\"icons/vtt-512.png\" /></figure><article><h3>Create Scrolls from Spells</h3><p>You can easily create a Scroll for a Spell by right clicking on the spell and selecting the <span class=\"reference\"><em class=\"fa-solid fa-scroll fa-fw\"> </em> Create Scroll</span> option.</p></article></section><p>A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.</p><p>If the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell's level. On a failed check, the spell disappears from the scroll with no other effect.</p><p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the following table.</p><table><thead><tr><th><p>Spell Level</p></th><th><p>Rarity</p></th><th><p>Save DC</p></th><th><p>Attack Bonus</p></th></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>Common</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>1</p></td><td><p>Common</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>2</p></td><td><p>Uncommon</p></td><td><p>13</p></td><td><p>+5</p></td></tr><tr><td><p>3</p></td><td><p>Uncommon</p></td><td><p>15</p></td><td><p>+7</p></td></tr><tr><td><p>4</p></td><td><p>Rare</p></td><td><p>15</p></td><td><p>+7</p></td></tr><tr><td><p>5</p></td><td><p>Rare</p></td><td><p>17</p></td><td><p>+9</p></td></tr><tr><td><p>6</p></td><td><p>Very Rare</p></td><td><p>17</p></td><td><p>+9</p></td></tr><tr><td><p>7</p></td><td><p>Very Rare</p></td><td><p>18</p></td><td><p>+10</p></td></tr><tr><td><p>8</p></td><td><p>Very Rare</p></td><td><p>18</p></td><td><p>+10</p></td></tr><tr><td><p>9</p></td><td><p>Legendary</p></td><td><p>19</p></td><td><p>+11</p></td></tr></tbody></table><p><em><strong>Copying a Scroll into a Spellbook.</strong></em> A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed.</p>"
         },
         "Spell Scroll, 1st Level": {
             "name": "Spell Scroll, 1st Level",
@@ -5670,10 +5439,7 @@
             },
             "effects": {
                 "Sword of Life Stealing": {
-                    "name": "Sword of Life Stealing",
-                    "changes": {
-                        "name": "{} of Life Stealing"
-                    }
+                    "name": "Sword of Life Stealing"
                 }
             }
         },
@@ -5687,10 +5453,7 @@
             },
             "effects": {
                 "Sword of Sharpness": {
-                    "name": "Sword of Sharpness",
-                    "changes": {
-                        "name": "{} of Sharpness"
-                    }
+                    "name": "Sword of Sharpness"
                 }
             }
         },
@@ -5708,10 +5471,7 @@
             },
             "effects": {
                 "Sword of Wounding": {
-                    "name": "Sword of Wounding",
-                    "changes": {
-                        "name": "{} of Wounding"
-                    }
+                    "name": "Sword of Wounding"
                 },
                 "Wounded and Cannot Heal": {
                     "name": "Wounded and Cannot Heal"
@@ -6014,10 +5774,7 @@
             },
             "effects": {
                 "Vicious Weapon": {
-                    "name": "Vicious Weapon",
-                    "changes": {
-                        "name": "Vicious {}"
-                    }
+                    "name": "Vicious Weapon"
                 }
             }
         },
@@ -6061,10 +5818,7 @@
             },
             "effects": {
                 "Vorpal Sword": {
-                    "name": "Vorpal Sword",
-                    "changes": {
-                        "name": "Vorpal {}"
-                    }
+                    "name": "Vorpal Sword"
                 }
             }
         },
@@ -6153,22 +5907,13 @@
                     "name": "War Mage +3"
                 },
                 "Wand of the War Mage, +1": {
-                    "name": "Wand of the War Mage, +1",
-                    "changes": {
-                        "name": "{} of the War Mage, +1"
-                    }
+                    "name": "Wand of the War Mage, +1"
                 },
                 "Wand of the War Mage, +2": {
-                    "name": "Wand of the War Mage, +2",
-                    "changes": {
-                        "name": "{} of the War Mage, +2"
-                    }
+                    "name": "Wand of the War Mage, +2"
                 },
                 "Wand of the War Mage, +3": {
-                    "name": "Wand of the War Mage, +3",
-                    "changes": {
-                        "name": "{} of the War Mage, +3"
-                    }
+                    "name": "Wand of the War Mage, +3"
                 }
             }
         },
@@ -6268,10 +6013,7 @@
             },
             "effects": {
                 "Weapon of Warning": {
-                    "name": "Weapon of Warning",
-                    "changes": {
-                        "name": "{} of Warning"
-                    }
+                    "name": "Weapon of Warning"
                 },
                 "Supernatural Readiness: Initiative Advantage": {
                     "name": "Supernatural Readiness: Initiative Advantage",
@@ -6289,22 +6031,13 @@
             },
             "effects": {
                 "Weapon +1": {
-                    "name": "Weapon +1",
-                    "changes": {
-                        "name": "{} +1"
-                    }
+                    "name": "Weapon +1"
                 },
                 "Weapon +2": {
-                    "name": "Weapon +2",
-                    "changes": {
-                        "name": "{} +2"
-                    }
+                    "name": "Weapon +2"
                 },
                 "Weapon +3": {
-                    "name": "Weapon +3",
-                    "changes": {
-                        "name": "{} +3"
-                    }
+                    "name": "Weapon +3"
                 }
             }
         },
