@@ -1,0 +1,543 @@
+{
+    "label": "Efekty",
+    "folders": {
+        "Ability Check & Save Advantage": "Ułatwienie w Testach cechy i Rzutach obronnych",
+        "Ability Check & Save Disadvantage": "Utrudnienie w Testach cechy i Rzutach obronnych",
+        "Ability Check Advantage": "Ułatwienie w Testach cechy",
+        "Ability Check Disadvantage": "Utrudnienie w Testach cechy",
+        "Ability Save Advantage": "Ułatwienie w Rzutach obronnych",
+        "Ability Save Disadvantage": "Utrudnienie w Rzutach obronnych",
+        "Condition Immunities": "Niepodatności na stany",
+        "Conditions": "Stany",
+        "Damage Immunities": "Niepodatności na obrażenia",
+        "Damage Resistances": "Odporności na obrażenia",
+        "Damage Vulnerabilities": "Podatności na obrażenia",
+        "Skill Advantage": "Ułatwienie w umiejętnościach",
+        "Skill Disadvantage": "Utrudnienie w umiejętnościach",
+        "Speeds": "Szybkości",
+        "Spells": "Czary"
+    },
+    "entries": {
+        "Acid Immunity": {
+            "name": "Niepodatność na kwas"
+        },
+        "Acid Resistance": {
+            "name": "Odporność na kwas"
+        },
+        "Acid Vulnerability": {
+            "name": "Podatność na kwas"
+        },
+        "Acrobatics Advantage": {
+            "name": "Ułatwienie w Akrobatyce"
+        },
+        "Acrobatics Disadvantage": {
+            "name": "Utrudnienie w Akrobatyce"
+        },
+        "Animal Handling Advantage": {
+            "name": "Ułatwienie w Opiece nad zwierzętami"
+        },
+        "Animal Handling Disadvantage": {
+            "name": "Utrudnienie w Opiece nad zwierzętami"
+        },
+        "Arcana Advantage": {
+            "name": "Ułatwienie w Wiedzy tajemnej"
+        },
+        "Arcana Disadvantage": {
+            "name": "Utrudnienie w Wiedzy tajemnej"
+        },
+        "Athletics Advantage": {
+            "name": "Ułatwienie w Atletyce"
+        },
+        "Athletics Disadvantage": {
+            "name": "Utrudnienie w Atletyce"
+        },
+        "Aura of Life": {
+            "name": "Aura życia",
+            "description": "<p>Dopóki przebywacie w aurze, ty i twoi sojusznicy macie Odporność na obrażenia Nekrotyczne, a wasze maksymalne Punkty wytrzymałości nie mogą zostać zmniejszone. Jeśli sojusznik mający 0 Punktów wytrzymałości rozpocznie swoją turę w aurze, odzyskuje [[/healing 1 type=healing]]{1 Punkt wytrzymałości}.</p>"
+        },
+        "Bleeding": {
+            "name": "Krwawienie"
+        },
+        "Bleeding Immunity": {
+            "name": "Niepodatność na krwawienie"
+        },
+        "Blinded": {
+            "name": "Oślepiony"
+        },
+        "Blinded Immunity": {
+            "name": "Niepodatność na oślepienie"
+        },
+        "Bludgeoning Immunity": {
+            "name": "Niepodatność na obrażenia obuchowe"
+        },
+        "Bludgeoning Resistance": {
+            "name": "Odporność na obrażenia obuchowe"
+        },
+        "Bludgeoning Vulnerability": {
+            "name": "Podatność na obrażenia obuchowe"
+        },
+        "Burning": {
+            "name": "Płonący"
+        },
+        "Burning Immunity": {
+            "name": "Niepodatność na płonięcie"
+        },
+        "Burrow Speed": {
+            "name": "Szybkość rycia"
+        },
+        "Charisma Check & Save Advantage": {
+            "name": "Ułatwienie w testach i rzutach obronnych charyzmy"
+        },
+        "Charisma Check & Save Disadvantage": {
+            "name": "Ułatwienie w rzutach obronnych charyzmy"
+        },
+        "Charisma Check Advantage": {
+            "name": "Ułatwienie w testach charyzmy"
+        },
+        "Charisma Check Disadvantage": {
+            "name": "Utrudnienie w testach charyzmy"
+        },
+        "Charisma Save Advantage": {
+            "name": "Ułatwienie w rzutach obronnych charyzmy"
+        },
+        "Charisma Save Disadvantage": {
+            "name": "Utrudnienie w rzutach obronnych charyzmy"
+        },
+        "Charmed": {
+            "name": "Zauroczony"
+        },
+        "Charmed Immunity": {
+            "name": "Niepodatność na zauroczenie"
+        },
+        "Climb Speed": {
+            "name": "Szybkość wspinania"
+        },
+        "Cold Immunity": {
+            "name": "Niepodatność na zimno"
+        },
+        "Cold Resistance": {
+            "name": "Odporność na zimno"
+        },
+        "Cold Vulnerability": {
+            "name": "Podatność na zimno"
+        },
+        "Constitution Check & Save Advantage": {
+            "name": "Ułatwienie w testach i rzutach obronnych kondycji"
+        },
+        "Constitution Check & Save Disadvantage": {
+            "name": "Utrudnienie w testach i rzutach obronnych kondycji"
+        },
+        "Constitution Check Advantage": {
+            "name": "Ułatwienie w testach kondycji"
+        },
+        "Constitution Check Disadvantage": {
+            "name": "Utrudnienie w testach kondycji"
+        },
+        "Constitution Save Advantage": {
+            "name": "Ułatwienie w rzutach obronnych kondycji"
+        },
+        "Constitution Save Disadvantage": {
+            "name": "Utrudnienie w rzutach obronnych kondycji"
+        },
+        "Cursed": {
+            "name": "Przeklęty"
+        },
+        "Cursed Immunity": {
+            "name": "Niepodatność na klątwy"
+        },
+        "Damage Immunity": {
+            "name": "Niepodatność na obrażenia"
+        },
+        "Damage Resistance": {
+            "name": "Odporność na obrażenia"
+        },
+        "Damage Vulnerability": {
+            "name": "Podatność na obrażenia"
+        },
+        "Deafened": {
+            "name": "Ogłuchły"
+        },
+        "Deafened Immunity": {
+            "name": "Niepodatność na głuchotę"
+        },
+        "Deception Advantage": {
+            "name": "Ułatwienie w oszustwie"
+        },
+        "Deception Disadvantage": {
+            "name": "Utrudnienie w oszustwie"
+        },
+        "Dehydration": {
+            "name": "Odwodniony"
+        },
+        "Dehydration Immunity": {
+            "name": "Niepodatność na odwodnienie"
+        },
+        "Dexterity Check & Save Advantage": {
+            "name": "Ułatwienie w testach i rzutach obronnych zręczności"
+        },
+        "Dexterity Check & Save Disadvantage": {
+            "name": "Utrudnienie w testach i rzutach obronnych zręczności"
+        },
+        "Dexterity Check Advantage": {
+            "name": "Ułatwienie w testach zręczności"
+        },
+        "Dexterity Check Disadvantage": {
+            "name": "Utrudnienie w testach zręczności"
+        },
+        "Dexterity Save Advantage": {
+            "name": "Ułatwienie w rzutach obronnych zręczności"
+        },
+        "Dexterity Save Disadvantage": {
+            "name": "Utrudnienie w rzutach obronnych zręczności"
+        },
+        "Diseased": {
+            "name": "Chory"
+        },
+        "Diseased Immunity": {
+            "name": "Niepodatność na choroby"
+        },
+        "Exhaustion Immunity": {
+            "name": "Niepodatność na wyczerpanie"
+        },
+        "Falling": {
+            "name": "Spadający"
+        },
+        "Falling Immunity": {
+            "name": "Niepodatność na upadek"
+        },
+        "Fire Immunity": {
+            "name": "Niepodatność na ogień"
+        },
+        "Fire Resistance": {
+            "name": "Odporność na ogień"
+        },
+        "Fire Vulnerability": {
+            "name": "Podatność na ogień"
+        },
+        "Fly Speed": {
+            "name": "Szybkość lotu"
+        },
+        "Force Immunity": {
+            "name": "Niepodatność na moc"
+        },
+        "Force Resistance": {
+            "name": "Odporność na moc"
+        },
+        "Force Vulnerability": {
+            "name": "Podatność na moc"
+        },
+        "Frightened": {
+            "name": "Przerażony"
+        },
+        "Frightened Immunity": {
+            "name": "Niepodatność na przerażenie"
+        },
+        "Grappled": {
+            "name": "Pochwycony"
+        },
+        "Grappled Immunity": {
+            "name": "Niepodatność na pochwycenie"
+        },
+        "History Advantage": {
+            "name": "Ułatwienie w historii"
+        },
+        "History Disadvantage": {
+            "name": "Utrudnienie w historii"
+        },
+        "Incapacitated": {
+            "name": "Obezwładniony"
+        },
+        "Incapacitated Immunity": {
+            "name": "Niepodatność na obezwładnienie"
+        },
+        "Initiative Advantage": {
+            "name": "Ułatwienie w inicjatywie"
+        },
+        "Initiative Disadvantage": {
+            "name": "Utrudnienie w inicjatywie"
+        },
+        "Insight Advantage": {
+            "name": "Ułatwienie w intuicji"
+        },
+        "Insight Disadvantage": {
+            "name": "Utrudnienie w intuicji"
+        },
+        "Intelligence Check & Save Advantage": {
+            "name": "Ułatwienie w testach i rzutach obronnych inteligencji"
+        },
+        "Intelligence Check & Save Disadvantage": {
+            "name": "Utrudnienie w testach i rzutach obronnych inteligencji"
+        },
+        "Intelligence Check Advantage": {
+            "name": "Ułatwienie w testach inteligencji"
+        },
+        "Intelligence Check Disadvantage": {
+            "name": "Utrudnienie w testach inteligencji"
+        },
+        "Intelligence Save Advantage": {
+            "name": "Ułatwienie w rzutach obronnych inteligencji"
+        },
+        "Intelligence Save Disadvantage": {
+            "name": "Utrudnienie w rzutach obronnych inteligencji"
+        },
+        "Intimidation Advantage": {
+            "name": "Ułatwienie w zastraszaniu"
+        },
+        "Intimidation Disadvantage": {
+            "name": "Utrudnienie w zastraszaniu"
+        },
+        "Investigation Advantage": {
+            "name": "Ułatwienie w śledztwie"
+        },
+        "Investigation Disadvantage": {
+            "name": "Utrudnienie w śledztwie"
+        },
+        "Invisible": {
+            "name": "Niewidzialny"
+        },
+        "Invisible Immunity": {
+            "name": "Niepodatność na niewidzialność"
+        },
+        "Lightning Immunity": {
+            "name": "Niepodatność na elektryczność"
+        },
+        "Lightning Resistance": {
+            "name": "Odporność na elektryczność"
+        },
+        "Lightning Vulnerability": {
+            "name": "Podatność na elektryczność"
+        },
+        "Malnutrition": {
+            "name": "Niedożywiony"
+        },
+        "Malnutrition Immunity": {
+            "name": "Niepodatność na niedożywienie"
+        },
+        "Medicine Advantage": {
+            "name": "Ułatwienie w medycynie"
+        },
+        "Medicine Disadvantage": {
+            "name": "Utrudnienie w medycynie"
+        },
+        "Nature Advantage": {
+            "name": "Ułatwienie w przyrodzie"
+        },
+        "Nature Disadvantage": {
+            "name": "Utrudnienie w przyrodzie"
+        },
+        "Necrotic Immunity": {
+            "name": "Niepodatność na nekrotyczność"
+        },
+        "Necrotic Resistance": {
+            "name": "Odporność na obrażenia nekrotyczne"
+        },
+        "Necrotic Vulnerability": {
+            "name": "Podatność na nekrotyczność"
+        },
+        "Paralyzed": {
+            "name": "Sparaliżowany"
+        },
+        "Paralyzed Immunity": {
+            "name": "Niepodatność na paraliż"
+        },
+        "Perception Advantage": {
+            "name": "Ułatwienie w percepcji"
+        },
+        "Perception Disadvantage": {
+            "name": "Utrudnienie w percepcji"
+        },
+        "Performance Advantage": {
+            "name": "Ułatwienie w występach"
+        },
+        "Performance Disadvantage": {
+            "name": "Utrudnienie w występach"
+        },
+        "Persuasion Advantage": {
+            "name": "Ułatwienie w perswazji"
+        },
+        "Persuasion Disadvantage": {
+            "name": "Utrudnienie w perswazji"
+        },
+        "Petrified": {
+            "name": "Skamieniały"
+        },
+        "Petrified Immunity": {
+            "name": "Niepodatność na skamienienie"
+        },
+        "Piercing Immunity": {
+            "name": "Niepodatność na obrażenia kłute"
+        },
+        "Piercing Resistance": {
+            "name": "Odporność na obrażenia kłute"
+        },
+        "Piercing Vulnerability": {
+            "name": "Podatność na obrażenia kłute"
+        },
+        "Poison Immunity": {
+            "name": "Niepodatność na truciznę"
+        },
+        "Poison Resistance": {
+            "name": "Odporność na trucizny"
+        },
+        "Poison Vulnerability": {
+            "name": "Podatność na truciznę"
+        },
+        "Poisoned": {
+            "name": "Zatruty"
+        },
+        "Poisoned Immunity": {
+            "name": "Niepodatność na zatrucie"
+        },
+        "Prone": {
+            "name": "Powalony"
+        },
+        "Prone Immunity": {
+            "name": "Niepodatność na powalenie"
+        },
+        "Psychic Immunity": {
+            "name": "Niepodatność na obrażenia psychiczne"
+        },
+        "Psychic Resistance": {
+            "name": "Odporność na obrażenia psychiczne"
+        },
+        "Psychic Vulnerability": {
+            "name": "Podatność na obrażenia psychiczne"
+        },
+        "Radiant Immunity": {
+            "name": "Niepodatność na światłość"
+        },
+        "Radiant Resistance": {
+            "name": "Odporność na światłość"
+        },
+        "Radiant Vulnerability": {
+            "name": "Podatność na światłość"
+        },
+        "Religion Advantage": {
+            "name": "Ułatwienie w religii"
+        },
+        "Religion Disadvantage": {
+            "name": "Utrudnienie w religii"
+        },
+        "Restrained": {
+            "name": "Unieruchomiony"
+        },
+        "Restrained Immunity": {
+            "name": "Niepodatność na unieruchomienie"
+        },
+        "Silenced": {
+            "name": "Wyciszony",
+            "description": "<p>Każda istota lub obiekt znajdujący się w całości wewnątrz Sfery ma Niepodatność na obrażenia od Dźwięku, a istoty, dopóki w całości w niej przebywają, mają stan Ogłuchły. Rzucenie tam czaru wymagającego komponentu Werbalnego jest niemożliwe.</p>"
+        },
+        "Silenced Immunity": {
+            "name": "Niepodatność na wyciszenie"
+        },
+        "Slashing Immunity": {
+            "name": "Niepodatność na obrażenia cięte"
+        },
+        "Slashing Resistance": {
+            "name": "Odporność na obrażenia cięte"
+        },
+        "Slashing Vulnerability": {
+            "name": "Podatność na obrażenia cięte"
+        },
+        "Sleight of Hand Advantage": {
+            "name": "Ułatwienie w zwinnych dłoniach"
+        },
+        "Sleight of Hand Disadvantage": {
+            "name": "Utrudnienie w zwinnych dłoniach"
+        },
+        "Stealth Advantage": {
+            "name": "Ułatwienie w skradaniu się"
+        },
+        "Stealth Disadvantage": {
+            "name": "Utrudnienie w Skradaniu się"
+        },
+        "Strength Check & Save Advantage": {
+            "name": "Ułatwienie w testach i rzutach obronnych siły"
+        },
+        "Strength Check & Save Disadvantage": {
+            "name": "Utrudnienie w testach i rzutach obronnych siły"
+        },
+        "Strength Check Advantage": {
+            "name": "Ułatwienie w testach siły"
+        },
+        "Strength Check Disadvantage": {
+            "name": "Utrudnienie w testach siły"
+        },
+        "Strength Save Advantage": {
+            "name": "Ułatwienie w rzutach obronnych siły"
+        },
+        "Strength Save Disadvantage": {
+            "name": "Utrudnienie w rzutach obronnych siły"
+        },
+        "Stunned": {
+            "name": "Ogłuszony"
+        },
+        "Stunned Immunity": {
+            "name": "Niepodatność na ogłuszenie"
+        },
+        "Suffocation": {
+            "name": "Duszenie"
+        },
+        "Suffocation Immunity": {
+            "name": "Niepodatność na duszenie się"
+        },
+        "Surprised": {
+            "name": "Zaskoczony"
+        },
+        "Surprised Immunity": {
+            "name": "Niepodatność na zaskoczenie"
+        },
+        "Survival Advantage": {
+            "name": "Ułatwienie w sztuce przetrwania"
+        },
+        "Survival Disadvantage": {
+            "name": "Utrudnienie w sztuce przetrwania"
+        },
+        "Swim Speed": {
+            "name": "Szybkość pływania"
+        },
+        "Thunder Immunity": {
+            "name": "Niepodatność na dźwięk"
+        },
+        "Thunder Resistance": {
+            "name": "Odporność na dźwięk"
+        },
+        "Thunder Vulnerability": {
+            "name": "Podatność na dźwięk"
+        },
+        "Transformed": {
+            "name": "Przekształcony"
+        },
+        "Transformed Immunity": {
+            "name": "Niepodatność na przekształcenie"
+        },
+        "Unconscious": {
+            "name": "Nieprzytomny"
+        },
+        "Unconscious Immunity": {
+            "name": "Niepodatność na utratę przytomności"
+        },
+        "Wisdom Check & Save Advantage": {
+            "name": "Ułatwienie w testach i rzutach obronnych mądrości"
+        },
+        "Wisdom Check & Save Disadvantage": {
+            "name": "Utrudnienie w testach i rzutach obronnych mądrości"
+        },
+        "Wisdom Check Advantage": {
+            "name": "Ułatwienie w testach mądrości"
+        },
+        "Wisdom Check Disadvantage": {
+            "name": "Utrudnienie w testach mądrości"
+        },
+        "Wisdom Save Advantage": {
+            "name": "Ułatwienie w rzutach obronnych mądrości"
+        },
+        "Wisdom Save Disadvantage": {
+            "name": "Utrudnienie w rzutach obronnych mądrości"
+        }
+    },
+    "mapping": {
+        "description": "opis"
+    }
+}
