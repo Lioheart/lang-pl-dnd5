@@ -110,7 +110,7 @@
             "activities": {
                 "save": {
                     "target": "Którego widzisz",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 }
             },
             "effects": {
@@ -673,14 +673,14 @@
                     "name": "Trucizna",
                     "condition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
                     "activationCondition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 },
                 "Trip": {
                     "name": "Podcięcie",
                     "condition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
                     "activationCondition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
                     "target": "Duży lub mniejszy",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 },
                 "Cunning Sneak Attack": {
                     "name": "Chytry ukradkowy atak",
@@ -824,19 +824,19 @@
                     "name": "Otępienie",
                     "condition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
                     "activationCondition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 },
                 "Knock Out": {
                     "name": "Znokautowanie",
                     "condition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
                     "activationCondition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 },
                 "Obscure": {
                     "name": "Oślepienie",
                     "condition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
                     "activationCondition": "Kiedy zadasz obrażenia z Ukradkowego ataku",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 }
             },
             "effects": {
@@ -1773,7 +1773,7 @@
             "requirements": "Ścieżka berserkera",
             "activities": {
                 "save": {
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 },
                 "Recharge with Rage": {
                     "name": "Odnowa w szale"
@@ -1874,7 +1874,7 @@
             "requirements": "Krąg Ziemi",
             "activities": {
                 "save": {
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 }
             }
         },
@@ -2309,13 +2309,13 @@
                     "name": "Popchnięcie",
                     "condition": "Za każdym razem, gdy trafisz istotę atakiem przyznanym przez twój Grad ciosów",
                     "activationCondition": "Za każdym razem, gdy trafisz istotę atakiem przyznanym przez twój Grad ciosów",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 },
                 "Topple": {
                     "name": "Obalenie",
                     "condition": "Za każdym razem, gdy trafisz istotę atakiem przyznanym przez twój Grad ciosów",
                     "activationCondition": "Za każdym razem, gdy trafisz istotę atakiem przyznanym przez twój Grad ciosów",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 }
             },
             "effects": {
@@ -2597,7 +2597,7 @@
                     "name": "Zakończenie wibracji",
                     "condition": "Kiedy wykonujesz Akcję Ataku w swojej turze",
                     "activationCondition": "Kiedy wykonujesz Akcję Ataku w swojej turze",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 },
                 "Instill Vibrations": {
                     "name": "Wzbudzenie wibracji",
@@ -2659,7 +2659,7 @@
             "requirements": "Barbarzyńca",
             "activities": {
                 "save": {
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 }
             }
         },
@@ -3021,7 +3021,7 @@
                 "save": {
                     "condition": "Raz na turę, gdy trafisz istotę bronią Mnicha lub Uderzeniem bez broni",
                     "activationCondition": "Raz na turę, gdy trafisz istotę bronią Mnicha lub Uderzeniem bez broni",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 }
             },
             "effects": {
@@ -3261,7 +3261,7 @@
                 "Grapple/Shove": {
                     "name": "Pochwycenie/Pchnięcie",
                     "chatFlavor": "Próba pochwycenia lub popchnięcia",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 }
             },
             "effects": {
