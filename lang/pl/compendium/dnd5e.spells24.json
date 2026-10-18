@@ -3472,7 +3472,7 @@
             "activities": {
                 "Start of Turn Save": {
                     "name": "rzut obronny na początku tury",
-                    "damageOnSave": "full"
+                    "damageOnSave": "pełne"
                 },
                 "Damage": {
                     "name": "Obrażenia"
