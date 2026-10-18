@@ -128,7 +128,7 @@
             "description": "<p>Tworzysz kwasowy bąbel w wybranym punkcie w zasięgu, gdzie eksploduje w sferze o promieniu 5 stóp. Każda istota w tej sferze musi wykonać rzut obronny na Zręczność albo otrzymuje 1k6 obrażeń od kwasu.</p><p><strong>Ulepszenie sztuczki.</strong> Obrażenia wzrastają o 1k6, gdy osiągniesz poziomy 5 (2k6), 11 (3k6) i 17 (4k6).</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -521,7 +521,7 @@
                 },
                 "Curse Resilience": {
                     "name": "Przeklęta odporność",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             },
             "effects": {
@@ -1123,7 +1123,7 @@
                     "name": "Dotknięcie paciorka",
                     "condition": "istota dotyka świecącej kulki przed zakończeniem działania czaru",
                     "activationCondition": "istota dotyka świecącej kulki przed zakończeniem działania czaru",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 },
                 "Turn End Damage Increase": {
                     "name": "Zwiększenie obrażeń na koniec tury",
@@ -1204,7 +1204,7 @@
             "materials": "magnetyt i pył",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -1278,7 +1278,7 @@
             "description": "<p>Wypowiadasz słowo nasycone mocą z Wyższych Sfer. Każda wybrana przez ciebie istota w zasięgu wykonuje rzut obronny na Charyzmę. Przy nieudanym rzucie cel, który ma 50 Punktów Wytrzymałości lub mniej, doznaje efektu zależnego od swoich aktualnych Punktów Wytrzymałości, jak pokazano w tabeli Efekty Boskiego słowa. Niezależnie od liczby Punktów Wytrzymałości, cel będący Niebianinem, Żywiołakiem, Fey albo Czartem, który nie powiedzie rzutu obronnego, zostaje odesłany do swojej sfery pochodzenia (jeśli jeszcze w niej nie przebywa) i nie może wrócić na obecną sferę przez 24 godziny żadnym sposobem słabszym niż czar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]</em>.</p><table><thead><tr><td>Punkty Wytrzymałości</td><td>Efekt Boskiego słowa</td></tr></thead><tbody><tr><td>0–20</td><td>Cel umiera.</td></tr><tr><td>21–30</td><td>Cel ma stan &amp;Reference[Blinded apply=false], stan &amp;Reference[Deafened apply=false] i stan &amp;Reference[Stunned apply=false] przez 1 godzinę.</td></tr><tr><td>31–40</td><td>Cel ma stan &amp;Reference[Blinded apply=false] i stan &amp;Reference[Deafened apply=false] przez 10 minut.</td></tr><tr><td>41–50</td><td>Cel ma stan &amp;Reference[Deafened apply=false] przez 1 minutę.</td></tr></tbody></table>",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             },
             "effects": {
@@ -1908,7 +1908,7 @@
             "description": "<p>Wydajesz werbalne polecenie istocie, którą widzisz w zasięgu, nakazując jej wykonanie jakiejś usługi lub powstrzymanie się od działania bądź aktywności, zgodnie z twoją decyzją. Cel musi wykonać rzut obronny na Mądrość. W przypadku niepowodzenia otrzymuje stan &amp;Reference[Charmed]{Zauroczony} na czas trwania czaru. Cel automatycznie odnosi sukces, jeśli nie rozumie twojego polecenia.</p><p>Gdy jest Zauroczona, istota otrzymuje [[/damage 5d10 type=psychic]] obrażeń psychicznych, jeśli działa w sposób bezpośrednio sprzeczny z twoim poleceniem. Obrażenia te może otrzymać nie częściej niż raz dziennie.</p><p>Możesz wydać dowolne polecenie, o ile nie skutkuje ono pewną śmiercią. Jeśli nakażesz istocie działanie samobójcze, czar się kończy.</p><p>Czary <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Zdjęcie Klątwy}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Większe Przywrócenie}</em> lub <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Życzenie}</em> kończą działanie tego czaru.</p><p><strong>Użycie komórki czaru wyższego kręgu.</strong> Jeśli użyjesz komórki czaru 7. lub 8. kręgu, czas trwania wynosi 365 dni. Jeśli użyjesz komórki czaru 9. kręgu, czar trwa, dopóki nie zostanie zakończony jednym z wyżej wymienionych czarów.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             },
             "effects": {
@@ -2140,7 +2140,7 @@
             "activities": {
                 "On Damage Save": {
                     "name": "Rzut obronny przy otrzymaniu obrażeń",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 },
                 "Cast and Heat": {
                     "name": "Rzuć i rozgrzej"
@@ -2357,7 +2357,7 @@
             "activities": {
                 "Shard Explosion": {
                     "name": "Eksplozja odłamków",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -2475,7 +2475,7 @@
             "description": "<p>Jedna istota, którą widzisz w zasięgu, musi wykonać rzut obronny na Mądrość. Przy udanym rzucie cel tańczy w komiczny sposób aż do końca swojej następnej tury, podczas której musi wykorzystać cały swój ruch, by tańczyć w miejscu.</p><p>Przy nieudanym rzucie cel otrzymuje stan &amp;Reference[Charmed apply=false] na czas trwania czaru. Dopóki jest Zauroczony, tańczy w komiczny sposób, musi wykorzystać cały swój ruch, by tańczyć w miejscu, a ponadto ma Utrudnienie w rzutach obronnych na Zręczność i w testach ataku, natomiast inne istoty mają Ułatwienie w testach ataku przeciwko niemu. W każdej swojej turze cel może wykonać akcję, by się opanować i powtórzyć rzut obronny, a udany rzut kończy działanie czaru na nim samym.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             },
             "effects": {
@@ -2608,7 +2608,7 @@
                     "condition": "twoja dusza zamieszkuje pojemnik",
                     "activationCondition": "twoja dusza zamieszkuje pojemnik",
                     "target": "cel jest Humanoidem",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 },
                 "Return from Host": {
                     "name": "Powrót od hosta"
@@ -2689,7 +2689,7 @@
             "materials": "język węża",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             },
             "effects": {
@@ -2888,7 +2888,7 @@
             "activities": {
                 "Cast": {
                     "name": "Rzucanie",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 },
                 "Phantasm Damage": {
                     "name": "Urojone obrażenia"
@@ -3068,7 +3068,7 @@
                 "Blinding Save": {
                     "name": "Rzut obronny oślepienia",
                     "range": "mierzone od najbliższego punktu ściany lub kuli",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 },
                 "Traversal Save": {
                     "name": "Rzut obronny przemieszczania",
@@ -3371,7 +3371,7 @@
             "materials": "magnetyt i opiłki żelaza",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -3390,7 +3390,7 @@
             "description": "<p>Płomienista światłość spada na istotę, którą widzisz w zasięgu. Cel musi wykonać rzut obronny na Zręczność, w przeciwnym razie otrzymuje 1k8 obrażeń od Światłości. Podczas tego rzutu cel nie korzysta z osłony Połowicznej ani Trzy czwarte.</p><p><strong>Ulepszenie sztuczki.</strong> Obrażenia zwiększają się o 1k8, gdy osiągniesz poziom 5 (2k8), 11 (3k8) i 17 (4k8).</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -3404,7 +3404,7 @@
                 },
                 "Save on Target": {
                     "name": "Rzut obronny na celu",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             },
             "effects": {
@@ -3784,7 +3784,7 @@
             "activities": {
                 "Start of Turn Save": {
                     "name": "rzut obronny na początku tury",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 },
                 "Create Cloud": {
                     "name": "Stwórz chmurę"
@@ -3818,7 +3818,7 @@
             "activities": {
                 "Create Storm": {
                     "name": "Stworzenie burzy",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 },
                 "Turn 2: Acid Rain": {
                     "name": "Tura 2: Kwaśny deszcz",
@@ -3969,7 +3969,7 @@
             "description": "<p>Zyskujesz zdolność poruszania lub manipulowania istotami lub obiektami za pomocą myśli. Gdy rzucasz ten czar, a także Akcją Magii w późniejszych turach przed zakończeniem czaru, możesz wywrzeć swoją wolę na jednej istocie lub obiekcie, który widzisz w zasięgu, powodując odpowiedni efekt poniżej. Możesz wpływać na ten sam cel z tury na turę lub wybrać nowy cel w dowolnym momencie. Jeśli zmienisz cel, poprzedni cel przestaje być objęty czarem.</p><p><strong>Istota.</strong> Możesz spróbować poruszyć istotę o rozmiarze Ogromnym lub mniejszym. Cel musi wykonać rzut obronny na Siłę, w przeciwnym razie poruszasz ją o maksymalnie 30 stóp w dowolnym kierunku w zasięgu czaru. Do końca twojej następnej tury istota ma stan &Reference[Restrained], a jeśli uniesiesz ją w powietrze, pozostaje zawieszona. Spada na koniec twojej następnej tury, chyba że użyjesz tej opcji ponownie i cel ponownie nie zda rzutu obronnego.</p><p><strong>Obiekt.</strong> Możesz spróbować poruszyć obiekt o rozmiarze Ogromnym lub mniejszym. Jeśli obiekt nie jest noszony ani niesiony, automatycznie poruszasz go o maksymalnie 30 stóp w dowolnym kierunku w zasięgu czaru.</p><p>Jeśli obiekt jest noszony lub niesiony przez istotę, ta istota musi wykonać rzut obronny na Siłę, w przeciwnym razie zabierasz obiekt i poruszasz go o maksymalnie 30 stóp w dowolnym kierunku w zasięgu czaru.</p><p>Możesz wywierać drobną kontrolę nad obiektami przy pomocy swojej telekinetycznej chwytki, na przykład manipulując prostym narzędziem, otwierając drzwi lub pojemnik, wkładając lub wyjmując przedmiot z otwartego pojemnika lub wylewając zawartość fiolki.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -4054,7 +4054,7 @@
             "materials": "kropla rtęci, porcja kleju arabskiego i smużka dymu",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -4130,7 +4130,7 @@
             "description": "<p>Wypuszczasz serię obelg, splecionych z subtelnymi zaklęciami, w kierunku jednej istoty, którą widzisz lub słyszysz w zasięgu. Cel musi zdać rzut obronny na Mądrość, w przeciwnym razie otrzymuje 1k6 obrażeń Psychicznych i ma Utrudnienie w następnym teście ataku, który wykona przed końcem swojej następnej tury.</p><p><strong>Ulepszenie sztuczki.</strong> Obrażenia zwiększają się o 1k6, gdy osiągniesz poziom 5 (2k6), 11 (3k6) i 17 (4k6).</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             },
             "effects": {
@@ -4295,7 +4295,7 @@
                     "name": "Rzut obronny na koniec tury",
                     "condition": "na końcu każdej tury będącej pod wpływem istoty",
                     "activationCondition": "na końcu każdej tury będącej pod wpływem istoty",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             },
             "effects": {
