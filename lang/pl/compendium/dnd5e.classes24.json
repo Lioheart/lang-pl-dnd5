@@ -1140,10 +1140,7 @@
             },
             "effects": {
                 "Eldritch Spear": {
-                    "name": "Mistyczna włócznia",
-                    "changes": {
-                        "name": ", Mistyczna włócznia"
-                    }
+                    "name": "Mistyczna włócznia"
                 }
             }
         },
@@ -1979,10 +1976,7 @@
             "effects": {
                 "Dexterous Attacks & Martial Arts Damage": {
                     "name": "Zręczne Ataki i Obrażenia Sztuk Walki",
-                    "description": "<p><strong>Kość Sztuk Walki.</strong> Możesz rzucać [[lookup @scale.monk.die]] zamiast normalnych obrażeń swojego Uderzenia Bez Broni lub broni Mnicha. Ta kość zmienia się wraz ze wzrostem twoich poziomów Mnicha, zgodnie z kolumną „Sztuki Walki” w tabeli Zdolności Mnicha.</p><p><strong>Zręczne ataki.</strong> Możesz używać swojego modyfikatora z Zręczności zamiast modyfikatora z Siły do rzutów ataku i obrażeń dla Uderzeń bez broni oraz broni Mnicha. Dodatkowo, gdy używasz opcji Pochwycenie lub Popchnięcie w ramach swojego Uderzenia Bez Broni, możesz użyć modyfikatora z Zręczności zamiast modyfikatora z Siły do określenia ST rzutu obronnego.</p><p></p>",
-                    "changes": {
-                        "name": "{} (Sztuki walki)"
-                    }
+                    "description": "<p><strong>Kość Sztuk Walki.</strong> Możesz rzucać [[lookup @scale.monk.die]] zamiast normalnych obrażeń swojego Uderzenia Bez Broni lub broni Mnicha. Ta kość zmienia się wraz ze wzrostem twoich poziomów Mnicha, zgodnie z kolumną „Sztuki Walki” w tabeli Zdolności Mnicha.</p><p><strong>Zręczne ataki.</strong> Możesz używać swojego modyfikatora z Zręczności zamiast modyfikatora z Siły do rzutów ataku i obrażeń dla Uderzeń bez broni oraz broni Mnicha. Dodatkowo, gdy używasz opcji Pochwycenie lub Popchnięcie w ramach swojego Uderzenia Bez Broni, możesz użyć modyfikatora z Zręczności zamiast modyfikatora z Siły do określenia ST rzutu obronnego.</p><p></p>"
                 }
             }
         },
@@ -2376,10 +2370,7 @@
             },
             "effects": {
                 "Pact Weapon": {
-                    "name": "Broń paktu",
-                    "changes": {
-                        "name": ", Broń Paktu"
-                    }
+                    "name": "Broń paktu"
                 }
             }
         },
@@ -2702,10 +2693,7 @@
             "effects": {
                 "Repelling Blast": {
                     "name": "Odpychające uderzenie",
-                    "description": "<p>Wybierz jedną ze znanych ci sztuczek czarownika, która wymaga testu ataku. Kiedy trafisz Dużą lub mniejszą istotę tą sztuczką, możesz odepchnąć ją na odległość do 10 stóp od siebie w linii prostej.</p>",
-                    "changes": {
-                        "name": ", Odpychający"
-                    }
+                    "description": "<p>Wybierz jedną ze znanych ci sztuczek czarownika, która wymaga testu ataku. Kiedy trafisz Dużą lub mniejszą istotę tą sztuczką, możesz odepchnąć ją na odległość do 10 stóp od siebie w linii prostej.</p>"
                 }
             }
         },
@@ -2823,10 +2811,7 @@
             },
             "effects": {
                 "Sacred Weapon": {
-                    "name": "Uświęcona broń",
-                    "changes": {
-                        "name": ", Uświęcona broń"
-                    }
+                    "name": "Uświęcona broń"
                 }
             }
         },
@@ -2896,10 +2881,7 @@
             "effects": {
                 "Signature": {
                     "name": "Ulubione",
-                    "description": "<p>Wybierz dwa czary 3. poziomu ze swojej księgi czarów jako czary charakterystyczne. Zawsze masz je przygotowane i możesz rzucić każdy z nich raz na poziomie 3 bez użycia komórki czaru. Gdy to zrobisz, nie możesz rzucać ich w ten sposób ponownie, dopóki nie zakończysz Krótkiego lub Długiego Odpoczynku. Aby rzucić którykolwiek czar na wyższym poziomie, musisz użyć komórki czaru.</p>",
-                    "changes": {
-                        "name": ", Ulubione"
-                    }
+                    "description": "<p>Wybierz dwa czary 3. poziomu ze swojej księgi czarów jako czary charakterystyczne. Zawsze masz je przygotowane i możesz rzucić każdy z nich raz na poziomie 3 bez użycia komórki czaru. Gdy to zrobisz, nie możesz rzucać ich w ten sposób ponownie, dopóki nie zakończysz Krótkiego lub Długiego Odpoczynku. Aby rzucić którykolwiek czar na wyższym poziomie, musisz użyć komórki czaru.</p>"
                 }
             }
         },
@@ -3000,10 +2982,7 @@
             },
             "effects": {
                 "Mastered": {
-                    "name": "Mistrzostwo",
-                    "changes": {
-                        "name": ", Mistrzostwo"
-                    }
+                    "name": "Mistrzostwo"
                 }
             }
         },
@@ -3481,7 +3460,7 @@
         },
         "Wild Shape": {
             "name": "Dzika postać",
-            "description": "<p>Masz możliwość przyjęcia formy zwierzęcia dzięki mocy natury. Jako Akcję Dodatkową, możesz zmienić się w formę Bestii, którą nauczyłeś się dla tej zdolności (zobacz „Znane Formy” poniżej). Pozostajesz w tej formie przez liczbę godzin równą połowie twojego poziomu Druida (obecnie [[lookup @classes.druid.levels]]) lub dopóki nie użyjesz Wild Shape ponownie, nie będziesz miał stanu Incapacitated, lub nie umrzesz. Możesz również opuścić formę wcześniej jako Akcję Dodatkową.</p><p><strong>Liczba użyć.</strong> Możesz użyć Wild Shape dwa razy. Odzyskujesz jedno zużyte użycie po zakończeniu Krótkiego Odpoczynku, a wszystkie zużyte użycia odzyskujesz po zakończeniu Długiego Odpoczynku.</p><p>Zyskujesz dodatkowe użycia, gdy osiągniesz określone poziomy Druida, zgodnie z kolumną Wild Shape w tabeli @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Zdolności Druida}.</p><p><strong>Aktualna liczba użyć:</strong> [[lookup @scale.druid.wild-shape-uses]]</p><p><strong>Znane Formy.</strong> Znasz cztery formy Bestii dla tej zdolności, wybrane spośród statystyk Bestii, które mają maksymalny Stopień Wyzwania 1/4 i nie posiadają Szybkości Lotu. Zarekomendowane są: @UUID[Compendium.dnd5e.actors24.Actor.mmRat00000000000]{Szczur}, @UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Wierzchowiec}, @UUID[Compendium.dnd5e.actors24.Actor.mmSpider00000000]{Pająk}, i @UUID[Compendium.dnd5e.actors24.Actor.mmWolf0000000000]{Wilk}. Za każdym razem, gdy kończysz Długi Odpoczynek, możesz zamienić jedną z twoich znanych form na inną dostępną formę.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Automatyzacja Wild Shape</h3><p>Po wybraniu formy, w którą chcesz się zmienić, możesz ją przeciągnąć na swoją kartę postaci, wybrać opcję Wild Shape, a Foundry automatycznie zaktualizuje twoją kartę. Możesz cofnąć transformację na górze swojej karty postaci lub klikając prawym przyciskiem myszy na swoją postać w pasku bocznym.</p></article></section><p>Gdy osiągniesz określone poziomy Druida, liczba twoich znanych form oraz maksymalny Stopień Wyzwania dla tych form zwiększa się, zgodnie z tabelą Bestii. Dodatkowo, od poziomu 8, możesz przyjąć formę, która posiada Szybkość Lotu.</p><p><strong>Aktualny limit znanych form:</strong> [[lookup @scale.druid.known-forms]]</p><p><strong>Aktualny limit CR:</strong> [[lookup @scale.druid.wild-shape]]</p><p>Wybierając znane formy, możesz sprawdzić w <em>Monster Manual</em> lub innych źródłach dostępne Bestie, jeśli Mistrz Podziemi pozwoli ci na to.</p><table><caption>Bestie Formy</caption><thead><tr><td>Poziom Druida</td><td>Znane Formy</td><td>Max CR</td><td>Szybkość Lotu</td></tr></thead><tbody><tr><td>2</td><td>4</td><td>1/4</td><td>Nie</td></tr><tr><td>4</td><td>6</td><td>1/2</td><td>Nie</td></tr><tr><td>8</td><td>8</td><td>1</td><td>Tak</td></tr></tbody></table><p><strong>Zasady podczas zmiany formy.</strong> Będąc w formie, zachowujesz swoją osobowość, wspomnienia i zdolność mówienia, a poniższe zasady mają zastosowanie:</p><p><strong>Tymczasowe Punkty Wytrzymałości.</strong> Kiedy przyjmujesz formę Wild Shape, zyskujesz liczbę Tymczasowych Punktów Wytrzymałości równą twojemu poziomowi Druida.</p><p><strong>Statystyki gry.</strong> Twoje statystyki gry są zastępowane przez statystyki Bestii, ale zachowujesz typ istoty; Punkty Wytrzymałości; Kości Wytrzymałości; wartości Inteligencji, Mądrości i Charyzmy; zdolności klasowe; języki i talenty. Zachowujesz także biegłości w umiejętnościach i rzutach obronnych oraz używasz swojej Premii od Biegłości do nich, oprócz zdobywania biegłości Bestii. Jeśli modyfikator umiejętności lub rzutu obronnego w statystykach Bestii jest wyższy od twojego, użyj wartości z statystyk Bestii.</p><p><strong>Brak rzucania czarów.</strong> Nie możesz rzucać czarów, ale zmiana formy nie przerywa twojej Koncentracji ani nie zakłóca czaru, który już rzuciłeś.</p><p><strong>Obiekty.</strong> Twoja zdolność obsługi obiektów zależy od kończyn formy, a nie twoich własnych. Dodatkowo, wybierasz, czy twój ekwipunek opada na ziemię, łączy się z twoją nową formą, czy jest przez nią noszony. Ekwipunek noszony działa normalnie, ale Mistrz Podziemi decyduje, czy jest praktyczne, aby nowa forma nosiła dany element ekwipunku w zależności od rozmiaru i kształtu istoty. Twój ekwipunek nie zmienia rozmiaru ani kształtu, aby pasował do nowej formy, a wszelki ekwipunek, który nowa forma nie może nosić, musi spaść na ziemię lub połączyć się z formą. Ekwipunek, który łączy się z formą, nie ma żadnego efektu, gdy znajdujesz się w tej formie.</p><section class=\"secret\" id=\"secret-FZNGONDktXDnwY0x\"><p><strong>Notatka Foundry</strong></p><p>Możesz aktywować tę zdolność, aby śledzić użycia swojego Wild Shape.</p><p>Automatycznie przywróci jedno użycie po Krótkim Odpoczynku i wszystkie użycia po Długim Odpoczynku.</p></section>",
+            "description": "<p>Masz możliwość przyjęcia formy zwierzęcia dzięki mocy natury. Jako Akcję Dodatkową, możesz zmienić się w formę Bestii, którą nauczyłeś się dla tej zdolności (zobacz „Znane Formy” poniżej). Pozostajesz w tej formie przez liczbę godzin równą połowie twojego poziomu Druida (obecnie [[lookup @classes.druid.levels]]) lub dopóki nie użyjesz Wild Shape ponownie, nie będziesz miał stanu Incapacitated, lub nie umrzesz. Możesz również opuścić formę wcześniej jako Akcję Dodatkową.</p><p><strong>Liczba użyć.</strong> Możesz użyć Wild Shape dwa razy. Odzyskujesz jedno zużyte użycie po zakończeniu Krótkiego Odpoczynku, a wszystkie zużyte użycia odzyskujesz po zakończeniu Długiego Odpoczynku.</p><p>Zyskujesz dodatkowe użycia, gdy osiągniesz określone poziomy Druida, zgodnie z kolumną Wild Shape w tabeli @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Zdolności Druida}.</p><p><strong>Aktualna liczba użyć:</strong> [[lookup @scale.druid.wild-shape-uses]]</p><p><strong>Znane Formy.</strong> Znasz cztery formy Bestii dla tej zdolności, wybrane spośród statystyk Bestii, które mają maksymalny Stopień Wyzwania 1/4 i nie posiadają Szybkości Lotu. Zarekomendowane są: @UUID[Compendium.dnd5e.actors24.Actor.mmRat00000000000]{Szczur}, @UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Wierzchowiec}, @UUID[Compendium.dnd5e.actors24.Actor.mmSpider00000000]{Pająk}, i @UUID[Compendium.dnd5e.actors24.Actor.mmWolf0000000000]{Wilk}. Za każdym razem, gdy kończysz Długi Odpoczynek, możesz zamienić jedną z twoich znanych form na inną dostępną formę.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img class=\"vtt-outline\" src=\"icons/vtt-512.png\" /></figure><article><h3>Automatyzacja Wild Shape</h3><p>Po wybraniu formy, w którą chcesz się zmienić, możesz ją przeciągnąć na swoją kartę postaci, wybrać opcję Wild Shape, a Foundry automatycznie zaktualizuje twoją kartę. Możesz cofnąć transformację na górze swojej karty postaci lub klikając prawym przyciskiem myszy na swoją postać w pasku bocznym.</p></article></section><p>Gdy osiągniesz określone poziomy Druida, liczba twoich znanych form oraz maksymalny Stopień Wyzwania dla tych form zwiększa się, zgodnie z tabelą Bestii. Dodatkowo, od poziomu 8, możesz przyjąć formę, która posiada Szybkość Lotu.</p><p><strong>Aktualny limit znanych form:</strong> [[lookup @scale.druid.known-forms]]</p><p><strong>Aktualny limit CR:</strong> [[lookup @scale.druid.wild-shape]]</p><p>Wybierając znane formy, możesz sprawdzić w <em>Monster Manual</em> lub innych źródłach dostępne Bestie, jeśli Mistrz Podziemi pozwoli ci na to.</p><table><caption>Bestie Formy</caption><thead><tr><td>Poziom Druida</td><td>Znane Formy</td><td>Max CR</td><td>Szybkość Lotu</td></tr></thead><tbody><tr><td>2</td><td>4</td><td>1/4</td><td>Nie</td></tr><tr><td>4</td><td>6</td><td>1/2</td><td>Nie</td></tr><tr><td>8</td><td>8</td><td>1</td><td>Tak</td></tr></tbody></table><p><strong>Zasady podczas zmiany formy.</strong> Będąc w formie, zachowujesz swoją osobowość, wspomnienia i zdolność mówienia, a poniższe zasady mają zastosowanie:</p><p><strong>Tymczasowe Punkty Wytrzymałości.</strong> Kiedy przyjmujesz formę Wild Shape, zyskujesz liczbę Tymczasowych Punktów Wytrzymałości równą twojemu poziomowi Druida.</p><p><strong>Statystyki gry.</strong> Twoje statystyki gry są zastępowane przez statystyki Bestii, ale zachowujesz typ istoty; Punkty Wytrzymałości; Kości Wytrzymałości; wartości Inteligencji, Mądrości i Charyzmy; zdolności klasowe; języki i talenty. Zachowujesz także biegłości w umiejętnościach i rzutach obronnych oraz używasz swojej Premii od Biegłości do nich, oprócz zdobywania biegłości Bestii. Jeśli modyfikator umiejętności lub rzutu obronnego w statystykach Bestii jest wyższy od twojego, użyj wartości z statystyk Bestii.</p><p><strong>Brak rzucania czarów.</strong> Nie możesz rzucać czarów, ale zmiana formy nie przerywa twojej Koncentracji ani nie zakłóca czaru, który już rzuciłeś.</p><p><strong>Obiekty.</strong> Twoja zdolność obsługi obiektów zależy od kończyn formy, a nie twoich własnych. Dodatkowo, wybierasz, czy twój ekwipunek opada na ziemię, łączy się z twoją nową formą, czy jest przez nią noszony. Ekwipunek noszony działa normalnie, ale Mistrz Podziemi decyduje, czy jest praktyczne, aby nowa forma nosiła dany element ekwipunku w zależności od rozmiaru i kształtu istoty. Twój ekwipunek nie zmienia rozmiaru ani kształtu, aby pasował do nowej formy, a wszelki ekwipunek, który nowa forma nie może nosić, musi spaść na ziemię lub połączyć się z formą. Ekwipunek, który łączy się z formą, nie ma żadnego efektu, gdy znajdujesz się w tej formie.</p><section class=\"secret\" id=\"secret-FZNGONDktXDnwY0x\"><p><strong>Notatka Foundry</strong></p><p>Możesz aktywować tę zdolność, aby śledzić użycia swojego Wild Shape.</p><p>Automatycznie przywróci jedno użycie po Krótkim Odpoczynku i wszystkie użycia po Długim Odpoczynku.</p></section>",
             "requirements": "Druid",
             "activities": {
                 "transform": {
