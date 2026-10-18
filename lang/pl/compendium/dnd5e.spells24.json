@@ -4280,7 +4280,7 @@
             "materials": "trochę pajęczyny",
             "activities": {
                 "save": {
-                    "damageOnSave": "full"
+                    "damageOnSave": "pełne"
                 }
             }
         },
