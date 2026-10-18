@@ -927,12 +927,12 @@
         "choices": {
           "hint": "Następujące zdolności zostaną przedstawione graczowi do wyboru.",
           "label": "Wybory",
-          "FIELDS": {
+          "element": {
             "count": {
               "label": "Ilość"
             },
             "pool": {
-              "label": "Właściwości"
+              "label": "Cechy"
             }
           }
         },
