@@ -148,11 +148,11 @@
             "activities": {
                 "Breath Weapon (Cone)": {
                     "name": "Zionięcie (Stożek)",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 },
                 "Breath Weapon (Line)": {
                     "name": "Zionięcie (Linia)",
-                    "damageOnSave": "half"
+                    "damageOnSave": "połowa"
                 }
             }
         },
