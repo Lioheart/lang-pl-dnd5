@@ -780,7 +780,7 @@
                     "activationCondition": "Jeśli zredukujesz obrażenia do 0",
                     "target": "Nie jest za Całkowitą osłoną",
                     "range": "5 stóp dla ataków wręcz lub 60 stóp dla ataków zasięgowych",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -799,7 +799,7 @@
                     "activationCondition": "Jeśli zredukujesz obrażenia do 0",
                     "target": "Nie jest za Całkowitą osłoną",
                     "range": "5 stóp dla ataków wręcz lub 60 stóp dla ataków zasięgowych",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -1668,7 +1668,7 @@
                     "name": "Droga przez piekło",
                     "condition": "Raz na turę, gdy trafisz istotę testem ataku",
                     "activationCondition": "Raz na turę, gdy trafisz istotę testem ataku",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 },
                 "Regain Use": {
                     "name": "Odzyskaj użycie"
@@ -2831,7 +2831,7 @@
                 "Channel Divinity: Turn Undead": {
                     "name": "Akt wiary: Odpędzanie Nieumarłych",
                     "target": "Nieumarły",
-                    "damageOnSave": "none"
+                    "damageOnSave": "brak"
                 }
             },
             "effects": {
