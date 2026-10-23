@@ -68,7 +68,7 @@
   },
   "TYPES.HINTS": {
     "RegionBehavior": {
-      "dnd5e.applyActiveEffect": "Zastosuj Efekty aktywne do tokenów, gdy znajdują się one w obrębie regionu i spełniają określone kryteria.",
+      "dnd5e.applyActiveEffect": "Zastosuj Aktywne Efekty do tokenów, gdy znajdują się one w obrębie regionu i spełniają określone kryteria.",
       "dnd5e.difficultTerrain": "Oznacz region jako trudny teren, ustaw jego rodzaj i na kogo ma wypływ.",
       "dnd5e.rotateArea": "Obracaj tokeny, kafelki, ściany i inne obiekty wokół centralnego punktu obrotu."
     }
