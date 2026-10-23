@@ -4432,7 +4432,7 @@
       "attack": {
         "classification": "Klasyfikacja ataku",
         "mode": "Tryb ataku",
-        "type": "Typ ataku"
+        "type": "Rodzaj ataku"
       },
       "damage": {
         "type": "Rodzaj obrażeń"
