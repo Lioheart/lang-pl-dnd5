@@ -1296,7 +1296,7 @@
     "FIELDS": {
       "button": {
         "hint": "Wyświetl przycisk rozpoczynania tur bastionu w głównym interfejsie gry.",
-        "label": "Pokaż przycisk tury Bastionu"
+        "label": "Pokaż przycisk tury bastionu"
       },
       "duration": {
         "label": "Czas trwania tury Bastionu (dni)"
