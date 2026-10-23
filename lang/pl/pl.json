@@ -1601,7 +1601,7 @@
       "TimePassed": {
         "one": "Upłynął {number}.",
         "other": "Upłynęło {number}.",
-        "few": "Upłynęło {number}.",
+        "few": "Upłynęły {number}.",
         "many": "Upłynęło: {number}."
       },
       "Title": "Upływ czasu"
