@@ -5377,7 +5377,7 @@
       "Special": "Specjalna"
     },
     "Warning": {
-      "DuplicateHeader": "Tylko jeden wpis może mieć rodzaj \"Nagłówek\".",
+      "DuplicateHeader": "Tylko jeden wpis może mieć rodzaju \"Nagłówek\".",
       "DuplicatePosition": "Każdy Rozdział i Dodatek powinien mieć unikalną wartość pozycji."
     }
   },
