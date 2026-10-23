@@ -1277,7 +1277,7 @@
           "one": "<strong>{deaths}</strong> obrońca został zabity w ataku na Bastion!",
           "other": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na Bastion!",
           "few": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na bastion!",
-          "many": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na Bastion!"
+          "many": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na bastion!"
         },
         "NoDeaths": "Odparto atak na Bastion bez strat!",
         "Undefended": "Zaatakowano niebroniony Bastion!"
@@ -1295,7 +1295,7 @@
     },
     "FIELDS": {
       "button": {
-        "hint": "Wyświetl przycisk rozpoczynania tur Bastionu w głównym interfejsie gry.",
+        "hint": "Wyświetl przycisk rozpoczynania tur bastionu w głównym interfejsie gry.",
         "label": "Pokaż przycisk tury Bastionu"
       },
       "duration": {
