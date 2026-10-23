@@ -303,7 +303,7 @@
         "Counted": {
           "one": "{number} akcja legendarna",
           "other": "{number} akcji legendarnych",
-          "few": "{number} akcji legendarnych",
+          "few": "{number} akcje legendarne",
           "many": "{number} akcji legendarnych"
         },
         "Header": "Akcje legendarne",
