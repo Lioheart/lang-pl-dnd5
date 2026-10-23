@@ -1302,7 +1302,7 @@
         "label": "Czas trwania tury bastionu (dni)"
       },
       "enabled": {
-        "hint": "Po włączeniu tej opcji postacie graczy będą miały dostęp do nowej karty Bastionu na swoich kartach postaci po osiągnięciu 5. poziomu i będą mogły budować struktury oraz dodawać do nich rozkazy.",
+        "hint": "Po włączeniu tej opcji postacie graczy będą miały dostęp do nowej karty bastionu na swoich kartach postaci po osiągnięciu 5. poziomu i będą mogły budować struktury oraz dodawać do nich rozkazy.",
         "label": "Włącz funkcjonalność Bastionu"
       },
       "reminder": {
