@@ -975,7 +975,7 @@
   "DND5E.AdvantageMode": "Tryb ułatwienia",
   "DND5E.ADVENTURE": {
     "Finished": {
-      "one": "Zakończono przygotowywanie przygody {adventure}.",
+      "one": "Zakończono przygotowywanie przygody: {adventure}.",
       "other": "Zakończono przygotowywanie {number} przygód.",
       "few": "Zakończono przygotowywanie {number} przygód.",
       "many": "Zakończono przygotowywanie {number} przygód."
