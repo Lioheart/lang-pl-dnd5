@@ -516,7 +516,7 @@
       "PointsRemaining": {
         "one": "Pozostał {points} punkt",
         "other": "Pozostało {points} punktów",
-        "few": "Pozostało {points} punktów",
+        "few": "Pozostało {points} punkty",
         "many": "Pozostało {points} punktów"
       },
       "Title": "Zwiększenie wartości Cech",
