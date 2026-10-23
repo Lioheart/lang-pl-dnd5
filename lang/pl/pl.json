@@ -5831,7 +5831,7 @@
   "DND5E.ToolVehicle": "Pojazdy",
   "DND5E.TRAIT": {
     "Action": {
-      "Configure": "Skonfiguruj {trait}"
+      "Configure": "Skonfiguruj: {trait}"
     },
     "All": "Wszystkie {category}",
     "Armor": {
