@@ -23,7 +23,7 @@
     "enchantmentPl": "Zaklęcia"
   },
   "TYPES.ChatMessage": {
-    "item": "Komunikat o przedmiocie",
+    "item": "Wiadomość o przedmiocie",
     "prompt": "Wiadomość monitu",
     "request": "Prośba o wiadomość",
     "rest": "Komunikat o odpoczynku",
