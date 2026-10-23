@@ -764,7 +764,7 @@
               "label": "Nałożone zaklęcie"
             },
             "identifiers": {
-              "hint": "Identyfikatory przedmiotów, które zostaną zmodyfikowane przez to zaklinanie. Przed identyfikatorem można podać typ przedmiotu (np. \"spell:mage-hand\").",
+              "hint": "Identyfikatory przedmiotów, które zostaną zmodyfikowane przez to zaklinanie. Przed identyfikatorem można podać rodzaj przedmiotu (np. \"spell:mage-hand\").",
               "label": "Zmodyfikowane przedmioty"
             }
           },
