@@ -1599,7 +1599,7 @@
       "Sunset": "Słońce zaszło.",
       "SunsetSunrise": "Słońce zaszło i nadszedł świt nowego dnia.",
       "TimePassed": {
-        "one": "Upłynęło: {number}.",
+        "one": "Upłynął {number}.",
         "other": "Upłynęło: {number}.",
         "few": "Upłynęło: {number}.",
         "many": "Upłynęło: {number}."
