@@ -1646,7 +1646,7 @@
         },
         "spellbook": {
           "label": "Wyświetlaj w zakładce czarów",
-          "hint": "Wyświetl czar w zakładce Czary na karcie postaci. Przedmioty muszą mieć właściwość Magiczny i być zestrojone, jeśli wymagają zestrojenia."
+          "hint": "Wyświetl czar w zakładce \"Czary\" na karcie postaci. Przedmioty muszą mieć właściwość \"magiczny\" i być zestrojone, jeśli wymagają zestrojenia."
         },
         "uuid": {
           "label": "Czar do rzucenia"
