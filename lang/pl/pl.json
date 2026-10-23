@@ -1096,7 +1096,7 @@
               "armored": {
                 "excluded": "Bez pancerza",
                 "label": "W pancerzu",
-                "required": "Zbroja wymagana"
+                "required": "Pancerz wymagany"
               },
               "formula": {
                 "label": "Wzór"
