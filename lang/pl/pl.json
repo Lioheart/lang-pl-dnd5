@@ -465,7 +465,7 @@
       "CapDisplay": {
         "one": "Maks. {points} punktów na Cechę",
         "other": "Maks. {points} punktów na Cechę",
-        "few": "Maks. {points} punktów na Cechę",
+        "few": "Maks. {points} punkty na Cechę",
         "many": "Maks. {points} punktów na Cechę"
       },
       "Details": "Szczegóły zwiększenia",
