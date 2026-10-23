@@ -320,7 +320,7 @@
         "Counted": {
           "one": "{number} akcja mityczna",
           "other": "{number} akcji mityczych",
-          "few": "{number} akcji mityczych",
+          "few": "{number} akcje mityczne",
           "many": "{number} akcji mityczych"
         },
         "Header": "Akcje mityczne",
