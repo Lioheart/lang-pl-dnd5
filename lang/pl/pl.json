@@ -1602,7 +1602,7 @@
         "one": "Upłynął {number}.",
         "other": "Upłynęło {number}.",
         "few": "Upłynęły {number}.",
-        "many": "Upłynęło: {number}."
+        "many": "Upłynęło {number}."
       },
       "Title": "Upływ czasu"
     }
