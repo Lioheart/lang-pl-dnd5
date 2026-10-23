@@ -1085,7 +1085,7 @@
             "label": "KP z osłony"
           },
           "flat": {
-            "hint": "Liczba, której można użyć w klasie pancerza poprzez zastosowanie @attributes.ac.flat we wzorze.",
+            "hint": "Liczba, której można użyć w klasie pancerza poprzez zastosowanie atrybutu @attributes.ac.flat we wzorze.",
             "label": "Stała wartość"
           },
           "formula": {
