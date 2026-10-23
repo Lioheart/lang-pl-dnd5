@@ -19,7 +19,7 @@
     "vehiclePl": "Pojazdy"
   },
   "TYPES.ActiveEffect": {
-    "enchantment": "Uroków",
+    "enchantment": "Zaklęcie",
     "enchantmentPl": "Zaklęcia"
   },
   "TYPES.ChatMessage": {
