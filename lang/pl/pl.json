@@ -1263,7 +1263,7 @@
   },
   "DND5E.Bastion": {
     "Action": {
-      "Advance": "Rozpocznij następną turę Bastionu",
+      "Advance": "Rozpocznij następną turę bastionu",
       "Maintain": "Utrzymanie bastionu"
     },
     "Attack": {
