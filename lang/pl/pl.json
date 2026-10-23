@@ -703,7 +703,7 @@
         "Container": "Zawartość pojemnika nie będzie dodawana wraz z samym pojemnikiem.",
         "Duplicate": "Ten przedmiot już jest przypisany do tego awansu.",
         "Recursive": "Nie możesz przyznać przedmiotu w ramach jego własnego awansu.",
-        "Type": "Nie można dodać przedmiotów rodzaju {type} do tego awansu."
+        "Type": "Nie można dodać do tego awansu przedmiotów rodzaju: {type}."
       }
     },
     "Label": "Awans",
