@@ -1276,7 +1276,7 @@
         "Deaths": {
           "one": "<strong>{deaths}</strong> obrońca został zabity w ataku na Bastion!",
           "other": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na Bastion!",
-          "few": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na Bastion!",
+          "few": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na bastion!",
           "many": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na Bastion!"
         },
         "NoDeaths": "Odparto atak na Bastion bez strat!",
