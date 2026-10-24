@@ -4627,7 +4627,7 @@
           "label": "Maksymalny rzut"
         },
         "min": {
-          "label": "Minimalny rzut"
+          "label": "Minimalny wynik rzutu"
         },
         "mode": {
           "label": "Tryb ułatwienia"
