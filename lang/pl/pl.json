@@ -1982,7 +1982,7 @@
       "Break": "Przerwij koncentrację",
       "End": "Zakończ koncentrację"
     },
-    "Description": "Koncentrujesz się na efektach: \"{name}\" {type}.",
+    "Description": "Koncentrujesz się na efektach: \"{name}\" - {type}.",
     "Duration": {
       "Scalar": "Koncentracja, aż do {duration}",
       "Special": "Koncentracja, {durationLc}"
