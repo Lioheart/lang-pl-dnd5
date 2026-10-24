@@ -101,7 +101,7 @@
                 "label": "Maksymalny test ataku"
               },
               "min": {
-                "label": "Minimalny test ataku"
+                "label": "Minimalny wynik testu ataku"
               },
               "mode": {
                 "label": "Tryb ułatwienia ataku"
