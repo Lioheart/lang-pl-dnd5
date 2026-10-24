@@ -4233,7 +4233,7 @@
           "label": "Rozmiary"
         },
         "types": {
-          "hint": "Jeśli ustawione, zastosuj efekty tylko do tokenów będących tymi typami istot.",
+          "hint": "Jeśli ustawione, zastosuj efekty tylko do tokenów będących tymi rodzajami istot.",
           "label": "Rodzaje"
         }
       }
