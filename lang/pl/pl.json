@@ -2006,7 +2006,7 @@
               "label": "Maksymalny rzut na koncentrację"
             },
             "min": {
-              "label": "Minimalny rzut na koncentrację"
+              "label": "Minimalny wynik rzutu na koncentrację"
             },
             "mode": {
               "label": "Tryb ułatwienia w rzucie na koncentrację"
