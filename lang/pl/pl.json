@@ -114,7 +114,7 @@
                 "label": "Premia do testu"
               },
               "max": {
-                "label": "Maksymalny rzut testu"
+                "label": "Maksymalny wynik testu"
               },
               "min": {
                 "label": "Minimalny wynik testu"
