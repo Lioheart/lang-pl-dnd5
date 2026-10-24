@@ -130,7 +130,7 @@
                 "label": "Premia do rzutów obronnych"
               },
               "max": {
-                "label": "Maksymalny rzut obronny"
+                "label": "Maksymalny wynik rzutu obronnego"
               },
               "min": {
                 "label": "Minimalny wynik rzutu obronnego"
