@@ -133,7 +133,7 @@
                 "label": "Maksymalny rzut obronny"
               },
               "min": {
-                "label": "Minimalny rzut obronny"
+                "label": "Minimalny wynik rzutu obronnego"
               },
               "mode": {
                 "label": "Tryb ułatwienia rzutu obronnego"
