@@ -2699,7 +2699,7 @@
             },
             "replacement": {
               "label": "Zastąpienie",
-              "hint": "Określ, czy właściwości danych rzutu w polu Wartość są zastępowane przed zastosowaniem i na podstawie czyich danych."
+              "hint": "Określ, czy właściwości danych rzutu w polu \"Wartość\" są zastępowane przed zastosowaniem i na podstawie czyich danych."
             },
             "type": {
               "label": "Rodzaj"
