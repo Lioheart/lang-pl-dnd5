@@ -2691,7 +2691,7 @@
               "label": "Klucz atrybutu"
             },
             "phase": {
-              "hint": "Moment w procesie przygotowania danych lub inne zdarzenie, w którym ma zostać wprowadzona zmiana.",
+              "hint": "Moment w procesie przygotowania danych lub inne zdarzenie, w którym ma zostać wprowadzona zmiana.",
               "label": "Faza"
             },
             "priority": {
