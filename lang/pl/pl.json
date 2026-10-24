@@ -117,7 +117,7 @@
                 "label": "Maksymalny rzut testu"
               },
               "min": {
-                "label": "Minimalny rzut testu"
+                "label": "Minimalny wynik testu"
               },
               "mode": {
                 "label": "Tryb ułatwienia testu"
