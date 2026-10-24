@@ -98,7 +98,7 @@
                 "label": "Premia do ataku"
               },
               "max": {
-                "label": "Maksymalny test ataku"
+                "label": "Maksymalny wynik testu ataku"
               },
               "min": {
                 "label": "Minimalny wynik testu ataku"
