@@ -2795,7 +2795,7 @@
       "FIELDS": {
         "rider": {
           "statuses": {
-            "hint": "Gdy ten Aktywny Efekt zostanie zastosowany, te dodatkowe stany będą stosowane oddzielnie.",
+            "hint": "Kiedy ten aktywny efekt zostanie zastosowany, te dodatkowe stany będą stosowane oddzielnie.",
             "label": "Oddziel stany"
           }
         }
