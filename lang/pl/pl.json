@@ -2976,7 +2976,7 @@
               "label": "Premia do progu obciążenia"
             },
             "heavilyEncumbered": {
-              "label": "Premia do progu ciężkiego obciążenia"
+              "label": "Premia do progu dużego obciążenia"
             },
             "maximum": {
               "label": "Premia do maksymalnego udźwigu"
