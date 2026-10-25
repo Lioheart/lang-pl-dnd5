@@ -19,7 +19,7 @@
     "vehiclePl": "Pojazdy"
   },
   "TYPES.ActiveEffect": {
-    "enchantment": "Zaklęcie",
+    "enchantment": "Zaklinanie",
     "enchantmentPl": "Zaklęcia"
   },
   "TYPES.ChatMessage": {
