@@ -3346,7 +3346,7 @@
           },
           "period": {
             "label": "Okres wymiany",
-            "hint": "Jak często zaklęcia tego rodzaju można powiązać z innymi przedmiotami."
+            "hint": "Jak często zaklinanie tego rodzaju można powiązać z innymi przedmiotami."
           }
         }
       },
