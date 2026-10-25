@@ -3752,7 +3752,7 @@
         "init": {
           "roll": {
             "bonus": {
-              "label": "Premia do Inicjatywy"
+              "label": "Premia do inicjatywy"
             },
             "max": {
               "label": "Maksimum rzutu na inicjatywę"
