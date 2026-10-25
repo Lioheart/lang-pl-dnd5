@@ -2990,7 +2990,7 @@
               "label": "Mnożnik progu obciążenia"
             },
             "heavilyEncumbered": {
-              "label": "Mnożnik progu ciężkiego obciążenia"
+              "label": "Mnożnik progu dużego obciążenia"
             },
             "maximum": {
               "label": "Mnożnik maksymalnego udźwigu"
