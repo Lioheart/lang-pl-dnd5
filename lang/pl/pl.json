@@ -3974,7 +3974,7 @@
     "Ordinal": {
       "one": "{n} Legendarna Akcja",
       "two": "{n} Legendarna Akcja",
-      "few": "{n} Legendarnych Akcji",
+      "few": "{n} Akcje Legendarne",
       "other": "{n} Legendarna Akcja",
       "many": "{n} Legendarnych Akcji"
     },
