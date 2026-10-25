@@ -2814,7 +2814,7 @@
       "Unavailable": "Niedostępny"
     },
     "Suppressed": {
-      "Hint": "Przedmiot, który jest źródłem efektu musi zostać założony lub zestrojony, aby móc aktywować efekty"
+      "Hint": "Przedmiot, który jest źródłem efektu musi zostać założony lub trzeba się z nim zestroić, aby móc aktywować efekty"
     },
     "Tab": "Efekty",
     "Warning": {
