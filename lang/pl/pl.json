@@ -20,7 +20,7 @@
   },
   "TYPES.ActiveEffect": {
     "enchantment": "Zaklinanie",
-    "enchantmentPl": "Zaklęcia"
+    "enchantmentPl": "Zaklinania"
   },
   "TYPES.ChatMessage": {
     "item": "Wiadomość o przedmiocie",
