@@ -4102,7 +4102,7 @@
   "DND5E.Period": "Okres",
   "DND5E.PersonalityTraits": "Cechy osobowości",
   "DND5E.PIETY": {
-    "Configure": "Konfiguruj pobożność",
+    "Configure": "Konfiguruj Cechę pobożność",
     "Label": "Pobożność",
     "FIELDS": {
       "value": {
