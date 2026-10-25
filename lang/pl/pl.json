@@ -2819,7 +2819,7 @@
     "Tab": "Efekty",
     "Warning": {
       "RollCondition": "Warunki efektu nie mogą odwoływać się do właściwości 'roll.'. Przenieś ten warunek do poszczególnych zmian, aby efekt mógł zostać zastosowany.",
-      "StatusCondition": "Efekty nadające statusy nie mogą jednocześnie zależeć od statusów. Przenieś ten warunek do poszczególnych zmian, aby efekt mógł zostać zastosowany."
+      "StatusCondition": "Efekty nadające statusy nie mogą jednocześnie zależeć od statusów. Przenieś ten warunek do poszczególnych zmian, aby można było zastosować efekt."
     }
   },
   "DND5E.ENCHANT": {
