@@ -2779,7 +2779,7 @@
     "FIELDS": {
       "statuses": {
         "label": "Stany",
-        "hint": "Chociaż ten Aktywny Efekt ma wpływ, cel będzie traktowany jako mający te dodatkowe stany."
+        "hint": "Podczas działania tego aktywnego efektu, cel będzie traktowany jako mający te dodatkowe stany."
       }
     },
     "Label": "Dostępne efekty",
