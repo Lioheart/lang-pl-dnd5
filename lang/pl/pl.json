@@ -2755,7 +2755,7 @@
     },
     "DropHint": "Upuść tutaj aktywny efekt",
     "Empty": "Brak powiązanych efektów. Użyj przycisku <i class=\"fas fa-plus\"></i> powyżej, aby utworzyć efekt, lub wybierz istniejący efekt z listy.",
-    "Expired": "Wygasło",
+    "Expired": "Wygasł",
     "Expiry": {
       "Abbreviation": {
         "End": "Koniec",
