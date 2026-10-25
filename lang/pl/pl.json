@@ -761,7 +761,7 @@
         "changes": {
           "element": {
             "enchantment": {
-              "label": "Nałożone zaklęcie"
+              "label": "Nałożone zaklinanie"
             },
             "identifiers": {
               "hint": "Identyfikatory przedmiotów, które zostaną zmodyfikowane przez to zaklinanie. Przed identyfikatorem można podać rodzaj przedmiotu (np. \"spell:mage-hand\").",
