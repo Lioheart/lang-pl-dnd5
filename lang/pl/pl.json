@@ -3502,7 +3502,7 @@
   "DND5E.FlagsReliableTalentHint": "Zdolność łotra: Niezawodny talent",
   "DND5E.FlagsRemarkableAthlete": "Niezwykły atleta",
   "DND5E.FlagsRemarkableAthleteHint": "Ułatwienie w rzutach na inicjatywę i testach atletyki.",
-  "DND5E.FlagsRemarkableAthleteHintLegacy": "Połowa biegłości (zaokrąglona w górę) do testów umiejętności fizycznych i Inicjatywy.",
+  "DND5E.FlagsRemarkableAthleteHintLegacy": "Połowa biegłości (zaokrąglona w górę) do testów Cech fizycznych i Inicjatywy.",
   "DND5E.FlagsWeaponCritThreshold": "Próg trafienia krytycznego bronią",
   "DND5E.FlagsWeaponCritThresholdHint": "Rozszerzony próg trafienia kryt. ataków bronią.",
   "DND5E.FlagsSpellCritThreshold": "Próg trafienia krytycznego czarem",
