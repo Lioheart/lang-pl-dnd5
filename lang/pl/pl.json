@@ -3992,7 +3992,7 @@
     "Ordinal": {
       "one": "{n} Legendarna Odporność",
       "two": "{n} Legendarna Odporność",
-      "few": "{n} Legendarnych Odporności",
+      "few": "{n} Legendarne Odporności",
       "other": "{n} Legendarna Odporność",
       "many": "{n} Legendarnych Odporności"
     },
