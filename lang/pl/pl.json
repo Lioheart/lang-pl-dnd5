@@ -2805,7 +2805,7 @@
       "ChangeActive": "Zmiana aktywna",
       "ChangeInactive": "Zmiana nieaktywna",
       "DeleteDialog": {
-        "hint": "Ten stan działa na ciebie z więcej niż jednego źródła. Wybierz, który efekt ma się zakończyć.",
+        "hint": "Jesteś pod wypływem działania stanów z więcej niż jednego źródła. Wybierz, który efekt ma się zakończyć.",
         "title": "Usuń efekt"
       },
       "Inactive": "Nieaktywny",
