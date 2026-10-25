@@ -3321,7 +3321,7 @@
   },
   "DND5E.FALLING": {
     "DamageFlavor": "Spadek z {distance}",
-    "MovementAction": "Jesień",
+    "MovementAction": "Spadanie",
     "Warning": {
       "NoLandingSurface": "{name} nie może spaść, ponieważ nie ma pod sobą żadnej powierzchni."
     }
