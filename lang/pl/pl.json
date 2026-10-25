@@ -3342,7 +3342,7 @@
         "items": {
           "max": {
             "label": "Limit przedmiotów",
-            "hint": "Wzór na maksymalną liczbę zaklęć tego rodzaju, które mogą być aktywne jednocześnie."
+            "hint": "Wzór na maksymalną liczbę zaklinań tego rodzaju, które mogą być aktywne jednocześnie."
           },
           "period": {
             "label": "Okres wymiany",
