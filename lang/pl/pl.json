@@ -2927,7 +2927,7 @@
     "FIELDS": {
       "magical": {
         "hint": "To zaklinanie jest magiczne i powinno zostać wyłączone, gdy magia jest niedostępna.",
-        "label": "Magiczna"
+        "label": "Magiczny"
       }
     },
     "Items": {
