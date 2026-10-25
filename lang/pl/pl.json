@@ -2750,7 +2750,7 @@
       }
     },
     "DisabledTooltip": {
-      "Disabled": "Ten efekt jest obecnie wybrany w co najmniej jednej aktywności jego przedmiotu, dlatego nie można go zawiesić.",
+      "Disabled": "Ten efekt jest obecnie wybrany w co najmniej jednej z aktywności jego przedmiotu, dlatego nie można go zawiesić.",
       "Transfer": "Ten efekt jest obecnie wybrany w co najmniej jednej aktywności jego przedmiotu, dlatego nie może być pasywnie stosowany do aktora tego przedmiotu."
     },
     "DropHint": "Upuść tutaj efekt aktywny",
