@@ -752,7 +752,7 @@
         "AddChange": "Dodaj zmianę",
         "DeleteChange": "Usuń zmianę"
       },
-      "DropHint": "Upuść tutaj zaklęcie",
+      "DropHint": "Upuść tutaj zaklinanie",
       "Empty": {
         "WithDropdown": "Brak zmian. Użyj przycisku <i class=\"fa-solid fa-plus\"></i> powyżej, aby utworzyć zmianę, lub wybierz istniejący efekt z listy.",
         "WithoutDropdown": "Brak zmian. Użyj przycisku <i class=\"fa-solid fa-plus\"></i> powyżej, aby utworzyć zmianę."
