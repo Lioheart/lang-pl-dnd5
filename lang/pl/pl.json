@@ -3044,7 +3044,7 @@
     "Boons": {
       "one": "{number} Dobrodziejstwo",
       "other": "{number} Dobrodziejstw",
-      "few": "{number} Dobrodziejstw",
+      "few": "{number} Dobrodziejstwa",
       "many": "{number} Dobrodziejstw"
     },
     "Current": "Aktualne PD",
