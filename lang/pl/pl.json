@@ -4521,7 +4521,7 @@
           },
           "label": "Modyfikacja testu ataku",
           "max": {
-            "label": "Globalne maksimum testu ataku"
+            "label": "Globalny maksymalny wynik testu ataku"
           },
           "min": {
             "label": "Globalne maksimum testu ataku"
