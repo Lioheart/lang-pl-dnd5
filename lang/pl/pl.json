@@ -4548,7 +4548,7 @@
               "label": "Premia do ataku wręcz bronią"
             },
             "max": {
-              "label": "Maksimum testu ataku wręcz bronią"
+              "label": "Maksymalny wynik testu ataku wręcz bronią"
             },
             "min": {
               "label": "Minimum testu ataku wręcz bronią"
@@ -4562,7 +4562,7 @@
               "label": "Premia do ataku dystansowego czarem"
             },
             "max": {
-              "label": "Maksimum testu ataku dystansowego czarem"
+              "label": "Maksymalny wynik testu ataku dystansowego czarem"
             },
             "min": {
               "label": "Minimum testu ataku dystansowego czarem"
