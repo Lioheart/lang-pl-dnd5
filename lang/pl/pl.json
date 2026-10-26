@@ -2745,7 +2745,7 @@
           "Label": "Maksimum rzutu"
         },
         "Minimum": {
-          "Label": "Minimum rzutu"
+          "Label": "Minimalny wynik rzutu"
         }
       }
     },
@@ -3758,7 +3758,7 @@
               "label": "Maksimum rzutu na inicjatywę"
             },
             "min": {
-              "label": "Minimum rzutu na inicjatywę"
+              "label": "Minimalny wynik rzutu na inicjatywę"
             },
             "mode": {
               "label": "Tryb ułatwienia inicjatywy"
@@ -4537,7 +4537,7 @@
               "label": "Maksymalny wynik testu ataku wręcz czarem"
             },
             "min": {
-              "label": "Minimum testu ataku wręcz czarem"
+              "label": "Minimalny wynik testu ataku wręcz czarem"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku wręcz czarem"
@@ -4551,7 +4551,7 @@
               "label": "Maksymalny wynik testu ataku wręcz bronią"
             },
             "min": {
-              "label": "Minimum testu ataku wręcz bronią"
+              "label": "Minimalny wynik testu ataku wręcz bronią"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku wręcz bronią"
