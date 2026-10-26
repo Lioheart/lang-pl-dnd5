@@ -4222,7 +4222,7 @@
       "FIELDS": {
         "dispositions": {
           "hint": "Jeśli włączono, efekty będą stosowane tylko do tokenów o tych nastawieniach.",
-          "label": "Usposobienia"
+          "label": "Nastawienia"
         },
         "effects": {
           "hint": "Efekty stosowane do tokenów znajdujących się w obszarze.",
