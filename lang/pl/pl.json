@@ -5762,7 +5762,7 @@
       "LightDimRadius": "Promień słabego światła"
     },
     "LockScale": {
-      "Hint": "Zapobiegaj zastosowaniu korekty skalowania do tokenu, jeśli rozmiar aktora jest Mały.",
+      "Hint": "Zapobiegaj zastosowaniu korekty skalowania do tokena, jeśli rozmiar aktora jest Mały.",
       "Label": "Zablokuj skalę"
     },
     "LockSize": {
