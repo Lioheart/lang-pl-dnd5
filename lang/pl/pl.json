@@ -4502,7 +4502,7 @@
               "label": "Globalna premia do testów narzędzi"
             },
             "max": {
-              "label": "Globalne maksimum testu narzędzi"
+              "label": "Globalny maksymalny wynik testu narzędzi"
             },
             "min": {
               "label": "Globalne minimum testu narzędzi"
