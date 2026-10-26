@@ -4456,10 +4456,10 @@
               "label": "Globalny maksymalny wynik testu Cechy"
             },
             "mode": {
-              "label": "Globalny tryb ułatwienia testu cechy"
+              "label": "Globalny tryb ułatwienia testu Cechy"
             },
             "proficiency": {
-              "label": "Globalna biegłość w testach cech"
+              "label": "Globalna biegłość w testach Cech"
             }
           },
           "label": "Modyfikacja rzutu na cechę",
