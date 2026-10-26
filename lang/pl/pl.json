@@ -5514,7 +5514,7 @@
           "each": "każda istota lub obiekt",
           "every": "wszystkie istoty lub obiekty",
           "one": "istota lub obiekt",
-          "other": "{number} istot lub obiektów",
+          "other": "istot lub obiektów",
           "few": "{number} istoty lub obiekty",
           "many": "{number} istot lub obiektów"
         }
