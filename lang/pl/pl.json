@@ -4565,7 +4565,7 @@
               "label": "Maksymalny wynik testu ataku dystansowego czarem"
             },
             "min": {
-              "label": "Minimum testu ataku dystansowego czarem"
+              "label": "Minimalny wynik testu ataku dystansowego czarem"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku dystansowego czarem"
@@ -4579,7 +4579,7 @@
               "label": "Maksymalny wynik testu ataku dystansowego bronią"
             },
             "min": {
-              "label": "Minimum testu ataku dystansowego bronią"
+              "label": "Minimalny wynik testu ataku dystansowego bronią"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku dystansowego bronią"
