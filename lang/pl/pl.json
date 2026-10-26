@@ -4534,7 +4534,7 @@
               "label": "Premia do ataku wręcz czarem"
             },
             "max": {
-              "label": "Maksimum testu ataku wręcz czarem"
+              "label": "Maksymalny wynik testu ataku wręcz czarem"
             },
             "min": {
               "label": "Minimum testu ataku wręcz czarem"
