@@ -4139,7 +4139,7 @@
     },
     "Status": {
       "Invalid": "Nie powiodło się sprawdzenie wymagań wstępnych",
-      "Unknown": "Weryfikacja wymagań niekompletna",
+      "Unknown": "Nie ukończono sprawdzania wymagań wstępnych",
       "Valid": "Weryfikacja wymagań udana"
     },
     "Warning": {
