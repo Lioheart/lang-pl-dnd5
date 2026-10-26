@@ -4579,7 +4579,7 @@
               "label": "Maksymalny wynik testu ataku dystansowego bronią"
             },
             "min": {
-              "label": "Minimum testu ataku dystansowego bronią"
+              "label": "Minimalny wynik testu ataku dystansowego bronią"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku dystansowego bronią"
@@ -4615,7 +4615,7 @@
       "AdvantageMode": "Tryb ułatwienia: {name}",
       "Bonus": "Tryb ułatwienia: {name}",
       "Maximum": "Premia do rzutu: {name}",
-      "Minimum": "Maksimum rzutu: {name}",
+      "Minimum": "Minimalny wynik rzutu: {name}",
       "ModifierAbility": "Cecha modyfikatora: {name}"
     },
     "Generic": {
@@ -4857,7 +4857,7 @@
               "label": "Maksymalny wynik testu umiejętności"
             },
             "min": {
-              "label": "Minimum testu umiejętności"
+              "label": "Minimalny wynik testu umiejętności"
             },
             "mode": {
               "label": "Tryb ułatwienia testu umiejętności"
