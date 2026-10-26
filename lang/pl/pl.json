@@ -4229,7 +4229,7 @@
           "label": "Efekty"
         },
         "sizes": {
-          "hint": "Jeśli ustawiono, efekty będą stosowane tylko do tokenów o tych rozmiarach.",
+          "hint": "Jeśli włączono, efekty będą stosowane tylko do tokenów o tych rozmiarach.",
           "label": "Rozmiary"
         },
         "types": {
