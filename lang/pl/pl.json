@@ -4221,7 +4221,7 @@
     "APPLYACTIVEEFFECT": {
       "FIELDS": {
         "dispositions": {
-          "hint": "Jeśli ustawiono, efekty będą stosowane tylko do tokenów o tych nastawieniach.",
+          "hint": "Jeśli włączono, efekty będą stosowane tylko do tokenów o tych nastawieniach.",
           "label": "Usposobienia"
         },
         "effects": {
