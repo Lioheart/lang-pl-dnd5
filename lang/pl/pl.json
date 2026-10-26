@@ -4616,7 +4616,7 @@
       "Bonus": "Premia do rzutu: {name}",
       "Maximum": "Maksymalny wynik rzutu: {name}",
       "Minimum": "Minimalny wynik rzutu: {name}",
-      "ModifierAbility": "Cecha modyfikatora: {name}"
+      "ModifierAbility": "Modyfikator z Cechy: {name}"
     },
     "Generic": {
       "D20": {
