@@ -4471,7 +4471,7 @@
               "label": "Globalny maksymalny wynik rzutu obronnego"
             },
             "min": {
-              "label": "Globalne minimum rzutu obronnego"
+              "label": "Globalny maksymalny wynik rzutu obronnego"
             },
             "mode": {
               "label": "Globalny tryb ułatwienia rzutu obronnego"
