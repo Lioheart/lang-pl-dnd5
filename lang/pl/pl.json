@@ -4579,7 +4579,7 @@
               "label": "Maksymalny wynik testu ataku dystansowego bronią"
             },
             "min": {
-              "label": "Minimalny wynik testu ataku dystansowego bronią"
+              "label": "Minimum testu ataku dystansowego bronią"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku dystansowego bronią"
