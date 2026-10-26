@@ -5545,7 +5545,7 @@
         "Label": "Emanacja",
         "Counted": {
           "one": "emanacja",
-          "other": "emanacje",
+          "other": "emanacji",
           "oneSized": "Emanacja {sizes}",
           "otherSized": "{number} emanacji {sizes}",
           "few": "emanacje",
