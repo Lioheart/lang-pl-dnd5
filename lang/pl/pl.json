@@ -4576,7 +4576,7 @@
               "label": "Premia do ataku dystansowego bronią"
             },
             "max": {
-              "label": "Maksimum testu ataku dystansowego bronią"
+              "label": "Maksymalny wynik testu ataku dystansowego bronią"
             },
             "min": {
               "label": "Minimum testu ataku dystansowego bronią"
@@ -4854,7 +4854,7 @@
               "label": "Premia do testów umiejętności"
             },
             "max": {
-              "label": "Maksimum testu umiejętności"
+              "label": "Maksymalny wynik testu umiejętności"
             },
             "min": {
               "label": "Minimum testu umiejętności"
