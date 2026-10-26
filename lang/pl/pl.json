@@ -4140,7 +4140,7 @@
     "Status": {
       "Invalid": "Nie powiodło się sprawdzenie wymagań wstępnych",
       "Unknown": "Nie ukończono sprawdzania wymagań wstępnych",
-      "Valid": "Weryfikacja wymagań udana"
+      "Valid": "Zakończono sprawdzanie wymagań wstępnych"
     },
     "Warning": {
       "InvalidLevel": "musi być co najmniej na poziomie {level}",
