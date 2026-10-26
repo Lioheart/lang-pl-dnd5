@@ -5374,7 +5374,7 @@
       "Appendix": "Załącznik",
       "Chapter": "Rozdział",
       "Header": "Nagłówek",
-      "Special": "Specjalna"
+      "Special": "Specjalny"
     },
     "Warning": {
       "DuplicateHeader": "Tylko jeden wpis może mieć typ \"Nagłówek\".",
