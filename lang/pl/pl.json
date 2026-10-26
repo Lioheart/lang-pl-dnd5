@@ -5790,7 +5790,7 @@
               "label": "Maksymalny wynik testu narzędzi"
             },
             "min": {
-              "label": "Minimum testu narzędzi"
+              "label": "Minimalny wynik testu narzędzi"
             },
             "mode": {
               "label": "Tryb ułatwienia testu narzędzi"
