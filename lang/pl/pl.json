@@ -5787,7 +5787,7 @@
               "label": "Premia do testów narzędzi"
             },
             "max": {
-              "label": "Maksimum testu narzędzi"
+              "label": "Maksymalny wynik testu narzędzi"
             },
             "min": {
               "label": "Minimum testu narzędzi"
