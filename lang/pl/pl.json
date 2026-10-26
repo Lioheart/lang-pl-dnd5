@@ -5766,7 +5766,7 @@
       "Label": "Zablokuj skalę"
     },
     "LockSize": {
-      "Hint": "Odblokuj, aby ręcznie wprowadzić wymiary tego tokena i uniemożliwić ich automatyczne dostosowywanie na podstawie rozmiaru istoty.",
+      "Hint": "Odblokuj, aby ręcznie wprowadzić wymiary tego tokena i zapobiec ich automatycznemu dostosowywaniu na podstawie rozmiaru istoty.",
       "Label": "Zablokuj rozmiar"
     }
   },
