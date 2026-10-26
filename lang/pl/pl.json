@@ -4485,10 +4485,10 @@
               "label": "Globalna premia do testów umiejętności"
             },
             "max": {
-              "label": "Globalne maksimum testu umiejętności"
+              "label": "Globalny maksymalny wynik testu umiejętności"
             },
             "min": {
-              "label": "Globalne minimum testu umiejętności"
+              "label": "Globalny maksymalny wynik testu umiejętności"
             },
             "mode": {
               "label": "Globalny tryb ułatwienia testu umiejętności"
