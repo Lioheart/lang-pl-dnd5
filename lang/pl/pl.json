@@ -4505,7 +4505,7 @@
               "label": "Globalny maksymalny wynik testu narzędzi"
             },
             "min": {
-              "label": "Globalne minimum testu narzędzi"
+              "label": "Globalny minimalny wynik testu narzędzi"
             },
             "mode": {
               "label": "Globalny tryb ułatwienia testu narzędzi"
