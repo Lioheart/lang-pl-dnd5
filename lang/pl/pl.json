@@ -4524,7 +4524,7 @@
             "label": "Globalny maksymalny wynik testu ataku"
           },
           "min": {
-            "label": "Globalne maksimum testu ataku"
+            "label": "Globalny minimalny wynik testu ataku"
           },
           "mode": {
             "label": "Globalny tryb ułatwienia ataku"
