@@ -4488,7 +4488,7 @@
               "label": "Globalny maksymalny wynik testu umiejętności"
             },
             "min": {
-              "label": "Globalny maksymalny wynik testu umiejętności"
+              "label": "Globalny minimalny wynik testu umiejętności"
             },
             "mode": {
               "label": "Globalny tryb ułatwienia testu umiejętności"
