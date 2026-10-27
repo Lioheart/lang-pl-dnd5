@@ -7079,7 +7079,7 @@
         "Name": "Synchronizuj rozmiar tokena"
       },
       "Falling": {
-        "Name": "Wyłącz automatyzację upadku",
+        "Name": "Wyłącz automatyzację spadania",
         "Hint": "Nie śledź stanu Spadający tokenów."
       },
       "Movement": {
