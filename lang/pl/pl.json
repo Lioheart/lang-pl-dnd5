@@ -5926,8 +5926,8 @@
     "Tool": {
       "one": "Biegłość w posługiwaniu się narzędziem",
       "other": "Biegłości w posługiwaniu się narzędziami",
-      "title": "Biegłości w narzędziach",
-      "few": "Biegłości w narzędziach",
+      "title": "Biegłości w posługiwaniu się narzędziami",
+      "few": "Biegłości w posługiwaniu się narzędziami",
       "many": "Biegłości w narzędziach"
     },
     "Weapon": {
