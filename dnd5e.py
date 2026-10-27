@@ -220,6 +220,122 @@ def build_id_index(data: list[dict]) -> dict:
     return index
 
 
+
+def babele_entry_keys(records: list[dict], context: str) -> list[str | None]:
+    """Dobiera klucze Babele bez zatrzymywania eksportu na kolizjach.
+
+    Babele rozpoznaje oryginalną nazwę lub _id. Przy powtórzonej nazwie
+    preferujemy _id. Przy kolizji nazwy z cudzym ID możemy przenieść wpis
+    z unikalną nazwą na jego własne ID.
+
+    Jeśli w danej kolekcji kilka rekordów nie ma *żadnych* rozróżnialnych
+    kluczy Babele (np. ta sama nazwa i to samo _id), eksportujemy tylko
+    ostatni możliwy do dopasowania wariant i wypisujemy ostrzeżenie.
+    None znaczy: pomiń nierozróżnialny rekord. Nie tworzymy sztucznych ID.
+    """
+    from collections import Counter
+
+    def clean(value) -> str:
+        return value.strip() if isinstance(value, str) else ""
+
+    names = [clean(record.get("name")) for record in records]
+    ids = [clean(record.get("_id")) for record in records]
+    counts = Counter(name for name in names if name)
+    repeated_with_id = {
+        name for name, record_id in zip(names, ids)
+        if name and counts[name] > 1 and record_id
+    }
+
+    choices: list[list[str]] = []
+    for name, record_id in zip(names, ids):
+        if name and counts[name] > 1:
+            if record_id:
+                # Rozróżnialne rekordy o wspólnej nazwie: zawsze _id.
+                choices.append([record_id])
+            elif name in repeated_with_id:
+                # Klucz po nazwie mógłby błędnie przetłumaczyć też rekordy
+                # o znanym ID. Nie jest więc bezpiecznym zamiennikiem.
+                choices.append([])
+            else:
+                # Gdy wszystkie kopie nie mają ID, nazwa dopasuje co
+                # najwyżej jedno tłumaczenie do tej grupy.
+                choices.append([name])
+        elif name:
+            # Unikalne nazwy zachowujemy, o ile nie kolidują z cudzym ID.
+            choices.append([name] + ([record_id] if record_id and record_id != name else []))
+        elif record_id:
+            choices.append([record_id])
+        else:
+            choices.append([])
+
+    # Preferuj wpisy o zduplikowanej nazwie, dla których _id jest jedyną
+    # prawidłową opcją. Dopasowanie z przesuwaniem zajętych kluczy daje
+    # maksymalną liczbę rozróżnialnych dokumentów w granicach Babele.
+    # Przy całkowicie identycznych kluczach pierwszeństwo ma ostatni rekord,
+    # tak jak w dotychczasowym przypisaniu entries[name] = entry.
+    order = sorted(
+        range(len(records)),
+        key=lambda i: (0 if len(choices[i]) == 1 else 1, -i)
+    )
+    owner_by_key: dict[str, int] = {}
+
+    def assign(start: int) -> bool:
+        # Iteracyjna ścieżka powiększająca, bez ryzyka RecursionError
+        # w bardzo dużych paczkach z łańcuchami kolidujących kluczy.
+        stack = [(start, iter(choices[start]))]
+        visited_records = {start}
+        visited_keys: set[str] = set()
+        parent: dict[int, tuple[int, str]] = {}
+
+        while stack:
+            index, candidates = stack[-1]
+            key = next(candidates, None)
+            if key is None:
+                stack.pop()
+                continue
+            if key in visited_keys:
+                continue
+            visited_keys.add(key)
+            owner = owner_by_key.get(key)
+
+            if owner is None:
+                # Przesuwamy zajęte klucze wzdłuż znalezionej ścieżki.
+                current, current_key = index, key
+                while True:
+                    owner_by_key[current_key] = current
+                    if current == start:
+                        return True
+                    current, current_key = parent[current]
+            elif owner not in visited_records:
+                visited_records.add(owner)
+                parent[owner] = (index, key)
+                stack.append((owner, iter(choices[owner])))
+
+        return False
+
+    for index in order:
+        assign(index)
+
+    selected: list[str | None] = [None] * len(records)
+    for key, index in owner_by_key.items():
+        selected[index] = key
+
+    skipped = [i for i, key in enumerate(selected) if key is None]
+    if skipped:
+        preview = ", ".join(
+            f"{names[i] or '<bez nazwy>'!r} (_id={ids[i] or '<brak>'})"
+            for i in skipped[:4]
+        )
+        extra = f", i {len(skipped) - 4} innych" if len(skipped) > 4 else ""
+        print(
+            f"OSTRZEŻENIE [{context}]: {len(skipped)} rekordów pominięto, "
+            f"ponieważ nie mają unikatowego klucza możliwego do dopasowania "
+            f"przez Babele: {preview}{extra}. Eksport trwa dalej."
+        )
+
+    return selected
+
+
 def build_records_by_id(data: list[dict], predicate) -> dict[str, list[dict]]:
     """
     Zachowuje wszystkie rekordy o tym samym _id.
@@ -968,14 +1084,18 @@ def populate_caption_entry(entry: dict, new_data: dict, id_index: dict, transife
     # Aktorzy
     if "actors" in new_data and isinstance(new_data["actors"], list):
         entry.setdefault("actors", {})
-        for actor in new_data["actors"]:
-            actor_name = (actor.get("name") or "").strip()
-            if not actor_name:
+        named_actors = [
+            actor for actor in new_data["actors"]
+            if isinstance(actor, dict)
+            and isinstance(actor.get("name"), str) and actor["name"].strip()
+        ]
+        actor_keys = babele_entry_keys(named_actors, "adventure.actors")
+        for actor, actor_key in zip(named_actors, actor_keys):
+            if actor_key is None:
                 continue
-
-            entry["actors"].setdefault(actor_name, {})
+            entry["actors"].setdefault(actor_key, {})
             populate_caption_actor(
-                actor_entry=entry["actors"][actor_name],
+                actor_entry=entry["actors"][actor_key],
                 actor_data=actor,
                 transifex_dict=transifex_dict
             )
@@ -1297,14 +1417,19 @@ def process_table_pack(data: list[dict], pack_name: str) -> dict:
 
     folders: dict[str, str] = {}
 
-    for record in data:
-        if not isinstance(record, dict):
-            continue
+    table_records = [
+        record for record in data
+        if isinstance(record, dict)
+        and not is_folder_record(record)
+        and (record.get("name") or "").strip()
+        and (is_rolltable_record(record) or is_table_result_record(record))
+    ]
+    entry_keys = babele_entry_keys(table_records, f"{pack_name}.entries")
 
-        name = (record.get("name") or "").strip()
-
-        if is_folder_record(record):
+    for record, entry_key in zip(table_records, entry_keys):
+        if entry_key is None:
             continue
+        name = record["name"].strip()
 
         if is_rolltable_record(record):
             if not name:
@@ -1328,7 +1453,7 @@ def process_table_pack(data: list[dict], pack_name: str) -> dict:
                     )
                 )
 
-            transifex_dict["entries"][name] = entry
+            transifex_dict["entries"][entry_key] = entry
             continue
 
         # Nazwane TableResult zostają osobnymi entries, bo w tables24 są np.
@@ -1340,7 +1465,7 @@ def process_table_pack(data: list[dict], pack_name: str) -> dict:
             if description:
                 entry["description"] = description
 
-            transifex_dict["entries"][name] = entry
+            transifex_dict["entries"][entry_key] = entry
             continue
 
     if folders:
@@ -1661,20 +1786,20 @@ def process_rules_pack(
     if folders:
         transifex_dict["folders"] = folders
 
-    for record in data:
-        if not isinstance(record, dict):
-            continue
+    journal_records = [
+        record for record in data
+        if isinstance(record, dict)
+        and not is_folder_record(record)
+        and isinstance(record.get("pages"), list)
+        and (record.get("name") or "").strip()
+    ]
+    entry_keys = babele_entry_keys(journal_records, f"{pack_name}.entries")
 
-        if is_folder_record(record):
+    for record, entry_key in zip(journal_records, entry_keys):
+        if entry_key is None:
             continue
-
-        pages_value = record.get("pages")
-        if not isinstance(pages_value, list):
-            continue
-
-        entry_name = (record.get("name") or "").strip()
-        if not entry_name:
-            continue
+        entry_name = record["name"].strip()
+        pages_value = record["pages"]
 
         entry = {
             "name": entry_name
@@ -1703,10 +1828,15 @@ def process_rules_pack(
 
         entry["pages"] = {}
 
-        for page in resolve_journal_pages(pages_value, id_index):
-            page_name = (page.get("name") or "").strip()
-            if not page_name:
+        pages = [
+            page for page in resolve_journal_pages(pages_value, id_index)
+            if isinstance(page.get("name"), str) and page["name"].strip()
+        ]
+        page_keys = babele_entry_keys(pages, f"{pack_name}.{entry_name}.pages")
+        for page, page_key in zip(pages, page_keys):
+            if page_key is None:
                 continue
+            page_name = page["name"].strip()
 
             page_entry = {
                 "name": page_name
@@ -1750,10 +1880,10 @@ def process_rules_pack(
                 if height not in (None, ""):
                     page_entry["height"] = height
 
-            entry["pages"][page_name] = page_entry
+            entry["pages"][page_key] = page_entry
 
         if entry["pages"]:
-            transifex_dict["entries"][entry_name] = entry
+            transifex_dict["entries"][entry_key] = entry
 
     return remove_empty_keys(transifex_dict)
 
@@ -1813,7 +1943,9 @@ def actor_mapping_for_pack(pack_name: str) -> dict:
             },
             "effects": {
                 "path": "effects",
-                "converter": "effects"
+                "converter": "document",
+                "documentType": "ActiveEffect",
+                "cardinality": "many",
             },
             "tokenLight": {
                 "path": "prototypeToken.light",
@@ -1875,53 +2007,38 @@ def extract_materials(record: dict) -> str:
 
 
 def add_effects_to_entry(entry: dict, effects_value, id_index: dict | None = None) -> None:
+    """Eksportuje osadzone ActiveEffect według mapowania 'document' Babele."""
     if not effects_value:
         return
 
-    effects = []
+    effect_records = []
     if isinstance(effects_value, list):
-        for effect in effects_value:
-            if isinstance(effect, str) and id_index:
-                resolved = id_index.get(effect)
-                if isinstance(resolved, dict):
-                    effects.append(resolved)
-            elif isinstance(effect, dict):
-                effects.append(effect)
+        for value in effects_value:
+            if isinstance(value, dict):
+                effect_records.append(value)
+            elif isinstance(value, str) and id_index:
+                record = id_index.get(value)
+                if isinstance(record, dict):
+                    effect_records.append(record)
     elif isinstance(effects_value, dict):
-        effects = list(effects_value.values())
+        for effect_id, value in effects_value.items():
+            if isinstance(value, dict):
+                # W niektórych eksportach obiekt jest indeksowany przez ID.
+                # Nie należy zastępować istniejącego _id sztucznym kluczem.
+                if not value.get("_id") and isinstance(effect_id, str):
+                    value = {**value, "_id": effect_id}
+                effect_records.append(value)
 
-    for effect in effects:
-        if not isinstance(effect, dict):
+    if not effect_records:
+        return
+
+    keys = babele_entry_keys(effect_records, "embedded.effects")
+    for effect, key in zip(effect_records, keys):
+        if key is None:
             continue
-        name = (effect.get("name") or effect.get("label") or "").strip()
-        if not name:
-            continue
-        entry.setdefault("effects", {})
-        effect_entry = {"name": name}
-        description = extract_plain_description(effect)
-        if not description:
-            raw_description = effect.get("description")
-            if isinstance(raw_description, str) and raw_description.strip():
-                description = raw_description.strip()
-        if description:
-            effect_entry["description"] = description
-
-        changes = effect.get("changes")
-        if isinstance(changes, list):
-            translated_changes = {}
-            for change in changes:
-                if not isinstance(change, dict):
-                    continue
-                key = change.get("key")
-                value = change.get("value")
-                if isinstance(key, str) and key.strip() and isinstance(value, str) and value.strip():
-                    # Tłumaczeniowo istotne są zmiany tekstowe, np. dopisek do nazwy.
-                    if key.strip() == "name":
-                        translated_changes[key.strip()] = value.strip()
-            if translated_changes:
-                effect_entry["changes"] = translated_changes
-
-        entry["effects"][name] = effect_entry
+        translated = extract_active_effect_entry(effect)
+        if translated:
+            entry.setdefault("effects", {})[key] = translated
 
 
 def add_activities_to_item(entry: dict, item: dict) -> None:
@@ -1929,12 +2046,24 @@ def add_activities_to_item(entry: dict, item: dict) -> None:
     if not isinstance(activities, dict):
         return
 
-    for activity_id, activity in activities.items():
-        if not isinstance(activity, dict):
-            continue
+    valid_activities = [
+        (activity_id, activity) for activity_id, activity in activities.items()
+        if isinstance(activity, dict)
+    ]
+    activity_keys = babele_entry_keys([
+        {"_id": activity_id, "name": (
+            (activity.get("name") or "").strip()
+            or ((activity.get("type") or "").strip()
+                if isinstance(activity.get("type"), str) else "")
+            or str(activity_id)
+        )}
+        for activity_id, activity in valid_activities
+    ], "item.activities")
 
+    for (activity_id, activity), activity_key in zip(valid_activities, activity_keys):
+        if activity_key is None:
+            continue
         name = (activity.get("name") or "").strip()
-        activity_key = name or (activity.get("type") if isinstance(activity.get("type"), str) else "") or activity_id
         activity_entry = {}
         if name:
             activity_entry["name"] = name
@@ -2021,63 +2150,75 @@ def add_activities_to_item(entry: dict, item: dict) -> None:
 
 
 def add_advancement_to_item(entry: dict, item: dict) -> None:
+    """Eksportuje tłumaczalne pola awansów D&D 5e do Babele.
+
+    System D&D 5e może przechowywać `system.advancement` jako:
+    - słownik {id: advancement} (nowsze/zmigrowane dokumenty),
+    - listę obiektów advancement (starsze dokumenty).
+
+    Nazwę awansu odczytujemy z `name` (D&D 5e 6.x) lub
+    `title` (D&D 5e 5.x). W JSON tłumaczenia pozostawiamy klucz `title`,
+    aby zachować zgodność z już przetłumaczonymi plikami Babele.
+    `hint` pozostaje niezależnym polem tekstowym.
+    Puste pola pomijamy, zaś identyczne tytuły rozróżniamy po _id.
+    Nie generujemy sztucznych identyfikatorów nieznanych Babele.
+    """
     advancement = item.get("system", {}).get("advancement")
 
-    if not isinstance(advancement, list):
+    if isinstance(advancement, dict):
+        # Oryginalny klucz słownika jest stabilnym kluczem źródłowym Babele.
+        source_entries = list(advancement.items())
+    elif isinstance(advancement, list):
+        source_entries = [(None, value) for value in advancement]
+    else:
         return
 
+    candidates = []
+    for source_key, advance in source_entries:
+        if not isinstance(advance, dict):
+            continue
+
+        # D&D 5e 6.0: name zastępuje title. Starsze źródła nadal mają title.
+        title = advance.get("name") or advance.get("title")
+        hint = advance.get("hint")
+        title = title.strip() if isinstance(title, str) else ""
+        hint = hint.strip() if isinstance(hint, str) else ""
+        if not title and not hint:
+            continue
+
+        advance_id = advance.get("_id")
+        advance_id = advance_id.strip() if isinstance(advance_id, str) else ""
+        if not advance_id and isinstance(source_key, str):
+            # Wpis słownikowy może nie zawierać osobnego pola _id.
+            advance_id = source_key.strip()
+
+        # Hint bez nazwy nadal eksportujemy po ID.
+        # Dla słownika zachowujemy stabilny klucz źródłowy (ID),
+        # a dla listy nazwę oryginalną lub _id przy kolizjach.
+        lookup_name = advance_id if isinstance(advancement, dict) else (title or advance_id)
+        candidates.append((
+            {"name": lookup_name, "_id": advance_id},
+            {"title": title, "hint": hint}
+        ))
+
+    if not candidates:
+        return
+
+    advance_keys = babele_entry_keys(
+        [identity for identity, _ in candidates],
+        f"item {item.get('name', '<bez nazwy>')}.advancement"
+    )
     translated_entries = {}
-
-    for advancement_entry in advancement:
-        if not isinstance(advancement_entry, dict):
+    for (_, texts), key in zip(candidates, advance_keys):
+        if key is None:
             continue
-
-        title = advancement_entry.get("title")
-        hint = advancement_entry.get("hint")
-        advancement_id = advancement_entry.get("_id")
-
-        clean_title = (
-            title.strip()
-            if isinstance(title, str) and title.strip()
-            else ""
-        )
-
-        clean_hint = (
-            hint.strip()
-            if isinstance(hint, str) and hint.strip()
-            else ""
-        )
-
-        clean_id = (
-            advancement_id.strip()
-            if isinstance(advancement_id, str) and advancement_id.strip()
-            else ""
-        )
-
-        # Pomijamy wpisy, które nie zawierają tekstu do tłumaczenia.
-        if not clean_title and not clean_hint:
-            continue
-
-        # Pierwszy wpis może być kluczowany po title.
-        # Kolejne wpisy o identycznym title muszą być kluczowane po _id,
-        # aby nie nadpisywały wcześniejszych advancementów.
-        key = clean_title or clean_id
-
-        if key in translated_entries:
-            key = clean_id
-
-        if not key or key in translated_entries:
-            continue
-
-        translated_entry = {}
-
-        if clean_title:
-            translated_entry["title"] = clean_title
-
-        if clean_hint:
-            translated_entry["hint"] = clean_hint
-
-        translated_entries[key] = translated_entry
+        translated = {}
+        if texts["title"]:
+            translated["title"] = texts["title"]
+        if texts["hint"]:
+            translated["hint"] = texts["hint"]
+        if translated:
+            translated_entries[key] = translated
 
     if translated_entries:
         entry["advancement"] = translated_entries
@@ -2182,13 +2323,14 @@ def populate_dnd5e_actor(
     )
     if items:
         entry.setdefault("items", {})
-        for item in items:
-            item_name = (item.get("name") or "").strip()
-            if not item_name:
+        named_items = [
+            item for item in items
+            if isinstance(item.get("name"), str) and item["name"].strip()
+        ]
+        item_keys = babele_entry_keys(named_items, f"actor {actor_name}.items")
+        for item, item_key in zip(named_items, item_keys):
+            if item_key is None:
                 continue
-            item_key = item_name
-            if item_key in entry["items"] and isinstance(item.get("_id"), str) and item.get("_id"):
-                item_key = item["_id"]
             item_entry = {}
             populate_dnd5e_item(item_entry, item, id_index)
             entry["items"][item_key] = item_entry
@@ -2209,20 +2351,16 @@ def process_actor_pack(data: list[dict], pack_name: str) -> dict:
 
     folders = collect_folder_names(data)
 
-    for record in data:
-        if not isinstance(record, dict):
-            continue
+    actor_records = [
+        record for record in data
+        if is_actor_record(record) and (record.get("name") or "").strip()
+        and not is_folder_record(record)
+    ]
+    entry_keys = babele_entry_keys(actor_records, f"{pack_name}.entries")
 
-        name = (record.get("name") or "").strip()
-        if not name:
+    for record, entry_key in zip(actor_records, entry_keys):
+        if entry_key is None:
             continue
-
-        if is_folder_record(record):
-            continue
-
-        if not is_actor_record(record):
-            continue
-
         entry = {}
         populate_dnd5e_actor(
             entry,
@@ -2233,7 +2371,7 @@ def process_actor_pack(data: list[dict], pack_name: str) -> dict:
             item_record_positions
         )
         if entry:
-            transifex_dict["entries"][name] = entry
+            transifex_dict["entries"][entry_key] = entry
 
     if folders:
         transifex_dict["folders"] = folders
@@ -2370,18 +2508,30 @@ def default_item_mapping() -> dict:
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
         },
         "advancement": {
             "path": "system.advancement",
             "converter": "structured",
             "cardinality": "many",
             "container": "keyed",
-            "keys": ["_id", "title"],
+            "keys": ["_id", "name", "title"],
             "mapping": {
+                # Nazwa tłumaczenia zachowuje klucz title (kompatybilność
+                # z istniejącymi tłumaczeniami). W D&D 5e 6.x źródłowe
+                # pole zostało przemianowane na name. Zastosuj warunkowo.
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": True
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -2444,7 +2594,9 @@ def spells_legacy_mapping() -> dict:
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
         },
         "activities": {
             "path": "system.activities",
@@ -2473,7 +2625,7 @@ def is_active_effect_record(record: dict) -> bool:
     if not isinstance(record, dict):
         return False
 
-    if record.get("type") in {"base", "ActiveEffect"}:
+    if record.get("type") in {"base", "enchantment", "ActiveEffect"}:
         return True
 
     return (
@@ -2519,6 +2671,110 @@ def is_item_record(record: dict) -> bool:
             "uses",
         )
     )
+
+
+def active_effect_mapping() -> dict:
+    """Domyślne mapowanie ActiveEffect w Babele (2.8/2.9).
+
+    Uwaga: w przeciwieństwie do Item opis efektu jest w root.description.
+    """
+    return {
+        "name": "name",
+        "description": "description",
+        "changes": {
+            "path": "changes",
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "array",
+            "key": "key",
+            "valuePath": "value",
+        },
+    }
+
+
+def extract_active_effect_entry(record: dict) -> dict:
+    """Tworzy tłumaczenie ActiveEffect w formacie obsługiwanym przez Babele.
+
+    Przy unikatowych atrybutach 'changes' stosuje obiekt {key: value}.
+    Jeśli klucze się powtarzają, używa listy wartości. Konwerter Babele
+    'structured' obsługuje również listy, dopasowując je po indeksie.
+    Dzięki temu kilka zmian tego samego atrybutu nie nadpisuje się w JSON.
+    """
+    entry: dict = {}
+    name = record.get("name")
+    if isinstance(name, str) and name.strip():
+        entry["name"] = name.strip()
+
+    description = record.get("description")
+    if isinstance(description, str) and description.strip():
+        entry["description"] = description.strip()
+    elif description is not None and not isinstance(description, str):
+        print(
+            f"OSTRZEŻENIE: ActiveEffect {name!r} ({record.get('_id')!r}) "
+            "ma nie-tekstowe root.description. Pomijam opis, ponieważ "
+            "domyślne mapowanie Babele oczekuje pola tekstowego."
+        )
+
+    changes = record.get("changes")
+    if isinstance(changes, list) and changes:
+        valid = [change for change in changes if isinstance(change, dict)]
+        keys = [change.get("key") for change in valid]
+        if (len(valid) == len(changes) and
+                all(isinstance(key, str) and key for key in keys) and
+                len(set(keys)) == len(keys)):
+            entry["changes"] = {change["key"]: change.get("value") for change in valid}
+        else:
+            # Indeksy są identyczne jak w oryginalnym changes. W przypadku
+            # powtórzonych key Babele może stosować tłumaczenie w postaci listy.
+            entry["changes"] = [
+                change.get("value") if isinstance(change, dict) else None
+                for change in changes
+            ]
+
+    return entry
+
+
+def looks_like_active_effect_pack(data: list[dict]) -> bool:
+    """Wykrywa nieznane z nazwy kompendium typu ActiveEffect."""
+    records = [record for record in data
+               if isinstance(record, dict) and not is_folder_record(record)]
+    return (
+        any(is_active_effect_record(record) for record in records)
+        and not any(
+            is_item_record(record)
+            or is_actor_record(record)
+            or isinstance(record.get("pages"), list)
+            for record in records
+        )
+    )
+
+
+def process_effect_pack(data: list[dict], pack_name: str,
+                        pack_label: str | None = None) -> dict:
+    """Eksportuje paczkę ActiveEffect według natywnego schematu Babele."""
+    result = {
+        "label": pack_label or ("Active Effects" if pack_name == "effects" else pack_name.title()),
+        "mapping": active_effect_mapping(),
+        "entries": {},
+    }
+    folders = collect_folder_names(data)
+    if folders:
+        result["folders"] = folders
+
+    effect_records = [record for record in data
+                      if is_active_effect_record(record)
+                      and not is_folder_record(record)]
+    keys = babele_entry_keys(effect_records, f"{pack_name}.entries")
+    for record, key in zip(effect_records, keys):
+        if key is None:
+            continue
+        entry = extract_active_effect_entry(record)
+        if entry:
+            result["entries"][key] = entry
+
+    result["entries"] = dict(sorted(result["entries"].items(),
+                                    key=lambda pair: pair[0].casefold()))
+    return remove_empty_keys(result)
 
 
 def collect_folder_names(data: list[dict]) -> dict[str, str]:
@@ -2608,15 +2864,16 @@ def process_item_pack(data: list[dict], pack_name: str) -> dict:
 
     id_index = build_id_index(data)
 
-    for record in data:
-        if not is_item_record(record):
-            continue
+    item_records = [record for record in data if is_item_record(record)]
+    entry_keys = babele_entry_keys(item_records, f"{pack_name}.entries")
 
-        name = (record.get("name") or "").strip()
+    for record, entry_key in zip(item_records, entry_keys):
+        if entry_key is None:
+            continue
         entry: dict = {}
         populate_dnd5e_item(entry, record, id_index)
         if entry:
-            transifex_dict["entries"][name] = entry
+            transifex_dict["entries"][entry_key] = entry
 
     transifex_dict["entries"] = dict(
         sorted(transifex_dict["entries"].items(), key=lambda item: item[0].casefold())
@@ -2663,6 +2920,12 @@ def process_files(folders: str, version: str) -> None:
             print()
 
             folders_from_references = collect_folder_names(data)
+
+            if pack_name == "effects" or looks_like_active_effect_pack(data):
+                transifex_dict = process_effect_pack(data, pack_name)
+                with open(new_name, "w", encoding="utf-8") as outfile:
+                    json.dump(transifex_dict, outfile, ensure_ascii=False, indent=4)
+                continue
 
             if pack_name in TABLE_LABEL_OVERRIDES:
                 transifex_dict = process_table_pack(data, pack_name)
@@ -2725,17 +2988,18 @@ def process_files(folders: str, version: str) -> None:
 
             flag = []
 
-            for new_data in data:
-                if not isinstance(new_data, dict):
-                    continue
+            fallback_records = [
+                record for record in data
+                if isinstance(record, dict)
+                and (record.get("name") or "").strip()
+                and not is_folder_record(record)
+            ]
+            fallback_keys = babele_entry_keys(fallback_records, f"{pack_name}.entries")
 
-                name = (new_data.get("name") or "").strip()
-                if not name:
+            for new_data, entry_key in zip(fallback_records, fallback_keys):
+                if entry_key is None:
                     continue
-
-                # foldery
-                if is_folder_record(new_data):
-                    continue
+                name = new_data["name"].strip()
 
                 # Specjalna obsługa rules - tylko rekordy z pages są entry
                 if pack_name == 'rules':
@@ -2744,14 +3008,14 @@ def process_files(folders: str, version: str) -> None:
                     if not isinstance(new_data.get("pages"), list):
                         continue
 
-                    transifex_dict["entries"].setdefault(name, {})
-                    entry = transifex_dict["entries"][name]
+                    transifex_dict["entries"].setdefault(entry_key, {})
+                    entry = transifex_dict["entries"][entry_key]
                     populate_rules_entry(entry, new_data, id_index, transifex_dict)
                     continue
 
                 # Dla pozostałych pakietów tworzymy zwykły entry
-                transifex_dict["entries"].setdefault(name, {})
-                entry = transifex_dict["entries"][name]
+                transifex_dict["entries"].setdefault(entry_key, {})
+                entry = transifex_dict["entries"][entry_key]
                 entry["name"] = name
 
                 # Rekordy przygód / playtestów
@@ -2776,6 +3040,17 @@ def process_files(folders: str, version: str) -> None:
                         transifex_dict["mapping"]["adjective"] = "system.adjective"
 
                     add_actions_from_record(entry, new_data, name, transifex_dict)
+
+                # Obsługa advancement także w paczkach Item o niestandardowej
+                # nazwie, które trafiają do tego ogólnego procesora.
+                system_data = new_data.get("system")
+                if isinstance(system_data, dict) and isinstance(
+                        system_data.get("advancement"), (dict, list)):
+                    add_advancement_to_item(entry, new_data)
+                    if "advancement" in entry:
+                        transifex_dict["mapping"]["advancement"] = (
+                            default_item_mapping()["advancement"]
+                        )
 
                 if 'description' in flag and 'caption' not in keys:
                     has_structured_description = any(
