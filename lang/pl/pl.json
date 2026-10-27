@@ -6358,7 +6358,7 @@
           "narrow": {
             "one": "{number} t",
             "other": "{number} t",
-            "few": "{number} t",
+            "few": "{number}t",
             "many": "{number} t"
           },
           "short": {
