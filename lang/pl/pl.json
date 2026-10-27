@@ -6359,7 +6359,7 @@
             "one": "{number} t",
             "other": "{number} t",
             "few": "{number}t",
-            "many": "{number} t"
+            "many": "{number}t"
           },
           "short": {
             "one": "{number} t",
