@@ -7223,7 +7223,7 @@
     "PERMISSIONS": {
       "AllowDamage": {
         "Hint": "Pozwól graczom zadawać obrażenia tokenom, które posiadają.",
-        "Name": "Zezwól na zastosowanie obrażeń przez gracza"
+        "Name": "Zezwól na zadawanie obrażeń przez graczy"
       },
       "AllowEffects": {
         "Hint": "Pozwól graczom korzystać z panelu zastosowania efektu, gdy aktor, którego posiadają, jest celem efektu.",
