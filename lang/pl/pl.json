@@ -7226,7 +7226,7 @@
         "Name": "Zezwól na zadawanie obrażeń przez graczy"
       },
       "AllowEffects": {
-        "Hint": "Pozwól graczom korzystać z panelu zastosowania efektu, gdy aktor, którego posiadają, jest celem efektu.",
+        "Hint": "Pozwól graczom korzystać z panelu stosowania efektów, gdy ich aktor jest celem efektu.",
         "Name": "Zezwól na zastosowanie efektu przez gracza"
       },
       "AllowRests": {
