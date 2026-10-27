@@ -60,7 +60,9 @@
                 },
                 "effects": {
                     "path": "effects",
-                    "converter": "effects"
+                    "converter": "document",
+                    "documentType": "ActiveEffect",
+                    "cardinality": "many"
                 },
                 "advancement": {
                     "path": "system.advancement",
@@ -69,12 +71,20 @@
                     "container": "keyed",
                     "keys": [
                         "_id",
+                        "name",
                         "title"
                     ],
                     "mapping": {
                         "title": "title",
                         "hint": "hint",
                         "_variants": [
+                            {
+                                "_when": {
+                                    "path": "name",
+                                    "exists": true
+                                },
+                                "title": "name"
+                            },
                             {
                                 "_when": {
                                     "path": "type",
@@ -178,7 +188,7 @@
                         "Hit Points": {
                             "title": "Punkty Wytrzymałości"
                         },
-                        "Features": {
+                        "axeH6FmdvAfb3TnK": {
                             "title": "Zdolności"
                         },
                         "PpE7QUl3ZRdIwbSW": {
@@ -199,7 +209,7 @@
                         "Cantrips Known": {
                             "title": "Znane sztuczki"
                         },
-                        "Ability Score Improvement": {
+                        "PrfXQ3yQP9js943H": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "FLozwaTlMVqZKbaN": {
@@ -230,7 +240,7 @@
                     "name": "Domena Życia",
                     "description": "<p>Domena życia skupia się na żywej, pozytywnej energii - jednej z podstawowych sił wszechświata, która podtrzymuje wszelkie życie. Bogowie życia wspierają witalność i zdrowie, lecząc chorych i rannych, troszcząc się o potrzebujących, odpierając siły śmierci i nieśmierci. Niemal każde bóstwo o charakterze innym od złego roztacza wpływ na tę domenę, choć są to zwłaszcza bóstwa agrarne (takie jak Chauntea, Arawai czy Demeter), bogowie słońca (Lathander, Pelor lub Re-Horachte), uzdrawiania lub odporności (jak llmater, Mishakal, Apollo lub Diancecht), bądź też bogowie domowego ogniska i społeczności (na przykład Hestia, Hathor albo Boldrei).</p><table><caption>Czary Domeny życia</caption><thead><tr><td>Poziom kleryka</td><td>Czary</td></tr></thead><tbody><tr><td>1.</td><td>@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{Błogosławieństwo}, @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Leczenie ran}</td></tr><tr><td>3.</td><td>@UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Mniejsze przywrócenie}, @UUID[Compendium.dnd5e.spells.Item.JbxsYXxSOTZbf9I0]{Duchowa broń}</td></tr><tr><td>5.</td><td>@UUID[Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt]{Promień nadziei}, @UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{Ożywienie}</td></tr><tr><td>7.</td><td>@UUID[Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb]{Osłona przed śmiercią}, @UUID[Compendium.dnd5e.spells.Item.TgHsuhNasPbhu8MO]{Strażnik wiary}</td></tr><tr><td>9.</td><td>@UUID[Compendium.dnd5e.spells.Item.Pyzmm8R7rVsNAPsd]{Masowe leczenie ran}, @UUID[Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz]{Wskrzeszenie}</td></tr></tbody></table>",
                     "advancement": {
-                        "Features": {
+                        "9fyr5t01nhdg0u8n": {
                             "title": "Zdolności"
                         },
                         "4qh4ejxpwugva6ma": {
@@ -492,7 +502,7 @@
                         "GsMQJqy3R8DVF485": {
                             "hint": "Lekka zbroja, średnia zbroja i tarcze (druidzi nie będą nosić zbroi ani używać tarcz wykonanych z metalu)"
                         },
-                        "Features": {
+                        "pkkBT3JrxyLuTmwm": {
                             "title": "Zdolności"
                         },
                         "kDrm5stUR4Vp6oE3": {
@@ -510,7 +520,7 @@
                         "Cantrips Known": {
                             "title": "Znane sztuczki"
                         },
-                        "Ability Score Improvement": {
+                        "2T62G1BtLjN7m0D9": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "uXaQWuJioxGLKVfy": {
@@ -786,13 +796,13 @@
                         "Hit Points": {
                             "title": "Punkty Wytrzymałości"
                         },
-                        "Expertise": {
+                        "cwu9uhmtcKhqli8W": {
                             "title": "Znawstwo"
                         },
                         "O2cVH7Y5kNfoUyLg": {
                             "title": "Znawstwo"
                         },
-                        "Features": {
+                        "oNNPhAIeXhAweeBN": {
                             "title": "Zdolności"
                         },
                         "V3KCwHELag3C3YVj": {
@@ -829,7 +839,7 @@
                         "Spells Known": {
                             "title": "Znane czary"
                         },
-                        "Ability Score Improvement": {
+                        "sbzvEEntzYcE5JfN": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "adpq4VPJ5oVt8m06": {
@@ -1049,7 +1059,7 @@
                             "title": "Cudowne zdrowie",
                             "hint": "Przepływająca przez ciebie boska magia sprawia, że zyskujesz odporność na choroby."
                         },
-                        "Features": {
+                        "HL6Kwpmrsz5yqmBK": {
                             "title": "Zdolności"
                         },
                         "RwqEtAP5aJqHIW5J": {
@@ -1077,7 +1087,7 @@
                             "title": "Styl walki",
                             "hint": "Wybierz jedną z poniższych opcji. Nie możesz wybrać Stylu Walki więcej niż jeden raz, nawet jeśli później pojawi się taka możliwość."
                         },
-                        "Ability Score Improvement": {
+                        "ASKyHbSBAKRIU6i3": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "iBK2dJf2hwv9vOBI": {
@@ -1220,7 +1230,7 @@
                     "name": "Barbarzyńca",
                     "description": "<p>Jako barbarzyńca otrzymujesz następujące korzyści z klasy.</p><h3>Punkty Wytrzymałości</h3><p><strong>Kości Wytrzymałości:</strong> 1k12 na poziom barbarzyńcy<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 12 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong>: 1k12 (lub 7) + modyfikator z Kondycji na każdy poziom barbarzyńcy powyżej 1</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Lekkie pancerze, średnie pancerze, tarcze<br /><strong>Broń:</strong> Bronie proste, bronie żołnierskie<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Siła, Kondycja<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Atletyka, Opieka nad zwierzętami, Percepcja, Przyroda, Sztuka przetrwania i Zastraszanie</p><h1>Rozwój barbarzyńcy</h1><table border=\"0\"><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Zdolności</td><td>Liczba szałów</td><td>Obrażenia w szale</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Szał}, @UUID[Compendium.dnd5e.classfeatures.Item.SZbsNbaxFFGwBpNK]{Obrona bez pancerza}</td><td>2</td><td>+2</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.SCVjqRdlZ9cvHVSR]{Szaleńczy atak}, @UUID[Compendium.dnd5e.classfeatures.Item.vt31lWAULygEl7yk]{Wyczucie zagrożenia}</td><td>2</td><td>+2</td></tr><tr><td>3.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.TH1QAf6YNGSeBVjT]{Pierwotna Ścieżka}</td><td>3</td><td>+2</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>3</td><td>+2</td></tr><tr><td>5.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Dodatkowy atak}, @UUID[Compendium.dnd5e.classfeatures.Item.Kl6zifJ5OmdHlOi2]{Szybki ruch}</td><td>3</td><td>+2</td></tr><tr><td>6.</td><td>+3</td><td>Właściwość pierwotnej ścieżki</td><td>4</td><td>+2</td></tr><tr><td>7.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.NlXslw4yAqmKZWtN]{Zwierzęcy instynkt}</td><td>4</td><td>+2</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>4</td><td>+2</td></tr><tr><td>9.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutalne obrażenia (1 kość)}</td><td>4</td><td>+3</td></tr><tr><td>10.</td><td>+4</td><td>Właściwość pierwotnej ścieżki</td><td>4</td><td>+3</td></tr><tr><td>11.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.FqfmbPgxiyrWzhYk]{Niepowstrzymany Szał}</td><td>4</td><td>+3</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>5</td><td>+3</td></tr><tr><td>13.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutalne obrażenia (2 kości)}</td><td>5</td><td>+3</td></tr><tr><td>14.</td><td>+5</td><td>Właściwość pierwotnej ścieżki</td><td>5</td><td>+3</td></tr><tr><td>15.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.l8tUhZ5Pecm9wz7I]{Trwały szał}</td><td>5</td><td>+3</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>5</td><td>+4</td></tr><tr><td>17.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutalne obrażenia (3 kości)}</td><td>6</td><td>+4</td></tr><tr><td>18.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Q1exex5ALteprrPo]{Niezłomna potęga}</td><td>6</td><td>+4</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>6</td><td>+4</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jVU4AgqfrFaqgXns]{Pierwotny mocarz}</td><td>Bez ograniczeń</td><td>+4</td></tr></tbody></table><h1>Pierwotna ścieżka</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.uGuDQX9Mz3oHNHkU]{Ścieżka berserkera}</p>",
                     "advancement": {
-                        "Features": {
+                        "amez6rlose3eoigo": {
                             "title": "Zdolności"
                         },
                         "udl318k61boq0rnn": {
@@ -1349,7 +1359,7 @@
                     "name": "Diabelstwo",
                     "description": "<p>Diabelstwa dzielą ze sobą kilka wspólnych cech, które wynikają z ich piekielnego pochodzenia.</p><p><em><strong>Zwiększenie wartości cechy.</strong></em> Wartość twojej Inteligencji wzrasta o 1, a Charyzmy o 2.</p><p><em><strong>Wiek.</strong></em> Diabelstwa dojrzewają w tym samym wieku, co ludzie, jednak żyją o kilka lat dłużej.</p><p><em><strong>Charakter.</strong></em> Diabelstwa mogą nie mieć naturalnych skłonności ku złu, jednak wiele z nich na nim kończy. Jednocześnie ich niezależna natura popycha ich w kierunku chaotycznego charakteru.</p><p><em><strong>Rozmiar.</strong></em> Diabelstwa mają taki sam rozmiar i budowę ciała jak ludzie. Twój rozmiar jest Średni.</p><p><em><strong>Szybkość.</strong></em> Twoja podstawowa szybkość wynosi 9 metrów.</p><p><em><strong>Widzenie w ciemności.</strong></em> Dzięki swemu piekielnemu pochodzeniu świetnie widzisz w ciemności lub półmroku. W słabym świetle widzisz na 18 metrów równie wyraźnie jak w jasnym, a w ciemności tak, jak słabym świetle. W ciemności nie jesteś wstanie rozróżniać kolorów, wyłącznie odcienie szarości.</p><p><em><strong>Piekielna odporność.</strong></em> Masz odporność na obrażenia od ognia.</p><p><em><strong>Piekielna spuścizna.</strong></em> Znasz sztuczkę taumaturgia. Kiedy osiągasz 3. poziom, możesz rzucić raz piekielną reprymendę jako czar 2. kręgu i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Kiedy osiągasz 5. poziom, możesz rzucić raz czar ciemność i odzyskujesz tę zdolność po ukończeniu długiego odpoczynku. Twoją cechą bazową dla tych czarów jest Charyzma.</p><p><em><strong>Języki.</strong></em> Potrafisz mówić, czytać i pisać we wspólnym oraz piekielnym.</p>",
                     "advancement": {
-                        "Infernal Legacy": {
+                        "d8rqpB59h8lfbnva": {
                             "title": "Diabelska spuścizna"
                         },
                         "p2AP4Rn6S8A8Xu5L": {
@@ -1383,7 +1393,7 @@
                         "Hit Points": {
                             "title": "Punkty Wytrzymałości"
                         },
-                        "Features": {
+                        "tHGuZb6Cezr0Yda6": {
                             "title": "Zdolności"
                         },
                         "vEbnPhd3OW2Z5RH8": {
@@ -1404,7 +1414,7 @@
                         "Spells Known": {
                             "title": "Znane czary"
                         },
-                        "Ability Score Improvement": {
+                        "zSlKyZ0rzKcd78Cq": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "Psp6dqmMqww0D44O": {
@@ -1435,7 +1445,7 @@
                     "name": "Smocze dziedzictwo",
                     "description": "<p>Twoja wrodzona moc pochodzi od magii smoków, która połączyła się z krwią twoją lub twoich przodków. Czerpiący z tego źródła najczęściej wywodzą swe pochodzenie od potężnego zaklinacza z dawnych czasów, który dobił targu ze smokiem albo nawet miał smoczego rodzica. Niektóre z takich rodów cieszą się pewną sławą, ale większość jest mało znana. Każdy zaklinacz może być początkiem nowej linii, jeśli wspomoże go pakt albo inna wyjątkowa okoliczność.</p>",
                     "advancement": {
-                        "Features": {
+                        "bjbipb2oydq3zsuy": {
                             "title": "Zdolności"
                         },
                         "cq0cwgss39pkvjox": {
@@ -1633,7 +1643,7 @@
                             "title": "Czystość ciała",
                             "hint": "Potrafisz w takim stopniu panować nad przepływającym przez ciebie ki, że stajesz się niepodatny na choroby i trucizny."
                         },
-                        "Features": {
+                        "n0q8XyiGA3vLPgpK": {
                             "title": "Zdolności"
                         },
                         "7TyDqpGGi3r3nsp0": {
@@ -1678,7 +1688,7 @@
                         "Unarmored Movement": {
                             "title": "Szybkość mnicha"
                         },
-                        "Ability Score Improvement": {
+                        "ofNSUhSHKhhDuPSR": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "s3t9o57hP6iUHirr": {
@@ -1838,7 +1848,7 @@
                         "Hit Points": {
                             "title": "Punkty Wytrzymałości"
                         },
-                        "Features": {
+                        "L0DHAlnRhNlttHtT": {
                             "title": "Zdolności"
                         },
                         "yCF7xTPbbbLvy1oi": {
@@ -1872,7 +1882,7 @@
                         "Spells Known": {
                             "title": "Znane czary"
                         },
-                        "Ability Score Improvement": {
+                        "bWqpb3Malvjjk8a6": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "Dr4RKCdMxlKWoHHV": {
@@ -1993,7 +2003,7 @@
                         "Hit Points": {
                             "title": "Punkty Wytrzymałości"
                         },
-                        "Features": {
+                        "PwWJCRoUIftcpy47": {
                             "title": "Zdolności"
                         },
                         "pxHWfZrwT5tdCH61": {
@@ -2018,7 +2028,7 @@
                         "Action Surge Uses": {
                             "title": "Użycia zdolności Przypływ sił"
                         },
-                        "Ability Score Improvement": {
+                        "rvfuW71lYEeJW7HS": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "g49SXigwmpaZW0Hm": {
@@ -2184,13 +2194,13 @@
                         "Hit Points": {
                             "title": "Punkty Wytrzymałości"
                         },
-                        "Expertise": {
+                        "TDHYngxGqDHllgzw": {
                             "title": "Znawstwo"
                         },
                         "Iozyk39gsM4Kecex": {
                             "title": "Znawstwo"
                         },
-                        "Features": {
+                        "13XHsx4Z3vQ2XYkJ": {
                             "title": "Zdolności"
                         },
                         "5crdJzGJRQIVhbyr": {
@@ -2223,7 +2233,7 @@
                         "Sneak Attack": {
                             "title": "Ukradkowy atak"
                         },
-                        "Ability Score Improvement": {
+                        "smghqQkObY4OOg30": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "WFAAUfKJA9QR46Bw": {
@@ -2379,7 +2389,7 @@
                         "Hit Points": {
                             "title": "Punkty Wytrzymałości"
                         },
-                        "Features": {
+                        "SikU7aSV7VqT2FPB": {
                             "title": "Zdolności"
                         },
                         "11NYHMcme54WJHuU": {
@@ -2423,7 +2433,7 @@
                         "Spells Known": {
                             "title": "Znane czary"
                         },
-                        "Ability Score Improvement": {
+                        "9tW2ZcVYgy8c3ucN": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "QH0eaxybQeeDjRan": {
@@ -2454,7 +2464,7 @@
                     "name": "Czart",
                     "description": "<p>Dobiłeś targu z czartem z niższych sfer egzystencji, istotą, której motywacje i cele są złe, nawet jeśli próbujesz się im przeciwstawiać. Stworzenia jej podobne dążą ku zepsuciu i zniszczeniu wszystkiego, a w końcu także i ciebie. Czartami wystarczająco potężnymi, by zawrzeć z nimi pakt, są: demoniczni władcy (tacy jak Demogorgon, Orcus, Fraz'Urb-luu i Baphomet), arcydiabły (na przykład Asmodeusz, Dispater, Mefistofeles i Belial), najpotężniejsze spośród piekielnych czartów i balorów oraz ultrolothy i inni wladcy yugolothów.</p><h4>Rozszerzona lista czarów</h4><p>Gdy poznajesz nowy czar czarownika, Czart pozwala ci wybrać z rozszerzonej listy czarów. Dodaj następujące czary do swojej listy czarów czarownika.</p><table><caption>Rozszerzona lista czarów Czarta</caption><thead><tr><td>Krąg czaru</td><td>Czary</td></tr></thead><tbody><tr><td>1.</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Płonące dłonie}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Rozkaz}</td></tr><tr><td>2.</td><td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Głuchota/ślepota}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{wypalający płomień}</td></tr><tr><td>3.</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Kula ognia}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Śmierdząca chmura}</td></tr><tr><td>4.</td><td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Tarcza ognia}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Ściana ognia}</td></tr><tr><td>5.</td><td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Słup ognia}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Konsekracja}</td></tr></tbody></table>",
                     "advancement": {
-                        "Features": {
+                        "mwpiq5ybhynszxgq": {
                             "title": "Zdolności"
                         },
                         "icxswdpvqj9o89nz": {
@@ -2589,7 +2599,7 @@
             "description": "<p>Zawsze zainteresowana majsterkowaniem, Zanna wyruszyła w poszukiwaniu przygód, aby znaleźć więcej zaklęć do swojej księgi czarów i być może pewnego dnia stworzyć własne.</p><p><em>Grafika tokenów autorstwa <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "alignment": "Chaotyczny Dobry",
             "items": {
-                "Tinker": {
+                "5hEbhdZm1ozQ3B2g": {
                     "name": "Majsterkowicz",
                     "description": "<p>Masz biegłość w używaniu narzędzi rzemieślniczych (narzędzi majsterkowicza). Korzystając z nich, możesz spędzić 1 godzinę i zużyć materiały o wartości 10 sz, aby skonstruować Malutkie urządzenie mechaniczne (KP 5, 1 PW). Urządzenie to przestanie działać po 24 godzinach (chyba że spędzisz 1 godzinę, naprawiając je, aby mogło dalej funkcjonować) lub gdy użyjesz akcji, aby je rozmontować. W takiej sytuacji możesz odzyskać wykorzystane materiały. Możesz posiadać do trzech tego rodzaju urządzeń jednocześnie. Kiedy tworzysz urządzenie, wybierz jedną z poniższych opcji:</p><p><em>Mechaniczna zabawka:</em> Zabawka jest mechanicznym zwierzęciem, potworem lub osobą, na przykład żabą, myszą, ptakiem, smokiem albo żołnierzem. Po położeniu jej na ziemi zabawka porusza się w twojej turze 1,5 metra w losowym kierunku, wydając z siebie odgłosy właściwe istocie, którą przedstawia.</p><p><em>Skrzeszacz ognia:</em> Urządzenie tworzy niewielki płomień, którym można rozpalić świecę, pochodnię lub ognisko. Skorzystanie z tego urządzenia wymaga wykorzystania akcji.</p><p><em>Pozytywka:</em> Po otworzeniu pozytywka odtwarza jeden utwór muzyczny z umiarkowaną głośnością. Przestaje grać, gdy utwór dobiegnie końca lub gdy zostanie zamknięta.</p>",
                     "requirements": "Gnom skalny",
@@ -2644,7 +2654,7 @@
                         "Hit Points": {
                             "title": "Punkty Wytrzymałości"
                         },
-                        "Features": {
+                        "CTmwzlFgOyeE1L6K": {
                             "title": "Zdolności"
                         },
                         "AC4kN3RjttskWHUJ": {
@@ -2663,7 +2673,7 @@
                         "Cantrips Known": {
                             "title": "Znane sztuczki"
                         },
-                        "Ability Score Improvement": {
+                        "cqHTAJF9gyolaBBq": {
                             "title": "Zwiększenie wartości Cech"
                         },
                         "lQO8njk1wKmUwP1N": {
