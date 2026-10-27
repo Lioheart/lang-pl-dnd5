@@ -7069,7 +7069,7 @@
   "SETTINGS.5eNoConcentrationN": "Wyłącz śledzenie koncentracji",
   "SETTINGS.5eNoConcentrationL": "Wyłącz automatyczne śledzenie koncentracji przez system.",
   "SETTINGS.5eNoExhaustionN": "Wyłącz automatyzację wyczerpania",
-  "SETTINGS.5eNoExhaustionL": "Wyłącz automatyzację efektów wyczerpania przez system.",
+  "SETTINGS.5eNoExhaustionL": "Wyłącz systemową automatyzację efektów wyczerpania.",
   "SETTINGS.5eGridAlignedSquareTemplatesL": "Jeżeli w wyniku rzucenia czaru lub użycia przedmiotu zostanie położony kwadratowy szablon, będzie on przyciągany do siatki i nie będzie można go obracać.",
   "SETTINGS.5eGridAlignedSquareTemplatesN": "Szablony kwadratowe wyrównane do siatki",
   "SETTINGS.DND5E": {
