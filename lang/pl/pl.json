@@ -6004,7 +6004,7 @@
         "mode": {
           "label": "Tryb",
           "hint": "Określa, w jaki sposób są ustalane zmiany wynikające z przekształcenia.",
-          "CR": "Statystyki istoty (wg Stopnia wyzwania)",
+          "CR": "Statystyki istoty (wg Stopnia Wyzwania)",
           "Direct": "Statystyki istoty (wg bezpośredniego odnośnika)",
           "Form": "Wybierz formę"
         },
