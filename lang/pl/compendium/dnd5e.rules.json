@@ -165,17 +165,17 @@
                     "name": "Czas",
                     "text": "<p>W sytuacjach, w których ważne jest śledzenie upływu czasu, MG określa czas potrzebny na wykonanie zadania. MG może zastosować inną skalę czasową w zależności od kontekstu danej sytuacji. W lochach ruch poszukiwaczy przygód odbywa się w skali <strong>minut</strong>. Potrzeba około minuty, aby skraść się długim korytarzem, kolejnej minuty, aby sprawdzić, czy na drzwiach na końcu korytarza nie ma pułapek, a dobrych dziesięciu minut, aby przeszukać komnatę w poszukiwaniu czegoś interesującego lub cennego.</p><p>W mieście lub na pustyni skala <strong>godzin</strong> jest często bardziej odpowiednia. Poszukiwacze przygód pragnący dotrzeć do samotnej wieży w sercu lasu pędzą przez te piętnaście mil w niecałe cztery godziny.</p><p>W przypadku długich podróży najlepiej</strong> sprawdza się skala <strong>dni. Podążając drogą od Bramy Baldura do Wodogrzmotu, poszukiwacze przygód spędzają cztery spokojne dni, zanim zasadzka goblinów przerywa ich podróż.</p><p>W walce i innych szybkich sytuacjach gra opiera się na <strong>rundach</strong>, 6-sekundowym przedziale czasu.</p>"
                 },
-                "Speed": {
+                "HhqeIiSj8sE1v1qZ": {
                     "name": "Szybkość",
-                    "text": "<p>Szybkość potwora mówi ci, jak daleko może się posunąć w swojej turze. Aby uzyskać więcej informacji na temat szybkości, zobacz Podręcznik <em>gracza</em>.</p><p>Wszystkie stworzenia mają szybkość chodzenia, zwaną po prostu szybkością potwora. Stworzenia, które nie mają żadnej formy lokomocji naziemnej, mają prędkość chodu 0 stóp.</p><p>Niektóre stworzenia posiadają jeden lub więcej z następujących dodatkowych trybów ruchu.</p><h3>Kopanie</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p><h3>Wspinaczka</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p><h3>Lot</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p><h3>Pływanie</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p>"
+                    "text": "<p>Każda postać i każdy potwór ma szybkość, czyli dystans w metrach, jaki postać lub potwór może przejść w 1 rundzie. Ta wartość zakłada krótkie zrywy energicznego ruchu w samym środku sytuacji zagrażającej życiu.</p>"
                 },
                 "Travel Pace": {
                     "name": "Tempo podróży",
                     "text": "<p>Podczas podróży grupa poszukiwaczy przygód może poruszać się w normalnym, szybkim lub wolnym tempie, zgodnie z tabelą Tempo podróży. Tabela podaje, jak daleko partia może się posunąć w danym okresie czasu i czy tempo ma jakikolwiek wpływ. Szybkie tempo sprawia, że postacie są mniej spostrzegawcze, a powolne tempo pozwala skradać się i dokładniej przeszukiwać dany obszar.</p><p>@Embed[.uQWQpRKQ1kWhuvjZ inline]</p><p>@Embed[.D8K6ansoz1q6P37s inline]</p><table border=\"0\"><caption>Tempo podróży</caption><thead><tr><td rowspan=\"2\">Tempo</td><td colspan=\"4\">Przebyta odległość na . . .</td></tr><tr><td>Minuta</td><td>Godzina</td><td>Dzień</td><td>Efekt</td></tr></thead><tbody><tr><td>3.</td><td>400 stóp</td><td>4</td><td>30 mil</td><td>- 5 punktów karnych za pasywną mądrość (percepcję)</td></tr><tr><td>5.</td><td>300 stóp</td><td>3</td><td>24 mile</td><td>—</td></tr><tr><td>6.</td><td>200 stóp</td><td>2</td><td>18</td><td>Potrafi posługiwać się skradanką</td></tr></tbody></table>"
                 },
-                "Difficult Terrain": {
+                "hFW5BR2yHHwwgurD": {
                     "name": "Trudny Teren",
-                    "text": "<p>Walka rzadko odbywa się w gołych pokojach lub na pozbawionych cech równinach. Jaskinie porośnięte głazami, lasy briarchoked, zdradzieckie schody - otoczenie typowej walki zawiera trudny teren.</p><p>Każda stopa ruchu w trudnym terenie kosztuje 1 dodatkową stopę. Ta zasada jest prawdziwa, nawet jeśli wiele rzeczy w przestrzeni liczy się jako trudny teren.</p><p>Niskie meble, gruz, podszyt, strome schody, śnieg i płytkie torfowiska to przykłady trudnego terenu. Przestrzeń innego stworzenia, wrogiego lub nie, również liczy się jako trudny teren.</p>"
+                    "text": "<p>Prędkości podróży podane w tabeli Tempa podróży zakładają dość łatwy teren: drogi, otwarte równiny albo czyste korytarze lochu. Ale poszukiwacze przygód często mierzą się z gęstymi lasami, głębokimi bagnami, ruinami zasypanymi gruzem, stromymi górami i oblodzonym podłożem — wszystko to uznaje się za trudny teren.</p><p>W trudnym terenie poruszasz się z połową szybkości — przejście 1 metra w trudnym terenie kosztuje 2 metry szybkości — więc w minutę, godzinę lub dzień pokonujesz tylko połowę normalnego dystansu.</p>"
                 },
                 "Climbing, Swimming, and Crawling": {
                     "name": "Wspinanie., pływanie i czołganie się",
@@ -325,13 +325,13 @@
                     "name": "Rzuty na Atak i Obrażenia",
                     "text": "Modyfikator Zręczności<p> dodajesz do rzutu ataku i do rzutu obrażeń podczas ataku bronią dystansową, taką jak proca lub długi łuk. Możesz również dodać modyfikator Zręczności do rzutu ataku i rzutu obrażeń podczas ataku bronią białą, która ma właściwość finezji, taką jak sztylet lub rapier.</p>"
                 },
-                "Armor Class": {
+                "YSFOauOValBylNc7": {
                     "name": "Klasa Pancerza",
-                    "text": "<p>Potwór, który nosi zbroję lub ma tarczę, ma klasę zbroi (AC), która bierze pod uwagę jego zbroję, tarczę i zręczność. W przeciwnym razie AC potwora opiera się na jego modyfikatorze Zręczności i naturalnej zbroi, jeśli w ogóle. Jeśli potwór ma naturalną zbroję, nosi zbroję lub nosi tarczę, jest to odnotowywane w nawiasach po jego wartości AC.</p>"
+                    "text": "<p>W zależności od noszonego pancerza możesz dodać do swojej Klasy Pancerza część albo całość modyfikatora ze Zręczności.</p>"
                 },
-                "Initiative": {
+                "4AXnTyno7dLBB6Ct": {
                     "name": "Inicjatywa",
-                    "text": "<p>Inicjatywa określa kolejność zwrotów podczas walki. Po rozpoczęciu walki każdy uczestnik sprawdza zręczność, aby określić swoje miejsce w kolejności inicjatyw. MG robi jedną rolkę dla całej grupy identycznych stworzeń, więc każdy członek grupy działa w tym samym czasie.</p><p>MG szereguje walczących w kolejności od tego z najwyższą sumą sprawdzianów zręczności do tego z najniższą. Jest to kolejność (zwana kolejnością inicjatyw), w jakiej działają podczas każdej rundy. Kolejność inicjatyw pozostaje taka sama od rundy do rundy.</p><p>Jeśli dojdzie do remisu, MG decyduje o kolejności wśród remisowych stworzeń kontrolowanych przez GM, a gracze decydują o kolejności wśród swoich remisowych postaci. MG może zdecydować o kolejności, czy remis jest między potworem a postacią gracza. Opcjonalnie MG może mieć remisowe postacie i potwory, z których każdy rzuca d20, aby określić kolejność, przy czym najwyższy rzut zaczyna się jako pierwszy.</p>"
+                    "text": "<p>Na początku każdej walki wykonujesz rzut na inicjatywę, robiąc test Zręczności. Inicjatywa określa kolejność tur istot w walce.</p>"
                 },
                 "Hiding": {
                     "name": "Ukrywanie",
@@ -345,9 +345,9 @@
                     "name": "Kondycja",
                     "text": "<p>Konstytucja mierzy zdrowie, wytrzymałość i siłę witalną.</p>Kontrole <h3>Kondycji</h3><p>@Embed[.PxYak7E7jGQMxuzh inline]</p><h3>Punkty wytrzymałości</h3><p>@Embed[.8TSg6dtVxOVPzvuY inline]</p>"
                 },
-                "Hit Points": {
+                "8TSg6dtVxOVPzvuY": {
                     "name": "Punkty wytrzymałości",
-                    "text": "<p>Potwór zwykle umiera lub zostaje zniszczony, gdy spada do 0 punktów wytrzymałości. Więcej informacji na temat punktów wytrzymałości można znaleźć w Podręczniku <em>Gracza.</em></p><p>Punkty wytrzymałości potwora są prezentowane zarówno jako wyrażenie stempla, jak i jako średnia liczba. Przykładowo potwór z punktami wytrzymałościowymi 2d8 ma średnio 9 punktów wytrzymałości (2 × 4½).</p>Rozmiar <p>potwora określa kostkę używaną do obliczania jego punktów wytrzymałości, jak pokazano w tabeli Trafienia według rozmiaru.</p>Kości <table border=\"0\"><caption><h4>Wytrzymałości według rozmiaru</h4>Rozmiar </caption><thead><tr><td>potwora</td>Kość <td>Wytrzymałości</td><td>Średnie HP na kostkę</td></tr></thead><tbody><tr><td>1.</td><td>k4</td><td>2½</td></tr><tr><td>Mały</td><td>k6</td><td>3½</td></tr><tr><td>Średni</td><td>k8</td><td>4½</td></tr><tr><td>Duży</td><td>k10</td><td>5½</td></tr><tr><td>Wielki</td><td>k12</td><td>6½</td></tr><tr><td>Ogromny</td><td>k20</td><td>10½</td></tr></tbody></table><p>Modyfikator Kondycji potwora wpływa również na liczbę posiadanych przez niego punktów wytrzymałości. Modyfikator Kondycji jest mnożony przez liczbę posiadanych Kość Wytrzymałości, a wynik jest dodawany do jej punktów wytrzymałości. Na przykład, jeśli potwór ma konstytucję 12 (modyfikator +1) i 2k8 Trafień, ma 2k8 + 2 punkty wytrzymałości (średnio 11).</p>"
+                    "text": "<p>Twój modyfikator z Kondycji wpływa na twoje punkty wytrzymałości. Zwykle dodajesz swój modyfikator z Kondycji do każdej Kości Wytrzymałości, którą rzucasz, by wyznaczyć punkty wytrzymałości.</p><p>Jeśli twój modyfikator z Kondycji się zmieni, zmienia się także twoje maksimum punktów wytrzymałości, tak jakbyś miał nowy modyfikator już od 1. poziomu. Na przykład, jeśli podniesiesz Kondycję po osiągnięciu 4. poziomu i twój modyfikator z Kondycji wzrośnie z +1 do +2, korygujesz maksimum punktów wytrzymałości tak, jakby modyfikator zawsze wynosił +2. Czyli dodajesz 3 punkty wytrzymałości za pierwsze trzy poziomy, a następnie wyznaczasz punkty wytrzymałości na 4. poziomie, używając nowego modyfikatora. Albo jeśli jesteś na 7. poziomie i jakiś efekt obniża twoją Kondycję tak, że zmniejsza twój modyfikator z Kondycji o 1, twoje maksimum punktów wytrzymałości spada o 7.</p>"
                 },
                 "Constitution Checks": {
                     "name": "Kontrole stanu",
@@ -381,9 +381,9 @@
                     "name": "Religia",
                     "text": "<p><strong>Religia. Test</strong> twojej Inteligencji (Religia) mierzy twoją zdolność do przywoływania wiedzy o bóstwach, obrzędach i modlitwach, hierarchiach religijnych, świętych symbolach i praktykach tajnych kultów.</p>"
                 },
-                "Spellcasting Ability": {
+                "u46Rva9Nrm9bG1Mu": {
                     "name": "Cecha bazowa rzucania czarów",
-                    "text": "<p>Bardowie, paladyni, czarownicy i czarnoksiężnicy używają Charyzmy jako zdolności do rzucania zaklęć, co pomaga określić liczbę punktów rzutu obronnego rzucanych przez nich zaklęć.</p>"
+                    "text": "<p>Czarodzieje używają Inteligencji jako swojej cechy rzucania czarów, co pomaga określić ST rzutów obronnych zaklęć, które rzucają.</p>"
                 },
                 "Wisdom": {
                     "name": "Mądrość",
@@ -392,6 +392,10 @@
                 "Wisdom Checks": {
                     "name": "Testy Mądrości",
                     "text": "<p>Kontrola mądrości może odzwierciedlać wysiłek czytania mowy ciała, rozumienia czyichś uczuć, zauważania rzeczy dotyczących środowiska lub opieki nad poszkodowaną osobą. Umiejętności postępowania ze zwierzętami, wnikliwość, medycyna, percepcja i przetrwanie odzwierciedlają predyspozycje w niektórych rodzajach kontroli mądrości.</p><p>@Embed[.xb3MCjUvopOU4viE inline]</p><p>@Embed[.8R5SMbAGbECNgO8z inline]</p><p>@Embed[.GeYmM7BVfSCAga4o inline]</p>|||UNTRANSLATED_CONTENT_START|||<p>@Embed[.zjEeHCUqfuprfzhY inline]</p>|||UNTRANSLATED_CONTENT_END|||<p>@Embed[.t3EzDU5b9BVAIEVi inline]</p><p><strong>Inne kontrole mądrości. </strong>MG może zażądać sprawdzenia mądrości, gdy próbujesz wykonać następujące zadania:</p><ul><li>Przeczucie co do tego, jakie działania należy podjąć</li><li>Rozpoznaj, czy pozornie martwe lub żywe stworzenie jest nieumarłe</li></ul>"
+                },
+                "va0sfLfuz2kDP78g": {
+                    "name": "Cecha bazowa rzucania czarów",
+                    "text": "<p>Kapłani, druidzi i tropiciele używają Mądrości jako swojej cechy rzucania czarów, co pomaga określić ST rzutów obronnych zaklęć, które rzucają.</p>"
                 },
                 "Animal Handling": {
                     "name": "Opieka nad zw.",
@@ -421,6 +425,10 @@
                     "name": "Kontrole charyzmy",
                     "text": "<p>Kontrola charyzmy może pojawić się, gdy próbujesz wpływać lub zabawiać innych, gdy próbujesz zrobić wrażenie lub powiedzieć przekonujące kłamstwo lub gdy poruszasz się w trudnej sytuacji społecznej. Umiejętności Oszustwo, Zastraszanie, Wydajność i Perswazja odzwierciedlają predyspozycje w niektórych rodzajach testów charyzmy.</p><p>@Embed[.mqVZ2fz0L7a9VeKJ inline]</p><p>@Embed[.4VHHI2gJ1jEsppfg inline]</p><p>@Embed[.hYT7Z06yDNBcMtGe inline]</p><p>@Embed[.4R5H8iIsdFQTsj3X inline]</p><p><strong>Inne kontrole charyzmy. </strong>MG może zażądać kontroli charyzmy, gdy próbujesz wykonać następujące zadania:</p><ul><li>Znajdź najlepszą osobę, z którą możesz porozmawiać o wiadomościach, plotkach i plotkach</li><li>Wtop się w tłum, aby zrozumieć kluczowe tematy rozmowy</li></ul><p></p>"
                 },
+                "KUQjsYx3HISWxjO2": {
+                    "name": "Cecha bazowa rzucania czarów",
+                    "text": "<p>Bardowie, paladyni, czarownicy i czarnoksiężnicy używają Charyzmy jako zdolności do rzucania zaklęć, co pomaga określić liczbę punktów rzutu obronnego rzucanych przez nich zaklęć.</p>"
+                },
                 "Deception": {
                     "name": "Oszustwo",
                     "text": "<p><strong>Oszustwo.</strong> Test Charyzmy (Oszustwa) określa, czy potrafisz przekonująco ukryć prawdę, werbalnie lub poprzez swoje działania. To oszustwo może obejmować wszystko, od wprowadzania w błąd innych, przez niejednoznaczność, po mówienie jawnych kłamstw. Typowe sytuacje obejmują próbę szybkiej rozmowy ze strażnikiem, oszukanie sprzedawcy, zarabianie pieniędzy poprzez hazard, przebranie, uśpienie czyjeś podejrzenia fałszywymi zapewnieniami lub zachowanie powagi podczas mówienia rażącego kłamstwa.</p>"
@@ -441,6 +449,10 @@
                     "name": "Zaskoczenie",
                     "text": "<p>Grupa poszukiwaczy przygód zakrada się do obozowiska bandytów, skacząc z drzew, aby ich zaatakować. Galaretowata kostka ślizga się po lochach, niezauważona przez poszukiwaczy przygód, aż do momentu, gdy kostka pochłonie jednego z nich. W takich sytuacjach jedna strona bitwy zyskuje zaskoczenie nad drugą.</p><p>MG określa, kto może być zaskoczony. Jeśli żadna ze stron nie próbuje się ukryć, automatycznie się zauważają. W przeciwnym razie MG porównuje testy Zręczności (Skradania) każdej osoby ukrywającej się z pasywnym wynikiem Mądrości (Percepcji) każdej istoty po przeciwnej stronie. Każda postać lub potwór, który nie zauważa zagrożenia, jest zaskoczony na początku spotkania.</p><p>Jeśli jesteś zaskoczony, nie możesz się ruszyć ani podjąć działania w pierwszej turze walki i nie możesz zareagować, dopóki ta tura się nie skończy. Członek grupy może być zaskoczony, nawet jeśli inni członkowie nie są.</p>"
                 },
+                "RcwElV4GAcVXKWxo": {
+                    "name": "Inicjatywa",
+                    "text": "<p>Inicjatywa określa kolejność zwrotów podczas walki. Po rozpoczęciu walki każdy uczestnik sprawdza zręczność, aby określić swoje miejsce w kolejności inicjatyw. MG robi jedną rolkę dla całej grupy identycznych stworzeń, więc każdy członek grupy działa w tym samym czasie.</p><p>MG szereguje walczących w kolejności od tego z najwyższą sumą sprawdzianów zręczności do tego z najniższą. Jest to kolejność (zwana kolejnością inicjatyw), w jakiej działają podczas każdej rundy. Kolejność inicjatyw pozostaje taka sama od rundy do rundy.</p><p>Jeśli dojdzie do remisu, MG decyduje o kolejności wśród remisowych stworzeń kontrolowanych przez GM, a gracze decydują o kolejności wśród swoich remisowych postaci. MG może zdecydować o kolejności, czy remis jest między potworem a postacią gracza. Opcjonalnie MG może mieć remisowe postacie i potwory, z których każdy rzuca d20, aby określić kolejność, przy czym najwyższy rzut zaczyna się jako pierwszy.</p>"
+                },
                 "Your Turn": {
                     "name": "Twoja tura",
                     "text": "<p>W swojej turze możesz przesunąć się o odległość do swojej prędkości i wykonać jedną akcję. Decydujesz, czy ruszyć jako pierwszy, czy podjąć działanie jako pierwszy. Twoja prędkość - czasami nazywana prędkością chodzenia - jest zapisywana w karcie postaci.</p><p>Najczęstsze działania, które możesz podjąć, są opisane w @UUID[Compendium.dnd5e.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.t0XXMmv014K4vV3p]{Actions in Combat}. Wiele funkcji klasy i innych umiejętności zapewnia dodatkowe opcje akcji.</p><p>@UUID[Compendium.dnd5e.rules.JournalEntry.6PfYpwxkdQkyS6b7.Sekcja JournalEntryPage.SfmusW5B5jOaR0vd]{Movement and Position} podaje zasady Twojego ruchu.</p><p>Możesz zrezygnować z poruszania się, podejmowania działań lub robienia czegokolwiek w swojej turze. Jeśli nie możesz zdecydować, co zrobić w swojej turze, rozważ podjęcie akcji Unik lub Gotowość, jak opisano w Actions in Combat.</p>Akcje <h3>Dodatkowe</h3><p>@Embed[.2fu2CXsDg8gQmGGw inline]</p><h3>Inna aktywność w Twojej turze</h3><p>@Embed[.JEZp7QApVjyNgqrQ inline]</p>"
@@ -453,9 +465,9 @@
                     "name": "Inna aktywność w Twojej turze",
                     "text": "<p>Twoja tura może obejmować rozmaite drobne czynności, które nie wymagają ani twojej akcji, ani ruchu.</p><p>W trakcie swojej tury możesz komunikować się w dowolny dostępny sposób za pomocą krótkich wypowiedzi i gestów.</p><p>Podczas swojego ruchu lub akcji możesz też wejść w interakcję z jednym obiektem lub elementem otoczenia bez dodatkowego kosztu. Na przykład możesz otworzyć drzwi w trakcie ruchu, gdy zmierzasz w stronę wroga, albo dobyć broni w ramach tej samej akcji, której używasz do ataku.</p><p>Jeśli chcesz wejść w interakcję z drugim obiektem, musisz użyć swojej akcji. Niektóre magiczne przedmioty i inne specjalne obiekty zawsze wymagają użycia akcji, jak podano w ich opisach.</p><p>MP może wymagać użycia akcji do wykonania którejkolwiek z tych czynności, jeśli wiążą się one ze szczególnymi trudnościami lub stanowią nietypową przeszkodę. Na przykład MP może zasadnie oczekiwać, że użyjesz akcji, aby otworzyć zacięte drzwi lub obrócić korbę w celu opuszczenia mostu zwodzonego.</p>"
                 },
-                "Reactions": {
+                "2VqLyxMyMxgXe2wC": {
                     "name": "Reakcje",
-                    "text": "<p>Jeśli potwór może zrobić coś specjalnego ze swoją reakcją, ta informacja jest tutaj zawarta. Jeśli stworzenie nie ma specjalnej reakcji, ta sekcja jest nieobecna.</p>"
+                    "text": "<p>Niektóre specjalne zdolności, zaklęcia i sytuacje pozwalają ci wykonać specjalną akcję zwaną reakcją. Reakcja jest natychmiastową odpowiedzią na określony bodziec i może nastąpić w twojej turze albo w turze kogoś innego. Atak okazyjny jest najczęstszym rodzajem reakcji.</p><p>Gdy wykonasz reakcję, nie możesz wykonać kolejnej aż do początku swojej następnej tury. Jeśli reakcja przerywa turę innej istoty, może ona kontynuować swoją turę bezpośrednio po zakończeniu reakcji.</p>"
                 },
                 "Breaking Up Your Move": {
                     "name": "Przerwanie ruchu",
@@ -468,6 +480,10 @@
                 "Using Different Speeds": {
                     "name": "Korzystanie z różnych prędkości",
                     "text": "<p>Jeśli masz więcej niż jedną prędkość, taką jak prędkość chodzenia i prędkość lotu, możesz przełączać się między prędkościami podczas ruchu. Za każdym razem, gdy zmienisz prędkość, odejmij odległość, którą już przesunąłeś od nowej prędkości. Wynik określa, o ile dalej można się poruszać. Jeśli wynik wynosi 0 lub mniej, nie możesz użyć nowej prędkości podczas bieżącego ruchu.</p><p>Na przykład, jeśli masz prędkość 30 i prędkość lotu 60, ponieważ czarodziej rzucił na ciebie zaklęcie muchy, możesz polecieć na odległość 20 stóp, a następnie przejść 10 stóp, a następnie skoczyć w powietrze, aby polecieć o 30 stóp więcej.</p>"
+                },
+                "6tqz947qO8vPyxvD": {
+                    "name": "Trudny Teren",
+                    "text": "<p>Walka rzadko odbywa się w gołych pokojach lub na pozbawionych cech równinach. Jaskinie porośnięte głazami, lasy briarchoked, zdradzieckie schody - otoczenie typowej walki zawiera trudny teren.</p><p>Każda stopa ruchu w trudnym terenie kosztuje 1 dodatkową stopę. Ta zasada jest prawdziwa, nawet jeśli wiele rzeczy w przestrzeni liczy się jako trudny teren.</p><p>Niskie meble, gruz, podszyt, strome schody, śnieg i płytkie torfowiska to przykłady trudnego terenu. Przestrzeń innego stworzenia, wrogiego lub nie, również liczy się jako trudny teren.</p>"
                 },
                 "Being Prone": {
                     "name": "Powalony",
@@ -545,17 +561,17 @@
                     "name": "Przedmiot umowy",
                     "text": "Zwykle <p>wchodzisz w interakcję z obiektem, robiąc coś innego, na przykład kiedy wyciągasz miecz w ramach ataku. Gdy obiekt wymaga Twojej akcji do jego użycia, podejmujesz akcję Użyj obiektu. Ta akcja jest również przydatna, gdy chcesz wchodzić w interakcję z więcej niż jednym obiektem w swojej turze.</p>"
                 },
-                "Attack Rolls": {
+                "5wkqEqhbBD5kDeE7": {
                     "name": "Testy ataku",
-                    "text": "<p>Niektóre zaklęcia wymagają od rzucającego, aby rzucił atak, aby określić, czy efekt zaklęcia dotrze do zamierzonego celu. Twój bonus za atak z użyciem zaklęcia jest równy modyfikatorowi twojej zdolności do rzucania zaklęć + twojemu bonusowi za biegłość.</p><p>Większość zaklęć, które wymagają rzutów ataku, obejmuje ataki dystansowe. Pamiętaj, że masz wadę podczas ataku dystansowego, jeśli jesteś w odległości 5 stóp od wrogiej istoty, która cię widzi i która nie jest ubezwłasnowolniona.</p>"
+                    "text": "<p>Gdy wykonujesz atak, rzut na atak określa, czy atak trafia, czy chybia. Aby wykonać rzut na atak, rzuć k20 i dodaj odpowiednie modyfikatory. Jeśli suma rzutu i modyfikatorów jest równa lub wyższa od Klasy Pancerza (KP) celu, atak trafia. KP postaci jest określana podczas tworzenia postaci, natomiast KP potwora znajduje się w jego bloku statystyk.</p> <h3>Modyfikatory do rzutu</h3> <p>@Embed[.6WJRdQlCExNsBZMz inline]</p> <h3>Wyrzucenie 1 lub 20</h3> <p>@Embed[.Lw9aodFTlNhXLpyx inline]</p>"
                 },
                 "Modifiers to the Roll": {
                     "name": "Modyfikatory rolki",
                     "text": "<p>Kiedy postać rzuca atakiem, dwa najczęstsze modyfikatory rzutu to modyfikator zdolności i premia za biegłość postaci. Kiedy potwór rzuca atakiem, używa dowolnego modyfikatora znajdującego się w jego bloku statystycznym.</p>Modyfikator <p><strong>umiejętności. </strong>Modyfikatorem umiejętności używanym do ataku bronią wręcz jest Siła, a modyfikatorem umiejętności używanym do ataku bronią dystansową jest Zręczność. Broń, która ma finezję lub rzuconą własność, łamie tę zasadę.</p><p>Niektóre zaklęcia wymagają również rzutu atakującego. Modyfikator zdolności używany do ataku zaklęciem zależy od zdolności rzucającego zaklęcie.</p>Premia za <p><strong>biegłość.</strong> Dodajesz premię za biegłość do rzutu ataku, gdy atakujesz za pomocą broni, z którą masz biegłość, a także gdy atakujesz zaklęciem.</p>"
                 },
-                "Rolling 1 or 20": {
+                "Lw9aodFTlNhXLpyx": {
                     "name": "Rolowanie 1 lub 20",
-                    "text": "<p><strong>Rolowanie 1 lub 20. </strong>Kiedy wykonasz śmiertelny rzut obronny i wyrzucisz 1 na D20, liczy się to jako dwie porażki. Jeśli wyrzucisz 20 na d20, odzyskasz 1 punkt wytrzymałości.</p>"
+                    "text": "<p>Czasem los błogosławi lub przeklina walczącego, sprawiając, że nowicjusz trafia, a weteran chybia.</p><p>Jeśli wynik rzutu k20 przy ataku wynosi 20, atak trafia niezależnie od wszelkich modyfikatorów i Klasy Pancerza celu. Nazywa się to trafieniem krytycznym.</p><p>Jeśli wynik rzutu k20 przy ataku wynosi 1, atak chybia niezależnie od wszelkich modyfikatorów i Klasy Pancerza celu.</p>"
                 },
                 "Unseen Attackers and Targets": {
                     "name": "Niewidoczni napastnicy i cele",
@@ -565,9 +581,9 @@
                     "name": "Ataki dystansowe",
                     "text": "<p>Kiedy wykonujesz atak dystansowy, strzelasz z łuku lub kuszy, rzucasz toporem lub w inny sposób wysyłasz pociski, aby trafić wroga na odległość. Potwór może strzelać kolcami z ogona. Wiele zaklęć wiąże się również z atakiem dystansowym.</p><h3>Zasięg</h3><p>@Embed[.HjKXuB8ndjcqOds7 inline]</p>Ataki <h3>dystansowe w bliskiej walce</h3><p>@Embed[.qEZvxW0NM7ixSQP5 inline]</p>"
                 },
-                "Range": {
+                "HjKXuB8ndjcqOds7": {
                     "name": "Zasięg",
-                    "text": "<p>Cel zaklęcia musi znajdować się w zasięgu zaklęcia. Dla zaklęcia takiego jak @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}, celem jest stworzenie. W przypadku zaklęcia takiego jak @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Kula ognia} celem jest punkt w przestrzeni kosmicznej, w którym wybucha kula ognia.</p><p>Większość zaklęć ma zakresy wyrażone w stopach. Niektóre zaklęcia mogą atakować tylko istoty (w tym Ciebie), których dotkniesz. Inne zaklęcia, takie jak @UUID[Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7]{Tarcza}, dotyczą tylko Ciebie. Te zaklęcia mają wachlarz siebie.</p><p>Zaklęcia, które tworzą stożki lub linie działania, które pochodzą od ciebie, mają również zakres siebie, co wskazuje, że punktem początkowym efektu zaklęcia musisz być ty (patrz „Obszary efektu”).</p><p>Po rzuceniu czaru jego skutki nie są ograniczone jego zasięgiem, chyba że opis czaru mówi inaczej.</p>"
+                    "text": "<p>Możesz wykonywać ataki dystansowe tylko przeciwko celom znajdującym się w określonym zasięgu.</p><p>Jeśli atak dystansowy, na przykład wykonywany zaklęciem, ma tylko jeden zasięg, nie możesz zaatakować celu znajdującego się poza nim.</p><p>Niektóre ataki dystansowe, takie jak te wykonywane długim lub krótkim łukiem, mają dwa zasięgi. Mniejsza wartość to zasięg normalny, a większa to zasięg maksymalny. Gdy cel znajduje się poza zasięgiem normalnym, twój rzut na atak ma utrudnienie, a celu znajdującego się poza zasięgiem maksymalnym nie możesz zaatakować.</p>"
                 },
                 "Ranged Attacks in Close Combat": {
                     "name": "Ataki dystansowe w bliskiej walce",
@@ -624,6 +640,10 @@
                 "Total Cover": {
                     "name": "Osłona całkowita",
                     "text": "<p>Cel z <strong>całkowitym kryciem nie </strong>może być celem bezpośrednio przez atak lub zaklęcie, chociaż niektóre zaklęcia mogą dotrzeć do takiego celu, włączając go do obszaru działania. Cel ma całkowitą osłonę, jeśli jest całkowicie ukryty przez przeszkodę.</p>"
+                },
+                "PFbzoMBviI2DD9QP": {
+                    "name": "Punkty wytrzymałości",
+                    "text": "<p>Punkty wytrzymałości reprezentują połączenie odporności fizycznej i psychicznej, woli życia oraz szczęścia. Istoty z większą liczbą punktów wytrzymałości trudniej zabić. Te z mniejszą liczbą punktów wytrzymałości są bardziej kruche.</p><p>Aktualne punkty wytrzymałości istoty (zwykle nazywane po prostu punktami wytrzymałości) mogą mieć dowolną wartość od jej maksymalnej liczby punktów wytrzymałości aż do 0. Wartość ta często się zmienia, gdy istota otrzymuje obrażenia lub jest leczona.</p><p>Ilekroć istota otrzymuje obrażenia, są one odejmowane od jej punktów wytrzymałości. Utrata punktów wytrzymałości nie wpływa na zdolności istoty, dopóki nie spadnie ona do 0 punktów wytrzymałości.</p>"
                 },
                 "Damage Rolls": {
                     "name": "Rzuty na obrażenia",
@@ -709,6 +729,10 @@
                     "name": "Rzuty obronne przeciw śmierci",
                     "text": "<p>Za każdym razem, gdy zaczynasz swoją turę od 0 punktów wytrzymałości, musisz wykonać specjalny rzut obronny, zwany śmiertelnym, aby określić, czy zbliżasz się do śmierci, czy trzymasz się życia. W przeciwieństwie do innych rzutów obronnych, ten nie jest powiązany z żadnym wynikiem umiejętności. Jesteś teraz w rękach losu, wspomagany tylko zaklęciami i funkcjami, które zwiększają Twoje szanse na sukces w rzucie obronnym.</p><p>Rzuć a d20. Jeśli rzut wynosi 10 lub więcej, odniesiesz sukces. W przeciwnym razie nie uda Ci się. Sukces lub porażka nie ma żadnego skutku. Po trzecim sukcesie stajesz się stabilny (patrz poniżej). Przy trzeciej porażce umierasz. Sukcesy i porażki nie muszą następować po sobie; śledź oba, dopóki nie zbierzesz trzech takich samych. Liczba obu jest resetowana do zera, gdy odzyskasz punkty wytrzymałości lub ustabilizujesz się.</p><p>@Embed[.fwJOeFAJn8DkwebA inline]</p><p>@Embed[.2umstdyMUtPaf6vB inline]</p>"
                 },
+                "fwJOeFAJn8DkwebA": {
+                    "name": "Rolowanie 1 lub 20",
+                    "text": "<p><strong>Rolowanie 1 lub 20. </strong>Kiedy wykonasz śmiertelny rzut obronny i wyrzucisz 1 na D20, liczy się to jako dwie porażki. Jeśli wyrzucisz 20 na d20, odzyskasz 1 punkt wytrzymałości.</p>"
+                },
                 "Damage at 0 Hit Points": {
                     "name": "Obrażenia przy 0 Punktach Wytrzymałości",
                     "text": "<p><strong>Obrażenia przy 0 Punktach wytrzymałości. </strong>Jeśli odniesiesz jakiekolwiek obrażenia, gdy masz 0 punktów wytrzymałości, poniesiesz śmiertelną porażkę w rzucie obronnym. Jeśli obrażenia wynikają z trafienia krytycznego, zamiast tego ponosisz dwie porażki. Jeśli obrażenia są równe lub przekraczają maksymalny punkt wytrzymałości, natychmiastowo ponosisz śmierć.</p>"
@@ -789,9 +813,17 @@
                     "name": "Akcja dodatkowa",
                     "text": "<p>Zaklęcie rzucone z akcją dodatkową jest szczególnie szybkie. Musisz użyć akcji dodatkowej w swojej turze, aby rzucić zaklęcie, pod warunkiem, że nie wykonałeś jeszcze akcji dodatkowej w tej turze. Nie możesz rzucić kolejnego zaklęcia w tej samej turze, z wyjątkiem kantripu z czasem rzucania 1 akcji.</p>"
                 },
+                "t62lCfinwU9H7Lji": {
+                    "name": "Reakcje",
+                    "text": "<p>Niektóre zaklęcia można rzucać jako reakcje. Takie zaklęcia wywołuje się w ułamku sekundy i są rzucane w odpowiedzi na określone zdarzenie. Jeśli zaklęcie może być rzucone jako reakcja, jego opis dokładnie określa, kiedy można to zrobić.</p>"
+                },
                 "Longer Casting Times": {
                     "name": "Dłuższy czas rzucania czarów",
                     "text": "<p>Niektóre zaklęcia (w tym zaklęcia rzucane jako rytuały) wymagają więcej czasu na rzucenie: minut lub nawet godzin. Kiedy rzucasz zaklęcie z czasem rzucania dłuższym niż pojedyncza akcja lub reakcja, musisz spędzać swoje działanie w każdej turze rzucania zaklęcia i musisz zachować koncentrację podczas rzucania (patrz „Koncentracja” poniżej). Jeśli Twoja koncentracja zostanie przerwana, zaklęcie nie powiedzie się, ale nie zużyjesz komórki czaru. Jeśli chcesz spróbować rzucić zaklęcie ponownie, musisz zacząć od nowa.</p>"
+                },
+                "RBYPyE5z5hAZSbH6": {
+                    "name": "Zasięg",
+                    "text": "<p>Cel zaklęcia musi znajdować się w zasięgu zaklęcia. Dla zaklęcia takiego jak @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}, celem jest stworzenie. W przypadku zaklęcia takiego jak @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Kula ognia} celem jest punkt w przestrzeni kosmicznej, w którym wybucha kula ognia.</p><p>Większość zaklęć ma zakresy wyrażone w stopach. Niektóre zaklęcia mogą atakować tylko istoty (w tym Ciebie), których dotkniesz. Inne zaklęcia, takie jak @UUID[Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7]{Tarcza}, dotyczą tylko Ciebie. Te zaklęcia mają wachlarz siebie.</p><p>Zaklęcia, które tworzą stożki lub linie działania, które pochodzą od ciebie, mają również zakres siebie, co wskazuje, że punktem początkowym efektu zaklęcia musisz być ty (patrz „Obszary efektu”).</p><p>Po rzuceniu czaru jego skutki nie są ograniczone jego zasięgiem, chyba że opis czaru mówi inaczej.</p>"
                 },
                 "Components": {
                     "name": "Komponenty",
@@ -857,9 +889,13 @@
                     "name": "Sfera",
                     "text": "<p>Wybierasz punkt początkowy kuli, a kula rozciąga się na zewnątrz od tego punktu. Rozmiar kuli jest wyrażony jako promień w stopach, który rozciąga się od punktu.</p><p>Punkt początkowy sfery znajduje się w obszarze działania sfery.</p>"
                 },
-                "Saving Throws": {
+                "8DajfNll90eeKcmB": {
                     "name": "Rzuty obronne",
-                    "text": "<p>Wpis Saving Throws jest zarezerwowany dla stworzeń, które potrafią oprzeć się pewnym rodzajom efektów. Przykładowo, istota, która nie jest łatwo oczarowana lub przestraszona, może zyskać premię za rzuty obronne Mądrości. Większość stworzeń nie ma specjalnych premii do rzutów obronnych, w którym to przypadku ta sekcja jest nieobecna.</p><p>Premia za rzut obronny to suma odpowiedniego modyfikatora umiejętności potwora i jego premii za biegłość, która jest określana przez ocenę wyzwania potwora (jak pokazano w tabeli Oceny Wyzwania).</p>Premia z <table><caption><h4>biegłości według oceny wyzwania</h4></caption><thead><tr><td>Wyzwanie</td><td>Premia z biegłości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td></tr><tr><td>6.</td><td>+2</td></tr><tr><td>4.</td><td>+2</td></tr><tr><td>2.</td><td>+2</td></tr><tr><td>6.</td><td>+2</td></tr><tr><td>2.</td><td>+2</td></tr><tr><td>3.</td><td>+2</td></tr><tr><td>4.</td><td>+2</td></tr><tr><td>5.</td><td>+3</td></tr><tr><td>6.</td><td>+3</td></tr><tr><td>5.</td><td>+3</td></tr><tr><td>6.</td><td>+3</td></tr><tr><td>6.</td><td>+4</td></tr>\n<tr>\n<td>19.</td>\n<td>+4</td></tr><tr><td>5.</td><td>+4</td></tr><tr><td>5.</td><td>+4</td></tr><tr><td>5.</td><td>+5</td></tr><tr><td>5.</td><td>+5</td></tr><tr><td>5.</td><td>+5</td></tr><tr><td>6.</td><td>+5</td></tr><tr><td>5.</td><td>+6</td></tr><tr><td>6.</td><td>+6</td></tr><tr><td>5.</td><td>+6</td></tr><tr><td>6.</td><td>+6</td></tr><tr><td>5.</td><td>7</td></tr><tr><td>6.</td><td>7</td></tr><tr><td>6.</td><td>7</td></tr><tr><td>6.</td><td>7</td></tr><tr><td>6.</td><td>8</td></tr><tr><td>6.</td><td>8</td></tr><tr><td>6.</td><td>8</td></tr><tr><td>6.</td><td>8</td></tr><tr><td>6.</td><td>9</td></tr><tr><td>5.</td><td>9</td></tr></tbody></table>"
+                    "text": "<p>Wiele zaklęć określa, że cel może wykonać rzut obronny, aby uniknąć części lub całości efektów zaklęcia. Zaklęcie wskazuje, jakiej cechy cel używa do rzutu obronnego oraz co dzieje się w przypadku sukcesu lub porażki.</p><p>ST rzutu obronnego przeciwko jednemu z twoich zaklęć wynosi 8 + twój modyfikator cechy rzucania czarów + twoja premia z biegłości + wszelkie specjalne modyfikatory.</p>"
+                },
+                "qAFzmGZKhVvAEUF3": {
+                    "name": "Testy ataku",
+                    "text": "<p>Niektóre zaklęcia wymagają od rzucającego, aby rzucił atak, aby określić, czy efekt zaklęcia dotrze do zamierzonego celu. Twój bonus za atak z użyciem zaklęcia jest równy modyfikatorowi twojej zdolności do rzucania zaklęć + twojemu bonusowi za biegłość.</p><p>Większość zaklęć, które wymagają rzutów ataku, obejmuje ataki dystansowe. Pamiętaj, że masz wadę podczas ataku dystansowego, jeśli jesteś w odległości 5 stóp od wrogiej istoty, która cię widzi i która nie jest ubezwłasnowolniona.</p>"
                 },
                 "Combining Magical Effects": {
                     "name": "Łączenie magicznych efektów",
@@ -953,6 +989,14 @@
                     "name": "Statystyki dla obiektów",
                     "text": "<p>Gdy czas jest czynnikiem, możesz przypisać klasę zbroi i punkty wytrzymałości do niszczalnego obiektu. Możesz również nadać mu odporność, opór i podatność na określone rodzaje obrażeń.</p><p>@Embed[.KWmHLFi39glwuXQ7 inline]</p><p>@Embed[0,243xmBDKcM1W2QEm inline]</p><p>@Embed[.dWO90EG5camfT34z inline]</p><p>@Embed[.HANU4fJW9LI4MIC8 inline]</p><p>@Embed[.9LJZhqvCburpags3 inline]</p>"
                 },
+                "KWmHLFi39glwuXQ7": {
+                    "name": "Klasa Pancerza",
+                    "text": "<p><strong>Klasa Pancerza. </strong>Klasa Pancerza przedmiotu określa, jak trudno jest zadać mu obrażenia podczas uderzenia (ponieważ przedmiot nie ma możliwości uniknięcia). Tabela Klasy Pancerza Przedmiotów podaje sugerowane wartości KP dla różnych materiałów.</p><table border=\"0\"><caption><h4>Klasa Pancerza Przedmiotów</h4></caption><thead><tr><td>Materiał</td><td>KP</td></tr></thead><tbody><tr><td>Tkanina, papier, lina</td><td>11</td></tr><tr><td>Kryształ, szkło, lód</td><td>13</td></tr><tr><td>Drewno, kość</td><td>15</td></tr><tr><td>Kamień</td><td>17</td></tr><tr><td>Żelazo, stal</td><td>19</td></tr><tr><td>Mitryl</td><td>21</td></tr><tr><td>Adamantyn</td><td>23</td></tr></tbody></table>"
+                },
+                "243xmBDKcM1W2QEm": {
+                    "name": "Punkty wytrzymałości",
+                    "text": "<p><strong>Punkty wytrzymałości. </strong>Punkty wytrzymałości przedmiotu określają, ile obrażeń może on otrzymać, zanim utraci swoją integralność strukturalną. Wytrzymałe przedmioty mają więcej punktów wytrzymałości niż kruche. Duże przedmioty również zwykle mają więcej punktów wytrzymałości niż małe, chyba że zniszczenie niewielkiej części przedmiotu jest równie skuteczne jak zniszczenie całości. Tabela Punktów Wytrzymałości Przedmiotów podaje sugerowane wartości punktów wytrzymałości dla kruchych i wytrzymałych przedmiotów o rozmiarze Dużym lub mniejszym.</p><table border=\"0\"><caption><h4>Punkty Wytrzymałości Przedmiotów</h4></caption><thead><tr><td>Rozmiar</td><td>Kruche</td><td>Wytrzymałe</td></tr></thead><tbody><tr><td>Malutki (butelka, zamek)</td><td>2 (1k4)</td><td>5 (2k4)</td></tr><tr><td>Mały (skrzynia, lutnia)</td><td>3 (1k6)</td><td>10 (3k6)</td></tr><tr><td>Średni (beczka, żyrandol)</td><td>4 (1k8)</td><td>18 (4k8)</td></tr><tr><td>Duży (wóz, okno 3 na 3 m)</td><td>5 (1k10)</td><td>27 (5k10)</td></tr></tbody></table>"
+                },
                 "Huge and Gargantuan Objects": {
                     "name": "Wielkie i gigantyczne obiekty",
                     "text": "<p><strong>Wielkie i gigantyczne obiekty. </strong>Normalna broń jest mało przydatna przeciwko wielu ogromnym i gigantycznym obiektom, takim jak kolosalny posąg, wysoka kolumna kamienia lub masywny głaz. Niezależnie od tego, jedna pochodnia może spalić ogromny gobelin, a zaklęcie @UUID[Compendium.dnd5e.spells.Item.x5JNBSyIBBZsjcGT]{Earthquake} może zamienić kolos w gruz. Możesz śledzić punkty wytrzymałości ogromnego lub gigantycznego obiektu, jeśli chcesz, lub po prostu zdecydować, jak długo obiekt może wytrzymać każdą broń lub siłę działającą przeciwko niemu. Jeśli śledzisz punkty wytrzymałości obiektu, podziel go na duże lub mniejsze sekcje i śledź punkty wytrzymałości każdej sekcji osobno. Zniszczenie jednej z tych sekcji może zrujnować cały obiekt. Na przykład gigantyczny posąg człowieka może się przewrócić, gdy jedna z jego dużych nóg zostanie zredukowana do 0 punktów wytrzymałości.</p>"
@@ -1033,13 +1077,13 @@
                     "name": "Komunikacja",
                     "text": "<p>Przedmiot odczuwający ma pewną zdolność komunikowania się, albo poprzez dzielenie się swoimi emocjami, telepatyczne nadawanie swoich myśli, albo mówienie na głos. Możesz wybrać sposób komunikacji lub przewinąć na poniższą tabelę.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.BHckoLKDwoL9d5p3]</p>"
                 },
-                "Senses": {
+                "l4Z4cLJmlegyfY6c": {
                     "name": "Zmysł",
-                    "text": "<p>Wpis Zmysłów odnotowuje pasywny wynik Mądrości (Percepcji) potwora, a także wszelkie specjalne zmysły potwora. Poniżej opisano specjalne zmysły.</p><h3>Ślepowidzenie</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I6ABWHBYwGl55dLY inline]</p>Widzenie w <h3>ciemności</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.0RBamBThjzeAdMSt inline]</p>Wyczucie <h3>drgań</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.8AIlZ95v54mL531X inline]</p>Prawdziwe <h3>widzenie</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.8iC24otVX4n1yrYw inline]</p>"
+                    "text": "<p>Wraz ze świadomością pojawia się postrzeganie. Przedmiot obdarzony świadomością potrafi postrzegać swoje otoczenie w ograniczonym zasięgu. Możesz wybrać jego zmysły albo rzucić z poniższej tabeli.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.gfR9uCe42xBCCktd]</p>"
                 },
-                "Alignment": {
+                "SdK1Y86NLlPhjhMl": {
                     "name": "Charakter",
-                    "text": "<p>Ustawienie potwora dostarcza wskazówki na temat jego usposobienia i tego, jak zachowuje się w sytuacji odgrywania ról lub walki. Na przykład chaotyczny zły potwór może być trudny do rozumowania i może atakować postacie w zasięgu wzroku, podczas gdy neutralny potwór może być skłonny do negocjacji. Opisy różnych wyrównań można</em> znaleźć w Podręczniku <em>gracza.</p><p>Wyrównanie określone w bloku statystycznym potwora jest domyślne. Możesz odejść od niego i zmienić ustawienie potwora, aby dostosować je do potrzeb swojej kampanii. Jeśli szukasz dobrze zestrojonego zielonego smoka lub złego giganta burzowego, nic Cię nie powstrzyma.</p><p>Niektóre stworzenia mogą mieć <strong>dowolne wyrównanie</strong>. Innymi słowy, wybierasz ustawienie potwora. Wpis wyrównania jakiegoś potwora wskazuje na tendencję lub niechęć do prawa, chaosu, dobra lub zła. Przykładowo berserker może być dowolnym chaotycznym wyrównaniem (chaotycznym dobrem, chaotycznym neutralnym lub chaotycznym złem), jak przystało na jego dziką naturę.</p><p>Wiele stworzeń o niskiej inteligencji nie rozumie prawa ani chaosu, dobra ani zła. Nie dokonują wyborów moralnych ani etycznych, a raczej działają instynktownie. Te stworzenia <strong>nie są wyrównane</strong>, co oznacza, że nie mają wyrównania.</p>"
+                    "text": "<p>Świadomy magiczny przedmiot ma charakter. Jego twórca lub natura mogą sugerować określony charakter. Jeśli tak nie jest, możesz wybrać charakter albo rzucić z poniższej tabeli.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.NdjHJMSSVWw5fHsL]</p>"
                 },
                 "Special Purpose": {
                     "name": "Specjalne przeznaczenie ",
@@ -1121,9 +1165,29 @@
                     "name": "Znaczniki",
                     "text": "<p>Potwór może mieć jeden lub więcej znaczników dołączonych do swojego typu w nawiasie. Przykładowo ork ma</em> typ <em>humanoidalny (ork). Tagi nawiasowe zapewniają dodatkową kategoryzację dla niektórych stworzeń. Tagi nie mają własnych zasad, ale coś w grze, na przykład magiczny przedmiot, może się do nich odnosić. Na przykład włócznia, która jest szczególnie skuteczna w walce z demonami, zadziałałaby przeciwko każdemu potworowi, który ma znaczek demona.</p>"
                 },
+                "8i9W8vECXrwMunQC": {
+                    "name": "Charakter",
+                    "text": "<p>Ustawienie potwora dostarcza wskazówki na temat jego usposobienia i tego, jak zachowuje się w sytuacji odgrywania ról lub walki. Na przykład chaotyczny zły potwór może być trudny do rozumowania i może atakować postacie w zasięgu wzroku, podczas gdy neutralny potwór może być skłonny do negocjacji. Opisy różnych wyrównań można</em> znaleźć w Podręczniku <em>gracza.</p><p>Wyrównanie określone w bloku statystycznym potwora jest domyślne. Możesz odejść od niego i zmienić ustawienie potwora, aby dostosować je do potrzeb swojej kampanii. Jeśli szukasz dobrze zestrojonego zielonego smoka lub złego giganta burzowego, nic Cię nie powstrzyma.</p><p>Niektóre stworzenia mogą mieć <strong>dowolne wyrównanie</strong>. Innymi słowy, wybierasz ustawienie potwora. Wpis wyrównania jakiegoś potwora wskazuje na tendencję lub niechęć do prawa, chaosu, dobra lub zła. Przykładowo berserker może być dowolnym chaotycznym wyrównaniem (chaotycznym dobrem, chaotycznym neutralnym lub chaotycznym złem), jak przystało na jego dziką naturę.</p><p>Wiele stworzeń o niskiej inteligencji nie rozumie prawa ani chaosu, dobra ani zła. Nie dokonują wyborów moralnych ani etycznych, a raczej działają instynktownie. Te stworzenia <strong>nie są wyrównane</strong>, co oznacza, że nie mają wyrównania.</p>"
+                },
+                "0Dgs9HZmRIFKVeca": {
+                    "name": "Klasa Pancerza",
+                    "text": "<p>Potwór, który nosi zbroję lub ma tarczę, ma klasę zbroi (AC), która bierze pod uwagę jego zbroję, tarczę i zręczność. W przeciwnym razie AC potwora opiera się na jego modyfikatorze Zręczności i naturalnej zbroi, jeśli w ogóle. Jeśli potwór ma naturalną zbroję, nosi zbroję lub nosi tarczę, jest to odnotowywane w nawiasach po jego wartości AC.</p>"
+                },
+                "cwkeZKDj6grWNq8m": {
+                    "name": "Punkty wytrzymałości",
+                    "text": "<p>Potwór zwykle umiera lub zostaje zniszczony, gdy spada do 0 punktów wytrzymałości. Więcej informacji na temat punktów wytrzymałości można znaleźć w Podręczniku <em>Gracza.</em></p><p>Punkty wytrzymałości potwora są prezentowane zarówno jako wyrażenie stempla, jak i jako średnia liczba. Przykładowo potwór z punktami wytrzymałościowymi 2d8 ma średnio 9 punktów wytrzymałości (2 × 4½).</p>Rozmiar <p>potwora określa kostkę używaną do obliczania jego punktów wytrzymałości, jak pokazano w tabeli Trafienia według rozmiaru.</p>Kości <table border=\"0\"><caption><h4>Wytrzymałości według rozmiaru</h4>Rozmiar </caption><thead><tr><td>potwora</td>Kość <td>Wytrzymałości</td><td>Średnie HP na kostkę</td></tr></thead><tbody><tr><td>1.</td><td>k4</td><td>2½</td></tr><tr><td>Mały</td><td>k6</td><td>3½</td></tr><tr><td>Średni</td><td>k8</td><td>4½</td></tr><tr><td>Duży</td><td>k10</td><td>5½</td></tr><tr><td>Wielki</td><td>k12</td><td>6½</td></tr><tr><td>Ogromny</td><td>k20</td><td>10½</td></tr></tbody></table><p>Modyfikator Kondycji potwora wpływa również na liczbę posiadanych przez niego punktów wytrzymałości. Modyfikator Kondycji jest mnożony przez liczbę posiadanych Kość Wytrzymałości, a wynik jest dodawany do jej punktów wytrzymałości. Na przykład, jeśli potwór ma konstytucję 12 (modyfikator +1) i 2k8 Trafień, ma 2k8 + 2 punkty wytrzymałości (średnio 11).</p>"
+                },
+                "DOKv3OuN2jzjOnX8": {
+                    "name": "Szybkość",
+                    "text": "<p>Szybkość potwora mówi ci, jak daleko może się posunąć w swojej turze. Aby uzyskać więcej informacji na temat szybkości, zobacz Podręcznik <em>gracza</em>.</p><p>Wszystkie stworzenia mają szybkość chodzenia, zwaną po prostu szybkością potwora. Stworzenia, które nie mają żadnej formy lokomocji naziemnej, mają prędkość chodu 0 stóp.</p><p>Niektóre stworzenia posiadają jeden lub więcej z następujących dodatkowych trybów ruchu.</p><h3>Kopanie</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p><h3>Wspinaczka</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p><h3>Lot</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p><h3>Pływanie</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p>"
+                },
                 "Ability Scores": {
                     "name": "Cechy",
                     "text": "<p>Każdy potwór ma sześć wyników umiejętności (Siła, Zręczność, Konstytucja, Inteligencja, Mądrość i Charyzma) i odpowiadające im modyfikatory. Aby uzyskać więcej informacji na temat wyników umiejętności i sposobu ich wykorzystania w grze, zapoznaj się z Podręcznikiem <em>gracza</em>.</p>"
+                },
+                "AoykthgwEP3T0XsL": {
+                    "name": "Rzuty obronne",
+                    "text": "<p>Wpis Saving Throws jest zarezerwowany dla stworzeń, które potrafią oprzeć się pewnym rodzajom efektów. Przykładowo, istota, która nie jest łatwo oczarowana lub przestraszona, może zyskać premię za rzuty obronne Mądrości. Większość stworzeń nie ma specjalnych premii do rzutów obronnych, w którym to przypadku ta sekcja jest nieobecna.</p><p>Premia za rzut obronny to suma odpowiedniego modyfikatora umiejętności potwora i jego premii za biegłość, która jest określana przez ocenę wyzwania potwora (jak pokazano w tabeli Oceny Wyzwania).</p>Premia z <table><caption><h4>biegłości według oceny wyzwania</h4></caption><thead><tr><td>Wyzwanie</td><td>Premia z biegłości</td></tr></thead><tbody><tr><td>1.</td><td>+2</td></tr><tr><td>6.</td><td>+2</td></tr><tr><td>4.</td><td>+2</td></tr><tr><td>2.</td><td>+2</td></tr><tr><td>6.</td><td>+2</td></tr><tr><td>2.</td><td>+2</td></tr><tr><td>3.</td><td>+2</td></tr><tr><td>4.</td><td>+2</td></tr><tr><td>5.</td><td>+3</td></tr><tr><td>6.</td><td>+3</td></tr><tr><td>5.</td><td>+3</td></tr><tr><td>6.</td><td>+3</td></tr><tr><td>6.</td><td>+4</td></tr>\n<tr>\n<td>19.</td>\n<td>+4</td></tr><tr><td>5.</td><td>+4</td></tr><tr><td>5.</td><td>+4</td></tr><tr><td>5.</td><td>+5</td></tr><tr><td>5.</td><td>+5</td></tr><tr><td>5.</td><td>+5</td></tr><tr><td>6.</td><td>+5</td></tr><tr><td>5.</td><td>+6</td></tr><tr><td>6.</td><td>+6</td></tr><tr><td>5.</td><td>+6</td></tr><tr><td>6.</td><td>+6</td></tr><tr><td>5.</td><td>7</td></tr><tr><td>6.</td><td>7</td></tr><tr><td>6.</td><td>7</td></tr><tr><td>6.</td><td>7</td></tr><tr><td>6.</td><td>8</td></tr><tr><td>6.</td><td>8</td></tr><tr><td>6.</td><td>8</td></tr><tr><td>6.</td><td>8</td></tr><tr><td>6.</td><td>9</td></tr><tr><td>5.</td><td>9</td></tr></tbody></table>"
                 },
                 "Skills": {
                     "name": "Umiejętności",
@@ -1132,6 +1196,10 @@
                 "Vulnerabilities, Resistances, and Immunities": {
                     "name": "Podatności, Odporności i Niewrażliwości",
                     "text": "<p>Niektóre stworzenia mają wrażliwość, odporność lub odporność na określone rodzaje obrażeń. Poszczególne stworzenia są nawet odporne lub odporne na obrażenia od niemagicznych ataków (atak magiczny to atak dostarczony przez zaklęcie, magiczny przedmiot lub inne magiczne źródło). Ponadto niektóre stworzenia są odporne na pewne warunki.</p>"
+                },
+                "ILpAVXkFHoS8OQ8y": {
+                    "name": "Zmysł",
+                    "text": "<p>Wpis Zmysłów odnotowuje pasywny wynik Mądrości (Percepcji) potwora, a także wszelkie specjalne zmysły potwora. Poniżej opisano specjalne zmysły.</p><h3>Ślepowidzenie</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I6ABWHBYwGl55dLY inline]</p>Widzenie w <h3>ciemności</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.0RBamBThjzeAdMSt inline]</p>Wyczucie <h3>drgań</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.8AIlZ95v54mL531X inline]</p>Prawdziwe <h3>widzenie</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.8iC24otVX4n1yrYw inline]</p>"
                 },
                 "Armor, Weapon, and Tool Proficiencies": {
                     "name": "Biegłości w opancerzeniu, posługiwaniu się bronią i narzędziami",
@@ -1184,6 +1252,10 @@
                 "Ammunition": {
                     "name": "Amunicja",
                     "text": "<p>Potwór nosi wystarczającą ilość amunicji, aby przeprowadzić ataki dystansowe. Możesz założyć, że potwór ma 2k4 sztuki amunicji do ataku z użyciem broni i 2k10 sztuk amunicji do broni rakietowej, takiej jak łuk lub kusza.</p>"
+                },
+                "Ms00uWg0w77sWI4C": {
+                    "name": "Reakcje",
+                    "text": "<p>Jeśli potwór może zrobić coś specjalnego ze swoją reakcją, ta informacja jest tutaj zawarta. Jeśli stworzenie nie ma specjalnej reakcji, ta sekcja jest nieobecna.</p>"
                 },
                 "Limited Usage": {
                     "name": "Ograniczone użycie",
