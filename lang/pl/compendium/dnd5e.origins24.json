@@ -42,7 +42,9 @@
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many"
         },
         "advancement": {
             "path": "system.advancement",
@@ -51,12 +53,20 @@
             "container": "keyed",
             "keys": [
                 "_id",
+                "name",
                 "title"
             ],
             "mapping": {
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": true
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -271,7 +281,7 @@
                     "title": "Wyostrzone zmysły",
                     "hint": "Posiadasz biegłość w umiejętności Intuicja, Percepcja lub Sztuka przetrwania."
                 },
-                "Drow Traits": {
+                "LWGXpgeZc3PwUgTg": {
                     "title": "Cechy drowa",
                     "hint": "Możesz wybrać Inteligencję, Mądrość lub Charyzmę jako swoją cechę bazową rzucania czarów."
                 },
@@ -299,7 +309,7 @@
                     "title": "Wyostrzone zmysły",
                     "hint": "Posiadasz biegłość w umiejętności Intuicja, Percepcja lub Sztuka przetrwania."
                 },
-                "High Elf Traits": {
+                "hraql8YRB41ssDA6": {
                     "title": "Cechy Wysokiego elfa",
                     "hint": "Możesz wybrać Inteligencję, Mądrość lub Charyzmę jako swoją cechę bazową rzucania czarów."
                 },
@@ -323,7 +333,7 @@
                 "Elf Traits": {
                     "title": "Cechy elfa"
                 },
-                "Wood Elf Traits": {
+                "YFS9oEa9Iw1molNm": {
                     "title": "Cechy Leśnego elfa"
                 },
                 "FRJszO7cYchbaGzt": {
@@ -473,7 +483,7 @@
                 "LETPMtBLvmzWUUb0": {
                     "hint": "Średni (około 7-8 stóp wysokości)"
                 },
-                "Goliath Traits": {
+                "PZxMcT5tVtvvf62P": {
                     "title": "Cechy Goliata"
                 },
                 "Giant Ancestry": {
@@ -716,7 +726,7 @@
                 "Tiefling Traits": {
                     "title": "Cechy diabelstwa"
                 },
-                "Abyssal Tiefling Traits": {
+                "V8h8fLg4XG1QGewy": {
                     "title": "Cechy Otchłannego diabelstwa",
                     "hint": "Masz Odporność na obrażenia od trucizn."
                 },
@@ -750,7 +760,7 @@
                 "Otherworldly Presence": {
                     "title": "Nieziemska obecność"
                 },
-                "Chthonic Tiefling Traits": {
+                "O6M9VGAwHx9Kkfhj": {
                     "title": "Cechy Cthonicznego diabelstwa",
                     "hint": "Masz Odporność na obrażenia nekrotyczne."
                 },
@@ -781,7 +791,7 @@
                 "Otherworldly Presence": {
                     "title": "Nieziemska obecność"
                 },
-                "Infernal Tiefling Traits": {
+                "9V9xGP0Fsqh3NDsB": {
                     "title": "Cechy Piekielnego diabelstwa",
                     "hint": "Masz Odporność na obrażenia od ognia."
                 },
