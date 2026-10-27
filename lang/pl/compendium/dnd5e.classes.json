@@ -42,7 +42,9 @@
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many"
         },
         "advancement": {
             "path": "system.advancement",
@@ -51,12 +53,20 @@
             "container": "keyed",
             "keys": [
                 "_id",
+                "name",
                 "title"
             ],
             "mapping": {
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": true
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -108,7 +118,7 @@
             "name": "Barbarzyńca",
             "description": "<p>Jako barbarzyńca otrzymujesz następujące korzyści z klasy.</p><h3>Punkty Wytrzymałości</h3><p><strong>Kości Wytrzymałości:</strong> 1k12 na poziom barbarzyńcy<br /><strong>Punkty wytrzymałości na 1. poziomie:</strong> 12 + modyfikator z Kondycji<br /><strong>Punkty wytrzymałości na wyższych poziomach:</strong>: 1k12 (lub 7) + modyfikator z Kondycji na każdy poziom barbarzyńcy powyżej 1</p><h3>Biegłości</h3><p><strong>Pancerz:</strong> Lekkie pancerze, średnie pancerze, tarcze<br /><strong>Broń:</strong> Bronie proste, bronie żołnierskie<br /><strong>Narzędzia:</strong> Brak<br /><strong>Rzuty obronne:</strong> Siła, Kondycja<br /><strong>Umiejętności:</strong> Wybierz dwie spośród następujących: Atletyka, Opieka nad zwierzętami, Percepcja, Przyroda, Sztuka przetrwania i Zastraszanie</p><h1>Rozwój barbarzyńcy</h1><table border=\"0\"><thead><tr><td>Poziom</td><td>Premia z biegłości</td><td>Zdolności</td><td>Liczba szałów</td><td>Obrażenia w szale</td></tr></thead><tbody><tr><td>1.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Szał}, @UUID[Compendium.dnd5e.classfeatures.Item.SZbsNbaxFFGwBpNK]{Obrona bez pancerza}</td><td>2</td><td>+2</td></tr><tr><td>2.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.SCVjqRdlZ9cvHVSR]{Szaleńczy atak}, @UUID[Compendium.dnd5e.classfeatures.Item.vt31lWAULygEl7yk]{Wyczucie zagrożenia}</td><td>2</td><td>+2</td></tr><tr><td>3.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.TH1QAf6YNGSeBVjT]{Pierwotna ścieżka}</td><td>3</td><td>+2</td></tr><tr><td>4.</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>3</td><td>+2</td></tr><tr><td>5.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Dodatkowy atak}, @UUID[Compendium.dnd5e.classfeatures.Item.Kl6zifJ5OmdHlOi2]{Szybki ruch}</td><td>3</td><td>+2</td></tr><tr><td>6.</td><td>+3</td><td>Właściwość pierwotnej ścieżki</td><td>4</td><td>+2</td></tr><tr><td>7.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.NlXslw4yAqmKZWtN]{Zwierzęcy instynkt}</td><td>4</td><td>+2</td></tr><tr><td>8.</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>4</td><td>+2</td></tr><tr><td>9.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutalne obrażenia (1 kość)}</td><td>4</td><td>+3</td></tr><tr><td>10.</td><td>+4</td><td>Właściwość pierwotnej ścieżki</td><td>4</td><td>+3</td></tr><tr><td>11.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.FqfmbPgxiyrWzhYk]{Niepowstrzymany Szał}</td><td>4</td><td>+3</td></tr><tr><td>12.</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>5</td><td>+3</td></tr><tr><td>13.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutalne obrażenia (2 kości)}</td><td>5</td><td>+3</td></tr><tr><td>14.</td><td>+5</td><td>Właściwość pierwotnej ścieżki</td><td>5</td><td>+3</td></tr><tr><td>15.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.l8tUhZ5Pecm9wz7I]{Trwały szał}</td><td>5</td><td>+3</td></tr><tr><td>16.</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>5</td><td>+4</td></tr><tr><td>17.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutalne obrażenia (3 kości)}</td><td>6</td><td>+4</td></tr><tr><td>18.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Q1exex5ALteprrPo]{Niezłomna potęga}</td><td>6</td><td>+4</td></tr><tr><td>19.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Zwiększenie cechy}</td><td>6</td><td>+4</td></tr><tr><td>20.</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jVU4AgqfrFaqgXns]{Pierwotny mocarz}</td><td>Bez ograniczeń</td><td>+4</td></tr></tbody></table><h1>Pierwotna ścieżka</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.uGuDQX9Mz3oHNHkU]{Ścieżka berserkera}</p>",
             "advancement": {
-                "Features": {
+                "amez6rlose3eoigo": {
                     "title": "Zdolności"
                 },
                 "udl318k61boq0rnn": {
@@ -159,13 +169,13 @@
                 "Hit Points": {
                     "title": "Punkty wytrzymałości"
                 },
-                "Expertise": {
+                "cwu9uhmtcKhqli8W": {
                     "title": "Znawstwo"
                 },
                 "O2cVH7Y5kNfoUyLg": {
                     "title": "Znawstwo"
                 },
-                "Features": {
+                "oNNPhAIeXhAweeBN": {
                     "title": "Zdolności"
                 },
                 "V3KCwHELag3C3YVj": {
@@ -202,7 +212,7 @@
                 "Spells Known": {
                     "title": "Znane czary"
                 },
-                "Ability Score Improvement": {
+                "sbzvEEntzYcE5JfN": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "adpq4VPJ5oVt8m06": {
@@ -226,7 +236,7 @@
                 "Hit Points": {
                     "title": "Punkty wytrzymałości"
                 },
-                "Features": {
+                "axeH6FmdvAfb3TnK": {
                     "title": "Zdolności"
                 },
                 "PpE7QUl3ZRdIwbSW": {
@@ -247,7 +257,7 @@
                 "Cantrips Known": {
                     "title": "Znane sztuczki"
                 },
-                "Ability Score Improvement": {
+                "PrfXQ3yQP9js943H": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "FLozwaTlMVqZKbaN": {
@@ -274,7 +284,7 @@
                 "GsMQJqy3R8DVF485": {
                     "hint": "Lekka zbroja, średnia zbroja i tarcze (druidzi nie będą nosić zbroi ani używać tarcz wykonanych z metalu)"
                 },
-                "Features": {
+                "pkkBT3JrxyLuTmwm": {
                     "title": "Zdolności"
                 },
                 "kDrm5stUR4Vp6oE3": {
@@ -292,7 +302,7 @@
                 "Cantrips Known": {
                     "title": "Znane sztuczki"
                 },
-                "Ability Score Improvement": {
+                "2T62G1BtLjN7m0D9": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "uXaQWuJioxGLKVfy": {
@@ -319,7 +329,7 @@
                 "Hit Points": {
                     "title": "Punkty wytrzymałości"
                 },
-                "Features": {
+                "PwWJCRoUIftcpy47": {
                     "title": "Zdolności"
                 },
                 "pxHWfZrwT5tdCH61": {
@@ -344,7 +354,7 @@
                 "Action Surge Uses": {
                     "title": "Użycia zdolności Przypływ sił"
                 },
-                "Ability Score Improvement": {
+                "rvfuW71lYEeJW7HS": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "g49SXigwmpaZW0Hm": {
@@ -372,7 +382,7 @@
                     "title": "Czystość ciała",
                     "hint": "Potrafisz w takim stopniu panować nad przepływającym przez ciebie ki, że stajesz się niepodatny na choroby i trucizny."
                 },
-                "Features": {
+                "n0q8XyiGA3vLPgpK": {
                     "title": "Zdolności"
                 },
                 "7TyDqpGGi3r3nsp0": {
@@ -417,7 +427,7 @@
                 "Unarmored Movement": {
                     "title": "Szybkość mnicha"
                 },
-                "Ability Score Improvement": {
+                "ofNSUhSHKhhDuPSR": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "s3t9o57hP6iUHirr": {
@@ -445,7 +455,7 @@
                     "title": "Cudowne zdrowie",
                     "hint": "Przepływająca przez ciebie boska magia sprawia, że zyskujesz odporność na choroby."
                 },
-                "Features": {
+                "HL6Kwpmrsz5yqmBK": {
                     "title": "Zdolności"
                 },
                 "RwqEtAP5aJqHIW5J": {
@@ -473,7 +483,7 @@
                     "title": "Styl walki",
                     "hint": "Wybierz jedną z poniższych opcji. Nie możesz wybrać Stylu Walki więcej niż jeden raz, nawet jeśli później pojawi się taka możliwość."
                 },
-                "Ability Score Improvement": {
+                "ASKyHbSBAKRIU6i3": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "iBK2dJf2hwv9vOBI": {
@@ -500,7 +510,7 @@
                 "Hit Points": {
                     "title": "Punkty wytrzymałości"
                 },
-                "Features": {
+                "L0DHAlnRhNlttHtT": {
                     "title": "Zdolności"
                 },
                 "yCF7xTPbbbLvy1oi": {
@@ -534,7 +544,7 @@
                 "Spells Known": {
                     "title": "Znane czary"
                 },
-                "Ability Score Improvement": {
+                "bWqpb3Malvjjk8a6": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "Dr4RKCdMxlKWoHHV": {
@@ -558,13 +568,13 @@
                 "Hit Points": {
                     "title": "Punkty wytrzymałości"
                 },
-                "Expertise": {
+                "TDHYngxGqDHllgzw": {
                     "title": "Znawstwo"
                 },
                 "Iozyk39gsM4Kecex": {
                     "title": "Znawstwo"
                 },
-                "Features": {
+                "13XHsx4Z3vQ2XYkJ": {
                     "title": "Zdolności"
                 },
                 "5crdJzGJRQIVhbyr": {
@@ -597,7 +607,7 @@
                 "Sneak Attack": {
                     "title": "Ukradkowy atak"
                 },
-                "Ability Score Improvement": {
+                "smghqQkObY4OOg30": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "WFAAUfKJA9QR46Bw": {
@@ -624,7 +634,7 @@
                 "Hit Points": {
                     "title": "Punkty wytrzymałości"
                 },
-                "Features": {
+                "tHGuZb6Cezr0Yda6": {
                     "title": "Zdolności"
                 },
                 "vEbnPhd3OW2Z5RH8": {
@@ -645,7 +655,7 @@
                 "Spells Known": {
                     "title": "Znane czary"
                 },
-                "Ability Score Improvement": {
+                "zSlKyZ0rzKcd78Cq": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "Psp6dqmMqww0D44O": {
@@ -669,7 +679,7 @@
                 "Hit Points": {
                     "title": "Punkty wytrzymałości"
                 },
-                "Features": {
+                "SikU7aSV7VqT2FPB": {
                     "title": "Zdolności"
                 },
                 "11NYHMcme54WJHuU": {
@@ -713,7 +723,7 @@
                 "Spells Known": {
                     "title": "Znane czary"
                 },
-                "Ability Score Improvement": {
+                "9tW2ZcVYgy8c3ucN": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "QH0eaxybQeeDjRan": {
@@ -737,7 +747,7 @@
                 "Hit Points": {
                     "title": "Punkty wytrzymałości"
                 },
-                "Features": {
+                "CTmwzlFgOyeE1L6K": {
                     "title": "Zdolności"
                 },
                 "AC4kN3RjttskWHUJ": {
@@ -756,7 +766,7 @@
                 "Cantrips Known": {
                     "title": "Znane sztuczki"
                 },
-                "Ability Score Improvement": {
+                "cqHTAJF9gyolaBBq": {
                     "title": "Zwiększenie wartości Cech"
                 },
                 "lQO8njk1wKmUwP1N": {
