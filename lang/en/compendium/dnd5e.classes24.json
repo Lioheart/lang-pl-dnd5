@@ -42,7 +42,9 @@
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many"
         },
         "advancement": {
             "path": "system.advancement",
@@ -51,12 +53,20 @@
             "container": "keyed",
             "keys": [
                 "_id",
+                "name",
                 "title"
             ],
             "mapping": {
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": true
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -240,7 +250,7 @@
                 "Weapon Masteries Known": {
                     "title": "Weapon Masteries Known"
                 },
-                "Class Features": {
+                "c07WAYE7J6zHt0yk": {
                     "title": "Class Features"
                 },
                 "vbNdqiHqN2qTbnUw": {
@@ -289,10 +299,10 @@
                 "Skill Proficiencies": {
                     "title": "Skill Proficiencies"
                 },
-                "Weapon Proficiencies": {
+                "Q4crzEug7m7VK51P": {
                     "title": "Weapon Proficiencies"
                 },
-                "Armor Training": {
+                "HKfpwmpBxd4539HK": {
                     "title": "Armor Training"
                 },
                 "yj2VgvjKystoRCK6": {
@@ -301,7 +311,7 @@
                 "oxhsE5PIGxe6mO4s": {
                     "title": "Armor Training"
                 },
-                "Weapon Mastery": {
+                "UJdrH9cjLqpQrLCz": {
                     "title": "Weapon Mastery",
                     "hint": "Your training with weapons allows you to use the mastery properties of additional weapons."
                 },
@@ -322,7 +332,7 @@
             "name": "Bard",
             "description": "<h3>Core Bard Traits</h3><table class=\"core-class-traits\"><tbody><tr><th><p><strong>Primary Ability</strong></p></th><td><p>Charisma</p></td></tr><tr><th><p><strong>Hit Point Die</strong></p></th><td><p>D8 per Bard level</p></td></tr><tr><th><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Dexterity and Charisma</p></td></tr><tr><th><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose any 3 skills</em></p></td></tr><tr><th><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th><p><strong>Tool Proficiencies</strong></p></th><td><p><em>Choose 3 Musical Instruments</em></p></td></tr><tr><th><p><strong>Armor Training</strong></p></th><td><p>Light armor</p></td></tr><tr><th><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, Musical Instrument of your choice, @UUID[Compendium.dnd5e.equipment24.Item.phbagEntertainer]{Entertainer's Pack}, and [[/award 19gp]]; or (B) [[/award 90GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrdBard000000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Bard …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Bard Traits table.</li><li>Gain the Bard's level 1 features, which are listed in the Bard Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.</li><li>Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
             "advancement": {
-                "Class Features": {
+                "e0FUZL9SxuBimLv3": {
                     "title": "Class Features"
                 },
                 "eHieMgibvVLqVjY8": {
@@ -361,13 +371,13 @@
                 "Saving Throw Proficiencies": {
                     "title": "Saving Throw Proficiencies"
                 },
-                "Skill Proficiencies": {
+                "NGtmmsYBnIAGKUSn": {
                     "title": "Skill Proficiencies"
                 },
                 "Weapon Proficiencies": {
                     "title": "Weapon Proficiencies"
                 },
-                "Tool Proficiencies": {
+                "2ew4StamPWWfQYsf": {
                     "title": "Tool Proficiencies"
                 },
                 "Armor Training": {
@@ -493,7 +503,7 @@
             "name": "Champion",
             "description": "<blockquote><p>Pursue Physical Excellence in Combat</p></blockquote><p>A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.</p>",
             "advancement": {
-                "Subclass Features": {
+                "1uBHnM7yyltYiGYr": {
                     "title": "Subclass Features"
                 },
                 "WS2baKDHOKdTHvn4": {
@@ -513,25 +523,11 @@
                 }
             }
         },
-        "Channel Divinity": {
-            "name": "Channel Divinity",
-            "description": "<p>You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.</p><p>You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.</p><p>If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.</p><p><strong>Divine Sense.</strong> As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the @UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Hallow} spell.</p><section class=\"secret\" id=\"secret-lIHCt32JLE7PAUbn\"><p><strong>Foundry Note</strong></p><p>The uses of your Channel Divinity increase automatically as you level up. It automatically regains the correct uses after Short and Long Rests.</p><p>The <strong>Divine Sense</strong> activity includes an Active Effect but it does not automatically reveal the given creatures.</p></section>",
-            "activities": {
-                "Divine Sense": {
-                    "name": "Divine Sense"
-                }
-            },
-            "effects": {
-                "Divine Sense": {
-                    "name": "Divine Sense"
-                }
-            }
-        },
         "Circle of the Land": {
             "name": "Circle of the Land",
             "description": "<blockquote><p>Celebrate Connection to the Natural World</p></blockquote><p>The Circle of the Land comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of their communities.</p>",
             "advancement": {
-                "Subclass Features": {
+                "amRVULpFLpOQ2gPC": {
                     "title": "Subclass Features"
                 },
                 "9l1ICcnaGx27bdOp": {
@@ -557,7 +553,7 @@
             "name": "Cleric",
             "description": "<h3>Core Cleric Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Wisdom</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Cleric level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 2: </em>History, Insight, Medicine, Persuasion, or Religion</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainShirt]{Chain Shirt}, @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepMace000000]{Mace}, @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPriestsPack]{Priest's Pack}, and [[/award 7GP]]; or (B) [[/award 110GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbclcCleric0000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Cleric …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Cleric Traits table.</li><li>Gain the Cleric's level 1 features, which are listed in the Cleric Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.</li><li>Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
             "advancement": {
-                "Class Features": {
+                "rQCM2OtE22hoSikN": {
                     "title": "Class Features"
                 },
                 "sbC9gYqIKyBudLEX": {
@@ -616,7 +612,7 @@
             "name": "College of Lore",
             "description": "<blockquote><p>Plumb the Depths of Magical Knowledge</p></blockquote><p>Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</p>",
             "advancement": {
-                "Subclass Features": {
+                "0Wn8ilqxVDetcEJb": {
                     "title": "Subclass Features"
                 },
                 "yiYMrVRwPpGHPk0N": {
@@ -939,7 +935,7 @@
             "name": "Draconic Sorcery",
             "description": "<blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p>",
             "advancement": {
-                "Subclass Features": {
+                "L6ggzptPm0jk4nxC": {
                     "title": "Subclass Features"
                 },
                 "3ptQZs8Z30J3e8MH": {
@@ -951,7 +947,7 @@
                 "zWNxZUTJugO6duSj": {
                     "title": "Subclass Features"
                 },
-                "Draconic Spells": {
+                "EgVTydL5IkLS1uph": {
                     "title": "Draconic Spells",
                     "hint": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared."
                 },
@@ -1007,7 +1003,7 @@
             "name": "Druid",
             "description": "<h3>Core Druid Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D8 per Druid level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Intelligence and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Animal Handling, Arcana, Insight, Medicine, Nature, Perception, Religion, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Tool Proficiencies</strong></p></th><td><p>Herbalism Kit</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepSickle0000]{Sickle}, @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}), @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulHerbalismK]{Herbalism Kit}, and [[/award 9GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbdrdDruid00000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Druid …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Druid Traits table.</li><li>Gain the Druid's level 1 features, which are listed in the Druid Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.</li><li>Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
             "advancement": {
-                "Class Features": {
+                "P65WodekLKSPQLGZ": {
                     "title": "Class Features"
                 },
                 "hmO24ovOBpmXAb4U": {
@@ -1050,7 +1046,7 @@
                     "title": "Primal Order",
                     "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
                 },
-                "Elemental Fury": {
+                "HYDmnuNUbI5liP08": {
                     "title": "Elemental Fury",
                     "hint": "The might of the elements flows through you. You gain one of the following options of your choice."
                 },
@@ -1230,14 +1226,6 @@
                 }
             }
         },
-        "Epic Boon": {
-            "name": "Epic Boon",
-            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofSpellRe]{Boon of Spell Recall} is recommended.</p><section class=\"secret\" id=\"secret-L2SpZgJc0oDT7wWU\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
-        },
-        "Evasion": {
-            "name": "Evasion",
-            "description": "<p>You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.</p><section class=\"secret\" id=\"secret-mJSoikZHwVq6UUDf\"><p><strong>Foundry Note</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
-        },
         "Evocation Savant": {
             "name": "Evocation Savant",
             "description": "<p>Choose two Wizard spells from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Evocation school} (change the Grouping mode to \"School\" for easier selection), each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Evocation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
@@ -1246,7 +1234,7 @@
             "name": "Evoker",
             "description": "<blockquote><p>Create Explosive Elemental Effects</p></blockquote><p>Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.</p>",
             "advancement": {
-                "Subclass Features": {
+                "NElqwo5qeP2KjewN": {
                     "title": "Subclass Features"
                 },
                 "MnGUHDUfl1pqbwJK": {
@@ -1260,10 +1248,6 @@
                 }
             }
         },
-        "Expertise": {
-            "name": "Expertise",
-            "description": "<p>Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.</p><section class=\"secret\" id=\"secret-8Sp7JCTIzt2U5K6u\"><p><strong>Foundry Note</strong></p><p>You will be prompted with a choice when you reach this level.</p></section>"
-        },
         "Extended Spell": {
             "name": "Extended Spell",
             "description": "<blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours.</p><p>If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.</p>",
@@ -1274,10 +1258,6 @@
                     "activationCondition": "When you cast a spell that has a duration of 1 minute or longer"
                 }
             }
-        },
-        "Extra Attack": {
-            "name": "Extra Attack",
-            "description": "<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>"
         },
         "Faithful Steed": {
             "name": "Faithful Steed",
@@ -1310,7 +1290,12 @@
         },
         "Favored Enemy": {
             "name": "Favored Enemy",
-            "description": "<p>You always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p>"
+            "description": "<p>You always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplHuntersMar]{Hunter's Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p>",
+            "advancement": {
+                "DOENALOWWjAUHzb7": {
+                    "title": "Favored Enemy"
+                }
+            }
         },
         "Feral Instinct": {
             "name": "Feral Instinct",
@@ -1335,7 +1320,7 @@
             "name": "Fiend Patron",
             "description": "<blockquote><p>Make a Deal with the Lower Planes</p></blockquote><p>Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.</p>",
             "advancement": {
-                "Subclass Features": {
+                "EyDjHPlaiU9pcKWc": {
                     "title": "Subclass Features"
                 },
                 "pkjDsDeyI1xHOSDb": {
@@ -1347,7 +1332,7 @@
                 "BXdX73NWYsGIrZyc": {
                     "title": "Subclass Features"
                 },
-                "Fiend Spells": {
+                "BL0KO6NHMdWDzORz": {
                     "title": "Fiend Spells",
                     "hint": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared."
                 },
@@ -1424,7 +1409,7 @@
             "name": "Fighter",
             "description": "<h3>Core Fighter Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Strength or Dexterity</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Fighter level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Constitution</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light, Medium, and Heavy armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A, B, or C:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainMail0]{Chain Mail}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreatsword]{Greatsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepFlail00000]{Flail}, 8 @UUID[Compendium.dnd5e.equipment24.Item.phbwepJavelin000]{Javelins}, @UUID[Compendium.dnd5e.equipment24.Item.phbagDungeoneers]{Dungeoneer's Pack}, and [[/award 4GP]]; (B) @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Short­sword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.equipment24.Item.phbagDungeoneers]{Dungeoneer's Pack}, and [[/award 11GP]]; or (C) [[/award 155GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbftrFighter000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Fighter …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Fighter Traits table.</li><li>Gain the Fighter's level 1 features, which are listed in the Fighter Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.</li><li>Gain the Fighter's level 1 features, which are listed in the Fighter Features table.</li></ul>",
             "advancement": {
-                "Class Features": {
+                "15eBHWfn4f7qB8mA": {
                     "title": "Class Features"
                 },
                 "T2FovyKDjcIGMPCW": {
@@ -1460,10 +1445,10 @@
                 "Skill Proficiencies": {
                     "title": "Skill Proficiencies"
                 },
-                "Weapon Proficiencies": {
+                "TsqDRDOepHDmgYjZ": {
                     "title": "Weapon Proficiencies"
                 },
-                "Armor Training": {
+                "XNba1RiASLSxoS8e": {
                     "title": "Armor Training"
                 },
                 "fK62ORkG9cOsa3XL": {
@@ -1472,7 +1457,7 @@
                 "Nl6NkDxsiWjv7MfC": {
                     "title": "Armor Training"
                 },
-                "Weapon Mastery": {
+                "mJnrjhWpEz2lMDq4": {
                     "title": "Weapon Mastery"
                 },
                 "Fighting Style": {
@@ -1491,10 +1476,6 @@
                     "title": "Weapon Mastery"
                 }
             }
-        },
-        "Fighting Style": {
-            "name": "Fighting Style",
-            "description": "<p>You gain a @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting Style feat} of your choice. Instead of choosing one of those feats, you can choose the option below.</p><hr /><p>@Embed[Compendium.dnd5e.classes24.Item.phbfstDruidicWar caption=false]</p>"
         },
         "Fleet Step": {
             "name": "Fleet Step",
@@ -1632,7 +1613,7 @@
             "name": "Hunter",
             "description": "<blockquote><p>Protect Nature and People from Destruction</p></blockquote><p>You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.</p>",
             "advancement": {
-                "Subclass Features": {
+                "wacj6x75L5ZaZUky": {
                     "title": "Subclass Features"
                 },
                 "4nA7C6uQhBJBtWdS": {
@@ -1895,7 +1876,7 @@
             "name": "Life Domain",
             "description": "<blockquote><p>Soothe the Hurts of the World</p></blockquote><p>The Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.</p><p>Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.</p>",
             "advancement": {
-                "Subclass Features": {
+                "xGJEF0anyVTaO02x": {
                     "title": "Subclass Features"
                 },
                 "Qkx3Cd07TGIwBX91": {
@@ -1904,7 +1885,7 @@
                 "fke7bQihEBwKmOXP": {
                     "title": "Subclass Features"
                 },
-                "Life Domain Spells": {
+                "MOUCVB3JGazDiUI3": {
                     "title": "Life Domain Spells"
                 },
                 "zfcT1xCvqRLRZXiH": {
@@ -2053,7 +2034,7 @@
             "name": "Monk",
             "description": "<h3>Core Monk Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Monk level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 2:</em> Acrobatics, Athletics, History, Insight, Religion, or Stealth</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons and Martial weapons that have the Light property</p></td></tr><tr><th scope=\"row\"><p>Tool Proficiencies</p></th><td><p><em>Choose one type of Artisan's Tools or Musical Instrument</em></p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>None</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear}, 5 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, Artisan's Tools or Musical Instrument chosen for the tool proficiency above, @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 11GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbmnkMonk000000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Monk …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Monk Traits table.</li><li>Gain the Monk's level 1 features, which are listed in the Monk Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die trait from the Core Monk Traits table.</li><li>Gain the Monk's level 1 features, which are listed in the Monk Features table.</li></ul>",
             "advancement": {
-                "Class Features": {
+                "IeCvD9wvP0cOa6kt": {
                     "title": "Class Features"
                 },
                 "mrRoW8wNhjYbeqH1": {
@@ -2253,7 +2234,7 @@
             "name": "Oath of Devotion",
             "description": "<blockquote><p>Uphold the Ideals of Justice and Order</p></blockquote><p>The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.</p><p>Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.</p><p>These paladins share the following tenets:</p><ul><li>Let your word be your promise.</li><li>Protect the weak and never fear to act.</li><li>Let your honorable deeds be an example.</li></ul>",
             "advancement": {
-                "Subclass Features": {
+                "jxzvTfXzjLzIvQbF": {
                     "title": "Subclass Features"
                 },
                 "jix1tV556sLlpGYr": {
@@ -2265,7 +2246,7 @@
                 "1Koj8mZO5gVtRril": {
                     "title": "Subclass Features"
                 },
-                "Oath of Devotion Spells": {
+                "vplzciS9QHhcjdQt": {
                     "title": "Oath of Devotion Spells"
                 },
                 "9rAVikjK0DFEkhXH": {
@@ -2399,7 +2380,7 @@
             "name": "Paladin",
             "description": "<h3>Core Paladin Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Strength and Charisma</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Paladin level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2: </em>Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light, Medium, and Heavy armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainMail0]{Chain Mail}, @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword}, 6 @UUID[Compendium.dnd5e.equipment24.Item.phbwepJavelin000]{Javelins}, @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol}, @UUID[Compendium.dnd5e.equipment24.Item.phbagPriestsPack]{Priest's Pack}, and [[/award 9GP]]; or (B) [[/award 150GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbpdnPaladin000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Paladin …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Paladin Traits table.</li><li>Gain the Paladin's level 1 features, which are listed in the Paladin Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.</li><li>Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul><blockquote><p><strong>Breaking Your Oath</strong></p><p>A Paladin tries to hold to the highest standards of conduct, but even the most dedicated are fallible. Sometimes a Paladin transgresses their oath.</p><p>A Paladin who has broken a vow typically seeks absolution, spending an all-night vigil as a sign of penitence or undertaking a fast. After a rite of forgiveness, the Paladin starts fresh.</p><p>If your Paladin unrepentantly violates their oath, talk to your DM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one.</p></blockquote>",
             "advancement": {
-                "Class Features": {
+                "Cu9TxxKJqfAOPURY": {
                     "title": "Class Features"
                 },
                 "AKkVlHKAVYHNqf6q": {
@@ -2444,10 +2425,10 @@
                 "Skill Proficiencies": {
                     "title": "Skill Proficiencies"
                 },
-                "Weapon Proficiencies": {
+                "iZReGwulhKjVqgRD": {
                     "title": "Weapon Proficiencies"
                 },
-                "Armor Training": {
+                "2sq0pcazOXs74X5l": {
                     "title": "Armor Training"
                 },
                 "dSjz0J0F5cQLvWTd": {
@@ -2472,7 +2453,7 @@
             "name": "Path of the Berserker",
             "description": "<blockquote><p>Channel Rage into Violent Fury</p></blockquote><p>Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.</p>",
             "advancement": {
-                "Subclass Features": {
+                "F2EPRo00Nf6Ds8Lk": {
                     "title": "Subclass Features"
                 },
                 "2AGvW4P2FHYxDTmU": {
@@ -2513,6 +2494,263 @@
                     "activationCondition": "When you roll initiative"
                 }
             }
+        },
+        "phbbrbEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofIrresis]{Boon of Irresistible Offense} is recommended.</p>",
+            "requirements": "Barbarian"
+        },
+        "phbbrbExtraAttac": {
+            "name": "Extra Attack",
+            "description": "<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>",
+            "requirements": "Barbarian"
+        },
+        "phbbrbUnarmedStr": {
+            "name": "Unarmed Strike",
+            "description": "<p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Unarmed Strike Rules}</p>",
+            "activities": {
+                "Grapple/Shove": {
+                    "name": "Grapple/Shove",
+                    "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Grappled": {
+                    "name": "Grappled"
+                },
+                "Prone": {
+                    "name": "Prone"
+                }
+            }
+        },
+        "phbbrbUnarmoredD": {
+            "name": "Unarmored Defense",
+            "description": "<p>While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.</p>",
+            "requirements": "Barbarian",
+            "effects": {
+                "Unarmored Defense": {
+                    "name": "Unarmored Defense"
+                }
+            }
+        },
+        "phbbrbWeaponMast": {
+            "name": "Weapon Mastery",
+            "description": "<p>Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.</p><p>When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.</p>",
+            "requirements": "Barbarian"
+        },
+        "phbbrdEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon} feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.</p>",
+            "requirements": "Bard"
+        },
+        "phbbrdExpertise0": {
+            "name": "Expertise",
+            "description": "<p>You gain &amp;Reference[Expertise] in two of your skill proficiencies of your choice. Performance and Persuasion are recommended if you have proficiency in them.</p><p>At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.</p>",
+            "requirements": "Bard"
+        },
+        "phbbrdSpellcasti": {
+            "name": "Spellcasting",
+            "description": "<p>You have learned to cast spells through your bardic arts. See @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{chapter 7} for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{Bard spell list}.</p><p><strong>Cantrips.</strong> You know two cantrips of your choice from the Bard spell list. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights}</em> and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplViciousMoc]{Vicious Mockery}</em> are recommended.</p><p>Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list.</p><p>When you reach Bard levels 4 and 10, you learn another cantrip of your choice from the Bard spell list, as shown in the Cantrips column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#class-features]{Bard Features} table.</p><p><strong>Spell Slots.</strong> The Bard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Charm Person}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplColorSpray]{Color Spray}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDissonantW]{Dissonant Whispers}</em>, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHealingWor]{Healing Word} </em>are recommended.</p><p>The number of spells on your list increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard Features table. Whenever that number increases, choose additional spells from the Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Bard, your list of prepared spells can include six spells of levels 1 and 2 in any combination.</p><p>If another Bard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Bard spells for you.</p><p><strong>Changing Your Prepared Spells. </strong>Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.</p><p><strong>Spellcasting Ability. </strong>Charisma is your spellcasting ability for your Bard spells.</p><p><strong>Spellcasting Focus. </strong>You can use a Musical Instrument as a Spellcasting Focus for your Bard spells.</p>",
+            "requirements": "Bard"
+        },
+        "phbclcChannelDiv": {
+            "name": "Channel Divinity",
+            "description": "<p>You can channel divine energy directly from the Outer Planes to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use this class's Channel Divinity, choose which Channel Divinity effect from this class to create. You gain additional effect options at higher Cleric levels.</p><p>You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain additional uses when you reach certain Cleric levels, as shown in the Channel Divinity column of the Cleric Features table.</p><p>If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.</p><p><strong>Divine Spark.</strong> As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll 1d8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).</p><p>You roll an additional d8 when you reach Cleric levels 7 (2d8), 13 (3d8), and 18 (4d8).</p><p><strong>Turn Undead.</strong> As a Magic action, you present your Holy Symbol and censure Undead creatures. Each Undead of your choice within 30 feet of you must make a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.</p><section class=\"secret\" id=\"secret-1ECtJAnUinEegKtL\"><p><strong>Foundry Note</strong></p><p>This feature will automatically restore 1 use on a Short Rest and all on a Long Rest. The uses scale automatically as you level up.</p><p>The <strong>Divine Spark: Heal</strong> activity includes the healing effect.</p><p>The <strong>Divine Spark: Save</strong> activity includes the saving throw.</p><p>The <strong>Turn Undead</strong> activity includes an Active Effect that applies the Frightened and Incapacitated conditions.</p></section>",
+            "requirements": "Cleric",
+            "activities": {
+                "Divine Spark: Heal": {
+                    "name": "Divine Spark: Heal"
+                },
+                "Divine Spark: Save": {
+                    "name": "Divine Spark: Save",
+                    "damageOnSave": "half"
+                },
+                "Turn Undead": {
+                    "name": "Turn Undead",
+                    "target": "Undead of your choice"
+                }
+            },
+            "effects": {
+                "Turned": {
+                    "name": "Turned",
+                    "description": "<p>For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.</p>"
+                }
+            },
+            "advancement": {
+                "Divine Spark Die Count": {
+                    "title": "Divine Spark Die Count"
+                }
+            }
+        },
+        "phbclcEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofFate000]{Boon of Fate} is recommended.</p>",
+            "requirements": "Cleric"
+        },
+        "phbclcSpellcasti": {
+            "name": "Spellcasting",
+            "description": "<p>You have learned to cast spells through prayer and meditation. See @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{chapter 7} for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell list}.</p><p><strong>Cantrips.</strong> You know three cantrips of your choice from the Cleric spell list. @UUID[Compendium.dnd5e.spells24.Item.phbsplGuidance00]{Guidance}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSacredFlam]{Sacred Flame}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy} are recommended.</p><p>Whenever you gain a Cleric level, you can replace one of your cantrips with another cantrip of your choice from the Cleric spell list.</p><p>When you reach Cleric levels 4 and 10, you learn another cantrip of your choice from the Cleric spell list, as shown in the Cantrips column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbCleric0000000.JournalEntryPage.acPyA6A4DQBSnuZB#class-features]{Cleric Features} table.</p><p><strong>Spell Slots.</strong> The Cleric Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Cleric spell list. @UUID[Compendium.dnd5e.spells24.Item.phbsplBless00000]{Bless}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds}, @UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding Bolt}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplShieldofFa]{Shield of Faith} are recommended.</p><p>The number of spells on your list increases as you gain Cleric levels, as shown in the Prepared Spells column of the Cleric Features table. Whenever that number increases, choose additional spells from the Cleric spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Cleric, your list of prepared spells can include six spells of levels 1 and 2 in any combination.</p><p>If another Cleric feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Cleric spells for you.</p><p><strong>Changing Your Prepared Spells. </strong>Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Cleric spells for which you have spell slots.</p><p><strong>Spellcasting Ability. </strong>Wisdom is your spellcasting ability for your Cleric spells.</p><p><strong>Spellcasting Focus. </strong>You can use a Holy Symbol as a Spellcasting Focus for your Cleric spells.</p>",
+            "requirements": "Cleric"
+        },
+        "phbdrdEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p>",
+            "requirements": "Druid"
+        },
+        "phbdrdSpellcasti": {
+            "name": "Spellcasting",
+            "description": "<p>You have learned to cast spells through studying the mystical forces of nature. See @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{chapter 7} for the rules on spellcasting. The information below details how you use those rules with Druid spells, which appear on the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid spell list}.</p><p><strong>Cantrips.</strong> You know two cantrips of your choice from the Druid spell list. @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} and @UUID[Compendium.dnd5e.spells24.Item.phbsplProduceFla]{Produce Flame} are recommended.</p><p>Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.</p><p>When you reach Druid levels 4 and 10, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid Features} table.</p><p><strong>Spell Slots.</strong> The Druid Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. @UUID[Compendium.dnd5e.spells24.Item.phbsplAnimalFrie]{Animal Friendship}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplThunderwav]{Thunderwave} are recommended.</p><p>The number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.</p><p>If another Druid feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Druid spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells with other Druid spells for which you have spell slots.</p><p><strong>Spellcasting Ability. </strong>Wisdom is your spellcasting ability for your Druid spells.</p><p><strong>Spellcasting Focus. </strong>You can use a Druidic Focus as a Spellcasting Focus for your Druid spells.</p>",
+            "requirements": "Druid"
+        },
+        "phbftrEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofCombatP]{Boon of Combat Prowess} is recommended.</p>"
+        },
+        "phbftrExtraAttac": {
+            "name": "Extra Attack",
+            "description": "<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>"
+        },
+        "phbftrFightingSt": {
+            "name": "Fighting Style",
+            "description": "<p>You have honed your martial prowess and gain a @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting Style feat} of your choice. @UUID[Compendium.dnd5e.feats24.Item.phbfstDefense000]{Defense} is recommended.</p><p>Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.</p>"
+        },
+        "phbftrWeaponMast": {
+            "name": "Weapon Mastery",
+            "description": "<p>Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.</p><p>When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbFighter000000.JournalEntryPage.wDELe3k25FQvYdrq#class-features]{Fighter Features} table.</p><section class=\"secret\" id=\"secret-Qfoze6XoZUYIlAnw\"><p><strong>Foundry Note</strong></p><p>To change your masteries toggle on the \"Edit\" mode of your sheet. On the \"Details\" tab click on the cog icon next to \"Weapons\" in the bottom right. You can place a check in the mastery column of your chosen weapons.</p></section>"
+        },
+        "phbmnkEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC#boon-of-irresistible-offense]{Boon of Irresistible Offense} is recommended.</p><section id=\"secret-jF1SP5ddqgocevbp\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+        },
+        "phbmnkEvasion000": {
+            "name": "Evasion",
+            "description": "<p>When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.</p><p>You don't benefit from this feature if you have the Incapacitated condition.</p>"
+        },
+        "phbmnkExtraAttac": {
+            "name": "Extra Attack",
+            "description": "<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>"
+        },
+        "phbmnkUnarmedStr": {
+            "name": "Unarmed Strike",
+            "description": "<p>You can use Dexterity instead of Strength for the attack and damage rolls of your &amp;Reference[Unarmed Strike]{unarmed strikes}. You can roll your Martial Arts die in place of the normal damage.</p>\n<p><em>See: @UUID[Compendium.dnd5e.classes24.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>",
+            "activities": {
+                "Grapple/Shove": {
+                    "name": "Grapple/Shove",
+                    "chatFlavor": "Grapple or Shove attempt",
+                    "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Grappled": {
+                    "name": "Grappled"
+                },
+                "Prone": {
+                    "name": "Prone"
+                }
+            }
+        },
+        "phbmnkUnarmoredD": {
+            "name": "Unarmored Defense",
+            "description": "<p>While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.</p><section class=\"secret\" id=\"secret-yjsIRRlbUz035Dnj\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which updates your Armor Class.</p></section>",
+            "effects": {
+                "Unarmored Defense": {
+                    "name": "Unarmored Defense"
+                }
+            }
+        },
+        "phbpdnChannelDiv": {
+            "name": "Channel Divinity",
+            "description": "<p>You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.</p><p>You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.</p><p>If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.</p><p><strong>Divine Sense.</strong> As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the @UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Hallow} spell.</p><section class=\"secret\" id=\"secret-lIHCt32JLE7PAUbn\"><p><strong>Foundry Note</strong></p><p>The uses of your Channel Divinity increase automatically as you level up. It automatically regains the correct uses after Short and Long Rests.</p><p>The <strong>Divine Sense</strong> activity includes an Active Effect but it does not automatically reveal the given creatures.</p></section>",
+            "activities": {
+                "Divine Sense": {
+                    "name": "Divine Sense"
+                }
+            },
+            "effects": {
+                "Divine Sense": {
+                    "name": "Divine Sense"
+                }
+            }
+        },
+        "phbpdnEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofTruesig]{Boon of Truesight} is recommended.</p><section class=\"secret\" id=\"secret-KoLcW2QoxzD8LnAY\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+        },
+        "phbpdnExtraAttac": {
+            "name": "Extra Attack",
+            "description": "<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>"
+        },
+        "phbpdnFightingSt": {
+            "name": "Fighting Style",
+            "description": "<p>You gain a @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting Style feat} of your choice. Instead of choosing one of those feats, you can choose the option below.</p><hr /><p>@Embed[Compendium.dnd5e.classes24.Item.phbfstBlessedWar caption=false]</p>"
+        },
+        "phbpdnSpellcasti": {
+            "name": "Spellcasting",
+            "description": "<p>You have learned to cast spells through prayer and meditation. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{rules on spellcasting}. The information below details how you use those rules with Paladin spells, which appear in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.8yD9Jgp404hfZ9ie]{Paladin spell list}.</p><p><strong>Spell Slots.</strong> The @UUID[Compendium.dnd5e.content24.JournalEntry.phbPaladin000000.JournalEntryPage.A34CXe4HdzXHoBEl#class-features]{Paladin Features table} shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Paladin spells. <em>Heroism</em> and <em>Searing Smite</em> are recommended.</p><p>The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Paladin Features table. Whenever that number increases, choose additional Paladin spells until the number of spells on your list matches the number in the Paladin Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Paladin, your list of prepared spells can include six Paladin spells of level 1 or 2 in any combination.</p><p>If another Paladin feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Paladin spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can replace one spell on your list with another Paladin spell for which you have spell slots.</p><p><strong>Spellcasting Ability. </strong>Charisma is your spellcasting ability for your Paladin spells.</p><p><strong>Spellcasting Focus. </strong>You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.</p>"
+        },
+        "phbpdnWeaponMast": {
+            "name": "Weapon Mastery",
+            "description": "<p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.</p><p>Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.</p>"
+        },
+        "phbrgeEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonoftheNigh]{Boon of the Night Spirit} is recommended.</p><section class=\"secret\" id=\"secret-Wpt1OtuMYQJ7BwK8\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+        },
+        "phbrgeEvasion000": {
+            "name": "Evasion",
+            "description": "<p>You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.</p><section class=\"secret\" id=\"secret-mJSoikZHwVq6UUDf\"><p><strong>Foundry Note</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
+        },
+        "phbrgeExpertise0": {
+            "name": "Expertise",
+            "description": "<p>You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.</p><p>At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.</p><section id=\"secret-d8cc1fheUe7P6H44\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your expertise choices as you level up.</p></section>"
+        },
+        "phbrgeWeaponMast": {
+            "name": "Weapon Mastery",
+            "description": "<p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.</p><p>Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords.</p>"
+        },
+        "phbrgrEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p><section id=\"secret-YoYODjOrhZ9UwOVg\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+        },
+        "phbrgrExpertise0": {
+            "name": "Expertise",
+            "description": "<p>Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.</p><section class=\"secret\" id=\"secret-8Sp7JCTIzt2U5K6u\"><p><strong>Foundry Note</strong></p><p>You will be prompted with a choice when you reach this level.</p></section>"
+        },
+        "phbrgrExtraAttac": {
+            "name": "Extra Attack",
+            "description": "<p>You can attack twice instead of once whenever you take the Attack action on your turn.</p>"
+        },
+        "phbrgrFightingSt": {
+            "name": "Fighting Style",
+            "description": "<p>You gain a @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting Style feat} of your choice. Instead of choosing one of those feats, you can choose the option below.</p><hr /><p>@Embed[Compendium.dnd5e.classes24.Item.phbfstDruidicWar caption=false]</p>"
+        },
+        "phbrgrSpellcasti": {
+            "name": "Spellcasting",
+            "description": "<p>You have learned to channel the magical essence of nature to cast spells. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{rules on spellcasting}. The information below details how you use those rules with Ranger spells, which appear in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.5HnIk6HsrSxkvkz5]{Ranger spell list}.</p><p><strong>Spell Slots.</strong> The @UUID[Compendium.dnd5e.content24.JournalEntry.phbRanger0000000.JournalEntryPage.fgzoeAJE4EEUSOYQ#class-features]{Ranger Features table} shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds} and @UUID[Compendium.dnd5e.spells24.Item.phbsplEnsnaringS]{Ensnaring Strike} are recommended.</p><p>The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.</p><p>If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.</p><p><strong>Spellcasting Ability. </strong>Wisdom is your spellcasting ability for your Ranger spells.</p><p><strong>Spellcasting Focus. </strong>You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.</p>"
+        },
+        "phbrgrWeaponMast": {
+            "name": "Weapon Mastery",
+            "description": "<p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.</p><p>Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.</p>"
+        },
+        "phbscrEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon} feat or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofDimensi]{Boon of Dimensional Travel} is recommended.</p><section class=\"secret\" id=\"secret-CmWMt903bQgV5LwE\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+        },
+        "phbscrSpellcasti": {
+            "name": "Spellcasting",
+            "description": "<p>Drawing from your innate magic, you can cast spells. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{rules on spellcasting}. The information below details how you use those rules with Sorcerer spells, which appear in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.VfZ5mH2ZuyFq82Ga]{Sorcerer spell list} later in the class's description.</p><p><strong>Cantrips.</strong> You know four Sorcerer cantrips of your choice. @UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light}, @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}, @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplSorcerousB]{Sorcerous Burst} are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.</p><p>When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.</p><p><strong>Spell Slots.</strong> The @UUID[Compendium.dnd5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{Sorcerer Features table} shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Sorcerer spells. <em>Burning Hands</em> and <em>Detect Magic</em> are recommended.</p><p>The number of spells on your list increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer Features table. Whenever that number increases, choose additional Sorcerer spells until the number of spells on your list matches the number in the Sorcerer Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Sorcerer, your list of prepared spells can include six Sorcerer spells of level 1 or 2 in any combination.</p><p>If another Sorcerer feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Sorcerer spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.</p><p><strong>Spellcasting Ability.</strong> Charisma is your spellcasting ability for your Sorcerer spells.</p><p><strong>Spellcasting Focus.</strong> You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.</p>"
+        },
+        "phbwlkEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofFate000]{Boon of Fate} is recommended.</p><section class=\"secret\" id=\"secret-3jLCwJ5kXU8LAeU2\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+        },
+        "phbwzdEpicBoon00": {
+            "name": "Epic Boon",
+            "description": "<p>You gain an @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Epic Boon feat} or another feat of your choice for which you qualify. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofSpellRe]{Boon of Spell Recall} is recommended.</p><section class=\"secret\" id=\"secret-L2SpZgJc0oDT7wWU\"><p><strong>Foundry Note</strong></p><p>You will be prompted for a choice while leveling up.</p></section>"
+        },
+        "phbwzdSpellcasti": {
+            "name": "Spellcasting",
+            "description": "<p>As a student of arcane magic, you have learned to cast spells. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{rules on spellcasting}. The information below details how you use those rules with Wizard spells, which appear in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard spell list}.</p><p><strong>Cantrips.</strong> You know three Wizard cantrips of your choice. @UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost} are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p><p>When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Wizard Features table}.</p><p><strong>Spellbook. </strong>Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting @UUID[Compendium.dnd5e.spells24.Item.phbsplIdentify00]{Identify}. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.</p><p>The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Feather Fall}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMageArmor0]{Mage Armor}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplThunderwav]{Thunderwave} are recommended.</p><p>Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly.</p><p><strong>Spell Slots.</strong> The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.</p><p>The number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.</p><p>If another Wizard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook.</p><p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your Wizard spells.</p><p><strong>Spellcasting Focus. </strong>You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.</p>"
         },
         "Potent Cantrip": {
             "name": "Potent Cantrip",
@@ -2637,7 +2875,84 @@
         },
         "Ranger": {
             "name": "Ranger",
-            "description": "<h3>Core Ranger Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Ranger level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 3:</em> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{sprig of mistletoe}), @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 7GP]]; or (B) [[/award 150GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgrRanger0000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Ranger Traits table.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>"
+            "description": "<h3>Core Ranger Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D10 per Ranger level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 3:</em> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmStuddedLea]{Studded Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepScimitar00]{Scimitar}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Shortsword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongbow000]{Longbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{sprig of mistletoe}), @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's Pack}, and [[/award 7GP]]; or (B) [[/award 150GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgrRanger0000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Ranger …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Ranger Traits table.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.</li><li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
+            "advancement": {
+                "R77BAIzMfcPq0urg": {
+                    "title": "Class Features"
+                },
+                "0XJhkNDTm9P3K5n3": {
+                    "title": "Class Features"
+                },
+                "onoWzEIWhrrG4QJt": {
+                    "title": "Class Features"
+                },
+                "fEmkkyi2Z6qGfYOZ": {
+                    "title": "Class Features"
+                },
+                "fy2LFc8UC9PTq4aF": {
+                    "title": "Class Features"
+                },
+                "Yscwm2LPBUNjW0pk": {
+                    "title": "Expertise"
+                },
+                "tfv4CeK2F4fdZMMi": {
+                    "title": "Class Features"
+                },
+                "yMKZmo7nE6oSFMD0": {
+                    "title": "Class Features"
+                },
+                "zurYQjBBNQW92SAz": {
+                    "title": "Class Features"
+                },
+                "c3CqyzFeTFA5Yq8u": {
+                    "title": "Class Features"
+                },
+                "e1EWIvBos04kIm4n": {
+                    "title": "Class Features"
+                },
+                "M9VOxnHqo0qYtwGb": {
+                    "title": "Class Features"
+                },
+                "FksFWNV4X4lTFlvO": {
+                    "title": "Favored Enemy"
+                },
+                "PLqssMc398jEsEW4": {
+                    "title": "Deft Explorer"
+                },
+                "wzh6lW4bOlQy4geS": {
+                    "title": "Deft Explorer"
+                },
+                "2Wma1d7xii6GUWC9": {
+                    "title": "Hunter's Mark Damage"
+                },
+                "iYdu1uOqAnHGWIZY": {
+                    "title": "Max Prepared Spells"
+                },
+                "3trTn2JpXbZ6X24q": {
+                    "title": "Saving Throw Proficiencies"
+                },
+                "H1iv8RH9TOVH30qO": {
+                    "title": "Skill Proficiencies"
+                },
+                "knFte4PvZAtHAcFJ": {
+                    "title": "Weapon Proficiencies"
+                },
+                "TehnIJlh1drGLjpj": {
+                    "title": "Armor Training"
+                },
+                "491B9spyMvoNt2ij": {
+                    "title": "Skill Proficiencies"
+                },
+                "AtKKnCoTLBqSxhCh": {
+                    "title": "Fighting Style"
+                },
+                "cvPNAaphQTdoQqAb": {
+                    "title": "Weapon Mastery"
+                },
+                "wXbfWOQp62GRMMlZ": {
+                    "title": "Weapon Proficiencies"
+                }
+            }
         },
         "Reckless Attack": {
             "name": "Reckless Attack",
@@ -2721,7 +3036,7 @@
             "name": "Rogue",
             "description": "<h3>Core Rogue Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Dexterity</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Rogue level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Dexterity and Intelligence</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 4: </em>Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, or Stealth</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons and Martial weapons that have the Finesse or Light property</p></td></tr><tr><th scope=\"row\"><p>Tool Proficiencies</p></th><td><p>Thieves' Tools</p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>Light armor</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortsword]{Short­sword}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows}, @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulThievesToo]{Thieves' Tools}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBurglarsPac]{Burglar's Pack}, and [[/award 8GP]]; or (B) [[/award 100GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbrgeRogue00000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Rogue …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Rogue Traits table.</li><li>Gain the Rogue's level 1 features, which are listed in the Rogue Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue's skill list, proficiency with Thieves' Tools, and training with Light armor.</li><li>Gain the Rogue's level 1 features, which are listed in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbRogue00000000.JournalEntryPage.gJV8iDqdNhRMLi5r#class-features]{Rogue Features table}.</li></ul>",
             "advancement": {
-                "Class Features": {
+                "4lvoA3fvGLv15lyc": {
                     "title": "Class Features"
                 },
                 "MWgIb29krlDy6YW6": {
@@ -2751,7 +3066,7 @@
                 "Rb7qWhNRuua2brG0": {
                     "title": "Class Features"
                 },
-                "Expertise": {
+                "4doj2kFD8sIYiX8X": {
                     "title": "Expertise",
                     "hint": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them."
                 },
@@ -2774,7 +3089,7 @@
                 "Saving Throw Proficiencies": {
                     "title": "Saving Throw Proficiencies"
                 },
-                "Skill Proficiencies": {
+                "xE00qAIjMdw63Kja": {
                     "title": "Skill Proficiencies"
                 },
                 "Weapon Proficiencies": {
@@ -2915,7 +3230,7 @@
             "name": "Sorcerer",
             "description": "<h3>Core Sorcerer Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Charisma</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D6 per Sorcerer level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Constitution and Charisma</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Arcana, Deception, Insight, Intimidation, Persuasion, or Religion</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>None</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbafcCrystal000]{crystal}), @UUID[Compendium.dnd5e.equipment24.Item.phbagDungeoneers]{Dungeoneer's Pack}, and [[/award 28GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbscrSorcerer00 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Sorcerer …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Sorcerer Traits table.</li><li>Gain the Sorcerer's level 1 features, which are listed in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{Sorcerer Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die from the Core Sorcerer Traits table.</li><li>Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing rules} to determine your available spell slots.</li></ul>",
             "advancement": {
-                "Class Features": {
+                "preISmaDhLpsoWqy": {
                     "title": "Class Features"
                 },
                 "c5fRAxTbRHamZM7M": {
@@ -2985,10 +3300,6 @@
                     "name": "Mastered"
                 }
             }
-        },
-        "Spellcasting": {
-            "name": "Spellcasting",
-            "description": "<p>As a student of arcane magic, you have learned to cast spells. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{rules on spellcasting}. The information below details how you use those rules with Wizard spells, which appear in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard spell list}.</p><p><strong>Cantrips.</strong> You know three Wizard cantrips of your choice. @UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost} are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p><p>When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Wizard Features table}.</p><p><strong>Spellbook. </strong>Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting @UUID[Compendium.dnd5e.spells24.Item.phbsplIdentify00]{Identify}. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.</p><p>The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Feather Fall}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMageArmor0]{Mage Armor}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplThunderwav]{Thunderwave} are recommended.</p><p>Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly.</p><p><strong>Spell Slots.</strong> The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.</p><p>The number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.</p><p>If another Wizard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook.</p><p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your Wizard spells.</p><p><strong>Spellcasting Focus. </strong>You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.</p>"
         },
         "Steady Aim": {
             "name": "Steady Aim",
@@ -3183,7 +3494,7 @@
             "name": "Thief",
             "description": "<blockquote><p>Hunt for Treasure as a Classic Adventurer</p></blockquote><p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p>",
             "advancement": {
-                "Subclass Features": {
+                "52x82ltPXCgmrh1K": {
                     "title": "Subclass Features"
                 },
                 "MlEcUhyGRGitfiUJ": {
@@ -3254,34 +3565,6 @@
             "name": "Two Extra Attacks",
             "description": "<p>You can attack three times instead of once whenever you take the Attack action on your turn.</p>"
         },
-        "Unarmed Strike": {
-            "name": "Unarmed Strike",
-            "description": "<p>You can use Dexterity instead of Strength for the attack and damage rolls of your &amp;Reference[Unarmed Strike]{unarmed strikes}. You can roll your Martial Arts die in place of the normal damage.</p>\n<p><em>See: @UUID[Compendium.dnd5e.classes24.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>",
-            "activities": {
-                "Grapple/Shove": {
-                    "name": "Grapple/Shove",
-                    "chatFlavor": "Grapple or Shove attempt",
-                    "damageOnSave": "half"
-                }
-            },
-            "effects": {
-                "Grappled": {
-                    "name": "Grappled"
-                },
-                "Prone": {
-                    "name": "Prone"
-                }
-            }
-        },
-        "Unarmored Defense": {
-            "name": "Unarmored Defense",
-            "description": "<p>While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.</p><section class=\"secret\" id=\"secret-yjsIRRlbUz035Dnj\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which updates your Armor Class.</p></section>",
-            "effects": {
-                "Unarmored Defense": {
-                    "name": "Unarmored Defense"
-                }
-            }
-        },
         "Unarmored Movement": {
             "name": "Unarmored Movement",
             "description": "<p>Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table.</p><p><strong>Current Increase:</strong> [[lookup @scale.monk.unarmored-movement]]</p>",
@@ -3331,7 +3614,7 @@
             "name": "Warlock",
             "description": "<h3>Core Warlock Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Primary Ability</p></th><td><p>Charisma</p></td></tr><tr><th scope=\"row\"><p>Hit Point Die</p></th><td><p>D8 per Warlock level</p></td></tr><tr><th scope=\"row\"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th scope=\"row\"><p>Skill Proficiencies</p></th><td><p><em>Choose 2: </em>Arcana, Deception, History, Intimidation, Investigation, Nature, or Religion</p></td></tr><tr><th scope=\"row\"><p>Weapon Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p>Armor Training</p></th><td><p>Light armor</p></td></tr><tr><th scope=\"row\"><p>Starting Equipment</p></th><td><p><em>Choose A or B: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepSickle0000]{Sickle}, 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbafcOrb0000000]{orb}), @UUID[Compendium.dnd5e.equipment24.Item.phiPN9UzkXk3i5xh]{Book} (occult lore), @UUID[Compendium.dnd5e.equipment24.Item.phbagScholarsPac]{Scholar's Pack}, and [[/award 15GP]]; or (B) [[/award 100GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwlkWarlock000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Warlock …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Warlock Traits table.</li><li>Gain the Warlock's level 1 features, which are listed in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Warlock Features table}.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.</li><li>Gain the Warlock's level 1 features, which are listed in the Warlock Features table. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing rules} to determine your available spell slots.</li></ul>",
             "advancement": {
-                "Class Features": {
+                "yjm7B73po6OV5DPi": {
                     "title": "Class Features"
                 },
                 "IUkGspfJYbVXFLjw": {
@@ -3396,7 +3679,7 @@
             "name": "Warrior of the Open Hand",
             "description": "<blockquote><p>Master Unarmed Combat Techniques</p></blockquote><p>Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.</p>",
             "advancement": {
-                "Subclass Features": {
+                "VeL49OqjttBKjx3J": {
                     "title": "Subclass Features"
                 },
                 "KKc6VtzWsSGh2NnC": {
@@ -3409,10 +3692,6 @@
                     "title": "Subclass Features"
                 }
             }
-        },
-        "Weapon Mastery": {
-            "name": "Weapon Mastery",
-            "description": "<p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.</p><p>Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.</p>"
         },
         "Whispers of the Grave": {
             "name": "Whispers of the Grave",
@@ -3491,7 +3770,7 @@
             "name": "Wizard",
             "description": "<h3>Core Wizard Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Intelligence</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D6 per Wizard level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Intelligence and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em>Arcana, History, Insight, Investigation, Medicine, Nature, or Religion</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>None</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr]{Spellbook}, @UUID[Compendium.dnd5e.equipment24.Item.phbagScholarsPac]{Scholar's Pack}, and [[/award 5GP]]; or (B) [[/award 55GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwzdWizard0000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Wizard …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Wizard Traits table.</li><li>Gain the Wizard's level 1 features, which are listed in the Wizard Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die from the Core Wizard Traits table.</li><li>Gain the Wizard's level 1 features, which are listed in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Wizard Features table}. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing rules} to determine your available spell slots.</li></ul><aside class=\"notable\"><p><strong>Expanding and Replacing a Spellbook</strong></p><p>The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.</p><p><strong>Copying a Spell into the Book.</strong> When you find a level 1+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.</p><p><strong>Copying the Book.</strong> You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p><p>If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p></aside>",
             "advancement": {
-                "Class Features": {
+                "2whBHO3s8fBYBEWi": {
                     "title": "Class Features"
                 },
                 "JTCSb4dfm8Auy6WD": {

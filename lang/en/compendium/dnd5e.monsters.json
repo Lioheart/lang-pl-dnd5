@@ -60,7 +60,9 @@
                 },
                 "effects": {
                     "path": "effects",
-                    "converter": "effects"
+                    "converter": "document",
+                    "documentType": "ActiveEffect",
+                    "cardinality": "many"
                 },
                 "advancement": {
                     "path": "system.advancement",
@@ -69,12 +71,20 @@
                     "container": "keyed",
                     "keys": [
                         "_id",
+                        "name",
                         "title"
                     ],
                     "mapping": {
                         "title": "title",
                         "hint": "hint",
                         "_variants": [
+                            {
+                                "_when": {
+                                    "path": "name",
+                                    "exists": true
+                                },
+                                "title": "name"
+                            },
                             {
                                 "_when": {
                                     "path": "type",
@@ -3434,7 +3444,11 @@
                         }
                     },
                     "effects": {
-                        "Reckless": {
+                        "WqXUqzRbXoMjF2MJ": {
+                            "name": "Reckless",
+                            "description": "<p>Attack rolls against it have advantage until the start of its next turn.</p>"
+                        },
+                        "mc0qfRRq1rZXrJbi": {
                             "name": "Reckless",
                             "description": "<p>You have advantage on all melee weapon attack rolls during your turn, but attack rolls against you have advantage until the start of your next turn.</p>"
                         }
@@ -8534,7 +8548,23 @@
                 }
             },
             "effects": {
-                "Hydra Head": {
+                "3dYEatAuBib3c6FB": {
+                    "name": "Hydra Head",
+                    "description": "<p>You have a living head. You die if you lose all of your heads.</p>"
+                },
+                "9CBlGehfEb970RQi": {
+                    "name": "Hydra Head",
+                    "description": "<p>You have a living head. You die if you lose all of your heads.</p>"
+                },
+                "DrW5Xoq9GMgWz27O": {
+                    "name": "Hydra Head",
+                    "description": "<p>You have a living head. You die if you lose all of your heads.</p>"
+                },
+                "KC8JCApAH9x0JxIL": {
+                    "name": "Hydra Head",
+                    "description": "<p>You have a living head. You die if you lose all of your heads.</p>"
+                },
+                "UGQKqZq1BCUTPQOT": {
                     "name": "Hydra Head",
                     "description": "<p>You have a living head. You die if you lose all of your heads.</p>"
                 }
@@ -8986,7 +9016,7 @@
                         }
                     }
                 },
-                "Lightning Storm": {
+                "wVCkpBj5omvdfaMm": {
                     "name": "Lightning Storm",
                     "description": "<p>The kraken magically creates three bolts of lightning, each of which can strike a target the kraken can see within [[lookup @labels.description.range activity=TwlWJt0B9uRQsZta]] of it.</p><p>A target must make a [[/save activity=TwlWJt0B9uRQsZta]] saving throw, taking [[/damage average activity=TwlWJt0B9uRQsZta]] damage on a failed save, or half as much damage on a successful one.</p>",
                     "activities": {
@@ -9168,7 +9198,7 @@
                         }
                     }
                 },
-                "Paralyzing Touch": {
+                "dJLqLsCek3uxbzuX": {
                     "name": "Paralyzing Touch",
                     "description": "<p>The [[lookup @name lowercase]]{monster} uses its [[/item .KDSrdpdFPDKnh80y]]{Paralyzing Touch}.</p>",
                     "activities": {
@@ -13951,7 +13981,7 @@
                     "name": "Multiattack",
                     "description": "<p>The [[lookup @name lowercase]]{monster} makes two attacks: one with its [[/item .f7m44y4TqYYcunMj]]{hooves} and one with its [[/item .ORrGdhTLKLTKK3BH]]{horn}.</p>"
                 },
-                "Hooves": {
+                "f7m44y4TqYYcunMj": {
                     "name": "Hooves",
                     "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
                 },
@@ -15007,19 +15037,35 @@
                             "name": "Variable Illumination",
                             "description": "<p>You are shedding a variable amount of &amp;reference[bright light] and &amp;reference[dim light].</p>"
                         },
-                        "Illumination: 5 Feet": {
+                        "jJ8JBNbwQAA7NQTH": {
                             "name": "Illumination: 5 Feet",
                             "description": "<p>You shed &amp;reference[bright light] in a 5-foot radius and &amp;reference[dim light] for an additional 5 feet.</p>"
                         },
-                        "Illumination: 10 Feet": {
+                        "jsvurfLvY0q7oHU2": {
+                            "name": "Illumination: 5 Feet",
+                            "description": "<p>You shed &amp;reference[bright light] in a 5-foot radius and &amp;reference[dim light] for an additional 5 feet.</p>"
+                        },
+                        "SIpiLsHnn2iUVXiU": {
                             "name": "Illumination: 10 Feet",
                             "description": "<p>You shed &amp;reference[bright light] in a 10-foot radius and &amp;reference[dim light] for an additional 10 feet.</p>"
                         },
-                        "Illumination: 15 Feet": {
+                        "4UjJusWALxH06fce": {
                             "name": "Illumination: 15 Feet",
                             "description": "<p>You shed &amp;reference[bright light] in a 15-foot radius and &amp;reference[dim light] for an additional 15 feet.</p>"
                         },
-                        "Illumination: 20 Feet": {
+                        "EqNg6ByHWtAPqYrU": {
+                            "name": "Illumination: 20 Feet",
+                            "description": "<p>You shed &amp;reference[bright light] in a 20-foot radius and &amp;reference[dim light] for an additional 20 feet.</p>"
+                        },
+                        "STtJx4sNGSIuzJ98": {
+                            "name": "Illumination: 10 Feet",
+                            "description": "<p>You shed &amp;reference[bright light] in a 10-foot radius and &amp;reference[dim light] for an additional 10 feet.</p>"
+                        },
+                        "nip3Iamy558qmNOV": {
+                            "name": "Illumination: 15 Feet",
+                            "description": "<p>You shed &amp;reference[bright light] in a 15-foot radius and &amp;reference[dim light] for an additional 15 feet.</p>"
+                        },
+                        "RntAZbrBNUpTiqt2": {
                             "name": "Illumination: 20 Feet",
                             "description": "<p>You shed &amp;reference[bright light] in a 20-foot radius and &amp;reference[dim light] for an additional 20 feet.</p>"
                         }

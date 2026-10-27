@@ -60,7 +60,9 @@
                 },
                 "effects": {
                     "path": "effects",
-                    "converter": "effects"
+                    "converter": "document",
+                    "documentType": "ActiveEffect",
+                    "cardinality": "many"
                 },
                 "advancement": {
                     "path": "system.advancement",
@@ -69,12 +71,20 @@
                     "container": "keyed",
                     "keys": [
                         "_id",
+                        "name",
                         "title"
                     ],
                     "mapping": {
                         "title": "title",
                         "hint": "hint",
                         "_variants": [
+                            {
+                                "_when": {
+                                    "path": "name",
+                                    "exists": true
+                                },
+                                "title": "name"
+                            },
                             {
                                 "_when": {
                                     "path": "type",
@@ -178,7 +188,7 @@
                         "Hit Points": {
                             "title": "Hit Points"
                         },
-                        "Features": {
+                        "axeH6FmdvAfb3TnK": {
                             "title": "Features"
                         },
                         "PpE7QUl3ZRdIwbSW": {
@@ -199,7 +209,7 @@
                         "Cantrips Known": {
                             "title": "Cantrips Known"
                         },
-                        "Ability Score Improvement": {
+                        "PrfXQ3yQP9js943H": {
                             "title": "Ability Score Improvement"
                         },
                         "FLozwaTlMVqZKbaN": {
@@ -230,7 +240,7 @@
                     "name": "Life Domain",
                     "description": "<p>The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-­evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-­Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).</p><table><caption>Life Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Spells</td></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{Bless}, @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Cure Wounds}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}, @UUID[Compendium.dnd5e.spells.Item.JbxsYXxSOTZbf9I0]{Spiritual Weapon}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt]{Beacon of Hope}, @UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{Revivify}</td></tr><tr><td>7th</td><td>@UUID[Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb]{Death Ward}, @UUID[Compendium.dnd5e.spells.Item.TgHsuhNasPbhu8MO]{Guardian of Faith}</td></tr><tr><td>9th</td><td>@UUID[Compendium.dnd5e.spells.Item.Pyzmm8R7rVsNAPsd]{Mass Cure Wounds}, @UUID[Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz]{Raise Dead}</td></tr></tbody></table>",
                     "advancement": {
-                        "Features": {
+                        "9fyr5t01nhdg0u8n": {
                             "title": "Features"
                         },
                         "4qh4ejxpwugva6ma": {
@@ -492,7 +502,7 @@
                         "GsMQJqy3R8DVF485": {
                             "hint": "Light Armor, Medium Armor, & Shields (druids will not wear armor or use shields made of metal)"
                         },
-                        "Features": {
+                        "pkkBT3JrxyLuTmwm": {
                             "title": "Features"
                         },
                         "kDrm5stUR4Vp6oE3": {
@@ -510,7 +520,7 @@
                         "Cantrips Known": {
                             "title": "Cantrips Known"
                         },
-                        "Ability Score Improvement": {
+                        "2T62G1BtLjN7m0D9": {
                             "title": "Ability Score Improvement"
                         },
                         "uXaQWuJioxGLKVfy": {
@@ -786,13 +796,13 @@
                         "Hit Points": {
                             "title": "Hit Points"
                         },
-                        "Expertise": {
+                        "cwu9uhmtcKhqli8W": {
                             "title": "Expertise"
                         },
                         "O2cVH7Y5kNfoUyLg": {
                             "title": "Expertise"
                         },
-                        "Features": {
+                        "oNNPhAIeXhAweeBN": {
                             "title": "Features"
                         },
                         "V3KCwHELag3C3YVj": {
@@ -829,7 +839,7 @@
                         "Spells Known": {
                             "title": "Spells Known"
                         },
-                        "Ability Score Improvement": {
+                        "sbzvEEntzYcE5JfN": {
                             "title": "Ability Score Improvement"
                         },
                         "adpq4VPJ5oVt8m06": {
@@ -1049,7 +1059,7 @@
                             "title": "Divine Health",
                             "hint": "The divine magic flowing through you makes you immune to disease."
                         },
-                        "Features": {
+                        "HL6Kwpmrsz5yqmBK": {
                             "title": "Features"
                         },
                         "RwqEtAP5aJqHIW5J": {
@@ -1077,7 +1087,7 @@
                             "title": "Fighting Style",
                             "hint": "Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again."
                         },
-                        "Ability Score Improvement": {
+                        "ASKyHbSBAKRIU6i3": {
                             "title": "Ability Score Improvement"
                         },
                         "iBK2dJf2hwv9vOBI": {
@@ -1220,7 +1230,7 @@
                     "name": "Barbarian",
                     "description": "<p>As a barbarian, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d12 per barbarian level<br /><strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Constitution modifier per barbarian level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor, medium armor, shields<br /><strong>Weapons:</strong> Simple weapons, martial weapons<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Strength, Constitution<br /><strong>Skills:</strong> Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</p><h1>Barbarian Advancement</h1><table border=\"0\"><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td><td>Rages</td><td>Rage Damage</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Rage}, @UUID[Compendium.dnd5e.classfeatures.Item.SZbsNbaxFFGwBpNK]{Unarmored Defense}</td><td>2</td><td>+2</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.SCVjqRdlZ9cvHVSR]{Reckless Attack}, @UUID[Compendium.dnd5e.classfeatures.Item.vt31lWAULygEl7yk]{Danger Sense}</td><td>2</td><td>+2</td></tr><tr><td>3rd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.TH1QAf6YNGSeBVjT]{Primal Path}</td><td>3</td><td>+2</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>3</td><td>+2</td></tr><tr><td>5th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Extra Attack}, @UUID[Compendium.dnd5e.classfeatures.Item.Kl6zifJ5OmdHlOi2]{Fast Movement}</td><td>3</td><td>+2</td></tr><tr><td>6th</td><td>+3</td><td>Path feature</td><td>4</td><td>+2</td></tr><tr><td>7th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.NlXslw4yAqmKZWtN]{Feral Instinct}</td><td>4</td><td>+2</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>4</td><td>+2</td></tr><tr><td>9th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutal Critical (1 die)}</td><td>4</td><td>+3</td></tr><tr><td>10th</td><td>+4</td><td>Path feature</td><td>4</td><td>+3</td></tr><tr><td>11th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.FqfmbPgxiyrWzhYk]{Relentless Rage}</td><td>4</td><td>+3</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>5</td><td>+3</td></tr><tr><td>13th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutal Critical (2 dice)}</td><td>5</td><td>+3</td></tr><tr><td>14th</td><td>+5</td><td>Path feature</td><td>5</td><td>+3</td></tr><tr><td>15th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.l8tUhZ5Pecm9wz7I]{Persistent Rage}</td><td>5</td><td>+3</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>5</td><td>+4</td></tr><tr><td>17th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutal Critical (3 dice)}</td><td>6</td><td>+4</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Q1exex5ALteprrPo]{Indomitable Might}</td><td>6</td><td>+4</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>6</td><td>+4</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jVU4AgqfrFaqgXns]{Primal Champion}</td><td>Unlimited</td><td>+4</td></tr></tbody></table><h1>Primal Paths</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.uGuDQX9Mz3oHNHkU]{Path of the Berserker}</p>",
                     "advancement": {
-                        "Features": {
+                        "amez6rlose3eoigo": {
                             "title": "Features"
                         },
                         "udl318k61boq0rnn": {
@@ -1349,7 +1359,7 @@
                     "name": "Tiefling",
                     "description": "<p>Tieflings share certain racial traits as a result of their infernal descent.</p><p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 1, and your Charisma score increases by 2.</p><p><em><strong>Age.</strong></em> Tieflings mature at the same rate as humans but live a few years longer.</p><p><em><strong>Alignment.</strong></em> Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.</p><p><em><strong>Size.</strong></em> Tieflings are about the same size and build as humans. Your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Hellish Resistance.</strong></em> You have resistance to fire damage.</p><p><em><strong>Infernal Legacy.</strong></em> You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-­level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Common and Infernal.</p>",
                     "advancement": {
-                        "Infernal Legacy": {
+                        "d8rqpB59h8lfbnva": {
                             "title": "Infernal Legacy"
                         },
                         "p2AP4Rn6S8A8Xu5L": {
@@ -1383,7 +1393,7 @@
                         "Hit Points": {
                             "title": "Hit Points"
                         },
-                        "Features": {
+                        "tHGuZb6Cezr0Yda6": {
                             "title": "Features"
                         },
                         "vEbnPhd3OW2Z5RH8": {
@@ -1404,7 +1414,7 @@
                         "Spells Known": {
                             "title": "Spells Known"
                         },
-                        "Ability Score Improvement": {
+                        "zSlKyZ0rzKcd78Cq": {
                             "title": "Ability Score Improvement"
                         },
                         "Psp6dqmMqww0D44O": {
@@ -1435,7 +1445,7 @@
                     "name": "Draconic Bloodline",
                     "description": "<p>Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.</p>",
                     "advancement": {
-                        "Features": {
+                        "bjbipb2oydq3zsuy": {
                             "title": "Features"
                         },
                         "cq0cwgss39pkvjox": {
@@ -1633,7 +1643,7 @@
                             "title": "Purity of Body",
                             "hint": "Your mastery of the ki flowing through you makes you immune to disease and poison."
                         },
-                        "Features": {
+                        "n0q8XyiGA3vLPgpK": {
                             "title": "Features"
                         },
                         "7TyDqpGGi3r3nsp0": {
@@ -1678,7 +1688,7 @@
                         "Unarmored Movement": {
                             "title": "Unarmored Movement"
                         },
-                        "Ability Score Improvement": {
+                        "ofNSUhSHKhhDuPSR": {
                             "title": "Ability Score Improvement"
                         },
                         "s3t9o57hP6iUHirr": {
@@ -1838,7 +1848,7 @@
                         "Hit Points": {
                             "title": "Hit Points"
                         },
-                        "Features": {
+                        "L0DHAlnRhNlttHtT": {
                             "title": "Features"
                         },
                         "yCF7xTPbbbLvy1oi": {
@@ -1872,7 +1882,7 @@
                         "Spells Known": {
                             "title": "Spells Known"
                         },
-                        "Ability Score Improvement": {
+                        "bWqpb3Malvjjk8a6": {
                             "title": "Ability Score Improvement"
                         },
                         "Dr4RKCdMxlKWoHHV": {
@@ -1993,7 +2003,7 @@
                         "Hit Points": {
                             "title": "Hit Points"
                         },
-                        "Features": {
+                        "PwWJCRoUIftcpy47": {
                             "title": "Features"
                         },
                         "pxHWfZrwT5tdCH61": {
@@ -2018,7 +2028,7 @@
                         "Action Surge Uses": {
                             "title": "Action Surge Uses"
                         },
-                        "Ability Score Improvement": {
+                        "rvfuW71lYEeJW7HS": {
                             "title": "Ability Score Improvement"
                         },
                         "g49SXigwmpaZW0Hm": {
@@ -2184,13 +2194,13 @@
                         "Hit Points": {
                             "title": "Hit Points"
                         },
-                        "Expertise": {
+                        "TDHYngxGqDHllgzw": {
                             "title": "Expertise"
                         },
                         "Iozyk39gsM4Kecex": {
                             "title": "Expertise"
                         },
-                        "Features": {
+                        "13XHsx4Z3vQ2XYkJ": {
                             "title": "Features"
                         },
                         "5crdJzGJRQIVhbyr": {
@@ -2223,7 +2233,7 @@
                         "Sneak Attack": {
                             "title": "Sneak Attack"
                         },
-                        "Ability Score Improvement": {
+                        "smghqQkObY4OOg30": {
                             "title": "Ability Score Improvement"
                         },
                         "WFAAUfKJA9QR46Bw": {
@@ -2379,7 +2389,7 @@
                         "Hit Points": {
                             "title": "Hit Points"
                         },
-                        "Features": {
+                        "SikU7aSV7VqT2FPB": {
                             "title": "Features"
                         },
                         "11NYHMcme54WJHuU": {
@@ -2423,7 +2433,7 @@
                         "Spells Known": {
                             "title": "Spells Known"
                         },
-                        "Ability Score Improvement": {
+                        "9tW2ZcVYgy8c3ucN": {
                             "title": "Ability Score Improvement"
                         },
                         "QH0eaxybQeeDjRan": {
@@ -2454,7 +2464,7 @@
                     "name": "The Fiend",
                     "description": "<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</p><h4>Expanded Spell List</h4><p>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p><table><caption>Fiend Expanded Spells</caption><thead><tr><td>Spell Level</td><td>Spells</td></tr></thead><tbody><tr><td>1st</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Command}</td></tr><tr><td>2nd</td><td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Blindness/Deafness}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray}</td></tr><tr><td>3rd</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Stinking Cloud}</td></tr><tr><td>4th</td><td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Fire Shield}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire}</td></tr><tr><td>5th</td><td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Hallow}</td></tr></tbody></table>",
                     "advancement": {
-                        "Features": {
+                        "mwpiq5ybhynszxgq": {
                             "title": "Features"
                         },
                         "icxswdpvqj9o89nz": {
@@ -2589,7 +2599,7 @@
             "description": "<p>Always interested in tinkering, Zanna set out for adventure in order to find more spells for her spellbook, and perhaps one day create some of her own.</p><p><em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em></p>",
             "alignment": "Chaotic Good",
             "items": {
-                "Tinker": {
+                "5hEbhdZm1ozQ3B2g": {
                     "name": "Tinker",
                     "description": "<p>You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:</p><p><em>Clockwork Toy:</em> This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</p><p><em>Fire Starter:</em> The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</p><p><em>Music Box:</em> When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</p>",
                     "requirements": "Rock Gnome",
@@ -2644,7 +2654,7 @@
                         "Hit Points": {
                             "title": "Hit Points"
                         },
-                        "Features": {
+                        "CTmwzlFgOyeE1L6K": {
                             "title": "Features"
                         },
                         "AC4kN3RjttskWHUJ": {
@@ -2663,7 +2673,7 @@
                         "Cantrips Known": {
                             "title": "Cantrips Known"
                         },
-                        "Ability Score Improvement": {
+                        "cqHTAJF9gyolaBBq": {
                             "title": "Ability Score Improvement"
                         },
                         "lQO8njk1wKmUwP1N": {

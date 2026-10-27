@@ -42,7 +42,9 @@
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many"
         },
         "advancement": {
             "path": "system.advancement",
@@ -51,12 +53,20 @@
             "container": "keyed",
             "keys": [
                 "_id",
+                "name",
                 "title"
             ],
             "mapping": {
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": true
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -389,7 +399,10 @@
                 "Expend d10 Hit Dice": {
                     "name": "Expend d10 Hit Dice"
                 },
-                "Expend d12 Hit Dice": {
+                "Kkp5dxHq1yK2WOGI": {
+                    "name": "Expend d12 Hit Dice"
+                },
+                "H7hUZ2QYED0myy5Z": {
                     "name": "Expend d12 Hit Dice"
                 }
             }
@@ -4086,7 +4099,10 @@
                 "Enchant Weapon": {
                     "name": "Enchant Weapon"
                 },
-                "Spellcasting Attack": {
+                "CiLsaHBi9F6eIXUS": {
+                    "name": "Spellcasting Attack"
+                },
+                "cGNXKjpoRima6wjQ": {
                     "name": "Spellcasting Attack"
                 }
             },

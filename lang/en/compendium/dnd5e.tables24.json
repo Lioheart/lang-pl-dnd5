@@ -1,6 +1,42 @@
 {
     "label": "Roll Tables",
     "entries": {
+        "0UVk1kE4Nz7qMSlj": {
+            "name": "Blue",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6 cold]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> The layer is destroyed if it takes at least 25 Fire damage.</p>"
+        },
+        "6ofDupJRAkCwQL5d": {
+            "name": "Yellow",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6 lightning]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> The layer is destroyed if it takes at least 60 force damage.</p>"
+        },
+        "7h9jMXFIxBKzjivk": {
+            "name": "Rogue",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRogue00000]{Rogue}"
+        },
+        "8g4dm4vqB60zPWw5": {
+            "name": "Elven Lineage",
+            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbElvenLineage0]{Elven Lineage}"
+        },
+        "8oHL5jQ0fXbXGpuf": {
+            "name": "Cardinal Directions",
+            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbgenCardinalDi]{Cardinal Directions}"
+        },
+        "93Y3C0JT1dJtoFwW": {
+            "name": "Void",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtVoid000000]{Void}"
+        },
+        "9isSpLlYLL5h2Aoa": {
+            "name": "Rogue",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRogue00000]{Rogue}"
+        },
+        "9roEeqKHIauLWYsP": {
+            "name": "Indigo",
+            "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>"
+        },
+        "AEVEm8pwZd8HZEaf": {
+            "name": "Key",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtKey0000000]{Key}"
+        },
         "Alignment": {
             "name": "Alignment",
             "results": {
@@ -179,6 +215,10 @@
             "name": "Axe Beak",
             "description": "@UUID[Compendium.dnd5e.actors24.Actor.mmAxeBeak0000000]{Axe Beak}"
         },
+        "b1ryx7FwWLGwgQiQ": {
+            "name": "Indigo",
+            "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p><p><em>Additional Effects:</em> Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the <em>Daylight</em> spell.</p>"
+        },
         "Baboon": {
             "name": "Baboon",
             "description": "@UUID[Compendium.dnd5e.actors24.Actor.mmBaboon00000000]{Baboon}"
@@ -256,13 +296,13 @@
                 }
             }
         },
+        "bEMGelUnEQGCNIch": {
+            "name": "Knight",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtKnight0000]{Knight}"
+        },
         "Black Bear": {
             "name": "Black Bear",
             "description": "@UUID[Compendium.dnd5e.actors24.Actor.mmBlackBear00000]{Black Bear}"
-        },
-        "Blue": {
-            "name": "Blue",
-            "description": "<p><em>Failed Save:</em> [[/damage 12d6 cold]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
         },
         "Boar": {
             "name": "Boar",
@@ -325,10 +365,6 @@
                 }
             }
         },
-        "Cardinal Directions": {
-            "name": "Cardinal Directions",
-            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbgenCardinalDi]{Cardinal Directions}"
-        },
         "Carpet of Flying: Size, Capacity, and Speed": {
             "name": "Carpet of Flying: Size, Capacity, and Speed",
             "results": {
@@ -345,6 +381,14 @@
                     "description": "6 × 9 ft. | 800 lb. capacity | 30 ft. Fly speed"
                 }
             }
+        },
+        "cbfHzGC7oLI48i1F": {
+            "name": "Violet",
+            "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p><p><em>Additional Effects:</em> This layer is destroyed by <em>Dispel Magic</em>.</p>"
+        },
+        "ckQqX5zhGyji2SBo": {
+            "name": "Star",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtStar000000]{Star}"
         },
         "Comet": {
             "name": "Comet",
@@ -475,6 +519,14 @@
                     "description": "Summon their deity or its herald, weapon, or realm into their world."
                 }
             }
+        },
+        "D9Z08jw6cnu1UMjo": {
+            "name": "Key",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtKey0000000]{Key}"
+        },
+        "DAzY7u6xTitMeoB6": {
+            "name": "Skull",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtSkull00000]{Skull}"
         },
         "Deck of Illusions": {
             "name": "Deck of Illusions",
@@ -621,6 +673,10 @@
             "name": "Dwarf",
             "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspDwarf000000]{Dwarf}"
         },
+        "DYdvoPQwjzkQAmOz": {
+            "name": "Yellow",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6 lightning]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        },
         "Efreeti Bottle": {
             "name": "Efreeti Bottle",
             "description": "<p>The first time the @UUID[Compendium.dnd5e.equipment24.Item.dmgEfreetiBottle]{bottle} is opened, the DM rolls on the following table to determine what happens.</p>",
@@ -636,6 +692,10 @@
                 }
             }
         },
+        "EiuOGVBwrd5dzY1O": {
+            "name": "Ruin",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRuin000000]{Ruin}"
+        },
         "Elf, Drow": {
             "name": "Elf, Drow",
             "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspDrow0000000]{Elf, Drow}"
@@ -647,14 +707,6 @@
         "Elf, Wood": {
             "name": "Elf, Wood",
             "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspWoodElf0000]{Elf, Wood}"
-        },
-        "Elven Lineage": {
-            "name": "Elven Lineage",
-            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbElvenLineage0]{Elven Lineage}"
-        },
-        "Euryale": {
-            "name": "Euryale",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtEuryale000]{Euryale}"
         },
         "Fates": {
             "name": "Fates",
@@ -682,10 +734,6 @@
                     "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgWhipQuaalsFea]{Whip (Rare)}"
                 }
             }
-        },
-        "Fiendish Legacy": {
-            "name": "Fiendish Legacy",
-            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbFiendishLegac]{Fiendish Legacy}"
         },
         "Fire Elemental Compositions": {
             "name": "Fire Elemental Compositions",
@@ -716,10 +764,6 @@
                     "description": "Swirls of cinders and burning debris."
                 }
             }
-        },
-        "Flames": {
-            "name": "Flames",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtFlames0000]{Flames}"
         },
         "Fool": {
             "name": "Fool",
@@ -789,10 +833,6 @@
             "name": "Gnome, Rock",
             "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspRockGnome00]{Gnome, Rock}"
         },
-        "Gnomish Lineage": {
-            "name": "Gnomish Lineage",
-            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbGnomishLineag]{Gnomish Lineage}"
-        },
         "Goat": {
             "name": "Goat",
             "description": "@UUID[Compendium.dnd5e.actors24.Actor.mmGoat0000000000]{Goat}"
@@ -830,9 +870,9 @@
                 }
             }
         },
-        "Green": {
-            "name": "Green",
-            "description": "<p><em>Failed Save:</em> [[/damage 12d6 poison]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        "H6PRkRifUyITp5Ph": {
+            "name": "Knight",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtKnight0000]{Knight}"
         },
         "Halfling": {
             "name": "Halfling",
@@ -897,6 +937,10 @@
             "name": "Human",
             "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspHuman000000]{Human}"
         },
+        "imEKznlZEE0rSsLx": {
+            "name": "Flames",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtFlames0000]{Flames}"
+        },
         "Incubus Nightmares": {
             "name": "Incubus Nightmares",
             "description": "<p>The Incubus’s Victim Has Dreams Of …</p>",
@@ -926,10 +970,6 @@
                     "description": "A visitor with an eerie or enigmatic message."
                 }
             }
-        },
-        "Indigo": {
-            "name": "Indigo",
-            "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Restrained] condition and makes a [[/save con]] saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>Greater Restoration</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>"
         },
         "Iron Flask Contents": {
             "name": "Iron Flask Contents",
@@ -1030,17 +1070,21 @@
             "name": "Jackal",
             "description": "@UUID[Compendium.dnd5e.actors24.Actor.mmJackal00000000]{Jackal}"
         },
-        "Jester": {
-            "name": "Jester",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtJester0000]{Jester}"
+        "jAjDgUISYpf5GnE5": {
+            "name": "Orange",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6 acid]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by <em>Gust of Wind</em>).</p>"
         },
-        "Key": {
-            "name": "Key",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtKey0000000]{Key}"
+        "JpUuNwaf83gmUwV4": {
+            "name": "Sub-Languages Table",
+            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbSublanguageTa]{Sub-Languages Table}"
         },
-        "Knight": {
-            "name": "Knight",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtKnight0000]{Knight}"
+        "JT3pbm7yJ23CiCqT": {
+            "name": "Euryale",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtEuryale000]{Euryale}"
+        },
+        "kGl8BbIhwg7Ptesu": {
+            "name": "Flames",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtFlames0000]{Flames}"
         },
         "Level 1-4": {
             "name": "Level 1-4",
@@ -1186,10 +1230,6 @@
                 }
             }
         },
-        "Moon": {
-            "name": "Moon",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtMoon000000]{Moon}"
-        },
         "Mysterious Deck: 13 Cards": {
             "name": "Mysterious Deck: 13 Cards",
             "results": {
@@ -1305,6 +1345,10 @@
                 }
             }
         },
+        "ncs8GLvSuavCJAqf": {
+            "name": "Gnomish Lineage",
+            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbGnomishLineag]{Gnomish Lineage}"
+        },
         "Necklace of Prayer Beads Type": {
             "name": "Necklace of Prayer Beads Type",
             "results": {
@@ -1328,13 +1372,17 @@
                 }
             }
         },
-        "Orange": {
-            "name": "Orange",
-            "description": "<p><em>Failed Save:</em> [[/damage 12d6]] acid damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        "nIAzWt9uXY5U3kSz": {
+            "name": "Ruin",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRuin000000]{Ruin}"
         },
         "Orc": {
             "name": "Orc",
             "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspOrc00000000]{Orc}"
+        },
+        "oRpNqb5LQrTBwcdV": {
+            "name": "Throne",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtThrone0000]{Throne}"
         },
         "Owl": {
             "name": "Owl",
@@ -1361,6 +1409,105 @@
         "Panther": {
             "name": "Panther",
             "description": "@UUID[Compendium.dnd5e.actors24.Actor.mmPanther0000000]{Panther}"
+        },
+        "petFp3KELvvag9R3": {
+            "name": "Star",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtStar000000]{Star}"
+        },
+        "phbElvenLineage0": {
+            "name": "Elven Lineage",
+            "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
+            "results": {
+                "1-1": {
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspDrow0000000]{Elf, Drow}"
+                },
+                "2-2": {
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspHighElf0000]{Elf, High}"
+                },
+                "3-3": {
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspWoodElf0000]{Elf, Wood}"
+                }
+            }
+        },
+        "phbFiendishLegac": {
+            "name": "Fiendish Legacy",
+            "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>",
+            "results": {
+                "1-1": {
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspAbyssalTief]{Tiefling, Abyssal}"
+                },
+                "2-2": {
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspChthonicTie]{Tiefling, Chthonic}"
+                },
+                "3-3": {
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspInfernalTie]{Tiefling, Infernal}"
+                }
+            }
+        },
+        "phbgenCardinalDi": {
+            "name": "Cardinal Directions",
+            "results": {
+                "1-1": {
+                    "description": "North"
+                },
+                "2-2": {
+                    "description": "East"
+                },
+                "3-3": {
+                    "description": "South"
+                },
+                "4-4": {
+                    "description": "West"
+                }
+            }
+        },
+        "phbGnomishLineag": {
+            "name": "Gnomish Lineage",
+            "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
+            "results": {
+                "1-1": {
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspForestGnome]{Gnome, Forest}"
+                },
+                "2-2": {
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspRockGnome00]{Gnome, Rock}"
+                }
+            }
+        },
+        "phbSublanguageTa": {
+            "name": "Sub-Languages Table",
+            "results": {
+                "1-1": {
+                    "description": "<strong>Language:</strong> Common Sign Language. <strong>Origin:</strong> Sigil."
+                },
+                "2-2": {
+                    "description": "<strong>Language:</strong> Draconic. <strong>Origin:</strong> Dragons."
+                },
+                "3-4": {
+                    "description": "<strong>Language:</strong> Dwarvish. <strong>Origin:</strong> Dwarves."
+                },
+                "5-6": {
+                    "description": "<strong>Language:</strong> Elvish. <strong>Origin:</strong> Elves."
+                },
+                "7-7": {
+                    "description": "<strong>Language:</strong> Giant. <strong>Origin:</strong> Giants."
+                },
+                "8-8": {
+                    "description": "<strong>Language:</strong> Gnomish. <strong>Origin:</strong> Gnomes."
+                },
+                "9-9": {
+                    "description": "<strong>Language:</strong> Goblin. <strong>Origin:</strong> Goblinoids."
+                },
+                "10-11": {
+                    "description": "<strong>Language:</strong> Halfling. <strong>Origin:</strong> Halflings."
+                },
+                "12-12": {
+                    "description": "<strong>Language:</strong> Orc. <strong>Origin:</strong> Orcs."
+                }
+            }
+        },
+        "PkXN8vlW5cXx8vbB": {
+            "name": "Fiendish Legacy",
+            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbFiendishLegac]{Fiendish Legacy}"
         },
         "Potion Miscibility": {
             "name": "Potion Miscibility",
@@ -1521,13 +1668,17 @@
             "name": "Puzzle",
             "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtPuzzle0000]{Puzzle}"
         },
+        "pzL0RD1tg43fqDTo": {
+            "name": "Sub-Languages Table",
+            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbSublanguageTa]{Sub-Languages Table}"
+        },
+        "q7k0kww4KOcCQh8Z": {
+            "name": "Moon",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtMoon000000]{Moon}"
+        },
         "Rat": {
             "name": "Rat",
             "description": "@UUID[Compendium.dnd5e.actors24.Actor.mmRat00000000000]{Rat}"
-        },
-        "Red": {
-            "name": "Red",
-            "description": "<p><em>Failed Save:</em> [[/damage 12d6 fire]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
         },
         "Reincarnated Species": {
             "name": "Reincarnated Species",
@@ -1600,6 +1751,10 @@
                 }
             }
         },
+        "rMJiKI5wApRiSebO": {
+            "name": "Throne",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtThrone0000]{Throne}"
+        },
         "Robe of Useful Items": {
             "name": "Robe of Useful Items",
             "results": {
@@ -1643,14 +1798,6 @@
                     "description": "@UUID[Compendium.dnd5e.equipment24.Item.phbagRamPortable]"
                 }
             }
-        },
-        "Rogue": {
-            "name": "Rogue",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRogue00000]{Rogue}"
-        },
-        "Ruin": {
-            "name": "Ruin",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRuin000000]{Ruin}"
         },
         "Rust Bag of Tricks": {
             "name": "Rust Bag of Tricks",
@@ -1750,10 +1897,6 @@
                 }
             }
         },
-        "Skull": {
-            "name": "Skull",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtSkull00000]{Skull}"
-        },
         "Special": {
             "name": "Special",
             "description": "<p>The target is struck by two rays. Roll twice, rerolling any 8.</p>"
@@ -1807,6 +1950,10 @@
                 }
             }
         },
+        "sT9ULq3ZPnBuh0AY": {
+            "name": "Skull",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtSkull00000]{Skull}"
+        },
         "Standard Languages": {
             "name": "Standard Languages",
             "results": {
@@ -1814,10 +1961,6 @@
                     "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbSublanguageTa]{Sub-Languages Table}"
                 }
             }
-        },
-        "Star": {
-            "name": "Star",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtStar000000]{Star}"
         },
         "Stirge Roosts": {
             "name": "Stirge Roosts",
@@ -1861,10 +2004,6 @@
                 }
             }
         },
-        "Sub-Languages Table": {
-            "name": "Sub-Languages Table",
-            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbSublanguageTa]{Sub-Languages Table}"
-        },
         "Succubus Temptations": {
             "name": "Succubus Temptations",
             "description": "<p>The Succubus Manipulates Its Target By …</p>",
@@ -1889,9 +2028,13 @@
                 }
             }
         },
-        "Sun": {
-            "name": "Sun",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtSun0000000]{Sun}"
+        "sxKB8VQEBh0roKnc": {
+            "name": "Moon",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtMoon000000]{Moon}"
+        },
+        "t0CrtbVhYtW3a7Lt": {
+            "name": "Red",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6 fire]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects</em>: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage.</p>"
         },
         "Talons": {
             "name": "Talons",
@@ -1970,10 +2113,6 @@
                     "description": "<strong>Viewed or described:</strong> On target"
                 }
             }
-        },
-        "Throne": {
-            "name": "Throne",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtThrone0000]{Throne}"
         },
         "Tiefling, Abyssal": {
             "name": "Tiefling, Abyssal",
@@ -2296,6 +2435,22 @@
                 }
             }
         },
+        "trQNDzdEF19fadQK": {
+            "name": "Jester",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtJester0000]{Jester}"
+        },
+        "Tzf8H1DJyFsmBqaN": {
+            "name": "Jester",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtJester0000]{Jester}"
+        },
+        "uA69bAczU0ATdEt4": {
+            "name": "Green",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6 poison]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p><p><em>Additional Effects:</em> A <em>Passwall</em> spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.</p>"
+        },
+        "v5WZsl3D7AcVp8kv": {
+            "name": "Euryale",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtEuryale000]{Euryale}"
+        },
         "Vampire Resting Places": {
             "name": "Vampire Resting Places",
             "description": "<p>The Vampire’s Resting Place Is …</p>",
@@ -2320,13 +2475,9 @@
                 }
             }
         },
-        "Violet": {
-            "name": "Violet",
-            "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
-        },
-        "Void": {
-            "name": "Void",
-            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtVoid000000]{Void}"
+        "VJ0WNUsuWtNqlr7M": {
+            "name": "Green",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6 poison]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
         },
         "Wand of Wonder Effects": {
             "name": "Wand of Wonder Effects",
@@ -2428,6 +2579,10 @@
             "name": "Weasel",
             "description": "@UUID[Compendium.dnd5e.actors24.Actor.mmWeasel00000000]{Weasel}"
         },
+        "WN6avNTrKLMyCRVD": {
+            "name": "Sun",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtSun0000000]{Sun}"
+        },
         "Wraith Manifestations": {
             "name": "Wraith Manifestations",
             "description": "<p>The Wraith Embodies …</p>",
@@ -2464,9 +2619,29 @@
                 }
             }
         },
-        "Yellow": {
-            "name": "Yellow",
-            "description": "<p><em>Failed Save:</em> [[/damage 12d6 lightning]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        "WtYqe4zm1DJyXmI5": {
+            "name": "Orange",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6]] acid damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "XoGa3OMCvqVJ1iUS": {
+            "name": "Sun",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtSun0000000]{Sun}"
+        },
+        "xzCuVY29JwIHHgbB": {
+            "name": "Void",
+            "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtVoid000000]{Void}"
+        },
+        "xZgEE34Oi8lV3z8S": {
+            "name": "Blue",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6 cold]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "Yh9bG6idhWWwUmdS": {
+            "name": "Red",
+            "description": "<p><em>Failed Save:</em> [[/damage 12d6 fire]] damage.</p><p><em>Successful Save:</em> Half as much damage.</p>"
+        },
+        "YRy23VFeS34ZU0kN": {
+            "name": "Violet",
+            "description": "<p><em>Failed Save:</em> The target has the &amp;Reference[Blinded] condition and makes a [[/save wis]] saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
         }
     }
 }

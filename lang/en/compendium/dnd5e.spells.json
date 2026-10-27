@@ -42,7 +42,9 @@
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many"
         },
         "advancement": {
             "path": "system.advancement",
@@ -51,12 +53,20 @@
             "container": "keyed",
             "keys": [
                 "_id",
+                "name",
                 "title"
             ],
             "mapping": {
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": true
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -2218,19 +2228,35 @@
                 }
             },
             "effects": {
-                "Flame Blade: 2nd Level": {
+                "Dg3Qi2SmWyCMpmU4": {
+                    "name": "Flame Blade: 2nd Level",
+                    "description": "<p>You have conjured a Flame Blade in your hand.</p>"
+                },
+                "vULxJuCFS32tApK7": {
                     "name": "Flame Blade: 2nd Level",
                     "description": "<p>You have conjured a Flame Blade, and it deals 3d6 fire damage on hit.</p>"
                 },
-                "Flame Blade: 4th Level": {
+                "tpXf44S04mFJMol7": {
+                    "name": "Flame Blade: 4th Level",
+                    "description": "<p>You have conjured a Flame Blade, and it deals 4d6 fire damage on hit.</p>"
+                },
+                "BUBEz95PSksSQbVs": {
+                    "name": "Flame Blade: 6th Level",
+                    "description": "<p>You have conjured a Flame Blade, and it deals 5d6 fire damage on hit.</p>"
+                },
+                "9TTHVfcjufZowUOr": {
+                    "name": "Flame Blade: 8th Level",
+                    "description": "<p>You have conjured a Flame Blade, and it deals 6d6 fire damage on hit.</p>"
+                },
+                "nHmffcGZo11sgPV3": {
                     "name": "Flame Blade: 4th Level",
                     "description": "<p>You have conjured a Flame Blade in your hand.</p>"
                 },
-                "Flame Blade: 6th Level": {
+                "JF8ELBI1o8vmfiZA": {
                     "name": "Flame Blade: 6th Level",
                     "description": "<p>You have conjured a Flame Blade in your hand.</p>"
                 },
-                "Flame Blade: 8th Level": {
+                "HrBnniYMsaCB4PQz": {
                     "name": "Flame Blade: 8th Level",
                     "description": "<p>You have conjured a Flame Blade in your hand.</p>"
                 }
@@ -5410,7 +5436,10 @@
                 "Stressful Wish: Restore Health": {
                     "name": "Stressful Wish: Restore Health"
                 },
-                "Stressful Wish: Bestow Resistance": {
+                "2R7bdONDAFfwCk3B": {
+                    "name": "Stressful Wish: Bestow Resistance"
+                },
+                "ZFQAppQ4CwUu6G4E": {
                     "name": "Stressful Wish: Bestow Resistance"
                 },
                 "Stressful Wish: Rewrite Events": {

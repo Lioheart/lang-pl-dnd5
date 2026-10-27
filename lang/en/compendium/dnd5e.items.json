@@ -42,7 +42,9 @@
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many"
         },
         "advancement": {
             "path": "system.advancement",
@@ -51,12 +53,20 @@
             "container": "keyed",
             "keys": [
                 "_id",
+                "name",
                 "title"
             ],
             "mapping": {
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": true
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -104,9 +114,95 @@
         }
     },
     "entries": {
+        "0huCWvOncUsme84v": {
+            "name": "Paper",
+            "description": "<p>A single sheet of paper.</p>"
+        },
+        "0NoBBP3MMkvJlwZY": {
+            "name": "Candle",
+            "description": "<p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>"
+        },
+        "14pNRT4sZy9rgvhb": {
+            "name": "Hammer",
+            "description": "<p>A tool with a heavy metal head mounted at the end of its handle, used for jobs such as breaking things and driving in nails. </p>"
+        },
+        "1FSubnBpSTDmVaYV": {
+            "name": "Tinderbox",
+            "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>"
+        },
+        "1L5wkmbw0fmNAr38": {
+            "name": "Waterskin",
+            "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>"
+        },
+        "29ZLE8PERtFVD3QU": {
+            "name": "Torch",
+            "description": "<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>"
+        },
+        "2cKJTN5Ki77oCrQn": {
+            "name": "Waterskin",
+            "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>"
+        },
+        "3nVvaHVfHsgwGlkL": {
+            "name": "Small Knife",
+            "description": "<p>A blunt knife used by the scholarly to open letters and correspondence.</p>"
+        },
+        "3OXueEpvDDCVfGFA": {
+            "name": "Fine Clothes",
+            "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>"
+        },
+        "3uEyuCfnAzGkwAn5": {
+            "name": "Sealing Wax",
+            "description": "<p>A wax material of a seal which, after melting, hardens quickly forming a bond that is difficult to separate without noticeable tampering.</p>"
+        },
+        "3YSUIp4eFo26YxJr": {
+            "name": "Ball Bearings",
+            "description": "<p>As an action, you can spill these 1,000 tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
+        },
+        "419eNv7xp2p7Xlo5": {
+            "name": "Blanket",
+            "description": "<p>A blanket to keep you warm at night.</p>"
+        },
+        "79zrBwqEp2MCJ1Bl": {
+            "name": "Ball Bearings",
+            "description": "<p>As an action, you can spill these 1,000 tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
+        },
+        "7ztvHyYJCcOOAWmR": {
+            "name": "Censer",
+            "description": "<p>Usually used in conjunction with blocks of incense to perfume the air.</p>"
+        },
+        "8d95YV1jHcxPygJ9": {
+            "name": "Rations",
+            "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>"
+        },
+        "8Fe9YSSe4ymQq8UM": {
+            "name": "Ink Pen",
+            "description": "<p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>"
+        },
+        "9c0CHs90xqPw81iP": {
+            "name": "Parchment",
+            "description": "<p>A single sheet of heavier parchment paper.</p>"
+        },
+        "a8fe9d81BRW86cvP": {
+            "name": "Waterskin",
+            "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>"
+        },
         "Abacus": {
             "name": "Abacus",
             "description": "<p>The abacus, also called a counting frame, is a calculating tool.</p>"
+        },
+        "ac8IamT5vDrH1ZT8": {
+            "name": "Alms Box",
+            "description": "<p>A box with a money slot and detachable base mainly used by priests and the like to collect alms.</p>"
         },
         "Acid (vial)": {
             "name": "Acid (vial)",
@@ -149,6 +245,10 @@
             "name": "Adamantine Splint Armor",
             "description": "<p>This armor is reinforced with adamantine, one of the hardest substances in existence.</p>\n<p>While you're wearing it, any critical hit against you becomes a normal hit.</p>"
         },
+        "AkyQyonZMVcvOrXU": {
+            "name": "Crowbar",
+            "description": "<p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p>"
+        },
         "Alchemist's Fire": {
             "name": "Alchemist's Fire",
             "description": "<p>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to [[lookup @labels.description.range activity=fEkrHFEJKXhIwljC]], shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</p>",
@@ -176,10 +276,6 @@
         "Alchemy Jug": {
             "name": "Alchemy Jug",
             "description": "<p><em>Wondrous item</em></p><p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.</p><p>You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</p><p>Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.</p><table><thead><tr><th>Liquid</th><th>Max Amount</th></tr></thead><tbody><tr><td>Acid</td><td>8 ounces</td></tr><tr><td>Basic poison</td><td>1/2 ounce</td></tr><tr><td>Beer</td><td>4 gallons</td></tr><tr><td>Honey</td><td>1 gallon</td></tr><tr><td>Mayonnaise</td><td>2 gallons</td></tr><tr><td>Oil</td><td>1 quart</td></tr><tr><td>Vinegar</td><td>2 gallons</td></tr><tr><td>Water, fresh</td><td>8 gallons</td></tr><tr><td>Water, salt</td><td>12 gallons</td></tr><tr><td>Wine</td><td>1 gallon</td></tr></tbody></table>"
-        },
-        "Alms Box": {
-            "name": "Alms Box",
-            "description": "<p>A box with a money slot and detachable base mainly used by priests and the like to collect alms.</p>"
         },
         "Amulet": {
             "name": "Amulet",
@@ -305,10 +401,6 @@
             "name": "Bag of Holding",
             "description": "<p><em>Wondrous item</em></p>\n<p>This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.</p>\n<p>If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again.</p>\n<p>Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</p>\n<p>Placing a Bag of Holding inside an extradimensional space created by a Handy Haversack, Portable Hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>"
         },
-        "Bag of Sand": {
-            "name": "Bag of Sand",
-            "description": "<p>A small bag of sand used by the scholarly to dry freshly inked letters and correspondence quickly and safely for quick dispatch.</p>"
-        },
         "Bag of Tricks (Grey)": {
             "name": "Bag of Tricks (Grey)",
             "description": "<p><em>Wondrous item</em></p>\n<p>This ordinary bag, made from gray cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs 1/2 pound.</p>\n<p>You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the @UUID[Compendium.dnd5e.tables.RollTable.VPGP621PW7k03YfB]{Grey Bag of Tricks} table.</p>\n<p>The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p>\n<p>Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.</p>"
@@ -327,15 +419,6 @@
             "activities": {
                 "Use Tools": {
                     "name": "Use Tools"
-                }
-            }
-        },
-        "Ball Bearings": {
-            "name": "Ball Bearings",
-            "description": "<p>As an action, you can spill these 1,000 tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw.</p>",
-            "activities": {
-                "save": {
-                    "damageOnSave": "half"
                 }
             }
         },
@@ -374,6 +457,15 @@
             "name": "Battleaxe +3",
             "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
         },
+        "bDZFQqLQE73cFB8c": {
+            "name": "Hempen Rope (50 ft.)",
+            "description": "<p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
+        },
         "Bead of Force": {
             "name": "Bead of Force",
             "description": "<p><em>Wondrous item</em></p>\n<p>This small black sphere measures 3/4 of an inch in diameter and weighs an ounce. Typically, 1d4 + 4 Beads of Force are found together.</p>\n<p>You can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take 5d4 force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere's wall. No attack or other effect can.</p>\n<p>An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's walking speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.</p>",
@@ -382,14 +474,6 @@
                     "damageOnSave": "half"
                 }
             }
-        },
-        "Bedroll": {
-            "name": "Bedroll",
-            "description": "<p>Roll of cloth used by traveller to sleep in.</p>"
-        },
-        "Bell": {
-            "name": "Bell",
-            "description": "<p>A small bell for you to ring.</p>"
         },
         "Belt of Cloud Giant Strength": {
             "name": "Belt of Cloud Giant Strength",
@@ -485,17 +569,9 @@
             "name": "Bit and Bridle",
             "description": "<p>A component of a horse's tack that is worn on its head and connected to the reins. It consists of several adjustable leather straps, connecting metal rings, and a mouthpiece called the 'bit' or 'mullen', made of rope, bone, horn, or other hard substance such as bronze, steel, nickel, or wood.</p>"
         },
-        "Blanket": {
-            "name": "Blanket",
-            "description": "<p>A blanket to keep you warm at night.</p>"
-        },
         "Block and Tackle": {
             "name": "Block and Tackle",
             "description": "<p>A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.</p>"
-        },
-        "Block of Incense": {
-            "name": "Block of Incense",
-            "description": "<p>Frequently used by the rich and religious alike to scent the air for purposes of pleasure or ritual.</p>"
         },
         "Blowgun": {
             "name": "Blowgun",
@@ -517,6 +593,10 @@
             "name": "Blowgun Needle",
             "description": "<p>This ammunition is designed to be fired through a blowgun using the force of the wielders lungs. These needles are frequently tipped with deadly or crippling venoms.</p>"
         },
+        "BnOCLuNWhVvzHLjl": {
+            "name": "Torch",
+            "description": "<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>"
+        },
         "Bolt of Slaying": {
             "name": "Bolt of Slaying",
             "description": "<p>A Bolt of Slaying is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both Bolts of Dragon Slaying and Bolts of Blue Dragon Slaying. If a creature belonging to the type, race, or group associated with a bolt of slaying takes damage from the bolt, the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.</p>\n<p>Once a Bolt of Slaying deals its extra damage to a creature, it becomes a nonmagical bolt.</p>",
@@ -529,10 +609,6 @@
         "Book": {
             "name": "Book",
             "description": "<p>A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.</p>"
-        },
-        "Book of Lore": {
-            "name": "Book of Lore",
-            "description": "<p>A book containing historical accounts, information pertaining to a particular field of lore, myth, or legend.</p>"
         },
         "Book of Shadows": {
             "name": "Book of Shadows",
@@ -663,6 +739,10 @@
                 }
             }
         },
+        "Bt7nIb37nU7Wxevx": {
+            "name": "Book of Lore",
+            "description": "<p>A book containing historical accounts, information pertaining to a particular field of lore, myth, or legend.</p>"
+        },
         "Bucket": {
             "name": "Bucket",
             "description": "<p>A bucket holds 3 gallons of liquid or ½ cubic foot of solids.</p>"
@@ -674,6 +754,10 @@
         "Burglar's Pack": {
             "name": "Burglar's Pack",
             "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+        },
+        "C05ytVXByOG8uBAc": {
+            "name": "Small Knife",
+            "description": "<p>A blunt knife used by the scholarly to open letters and correspondence.</p>"
         },
         "Calligrapher's Supplies": {
             "name": "Calligrapher's Supplies",
@@ -692,10 +776,6 @@
                     "damageOnSave": "half"
                 }
             }
-        },
-        "Candle": {
-            "name": "Candle",
-            "description": "<p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>"
         },
         "Candle of Invocation": {
             "name": "Candle of Invocation",
@@ -763,10 +843,6 @@
                 }
             }
         },
-        "Censer": {
-            "name": "Censer",
-            "description": "<p>Usually used in conjunction with blocks of incense to perfume the air.</p>"
-        },
         "Censer of Controlling Air Elementals": {
             "name": "Censer of Controlling Air Elementals",
             "description": "<p><em>Wondrous item</em></p>\n<p>While incense is burning in this censer, you can use an action to speak the censer's command word and summon an @UUID[Compendium.dnd5e.monsters.Actor.banHjKDMCegbUwYE]{Air Elemental}, as if you had cast the @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental} spell. The censer can't be used this way again until the next dawn.</p>\n<p>This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound.</p>",
@@ -776,6 +852,10 @@
                     "activationCondition": "Command word."
                 }
             }
+        },
+        "CG0LhGQtc3KOAeE1": {
+            "name": "Tinderbox",
+            "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>"
         },
         "Chain (10 feet)": {
             "name": "Chain (10 feet)",
@@ -923,6 +1003,10 @@
             "name": "Club +3",
             "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
         },
+        "CNVsvqfTbtcoHiEo": {
+            "name": "Candle",
+            "description": "<p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>"
+        },
         "Cobbler's Tools": {
             "name": "Cobbler's Tools",
             "description": "<p>These special tools include the items needed to pursue a craft or trade in cobblery.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
@@ -949,10 +1033,6 @@
                 }
             }
         },
-        "Costume Clothes": {
-            "name": "Costume Clothes",
-            "description": "<p>A complete costume usually used by performers and artists in all manner of entertainment halls or for those that simply refuse to get out of character.</p>"
-        },
         "Crossbow Bolt": {
             "name": "Crossbow Bolt",
             "description": "<p>This ammunition is used for all varieties of crossbow and is typically a short metal shaft with a narrow piercing tip.</p>"
@@ -973,10 +1053,6 @@
             "name": "Crossbow Bolt Case",
             "description": "<p>This wooden case can hold up to twenty crossbow bolts.</p>"
         },
-        "Crowbar": {
-            "name": "Crowbar",
-            "description": "<p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p>"
-        },
         "Crystal": {
             "name": "Crystal",
             "description": "<p>This crystaline talisman serves as a spellcasting focus, helping the practitioner to channel arcane, primal, or divine energies.</p>\n<p><strong>Spellcasting Focus. </strong>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>"
@@ -989,7 +1065,7 @@
             "name": "Crystal Ball of Mind Reading",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>The Crystal Ball is about 6 inches in diameter. While touching it, you can cast the @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying}spell (save DC 17) with it.</p>\n<p>You can use an action to cast the @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts} spell (save DC 17) while you are Scrying with the Crystal Ball, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this Detect Thoughts to maintain it during its duration, but it ends if Scrying ends.</p>",
             "activities": {
-                "cast": {
+                "fRkGCqgiCHP528xk": {
                     "condition": "While you are Scrying with the Crystal Ball",
                     "activationCondition": "While you are Scrying with the Crystal Ball"
                 }
@@ -999,7 +1075,7 @@
             "name": "Crystal Ball of Telepathy",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>The crystal ball is about 6 inches in diameter. While touching it, you can cast the @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrying} spell (save DC 17) with it.</p>\n<p>While Scrying with the Crystal Ball, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{Suggestion} spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this Suggestion to maintain it during its duration, but it ends if Scrying ends.</p>\n<p>Once used, the Suggestion power of the Crystal Ball can't be used again until the next dawn.</p>",
             "activities": {
-                "cast": {
+                "5OrwGscvIsTh4piO": {
                     "condition": "While you are Scrying with the Crystal Ball",
                     "activationCondition": "While you are Scrying with the Crystal Ball"
                 }
@@ -1159,9 +1235,13 @@
             "name": "Diplomat's Pack",
             "description": "<p>A chest holds 12 cubic feet or 300 pounds of gear.</p>"
         },
-        "Disguise Kit": {
-            "name": "Disguise Kit",
-            "description": "<p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p>"
+        "DNOSEAvF4Oh1DlWy": {
+            "name": "Tinderbox",
+            "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>"
+        },
+        "dP7jMKyHTTgVb3ii": {
+            "name": "Ink Bottle",
+            "description": "<p>A small bottle of ink for writing upon parchment.</p>"
         },
         "Dragon Scale Mail": {
             "name": "Dragon Scale Mail",
@@ -1221,6 +1301,10 @@
                 }
             }
         },
+        "DSWvkerPQsusbqzJ": {
+            "name": "Tinderbox",
+            "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>"
+        },
         "Dulcimer": {
             "name": "Dulcimer",
             "description": "<p>A dulcimer to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>",
@@ -1256,6 +1340,10 @@
                 }
             }
         },
+        "DVXmyetZuvxbzAwW": {
+            "name": "Bedroll",
+            "description": "<p>Roll of cloth used by traveller to sleep in.</p>"
+        },
         "Dwarven Plate": {
             "name": "Dwarven Plate",
             "description": "<p>While wearing this plate armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.</p>"
@@ -1272,6 +1360,18 @@
                 }
             }
         },
+        "DxfCBU7uBoRNAnDm": {
+            "name": "Bedroll",
+            "description": "<p>Roll of cloth used by traveller to sleep in.</p>"
+        },
+        "E2h6sEe6FU2tnU96": {
+            "name": "Costume Clothes",
+            "description": "<p>A complete costume usually used by performers and artists in all manner of entertainment halls or for those that simply refuse to get out of character.</p>"
+        },
+        "EC6ugXsfJZmjMNAj": {
+            "name": "Rations",
+            "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>"
+        },
         "Efficient Quiver": {
             "name": "Efficient Quiver",
             "description": "<p><em>Wondrous item</em></p>\n<p>Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds.</p>\n<p>The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears.</p>\n<p>You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.</p>"
@@ -1279,6 +1379,10 @@
         "Efreeti Bottle": {
             "name": "Efreeti Bottle",
             "description": "<p><em>Wondrous item</em></p>\n<p>This painted brass bottle weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke flows out of the bottle. At the end of your turn, the smoke disappears with a flash of harmless fire, and an @UUID[Compendium.dnd5e.monsters.Actor.LTomFUTBrkRi0Pj5]{Efreeti} appears in an unoccupied space within 30 feet of you.</p>\n<p>The first time the bottle is opened, the GM rolls to determine what happens from the @UUID[Compendium.dnd5e.tables.RollTable.yZMFNfocj5qyVuOC]{Efreeti Bottle} table.</p>"
+        },
+        "eJY20LOs3pOkRDPl": {
+            "name": "Block of Incense",
+            "description": "<p>Frequently used by the rich and religious alike to scent the air for purposes of pleasure or ritual.</p>"
         },
         "Elemental Gem of Air": {
             "name": "Elemental Gem of Air",
@@ -1331,6 +1435,23 @@
         "Eyes of the Eagle": {
             "name": "Eyes of the Eagle",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.</p>"
+        },
+        "f3eF8EYq1rkqFwDP": {
+            "name": "Bag of Sand",
+            "description": "<p>A small bag of sand used by the scholarly to dry freshly inked letters and correspondence quickly and safely for quick dispatch.</p>"
+        },
+        "f4w4GxBi0nYXmhX4": {
+            "name": "Rations",
+            "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
+            "activities": {
+                "Eat": {
+                    "name": "Eat"
+                }
+            }
+        },
+        "F6GwSqjErX1u35Re": {
+            "name": "Bell",
+            "description": "<p>A small bell for you to ring.</p>"
         },
         "Feather Token Anchor": {
             "name": "Feather Token Anchor",
@@ -1420,10 +1541,6 @@
             "name": "Figurine of Wondrous Power (Silver Raven)",
             "description": "<p><em>Wondrous item</em></p>\n<p>A <em>figurine of wondrous power</em> is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.</p>\n<p>The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.</p>\n<p>The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.</p>\n<p><strong>Silver Raven</strong>. This silver statuette of a raven can become a @UUID[Compendium.dnd5e.monsters.Actor.LPdX5YLlwci0NDZx]{Raven} for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the @UUID[Compendium.dnd5e.spells.Item.X8w9EzYLGc4vQ1H2]{Animal Messenger} spell on it at will.</p>"
         },
-        "Fine Clothes": {
-            "name": "Fine Clothes",
-            "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>"
-        },
         "Fishing Tackle": {
             "name": "Fishing Tackle",
             "description": "<p>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.</p>"
@@ -1512,6 +1629,10 @@
                 }
             }
         },
+        "fNMkFCOvMiW2Rh3t": {
+            "name": "Paper",
+            "description": "<p>A single sheet of paper.</p>"
+        },
         "Folding Boat": {
             "name": "Folding Boat",
             "description": "<p><em>Wondrous item</em></p>\n<p>This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three command words, each requiring you to use an action to speak it.</p>\n<p>One command word causes the box to unfold into a boat 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oars, an anchor, a mast, and a lateen sail. The boat can hold up to four Medium creatures comfortably.</p>\n<p>The second command word causes the box to unfold into a ship 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. The ship can hold fifteen Medium creatures comfortably.</p>\n<p>When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat.</p>\n<p>The third command word causes the folding boat to fold back into a box, provided that no creatures are aboard. Any objects in the vessel that can't fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so.</p>"
@@ -1524,6 +1645,10 @@
                     "name": "Use Tools"
                 }
             }
+        },
+        "FqFmdzIBUSxFKKfi": {
+            "name": "Fine Clothes",
+            "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>"
         },
         "Frost Brand Greatsword": {
             "name": "Frost Brand Greatsword",
@@ -1544,6 +1669,10 @@
         "Frost Brand Shortsword": {
             "name": "Frost Brand Shortsword",
             "description": "<p><em>(Requires attunement)</em></p>\n<p>When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.</p>\n<p>In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</p>\n<p>When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.</p>"
+        },
+        "g8fQZ1WyTz2bTtvA": {
+            "name": "Alms Box",
+            "description": "<p>A box with a money slot and detachable base mainly used by priests and the like to collect alms.</p>"
         },
         "Gauntlets of Ogre Power": {
             "name": "Gauntlets of Ogre Power",
@@ -1845,10 +1974,6 @@
             "name": "Half Plate Armor of Resistance",
             "description": "<p><em>(Requires attunement)</em></p>\n<p>You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.VRqG3F72ebgNHyVR]{Armor of Resistance} table.\n</p><p> </p>"
         },
-        "Hammer": {
-            "name": "Hammer",
-            "description": "<p>A tool with a heavy metal head mounted at the end of its handle, used for jobs such as breaking things and driving in nails. </p>"
-        },
         "Hammer of Thunderbolts": {
             "name": "Hammer of Thunderbolts",
             "description": "<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon (maul).</p>\n<p><strong>Giant's Bane</strong> (<em>requires attunement</em>)</p>\n<p>You must be wearing a Belt of Giant Strength (any variety) and Gauntlets of Ogre Power to attune to this weapon. The attunement ends if you take off either of those items. While you are attuned to this weapon and holding it, your Strength score increases by 4 and can exceed 20, but not 30.</p>\n<p>When you roll a 20 on an attack roll made with this weapon against a giant, the giant must succeed on a DC 17 Constitution saving throw or die.</p>\n<p>The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the hammer unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it must succeed on a DC 17 Constitution saving throw or be stunned until the end of your next turn. The hammer regains 1d4 + 1 expended charges daily at dawn.</p>",
@@ -1964,7 +2089,7 @@
             "name": "Helm of Telepathy",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While wearing this helm, you can use an action to cast the @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts} spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply using a bonus action to do so while your focus on it continues.<br />While focusing on a creature with Detect Thoughts, you can use an action to cast the @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{Suggestion} spell (save DC 13) from the helm on that creature. Once used, the Suggestion property can't be used again until the next dawn.</p>",
             "activities": {
-                "cast": {
+                "HG9ikbJ7bHYwKcug": {
                     "condition": "While focusing on a creature with Detect Thoughts",
                     "activationCondition": "While focusing on a creature with Detect Thoughts"
                 },
@@ -1979,15 +2104,6 @@
             "name": "Helm of Teleportation",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the @UUID[Compendium.dnd5e.spells.Item.L4J89JXqbKs6puEV]{Teleport} spell from it. The helm regains 1d3 expended charges daily at dawn.</p>"
         },
-        "Hempen Rope (50 ft.)": {
-            "name": "Hempen Rope (50 ft.)",
-            "description": "<p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
-            "activities": {
-                "save": {
-                    "damageOnSave": "half"
-                }
-            }
-        },
         "Herbalism Kit": {
             "name": "Herbalism Kit",
             "description": "<p>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.</p>",
@@ -1996,6 +2112,10 @@
                     "name": "Use Tools"
                 }
             }
+        },
+        "HgFNy16VK0iJgpFx": {
+            "name": "Candle",
+            "description": "<p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>"
         },
         "Hide Armor": {
             "name": "Hide Armor",
@@ -2062,10 +2182,6 @@
                 }
             }
         },
-        "Hooded Lantern": {
-            "name": "Hooded Lantern",
-            "description": "<p>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p>"
-        },
         "Horn": {
             "name": "Horn",
             "description": "<p>A horn, of any variety, to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>",
@@ -2102,6 +2218,10 @@
             "name": "Hourglass",
             "description": "<p>A device used to measure the passage of time. It is comprised of two glass bulbs connected vertically by a narrow neck that allows a regulated trickle of sand from the upper bulb to the lower one.</p>"
         },
+        "HqM7xtEgwV1l3HTZ": {
+            "name": "Sealing Wax",
+            "description": "<p>A wax material of a seal which, after melting, hardens quickly forming a bond that is difficult to separate without noticeable tampering.</p>"
+        },
         "Hunting Trap": {
             "name": "Hunting Trap",
             "description": "<p>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.</p>",
@@ -2111,17 +2231,22 @@
                 }
             }
         },
+        "IBhDAr7WkhWPYLVn": {
+            "name": "Disguise Kit",
+            "description": "<p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p>",
+            "activities": {
+                "Use Tools": {
+                    "name": "Use Tools"
+                }
+            }
+        },
+        "IGg1yAvcOyhIqzBi": {
+            "name": "Bedroll",
+            "description": "<p>Roll of cloth used by traveller to sleep in.</p>"
+        },
         "Immovable Rod": {
             "name": "Immovable Rod",
             "description": "<p>This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success.</p>"
-        },
-        "Ink Bottle": {
-            "name": "Ink Bottle",
-            "description": "<p>A small bottle of ink for writing upon parchment.</p>"
-        },
-        "Ink Pen": {
-            "name": "Ink Pen",
-            "description": "<p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>"
         },
         "Instant Fortress": {
             "name": "Instant Fortress",
@@ -2133,6 +2258,10 @@
                     "damageOnSave": "half"
                 }
             }
+        },
+        "iOMRrzfzFCfPGuD6": {
+            "name": "Bag of Sand",
+            "description": "<p>A small bag of sand used by the scholarly to dry freshly inked letters and correspondence quickly and safely for quick dispatch.</p>"
         },
         "Ioun Stone of Absorption": {
             "name": "Ioun Stone of Absorption",
@@ -2261,6 +2390,14 @@
             "name": "Iron Spike",
             "description": "<p>A spike of 10 inches long made of iron. Can be improvised to block doors. Usually sold in bundles of 10.</p>"
         },
+        "irtqrzaUCeshmTZp": {
+            "name": "Vestments",
+            "description": "<p>Simple or ostentacious wear, often used by priests and other religious figures for use in rituals and ceremonies.</p>"
+        },
+        "j01YDOu2AolsRvdN": {
+            "name": "Oil Flask",
+            "description": "<p>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon.</p>\n<p>On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level.</p>\n<p>If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p>"
+        },
         "Javelin": {
             "name": "Javelin",
             "description": "<p>This light and flexible spear is designed for throwing, but is versatile enough to be used in melee combat as well.</p>"
@@ -2292,6 +2429,10 @@
                 }
             }
         },
+        "jDTM1RjtZMu9YYL9": {
+            "name": "Oil Flask",
+            "description": "<p>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon.</p>\n<p>On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level.</p>\n<p>If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p>"
+        },
         "Jeweler's Tools": {
             "name": "Jeweler's Tools",
             "description": "<p>These special tools include the items needed to pursue a craft or trade in jewelry.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
@@ -2305,13 +2446,29 @@
             "name": "Jug",
             "description": "<p>A pitcher holds 1 gallon of liquid.</p>"
         },
+        "JwJf6M6HCSSMgKx3": {
+            "name": "Rations",
+            "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>"
+        },
+        "kj5DNiBKasYWyuj6": {
+            "name": "Disguise Kit",
+            "description": "<p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p>"
+        },
+        "kx8DGQizmR5UI21R": {
+            "name": "Waterskin",
+            "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>"
+        },
+        "KyW8s4pCgPAkgTXI": {
+            "name": "Bell",
+            "description": "<p>A small bell for you to ring.</p>"
+        },
+        "l794iywHk8Wc6Uvi": {
+            "name": "Book of Lore",
+            "description": "<p>A book containing historical accounts, information pertaining to a particular field of lore, myth, or legend.</p>"
+        },
         "Ladder (10-foot)": {
             "name": "Ladder (10-foot)",
             "description": "<p>A ladder 10-foot long, as sturdy or rickety as the hand that crafted or bodged it together.</p>"
-        },
-        "Lamp": {
-            "name": "Lamp",
-            "description": "<p>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil</p>"
         },
         "Lance": {
             "name": "Lance",
@@ -2332,6 +2489,10 @@
         "Lantern of Revealing": {
             "name": "Lantern of Revealing",
             "description": "<p><em>Wondrous item</em></p>\n<p>While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius.</p>"
+        },
+        "lBg9CPRdpRhn4DO4": {
+            "name": "Mess Kit",
+            "description": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>"
         },
         "Leather Armor": {
             "name": "Leather Armor",
@@ -2361,6 +2522,14 @@
                     "name": "Use Tools"
                 }
             }
+        },
+        "LECtCKWa0mt0Vy1U": {
+            "name": "Perfume",
+            "description": "<p>A vial of aromatic perfume.</p>"
+        },
+        "lg6oohwQndZT4Z0m": {
+            "name": "Censer",
+            "description": "<p>Usually used in conjunction with blocks of incense to perfume the air.</p>"
         },
         "Light Crossbow": {
             "name": "Light Crossbow",
@@ -2481,6 +2650,10 @@
                 }
             }
         },
+        "ltbDV5OitV0yrDFU": {
+            "name": "Torch",
+            "description": "<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>"
+        },
         "Luck Blade Greatsword": {
             "name": "Luck Blade Greatsword",
             "description": "<p><em>(Requires attunement)</em></p>\n<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.</p>\n<p><strong>Luck</strong>. If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property can't be used again until the next dawn.</p>\n<p><strong>Wish</strong>. The sword has 1d4 – 1 charges. While holding it, you can use an action to expend 1 charge and cast the @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Wish} spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges.</p>"
@@ -2518,6 +2691,10 @@
                     "name": "Play Instrument"
                 }
             }
+        },
+        "m7I2KkwIWttQSElS": {
+            "name": "Tinderbox",
+            "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>"
         },
         "Mace": {
             "name": "Mace",
@@ -2665,6 +2842,10 @@
             "name": "Maul +3",
             "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
         },
+        "mE6rsbIJXAd4tr4e": {
+            "name": "Vestments",
+            "description": "<p>Simple or ostentacious wear, often used by priests and other religious figures for use in rituals and ceremonies.</p>"
+        },
         "Medallion of Thoughts": {
             "name": "Medallion of Thoughts",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Detect Thoughts} spell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.</p>"
@@ -2672,10 +2853,6 @@
         "Merchant's Scale": {
             "name": "Merchant's Scale",
             "description": "<p>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</p>"
-        },
-        "Mess Kit": {
-            "name": "Mess Kit",
-            "description": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>"
         },
         "Military Saddle": {
             "name": "Military Saddle",
@@ -2904,6 +3081,10 @@
                 }
             }
         },
+        "nmuGH3OKdoMOwJqj": {
+            "name": "Hammer",
+            "description": "<p>A tool with a heavy metal head mounted at the end of its handle, used for jobs such as breaking things and driving in nails. </p>"
+        },
         "Oathbow": {
             "name": "Oathbow",
             "description": "<p><em>(Requires attunement)</em></p>\n<p>When you nock an arrow on this bow, it whispers in Elvish, \"Swift defeat to my enemies.\" When you use this weapon to make a ranged attack, you can, as a command phrase, say, \"Swift death to you who have wronged me.\" The target of your attack becomes your sworn enemy until it dies or until dawn seven days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.</p>\n<p>When you make a ranged attack roll with this weapon against your sworn enemy, you have advantage on the roll. In addition, your target gains no benefit from cover, other than total cover, and you suffer no disadvantage due to long range. If the attack hits, your sworn enemy takes an extra 3d6 piercing damage.</p>\n<p>While your sworn enemy lives, you have disadvantage on attack rolls with all other weapons.</p>",
@@ -2916,10 +3097,6 @@
                     "name": "Damage vs Sworn Enemy"
                 }
             }
-        },
-        "Oil Flask": {
-            "name": "Oil Flask",
-            "description": "<p>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon.</p>\n<p>On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level.</p>\n<p>If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p>"
         },
         "Oil of Etherealness": {
             "name": "Oil of Etherealness",
@@ -2989,6 +3166,27 @@
                 }
             }
         },
+        "oRrNK2H2vcN4Kp74": {
+            "name": "Hempen Rope (50 ft.)",
+            "description": "<p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
+        },
+        "oylFuuS3t1nqNKsM": {
+            "name": "Candle",
+            "description": "<p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>"
+        },
+        "P31t6tGgt9aLAdYt": {
+            "name": "Piton",
+            "description": "<p>A metal spike that is drive into a seam in a climbing surface with a climbing hammer. It can also be used like iron spikes to block doors in a pinch.</p>"
+        },
+        "P5UuhUBZL59wZiCY": {
+            "name": "Rations",
+            "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>"
+        },
         "Pack Saddle": {
             "name": "Pack Saddle",
             "description": "<p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups. This type of saddle is suitable for pack mounts.</p>"
@@ -3031,14 +3229,6 @@
                 }
             }
         },
-        "Paper": {
-            "name": "Paper",
-            "description": "<p>A single sheet of paper.</p>"
-        },
-        "Parchment": {
-            "name": "Parchment",
-            "description": "<p>A single sheet of heavier parchment paper.</p>"
-        },
         "Pearl of Power": {
             "name": "Pearl of Power",
             "description": "<p><em>Wondrous item, (requires attunement by a spellcaster)</em></p>\n<p>While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you use the pearl, it can't be used again until the next dawn.</p>",
@@ -3048,10 +3238,6 @@
                     "activationCondition": "Command word."
                 }
             }
-        },
-        "Perfume": {
-            "name": "Perfume",
-            "description": "<p>A vial of aromatic perfume.</p>"
         },
         "Periapt of Health": {
             "name": "Periapt of Health",
@@ -3125,10 +3311,6 @@
         "Pitcher": {
             "name": "Pitcher",
             "description": "<p>A pitcher holds 1 gallon of liquid.</p>"
-        },
-        "Piton": {
-            "name": "Piton",
-            "description": "<p>A metal spike that is drive into a seam in a climbing surface with a climbing hammer. It can also be used like iron spikes to block doors in a pinch.</p>"
         },
         "Plate Armor": {
             "name": "Plate Armor",
@@ -3685,6 +3867,22 @@
             "name": "Priest's Pack",
             "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
         },
+        "psoZaItkOScMVaHL": {
+            "name": "Oil Flask",
+            "description": "<p>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon.</p>\n<p>On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level.</p>\n<p>If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p>"
+        },
+        "q4RcCLeKviqgckqt": {
+            "name": "Waterskin",
+            "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>"
+        },
+        "qGfu1070HAllkO4W": {
+            "name": "Ink Bottle",
+            "description": "<p>A small bottle of ink for writing upon parchment.</p>"
+        },
+        "qMzHmlmha8qMDnEF": {
+            "name": "Lamp",
+            "description": "<p>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil</p>"
+        },
         "Quarterstaff": {
             "name": "Quarterstaff",
             "description": "<p>A thick shaft of wood wrapped with a sturdy grip makes a highly functional weapon in addition to a stout walking stick.</p>"
@@ -3704,6 +3902,15 @@
         "Quiver": {
             "name": "Quiver",
             "description": "<p>A quiver can hold up to 20 arrows.</p>"
+        },
+        "QXmaarJ4X8P0C1HV": {
+            "name": "Hempen Rope (50 ft.)",
+            "description": "<p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
+            "activities": {
+                "Burst": {
+                    "name": "Burst"
+                }
+            }
         },
         "Rapier": {
             "name": "Rapier",
@@ -3752,14 +3959,9 @@
                 }
             }
         },
-        "Rations": {
-            "name": "Rations",
-            "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
-            "activities": {
-                "Eat": {
-                    "name": "Eat"
-                }
-            }
+        "REBWkTKe6lJaIkpn": {
+            "name": "Soap",
+            "description": "<p>Used to clean and wash.</p>"
         },
         "Reliquary": {
             "name": "Reliquary",
@@ -3813,7 +4015,7 @@
             "name": "Ring of Air Elemental Command",
             "description": "<p><em>(Requires attunement)</em></p>\n<p>This ring is linked to the Elemental Plane of Air.</p>\n<p>While wearing this ring, you have advantage on attack rolls against @UUID[Compendium.dnd5e.monsters.Actor.banHjKDMCegbUwYE]{Air Elemental}s, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the linked plane.</p>\n<p>The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.</p>\n<p><strong>Ring of Air Elemental Command</strong>. You can expend 2 of the ring's charges to cast @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on an Air Elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.</p>\n<p>If you help slay an Air Elemental while attuned to the ring, you gain access to the following additional properties:</p>\n<ul>\n<li>You have resistance to lightning damage.</li>\n<li>You have a flying speed equal to your walking speed and can hover.</li>\n<li>You can cast the following spells from the ring, expending the necessary number of charges: @UUID[Compendium.dnd5e.spells.Item.QbTxN5dWIbYZ4jLU]{Chain Lightning} (3 charges), @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{Gust of Wind} (2 charges), or @UUID[Compendium.dnd5e.spells.Item.ew6GA8dJy2spQmFW]{Wind Wall} (1 charge).</li>\n</ul>",
             "activities": {
-                "cast": {
+                "bHxilWVcS6pXWF14": {
                     "target": "Only on Air Elementals"
                 }
             }
@@ -3845,7 +4047,7 @@
             "name": "Ring of Earth Elemental Command",
             "description": "<p><em>(Requires attunement)</em></p>\n<p>This ring is linked to the Elemental Plane of Earth.</p>\n<p>While wearing this ring, you have advantage on attack rolls against @UUID[Compendium.dnd5e.monsters.Actor.sApYLZj9PTZ40wJr]{Earth Elemental}s, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the linked plane.</p>\n<p>The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.</p>\n<p><strong>Ring of Earth Elemental Command</strong>. You can expend 2 of the ring's charges to cast @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on an Earth Elemental. In addition, you can move in difficult terrain that is composed of rubble, rocks, or dirt as if it were normal terrain. You can also speak and understand Terran.</p>\n<p>If you help slay an Earth Elemental while attuned to the ring, you gain access to the following additional properties:</p>\n<ul>\n<li>You have resistance to acid damage.</li>\n<li>You can move through solid earth or rock as if those areas were difficult terrain. If you end your turn there, you are shunted out to the nearest unoccupied space you last occupied.</li>\n<li>You can cast the following spells from the ring, expending the necessary number of charges: @UUID[Compendium.dnd5e.spells.Item.QvGcdRUSNRKEQJlK]{Stone Shape} (2 charges), @UUID[Compendium.dnd5e.spells.Item.ReMbjfeOKoSj3O79]{Stoneskin} (3 charges), or @UUID[Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{Wall of Stone} (3 charges).</li>\n</ul>",
             "activities": {
-                "cast": {
+                "2BmS0duA6cOAkzUW": {
                     "target": "Only on Earth Elementals"
                 }
             }
@@ -3867,7 +4069,7 @@
             "name": "Ring of Fire Elemental Command",
             "description": "<p><em>(Requires attunement)</em></p>\n<p>This ring is linked to the Elemental Plane of Fire.</p>\n<p>While wearing this ring, you have advantage on attack rolls against @UUID[Compendium.dnd5e.monsters.Actor.8SMQl75HLjhuSeau]{Fire Elemental}s, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the linked plane.</p>\n<p>The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.</p>\n<p><strong>Ring of Fire Elemental Command</strong>. You can expend 2 of the ring's charges to cast @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on a Fire Elemental. In addition, you have resistance to fire damage. You can also speak and understand Ignan.</p>\n<p>If you help slay a Fire Elemental while attuned to the ring, you gain access to the following additional properties:</p>\n<ul>\n<li>You are immune to fire damage.</li>\n<li>You can cast the following spells from the ring, expending the necessary number of charges: @UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands} (1 charge), @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} (2 charges), or @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire} (3 charges).</li>\n</ul>",
             "activities": {
-                "cast": {
+                "dxaE4B2S9PJ692hU": {
                     "target": "Only on Fire Elementals"
                 }
             }
@@ -4056,7 +4258,7 @@
             "name": "Ring of Water Elemental Command",
             "description": "<p><em>(Requires attunement)</em></p>\n<p>This ring is linked to the Elemental Plane of Water.</p>\n<p>While wearing this ring, you have advantage on attack rolls against @UUID[Compendium.dnd5e.monsters.Actor.namJz755U1EhvEJa]{Water Elemental}s, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the linked plane.</p>\n<p>The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.</p>\n<p><strong>Ring of Water Elemental Command</strong>. You can expend 2 of the ring's charges to cast @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{Dominate Monster} on a Water Elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.</p>\n<p>If you help slay a Water Elemental while attuned to the ring, you gain access to the following additional properties:</p>\n<ul>\n<li>You can breathe underwater and have a swimming speed equal to your walking speed.</li>\n<li>You can cast the following spells from the ring, expending the necessary number of charges: @UUID[Compendium.dnd5e.spells.Item.a3XtAO5n2GrqiAh5]{Create or Destroy Water} (1 charge), @UUID[Compendium.dnd5e.spells.Item.7fFHlBk3UNX8gPKL]{Control Water} (3 charges), @UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{Ice Storm} (2 charges), or @UUID[Compendium.dnd5e.spells.Item.fzZnVKLmBMo2f5up]{Wall of Ice} (3 charges).</li>\n</ul>",
             "activities": {
-                "cast": {
+                "UXQJwXpxp8Jg9y5Y": {
                     "target": "Only on Water Elementals"
                 }
             },
@@ -4308,10 +4510,6 @@
             "name": "Scroll Case",
             "description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>"
         },
-        "Sealing Wax": {
-            "name": "Sealing Wax",
-            "description": "<p>A wax material of a seal which, after melting, hardens quickly forming a bond that is difficult to separate without noticeable tampering.</p>"
-        },
         "Shawm": {
             "name": "Shawm",
             "description": "<p>A shawm to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>",
@@ -4445,6 +4643,10 @@
             "name": "Silver Horn of Valhalla",
             "description": "<p><em>Wondrous item</em></p>\n<p>You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a @UUID[Compendium.dnd5e.monsters.Actor.kz1t6xeXVwODpYb2]{Berserker}. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.</p>\n<p>Four types of Horn of Valhalla are known to exist, each made of a different metal. The horn's type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn's type or determines it randomly from the @UUID[Compendium.dnd5e.tables.RollTable.RwerG95cIk2uRpsQ]{Horn of Valhalla} table.</p>\n<p><strong>Silver Horn of Valhalla.</strong>This silver horn summons [[/r 3d4 + 3]] berserkers when blown and has no other requirements.</p>\n<p>If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.</p>"
         },
+        "sJ9gfQnz2jdT6GAB": {
+            "name": "Soap",
+            "description": "<p>Used to clean and wash.</p>"
+        },
         "Sledgehammer": {
             "name": "Sledgehammer",
             "description": "<p>A tool with a large, flat, often metal head, attached to a long handle. </p>"
@@ -4500,10 +4702,6 @@
                 }
             }
         },
-        "Small Knife": {
-            "name": "Small Knife",
-            "description": "<p>A blunt knife used by the scholarly to open letters and correspondence.</p>"
-        },
         "Smith's Tools": {
             "name": "Smith's Tools",
             "description": "<p>These special tools include the items needed to pursue a craft or trade in smithing.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
@@ -4512,10 +4710,6 @@
                     "name": "Use Tools"
                 }
             }
-        },
-        "Soap": {
-            "name": "Soap",
-            "description": "<p>Used to clean and wash.</p>"
         },
         "Sovereign Glue": {
             "name": "Sovereign Glue",
@@ -4867,10 +5061,6 @@
                 }
             }
         },
-        "Tinderbox": {
-            "name": "Tinderbox",
-            "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>"
-        },
         "Tinker's Tools": {
             "name": "Tinker's Tools",
             "description": "<p>These special tools include the items needed to pursue a craft or trade in tinkering.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
@@ -4910,13 +5100,13 @@
                 }
             }
         },
-        "Torch": {
-            "name": "Torch",
-            "description": "<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>"
-        },
         "Totem": {
             "name": "Totem",
             "description": "<p>A totem incorporating feathers, fur, bones, and teeth from an animal sacred to the user. Those who heed nature's call are able to harness this to call forth the incredible power of nature.</p>\n<p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>"
+        },
+        "TqyvIglHDj5kfohR": {
+            "name": "Piton",
+            "description": "<p>A metal spike that is drive into a seam in a climbing surface with a climbing hammer. It can also be used like iron spikes to block doors in a pinch.</p>"
         },
         "Traveler's Clothes": {
             "name": "Traveler's Clothes",
@@ -4946,6 +5136,10 @@
             "name": "Trinket",
             "description": "<p>A placeholder for the non-SRD items introduced on pg. 159, with the d100 table on 160-161.</p>"
         },
+        "trmWAdUoR6Y2B7rA": {
+            "name": "Hooded Lantern",
+            "description": "<p>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p>"
+        },
         "Truth Serum": {
             "name": "Truth Serum",
             "description": "<p>A creature subjected to this poison must succeed on a [[/save]] saving throw or become &amp;Reference[poisoned] for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth} spell.</p>",
@@ -4959,6 +5153,23 @@
             "name": "Two-Person Tent",
             "description": "<p>A simple and portable canvas shelter, a tent sleeps two.</p>"
         },
+        "U5fRz04JWgNS1WvK": {
+            "name": "Hempen Rope (50 ft.)",
+            "description": "<p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
+        },
+        "ug9bTGmTTEN7JwmP": {
+            "name": "Costume Clothes",
+            "description": "<p>A complete costume usually used by performers and artists in all manner of entertainment halls or for those that simply refuse to get out of character.</p>"
+        },
+        "UICmOXUKBmHp9o4y": {
+            "name": "Ink Bottle",
+            "description": "<p>A small bottle of ink for writing upon parchment.</p>"
+        },
         "Unarmed Strike": {
             "name": "Unarmed Strike",
             "description": "<p>A  punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes.</p>"
@@ -4967,9 +5178,34 @@
             "name": "Universal Solvent",
             "description": "<p><em>Wondrous item</em></p>\n<p>This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, including Sovereign Glue.</p>"
         },
-        "Vestments": {
-            "name": "Vestments",
-            "description": "<p>Simple or ostentacious wear, often used by priests and other religious figures for use in rituals and ceremonies.</p>"
+        "uuh4UH3Jx5CsFjdA": {
+            "name": "Perfume",
+            "description": "<p>A vial of aromatic perfume.</p>"
+        },
+        "Uv0ilmzbWvqmlCVH": {
+            "name": "Waterskin",
+            "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>",
+            "activities": {
+                "Drink": {
+                    "name": "Drink"
+                }
+            }
+        },
+        "uVm7MiB71QblfnoY": {
+            "name": "Ink Pen",
+            "description": "<p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>"
+        },
+        "uYniEJCeAuwUC4JY": {
+            "name": "Blanket",
+            "description": "<p>A blanket to keep you warm at night.</p>"
+        },
+        "V13fjV5oSmvbRdgP": {
+            "name": "Mess Kit",
+            "description": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>"
+        },
+        "V5UAjT3ed6sDNtgm": {
+            "name": "Crowbar",
+            "description": "<p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p>"
         },
         "Vial": {
             "name": "Vial",
@@ -5127,6 +5363,10 @@
                     "name": "Play Instrument"
                 }
             }
+        },
+        "vmymwrmE730l3pKh": {
+            "name": "Lamp",
+            "description": "<p>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil</p>"
         },
         "Vorpal Greatsword": {
             "name": "Vorpal Greatsword",
@@ -5328,10 +5568,6 @@
             "name": "Warhammer +3",
             "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
         },
-        "Waterskin": {
-            "name": "Waterskin",
-            "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>"
-        },
         "Weaver's Tools": {
             "name": "Weaver's Tools",
             "description": "<p>These special tools include the items needed to pursue a craft or trade in weaving.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
@@ -5344,6 +5580,10 @@
         "Well of Many Worlds": {
             "name": "Well of Many Worlds",
             "description": "<p><em>Wondrous item</em></p>\n<p>This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.</p>\n<p>You can use an action to unfold and place the Well of Many Worlds on a solid surface, whereupon it creates a two-way portal to another world or plane of existence. Each time the item opens a portal, the GM decides where it leads. You can use an action to close an open portal by taking hold of the edges of the cloth and folding it up. Once a Well of Many Worlds has opened a portal, it can't do so again for 1d8 hours.</p>"
+        },
+        "WFQS2vT8ddrFjTJg": {
+            "name": "Parchment",
+            "description": "<p>A single sheet of heavier parchment paper.</p>"
         },
         "Whetstone": {
             "name": "Whetstone",
@@ -5382,6 +5622,14 @@
             "name": "Wings of Flying",
             "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of bat wings or bird wings on your back for 1 hour or until you repeat the command word as an action. The wings give you a flying speed of 60 feet. When they disappear, you can't use them again for 1d12 hours.</p>"
         },
+        "wjHtGnd05SPdURqE": {
+            "name": "Hooded Lantern",
+            "description": "<p>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p>"
+        },
+        "wmedRPNenLVSUaT5": {
+            "name": "Piton",
+            "description": "<p>A metal spike that is drive into a seam in a climbing surface with a climbing hammer. It can also be used like iron spikes to block doors in a pinch.</p>"
+        },
         "Woodcarver's Tools": {
             "name": "Woodcarver's Tools",
             "description": "<p>These special tools include the items needed to pursue a craft or trade in woodcarving.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
@@ -5395,9 +5643,29 @@
             "name": "Wooden Staff",
             "description": "<p>A gnarled or naturely smooth staff of wood drawn out from a living tree, those who heed nature's call can use this to harness the incredible power of nature.</p>\n<p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>"
         },
+        "xWQopgOHbS6LjsZm": {
+            "name": "Hammer",
+            "description": "<p>A tool with a heavy metal head mounted at the end of its handle, used for jobs such as breaking things and driving in nails. </p>"
+        },
+        "xxRC1qTIGzGEvmkg": {
+            "name": "Block of Incense",
+            "description": "<p>Frequently used by the rich and religious alike to scent the air for purposes of pleasure or ritual.</p>"
+        },
+        "ybeLtyIloDvKhDz8": {
+            "name": "Ink Pen",
+            "description": "<p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>"
+        },
         "Yew Wand": {
             "name": "Yew Wand",
             "description": "<p>This wand or scepter has been carved from yew or another special wood and inscribed with powerful runes to invoke the power of nature by those who heed its call.</p>\n<p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>"
+        },
+        "YM4QueTsF3DL77mH": {
+            "name": "Rations",
+            "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>"
+        },
+        "yUGNrsXMfsUKwsUg": {
+            "name": "Crowbar",
+            "description": "<p>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</p>"
         }
     },
     "folders": {

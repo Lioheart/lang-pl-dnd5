@@ -1,21 +1,16 @@
 {
-    "label": "Effects",
-    "folders": {
-        "Ability Check & Save Advantage": "Ability Check & Save Advantage",
-        "Ability Check & Save Disadvantage": "Ability Check & Save Disadvantage",
-        "Ability Check Advantage": "Ability Check Advantage",
-        "Ability Check Disadvantage": "Ability Check Disadvantage",
-        "Ability Save Advantage": "Ability Save Advantage",
-        "Ability Save Disadvantage": "Ability Save Disadvantage",
-        "Condition Immunities": "Condition Immunities",
-        "Conditions": "Conditions",
-        "Damage Immunities": "Damage Immunities",
-        "Damage Resistances": "Damage Resistances",
-        "Damage Vulnerabilities": "Damage Vulnerabilities",
-        "Skill Advantage": "Skill Advantage",
-        "Skill Disadvantage": "Skill Disadvantage",
-        "Speeds": "Speeds",
-        "Spells": "Spells"
+    "label": "Active Effects",
+    "mapping": {
+        "name": "name",
+        "description": "description",
+        "changes": {
+            "path": "changes",
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "array",
+            "key": "key",
+            "valuePath": "value"
+        }
     },
     "entries": {
         "Acid Immunity": {
@@ -364,6 +359,10 @@
         "Petrified Immunity": {
             "name": "Petrified Immunity"
         },
+        "phbeffSilenced00": {
+            "name": "Silenced",
+            "description": "<p>Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the Deafened condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.</p>"
+        },
         "Piercing Immunity": {
             "name": "Piercing Immunity"
         },
@@ -424,9 +423,8 @@
         "Restrained Immunity": {
             "name": "Restrained Immunity"
         },
-        "Silenced": {
-            "name": "Silenced",
-            "description": "<p>Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the Deafened condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.</p>"
+        "ryGbnbaNnIOEHvHG": {
+            "name": "Silenced"
         },
         "Silenced Immunity": {
             "name": "Silenced Immunity"
@@ -537,7 +535,21 @@
             "name": "Wisdom Save Disadvantage"
         }
     },
-    "mapping": {
-        "description": "description"
+    "folders": {
+        "Ability Check & Save Advantage": "Ability Check & Save Advantage",
+        "Ability Check & Save Disadvantage": "Ability Check & Save Disadvantage",
+        "Ability Check Advantage": "Ability Check Advantage",
+        "Ability Check Disadvantage": "Ability Check Disadvantage",
+        "Ability Save Advantage": "Ability Save Advantage",
+        "Ability Save Disadvantage": "Ability Save Disadvantage",
+        "Condition Immunities": "Condition Immunities",
+        "Conditions": "Conditions",
+        "Damage Immunities": "Damage Immunities",
+        "Damage Resistances": "Damage Resistances",
+        "Damage Vulnerabilities": "Damage Vulnerabilities",
+        "Skill Advantage": "Skill Advantage",
+        "Skill Disadvantage": "Skill Disadvantage",
+        "Speeds": "Speeds",
+        "Spells": "Spells"
     }
 }

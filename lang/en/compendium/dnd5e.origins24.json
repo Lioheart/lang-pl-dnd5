@@ -42,7 +42,9 @@
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many"
         },
         "advancement": {
             "path": "system.advancement",
@@ -51,12 +53,20 @@
             "container": "keyed",
             "keys": [
                 "_id",
+                "name",
                 "title"
             ],
             "mapping": {
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": true
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -271,7 +281,7 @@
                     "title": "Keen Senses",
                     "hint": "You have proficiency in the Insight, Perception, or Survival skill."
                 },
-                "Drow Traits": {
+                "LWGXpgeZc3PwUgTg": {
                     "title": "Drow Traits",
                     "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
                 },
@@ -299,7 +309,7 @@
                     "title": "Keen Senses",
                     "hint": "You have proficiency in the Insight, Perception, or Survival skill."
                 },
-                "High Elf Traits": {
+                "hraql8YRB41ssDA6": {
                     "title": "High Elf Traits",
                     "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
                 },
@@ -323,7 +333,7 @@
                 "Elf Traits": {
                     "title": "Elf Traits"
                 },
-                "Wood Elf Traits": {
+                "YFS9oEa9Iw1molNm": {
                     "title": "Wood Elf Traits"
                 },
                 "FRJszO7cYchbaGzt": {
@@ -473,7 +483,7 @@
                 "LETPMtBLvmzWUUb0": {
                     "hint": "Medium (about 7-8 feet tall)"
                 },
-                "Goliath Traits": {
+                "PZxMcT5tVtvvf62P": {
                     "title": "Goliath Traits"
                 },
                 "Giant Ancestry": {
@@ -716,7 +726,7 @@
                 "Tiefling Traits": {
                     "title": "Tiefling Traits"
                 },
-                "Abyssal Tiefling Traits": {
+                "V8h8fLg4XG1QGewy": {
                     "title": "Abyssal Tiefling Traits",
                     "hint": "You have Resistance to Poison damage."
                 },
@@ -750,7 +760,7 @@
                 "Otherworldly Presence": {
                     "title": "Otherworldly Presence"
                 },
-                "Chthonic Tiefling Traits": {
+                "O6M9VGAwHx9Kkfhj": {
                     "title": "Chthonic Tiefling Traits",
                     "hint": "You have Resistance to Necrotic damage."
                 },
@@ -781,7 +791,7 @@
                 "Otherworldly Presence": {
                     "title": "Otherworldly Presence"
                 },
-                "Infernal Tiefling Traits": {
+                "9V9xGP0Fsqh3NDsB": {
                     "title": "Infernal Tiefling Traits",
                     "hint": "You have Resistance to Fire damage."
                 },
