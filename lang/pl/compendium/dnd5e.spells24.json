@@ -42,7 +42,9 @@
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many"
         },
         "advancement": {
             "path": "system.advancement",
@@ -51,12 +53,20 @@
             "container": "keyed",
             "keys": [
                 "_id",
+                "name",
                 "title"
             ],
             "mapping": {
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": true
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -389,7 +399,10 @@
                 "Expend d10 Hit Dice": {
                     "name": "Zużyj k10 Kość Wytrzymałości"
                 },
-                "Expend d12 Hit Dice": {
+                "Kkp5dxHq1yK2WOGI": {
+                    "name": "Zużyj k12 Kość Wytrzymałości"
+                },
+                "H7hUZ2QYED0myy5Z": {
                     "name": "Zużyj k12 Kość Wytrzymałości"
                 }
             }
@@ -4086,7 +4099,10 @@
                 "Enchant Weapon": {
                     "name": "Zaklęcie broni"
                 },
-                "Spellcasting Attack": {
+                "CiLsaHBi9F6eIXUS": {
+                    "name": "Atak czarem"
+                },
+                "cGNXKjpoRima6wjQ": {
                     "name": "Atak czarem"
                 }
             },
