@@ -16,14 +16,14 @@
     "npc": "Postać NPC",
     "npcPl": "Postacie NPC",
     "vehicle": "Pojazd",
-    "vehiclePl": "Pojazdów"
+    "vehiclePl": "Pojazdy"
   },
   "TYPES.ActiveEffect": {
-    "enchantment": "Uroków",
-    "enchantmentPl": "Zaklęcia"
+    "enchantment": "Zaklinanie",
+    "enchantmentPl": "Zaklinania"
   },
   "TYPES.ChatMessage": {
-    "item": "Komunikat o przedmiocie",
+    "item": "Wiadomość o przedmiocie",
     "prompt": "Wiadomość monitu",
     "request": "Prośba o wiadomość",
     "rest": "Komunikat o odpoczynku",
@@ -48,7 +48,7 @@
     "featurePl": "Zdolności",
     "loot": "Przedmiot",
     "lootPl": "Przedmiot",
-    "race": "Gatunki",
+    "race": "Gatunek",
     "racePl": "Gatunki",
     "raceLegacy": "Rasa",
     "raceLegacyPl": "Rasy",
@@ -68,7 +68,7 @@
   },
   "TYPES.HINTS": {
     "RegionBehavior": {
-      "dnd5e.applyActiveEffect": "Zastosuj Efekty aktywne do tokenów, gdy znajdują się one w obrębie regionu i spełniają określone kryteria.",
+      "dnd5e.applyActiveEffect": "Zastosuj Aktywne Efekty do tokenów, gdy znajdują się one w obrębie regionu i spełniają określone kryteria.",
       "dnd5e.difficultTerrain": "Oznacz region jako trudny teren, ustaw jego rodzaj i na kogo ma wypływ.",
       "dnd5e.rotateArea": "Obracaj tokeny, kafelki, ściany i inne obiekty wokół centralnego punktu obrotu."
     }
@@ -98,10 +98,10 @@
                 "label": "Premia do ataku"
               },
               "max": {
-                "label": "Maksymalny test ataku"
+                "label": "Maksymalny wynik testu ataku"
               },
               "min": {
-                "label": "Minimalny test ataku"
+                "label": "Minimalny wynik testu ataku"
               },
               "mode": {
                 "label": "Tryb ułatwienia ataku"
@@ -114,10 +114,10 @@
                 "label": "Premia do testu"
               },
               "max": {
-                "label": "Maksymalny rzut testu"
+                "label": "Maksymalny wynik testu"
               },
               "min": {
-                "label": "Minimalny rzut testu"
+                "label": "Minimalny wynik testu"
               },
               "mode": {
                 "label": "Tryb ułatwienia testu"
@@ -130,10 +130,10 @@
                 "label": "Premia do rzutów obronnych"
               },
               "max": {
-                "label": "Maksymalny rzut obronny"
+                "label": "Maksymalny wynik rzutu obronnego"
               },
               "min": {
-                "label": "Minimalny rzut obronny"
+                "label": "Minimalny wynik rzutu obronnego"
               },
               "mode": {
                 "label": "Tryb ułatwienia rzutu obronnego"
@@ -303,7 +303,7 @@
         "Counted": {
           "one": "{number} akcja legendarna",
           "other": "{number} akcji legendarnych",
-          "few": "{number} akcji legendarnych",
+          "few": "{number} akcje legendarne",
           "many": "{number} akcji legendarnych"
         },
         "Header": "Akcje legendarne",
@@ -320,7 +320,7 @@
         "Counted": {
           "one": "{number} akcja mityczna",
           "other": "{number} akcji mityczych",
-          "few": "{number} akcji mityczych",
+          "few": "{number} akcje mityczne",
           "many": "{number} akcji mityczych"
         },
         "Header": "Akcje mityczne",
@@ -374,7 +374,7 @@
             "label": "Nazwa"
           }
         },
-        "label": "Zachowania obszaru działania"
+        "label": "Zachowanie działania obszarowego"
       },
       "description": {
         "label": "Opis",
@@ -465,7 +465,7 @@
       "CapDisplay": {
         "one": "Maks. {points} punktów na Cechę",
         "other": "Maks. {points} punktów na Cechę",
-        "few": "Maks. {points} punktów na Cechę",
+        "few": "Maks. {points} punkty na Cechę",
         "many": "Maks. {points} punktów na Cechę"
       },
       "Details": "Szczegóły zwiększenia",
@@ -516,7 +516,7 @@
       "PointsRemaining": {
         "one": "Pozostał {points} punkt",
         "other": "Pozostało {points} punktów",
-        "few": "Pozostało {points} punktów",
+        "few": "Pozostało {points} punkty",
         "many": "Pozostało {points} punktów"
       },
       "Title": "Zwiększenie wartości Cech",
@@ -703,7 +703,7 @@
         "Container": "Zawartość pojemnika nie będzie dodawana wraz z samym pojemnikiem.",
         "Duplicate": "Ten przedmiot już jest przypisany do tego awansu.",
         "Recursive": "Nie możesz przyznać przedmiotu w ramach jego własnego awansu.",
-        "Type": "Nie można dodać przedmiotów rodzaju {type} do tego awansu."
+        "Type": "Nie można dodać do tego awansu przedmiotów rodzaju: {type}."
       }
     },
     "Label": "Awans",
@@ -752,7 +752,7 @@
         "AddChange": "Dodaj zmianę",
         "DeleteChange": "Usuń zmianę"
       },
-      "DropHint": "Upuść tutaj zaklęcie",
+      "DropHint": "Upuść tutaj zaklinanie",
       "Empty": {
         "WithDropdown": "Brak zmian. Użyj przycisku <i class=\"fa-solid fa-plus\"></i> powyżej, aby utworzyć zmianę, lub wybierz istniejący efekt z listy.",
         "WithoutDropdown": "Brak zmian. Użyj przycisku <i class=\"fa-solid fa-plus\"></i> powyżej, aby utworzyć zmianę."
@@ -761,10 +761,10 @@
         "changes": {
           "element": {
             "enchantment": {
-              "label": "Nałożone zaklęcie"
+              "label": "Nałożone zaklinanie"
             },
             "identifiers": {
-              "hint": "Identyfikatory przedmiotów, które zostaną zmodyfikowane przez to zaklinanie. Przed identyfikatorem można podać typ przedmiotu (np. \"spell:mage-hand\").",
+              "hint": "Identyfikatory przedmiotów, które zostaną zmodyfikowane przez to zaklinanie. Przed identyfikatorem można podać rodzaj przedmiotu (np. \"spell:mage-hand\").",
               "label": "Zmodyfikowane przedmioty"
             }
           },
@@ -847,7 +847,7 @@
               "label": "Użycia"
             }
           },
-          "Hint": "Użyj tego, aby przedstawić użycia przedmiotu w danym okresie.",
+          "Hint": "Skorzystaj z tego, aby przedstawić użycia przedmiotu w danym okresie.",
           "Label": "Użycia"
         }
       },
@@ -975,7 +975,7 @@
   "DND5E.AdvantageMode": "Tryb ułatwienia",
   "DND5E.ADVENTURE": {
     "Finished": {
-      "one": "Zakończono przygotowywanie przygody {adventure}.",
+      "one": "Zakończono przygotowywanie przygody: {adventure}.",
       "other": "Zakończono przygotowywanie {number} przygód.",
       "few": "Zakończono przygotowywanie {number} przygód.",
       "many": "Zakończono przygotowywanie {number} przygód."
@@ -1043,7 +1043,7 @@
     },
     "Calculation": {
       "Armored": "Wyposażony pancerz",
-      "Custom": "Niestandardowe",
+      "Custom": "Niestandardowy",
       "Draconic": "Smocza odporność",
       "Label": "Obliczenia",
       "Mage": "Zbroja maga",
@@ -1085,7 +1085,7 @@
             "label": "KP z osłony"
           },
           "flat": {
-            "hint": "Liczba, której można użyć w klasie pancerza poprzez zastosowanie @attributes.ac.flat we wzorze.",
+            "hint": "Liczba, której można użyć w klasie pancerza poprzez zastosowanie we wzorze atrybutu @attributes.ac.flat.",
             "label": "Stała wartość"
           },
           "formula": {
@@ -1096,7 +1096,7 @@
               "armored": {
                 "excluded": "Bez pancerza",
                 "label": "W pancerzu",
-                "required": "Zbroja wymagana"
+                "required": "Pancerz wymagany"
               },
               "formula": {
                 "label": "Wzór"
@@ -1149,7 +1149,7 @@
       "attack": {
         "label": "Szczegóły ataku",
         "abilities": {
-          "label": "Opcje cech"
+          "label": "Opcje Cech"
         },
         "ability": {
           "label": "Cecha bazowa ataku",
@@ -1263,7 +1263,7 @@
   },
   "DND5E.Bastion": {
     "Action": {
-      "Advance": "Rozpocznij następną turę Bastionu",
+      "Advance": "Rozpocznij następną turę bastionu",
       "Maintain": "Utrzymanie bastionu"
     },
     "Attack": {
@@ -1276,8 +1276,8 @@
         "Deaths": {
           "one": "<strong>{deaths}</strong> obrońca został zabity w ataku na Bastion!",
           "other": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na Bastion!",
-          "few": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na Bastion!",
-          "many": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na Bastion!"
+          "few": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na bastion!",
+          "many": "<strong>{deaths}</strong> obrońców zostało zabitych w ataku na bastion!"
         },
         "NoDeaths": "Odparto atak na Bastion bez strat!",
         "Undefended": "Zaatakowano niebroniony Bastion!"
@@ -1295,15 +1295,15 @@
     },
     "FIELDS": {
       "button": {
-        "hint": "Wyświetl przycisk rozpoczynania tur Bastionu w głównym interfejsie gry.",
-        "label": "Pokaż przycisk tury Bastionu"
+        "hint": "Wyświetl przycisk rozpoczynania tur bastionu w głównym interfejsie gry.",
+        "label": "Pokaż przycisk tury bastionu"
       },
       "duration": {
-        "label": "Czas trwania tury Bastionu (dni)"
+        "label": "Czas trwania tury bastionu (dni)"
       },
       "enabled": {
-        "hint": "Po włączeniu tej opcji postacie graczy będą miały dostęp do nowej karty Bastionu na swoich kartach postaci po osiągnięciu 5. poziomu i będą mogły budować struktury oraz dodawać do nich rozkazy.",
-        "label": "Włącz funkcjonalność Bastionu"
+        "hint": "Po włączeniu tej opcji postacie graczy będą miały dostęp do nowej karty bastionu na swoich kartach postaci po osiągnięciu 5. poziomu i będą mogły budować struktury oraz dodawać do nich rozkazy.",
+        "label": "Włącz funkcjonalność bastionu"
       },
       "reminder": {
         "hint": "Wyświetlaj na czacie przypomnienie, gdy na podstawie upływu czasu powinna nastąpić kolejna tura bastionu.",
@@ -1599,10 +1599,10 @@
       "Sunset": "Słońce zaszło.",
       "SunsetSunrise": "Słońce zaszło i nadszedł świt nowego dnia.",
       "TimePassed": {
-        "one": "Upłynęło: {number}.",
-        "other": "Upłynęło: {number}.",
-        "few": "Upłynęło: {number}.",
-        "many": "Upłynęło: {number}."
+        "one": "Upłynął {number}.",
+        "other": "Upłynęło {number}.",
+        "few": "Upłynęły {number}.",
+        "many": "Upłynęło {number}."
       },
       "Title": "Upływ czasu"
     }
@@ -1646,7 +1646,7 @@
         },
         "spellbook": {
           "label": "Wyświetlaj w zakładce czarów",
-          "hint": "Wyświetl czar w zakładce Czary na karcie postaci. Przedmioty muszą mieć właściwość Magiczny i być zestrojone, jeśli wymagają zestrojenia."
+          "hint": "Wyświetl czar w zakładce \"Czary\" na karcie postaci. Przedmioty muszą mieć właściwość \"magiczny\" i być zestrojone, jeśli wymagają zestrojenia."
         },
         "uuid": {
           "label": "Czar do rzucenia"
@@ -1745,7 +1745,7 @@
     "Activities": "Aktywności",
     "Button": {
       "rollAttack": "Atak",
-      "rollCheck": "Test cechy",
+      "rollCheck": "Test Cechy",
       "rollDamage": "Obrażenia",
       "rollFormula": "Rzut",
       "rollSave": "Rzut obronny"
@@ -1767,10 +1767,10 @@
     },
     "Row": {
       "Actions": "Akcje przedmiotu",
-      "Items": "Przedmioty (SRD)",
+      "Items": "Przedmioty",
       "Properties": "Właściwości przedmiotu",
       "Roll": "Rzut kością",
-      "rollCheck": "Testy cech",
+      "rollCheck": "Testy Cech",
       "rollSave": "Rzuty obronne",
       "Targets": "Cele"
     },
@@ -1982,7 +1982,7 @@
       "Break": "Przerwij koncentrację",
       "End": "Zakończ koncentrację"
     },
-    "Description": "Koncentrujesz się na efektach: \"{name}\" {type}.",
+    "Description": "Koncentrujesz się na efektach: \"{name}\" - {type}.",
     "Duration": {
       "Scalar": "Koncentracja, aż do {duration}",
       "Special": "Koncentracja, {durationLc}"
@@ -2003,13 +2003,13 @@
               "label": "Premia do testu na koncentrację"
             },
             "max": {
-              "label": "Maksymalny rzut koncentracji"
+              "label": "Maksymalny wynik rzutu na koncentrację"
             },
             "min": {
-              "label": "Minimalny rzut koncentracji"
+              "label": "Minimalny wynik rzutu na koncentrację"
             },
             "mode": {
-              "label": "Tryb ułatwienia koncentracji"
+              "label": "Tryb ułatwienia w rzucie na koncentrację"
             }
           }
         }
@@ -2083,7 +2083,7 @@
             }
           },
           "types": {
-            "label": "Typy obrażeń podstawowych"
+            "label": "Rodzaje obrażeń podstawowych"
           }
         },
         "bonus": {
@@ -2691,7 +2691,7 @@
               "label": "Klucz atrybutu"
             },
             "phase": {
-              "hint": "Moment przygotowywania danych lub inne zdarzenie, w którym zmiana ma zostać zastosowana.",
+              "hint": "Moment w procesie przygotowania danych lub inne zdarzenie, w którym ma zostać wprowadzona zmiana.",
               "label": "Faza"
             },
             "priority": {
@@ -2699,10 +2699,10 @@
             },
             "replacement": {
               "label": "Zastąpienie",
-              "hint": "Określ, czy właściwości danych rzutu w polu Wartość są zastępowane przed zastosowaniem i na podstawie czyich danych."
+              "hint": "Określ, czy właściwości danych rzutu w polu \"Wartość\" są zastępowane przed zastosowaniem i na podstawie czyich danych."
             },
             "type": {
-              "label": "Typ"
+              "label": "Rodzaj"
             },
             "value": {
               "label": "Wartość"
@@ -2715,7 +2715,7 @@
         },
         "magical": {
           "hint": "Ten efekt pochodzi z magicznego źródła i powinien zostać wyłączony, gdy magia jest niedostępna.",
-          "label": "Magiczna"
+          "label": "Magiczny"
         }
       }
     },
@@ -2723,12 +2723,12 @@
       "Temporary": "Efekty tymczasowe",
       "Passive": "Efekty pasywne",
       "Inactive": "Efekty nieaktywne",
-      "Unavailable": "Niedostępne efekty"
+      "Unavailable": "Efekty niedostępne"
     },
     "Change": {
       "Configuration": "Konfiguracja zmiany",
       "Group": {
-        "Custom": "Niestandardowe",
+        "Custom": "Niestandardowy",
         "Rules": "Zasady",
         "Standard": "Standardowy"
       },
@@ -2745,24 +2745,24 @@
           "Label": "Maksimum rzutu"
         },
         "Minimum": {
-          "Label": "Minimum rzutu"
+          "Label": "Minimalny wynik rzutu"
         }
       }
     },
     "DisabledTooltip": {
-      "Disabled": "Ten efekt jest obecnie wybrany w co najmniej jednej aktywności jego przedmiotu, dlatego nie można go zawiesić.",
-      "Transfer": "Ten efekt jest obecnie wybrany w co najmniej jednej aktywności jego przedmiotu, dlatego nie może być pasywnie stosowany do aktora tego przedmiotu."
+      "Disabled": "Ten efekt jest obecnie wybrany w co najmniej jednej z aktywności jego przedmiotu, dlatego nie można go zawiesić.",
+      "Transfer": "Ten efekt jest obecnie wybrany w co najmniej jednej z aktywności jego przedmiotu, dlatego nie może być pasywnie stosowany do aktora tego przedmiotu."
     },
-    "DropHint": "Upuść tutaj efekt aktywny",
+    "DropHint": "Upuść tutaj aktywny efekt",
     "Empty": "Brak powiązanych efektów. Użyj przycisku <i class=\"fas fa-plus\"></i> powyżej, aby utworzyć efekt, lub wybierz istniejący efekt z listy.",
-    "Expired": "Wygasło",
+    "Expired": "Wygasł",
     "Expiry": {
       "Abbreviation": {
         "End": "Koniec",
         "Start": "Początek"
       },
       "Group": {
-        "General": "Ogólne",
+        "General": "Ogólny",
         "Specific": "Konkretny"
       },
       "Type": {
@@ -2779,7 +2779,7 @@
     "FIELDS": {
       "statuses": {
         "label": "Stany",
-        "hint": "Chociaż ten Aktywny Efekt ma wpływ, cel będzie traktowany jako mający te dodatkowe stany."
+        "hint": "Podczas działania tego aktywnego efektu, cel będzie traktowany jako mający te dodatkowe stany."
       }
     },
     "Label": "Dostępne efekty",
@@ -2795,7 +2795,7 @@
       "FIELDS": {
         "rider": {
           "statuses": {
-            "hint": "Gdy ten Aktywny Efekt zostanie zastosowany, te dodatkowe stany będą stosowane oddzielnie.",
+            "hint": "Kiedy ten aktywny efekt zostanie zastosowany, te dodatkowe stany będą stosowane oddzielnie.",
             "label": "Oddziel stany"
           }
         }
@@ -2805,7 +2805,7 @@
       "ChangeActive": "Zmiana aktywna",
       "ChangeInactive": "Zmiana nieaktywna",
       "DeleteDialog": {
-        "hint": "Ten stan działa na ciebie z więcej niż jednego źródła. Wybierz, który efekt ma się zakończyć.",
+        "hint": "Jesteś pod wypływem działania stanu z więcej niż jednego źródła. Wybierz, który efekt ma się zakończyć.",
         "title": "Usuń efekt"
       },
       "Inactive": "Nieaktywny",
@@ -2814,12 +2814,12 @@
       "Unavailable": "Niedostępny"
     },
     "Suppressed": {
-      "Hint": "Przedmiot, który jest źródłem efektu musi zostać założony lub zestrojony, aby móc aktywować efekty"
+      "Hint": "Przedmiot, który jest źródłem efektu musi zostać założony lub trzeba się z nim zestroić, aby móc aktywować efekty"
     },
     "Tab": "Efekty",
     "Warning": {
       "RollCondition": "Warunki efektu nie mogą odwoływać się do właściwości 'roll.'. Przenieś ten warunek do poszczególnych zmian, aby efekt mógł zostać zastosowany.",
-      "StatusCondition": "Efekty nadające statusy nie mogą jednocześnie zależeć od statusów. Przenieś ten warunek do poszczególnych zmian, aby efekt mógł zostać zastosowany."
+      "StatusCondition": "Efekty nadające statusy nie mogą jednocześnie zależeć od statusów. Przenieś ten warunek do poszczególnych zmian, aby można było zastosować efekt."
     }
   },
   "DND5E.ENCHANT": {
@@ -2927,7 +2927,7 @@
     "FIELDS": {
       "magical": {
         "hint": "To zaklinanie jest magiczne i powinno zostać wyłączone, gdy magia jest niedostępna.",
-        "label": "Magiczna"
+        "label": "Magiczne"
       }
     },
     "Items": {
@@ -2976,7 +2976,7 @@
               "label": "Premia do progu obciążenia"
             },
             "heavilyEncumbered": {
-              "label": "Premia do progu ciężkiego obciążenia"
+              "label": "Premia do progu dużego obciążenia"
             },
             "maximum": {
               "label": "Premia do maksymalnego udźwigu"
@@ -2990,7 +2990,7 @@
               "label": "Mnożnik progu obciążenia"
             },
             "heavilyEncumbered": {
-              "label": "Mnożnik progu ciężkiego obciążenia"
+              "label": "Mnożnik progu dużego obciążenia"
             },
             "maximum": {
               "label": "Mnożnik maksymalnego udźwigu"
@@ -3044,7 +3044,7 @@
     "Boons": {
       "one": "{number} Dobrodziejstwo",
       "other": "{number} Dobrodziejstw",
-      "few": "{number} Dobrodziejstw",
+      "few": "{number} Dobrodziejstwa",
       "many": "{number} Dobrodziejstw"
     },
     "Current": "Aktualne PD",
@@ -3321,7 +3321,7 @@
   },
   "DND5E.FALLING": {
     "DamageFlavor": "Spadek z {distance}",
-    "MovementAction": "Jesień",
+    "MovementAction": "Spadanie",
     "Warning": {
       "NoLandingSurface": "{name} nie może spaść, ponieważ nie ma pod sobą żadnej powierzchni."
     }
@@ -3342,11 +3342,11 @@
         "items": {
           "max": {
             "label": "Limit przedmiotów",
-            "hint": "Wzór na maksymalną liczbę zaklęć tego rodzaju, które mogą być aktywne jednocześnie."
+            "hint": "Wzór na maksymalną liczbę zaklinań tego rodzaju, które mogą być aktywne jednocześnie."
           },
           "period": {
             "label": "Okres wymiany",
-            "hint": "Jak często zaklęcia tego typu można powiązać z innymi przedmiotami."
+            "hint": "Jak często zaklinanie tego rodzaju można powiązać z innymi przedmiotami."
           }
         }
       },
@@ -3502,7 +3502,7 @@
   "DND5E.FlagsReliableTalentHint": "Zdolność łotra: Niezawodny talent",
   "DND5E.FlagsRemarkableAthlete": "Niezwykły atleta",
   "DND5E.FlagsRemarkableAthleteHint": "Ułatwienie w rzutach na inicjatywę i testach atletyki.",
-  "DND5E.FlagsRemarkableAthleteHintLegacy": "Połowa biegłości (zaokrąglona w górę) do testów umiejętności fizycznych i Inicjatywy.",
+  "DND5E.FlagsRemarkableAthleteHintLegacy": "Połowa biegłości (zaokrąglona w górę) do testów Cech fizycznych i Inicjatywy.",
   "DND5E.FlagsWeaponCritThreshold": "Próg trafienia krytycznego bronią",
   "DND5E.FlagsWeaponCritThresholdHint": "Rozszerzony próg trafienia kryt. ataków bronią.",
   "DND5E.FlagsSpellCritThreshold": "Próg trafienia krytycznego czarem",
@@ -3752,13 +3752,13 @@
         "init": {
           "roll": {
             "bonus": {
-              "label": "Premia do Inicjatywy"
+              "label": "Premia do inicjatywy"
             },
             "max": {
               "label": "Maksimum rzutu na inicjatywę"
             },
             "min": {
-              "label": "Minimum rzutu na inicjatywę"
+              "label": "Minimalny wynik rzutu na inicjatywę"
             },
             "mode": {
               "label": "Tryb ułatwienia inicjatywy"
@@ -3883,12 +3883,12 @@
     },
     "Rarity": {
       "Artifact": "Artefakt",
-      "Common": "Wspólny",
+      "Common": "Powszechny",
       "Legendary": "Legendarny",
       "Mundane": "Pospolity",
       "Rare": "Rzadki",
       "Uncommon": "Niespotykany",
-      "Varies": "Zmienny",
+      "Varies": "Zmienna",
       "VeryRare": "Bardzo rzadki"
     },
     "SECTIONS": {
@@ -3974,9 +3974,9 @@
     "Ordinal": {
       "one": "{n} Legendarna Akcja",
       "two": "{n} Legendarna Akcja",
-      "few": "{n} Legendarnych Akcji",
+      "few": "{n} Akcje Legendarne",
       "other": "{n} Legendarna Akcja",
-      "many": "{n} Legendarnych Akcji"
+      "many": "{n} Akcji Legendarnych"
     },
     "Remaining": "Pozostałe Akcje Legendarne",
     "Spent": "Wykorzystane Akcje Legendarne"
@@ -3992,7 +3992,7 @@
     "Ordinal": {
       "one": "{n} Legendarna Odporność",
       "two": "{n} Legendarna Odporność",
-      "few": "{n} Legendarnych Odporności",
+      "few": "{n} Legendarne Odporności",
       "other": "{n} Legendarna Odporność",
       "many": "{n} Legendarnych Odporności"
     },
@@ -4102,7 +4102,7 @@
   "DND5E.Period": "Okres",
   "DND5E.PersonalityTraits": "Cechy osobowości",
   "DND5E.PIETY": {
-    "Configure": "Konfiguruj pobożność",
+    "Configure": "Konfiguruj Cechę pobożność",
     "Label": "Pobożność",
     "FIELDS": {
       "value": {
@@ -4138,9 +4138,9 @@
       }
     },
     "Status": {
-      "Invalid": "Weryfikacja wymagań nieudana",
-      "Unknown": "Weryfikacja wymagań niekompletna",
-      "Valid": "Weryfikacja wymagań udana"
+      "Invalid": "Nie powiodło się sprawdzenie wymagań wstępnych",
+      "Unknown": "Nie ukończono sprawdzania wymagań wstępnych",
+      "Valid": "Zakończono sprawdzanie wymagań wstępnych"
     },
     "Warning": {
       "InvalidLevel": "musi być co najmniej na poziomie {level}",
@@ -4221,19 +4221,19 @@
     "APPLYACTIVEEFFECT": {
       "FIELDS": {
         "dispositions": {
-          "hint": "Jeśli ustawiono, efekty będą stosowane tylko do tokenów o tych nastawieniach.",
-          "label": "Usposobienia"
+          "hint": "Jeśli włączono, efekty będą stosowane tylko do tokenów o tych nastawieniach.",
+          "label": "Nastawienia"
         },
         "effects": {
           "hint": "Efekty stosowane do tokenów znajdujących się w obszarze.",
           "label": "Efekty"
         },
         "sizes": {
-          "hint": "Jeśli ustawiono, efekty będą stosowane tylko do tokenów o tych rozmiarach.",
+          "hint": "Jeśli włączono, efekty będą stosowane tylko do tokenów o tych rozmiarach.",
           "label": "Rozmiary"
         },
         "types": {
-          "hint": "Jeśli ustawione, zastosuj efekty tylko do tokenów będących tymi typami istot.",
+          "hint": "Jeśli włączono, efekty będą stosowane tylko do tokenów będących tymi rodzajami istot.",
           "label": "Rodzaje"
         }
       }
@@ -4432,15 +4432,15 @@
       "attack": {
         "classification": "Klasyfikacja ataku",
         "mode": "Tryb ataku",
-        "type": "Typ ataku"
+        "type": "Rodzaj ataku"
       },
       "damage": {
         "type": "Rodzaj obrażeń"
       },
       "proficient": "Biegły",
-      "skill": "Umiejętność rzutu",
-      "tool": "Narzędzie rzutu",
-      "type": "Typ rzutu"
+      "skill": "Testowana umiejętność",
+      "tool": "Testowane narzędzie",
+      "type": "Rodzaj rzutu"
     },
     "FIELDS": {
       "rolls": {
@@ -4450,28 +4450,28 @@
               "label": "Globalna premia do testów Cech"
             },
             "max": {
-              "label": "Globalne maksimum testu cechy"
+              "label": "Globalny maksymalny wynik testu Cechy"
             },
             "min": {
-              "label": "Globalne minimum testu cechy"
+              "label": "Globalny minimalny wynik testu Cechy"
             },
             "mode": {
-              "label": "Globalny tryb ułatwienia testu cechy"
+              "label": "Globalny tryb ułatwienia testu Cechy"
             },
             "proficiency": {
-              "label": "Globalna biegłość w testach cech"
+              "label": "Globalna biegłość w testach Cech"
             }
           },
-          "label": "Modyfikacja rzutu na cechę",
+          "label": "Modyfikacja rzutu na Cechę",
           "save": {
             "bonus": {
               "label": "Globalna premia do rzutów obronnych"
             },
             "max": {
-              "label": "Globalne maksimum rzutu obronnego"
+              "label": "Globalny maksymalny wynik rzutu obronnego"
             },
             "min": {
-              "label": "Globalne minimum rzutu obronnego"
+              "label": "Globalny minimalny wynik rzutu obronnego"
             },
             "mode": {
               "label": "Globalny tryb ułatwienia rzutu obronnego"
@@ -4485,10 +4485,10 @@
               "label": "Globalna premia do testów umiejętności"
             },
             "max": {
-              "label": "Globalne maksimum testu umiejętności"
+              "label": "Globalny maksymalny wynik testu umiejętności"
             },
             "min": {
-              "label": "Globalne minimum testu umiejętności"
+              "label": "Globalny minimalny wynik testu umiejętności"
             },
             "mode": {
               "label": "Globalny tryb ułatwienia testu umiejętności"
@@ -4502,10 +4502,10 @@
               "label": "Globalna premia do testów narzędzi"
             },
             "max": {
-              "label": "Globalne maksimum testu narzędzi"
+              "label": "Globalny maksymalny wynik testu narzędzi"
             },
             "min": {
-              "label": "Globalne minimum testu narzędzi"
+              "label": "Globalny minimalny wynik testu narzędzi"
             },
             "mode": {
               "label": "Globalny tryb ułatwienia testu narzędzi"
@@ -4521,10 +4521,10 @@
           },
           "label": "Modyfikacja testu ataku",
           "max": {
-            "label": "Globalne maksimum testu ataku"
+            "label": "Globalny maksymalny wynik testu ataku"
           },
           "min": {
-            "label": "Globalne maksimum testu ataku"
+            "label": "Globalny minimalny wynik testu ataku"
           },
           "mode": {
             "label": "Globalny tryb ułatwienia ataku"
@@ -4534,10 +4534,10 @@
               "label": "Premia do ataku wręcz czarem"
             },
             "max": {
-              "label": "Maksimum testu ataku wręcz czarem"
+              "label": "Maksymalny wynik testu ataku wręcz czarem"
             },
             "min": {
-              "label": "Minimum testu ataku wręcz czarem"
+              "label": "Minimalny wynik testu ataku wręcz czarem"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku wręcz czarem"
@@ -4548,10 +4548,10 @@
               "label": "Premia do ataku wręcz bronią"
             },
             "max": {
-              "label": "Maksimum testu ataku wręcz bronią"
+              "label": "Maksymalny wynik testu ataku wręcz bronią"
             },
             "min": {
-              "label": "Minimum testu ataku wręcz bronią"
+              "label": "Minimalny wynik testu ataku wręcz bronią"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku wręcz bronią"
@@ -4562,10 +4562,10 @@
               "label": "Premia do ataku dystansowego czarem"
             },
             "max": {
-              "label": "Maksimum testu ataku dystansowego czarem"
+              "label": "Maksymalny wynik testu ataku dystansowego czarem"
             },
             "min": {
-              "label": "Minimum testu ataku dystansowego czarem"
+              "label": "Minimalny wynik testu ataku dystansowego czarem"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku dystansowego czarem"
@@ -4576,10 +4576,10 @@
               "label": "Premia do ataku dystansowego bronią"
             },
             "max": {
-              "label": "Maksimum testu ataku dystansowego bronią"
+              "label": "Maksymalny wynik testu ataku dystansowego bronią"
             },
             "min": {
-              "label": "Minimum testu ataku dystansowego bronią"
+              "label": "Minimalny wynik testu ataku dystansowego bronią"
             },
             "mode": {
               "label": "Tryb ułatwienia ataku dystansowego bronią"
@@ -4613,10 +4613,10 @@
     },
     "Formatter": {
       "AdvantageMode": "Tryb ułatwienia: {name}",
-      "Bonus": "Tryb ułatwienia: {name}",
-      "Maximum": "Premia do rzutu: {name}",
-      "Minimum": "Maksimum rzutu: {name}",
-      "ModifierAbility": "Cecha modyfikatora: {name}"
+      "Bonus": "Premia do rzutu: {name}",
+      "Maximum": "Maksymalny wynik rzutu: {name}",
+      "Minimum": "Minimalny wynik rzutu: {name}",
+      "ModifierAbility": "Modyfikator z Cechy: {name}"
     },
     "Generic": {
       "D20": {
@@ -4624,10 +4624,10 @@
           "label": "Premia do rzutu"
         },
         "max": {
-          "label": "Maksymalny rzut"
+          "label": "Maksymalny wynik rzutu"
         },
         "min": {
-          "label": "Minimalny rzut"
+          "label": "Minimalny wynik rzutu"
         },
         "mode": {
           "label": "Tryb ułatwienia"
@@ -4854,10 +4854,10 @@
               "label": "Premia do testów umiejętności"
             },
             "max": {
-              "label": "Maksimum testu umiejętności"
+              "label": "Maksymalny wynik testu umiejętności"
             },
             "min": {
-              "label": "Minimum testu umiejętności"
+              "label": "Minimalny wynik testu umiejętności"
             },
             "mode": {
               "label": "Tryb ułatwienia testu umiejętności"
@@ -5131,7 +5131,7 @@
   "DND5E.Spent": "Zużyte",
   "DND5E.SplitStack": {
     "Action": "Rozdziel",
-    "Title": "Podziel stos"
+    "Title": "Rozdziel stos"
   },
   "DND5E.StartingEquipment": {
     "Title": "Wyposażenie początkowe",
@@ -5358,7 +5358,7 @@
         "label": "Nadpisanie tytułu"
       },
       "type": {
-        "label": "Typ"
+        "label": "Rodzaj"
       }
     },
     "HiddenPages": "Ukryte strony",
@@ -5374,10 +5374,10 @@
       "Appendix": "Załącznik",
       "Chapter": "Rozdział",
       "Header": "Nagłówek",
-      "Special": "Specjalna"
+      "Special": "Specjalny"
     },
     "Warning": {
-      "DuplicateHeader": "Tylko jeden wpis może mieć typ Nagłówek.",
+      "DuplicateHeader": "Tylko jeden wpis może mieć typ \"Nagłówek\".",
       "DuplicatePosition": "Każdy Rozdział i Dodatek powinien mieć unikalną wartość pozycji."
     }
   },
@@ -5514,9 +5514,9 @@
           "each": "każda istota lub obiekt",
           "every": "wszystkie istoty lub obiekty",
           "one": "istota lub obiekt",
-          "other": "{number} istot lub obiektów",
-          "few": "{number} istoty lub obiekty",
-          "many": "{number} istot lub obiektów"
+          "other": "istot lub obiektów",
+          "few": "istoty lub obiekty",
+          "many": "istot lub obiektów"
         }
       },
       "Cube": {
@@ -5545,7 +5545,7 @@
         "Label": "Emanacja",
         "Counted": {
           "one": "emanacja",
-          "other": "emanacje",
+          "other": "emanacji",
           "oneSized": "Emanacja {sizes}",
           "otherSized": "{number} emanacji {sizes}",
           "few": "emanacje",
@@ -5688,7 +5688,7 @@
           "each": "każda przychylna istota",
           "every": "wszystkie przychylne istoty",
           "one": "przychylna istota",
-          "other": "przychylne istoty",
+          "other": "przychylnych istot",
           "few": "przychylne istoty",
           "many": "przychylnych istot"
         }
@@ -5762,11 +5762,11 @@
       "LightDimRadius": "Promień słabego światła"
     },
     "LockScale": {
-      "Hint": "Uniemożliwiaj dostosowanie skalowania tokena, jeśli rozmiar aktora to Mały.",
+      "Hint": "Zapobiegaj dostosowywaniu skali tokena, jeśli rozmiar aktora jest Mały.",
       "Label": "Zablokuj skalę"
     },
     "LockSize": {
-      "Hint": "Odblokuj, aby ręcznie wprowadzić wymiary tego tokena i uniemożliwić ich automatyczne dostosowywanie na podstawie rozmiaru istoty.",
+      "Hint": "Odblokuj, aby ręcznie wprowadzić wymiary tego tokena i zapobiec ich automatycznemu dostosowywaniu na podstawie rozmiaru istoty.",
       "Label": "Zablokuj rozmiar"
     }
   },
@@ -5787,10 +5787,10 @@
               "label": "Premia do testów narzędzi"
             },
             "max": {
-              "label": "Maksimum testu narzędzi"
+              "label": "Maksymalny wynik testu narzędzi"
             },
             "min": {
-              "label": "Minimum testu narzędzi"
+              "label": "Minimalny wynik testu narzędzi"
             },
             "mode": {
               "label": "Tryb ułatwienia testu narzędzi"
@@ -5831,15 +5831,15 @@
   "DND5E.ToolVehicle": "Pojazdy",
   "DND5E.TRAIT": {
     "Action": {
-      "Configure": "Skonfiguruj {trait}"
+      "Configure": "Skonfiguruj: {trait}"
     },
-    "All": "Wszystkie {category}",
+    "All": "Wszystkie: {category}",
     "Armor": {
-      "one": "Biegłośc w pancerzu",
-      "other": "Biegłośc w pancerzu",
-      "title": "Biegłośc w pancerzu",
-      "few": "Biegłośc w pancerzu",
-      "many": "Biegłośc w pancerzu"
+      "one": "Wyszkolenie w pancerzu",
+      "other": "Wyszkoleń w pancerzu",
+      "title": "Wyszkolenie w pancerzu",
+      "few": "Wyszkolenia w pancerzu",
+      "many": "Wyszkoleń w pancerzu"
     },
     "ArmorLegacy": {
       "one": "Biegłość w pancerzach",
@@ -5875,10 +5875,10 @@
       },
       "Modification": {
         "one": "Modyfikator obrażeń",
-        "other": "Modyfikatory obrażeń",
-        "title": "Modyfikator obrażeń",
+        "other": "Modyfikatorów obrażeń",
+        "title": "Modyfikatory obrażeń",
         "few": "Modyfikatory obrażeń",
-        "many": "Modyfikatory obrażeń"
+        "many": "Modyfikatorów obrażeń"
       },
       "Resistance": {
         "one": "Odporność na obrażenia",
@@ -5897,17 +5897,17 @@
     },
     "Generic": {
       "one": "Cecha",
-      "other": "Cechy",
+      "other": "Cech",
       "title": "Cechy",
       "few": "Cechy",
-      "many": "Cechy"
+      "many": "Cech"
     },
     "Language": {
       "one": "Język",
-      "other": "Języki",
+      "other": "Języków",
       "title": "Języki",
       "few": "Języki",
-      "many": "Języki"
+      "many": "Języków"
     },
     "Save": {
       "one": "Biegłość w rzutach obronnych",
@@ -5925,20 +5925,20 @@
     },
     "Tool": {
       "one": "Biegłość w posługiwaniu się narzędziem",
-      "other": "Biegłości w narzędziach",
-      "title": "Biegłości w narzędziach",
-      "few": "Biegłości w narzędziach",
-      "many": "Biegłości w narzędziach"
+      "other": "Biegłości w posługiwaniu się narzędziami",
+      "title": "Biegłości w posługiwaniu się narzędziami",
+      "few": "Biegłości w posługiwaniu się narzędziami",
+      "many": "Biegłości w posługiwaniu się narzędziami"
     },
     "Weapon": {
-      "one": "Biegłość w posługiwaniu się bronią",
+      "one": "Biegłość w broni",
       "other": "Biegłości w broniach",
       "title": "Biegłości w broniach",
       "few": "Biegłości w broniach",
       "many": "Biegłości w broniach"
     }
   },
-  "DND5E.Traits": "Właściwości",
+  "DND5E.Traits": "Cechy",
   "DND5E.TRANSFORM": {
     "Action": {
       "Restore": "Przywróć transformację",
@@ -6004,7 +6004,7 @@
         "mode": {
           "label": "Tryb",
           "hint": "Określa, w jaki sposób są ustalane zmiany wynikające z przekształcenia.",
-          "CR": "Statystyki istoty (wg Stopnia wyzwania)",
+          "CR": "Statystyki istoty (wg Stopnia Wyzwania)",
           "Direct": "Statystyki istoty (wg bezpośredniego odnośnika)",
           "Form": "Wybierz formę"
         },
@@ -6398,8 +6398,8 @@
           "long": {
             "one": "{number} tona",
             "other": "{number} ton",
-            "few": "{number} tony",
-            "many": "{number} ton"
+            "few": "{number} tony imperialne",
+            "many": "{number} ton imperialnych"
           }
         }
       }
@@ -6750,7 +6750,7 @@
             }
           },
           "types": {
-            "label": "Typy obrażeń podstawowych"
+            "label": "Rodzaje obrażeń podstawowych"
           }
         },
         "bonus": {
@@ -6871,7 +6871,7 @@
     "Group": "Bloki D&D",
     "HabitatTreasure": "Siedlisko i skarb",
     "Healing": "Leczenie",
-    "Item": "Item",
+    "Item": "Przedmiot",
     "Lookup": "Odnośnik",
     "Narrative": "Narracja",
     "Notable": "Ważne",
@@ -7069,7 +7069,7 @@
   "SETTINGS.5eNoConcentrationN": "Wyłącz śledzenie koncentracji",
   "SETTINGS.5eNoConcentrationL": "Wyłącz automatyczne śledzenie koncentracji przez system.",
   "SETTINGS.5eNoExhaustionN": "Wyłącz automatyzację wyczerpania",
-  "SETTINGS.5eNoExhaustionL": "Wyłącz automatyzację efektów wyczerpania przez system.",
+  "SETTINGS.5eNoExhaustionL": "Wyłącz systemową automatyzację efektów wyczerpania.",
   "SETTINGS.5eGridAlignedSquareTemplatesL": "Jeżeli w wyniku rzucenia czaru lub użycia przedmiotu zostanie położony kwadratowy szablon, będzie on przyciągany do siatki i nie będzie można go obracać.",
   "SETTINGS.5eGridAlignedSquareTemplatesN": "Szablony kwadratowe wyrównane do siatki",
   "SETTINGS.DND5E": {
@@ -7079,8 +7079,8 @@
         "Name": "Synchronizuj rozmiar tokena"
       },
       "Falling": {
-        "Name": "Wyłącz automatyzację upadku",
-        "Hint": "Nie śledź stanu Spadający tokenów."
+        "Name": "Wyłącz automatyzację spadania",
+        "Hint": "Nie śledź stanu \"Spadający\" tokenów."
       },
       "Movement": {
         "Name": "Automatyzacja ruchu",
@@ -7093,7 +7093,7 @@
         "Name": "Synchronizuj zmysły z widzeniem tokenu",
         "Hint": "Automatycznie skonfiguruj zasięg widzenia tokena, tryb widzenia i tryby wykrywania na podstawie zmysłów aktora.",
         "Notice": "Widzenie i wykrywanie są zsynchronizowane ze {senses} tego aktora.",
-        "Senses": "senses"
+        "Senses": "zmysły"
       }
     },
     "BLOODIED": {
@@ -7109,7 +7109,7 @@
       "Options": {
         "blank": "Domyślny",
         "dark": "Ciemny",
-        "light": "Lekka"
+        "light": "Jasny"
       }
     },
     "COLLAPSETRAYS": {
@@ -7130,7 +7130,7 @@
       },
       "AutoApplyDowned": {
         "Name": "Automatycznie nakładaj stan wyłączenia z walki",
-        "Hint": "Automatycznie nadaje istocie status Martwa lub Nieprzytomna, gdy w walce spadnie ona do 0 Punktów wytrzymałości. Drugoplanowi BN otrzymują status Martwy. Ważni BN oraz BG najpierw otrzymują status Nieprzytomny, a Martwy dopiero po trzech nieudanych Rzutach przeciw śmierci.",
+        "Hint": "Automatycznie nadaje istocie status Martwa lub Nieprzytomna, gdy w walce spadnie ona do 0 Punktów wytrzymałości. Drugoplanowi BN otrzymują status Martwy. Ważni BN oraz postacie graczy najpierw otrzymują status Nieprzytomny, a Martwy dopiero po trzech nieudanych Rzutach przeciw śmierci.",
         "None": "Nigdy",
         "DeadOnly": "Dla BN (tylko martwych)",
         "NPCs": "Dla BN (martwych i nieprzytomnych)",
@@ -7223,11 +7223,11 @@
     "PERMISSIONS": {
       "AllowDamage": {
         "Hint": "Pozwól graczom zadawać obrażenia tokenom, które posiadają.",
-        "Name": "Zezwól na zastosowanie obrażeń przez gracza"
+        "Name": "Zezwól na zadawanie obrażeń przez graczy"
       },
       "AllowEffects": {
-        "Hint": "Pozwól graczom korzystać z panelu zastosowania efektu, gdy aktor, którego posiadają, jest celem efektu.",
-        "Name": "Zezwól na zastosowanie efektu przez gracza"
+        "Hint": "Pozwól graczom korzystać z panelu stosowania efektów, gdy ich aktor jest celem efektu.",
+        "Name": "Zezwól na stosowanie efektów przez graczy"
       },
       "AllowRests": {
         "Hint": "Pozwól graczom odpoczywać bezpośrednio z ich kart postaci. Po wyłączeniu tej opcji, gracze będą mogli odpocząć tylko wtedy, gdy MP poprosi grupę.",
