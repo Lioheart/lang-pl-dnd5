@@ -7227,7 +7227,7 @@
       },
       "AllowEffects": {
         "Hint": "Pozwól graczom korzystać z panelu stosowania efektów, gdy ich aktor jest celem efektu.",
-        "Name": "Zezwól na zastosowanie efektu przez gracza"
+        "Name": "Zezwól na stosowanie efektów przez graczy"
       },
       "AllowRests": {
         "Hint": "Pozwól graczom odpoczywać bezpośrednio z ich kart postaci. Po wyłączeniu tej opcji, gracze będą mogli odpocząć tylko wtedy, gdy MP poprosi grupę.",
