@@ -6398,7 +6398,7 @@
           "long": {
             "one": "{number} tona",
             "other": "{number} ton",
-            "few": "{number} tony",
+            "few": "{number} tony imperialne",
             "many": "{number} ton"
           }
         }
