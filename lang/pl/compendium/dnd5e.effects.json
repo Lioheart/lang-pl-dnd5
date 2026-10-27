@@ -1,21 +1,16 @@
 {
-    "label": "Efekty",
-    "folders": {
-        "Ability Check & Save Advantage": "Ułatwienie w Testach cechy i Rzutach obronnych",
-        "Ability Check & Save Disadvantage": "Utrudnienie w Testach cechy i Rzutach obronnych",
-        "Ability Check Advantage": "Ułatwienie w Testach cechy",
-        "Ability Check Disadvantage": "Utrudnienie w Testach cechy",
-        "Ability Save Advantage": "Ułatwienie w Rzutach obronnych",
-        "Ability Save Disadvantage": "Utrudnienie w Rzutach obronnych",
-        "Condition Immunities": "Niepodatności na stany",
-        "Conditions": "Stany",
-        "Damage Immunities": "Niepodatności na obrażenia",
-        "Damage Resistances": "Odporności na obrażenia",
-        "Damage Vulnerabilities": "Podatności na obrażenia",
-        "Skill Advantage": "Ułatwienie w umiejętnościach",
-        "Skill Disadvantage": "Utrudnienie w umiejętnościach",
-        "Speeds": "Szybkości",
-        "Spells": "Czary"
+    "label": "Efekty aktywne",
+    "mapping": {
+        "name": "name",
+        "description": "opis",
+        "changes": {
+            "path": "changes",
+            "converter": "structured",
+            "cardinality": "many",
+            "container": "array",
+            "key": "key",
+            "valuePath": "value"
+        }
     },
     "entries": {
         "Acid Immunity": {
@@ -364,6 +359,10 @@
         "Petrified Immunity": {
             "name": "Niepodatność na skamienienie"
         },
+        "phbeffSilenced00": {
+            "name": "Wyciszony",
+            "description": "<p>Każda istota lub obiekt znajdujący się w całości wewnątrz Sfery ma Niepodatność na obrażenia od Dźwięku, a istoty, dopóki w całości w niej przebywają, mają stan Ogłuchły. Rzucenie tam czaru wymagającego komponentu Werbalnego jest niemożliwe.</p>"
+        },
         "Piercing Immunity": {
             "name": "Niepodatność na obrażenia kłute"
         },
@@ -424,9 +423,8 @@
         "Restrained Immunity": {
             "name": "Niepodatność na unieruchomienie"
         },
-        "Silenced": {
-            "name": "Wyciszony",
-            "description": "<p>Każda istota lub obiekt znajdujący się w całości wewnątrz Sfery ma Niepodatność na obrażenia od Dźwięku, a istoty, dopóki w całości w niej przebywają, mają stan Ogłuchły. Rzucenie tam czaru wymagającego komponentu Werbalnego jest niemożliwe.</p>"
+        "ryGbnbaNnIOEHvHG": {
+            "name": "Wyciszony"
         },
         "Silenced Immunity": {
             "name": "Niepodatność na wyciszenie"
@@ -537,7 +535,21 @@
             "name": "Utrudnienie w rzutach obronnych mądrości"
         }
     },
-    "mapping": {
-        "description": "opis"
+    "folders": {
+        "Ability Check & Save Advantage": "Ułatwienie w Testach cechy i Rzutach obronnych",
+        "Ability Check & Save Disadvantage": "Utrudnienie w Testach cechy i Rzutach obronnych",
+        "Ability Check Advantage": "Ułatwienie w Testach cechy",
+        "Ability Check Disadvantage": "Utrudnienie w Testach cechy",
+        "Ability Save Advantage": "Ułatwienie w Rzutach obronnych",
+        "Ability Save Disadvantage": "Utrudnienie w Rzutach obronnych",
+        "Condition Immunities": "Niepodatności na stany",
+        "Conditions": "Stany",
+        "Damage Immunities": "Niepodatności na obrażenia",
+        "Damage Resistances": "Odporności na obrażenia",
+        "Damage Vulnerabilities": "Podatności na obrażenia",
+        "Skill Advantage": "Ułatwienie w umiejętnościach",
+        "Skill Disadvantage": "Utrudnienie w umiejętnościach",
+        "Speeds": "Szybkości",
+        "Spells": "Czary"
     }
 }
