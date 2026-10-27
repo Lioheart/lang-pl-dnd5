@@ -7093,7 +7093,7 @@
         "Name": "Synchronizuj zmysły z widzeniem tokenu",
         "Hint": "Automatycznie skonfiguruj zasięg widzenia tokena, tryb widzenia i tryby wykrywania na podstawie zmysłów aktora.",
         "Notice": "Widzenie i wykrywanie są zsynchronizowane ze {senses} tego aktora.",
-        "Senses": "senses"
+        "Senses": "zmysły"
       }
     },
     "BLOODIED": {
