@@ -7080,7 +7080,7 @@
       },
       "Falling": {
         "Name": "Wyłącz automatyzację spadania",
-        "Hint": "Nie śledź stanu Spadający tokenów."
+        "Hint": "Nie śledź stanu \"Spadający\" tokenów."
       },
       "Movement": {
         "Name": "Automatyzacja ruchu",
