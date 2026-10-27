@@ -1334,7 +1334,7 @@
             "activities": {
                 "utility": {
                     "condition": "Gdy rzucasz na inicjatywę i nie masz dostępnych użyć bardowskiej inspiracji",
-                    "activationCondition": "Gdy rzucasz na inicjatywę i nie masz dostępnych użyć bardowskiej inspiracji"
+                    "activationCondition": "Kiedy rzucasz na inicjatywę i nie masz dostępnych użyć bardowskiej inspiracji"
                 }
             }
         },
