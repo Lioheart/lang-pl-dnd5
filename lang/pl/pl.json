@@ -7130,7 +7130,7 @@
       },
       "AutoApplyDowned": {
         "Name": "Automatycznie nakładaj stan wyłączenia z walki",
-        "Hint": "Automatycznie nadaje istocie status Martwa lub Nieprzytomna, gdy w walce spadnie ona do 0 Punktów wytrzymałości. Drugoplanowi BN otrzymują status Martwy. Ważni BN oraz BG najpierw otrzymują status Nieprzytomny, a Martwy dopiero po trzech nieudanych Rzutach przeciw śmierci.",
+        "Hint": "Automatycznie nadaje istocie status Martwa lub Nieprzytomna, gdy w walce spadnie ona do 0 Punktów wytrzymałości. Drugoplanowi BN otrzymują status Martwy. Ważni BN oraz postacie graczy najpierw otrzymują status Nieprzytomny, a Martwy dopiero po trzech nieudanych Rzutach przeciw śmierci.",
         "None": "Nigdy",
         "DeadOnly": "Dla BN (tylko martwych)",
         "NPCs": "Dla BN (martwych i nieprzytomnych)",
