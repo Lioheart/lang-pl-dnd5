@@ -3559,7 +3559,7 @@
         },
         "Potion of Gaseous Form": {
             "name": "Mikstura formy gazowej",
-            "description": "<p><em>To naczynie wydaje się zawierać mgłę, która porusza się i wylewa się jak woda.</em></p>\n<p>Kiedy wypijesz tę miksturę, zyskujesz efekt czaru @UUID[Compendium.dnd5e.spells.Item.2IWiZAJtOGDoKjiz]{forma gazowa} na [[lookup @labels.duration activity=CvPLbEm6AY14aSst]] (nie wymaga koncentracji) lub do momentu zakończenia efektu w ramach swojej akcji dodatkowej.</p>",
+            "description": "<p><em>To naczynie wydaje się zawierać mgłę, która porusza się i wylewa się jak woda.</em></p><p>Kiedy wypijesz tę miksturę, zyskujesz efekt czaru @UUID[Compendium.dnd5e.spells.Item.2IWiZAJtOGDoKjiz]{forma gazowa} na [[lookup @labels.duration activity=CvPLbEm6AY14aSst]] (nie wymaga koncentracji) lub do momentu zakończenia efektu w ramach swojej akcji dodatkowej.</p>",
             "activities": {
                 "Drink": {
                     "name": "Wypij"
