@@ -3109,7 +3109,7 @@
             "effects": {
                 "Etherealness": {
                     "name": "Eteryczność",
-                    "description": "<p>Wkraczasz na Eteryczne Pogranicze w miejscu przenikania się Sfery Eterycznej ze sferą egzystencji, w której aktualnie przebywasz. Pozostajesz tam do końca trwania czaru lub do jego zakończenia przy użyciu swojej akcji. Przez ten czas możesz przemieszczać się w dowolnym kierunku. Ruch w górę lub w dół kosztuje cię podwójnie. Widzisz i słyszysz, co się dzieje w twojej sferze egzystencji, ale tylko na odległość 18 metrów, a dodatkowo wszystko wygląda szaro.</p><p>W Sferze Eterycznej możesz wchodzić w interakcje jedynie z innymi stworzeniami tam przebywającymi. Istoty spoza niej nie widzą cię i nie mogą wejść w interakcję z tobą, o ile nie pozwala im na to specjalna zdolność lub magia.</p><p>Ignorujesz wszystkie obiekty i efekty spoza Sfery Eterycznej, co pozwala ci na przemieszczanie się przez obiekty znajdujące się w sferze, z której przyszedłeś.</p><p>Kiedy działanie czaru się kończy, natychmiast wracasz do swojej sfery w miejscu, w którym aktualnie się znajdujesz. Jeśli znajduje się tam w tym czasie jakieś stworzenie lub ciało stałe, zostajesz przeniesiony do najbliższego wolnego miejsca i za każde przebyte 30 centymetrów otrzymujesz 2 obrażenia od mocy.</p>"
+                    "description": "<p>Wkraczasz na Eteryczne Pogranicze w miejscu przenikania się Sfery Eterycznej ze sferą egzystencji, w której aktualnie przebywasz. Pozostajesz tam do końca trwania efektu lub do jego zakończenia przy użyciu swojej akcji. Przez ten czas możesz przemieszczać się w dowolnym kierunku. Ruch w górę lub w dół kosztuje cię podwójnie. Widzisz i słyszysz, co się dzieje w twojej sferze egzystencji, ale tylko na odległość 18 metrów, a dodatkowo wszystko wygląda szaro.</p><p>W Sferze Eterycznej możesz wchodzić w interakcje jedynie z innymi stworzeniami tam przebywającymi. Istoty spoza niej nie widzą cię i nie mogą wejść w interakcję z tobą, o ile nie pozwala im na to specjalna zdolność lub magia.</p><p>Ignorujesz wszystkie obiekty i efekty spoza Sfery Eterycznej, co pozwala ci na przemieszczanie się przez obiekty znajdujące się w sferze, z której przyszedłeś.</p><p>Kiedy działanie efektu się kończy, natychmiast wracasz do swojej sfery w miejscu, w którym aktualnie się znajdujesz. Jeśli znajduje się tam w tym czasie jakieś stworzenie lub ciało stałe, zostajesz przeniesiony do najbliższego wolnego miejsca i za każde przebyte 30 centymetrów otrzymujesz 2 obrażenia od mocy.</p>"
                 }
             }
         },
@@ -3403,7 +3403,7 @@
             "effects": {
                 "Animal Friend": {
                     "name": "Przyjaciel zwierząt",
-                    "description": "<p>Przez czas trwania efektu możesz bez ograniczeń rzucać czar @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{przyjaciel zwierząt} (ST rzutu obronnego 13).</p>"
+                    "description": "<p>Przez cały czas trwania efektu możesz bez ograniczeń rzucać czar @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{przyjaciel zwierząt} (ST rzutu obronnego 13).</p>"
                 }
             }
         },
