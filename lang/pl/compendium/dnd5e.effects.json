@@ -451,22 +451,22 @@
             "name": "Utrudnienie w Skradaniu się"
         },
         "Strength Check & Save Advantage": {
-            "name": "Ułatwienie w testach i rzutach obronnych siły"
+            "name": "Ułatwienie w testach i rzutach obronnych na Siłę"
         },
         "Strength Check & Save Disadvantage": {
-            "name": "Utrudnienie w testach i rzutach obronnych siły"
+            "name": "Utrudnienie w testach i rzutach obronnych na Siłę"
         },
         "Strength Check Advantage": {
-            "name": "Ułatwienie w testach siły"
+            "name": "Ułatwienie w testach na Siłę"
         },
         "Strength Check Disadvantage": {
-            "name": "Utrudnienie w testach siły"
+            "name": "Utrudnienie w testach na Siłę"
         },
         "Strength Save Advantage": {
-            "name": "Ułatwienie w rzutach obronnych siły"
+            "name": "Ułatwienie w rzutach obronnych na Siłę"
         },
         "Strength Save Disadvantage": {
-            "name": "Utrudnienie w rzutach obronnych siły"
+            "name": "Utrudnienie w rzutach obronnych na Siłę"
         },
         "Stunned": {
             "name": "Ogłuszony"
@@ -517,22 +517,22 @@
             "name": "Niepodatność na utratę przytomności"
         },
         "Wisdom Check & Save Advantage": {
-            "name": "Ułatwienie w testach i rzutach obronnych mądrości"
+            "name": "Ułatwienie w testach i rzutach obronnych na Mądrość"
         },
         "Wisdom Check & Save Disadvantage": {
-            "name": "Utrudnienie w testach i rzutach obronnych mądrości"
+            "name": "Utrudnienie w testach i rzutach obronnych na Mądrość"
         },
         "Wisdom Check Advantage": {
-            "name": "Ułatwienie w testach mądrości"
+            "name": "Ułatwienie w testach na Mądrość"
         },
         "Wisdom Check Disadvantage": {
-            "name": "Utrudnienie w testach mądrości"
+            "name": "Utrudnienie w testach na Mądrość"
         },
         "Wisdom Save Advantage": {
-            "name": "Ułatwienie w rzutach obronnych mądrości"
+            "name": "Ułatwienie w rzutach obronnych na Mądrość"
         },
         "Wisdom Save Disadvantage": {
-            "name": "Utrudnienie w rzutach obronnych mądrości"
+            "name": "Utrudnienie w rzutach obronnych na Mądrość"
         }
     },
     "folders": {
