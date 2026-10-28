@@ -48,7 +48,7 @@
         },
         "Aura of Life": {
             "name": "Aura życia",
-            "description": "<p>Dopóki przebywacie w aurze, ty i twoi sojusznicy macie Odporność na obrażenia Nekrotyczne, a wasze maksymalne Punkty wytrzymałości nie mogą zostać zmniejszone. Jeśli sojusznik mający 0 Punktów wytrzymałości rozpocznie swoją turę w aurze, odzyskuje [[/healing 1 type=healing]]{1 Punkt wytrzymałości}.</p>"
+            "description": "<p>Dopóki ty i twoi sprzymierzeńcy znajdujecie się w obrębie aury, macie odporność na obrażenia nekrotyczne, a wasze maksymalne punkty wytrzymałości nie mogą zostać obniżone. Jeśli sojusznik z 0 PW rozpoczyna swoją turę w zasięgu aury, odzyskuje [[/healing 1 type=healing]]{1 PW}.</p>"
         },
         "Bleeding": {
             "name": "Krwawienie"
