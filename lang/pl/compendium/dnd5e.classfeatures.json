@@ -42,7 +42,9 @@
         },
         "effects": {
             "path": "effects",
-            "converter": "effects"
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many"
         },
         "advancement": {
             "path": "system.advancement",
@@ -51,12 +53,20 @@
             "container": "keyed",
             "keys": [
                 "_id",
+                "name",
                 "title"
             ],
             "mapping": {
                 "title": "title",
                 "hint": "hint",
                 "_variants": [
+                    {
+                        "_when": {
+                            "path": "name",
+                            "exists": true
+                        },
+                        "title": "name"
+                    },
                     {
                         "_when": {
                             "path": "type",
@@ -104,10 +114,36 @@
         }
     },
     "entries": {
-        "Ability Score Improvement": {
-            "name": "Zwiększenie wartości Cech",
-            "description": "<p>Kiedy awansujesz na poziom 4., a następnie na 8., 10., 12., 16. i 19. możesz zwiększyć jedną cechę o 2 albo dwie cechy o 1. Nie możesz w ten sposób podnieść wartości cechy powyżej 20.</p>",
-            "requirements": "Łotr 4"
+        "3FB25qKxmkmxcxuC": {
+            "name": "Lekki krok",
+            "description": "<p>Począwszy od 6. poziomu, podróż przez niemagiczny trudny teren nie kosztuje cię dodatkowej szybkości. Niemagiczne rośliny nie spowalniają cię ani nie zadają ci obrażeń, jeśli mają kolce, ciernie lub podobne cechy.</p><p>Ponadto masz ułatwienie w rzutach obronnych przeciw roślinom magicznie stworzonym lub zmanipulowanym w celu utrudnienia ci ruchu, na przykład przy użyciu czaru @UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{oplątanie}.</p>",
+            "requirements": "Krąg ziemi 6"
+        },
+        "3sYPftQKnbbVnHrh": {
+            "name": "Znawstwo",
+            "description": "<p>Na 1. poziomie wybierasz dwie ze swych biegłości w Umiejętnościach lub jedną ze swych biegłości w Umiejętnościach i biegłość w posługiwaniu się narzędziami złodziejskimi. </p><p>Na 6. poziomie możesz wybrać dwie kolejne biegłości (w umiejętnościach lub narzędziach złodziejskich), aby uzyskać tę korzyść.</p>",
+            "requirements": "Łotr 1"
+        },
+        "7pyZjz5vlUWV01qQ": {
+            "name": "Niesamowity unik",
+            "description": "<p>Kiedy  traci cię napastnik, którego widzisz, możesz użyć swojej reakcji, aby zmniejszyć o połowę obrażenia z tego ataku.</p>",
+            "requirements": "Myśliwy 15",
+            "activities": {
+                "utility": {
+                    "condition": "Atakujący musi być widoczny.",
+                    "activationCondition": "Atakujący musi być widoczny."
+                }
+            }
+        },
+        "8M7uOPhbTxoxxJSo": {
+            "name": "Akt wiary",
+            "description": "<p>Twoja przysięga pozwala ci skupiać boską moc i wywotywać w ten sposób magiczne efekty. Każda forma Aktu wiary zapewniana przez twoją przysięgę zawiera opis jej zastosowania.</p><p>Gdy korzystasz z tej zdolności, określasz efekt, który chcesz wywołać. Aby dokonać ponownie Aktu wiary, musisz ukończyć krótki lub długi odpoczynek.</p><p>Niektóre efekty Aktu wiary wymagają rzutów obronnych. Ich ST jest taki sam jak ST rzutów przeciw twoim paladyńskim czarom.</p><section class=\"secret foundry-note\" id=\"secret-zMJG0jvMiZEEkLfI\"><p><strong>Notka Foundry</strong></p><p>Użyj tego, aby śledzić wszystkie różne efekty Aktu wiary paladyna.</p></section>",
+            "requirements": "Paladyn 3"
+        },
+        "a4P4DNMmH8CqSNkC": {
+            "name": "Odskok",
+            "description": "<p>Od 7. poziomu instynktowne odruchy pozwalają ci uskoczyć przed niektórymi efektami obszarowymi, takimi jak zionięcie błyskawicą błękitnego smoka albo czar kula ognia. Kiedy jesteś celem efektu, który umożliwia ci wykonanie rzutu obronnego na Zręczność, by zmniejszyć obrażenia o połowę, to po udanym rzucie obronnym nie otrzymujesz żadnych obrażeń, zaś w przypadku niepowodzenia - tylko połowę.</p>",
+            "requirements": "Mnich 7, Łotr 7"
         },
         "Action Surge": {
             "name": "Przypływ sił",
@@ -128,6 +164,11 @@
             "name": "Bolesne uderzenie",
             "description": "<p>Kiedy rzucasz @UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]{nieziemskie uderzenie}, dodajesz do jego obrażeń modyfikator z Charyzmy.</p>",
             "requirements": "Czarownik 2, Nieziemskie uderzenie"
+        },
+        "aQLg7BWdRnm4Hr9S": {
+            "name": "Znawstwo",
+            "description": "<p>Na 3. poziomie wybierasz dwie ze swych biegłości w umiejętnościach. W każdym teście Cechy wykonywanym z ich użyciem premia z biegłości zostaje podwojona. Na 10. poziomie wybierasz kolejne dwie biegłości w umiejętnościach i zyskujesz dla nich ten sam efekt.</p>",
+            "requirements": "Bard 3"
         },
         "Arcane Recovery": {
             "name": "Odzyskanie mocy",
@@ -254,6 +295,11 @@
             "description": "<p>Począwszy od 9. poziomu, możesz rzucić dodatkową kością obrażeń z broni, kiedy określasz dodatkowe obrażenia po trafieniu krytycznym atakiem wręcz. Liczba dodatkowych kości wzrasta do dwóch na poziomie 13. i trzech na poziomie 17.</p>",
             "requirements": "Barbarzyńca 9"
         },
+        "C5fzaOBc6HxyOWRn": {
+            "name": "Lekki krok",
+            "description": "<p>Począwszy od 8. poziomu, podróż przez niemagiczny trudny teren nie spowalnia twojego ruchu. Niemagiczne rośliny nie spowalniają cię ani nie zadają ci obrażeń, jeśli mają kolce, ciernie lub podobne cechy.</p><p>Ponadto masz ułatwienie w rzutach obronnych przeciw roślinom magicznie stworzonym lub zmanipulowanym w celu utrudnienia ci ruchu, na przykład przy użyciu czaru @UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{oplątanie}.</p>",
+            "requirements": "Łowca 8"
+        },
         "Careful Spell": {
             "name": "Precyzyjne zaklęcie",
             "description": "<p>Gdy rzucasz czar, który wymusza na innych stworzeniach wykonanie rzut obronnego, możesz wyłączyć z jego pełnej siły wybrane jednostki. Wydajesz 1 punkt zaklinania i wybierasz liczbę istot nieprzekraczającą twojego modyfikatora z Charyzmy (co najmniej jedną). Wybrane istoty automatycznie zdają rzut obronny przeciw temu zaklęciu.</p>",
@@ -268,11 +314,6 @@
                     "damageOnSave": "połowa"
                 }
             }
-        },
-        "Channel Divinity": {
-            "name": "Akt wiary",
-            "description": "<p>Na 2. poziomie zyskujesz możliwość skupiania mocy pochodzącej od swojego bóstwa i użycia jej do wywoływania magicznych efektów. Zaczynasz od dwóch z nich: Odpędzania nieumarłych i efektu związanego z wybraną domeną. W miarę rozwoju w klasie kleryka uzyskasz dodatkowe efekty, jak wyszczególniono w opisach poszczególnych domen.</p><p>W ramach Aktu wiary określasz efekt, jaki chcesz wywołać . Aby dokonać ponownie Aktu wiary, musisz ukończyć krótki lub długi odpoczynek. Niektóre efekty Aktu wiary wymagają rzutów obronnych. W takim przypadku ich ST jest równy ST rzutów przeciw twoim czarom.</p><p>Począwszy od 6. poziomu, możesz użyć Aktu wiary dwukrotnie bez odpoczynku, natomiast od 18. poziomu możesz zrobić to trzykrotnie. Krótki lub długi odpoczynek odnawiają dostępne użycia zdolności.</p><section class=\"secret foundry-note\" id=\"secret-AZYZtT1NonF68bPW\"><p><strong>Notka Foundry</strong></p><p>Użyj tego, aby śledzić wszystkie różne efekty Aktu wiary kleryka.</p></section>",
-            "requirements": "Kleryk 2"
         },
         "Channel Divinity: Preserve Life": {
             "name": "Akt wiary: Ochrona życia",
@@ -359,6 +400,11 @@
                     "activationCondition": "Cel musi cię słyszeć i nie być niepodatny na zauroczenie."
                 }
             }
+        },
+        "cVDEQo0ow1WJT7Wl": {
+            "name": "Ponadczasowe ciało",
+            "description": "<p>Począwszy od 18. poziomu, pierwotna magia, którą się posługujesz, sprawia, że wolniej się starzejesz. Z każdą dekadą twoje ciało starzeje się tylko o rok.</p>",
+            "requirements": "Druid 18"
         },
         "Danger Sense": {
             "name": "Wyczucie zagrożenia",
@@ -606,11 +652,6 @@
             "description": "<p>Ataki okazyjne przeciwko tobie są wykonywane z utrudnieniem.</p>",
             "requirements": "Myśliwy 7"
         },
-        "Evasion": {
-            "name": "Odskok",
-            "description": "<p>Kiedy jesteś celem efektu, który umożliwia ci wykonanie rzutu obronnego na Zręczność, by zmniejszyć obrażenia o połowę, to po udanym rzucie obronnym nie otrzymujesz żadnych obrażeń, zaś w przypadku niepowodzenia - tylko połowę.</p>",
-            "requirements": "Myśliwy 15"
-        },
         "Evocation Savant": {
             "name": "Uczony w wywoływaniu",
             "description": "<p>Począwszy od wyboru tej szkoły na 2. poziomie, koszt i czas wpisywania czaru wywoływania do księgi czarów zostaje zmniejszony o połowę.</p>",
@@ -621,20 +662,10 @@
             "description": "<p>Gdy poznajesz nowy czar czarownika, Czart pozwala ci wybrać z rozszerzonej listy czarów. Dodaj następujące czary do swojej listy czarów czarownika.</p><table><caption>Rozszerzona lista czarów Czarta</caption><thead><tr><td><strong>Krąg czaru</strong></td><td><strong>Czary</strong></td></tr></thead><tbody><tr><td>1.</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Płonące dłonie}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Rozkaz}</td></tr><tr><td>2.</td><td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Głuchota/ślepota}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{wypalający płomień}</td></tr><tr><td>3.</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Kula ognia}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Śmierdząca chmura}</td></tr><tr><td>4.</td><td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Tarcza ognia}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Ściana ognia}</td></tr><tr><td>5.</td><td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Słup ognia}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Konsekracja}</td></tr></tbody></table>",
             "requirements": "Czart 1"
         },
-        "Expertise": {
-            "name": "Znawstwo",
-            "description": "<p>Na 3. poziomie wybierasz dwie ze swych biegłości w umiejętnościach. W każdym teście Cechy wykonywanym z ich użyciem premia z biegłości zostaje podwojona. Na 10. poziomie wybierasz kolejne dwie biegłości w umiejętnościach i zyskujesz dla nich ten sam efekt.</p>",
-            "requirements": "Bard 3"
-        },
         "Extended Spell": {
             "name": "Przedłużone zaklęcie",
             "description": "<p>Gdy rzucasz czar o czasie trwania 1 minuty lub dłuższym, możesz za 1 punkt zaklinania podwoić jego czas trwania, do maksymalnie 24 godzin.</p>",
             "requirements": "Zaklinacz 3"
-        },
-        "Extra Attack": {
-            "name": "Dodatkowy atak",
-            "description": "<p>Możesz atakować dwukrotnie, kiedy w swojej turze wykonujesz akcję ataku.</p><p>Liczba ataków zwiększa się do trzech, gdy osiągasz w tej klasie 11. poziom, oraz do czterech, kiedy osiągasz w niej 20. poziom.</p>",
-            "requirements": "Wojownik 5"
         },
         "Eyes of the Rune Keeper": {
             "name": "Oczy strażnika run",
@@ -660,6 +691,11 @@
             "name": "Ulubiony wróg",
             "description": "<p>Już od 1. poziomu możesz pochwalić się znacznym doświadczeniem w studiowaniu określonego typu wroga - w rozpoznawaniu go, tropieniu, polowaniu na niego, a nawet porozumiewaniu się z nim.</p><p>Wybierz rodzaj ulubionego wroga spośród następujących: bestie, czarty, fey, konstrukty, niebianie, nieumarli, olbrzymy, potworności, rośliny, smoki, szlamy, wynaturzenia, żywiołaki. Zamiast tego możesz na ulubionych wrogów wybrać dwa gatunki humanoidów (takich jak gnolle i orki).</p><p>Masz ułatwienie w testach Mądrości (Sztuka przetrwania), gdy dotyczą ulubionego wroga, a także w testach Inteligencji, gdy próbujesz przypomnieć sobie informacje z nim związane.</p><p>Gdy zyskujesz tę korzyść, uczysz się również jednego języka twych ulubionych wrogów, o ile w ogóle się jakimś posługują.</p><p>Następnego ulubionego wroga i związany z nim język wybierasz na poziomach 6. i 14. Dobór kolejnych ulubionych wrogów powinien odzwierciedlać to, co spotyka cię podczas twoich przygód.</p><section class=\"secret foundry-note\" id=\"secret-2vKbF8oen9AQiV1L\"><p><strong>Notka Foundry</strong></p><p>Jeśli chcesz, ręcznie edytuj ten wpis i zanotuj swoje wybory tutaj:</p><ul><li><em>1. poziom</em></li><li><em>6. poziom</em></li><li><em>14. poziom</em></li></ul></section>",
             "requirements": "Łowca 1"
+        },
+        "fbExzwNwEAl2kW9c": {
+            "name": "Styl walki",
+            "description": "<p>Specjalizujesz się w określonym stylu walki. Wybierz jedną spośród następujących możliwości. Nie możesz wybrać danego stylu walki więcej niż raz, nawet jeśli później otrzymujesz taką szansę.</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Strzelectwo}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defensywa}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Fechtunek}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Walka bronią dwuręczną}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Ochrona}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Walka dwiema broniami}</p>",
+            "requirements": "Wojownik 1"
         },
         "Feral Instinct": {
             "name": "Zwierzęcy instynkt",
@@ -690,11 +726,6 @@
             "name": "Diabelski wigor",
             "description": "<p>Możesz rzucać na siebie @UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6]{Fałszywe życie} jako czar 1. kręgu bez zużywania komórki czaru i komponentów materialnych.</p>",
             "requirements": "Czarownik 2"
-        },
-        "Fighting Style": {
-            "name": "Styl walki",
-            "description": "<p>Specjalizujesz się w określonym stylu walki. Wybierz jedną spośród następujących możliwości. Nie możesz wybrać danego stylu walki więcej niż raz, nawet jeśli później otrzymujesz taką szansę.</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Strzelectwo}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defensywa}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Fechtunek}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Walka dwiema broniami}</p>",
-            "requirements": "Łowca 2"
         },
         "Flurry of Blows": {
             "name": "Grad ciosów",
@@ -746,6 +777,16 @@
                 }
             }
         },
+        "gbNo5eVPaqr8IVKL": {
+            "name": "Rzucanie czarów",
+            "description": "<p>Jako znawca magii i wiedzy tajemnej posiadasz księgę, w której gromadzisz czary dokumentujące twoje kolejne kroki na ścieżce mocy.</p>\n<h5>Sztuczki</h5>\n<p>Na 1. poziomie znasz trzy wybrane przez siebie sztuczki z listy czarów maga. Kolejnych nauczysz się na wyższych poziomach, zgodnie z informacjami w kolumnie Znane sztuczki w tabeli Mag.</p>\n<h5>Księga czarów</h5>\n<p>Na 1. poziomie twoja księga czarów zawiera 6 zaklęć 1. kręgu z listy czarów maga. Wszystkie znane ci czary czerpiesz ze swojej księgi, za wyjątkiem sztuczek, gdyż te masz na stałe w pamięci.</p>\n<h5>Przygotowywanie i rzucanie czarów</h5>\n<p>Tabela Mag pokazuje, ile komórek czarów masz by móc rzucać zaklęcia maga 1. kręgu i wyższych. Aby rzucić czar, musisz zużyć komórkę równą kręgowi czaru lub wyższą. Wykorzystane komórki czarów odzyskujesz po ukończeniu długiego odpoczynku.</p>\n<p>Przygotowujesz zaklęcia dostępne do rzucenia. Gdy to robisz, wybierasz ze swojej księgi czarów liczbę czarów równą modyfikatorowi z Inteligencji + poziom maga (minimum 1 czar). Zaklęcia te muszą pochodzić z kręgów, do których masz komórki czarów.</p>\n<p>Przykładowo, jeśli jesteś magiem 3. poziomu, posiadasz cztery komórki z 1. kręgu i dwie z 2. kręgu. Gdy twoja Inteligencja wynosi 16, możesz przygotować sobie sześć czarów 1. lub 2. kręgu w dowolnych zestawienia Jeśli przygotujesz czar 1. kręgu magiczny pocisk, możesz go rzucić, używając komórki 1. lub 2. kręgu. Rzucenie zaklęcia nie usuwa go z listy przygotowanych czarów.</p>\n<p>Po ukończeniu długiego odpoczynku możesz zmienić swoją listę przygotowanych czarów. Opracowanie nowej listy wymaga czasu spędzonego na studiowaniu księgi czarów oraz zapamiętywaniu inkantacji i gestów potrzebnych do rzucenia zaklęcia - co najmniej 1 minuty na krąg każdego z czarów na twojej liście.</p>\n<h5>Cecha bazowa rzucania czarów</h5>\n<p>Za rzucanie czarów maga odpowiada Inteligencja, gdyż uczysz się ich dzięki studiom i zapamiętywaniu. Zawsze gdy jest mowa o cesze bazowej, używaj Inteligencji. Korzystasz z niej także podczas obliczania ST rzutu obronnego przeciw twoim zaklęciom maga oraz podczas wykonywania testu ataku czarem.</p>\n<p><strong>ST rzutu przeciw czarom</strong> = 8 + twoja premia z biegłości + twój modyfikator z Inteligencji</p>\n<p><strong>Modyfikator ataku czarem</strong> = twoja premia z biegłości + twój modyfikator z Inteligencji</p>\n<h5>Odprawianie rytuałów</h5>\n<p>Możesz rzucać czary maga jako rytuały, jeśli posiadają one atrybut rytuał i posiadasz je w swojej księdze. Nie musisz przygotowywać takich zaklęć.</p>\n<h5>Magiczny fokus</h5>\n<p>Możesz używać fokusu magii wtajemniczeń do rzucania czarów maga.</p>\n<h5>Poznawanie czarów kręgu 1. i wyższych</h5>\n<p>Za każdym razem, gdy awansujesz w klasie maga, możesz za darmo dodać do swojej księgi dwa wybrane przez siebie czary maga. Każdy z nich musi być z kręgu odpowiedniego do posiadanych komórek czarów, zgodnie z tabelą Mag. Podczas swoich przygód możesz trafić również na inne zaklęcia, które możesz dodawać do księgi (patrz informacja 'Twoja księga czarów').</p>",
+            "requirements": "Mag 1"
+        },
+        "gDH8PMrKvLHaNmEI": {
+            "name": "Ponadczasowe ciało",
+            "description": "<p>Na 15. poziomie ki pokrzepia cię na tyle, że nie odczuwasz słabości związanej ze starszym wiekiem oraz zyskujesz niepodatność na magiczne postarzenie. Nadal jednak możesz umrzeć ze starości. Ponadto, nie potrzebujesz już pożywienia ani wody.</p>",
+            "requirements": "Mnich 15"
+        },
         "Giant Killer": {
             "name": "Zabójca olbrzymów",
             "description": "<p>Gdy Duża lub większa istota, którą widzisz, znajdująca się do 1,5 metra od ciebie trafi cię lub chybi swoim atakiem, możesz w ramach swojej reakcji natychmiast ją zaatakować.</p>",
@@ -782,6 +823,11 @@
                 }
             }
         },
+        "Ho7dVxBlOYFlfBHk": {
+            "name": "Styl walki",
+            "description": "<p>Specjalizujesz się w określonym stylu walki. Wybierz jedną spośród następujących możliwości. Nie możesz wybrać danego stylu walki więcej niż raz, nawet jeśli później otrzymujesz taką szansę.</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defensywa}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Fechtunek}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Walka bronią dwuręczną}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Ochrona}</p>",
+            "requirements": "Paladyn 2"
+        },
         "Holy Nimbus": {
             "name": "Nimb świętości",
             "description": "<p>Na 20. poziomie możesz w ramach swojej akcji otoczyć się aurą słonecznego blasku. Przez minutę bije od ciebie jasne światło w promieniu 9 metrów oraz słabe światło w promieniu kolejnych 9 metrów. Za każdym razem, gdy wroga istota rozpoczyna w jasnym świetle swoją turę, otrzymuje 10 obrażeń od światłości.</p><p>Ponadto masz w tym czasie ułatwienie w rzutach obronnych przeciw czarom czartów i nieumarłych.</p><p>Gdy skorzystasz z tej zdolności, możesz użyć jej ponownie po zakończeniu długiego odpoczynku.</p>",
@@ -801,6 +847,16 @@
             "name": "Droga przez piekło",
             "description": "<p>Począwszy od 14. poziomu, gdy trafiasz cel swoim atakiem, możesz dzięki tej zdolności natychmiast zesłać go do sfer niższych. Istota znika, po czym gnana jest przez koszmarny krajobraz.</p><p>Pod koniec twojej następnej tury cel powraca na swoje dotychczasowe miejsce albo najbliższe wolne. Jeśli nie jest czartem, z powodu traumatycznego doświadczenia otrzymuje 10k10 obrażeń psychicznych.</p><p>Gdy skorzystasz z tej zdolności, możesz użyć jej ponownie po zakończeniu długiego odpoczynku.</p>",
             "requirements": "Czart 14"
+        },
+        "i6tPm3FNK13Ftc9v": {
+            "name": "Rzucanie czarów",
+            "description": "<p>Potrafisz korzystać z boskiej esencji natury, by za pomocą zaklęć kształtować tę esencję zgodnie z twoją wolą.</p>\n<h5>Sztuczki</h5>\n<p>Na 1. poziomie znasz dwie wybrane sztuczki z listy czarów druida. Kolejnych nauczysz się na wyższych poziomach, zgodnie z kolumną Znane sztuczki w tabeli Druid.</p>\n<h5>Przygotowywanie i rzucanie czarów</h5>\n<p>Tabela Druid pokazuje, ile komórek czarów masz by móc rzucać zaklęcia druida 1. kręgu i wyższych. Aby rzucić czar, musisz zużyć komórkę równą kręgowi czaru lub wyższą. Wykorzystane komórki czarów odzyskujesz po ukończeniu długiego odpoczynku.</p>\n<p>Przygotowujesz zaklęcia dostępne do rzucenia, wybierając je z listy zaklęć druida. Gdy to robisz, wybierasz liczbę czarów druida równą modyfikatorowi Mądrości + twój poziom druida (minimum 1 czar). Zaklęcia te muszą pochodzić z kręgów, do których masz komórki czarów.</p>\n<p>Przykładowo, jeśli jesteś druidem 3. poziomu, posiadasz cztery komórki z 1. kręgu i dwie z 2. kręgu. Gdy twoja Mądrość wynosi 16, możesz przygotować sobie sześć czarów 1. lub 2. kręgu w dowolnej kombinacji. Jeśli przygotujesz czar 1. kręgu leczenie ran, możesz go rzucić, używając komórki 1. lub 2. kręgu. Rzucenie zaklęcia nie usuwa go z listy przygotowanych czarów.</p>\n<p>Po ukończeniu długiego odpoczynku możesz zmienić swoją listę przygotowanych czarów. Opracowanie nowej listy czarów wymaga czasu spędzonego na modlitwie i medytacji: co najmniej 1 minuty na krąg każdego z czarów na twojej liście.</p>\n<h5>Cecha bazowa rzucania czarów</h5>\n<p>Za rzucanie druidycznych czarów odpowiada Mądrość, gdyż twoja moc pochodzi z równowagi i oddania nautrze. Zawsze gdy jest mowa o cesze bazowej, używaj Mądrości. Korzystasz z niej także podczas obliczania ST rzutu obronnego przeciw twoim zaklęciom druida oraz podczas wykonywania testu ataku czarem.</p>\n<p><strong>ST rzutu przeciw czarom</strong> = 8 + twoja premia z biegłości + twój modyfikator z Mądrości</p>\n<p><strong>Modyfikator ataku czarem</strong>  = twoja premia z biegłości + twój modyfikator z Mądrości</p>\n<h5>Odprawianie rytuałów</h5>\n<p>Możesz rzucać czary druida jako rytuały, jeśli posiadają one atrybut rytuał i masz je przygotowane.</p>\n<h5>Magiczny fokus</h5>\n<p>Możesz użyć druidycznego fetyszu (zobacz @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Wyposażenie poszukiwaczy przygód}) do rzucania czarów druida.</p>",
+            "requirements": "Druid 1"
+        },
+        "ihoQHsmVZlyDbPhX": {
+            "name": "Rzucanie czarów",
+            "description": "<p>Do 2. poziomu zdołałeś opanować czerpanie z boskiej mocy dzięki medytacji i modlitwie, by rzucać czary na podobieństwo kleryka.</p>\n<h5>Przygotowywanie i rzucanie czarów</h5>\n<p>Tabela Paladyn pokazuje liczbę komórek czarów, dzięki którym możesz rzucać zaklęcia paladyna. Aby rzucić jeden z czarów paladyna kręgu 1. lub wyższego, musisz zużyć komórkę kręgu odpowiadającego danemu czarowi lub wyższego. Wykorzystane komórki czarów odzyskujesz po ukończeniu długiego odpoczynku.</p>\n<p>Przygotowujesz zaklęcia dostępne do rzucenia, wybierając je z listy zaklęć paladyna. Gdy to robisz, wybierasz liczbę czarów paladyna równą modyfikatorowi Charyzmy + połowa poziomu paladyna, zaokrąglona w dół (minimum 1 czar). Zaklęcia te muszą pochodzić z kręgów, do których masz komórki czarów.</p>\n<p>Przykładowo, jeśli jesteś paladynem 5. poziomu, posiadasz cztery komórki z 1. kręgu i dwie z 2. kręgu. Gdy twoja Charyzma wynosi 14, możesz przygotować sobie cztery czary 1. lub 2. kręgu w dowolnej kombinacji. Jeśli przygotujesz czar 1. kręgu leczenie ran, możesz go rzucić, używając komórki 1. lub 2. kręgu. Rzucenie zaklęcia nie usuwa go z listy przygotowanych czarów.</p>\n<p>Po ukończeniu długiego odpoczynku możesz zmienić swoją listę przygotowanych czarów. Opracowanie nowej listy czarów wymaga czasu spędzonego na modlitwie i medytacji: co najmniej 1 minuty na krąg każdego z czarów na twojej liście.</p>\n<h5>Cecha bazowa rzucania czarów</h5>\n<p>Za rzucanie czarów paladyna odpowiada Charyzma, ponieważ czerpiesz moc z siły swoich przekonań. Zawsze gdy jest mowa o cesze bazowej, używaj Charyzmy. Korzystasz z niej także podczas obliczania ST rzutu obronnego przeciw twoim czarom oraz podczas wykonywania testu ataku czarem.</p>\n<p><strong>ST rzutu przeciw czarom</strong> = 8 + twoja premia z biegłości + twój modyfikator z Charyzmy</p>\n<p><strong>Modyfikator ataku czarem</strong> = twoja premia z biegłości + twój modyfikator z Charyzmy</p>\n<h5>Magiczny fokus</h5>\n<p>Możesz użyć świętego symbolu do rzucania czarów paladyna.</p>",
+            "requirements": "Paladyn 2"
         },
         "Improved Critical": {
             "name": "Ulepszone trafienie krytyczne",
@@ -857,10 +913,10 @@
             "description": "<p>Począwszy od 6. poziomu, twoje ataki bez broni liczą się jak magiczne przy rozliczaniu odporności i niepodatności na niemagiczne ataki.</p>",
             "requirements": "Mnich 6"
         },
-        "Land's Stride": {
-            "name": "Lekki krok",
-            "description": "<p>Począwszy od 8. poziomu, podróż przez niemagiczny trudny teren nie spowalnia twojego ruchu. Niemagiczne rośliny nie spowalniają cię ani nie zadają ci obrażeń, jeśli mają kolce, ciernie lub podobne cechy.</p><p>Ponadto masz ułatwienie w rzutach obronnych przeciw roślinom magicznie stworzonym lub zmanipulowanym w celu utrudnienia ci ruchu, na przykład przy użyciu czaru @UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{oplątanie}.</p>",
-            "requirements": "Łowca 8"
+        "laVHAIOKIsUeezWd": {
+            "name": "Odskok",
+            "description": "<p>Kiedy jesteś celem efektu, który umożliwia ci wykonanie rzutu obronnego na Zręczność, by zmniejszyć obrażenia o połowę, to po udanym rzucie obronnym nie otrzymujesz żadnych obrażeń, zaś w przypadku niepowodzenia - tylko połowę.</p>",
+            "requirements": "Myśliwy 15"
         },
         "Lay on Hands": {
             "name": "Nakładanie rąk",
@@ -938,6 +994,11 @@
             "description": "<p>Możesz rzucać @UUID[Compendium.dnd5e.spells.Item.BrBZdCCrJRIVg7YX]{milaczący obraz} bez zużywania komórki czaru i komponentów materialnych.</p>",
             "requirements": "Czarownik 2"
         },
+        "Mm64SKAHJWYecgXS": {
+            "name": "Niesamowity unik",
+            "description": "<p>Począwszy od 5. poziomu, kiedy trafi cię napastnik, którego widzisz, możesz użyć swojej reakcji, aby zmniejszyć o połowę obrażenia z tego ataku.</p>",
+            "requirements": "Łotr 5"
+        },
         "Monastic Tradition": {
             "name": "Mnisia tradycja",
             "description": "<p>Po osiągnięciu 3. poziomu poświęcasz się jednej z mnisich tradycji. Twój wybór określa korzyści, które otrzymasz na poziomach 3., 6., 11. i 17.</p>",
@@ -993,6 +1054,11 @@
                 }
             }
         },
+        "nJA3ISVmyj3uPRVM": {
+            "name": "Styl walki",
+            "description": "<p>Specjalizujesz się w określonym stylu walki. Wybierz jedną spośród następujących możliwości. Nie możesz wybrać danego stylu walki więcej niż raz, nawet jeśli później otrzymujesz taką szansę.</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Strzelectwo}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defensywa}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Fechtunek}</p>\n<p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Walka dwiema broniami}</p>",
+            "requirements": "Łowca 2"
+        },
         "One With Shadows": {
             "name": "Jedność z cieniem",
             "description": "<p>Gdy znajdujesz się na obszarze słabego światła lub ciemności, możesz w ramach swojej akcji stać się niewidzialnym do czasu poruszania się lub wykonania akcji albo reakcji.</p>",
@@ -1017,6 +1083,11 @@
             "name": "Przeładowanie",
             "description": "<p>Od 14. poziomu jesteś w stanie wzmacniać swoje prostsze zaklęcia. Gdy rzucasz czar maga z kręgów od 1. do 5. zadający obrażenia, możesz nim zadać obrażenia maksymalne.</p><p>Za pierwszym razem, gdy to robisz, nie występują żadne skutki uboczne. Jeśli zrobisz to ponownie, zanim ukończysz długi odpoczynek, to natychmiast po rzuceniu zaklęcia otrzymujesz 2k12 obrażeń nekrotycznych za każdy jego krąg. Za każdym razem, gdy ponowisz użycie tej zdolności przed ukończeniem długiego odpoczynku, nekrotyczne obrażenia za każdy krąg wzrastają o 1k12. Obrażenia te ignorują odporność i niepodatność.</p><section class=\"secret foundry-note\" id=\"secret-Dyr8peTt64lvnGQN\"><p><strong>Notka Foundry</strong></p><p>Ograniczone użycie służy do śledzenia pierwszego, bezpiecznego wykorzystania Przeładowania. Formuła obrażeń jest ustawiona na domyślne 2k12. Wszechstronny rzut jest ustawiony na 1k12, aby można było dodać dodatkowe obrażenia.</p></section>",
             "requirements": "Szkoła wywoływania 14"
+        },
+        "oygRF3ZjTv2T7z0Y": {
+            "name": "Rzucanie czarów",
+            "description": "<p>Wydarzenie z przeszłości twojej lub twojego przodka pozostawiło w tobie niezatarty ślad, budząc w tobie magię wtajemniczeń. Owo źródło magii, niezależnie od swego pochodzenia, umożliwia ci rzucanie czarów.</p>\n<h5>Sztuczki</h5>\n<p>Na 1. poziomie znasz cztery wybrane przez siebie sztuczki z listy czarów zaklinacza. Kolejnych nauczysz się na wyższych poziomach, zgodnie z kolumną Znane sztuczki w tabeli Zaklinacz.</p>\n<h5>Komórki czarów</h5>\n<p>Tabela Zaklinacz pokazuje, ile komórek czarów masz by móc rzucać zaklęcia zaklinacza 1. kręgu i wyższych. Aby rzucić czar, musisz zużyć komórkę równą kręgowi czaru lub wyższą. Wykorzystane komórki czarów odzyskujesz po ukończeniu długiego odpoczynku.</p>\n<p>Na przykład, jeśli znasz czar 1. kręgu płonące dłonie i masz dostępne komórki 1. kręgu i 2. kręgu, możesz rzucać płonące dłonie za pomocą którejkolwiek z nich.</p>\n<h5>Znane czary 1. kręgu i wyższych</h5>\n<p>Znasz dwa wybrane przez siebie czary 1. kręgu z listy czarów zaklinacza.</p>\n<p>Kolumna Znane czary w tabeli Zaklinacza pokazuje, kiedy możesz wybrać kolejne. Każdy z tych czarów musi pochodzić z kręgu odpowiadającego posiadanym przez ciebie komórkom. Na przykład, gdy osiągasz 3. poziom w tej klasie, możesz nauczyć się jednego nowego zaklęcia 1. lub 2. kręgu.</p>\n<p>Oprócz tego za każdym razem, gdy awansujesz na nowy poziom w tej klasie, możesz wymienić jeden znany czar na inny z listy zaklinacza, przy czym krąg nowego zaklęcia także musi odpowiadać posiadanym przez ciebie komórkom czarów.</p>\n<h5>Cecha bazowa rzucania czarów</h5>\n<p>Za rzucanie czarów zaklinacza odpowiada Charyzma, ponieważ moc twojej magii opiera się na zdolności do narzucania rzeczywistości twojej woli. Zawsze gdy jest mowa o cesze bazowej, używaj Charyzmy. Korzystasz z niej także podczas obliczania ST rzutu obronnego przeciw twoim czarom oraz podczas wykonywania testu ataku czarem.</p>\n<p><strong>ST rzutu przeciw czarom</strong> = 8 + twoja premia z biegłości + twój modyfikator z Charyzmy</p>\n<p><strong>Modyfikator ataku czarem</strong> = twoja premia z biegłości + twój modyfikator z Charyzmy</p>\n<h5>Magiczny fokus</h5>\n<p>Możesz używać fokusu magii wtajemniczeń do rzucania czarów zaklinacza.</p>",
+            "requirements": "Zaklinacz 1"
         },
         "Pact Boon": {
             "name": "Dobrodziejstwo Paktu",
@@ -1110,6 +1181,11 @@
             "description": "<p>Począwszy od poziomu 15, znajdujesz się stale pod wpływem czaru @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Ochrona przed dobrem i złem}.</p>",
             "requirements": "Przysięga Gorliwości 15"
         },
+        "q9g1MLXuLZyxjQMg": {
+            "name": "Dodatkowy atak",
+            "description": "<p>Możesz atakować dwukrotnie, kiedy w swojej turze wykonujesz akcję ataku.</p><p>Liczba ataków zwiększa się do trzech, gdy osiągasz w tej klasie 11. poziom, oraz do czterech, kiedy osiągasz w niej 20. poziom.</p>",
+            "requirements": "Wojownik 5"
+        },
         "Quickened Spell": {
             "name": "Przyspieszone zaklęcie",
             "description": "<p>Gdy rzucasz czar, którego czas rzucania wynosi jedną akcję, możesz za 2 punkty zaklinania skrócić go do akcji dodatkowej.</p>",
@@ -1186,6 +1262,10 @@
             "name": "Archetyp łotra",
             "description": "<p>Na poziomie 3. wybierasz archetyp najwierniej odzwierciedlający to, w jaki sposób wykorzystujesz swoje talenty, przykładowo złodziej. Twój wybór określa korzyści, które otrzymasz na poziomach 3., 9., 13. i 17.</p>",
             "requirements": "Łotr 3"
+        },
+        "s0Cc2zcX0JzIgam5": {
+            "name": "Zwiększenie wartości Cech",
+            "description": "<p>Kiedy awansujesz na poziom 4., a następnie na 8., 12., 16. i 19. możesz zwiększyć jedną cechę o 2 albo dwie cechy o 1. Nie możesz w ten sposób podnieść wartości cechy powyżej 20.</p>"
         },
         "Sacred Oath": {
             "name": "Święta przysięga",
@@ -1267,10 +1347,10 @@
             "description": "<p>Na 18. poziomie osiągasz taką wprawę w niektórych zaklęciach, że możesz rzucać je bez ograniczeń. Wybierz ze swojej księgi po jednym czarze maga z 1. i 2. kręgu. Póki masz je przygotowane, możesz je rzucać z ich najniższego kręgu bez zużywania komórki czaru. Jeśli chcesz któryś z nich rzucić z wyższego kręgu, musisz zużyć odpowiednią komórkę.</p><p>Spędzając 8 godzin na nauce, możesz wymienić jedno lub oba wybrane zaklęcia na inne zaklęcia tego samego kręgu.</p><section class=\"secret foundry-note\" id=\"secret-0RuufEpTBv0uYysU\"><p><strong>Notka Foundry</strong></p><p>Jeśli chcesz, ręcznie edytuj ten wpis i zanotuj swoje wybory tutaj:</p><ul><li><em>Czar 1. kręgu</em></li><li><em>Czar 2. kręgu</em></li></ul></section>",
             "requirements": "Mag 18"
         },
-        "Spellcasting": {
-            "name": "Rzucanie czarów",
-            "description": "<p>Jako pośrednik boskiej mocy możesz rzucać czary kleryka.</p>\n<h5>Sztuczki</h5>\n<p>Na 1. poziomie znasz trzy wybrane przez siebie sztuczki z listy czarów kleryka. Kolejnych nauczysz się na wyższych poziomach, zgodnie z informacjami w kolumnie Znane sztuczki w tabeli Kleryk.</p>\n<h5>Przygotowywanie i rzucanie czarów</h5>\n<p>Tabela Kleryk pokazuje, ile komórek czarów masz by móc rzucać zaklęcia kleryka 1. kręgu i wyższych. Aby rzucić czar, musisz zużyć komórkę równą kręgowi czaru lub wyższą. Wykorzystane komórki czarów odzyskujesz po ukończeniu długiego odpoczynku.</p>\n<p>Przygotowujesz zaklęcia dostępne do rzucenia, wybierając je z listy zaklęć kleryka. Gdy to robisz, wybierasz liczbę czarów kleryka równą modyfikatorowi Mądrości + twój poziom kleryka (minimum 1 czar). Zaklęcia te muszą pochodzić z kręgów, do których masz komórki czarów.</p>\n<p>Przykładowo, jeśli jesteś klerykiem 3. poziomu, posiadasz cztery komórki z 1. kręgu i dwie z 2. kręgu. Gdy twoja Mądrość wynosi 16, możesz przygotować sobie sześć czarów 1. lub 2. kręgu w dowolnej kombinacji. Jeśli przygotujesz czar 1. kręgu leczenie ran, możesz go rzucić, używając komórki 1. lub 2. kręgu. Rzucenie zaklęcia nie usuwa go z listy przygotowanych czarów.</p>\n<p>Po ukończeniu długiego odpoczynku możesz zmienić swoją listę przygotowanych czarów. Opracowanie nowej listy czarów wymaga czasu spędzonego na modlitwie i medytacji: co najmniej 1 minuty na krąg każdego z czarów na twojej liście.</p>\n<h5>Cecha bazowa rzucania czarów</h5>\n<p>Za rzucanie czarów kleryka odpowiada Mądrość. Moc twoich czarów pochodzi z oddania bogu. Zawsze gdy jest mowa o cesze bazowej, używaj Mądrości. Korzystasz z niej także podczas obliczania ST rzutu obronnego przeciw twoim zaklęciom kleryka oraz podczas wykonywania testu ataku czarem.</p>\n<p><strong>ST rzutu przeciw czarom</strong> = 8 + twoja premia z biegłości + twój modyfikator z Mądrości</p>\n<p><strong>Modyfikator ataku czarem</strong>  = twoja premia z biegłości + twój modyfikator z Mądrości</p>\n<h5>Odprawianie rytuałów</h5>\n<p>Możesz rzucać czary kleryka jako rytuały, jeśli posiadają one atrybut rytuał i masz je przygotowane.</p>\n<h5>Magiczny fokus</h5>\n<p>Możesz użyć świętego symbolu (zobacz @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Wyposażenie poszukiwaczy przygód}) do rzucania czarów kleryka.</p>",
-            "requirements": "Kleryk 1"
+        "sPy2OLoN7JaAcMl4": {
+            "name": "Zwiększenie wartości Cech",
+            "description": "<p>Kiedy awansujesz na poziom 4., a następnie na 6., 8., 12., 14., 16. i 19. możesz zwiększyć jedną cechę o 2 albo dwie cechy o 1. Nie możesz w ten sposób podnieść wartości cechy powyżej 20.</p>",
+            "requirements": "Wojownik 4"
         },
         "Stand Against the Tide": {
             "name": "Pod prąd",
@@ -1378,11 +1458,6 @@
             "description": "<p>Gdy wykonujesz akcję Ataku w swojej turze, możesz swoją bronią paktu zaatakować dwukrotnie zamiast ataku pojedynczego.</p>",
             "requirements": "Czarownik 5, Pakt Ostrza"
         },
-        "Timeless Body": {
-            "name": "Ponadczasowe ciało",
-            "description": "<p>Na 15. poziomie ki pokrzepia cię na tyle, że nie odczuwasz słabości związanej ze starszym wiekiem oraz zyskujesz niepodatność na magiczne postarzenie. Nadal jednak możesz umrzeć ze starości. Ponadto, nie potrzebujesz już pożywienia ani wody.</p>",
-            "requirements": "Mnich 15"
-        },
         "Tongue of the Sun and Moon": {
             "name": "Język słońca i księżyca",
             "description": "<p>Na 13. poziomie uczysz się tak dotykać ki innego umysłu, że jesteś w stanie zrozumieć każdy język mówiony. Ponadto rozumieją cię istoty znające jakikolwiek język.</p>",
@@ -1407,6 +1482,16 @@
             "name": "Walka dwiema broniami",
             "description": "<p>Gdy walczysz dwiema broniami, możesz dodać modyfikator z cechy do obrażeń drugiego ataku.</p>",
             "requirements": "Wojownik 1, Czempion 10, Łowca 2"
+        },
+        "u4NLajXETJhJU31v": {
+            "name": "Rzucanie czarów",
+            "description": "<p>Nauczyłeś się rozplatać i przekształcać tkankę rzeczywistości zgodnie ze swoimi życzeniami i w harmonii z muzyką. Magia, którą dostrajasz do różnych sytuacji jest częścią twojego ogromnego repertuaru.</p>\n<h5>Sztuczki</h5>\n<p>Znasz dwie wybrane przez siebie sztuczki z listy czarów barda. Kolejnych nauczysz się na wyższych poziomach, zgodnie z informacjami w kolumnie Znane sztuczki w tabeli Bard.</p>\n<h5>Komórki czarów</h5>\n<p>Tabela Bard pokazuje, ile komórek czarów masz by móc rzucać zaklęcia barda 1. kręgu i wyższych. Aby rzucić czar, musisz zużyć komórkę równą kręgowi czaru lub wyższą. Wykorzystane komórki czarów odzyskujesz po ukończeniu długiego odpoczynku.</p>\n<p>Na przykład, jeśli znasz czar 1. kręgu Leczenie ran i masz dostępne komórki 1. kręgu i 2. kręgu, możesz rzucać Leczenie ran za pomocą którejkolwiek z nich.</p>\n<h5>Znane czary 1. kręgu i wyższych</h5>\n<p>Znasz cztery wybrane przez siebie czary 1. kręgu z listy czarów Barda.</p>\n<p>Kolumna Znane czary w tabeli Barda pokazuje, kiedy możesz wybrać kolejne. Każdy z tych czarów musi pochodzić z kręgu odpowiadającego posiadanym przez ciebie komórkom zgodnie z tabelą. Na przykład, gdy osiągasz 3. poziom w tej klasie, możesz nauczyć się jednego nowego zaklęcia 1. lub 2. kręgu.</p>\n<p>Oprócz tego za każdym razem, gdy awansujesz na nowy poziom w tej klasie, możesz wymienić jeden znany czar na inny z listy barda, przy czym krąg nowego zaklęcia także musi odpowiadać posiadanym przez ciebie komórkom czarów.</p>\n<h5>Cecha bazowa rzucania czarów</h5>\n<p>Twoją cechą bazową dla czarów barda jest Charyzma. Twoja magia pochodzi z serca i duszy, które wkładasz w wykonywanie swojej muzyki lub oracji. Zawsze gdy jest mowa o cesze bazowej, używaj Charyzmy. Korzystasz z niej także podczas obliczania ST rzutu obronnego przeciw twoim czarom oraz podczas wykonywania testu ataku czarem.</p>\n<p><strong>ST rzutu przeciw czarom</strong> = 8 + twoja premia z biegłości + twój modyfikator z Charyzmy</p>\n<p><strong>Modyfikator ataku czarem</strong> = twoja premia z biegłości + twój modyfikator z Charyzmy</p>\n<h5>Odprawianie rytuałów</h5>\n<p>Możesz rzucać w formie rytuału dowolne znane ci czary barda posiadające atrybut 'rytuał'.</p>\n<h5>Magiczny fokus</h5>\n<p>Możesz użyć instrumentu muzycznego (zobacz @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Wyposażenie poszukiwaczy przygód}) do rzucania czarów Barda.</p>",
+            "requirements": "Bard 1"
+        },
+        "u6xV3Ki3TXRrD7zg": {
+            "name": "Rzucanie czarów",
+            "description": "<p>Do 2. poziomu zdołałeś poznać istotę magii natury i możesz rzucać zaklęcia podobnie jak druid.</p>\n<h5>Komórki czarów</h5>\n<p>Tabela Łowca pokazuje ile komórek czarów masz by móc rzucać zaklęcia łowcy 1. kręgu i wyższych. Aby rzucić czar, musisz zużyć komórkę równą kręgowi czaru lub wyższą. Wykorzystane komórki czarów odzyskujesz po ukończeniu długiego odpoczynku.</p>\n<p>Na przykład, jeśli znasz czar 1. kręgu <em>przyjaciel zwierząt</em> i masz dostępne komórki 1. i 2. kręgu, możesz rzucać <em>przyjaciela zwierząt</em> za pomocą którejkolwiek z nich.</p>\n<h5>Znane czary 1. kręgu i wyższych</h5>\n<p>Znasz dwa wybrane przez siebie czary 1. kręgu z listy czarów łowcy.</p>\n<p>Kolumna Znane czary w tabeli Łowcy pokazuje, kiedy możesz wybrać kolejne. Każdy z tych czarów musi pochodzić z kręgu odpowiadającego posiadanym przez ciebie komórkom. Na przykład, gdy osiągasz 5. poziom w tej klasie, możesz nauczyć się jednego nowego zaklęcia 1. lub 2. kręgu.</p>\n<p>Oprócz tego za każdym razem, gdy awansujesz na nowy poziom w tej klasie, możesz wymienić jeden znany czar na inny z listy łowcy, przy czym krąg nowego zaklęcia także musi odpowiadać posiadanym przez ciebie komórkom czarów.</p>\n<h5>Cecha bazowa rzucania czarów</h5>\n<p>Za rzucanie czarów łowcy odpowiada Mądrość, gdyż twoja moc ma swe źródlo w bliskości z naturą. Zawsze gdy jest mowa o cesze bazowej, używaj Mądrości. Korzystasz z niej także podczas obliczania ST rzutu obronnego przeciw twoim czarom łowcy oraz podczas wykonywania testu ataku czarem.</p>\n<p><strong>ST rzutu przeciw czarom</strong> = 8 + twoja premia z biegłości + twój modyfikator z Mądrości</p>\n<p><strong>Modyfikator ataku czarem</strong>  = twoja premia z biegłości + twój modyfikator z Mądrości</p>",
+            "requirements": "Łowca 2"
         },
         "Unarmed Strike": {
             "name": "Atak bez broni",
@@ -1442,15 +1527,20 @@
                 }
             }
         },
-        "Uncanny Dodge": {
-            "name": "Niesamowity Unik",
-            "description": "<p>Kiedy  traci cię napastnik, którego widzisz, możesz użyć swojej reakcji, aby zmniejszyć o połowę obrażenia z tego ataku.</p>",
-            "requirements": "Łotr 5"
-        },
         "Use Magic Device": {
             "name": "Użycie magicznych urządzeń",
             "description": "<p>Do poziomu 13. nauczyłeś się wystarczająco wiele o działaniu magii, by w improwizowany sposób używać przedmiotów nieprzeznaczonych dla ciebie. Ignorujesz wszelkie wymagania magicznych przedmiotów dotyczące klasy, rasy i poziomu.</p>",
             "requirements": "Złodziej 13"
+        },
+        "v4gKwLhAq9vuqza7": {
+            "name": "Rzucanie czarów",
+            "description": "<p>Jako pośrednik boskiej mocy możesz rzucać czary kleryka.</p>\n<h5>Sztuczki</h5>\n<p>Na 1. poziomie znasz trzy wybrane przez siebie sztuczki z listy czarów kleryka. Kolejnych nauczysz się na wyższych poziomach, zgodnie z informacjami w kolumnie Znane sztuczki w tabeli Kleryk.</p>\n<h5>Przygotowywanie i rzucanie czarów</h5>\n<p>Tabela Kleryk pokazuje, ile komórek czarów masz by móc rzucać zaklęcia kleryka 1. kręgu i wyższych. Aby rzucić czar, musisz zużyć komórkę równą kręgowi czaru lub wyższą. Wykorzystane komórki czarów odzyskujesz po ukończeniu długiego odpoczynku.</p>\n<p>Przygotowujesz zaklęcia dostępne do rzucenia, wybierając je z listy zaklęć kleryka. Gdy to robisz, wybierasz liczbę czarów kleryka równą modyfikatorowi Mądrości + twój poziom kleryka (minimum 1 czar). Zaklęcia te muszą pochodzić z kręgów, do których masz komórki czarów.</p>\n<p>Przykładowo, jeśli jesteś klerykiem 3. poziomu, posiadasz cztery komórki z 1. kręgu i dwie z 2. kręgu. Gdy twoja Mądrość wynosi 16, możesz przygotować sobie sześć czarów 1. lub 2. kręgu w dowolnej kombinacji. Jeśli przygotujesz czar 1. kręgu leczenie ran, możesz go rzucić, używając komórki 1. lub 2. kręgu. Rzucenie zaklęcia nie usuwa go z listy przygotowanych czarów.</p>\n<p>Po ukończeniu długiego odpoczynku możesz zmienić swoją listę przygotowanych czarów. Opracowanie nowej listy czarów wymaga czasu spędzonego na modlitwie i medytacji: co najmniej 1 minuty na krąg każdego z czarów na twojej liście.</p>\n<h5>Cecha bazowa rzucania czarów</h5>\n<p>Za rzucanie czarów kleryka odpowiada Mądrość. Moc twoich czarów pochodzi z oddania bogu. Zawsze gdy jest mowa o cesze bazowej, używaj Mądrości. Korzystasz z niej także podczas obliczania ST rzutu obronnego przeciw twoim zaklęciom kleryka oraz podczas wykonywania testu ataku czarem.</p>\n<p><strong>ST rzutu przeciw czarom</strong> = 8 + twoja premia z biegłości + twój modyfikator z Mądrości</p>\n<p><strong>Modyfikator ataku czarem</strong>  = twoja premia z biegłości + twój modyfikator z Mądrości</p>\n<h5>Odprawianie rytuałów</h5>\n<p>Możesz rzucać czary kleryka jako rytuały, jeśli posiadają one atrybut rytuał i masz je przygotowane.</p>\n<h5>Magiczny fokus</h5>\n<p>Możesz użyć świętego symbolu (zobacz @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Wyposażenie poszukiwaczy przygód}) do rzucania czarów kleryka.</p>",
+            "requirements": "Kleryk 1"
+        },
+        "v7MxFuTAgOsmxZCD": {
+            "name": "Zwiększenie wartości Cech",
+            "description": "<p>Kiedy awansujesz na poziom 4., a następnie na 8., 10., 12., 16. i 19. możesz zwiększyć jedną cechę o 2 albo dwie cechy o 1. Nie możesz w ten sposób podnieść wartości cechy powyżej 20.</p>",
+            "requirements": "Łotr 4"
         },
         "Vanish": {
             "name": "Zniknięcie bez śladu",
@@ -1511,6 +1601,15 @@
             "name": "Wiedźmi wzrok",
             "description": "<p>Potrafisz dostrzec prawdziwą formę istoty zmiennokształtnej lub ukrytej przez magię szkoły iluzji albo przemian, o ile znajduje się na twojej linii wzroku w obrębie 9 metrów od ciebie.</p>",
             "requirements": "Czarownik 15"
+        },
+        "XogoBnFWmCAHXppo": {
+            "name": "Dodatkowy atak",
+            "description": "<p>Możesz atakować dwukrotnie, kiedy w swojej turze wykonujesz akcję ataku.</p>"
+        },
+        "YpiLQEKGalROn7iJ": {
+            "name": "Akt wiary",
+            "description": "<p>Na 2. poziomie zyskujesz możliwość skupiania mocy pochodzącej od swojego bóstwa i użycia jej do wywoływania magicznych efektów. Zaczynasz od dwóch z nich: Odpędzania nieumarłych i efektu związanego z wybraną domeną. W miarę rozwoju w klasie kleryka uzyskasz dodatkowe efekty, jak wyszczególniono w opisach poszczególnych domen.</p><p>W ramach Aktu wiary określasz efekt, jaki chcesz wywołać . Aby dokonać ponownie Aktu wiary, musisz ukończyć krótki lub długi odpoczynek. Niektóre efekty Aktu wiary wymagają rzutów obronnych. W takim przypadku ich ST jest równy ST rzutów przeciw twoim czarom.</p><p>Począwszy od 6. poziomu, możesz użyć Aktu wiary dwukrotnie bez odpoczynku, natomiast od 18. poziomu możesz zrobić to trzykrotnie. Krótki lub długi odpoczynek odnawiają dostępne użycia zdolności.</p><section class=\"secret foundry-note\" id=\"secret-AZYZtT1NonF68bPW\"><p><strong>Notka Foundry</strong></p><p>Użyj tego, aby śledzić wszystkie różne efekty Aktu wiary kleryka.</p></section>",
+            "requirements": "Kleryk 2"
         }
     },
     "folders": {
