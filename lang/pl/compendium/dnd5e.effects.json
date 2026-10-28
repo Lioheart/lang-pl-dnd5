@@ -361,7 +361,7 @@
         },
         "phbeffSilenced00": {
             "name": "Wyciszony",
-            "description": "<p>Każda istota lub obiekt znajdujący się w całości wewnątrz Sfery ma Niepodatność na obrażenia od Dźwięku, a istoty, dopóki w całości w niej przebywają, mają stan Ogłuchły. Rzucenie tam czaru wymagającego komponentu Werbalnego jest niemożliwe.</p>"
+            "description": "<p>Każda istota lub obiekt znajdujący się w całości wewnątrz sfery ma niepodatność na obrażenia od dźwięku. Ponadto istoty są ogłuchłe, dopóki znajdują się w całości w jej obrębie. Rzucanie czaru zawierającego komponent werbalny jest tam niemożliwe.</p>"
         },
         "Piercing Immunity": {
             "name": "Niepodatność na obrażenia kłute"
