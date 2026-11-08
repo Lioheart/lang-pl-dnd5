@@ -1600,7 +1600,7 @@
                     "name": "Odsyłający atak"
                 },
                 "Dismissal Save": {
-                    "name": "Rzut obronny przeciwko odesłaniu",
+                    "name": "Rzut obronny przeciw odesłaniu",
                     "condition": "Kiedy stworzenie zostanie trafione odsyłającą częścią tego zaklęcia.",
                     "activationCondition": "Kiedy stworzenie zostanie trafione odsyłającą częścią tego zaklęcia.",
                     "damageOnSave": "brak"
