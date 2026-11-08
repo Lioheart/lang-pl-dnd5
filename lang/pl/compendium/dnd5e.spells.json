@@ -123,7 +123,7 @@
                     "name": "Rzuć czar"
                 },
                 "Additional End of Turn Damage": {
-                    "name": "Dodatkowe obrażenia na końcu tury"
+                    "name": "Dodatkowe obrażenia na koniec tury"
                 }
             },
             "effects": {
