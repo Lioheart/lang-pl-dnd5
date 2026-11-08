@@ -2305,7 +2305,7 @@
             "effects": {
                 "Flesh to Stone": {
                     "name": "Ciało w kamień",
-                    "description": "<p>Stajesz się unieruchomiony, gdyż twoje ciało zaczyna tężeć. Podczas unieruchomienia zaklęciem wykonujesz kolejne rzuty obronne na Kondycję pod koniec każdej swojej tury. Jeśli zdasz je trzy razy, zaklęcie się kończy. Jeśli natomiast trzy razy poniesiesz porażkę, zostajesz zamieniony w kamień i do końca trwania czaru jesteś &amp;reference[Petrified]{skamieniały}.</p>"
+                    "description": "<p>Stajesz się unieruchomiony, gdyż twoje ciało zaczyna tężeć. Podczas unieruchomienia zaklęciem wykonujesz kolejne rzuty obronne na Kondycję pod koniec każdej swojej tury. Jeśli zdasz je trzy razy, zaklęcie się kończy. Jeśli natomiast trzy razy poniesiesz porażkę, zostajesz zamieniony w kamień i do końca trwania czaru jesteś &reference[Petrified]{skamieniały}.</p>"
                 },
                 "Failed Flesh to Stone Save": {
                     "name": "Porażka w rzucie przeciw skamienieniu",
