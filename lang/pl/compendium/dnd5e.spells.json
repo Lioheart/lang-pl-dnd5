@@ -1792,7 +1792,7 @@
                     "name": "Rzuć czar"
                 },
                 "Prone / Concentration Save": {
-                    "name": "Rzut obronny przeciwko powaleniu / utracie koncentracji",
+                    "name": "Rzut obronny przeciw powaleniu / utracie koncentracji",
                     "condition": "Na końcu każdej twojej tury.",
                     "activationCondition": "Na końcu każdej twojej tury.",
                     "damageOnSave": "brak"
@@ -2529,7 +2529,7 @@
                     "name": "Rzuć czar"
                 },
                 "Explosive Rune Save": {
-                    "name": "Rzut obronny przeciwko wybuchowej runie",
+                    "name": "Rzut obronny przeciw wybuchowej runie",
                     "condition": "Kiedy zostanie aktywowany glif strażniczy.",
                     "activationCondition": "Kiedy zostanie aktywowany glif strażniczy.",
                     "damageOnSave": "połowa"
@@ -2596,7 +2596,7 @@
                     "name": "Przywołanie strażnika wiary"
                 },
                 "Guardian Strike Save": {
-                    "name": "Rzut obronny przeciwko uderzeniu strażnika",
+                    "name": "Rzut obronny przeciw uderzeniu strażnika",
                     "condition": "Kiedy po raz pierwszy w swojej turze, wrogo nastawiona do ciebie istota wejdzie w obręb 3 metrów od strażnika.",
                     "activationCondition": "Kiedy po raz pierwszy w swojej turze wrogo nastawiona do ciebie istota wejdzie w obręb 3 metrów od strażnika.",
                     "damageOnSave": "połowa"
