@@ -2570,11 +2570,11 @@
         },
         "Greater Invisibility": {
             "name": "Większa niewidzialność",
-            "description": "<p>Ty lub dotknięta przez ciebie istota staje się &amp;reference[Invisible apply=false]{niewidzialna} na czas trwania czaru. Cale wyposażenie, jakie nosi lub ma przy sobie cel zaklęcia, jest niewidzialne, dopóki nie opuści jego posiadania.</p>",
+            "description": "<p>Ty lub dotknięta przez ciebie istota staje się &reference[Invisible apply=false]{niewidzialna} na czas trwania czaru. Cale wyposażenie, jakie nosi lub ma przy sobie cel zaklęcia, jest niewidzialne, dopóki nie opuści jego posiadania.</p>",
             "effects": {
                 "Greater Invisibility": {
                     "name": "Większa niewidzialność",
-                    "description": "<p>Stajesz się &amp;reference[Invisible apply=false]{niewidzialny} na czas trwania czaru. Cale wyposażenie, jakie nosisz lub masz przy sobie jest niewidzialne, dopóki nie opuści twojego posiadania.</p>"
+                    "description": "<p>Stajesz się &reference[Invisible apply=false]{niewidzialny} na czas trwania czaru. Cale wyposażenie, jakie nosisz lub masz przy sobie jest niewidzialne, dopóki nie opuści twojego posiadania.</p>"
                 }
             }
         },
