@@ -2574,7 +2574,7 @@
             "effects": {
                 "Greater Invisibility": {
                     "name": "Większa niewidzialność",
-                    "description": "<p>Stajesz się &reference[Invisible apply=false]{niewidzialny} na czas trwania czaru. Cale wyposażenie, jakie nosisz lub masz przy sobie jest niewidzialne, dopóki nie opuści twojego posiadania.</p>"
+                    "description": "<p>Stajesz się &reference[Invisible apply=false]{niewidzialny} na czas trwania czaru. Całe wyposażenie, jakie nosisz lub masz przy sobie jest niewidzialne, dopóki nie opuści twojego posiadania.</p>"
                 }
             }
         },
