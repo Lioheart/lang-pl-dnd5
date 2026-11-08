@@ -1917,7 +1917,7 @@
             "effects": {
                 "Enthralled": {
                     "name": "Zafascynowany",
-                    "description": "<p>Masz utrudnienie w testach Mądrości (Percepcja) wykonywanych w celu wykrycia jakiejkolwiek istoty innej niż rzucający czar, dopóki czar nie przestanie działać lub dopóki nie przestaniesz słyszeć rzucającego czar. Czar kończy się, jeśli rzucający jest &amp;reference[Incapacitatedapply=false]{obezwładniony} lub nie może już mówić.</p>"
+                    "description": "<p>Masz utrudnienie w testach Mądrości (Percepcja) wykonywanych w celu wykrycia jakiejkolwiek istoty innej niż rzucający czar, dopóki czar nie przestanie działać lub dopóki nie przestaniesz słyszeć rzucającego czar. Czar kończy się, jeśli rzucający jest &reference[Incapacitated apply=false]{obezwładniony} lub nie może już mówić.</p>"
                 }
             }
         },
