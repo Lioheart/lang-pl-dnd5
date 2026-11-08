@@ -3783,7 +3783,7 @@
                     "name": "Rzuć czar: wypędzający atak"
                 },
                 "Banish Save": {
-                    "name": "Rzut obronny przeciwko wygnaniu",
+                    "name": "Rzut obronny przeciw wygnaniu",
                     "condition": "Kiedy stworzenie zostanie trafione atakiem tego zaklęcia.",
                     "activationCondition": "Kiedy stworzenie zostanie trafione atakiem tego zaklęcia.",
                     "damageOnSave": "brak"
