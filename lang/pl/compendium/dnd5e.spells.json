@@ -3602,7 +3602,7 @@
             "materials": "Kilka nasion rośliny miesięcznikowatej i kawałek skalenia tęczowego",
             "activities": {
                 "Moonbeam Burn Save": {
-                    "name": "Rzut obronny przeciwko poparzeniu księżycowym promieniem",
+                    "name": "Rzut obronny przeciw poparzeniu księżycowym promieniem",
                     "condition": "Kiedy istota po raz pierwszy w turze wejdzie w obszar działania czaru lub rozpocznie w nim turę.",
                     "activationCondition": "Kiedy istota po raz pierwszy w turze wejdzie w obszar działania czaru lub rozpocznie w nim turę.",
                     "damageOnSave": "połowa"
