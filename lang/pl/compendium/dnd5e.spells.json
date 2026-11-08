@@ -3059,7 +3059,7 @@
             "effects": {
                 "Invisibility": {
                     "name": "Niewidzialność",
-                    "description": "<p>Stajesz się &amp;reference[Invisible apply=false]{niewidzialny} na czas trwania czaru. Cale wyposażenie, jakie nosisz lub masz przy sobie jest niewidzialne, dopóki nie opuści twojego posiadania. Zaklęcie kończy się, gdy wykonasz atak lub rzucisz czar</p>"
+                    "description": "<p>Stajesz się &reference[Invisible apply=false]{niewidzialny} na czas trwania czaru. Cale wyposażenie, jakie nosisz lub masz przy sobie jest niewidzialne, dopóki nie opuści twojego posiadania. Zaklęcie kończy się, gdy wykonasz atak lub rzucisz czar</p>"
                 }
             }
         },
