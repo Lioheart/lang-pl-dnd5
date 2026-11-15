@@ -13,10 +13,6 @@
             "name": "Rogue",
             "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRogue00000]{Rogue}"
         },
-        "8g4dm4vqB60zPWw5": {
-            "name": "Elven Lineage",
-            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbElvenLineage0]{Elven Lineage}"
-        },
         "8oHL5jQ0fXbXGpuf": {
             "name": "Cardinal Directions",
             "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbgenCardinalDi]{Cardinal Directions}"
@@ -696,17 +692,9 @@
             "name": "Ruin",
             "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtRuin000000]{Ruin}"
         },
-        "Elf, Drow": {
-            "name": "Elf, Drow",
-            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspDrow0000000]{Elf, Drow}"
-        },
-        "Elf, High": {
-            "name": "Elf, High",
-            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspHighElf0000]{Elf, High}"
-        },
-        "Elf, Wood": {
-            "name": "Elf, Wood",
-            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspWoodElf0000]{Elf, Wood}"
+        "Elf": {
+            "name": "Elf",
+            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspElf00000000]{Elf}"
         },
         "Fates": {
             "name": "Fates",
@@ -825,13 +813,9 @@
             "name": "Giant Weasel",
             "description": "@UUID[Compendium.dnd5e.actors24.Actor.mmGiantWeasel000]{Giant Weasel}"
         },
-        "Gnome, Forest": {
-            "name": "Gnome, Forest",
-            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspForestGnome]{Gnome, Forest}"
-        },
-        "Gnome, Rock": {
-            "name": "Gnome, Rock",
-            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspRockGnome00]{Gnome, Rock}"
+        "Gnome": {
+            "name": "Gnome",
+            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspGnome000000]{Gnome}"
         },
         "Goat": {
             "name": "Goat",
@@ -1345,10 +1329,6 @@
                 }
             }
         },
-        "ncs8GLvSuavCJAqf": {
-            "name": "Gnomish Lineage",
-            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbGnomishLineag]{Gnomish Lineage}"
-        },
         "Necklace of Prayer Beads Type": {
             "name": "Necklace of Prayer Beads Type",
             "results": {
@@ -1414,36 +1394,6 @@
             "name": "Star",
             "description": "@UUID[Compendium.dnd5e.equipment24.Item.dmgDmtStar000000]{Star}"
         },
-        "phbElvenLineage0": {
-            "name": "Elven Lineage",
-            "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
-            "results": {
-                "1-1": {
-                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspDrow0000000]{Elf, Drow}"
-                },
-                "2-2": {
-                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspHighElf0000]{Elf, High}"
-                },
-                "3-3": {
-                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspWoodElf0000]{Elf, Wood}"
-                }
-            }
-        },
-        "phbFiendishLegac": {
-            "name": "Fiendish Legacy",
-            "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>",
-            "results": {
-                "1-1": {
-                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspAbyssalTief]{Tiefling, Abyssal}"
-                },
-                "2-2": {
-                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspChthonicTie]{Tiefling, Chthonic}"
-                },
-                "3-3": {
-                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspInfernalTie]{Tiefling, Infernal}"
-                }
-            }
-        },
         "phbgenCardinalDi": {
             "name": "Cardinal Directions",
             "results": {
@@ -1458,18 +1408,6 @@
                 },
                 "4-4": {
                     "description": "West"
-                }
-            }
-        },
-        "phbGnomishLineag": {
-            "name": "Gnomish Lineage",
-            "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
-            "results": {
-                "1-1": {
-                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspForestGnome]{Gnome, Forest}"
-                },
-                "2-2": {
-                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspRockGnome00]{Gnome, Rock}"
                 }
             }
         },
@@ -1504,10 +1442,6 @@
                     "description": "<strong>Language:</strong> Orc. <strong>Origin:</strong> Orcs."
                 }
             }
-        },
-        "PkXN8vlW5cXx8vbB": {
-            "name": "Fiendish Legacy",
-            "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbFiendishLegac]{Fiendish Legacy}"
         },
         "Potion Miscibility": {
             "name": "Potion Miscibility",
@@ -1685,7 +1619,7 @@
             "description": "<p>Roll [[/r 1d10]] and consult the table below to determine the body’s species, or the DM chooses another playable species.</p>",
             "results": {
                 "1-1": {
-                    "description": "Aasimar"
+                    "description": "<p>Aasimar</p>"
                 },
                 "2-2": {
                     "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspDragonborn0]{Dragonborn}"
@@ -1694,10 +1628,10 @@
                     "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspDwarf000000]{Dwarf}"
                 },
                 "4-4": {
-                    "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbElvenLineage0]{Elven Lineage}"
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspElf00000000]{Elf}"
                 },
                 "5-5": {
-                    "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbGnomishLineag]{Gnomish Lineage}"
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspGnome000000]{Gnome}"
                 },
                 "6-6": {
                     "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspGoliath0000]{Goliath}"
@@ -1712,7 +1646,7 @@
                     "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspOrc00000000]{Orc}"
                 },
                 "10-10": {
-                    "description": "@UUID[Compendium.dnd5e.tables24.RollTable.phbFiendishLegac]{Fiendish Legacy}"
+                    "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspTiefling000]{Tiefling}"
                 }
             }
         },
@@ -2114,17 +2048,9 @@
                 }
             }
         },
-        "Tiefling, Abyssal": {
-            "name": "Tiefling, Abyssal",
-            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspAbyssalTief]{Tiefling, Abyssal}"
-        },
-        "Tiefling, Chthonic": {
-            "name": "Tiefling, Chthonic",
-            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspChthonicTie]{Tiefling, Chthonic}"
-        },
-        "Tiefling, Infernal": {
-            "name": "Tiefling, Infernal",
-            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspInfernalTie]{Tiefling, Infernal}"
+        "Tiefling": {
+            "name": "Tiefling",
+            "description": "@UUID[Compendium.dnd5e.origins24.Item.phbspTiefling000]{Tiefling}"
         },
         "Tiger": {
             "name": "Tiger",

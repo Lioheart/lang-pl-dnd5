@@ -380,6 +380,20 @@
                 }
             }
         },
+        "Assassin's Blood": {
+            "name": "Assassin's Blood",
+            "description": "<p>A creature subjected to this poison must make a [[/save]] saving throw. On a failed save, it takes [[/damage average]] damage and is &amp;Reference[poisoned apply=false]{poisoned} for 24 hours. On a successful save, the creature takes half damage and isn't poisoned.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Poisoned": {
+                    "name": "Poisoned"
+                }
+            }
+        },
         "Backpack": {
             "name": "Backpack",
             "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
@@ -433,7 +447,7 @@
                 "save": {
                     "condition": "one slashing or piercing weapon, or up to three pieces of ammunition",
                     "activationCondition": "one slashing or piercing weapon, or up to three pieces of ammunition",
-                    "damageOnSave": "half"
+                    "damageOnSave": "none"
                 }
             }
         },
@@ -755,6 +769,20 @@
             "name": "Burglar's Pack",
             "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
         },
+        "Burnt Othur Fumes": {
+            "name": "Burnt Othur Fumes",
+            "description": "<p>A creature subjected to this poison must succeed on a [[/save]] saving throw or take [[/damage average]] damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes [[/damage average activity=699G3YGOfe67nPbM]] damage. After three successful saves, the poison ends.</p>",
+            "activities": {
+                "Save (initial)": {
+                    "name": "Save (initial)",
+                    "damageOnSave": "none"
+                },
+                "Save (following)": {
+                    "name": "Save (following)",
+                    "damageOnSave": "none"
+                }
+            }
+        },
         "C05ytVXByOG8uBAc": {
             "name": "Small Knife",
             "description": "<p>A blunt knife used by the scholarly to open letters and correspondence.</p>"
@@ -1033,6 +1061,20 @@
                 }
             }
         },
+        "Crawler Mucus": {
+            "name": "Crawler Mucus",
+            "description": "<p>This poison must be harvested from a dead or incapacitated crawler. A creature subjected to this poison must succeed on a [[/save]] saving throw or be &amp;Reference[poisoned apply=false]{poisoned} for 1 minute. The poisoned creature is &amp;Reference[paralyzed apply=false]{paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Poisoned & Paralyzed": {
+                    "name": "Poisoned & Paralyzed"
+                }
+            }
+        },
         "Crossbow Bolt": {
             "name": "Crossbow Bolt",
             "description": "<p>This ammunition is used for all varieties of crossbow and is typically a short metal shaft with a narrow piercing tip.</p>"
@@ -1292,6 +1334,23 @@
                 }
             }
         },
+        "Drow Poison": {
+            "name": "Drow Poison",
+            "description": "<p>This poison is typically made only by the drow, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a [[/save]] saving throw or be &amp;Reference[poisoned apply=false]{poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also &amp;Reference[unconscious apply=false]{unconscious} while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Poisoned": {
+                    "name": "Poisoned"
+                },
+                "Poisoned & Unconscious": {
+                    "name": "Poisoned & Unconscious"
+                }
+            }
+        },
         "Drum": {
             "name": "Drum",
             "description": "<p>A drum, of any variety, to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>",
@@ -1411,6 +1470,20 @@
         "Entertainer's Pack": {
             "name": "Entertainer's Pack",
             "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>"
+        },
+        "Essence of Ether": {
+            "name": "Essence of Ether",
+            "description": "<p>A creature subjected to this poison must succeed on a [[/save]] saving throw or become &amp;Reference[poisoned apply=false]{poisoned} for 8 hours. The poisoned creature is &amp;Reference[unconscious apply=false]{unconscious}. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Poisoned & Unconscious": {
+                    "name": "Poisoned & Unconscious"
+                }
+            }
         },
         "Eversmoking Bottle": {
             "name": "Eversmoking Bottle",
@@ -2752,6 +2825,20 @@
             "name": "Magnifying Glass",
             "description": "<p>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</p>"
         },
+        "Malice": {
+            "name": "Malice",
+            "description": "<p>A creature subjected to this poison must succeed on a [[/save]] saving throw or become &amp;Reference[poisoned apply=false]{poisoned} for 1 hour. The poisoned creature is &amp;Reference[blinded apply=false]{blinded}.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Poisoned & Blinded": {
+                    "name": "Poisoned & Blinded"
+                }
+            }
+        },
         "Manacles": {
             "name": "Manacles",
             "description": "<p>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful [[/check activity=dnd5eactivity000]] check. Breaking them requires a successful [[/check activity=9DosjAvEYAW0LLK8]] check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful [[/check activity=9IBcoj8ChH1OiDT8]]{DC 15 Dexterity} check. Manacles have 15 hit points.</p>",
@@ -2853,6 +2940,15 @@
         "Merchant's Scale": {
             "name": "Merchant's Scale",
             "description": "<p>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</p>"
+        },
+        "Midnight Tears": {
+            "name": "Midnight Tears",
+            "description": "<p>A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a [[/save]] saving throw, taking [[/damage average]] damage on a failed save, or half as much damage on a successful one.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "Military Saddle": {
             "name": "Military Saddle",
@@ -3153,6 +3249,20 @@
                 }
             }
         },
+        "Oil of Taggit": {
+            "name": "Oil of Taggit",
+            "description": "<p>A creature subjected to this poison must succeed on a [[/save]] saving throw or become &amp;Reference[poisoned apply=false]{poisoned} for 24 hours. The poisoned creature is &amp;Reference[unconscious apply=false]{unconscious}. The creature wakes up if it takes damage.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Poisoned & Unconscious": {
+                    "name": "Poisoned & Unconscious"
+                }
+            }
+        },
         "Orb": {
             "name": "Orb",
             "description": "<p>This spherical talisman serves as a spellcasting focus, helping the practitioner to channel arcane, primal, or divine energies.</p>\n<p><strong>Spellcasting Focus. </strong>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>"
@@ -3217,6 +3327,20 @@
             "activities": {
                 "Use Tools": {
                     "name": "Use Tools"
+                }
+            }
+        },
+        "Pale Tincture": {
+            "name": "Pale Tincture",
+            "description": "<p>A creature subjected to this poison must succeed on a [[/save]] saving throw or take [[/damage average]] damage and become &amp;Reference[poisoned apply=false]{poisoned}. The poisoned creature must repeat the saving throw every 24 hours, taking [[/damage average]] damage on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "none"
+                }
+            },
+            "effects": {
+                "Poisoned": {
+                    "name": "Poisoned"
                 }
             }
         },
@@ -3697,10 +3821,15 @@
         },
         "Potion of Poison": {
             "name": "Potion of Poison",
-            "description": "<p><em>This concoction looks, smells, and tastes like a potion of healing or other beneficial potion.</em></p><p>However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.</p><p>If you drink it, you take [[/damage]] damage, and you must succeed on a [[/save]] saving throw or be &amp;reference[poisoned]. At the start of each of your turns while you are poisoned in this way, you take [[/damage]] damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.</p><section class=\"secret\" id=\"secret-zrLCcwvOwukVWTvT\"><p>For convenience, you can use these enrichers ([[/damage 2d6 poison]] or [[/damage 1d6 poison]]) to perform the damage roll for the reduced damage.</p></section>",
+            "description": "<p><em>This concoction looks, smells, and tastes like a potion of healing or other beneficial potion.</em></p><p>However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.</p><p>If you drink it, you take [[/damage]] damage, and you must succeed on a [[/save]] saving throw or be &amp;Reference[poisoned apply=false]{poisoned}. At the start of each of your turns while you are poisoned in this way, you take [[/damage]] damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.</p><section id=\"secret-zrLCcwvOwukVWTvT\" class=\"secret\"><p>For convenience, you can use these enrichers ([[/damage 2d6 poison]] or [[/damage 1d6 poison]]) to perform the damage roll for the reduced damage.</p></section>",
             "activities": {
                 "save": {
                     "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Poisoned": {
+                    "name": "Poisoned"
                 }
             }
         },
@@ -3870,6 +3999,15 @@
         "psoZaItkOScMVaHL": {
             "name": "Oil Flask",
             "description": "<p>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon.</p>\n<p>On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level.</p>\n<p>If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p>"
+        },
+        "Purple Worm Poison": {
+            "name": "Purple Worm Poison",
+            "description": "<p>This poison must be harvested from a dead or incapacitated purple worm. A creature subjected to this poison must make a [[/save]] saving throw, taking [[/damage average]] damage on a failed save, or half as much damage on a successful one.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "q4RcCLeKviqgckqt": {
             "name": "Waterskin",
@@ -4510,6 +4648,15 @@
             "name": "Scroll Case",
             "description": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>"
         },
+        "Serpent Venom": {
+            "name": "Serpent Venom",
+            "description": "<p>This poison must be harvested from a dead or incapacitated giant poisonous snake. A creature subjected to this poison must succeed on a [[/save]] saving throw, taking [[/damage average]] damage on a failed save, or half as much damage on a successful one.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
+        },
         "Shawm": {
             "name": "Shawm",
             "description": "<p>A shawm to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>",
@@ -5100,6 +5247,20 @@
                 }
             }
         },
+        "Torpor": {
+            "name": "Torpor",
+            "description": "<p>A creature subjected to this poison must succeed on a [[/save]] saving throw or become &amp;Reference[poisoned apply=false]{poisoned} for [[/r 4d6]] hours. The poisoned creature is &amp;Reference[incapacitated apply=false]{incapacitated}.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Poisoned & Incapacitated": {
+                    "name": "Poisoned & Incapacitated"
+                }
+            }
+        },
         "Totem": {
             "name": "Totem",
             "description": "<p>A totem incorporating feathers, fur, bones, and teeth from an animal sacred to the user. Those who heed nature's call are able to harness this to call forth the incredible power of nature.</p>\n<p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>"
@@ -5142,10 +5303,16 @@
         },
         "Truth Serum": {
             "name": "Truth Serum",
-            "description": "<p>A creature subjected to this poison must succeed on a [[/save]] saving throw or become &amp;Reference[poisoned] for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth} spell.</p>",
+            "description": "<p>A creature subjected to this poison must succeed on a [[/save]] saving throw or become &amp;Reference[poisoned apply=false]{poisoned} for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth} spell.</p>",
             "activities": {
                 "save": {
                     "damageOnSave": "half"
+                }
+            },
+            "effects": {
+                "Can't Lie": {
+                    "name": "Can't Lie",
+                    "description": "<p>You can't knowingly speak a lie, as if under the effect of a @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth} spell.</p>"
                 }
             }
         },
@@ -5642,6 +5809,15 @@
         "Wooden Staff": {
             "name": "Wooden Staff",
             "description": "<p>A gnarled or naturely smooth staff of wood drawn out from a living tree, those who heed nature's call can use this to harness the incredible power of nature.</p>\n<p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>"
+        },
+        "Wyvern Poison": {
+            "name": "Wyvern Poison",
+            "description": "<p>This poison must be harvested from a dead or incapacitated wyvern. A creature subjected to this poison must make a [[/save]] saving throw, taking [[/damage average]] damage on a failed save, or half as much damage on a successful one.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "half"
+                }
+            }
         },
         "xWQopgOHbS6LjsZm": {
             "name": "Hammer",

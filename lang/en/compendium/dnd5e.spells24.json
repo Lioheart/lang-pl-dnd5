@@ -265,7 +265,15 @@
         },
         "Animal Shapes": {
             "name": "Animal Shapes",
-            "description": "<p>Choose any number of willing creatures that you can see within range. Each target shape-shifts into a Large or smaller Beast of your choice that has a Challenge Rating of 4 or lower. You can choose a different form for each target. On later turns, you can take a Magic action to transform the targets again.</p><p>A target's game statistics are replaced by the chosen Beast's statistics, but the target retains its creature type; Hit Points; Hit Point Dice; alignment; ability to communicate; and Intelligence, Wisdom, and Charisma scores. The target's actions are limited by the Beast form's anatomy, and it can't cast spells. The target's equipment melds into the new form, and the target can't use any of that equipment while in that form.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the first form into which it shape-shifts. These Temporary Hit Points vanish if any remain when the spell ends. The transformation lasts for the duration or until the target ends it as a Bonus Action.</p>"
+            "description": "<p>Choose any number of willing creatures that you can see within range. Each target shape-shifts into a Large or smaller Beast of your choice that has a Challenge Rating of 4 or lower. You can choose a different form for each target. On later turns, you can take a Magic action to transform the targets again.</p><p>A target's game statistics are replaced by the chosen Beast's statistics, but the target retains its creature type; Hit Points; Hit Point Dice; alignment; ability to communicate; and Intelligence, Wisdom, and Charisma scores. The target's actions are limited by the Beast form's anatomy, and it can't cast spells. The target's equipment melds into the new form, and the target can't use any of that equipment while in that form.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the first form into which it shape-shifts. These Temporary Hit Points vanish if any remain when the spell ends. The transformation lasts for the duration or until the target ends it as a Bonus Action.</p>",
+            "activities": {
+                "Initial Transformation": {
+                    "name": "Initial Transformation"
+                },
+                "Follow Up Transformations": {
+                    "name": "Follow Up Transformations"
+                }
+            }
         },
         "Animate Dead": {
             "name": "Animate Dead",
@@ -320,8 +328,13 @@
         },
         "Antimagic Field": {
             "name": "Antimagic Field",
-            "description": "<p>An aura of antimagic surrounds you in 10-foot Emanation. No one can cast spells, take Magic actions, or create other magical effects inside the aura, and those things can't target or otherwise affect anything inside it. Magical properties of magic items don't work inside the aura or on anything inside it.</p><p>Areas of effect created by spells or other magic can't extend into the aura, and no one can teleport into or out of it or use planar travel there. Portals close temporarily while in the aura.</p><p>Ongoing spells, except those cast by an Artifact or a deity, are suppressed in the area. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.</p><p><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em> has no effect on the aura, and the auras created by different <em>Antimagic Field</em> spells don't nullify each other.</p>",
-            "materials": "iron filings"
+            "description": "<p>An aura of antimagic surrounds you in 10-foot Emanation. No one can cast spells, take Magic actions, or create other magical effects inside the aura, and those things can't target or otherwise affect anything inside it. Magical properties of magic items don't work inside the aura or on anything inside it.</p><p>Areas of effect created by spells or other magic can't extend into the aura, and no one can teleport into or out of it or use planar travel there. Portals close temporarily while in the aura.</p><p>Ongoing spells, except those cast by an Artifact or a deity, are suppressed in the area. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.</p><p><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</em> has no effect on the aura, and the auras created by different <em>Antimagic Field</em> spells don't nullify each other.</p>",
+            "materials": "iron filings",
+            "activities": {
+                "Cast": {
+                    "name": "Cast"
+                }
+            }
         },
         "Antipathy/Sympathy": {
             "name": "Antipathy/Sympathy",
@@ -675,9 +688,20 @@
         },
         "Call Lightning": {
             "name": "Call Lightning",
-            "description": "<p>A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.</p><p>When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.</p><p>Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.</p><p>If you're outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell's damage increases by 1d10.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 3.</p>",
+            "description": "<p>A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.</p><p>When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.</p><p>Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.</p><p>If you're outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell's damage increases by 1d10.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 3.</p><section id=\"secret-UISNs3WQbYOUh9Zp\" class=\"secret hide-in-embed\"><p><strong>Foundry Note</strong></p><p>For later lightning strikes, select the spell level used for the original casting. The strike activities do not consume another spell slot.</p></section>",
             "activities": {
-                "save": {
+                "Lightning Strike": {
+                    "name": "Lightning Strike",
+                    "chatFlavor": "Bolt strikes a point under the cloud in a 5-ft. radius",
+                    "range": "Under the storm cloud",
+                    "damageOnSave": "half"
+                },
+                "Cast Spell": {
+                    "name": "Cast Spell"
+                },
+                "Lightning Strike (Storm)": {
+                    "name": "Lightning Strike (Storm)",
+                    "range": "Under the storm cloud",
                     "damageOnSave": "half"
                 }
             }
@@ -874,7 +898,7 @@
             "description": "<p>You conjure nature spirits that appear as a Large pack of spectral, intangible animals in an unoccupied space you can see within range. The pack lasts for the duration, and you choose the spirits' animal form, such as wolves, serpents, or birds.</p><p>You have Advantage on Strength saving throws while you're within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see.</p><p>Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 3.</p>",
             "activities": {
                 "save": {
-                    "damageOnSave": "half"
+                    "damageOnSave": "none"
                 }
             }
         },
@@ -1204,10 +1228,17 @@
         "Disguise Self": {
             "name": "Disguise Self",
             "description": "<p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.</p><p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing.</p><p>To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC.</p>",
+            "activities": {
+                "Study": {
+                    "name": "Study",
+                    "condition": "Study Action taken by other creature",
+                    "activationCondition": "Study Action taken by other creature"
+                }
+            },
             "effects": {
                 "Disguised": {
                     "name": "Disguised",
-                    "description": "<p><span style=\"font-family:Signika, sans-serif\">To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your spell save DC.</span></p>"
+                    "description": "<p>To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your spell save DC.</p>"
                 }
             }
         },
@@ -1654,19 +1685,10 @@
         },
         "Find Steed": {
             "name": "Find Steed",
-            "description": "<p>You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobOtherworld]{Otherworldly Steed}</strong> stat block. If you already have a steed from this spell, the steed is replaced by the new one.</p><p>The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.</p><p><strong>Combat.</strong> The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a &amp;Reference[controllingamount]{controlled mount} while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.</p><p><strong>Disappearance of the Steed.</strong> The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Use the spell slot's level for the spell's level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the steed's Traits and Actions, the following attributes are also affected.</p><table><caption>Otherworldly Steed</caption><tbody><tr><td><strong>AC</strong></td><td>10 + 1 per spell level</td></tr><tr><td><strong>HP</strong></td><td>5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)</td></tr><tr><td><strong>Speed</strong></td><td>60 ft., Fly 60 ft. (requires level 4+ spell)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-SI4qlfj05o21BBGg\"><p><strong>Foundry Note</strong></p><p>The <strong>Summon Flying Steed</strong> activity should be used when consuming a fourth level or higher spell slot and is configured to apply the Fly Speed.</p><p>When using a second or third level spell slot, the <strong>Summon Steed</strong> activity should be used instead.</p></section>",
+            "description": "<p>You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobOtherworld]{Otherworldly Steed}</strong> stat block. If you already have a steed from this spell, the steed is replaced by the new one.</p><p>The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.</p><p><em><strong>Combat.</strong></em> The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a &amp;Reference[controllingamount]{controlled mount} while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.</p><p><em><strong>Disappearance of the Steed.</strong></em> The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.</p><p><em><strong>Using a Higher-Level Spell Slot.</strong></em> Use the spell slot's level for the spell's level in the stat block.</p><p>@Embed[Compendium.dnd5e.actors24.Actor.phbmobOtherworld caption=false statblock]</p>",
             "activities": {
                 "Summon Steed": {
                     "name": "Summon Steed"
-                },
-                "Summon Flying Steed": {
-                    "name": "Summon Flying Steed"
-                }
-            },
-            "effects": {
-                "Flying Steed": {
-                    "name": "Flying Steed",
-                    "description": "<p>The steed has a Fly speed of 60ft. when summoned by a level 4+ spell.</p>"
                 }
             }
         },
@@ -1700,6 +1722,17 @@
             "name": "Fire Shield",
             "description": "<p>Wispy flames wreathe your body for the duration, shedding Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p><p>The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you Resistance to Cold damage, and the chill shield grants you Resistance to Fire damage.</p><p>In addition, whenever a creature within 5 feet of you hits you with a melee attack roll, the shield erupts with flame. The attacker takes [[/damage 2d8 type=fire]] damage from a warm shield or [[/damage 2d8 type=cold]] damage from a chill shield.</p>",
             "materials": "a bit of phosphorus or a firefly",
+            "activities": {
+                "Cast Spell": {
+                    "name": "Cast Spell"
+                },
+                "Flame Eruption": {
+                    "name": "Flame Eruption",
+                    "condition": "a creature within 5 feet hits you with a melee attack",
+                    "activationCondition": "a creature within 5 feet hits you with a melee attack",
+                    "target": "attacking creature"
+                }
+            },
             "effects": {
                 "Warm Shield": {
                     "name": "Warm Shield",
@@ -2104,7 +2137,17 @@
         "Hallucinatory Terrain": {
             "name": "Hallucinatory Terrain",
             "description": "<p>You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed.</p><p>The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn't obvious by touch, a creature examining the illusion can take the Study action to make an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain.</p>",
-            "materials": "a mushroom"
+            "materials": "a mushroom",
+            "activities": {
+                "Cast Spell": {
+                    "name": "Cast Spell"
+                },
+                "Study": {
+                    "name": "Study",
+                    "condition": "Study Action taken by other creature",
+                    "activationCondition": "Study Action taken by other creature"
+                }
+            }
         },
         "Harm": {
             "name": "Harm",
@@ -2428,7 +2471,7 @@
         },
         "Incendiary Cloud": {
             "name": "Incendiary Cloud",
-            "description": "<p>A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range. The cloud's area is &amp;Reference[HeavilyObscured]. It lasts for the duration or until a strong wind (like that created by <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p>When the cloud appears, each creature in it makes a Dexterity saving throw, taking 10d8 Fire damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The cloud moves 10 feet away from you in a direction you choose at the start of each of your turns.</p>",
+            "description": "<p>A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range. The cloud's area is &amp;Reference[HeavilyObscured]. It lasts for the duration or until a strong wind (like that created by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p>When the cloud appears, each creature in it makes a Dexterity saving throw, taking 10d8 Fire damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The cloud moves 10 feet away from you in a direction you choose at the start of each of your turns.</p>",
             "activities": {
                 "Create Cloud": {
                     "name": "Create Cloud",
@@ -2682,7 +2725,17 @@
         "Major Image": {
             "name": "Major Image",
             "description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can't deal damage or cause conditions.</p><p>If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.</p>",
-            "materials": "a bit of fleece"
+            "materials": "a bit of fleece",
+            "activities": {
+                "Create Illusion": {
+                    "name": "Create Illusion"
+                },
+                "Study": {
+                    "name": "Study",
+                    "condition": "Study Action taken by other creature",
+                    "activationCondition": "Study Action taken by other creature"
+                }
+            }
         },
         "Mass Cure Wounds": {
             "name": "Mass Cure Wounds",
@@ -2789,6 +2842,11 @@
                             "name": "Sound"
                         }
                     }
+                },
+                "Study": {
+                    "name": "Study",
+                    "condition": "Study Action taken by other creature",
+                    "activationCondition": "Study Action taken by other creature"
                 }
             }
         },
@@ -2905,6 +2963,11 @@
                 },
                 "Phantasm Damage": {
                     "name": "Phantasm Damage"
+                },
+                "Study": {
+                    "name": "Study",
+                    "condition": "Study Action taken by other creature",
+                    "activationCondition": "Study Action taken by other creature"
                 }
             },
             "effects": {
@@ -2991,6 +3054,13 @@
             "activities": {
                 "save": {
                     "damageOnSave": "half"
+                },
+                "transform": {
+                    "profiles": {
+                        "Creature into Creature": {
+                            "name": "Creature into Creature"
+                        }
+                    }
                 }
             }
         },
@@ -3127,6 +3197,11 @@
             "activities": {
                 "Create Illusion": {
                     "name": "Create Illusion"
+                },
+                "Study": {
+                    "name": "Study",
+                    "condition": "Study Action taken by other creature",
+                    "activationCondition": "Study Action taken by other creature"
                 }
             }
         },
@@ -3137,6 +3212,11 @@
             "activities": {
                 "Create Illusion": {
                     "name": "Create Illusion"
+                },
+                "Study": {
+                    "name": "Study",
+                    "condition": "Study Action taken by other creature",
+                    "activationCondition": "Study Action taken by other creature"
                 }
             }
         },
@@ -3527,10 +3607,15 @@
             "activities": {
                 "Unwilling Save": {
                     "name": "Unwilling Save",
-                    "damageOnSave": "half"
+                    "damageOnSave": "none"
                 },
                 "Change Appearance": {
                     "name": "Change Appearance"
+                },
+                "Study": {
+                    "name": "Study",
+                    "condition": "Study Action taken by other creature",
+                    "activationCondition": "Study Action taken by other creature"
                 }
             },
             "effects": {
@@ -3559,7 +3644,15 @@
         "Shapechange": {
             "name": "Shapechange",
             "description": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.</p><p>When you cast the spell, you gain a number of Temporary Hit Points equal to the Hit Points of the first form into which you shape-shift. These Temporary Hit Points vanish if any remain when the spell ends.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>",
-            "materials": "a jade circlet worth 1,500+ GP"
+            "materials": "a jade circlet worth 1,500+ GP",
+            "activities": {
+                "Initial Transformation": {
+                    "name": "Initial Transformation"
+                },
+                "Follow Up Transformations": {
+                    "name": "Follow Up Transformations"
+                }
+            }
         },
         "Shatter": {
             "name": "Shatter",
@@ -3600,9 +3693,6 @@
             "activities": {
                 "Imbue Weapon": {
                     "name": "Imbue Weapon"
-                },
-                "Spellcasting Attack": {
-                    "name": "Spellcasting Attack"
                 }
             },
             "effects": {
@@ -3654,7 +3744,17 @@
             "name": "Silent Image",
             "description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot Cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.</p><p>As a Magic action, you can cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.</p><p>Physical interaction with the image reveals it to be an illusion, since things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p>",
             "materials": "a bit of fleece",
-            "activation": "a bit of fleece"
+            "activation": "a bit of fleece",
+            "activities": {
+                "Create Illusion": {
+                    "name": "Create Illusion"
+                },
+                "Study": {
+                    "name": "Study",
+                    "condition": "Study Action taken by other creature",
+                    "activationCondition": "Study Action taken by other creature"
+                }
+            }
         },
         "Simulacrum": {
             "name": "Simulacrum",
@@ -3764,15 +3864,12 @@
             "description": "<p>Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.</p><p>When you cast this spell, you can designate creatures to be unaffected by it. Any other creature's Speed is halved in the Emanation, and whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes 3d8 Radiant damage (if you are good or neutral) or 3d8 Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 3.</p>",
             "materials": "a prayer scroll",
             "activities": {
-                "Cast and Save": {
-                    "name": "Cast and Save",
+                "Spirit Guardians Save": {
+                    "name": "Spirit Guardians Save",
                     "damageOnSave": "half"
-                }
-            },
-            "effects": {
-                "Half Speed": {
-                    "name": "Half Speed",
-                    "description": "<p>The creature's speed is halved while within the Emanation.</p>"
+                },
+                "Cast Spell": {
+                    "name": "Cast Spell"
                 }
             }
         },
@@ -3792,15 +3889,15 @@
         },
         "Stinking Cloud": {
             "name": "Stinking Cloud",
-            "description": "<p>You create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is &amp;Reference[heavilyobscured]. The cloud lingers in the air for the duration or until a strong wind (such as the one created by <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p>Each creature that starts its turn in the Sphere must succeed on a Constitution saving throw or have the &amp;Reference[poisoned apply=false] condition until the end of the current turn. While Poisoned in this way, the creature can't take an action or a Bonus Action.</p>",
+            "description": "<p>You create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is &amp;Reference[heavilyobscured]. The cloud lingers in the air for the duration or until a strong wind (such as the one created by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p>Each creature that starts its turn in the Sphere must succeed on a Constitution saving throw or have the &amp;Reference[poisoned apply=false] condition until the end of the current turn. While Poisoned in this way, the creature can't take an action or a Bonus Action.</p>",
             "materials": "a rotten egg",
             "activities": {
+                "Create Cloud": {
+                    "name": "Create Cloud"
+                },
                 "Start of Turn Save": {
                     "name": "Start of Turn Save",
                     "damageOnSave": "none"
-                },
-                "Create Cloud": {
-                    "name": "Create Cloud"
                 }
             },
             "effects": {
@@ -4063,11 +4160,21 @@
         },
         "True Polymorph": {
             "name": "True Polymorph",
-            "description": "<p>Choose one creature or nonmagical object that you can see within range. The creature shape-shifts into a different creature or a nonmagical object, or the object shape-shifts into a creature (the object must be neither worn nor carried). The transformation lasts for the duration or until the target dies or is destroyed, but if you maintain Concentration on this spell for the full duration, the spell lasts until dispelled.</p><p>An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.</p><p><strong>Creature into Creature. </strong>If you turn a creature into another kind of creature, the new form can be any kind you choose that has a Challenge Rating equal to or less than the target's Challenge Rating or level. The target's game statistics are replaced by the stat block of the new form, but it retains its Hit Points, Hit Point Dice, alignment, and personality.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the new form. These Temporary Hit Points vanish if any remain when the spell ends.</p><p>The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.</p><p>The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.</p><p><strong>Object into Creature. </strong>You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature has a Challenge Rating of 9 or lower. The creature is Friendly to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.</p><p>If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly to you, depending on how you have treated it.</p><p><strong>Creature into Object. </strong>If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object's size is no larger than the creature's size. The creature's statistics become those of the object, and the creature has no memory of time spent in this form after the spell ends and it returns to normal.</p><section class=\"secret\" id=\"secret-IB4vzIqK9EZU3ho1\"><p><strong>Foundry Note</strong></p><p>An Actor can be dragged onto the polymorphed creature's sheet by the Gamemaster to handle the transformation.</p></section>",
+            "description": "<p>Choose one creature or nonmagical object that you can see within range. The creature shape-shifts into a different creature or a nonmagical object, or the object shape-shifts into a creature (the object must be neither worn nor carried). The transformation lasts for the duration or until the target dies or is destroyed, but if you maintain Concentration on this spell for the full duration, the spell lasts until dispelled.</p><p>An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.</p><p><strong>Creature into Creature. </strong>If you turn a creature into another kind of creature, the new form can be any kind you choose that has a Challenge Rating equal to or less than the target's Challenge Rating or level. The target's game statistics are replaced by the stat block of the new form, but it retains its Hit Points, Hit Point Dice, alignment, and personality.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the new form. These Temporary Hit Points vanish if any remain when the spell ends.</p><p>The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.</p><p>The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.</p><p><strong>Object into Creature. </strong>You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature has a Challenge Rating of 9 or lower. The creature is Friendly to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.</p><p>If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly to you, depending on how you have treated it.</p><p><strong>Creature into Object. </strong>If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object's size is no larger than the creature's size. The creature's statistics become those of the object, and the creature has no memory of time spent in this form after the spell ends and it returns to normal.</p>",
             "materials": "a drop of mercury, a dollop of gum arabic, and a wisp of smoke",
             "activities": {
                 "save": {
                     "damageOnSave": "none"
+                },
+                "transform": {
+                    "profiles": {
+                        "Creature into Creature": {
+                            "name": "Creature into Creature"
+                        },
+                        "Object into Creature": {
+                            "name": "Object into Creature"
+                        }
+                    }
                 }
             }
         },
