@@ -13,6 +13,10 @@
         }
     },
     "entries": {
+        "Acid Breath Weapon": {
+            "name": "Zionięcie kwasem",
+            "description": "<p>Twoje zionięcie zadaje obrażenia od kwasu.</p>"
+        },
         "Acid Immunity": {
             "name": "Niepodatność na kwas"
         },
@@ -27,6 +31,48 @@
         },
         "Acrobatics Disadvantage": {
             "name": "Utrudnienie w testach Akrobatyki"
+        },
+        "Advantage on Ability Checks": {
+            "name": "Ułatwienie w testach Cech"
+        },
+        "Advantage on Attacks": {
+            "name": "Ułatwienie w testach ataku"
+        },
+        "Advantage on Checks & Saves": {
+            "name": "Ułatwienie w testach i rzutach obronnych"
+        },
+        "Advantage on D20 Tests": {
+            "name": "Ułatwienie w testach d20"
+        },
+        "Advantage on Melee Attacks": {
+            "name": "Ułatwienie w testach ataku wręcz"
+        },
+        "Advantage on Melee Spell Attacks": {
+            "name": "Ułatwienie w testach ataku wręcz czarem"
+        },
+        "Advantage on Melee Weapon Attacks": {
+            "name": "Ułatwienie w testach ataku wręcz bronią białą"
+        },
+        "Advantage on Ranged Attacks": {
+            "name": "Ułatwienie w testach ataku dystansowego"
+        },
+        "Advantage on Ranged Spell Attacks": {
+            "name": "Ułatwienie w testach ataku dystansowego czarem"
+        },
+        "Advantage on Ranged Weapon Attacks": {
+            "name": "Ułatwienie w testach ataku bronią dystansową"
+        },
+        "Advantage on Saving Throws": {
+            "name": "Ułatwienie w rzutach obronnych"
+        },
+        "Advantage on Skill Checks": {
+            "name": "Ułatwienie w testach umiejętności"
+        },
+        "Advantage on Spell Attacks": {
+            "name": "Ułatwienie w testach ataku czarem"
+        },
+        "Advantage on Weapon Attacks": {
+            "name": "Ułatwienie w testach ataku bronią"
         },
         "Animal Handling Advantage": {
             "name": "Ułatwienie w testach Opieki nad zwierzętami"
@@ -107,6 +153,10 @@
         "Climb Speed": {
             "name": "Szybkość wspinania"
         },
+        "Cold Breath Weapon": {
+            "name": "Zionięcie zimnem",
+            "description": "<p>Twoje zionięcie zadaje obrażenia od zimna.</p>"
+        },
         "Cold Immunity": {
             "name": "Niepodatność na zimno"
         },
@@ -140,14 +190,8 @@
         "Cursed Immunity": {
             "name": "Niepodatność na klątwy"
         },
-        "Damage Immunity": {
-            "name": "Niepodatność na obrażenia"
-        },
-        "Damage Resistance": {
-            "name": "Odporność na obrażenia"
-        },
-        "Damage Vulnerability": {
-            "name": "Podatność na obrażenia"
+        "Dashing": {
+            "name": "Sprintujący"
         },
         "Deafened": {
             "name": "Ogłuchły"
@@ -185,11 +229,59 @@
         "Dexterity Save Disadvantage": {
             "name": "Utrudnienie w rzutach obronnych na Zręczność"
         },
+        "Disadvantage on Ability Checks": {
+            "name": "Utrudnienie w testach Cech"
+        },
+        "Disadvantage on Attacks": {
+            "name": "Utrudnienie w testach ataku"
+        },
+        "Disadvantage on Checks & Saves": {
+            "name": "Utrudnienie w testach i rzutach obronnych"
+        },
+        "Disadvantage on D20 Tests": {
+            "name": "Utrudnienie w testach d20"
+        },
+        "Disadvantage on Melee Attacks": {
+            "name": "Utrudnienie w testach ataku wręcz"
+        },
+        "Disadvantage on Melee Spell Attacks": {
+            "name": "Utrudnienie w testach ataku wręcz czarem"
+        },
+        "Disadvantage on Melee Weapon Attacks": {
+            "name": "Utrudnienie w testach ataku wręcz bronią białą"
+        },
+        "Disadvantage on Ranged Attacks": {
+            "name": "Utrudnienie w testach ataku dystansowego"
+        },
+        "Disadvantage on Ranged Spell Attacks": {
+            "name": "Utrudnienie w testach ataku dystansowego czarem"
+        },
+        "Disadvantage on Ranged Weapon Attacks": {
+            "name": "Utrudnienie w testach ataku bronią dystansową"
+        },
+        "Disadvantage on Saving Throws": {
+            "name": "Utrudnienie w rzutach obronnych"
+        },
+        "Disadvantage on Skill Checks": {
+            "name": "Utrudnienie w testach umiejętności"
+        },
+        "Disadvantage on Spell Attacks": {
+            "name": "Utrudnienie w testach ataku czarem"
+        },
+        "Disadvantage on Weapon Attacks": {
+            "name": "Utrudnienie w testach ataku bronią"
+        },
         "Diseased": {
             "name": "Chory"
         },
         "Diseased Immunity": {
             "name": "Niepodatność na choroby"
+        },
+        "Disengaged": {
+            "name": "Odstąpienie"
+        },
+        "Dodging": {
+            "name": "Unikający"
         },
         "Exhaustion Immunity": {
             "name": "Niepodatność na wyczerpanie"
@@ -199,6 +291,10 @@
         },
         "Falling Immunity": {
             "name": "Niepodatność na upadek"
+        },
+        "Fire Breath Weapon": {
+            "name": "Zionięcie ogniem",
+            "description": "<p>Twoje zionięcie zadaje obrażenia od ognia.</p>"
         },
         "Fire Immunity": {
             "name": "Niepodatność na ogień"
@@ -211,6 +307,10 @@
         },
         "Fly Speed": {
             "name": "Szybkość lotu"
+        },
+        "Flying Steed": {
+            "name": "Latający wierzchowiec",
+            "description": "<p>Wierzchowiec ma Szybkość Lotu 60 stóp, jeśli został przywołany przez czar poziomu 4 lub wyższego.</p>"
         },
         "Force Immunity": {
             "name": "Niepodatność na moc"
@@ -233,11 +333,17 @@
         "Grappled Immunity": {
             "name": "Niepodatność na pochwycenie"
         },
+        "Half Cover": {
+            "name": "Połowa osłony"
+        },
         "History Advantage": {
             "name": "Ułatwienie w testach Historii"
         },
         "History Disadvantage": {
             "name": "Utrudnienie w testach Historii"
+        },
+        "Immunity to All Damage": {
+            "name": "Niepodatność na wszystkie obrażenia"
         },
         "Incapacitated": {
             "name": "Obezwładniony"
@@ -293,6 +399,10 @@
         "Invisible Immunity": {
             "name": "Niepodatność na niewidzialność"
         },
+        "Lightning Breath Weapon": {
+            "name": "Zionięcie elektrycznością",
+            "description": "<p>Twoje zionięcie zadaje obrażenia od elektryczności.</p>"
+        },
         "Lightning Immunity": {
             "name": "Niepodatność na elektryczność"
         },
@@ -328,6 +438,12 @@
         },
         "Necrotic Vulnerability": {
             "name": "Podatność na nekrotyczność"
+        },
+        "No Opportunity Attacks": {
+            "name": "Brak ataków okazyjnych"
+        },
+        "No Reactions": {
+            "name": "Brak reakcji"
         },
         "Paralyzed": {
             "name": "Sparaliżowany"
@@ -371,6 +487,10 @@
         },
         "Piercing Vulnerability": {
             "name": "Podatność na obrażenia kłute"
+        },
+        "Poison Breath Weapon": {
+            "name": "Zionięcie trucizną",
+            "description": "<p>Twoje zionięcie zadaje obrażenia od trucizny.</p>"
         },
         "Poison Immunity": {
             "name": "Niepodatność na truciznę"
@@ -417,6 +537,9 @@
         "Religion Disadvantage": {
             "name": "Utrudnienie w testach Religii"
         },
+        "Resistance to All Damage": {
+            "name": "Odporność na wszystkie obrażenia"
+        },
         "Restrained": {
             "name": "Unieruchomiony"
         },
@@ -443,6 +566,15 @@
         },
         "Sleight of Hand Disadvantage": {
             "name": "Utrudnienie w testach Zwinnych dłoni"
+        },
+        "Speed Doubled": {
+            "name": "Podwojona szybkość"
+        },
+        "Speed Halved": {
+            "name": "Połowa szybkości"
+        },
+        "Speed is 0": {
+            "name": "Szybkość wynosi 0"
         },
         "Stealth Advantage": {
             "name": "Ułatwienie w testach Skradania się"
@@ -495,6 +627,9 @@
         "Swim Speed": {
             "name": "Szybkość pływania"
         },
+        "Three-Quarters Cover": {
+            "name": "Osłona na trzy czwarte"
+        },
         "Thunder Immunity": {
             "name": "Niepodatność na dźwięk"
         },
@@ -503,6 +638,9 @@
         },
         "Thunder Vulnerability": {
             "name": "Podatność na dźwięk"
+        },
+        "Total Cover": {
+            "name": "Osłona całkowita"
         },
         "Transformed": {
             "name": "Przekształcony"
@@ -515,6 +653,9 @@
         },
         "Unconscious Immunity": {
             "name": "Niepodatność na utratę przytomności"
+        },
+        "Vulnerability to All Damage": {
+            "name": "Podatność na wszystkie obrażenia"
         },
         "Wisdom Check & Save Advantage": {
             "name": "Ułatwienie w testach i rzutach obronnych na Mądrość"
@@ -542,13 +683,18 @@
         "Ability Check Disadvantage": "Utrudnienie w testach Cech",
         "Ability Save Advantage": "Ułatwienie w rzutach obronnych",
         "Ability Save Disadvantage": "Utrudnienie w rzutach obronnych",
+        "Attack Advantage": "Ułatwienie w ataku",
+        "Attack Disadvantage": "Utrudnienie w ataku",
         "Condition Immunities": "Niepodatności na stany",
         "Conditions": "Stany",
+        "D20 Tests": "Test K20",
         "Damage Immunities": "Niepodatności na obrażenia",
         "Damage Resistances": "Odporności na obrażenia",
         "Damage Vulnerabilities": "Podatności na obrażenia",
+        "Dragonborn": "Drakon",
         "Skill Advantage": "Ułatwienie w testach umiejętności",
         "Skill Disadvantage": "Utrudnienie w testach umiejętności",
+        "Species": "Gatunek",
         "Speeds": "Szybkości",
         "Spells": "Czary"
     }
