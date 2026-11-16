@@ -3,7 +3,7 @@
   "DOCUMENT.Advancement": "Awans",
   "DOCUMENT.DND5E": {
     "Warning": {
-      "SelectType": "Należy wybrać typ {name} by utworzyć."
+      "SelectType": "Należy wybrać rodzaj {name} by utworzyć."
     }
   },
   "TYPES.Actor": {
