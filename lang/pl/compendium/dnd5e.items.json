@@ -380,6 +380,20 @@
                 }
             }
         },
+        "Assassin's Blood": {
+            "name": "Krew zabójcy",
+            "description": "<p>Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia otrzymuje [[/damage average]] obrażeń i staje się &reference[poisoned apply=false]{zatruta} na 24 godziny. Udany rzut zmniejsza obrażenia o połowę i istota nie zostaje zatruta.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            },
+            "effects": {
+                "Poisoned": {
+                    "name": "Zatruty"
+                }
+            }
+        },
         "Backpack": {
             "name": "Plecak",
             "description": "<p>Plecak może pomieścić 30 litrów lub 15 kilogramów wyposażenia. Do zewnętrznej części plecaka można również przypiąć przedmioty, takie jak śpiwór lub zwój liny.</p>"
@@ -433,7 +447,7 @@
                 "save": {
                     "condition": "jedna broń zadająca obrażenia cięte lub kłute albo do trzech sztuk amunicji",
                     "activationCondition": "jedna broń zadająca obrażenia cięte lub kłute albo do trzech sztuk amunicji",
-                    "damageOnSave": "połowa"
+                    "damageOnSave": "brak"
                 }
             }
         },
@@ -755,6 +769,20 @@
             "name": "Zestaw włamywacza",
             "description": "<p>Plecak może pomieścić 30 litrów lub 15 kilogramów wyposażenia. Do zewnętrznej części plecaka można również przypiąć przedmioty, takie jak śpiwór lub zwój liny.</p>"
         },
+        "Burnt Othur Fumes": {
+            "name": "Opary palonego othur",
+            "description": "<p>Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia otrzymuje [[/damage average]] obrażeń i musi powtarzać rzut obronny na początku każdej swojej tury. Przy każdym kolejnym nieudanym rzucie obronnym postać otrzymuje [[/damage average activity=699G3YGOfe67nPbM]] obrażeń. Po trzech udanych rzutach działanie trucizny ustaje.</p>",
+            "activities": {
+                "Save (initial)": {
+                    "name": "Rzut obronny (pierwszy)",
+                    "damageOnSave": "brak"
+                },
+                "Save (following)": {
+                    "name": "Rzut obronny (kolejny)",
+                    "damageOnSave": "brak"
+                }
+            }
+        },
         "C05ytVXByOG8uBAc": {
             "name": "Mały nóż",
             "description": "<p>Tępy nóż używany przez uczonych do otwierania listów i korespondencji.</p>"
@@ -1033,6 +1061,20 @@
                 }
             }
         },
+        "Crawler Mucus": {
+            "name": "Śluz pełzacza ścierwojada",
+            "description": "<p>Tę truciznę można pozyskać z martwego lub obezwładnionego pełzacza ścierwojada. Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia staje się &reference[poisoned apply=false]{zatruta} na 1 minutę. Zatruta istota jest &reference[paralyzed apply=false]{sparaliżowana}. Istota może powtórzyć rzut obronny na koniec każdej swojej tury, kończąc efekt na sobie w przypadku sukcesu.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            },
+            "effects": {
+                "Poisoned & Paralyzed": {
+                    "name": "Zatruty i sparaliżowany"
+                }
+            }
+        },
         "Crossbow Bolt": {
             "name": "Bełt",
             "description": "<p>Amunicja ta jest używana do wszystkich odmian kuszy i jest zazwyczaj krótkim metalowym trzonem z wąską końcówką przebijającą.</p>"
@@ -1292,6 +1334,23 @@
                 }
             }
         },
+        "Drow Poison": {
+            "name": "Drowia trucizna",
+            "description": "<p>Tę truciznę zazwyczaj wytwarzają tylko drowy, wyłącznie w miejscach pozbawionych światła słonecznego. Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia staje się &Reference[poisoned apply=false]{zatruta} na 1 godzinę. Jeśli rzut obronny nie powiedzie się o 5 lub więcej od ST, zatruta istota staje się także &Reference[unconscious apply=false]{nieprzytomna}. Obudzi się w momencie otrzymania obrażeń albo gdy inna istota w ramach swojej akcji nią potrząśnie.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            },
+            "effects": {
+                "Poisoned": {
+                    "name": "Zatruty"
+                },
+                "Poisoned & Unconscious": {
+                    "name": "Zatruty i nieprzytomny"
+                }
+            }
+        },
         "Drum": {
             "name": "Bęben",
             "description": "<p>Bęben, dowolnej odmiany, mający wywołać podziw, zachwyt lub strach u twojej publiczności.</p>\n<p>Jeśli masz biegłość w danym instrumencie muzycznym, możesz dodać premię z biegłości do dowolnych testów cech, które wykonujesz, aby grać na instrumencie. Bard może używać instrumentu muzycznego do rzucania czarów. Każdy rodzaj instrumentu muzycznego wymaga odrębnej biegłości.</p>",
@@ -1411,6 +1470,20 @@
         "Entertainer's Pack": {
             "name": "Zestaw artysty",
             "description": "<p>Plecak może pomieścić 30 litrów lub 15 kilogramów wyposażenia. Do zewnętrznej części plecaka można również przypiąć przedmioty, takie jak śpiwór lub zwój liny.</p>"
+        },
+        "Essence of Ether": {
+            "name": "Esencja eteru",
+            "description": "<p>Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia staje się &Reference[poisoned apply=false]{zatruta} na 8 godzin. Zatruta istota staje się także &Reference[unconscious apply=false]{nieprzytomna}. Obudzi się w momencie otrzymania obrażeń albo gdy inna istota w ramach swojej akcji nią potrząśnie.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            },
+            "effects": {
+                "Poisoned & Unconscious": {
+                    "name": "Zatruty i nieprzytomny"
+                }
+            }
         },
         "Eversmoking Bottle": {
             "name": "Butla dymna",
@@ -2752,6 +2825,20 @@
             "name": "Szkło powiększające",
             "description": "<p>Ta soczewka pozwala przyjrzeć się bliżej małym obiektom. Można też nią zastąpić krzesiwo podczas rozpalania ognia. Rozpalanie ognia za pomocą szkła powiększającego wymaga światła jasnego jak światło słoneczne, hubki do zapłonu i około 5 minut. Szkło powiększające zapewnia ułatwienie w każdym teście Cechy dotyczącym wyceny lub oględzin przedmiotu, który jest mały lub bardzo szczegółowy.</p>"
         },
+        "Malice": {
+            "name": "Złość",
+            "description": "<p>Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia staje się &Reference[poisoned apply=false]]{zatruta} na 1 godzinę. Zatruta istota staje się także &Reference[blinded apply=false]{oślepiona}.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            },
+            "effects": {
+                "Poisoned & Blinded": {
+                    "name": "Zatruty i oślepiony"
+                }
+            }
+        },
         "Manacles": {
             "name": "Kajdany",
             "description": "<p>Za pomocą metalowych oków można skrępować Małą lub Średnią istotę. Wyślizgnięcie się z nich wymaga udanego [[/check activity=dnd5eactivity000]]{testu Zręczności o ST 20}. Rozerwanie ich wymaga udanego [[/check activity=9DosjAvEYAW0LLK8]]{testu Siły o ST 20}. Każdy zestaw kajdan jest sprzedawany wraz z jednym kluczem. Bez klucza, istota biegła w używaniu narzędzi złodziejskich może otworzyć zamek kajdan, wykonując udany [[/check activity=9IBcoj8ChH1OiDT8]]{test Zręczności o ST 15}. Kajdany mają 15 PW.</p>",
@@ -2853,6 +2940,15 @@
         "Merchant's Scale": {
             "name": "Waga kupiecka",
             "description": "<p>Składa się ze wskaźnika, szalek i zestawu odważników o wadze do 1 kilograma. Umożliwia dokładne określenie masy niewielkich obiektów, takich jak metale szlachetne czy towary handlowe, dzięki czemu łatwiej je wycenić.</p>"
+        },
+        "Midnight Tears": {
+            "name": "Łzy północy",
+            "description": "<p>Istota, która spożyje tę truciznę, nie odczuwa żadnych skutków aż do północy. Jeśli trucizna nie zostanie wcześniej zneutralizowana, musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia otrzymuje [[/damage average]] obrażeń. Udany rzut zmniejsza obrażenia o połowę.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "Military Saddle": {
             "name": "Siodło wojskowe",
@@ -3153,6 +3249,20 @@
                 }
             }
         },
+        "Oil of Taggit": {
+            "name": "Olej z taggit",
+            "description": "<p>Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia staje się &Reference[poisoned apply=false]{zatruta} na 24 godziny. Zatruta istota staje się także &Reference[unconscious apply=false]{nieprzytomna}. Obudzi się w momencie otrzymania obrażeń.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            },
+            "effects": {
+                "Poisoned & Unconscious": {
+                    "name": "Zatruty i nieprzytomny"
+                }
+            }
+        },
         "Orb": {
             "name": "Szklana kula",
             "description": "<p>Ten kulisty talizman służy jako magiczny fokus do rzucania czarów, pomagając praktykującemu skupiać magiczną, pierwotną lub boską energię.</p>\n<p><strong>Magiczny fokus. </strong>Magiczny fokus to specjalny przedmiot przeznaczony do skupiania mocy czarów magii wtajemniczeń. Zaklinacz, czarownik lub mag może użyć takiego przedmiotu jako fokusu do rzucania czarów, używając go zamiast dowolnego składnika materialnego, który nie ma określonego kosztu.</p>"
@@ -3217,6 +3327,20 @@
             "activities": {
                 "Use Tools": {
                     "name": "Użyj narzędzi"
+                }
+            }
+        },
+        "Pale Tincture": {
+            "name": "Blada nalewka",
+            "description": "<p>Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia otrzymuje [[/damage average]] obrażeń i staje się &Reference[poisoned apply=false]{zatruta}. Ofiara musi powtarzać rzut obronny co 24 godziny, otrzymując w przypadku niepowodzenia [[/damage average]] obrażeń. Dopóki działanie trucizny się nie skończy, zadawanych przez truciznę obrażeń nie można w żaden sposób wyleczyć. Po siedmiu udanych rzutach efekt ustaje i istota może normalnie się leczyć.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "brak"
+                }
+            },
+            "effects": {
+                "Poisoned": {
+                    "name": "Zatruty"
                 }
             }
         },
@@ -3697,10 +3821,15 @@
         },
         "Potion of Poison": {
             "name": "Mikstura zatrucia",
-            "description": "<p><em>Ta mikstura wygląda, pachnie i smakuje jak mikstura leczenia lub inny korzystny eliksir.</em></p><p>W rzeczywistości jest to jednak trucizna zamaskowana magią iluzji. Czar identyfikacja ujawnia jej prawdziwą naturę.</p><p>Jeśli ją wypijesz, otrzymujesz [[/damage]]{3d6 obrażeń od trucizny} i musisz wykonać [[/save]]{rzut obronny na Kondycję}. W przypadku niepowodzenia stajesz się &Reference[poisoned]{zatruty}. Na początku każdej swojej tury, gdy jesteś zatruty w ten sposób, otrzymujesz [[/damage]]{3d6 obrażeń od trucizny}. Na koniec każdej swojej tury możesz powtórzyć rzut obronny. Udany rzut zmniejsza obrażenia od trucizny o 1k6 w kolejnych turach. Trucizna przestaje działać, gdy zadawane obrażenia spadną do 0.</p><section class=\"secret\" id=\"secret-zrLCcwvOwukVWTvT\"><p>Dla wygody możesz użyć przycisków ([[/damage 2d6 poison]] lub [[/damage 1d6 poison]]), aby wykonać rzut na obrażenia dla zmniejszonych obrażeń.</p></section>",
+            "description": "<p><em>Ta mikstura wygląda, pachnie i smakuje jak mikstura leczenia lub inny korzystny eliksir.</em></p><p>W rzeczywistości jest to jednak trucizna zamaskowana magią iluzji. Czar identyfikacja ujawnia jej prawdziwą naturę.</p><p>Jeśli ją wypijesz, otrzymujesz [[/damage]] obrażeń i musisz wykonać rzut obronny [[/save]]. W przypadku niepowodzenia stajesz się &Reference[poisoned apply=false]]{zatruty}. Na początku każdej swojej tury, gdy jesteś zatruty w ten sposób, otrzymujesz [[/damage]] obrażeń. Na koniec każdej swojej tury możesz powtórzyć rzut obronny. Udany rzut zmniejsza obrażenia od trucizny o 1k6 w kolejnych turach. Trucizna przestaje działać, gdy zadawane obrażenia spadną do 0.</p><section id=\"secret-zrLCcwvOwukVWTvT\" class=\"secret\"><p>Dla wygody możesz użyć przycisków ([[/damage 2d6 poison]] lub [[/damage 1d6 poison]]), aby wykonać rzut na obrażenia dla zmniejszonych obrażeń.</p></section>",
             "activities": {
                 "save": {
                     "damageOnSave": "połowa"
+                }
+            },
+            "effects": {
+                "Poisoned": {
+                    "name": "Zatruty"
                 }
             }
         },
@@ -3870,6 +3999,15 @@
         "psoZaItkOScMVaHL": {
             "name": "Butelka oleju",
             "description": "<p>Olej zwykle jest dostarczany w glinianej kolbie, która mieści 0,5 litra. W ramach akcji możesz rozlać olej na stworzenie znajdujące się w obrębie 1,5 metra od ciebie lub rzucić butelkę na odległość do 6 metrów, rozbijając ją przy uderzeniu. Wykonaj atak dystansowy przeciwko wybranemu stworzeniu lub obiektowi, traktując olej jako improwizowaną broń.</p>\n<p>Przy trafieniu cel staje się pokryty olejem. Jeśli cel otrzyma jakiekolwiek obrażenia od ognia przed wyschnięciem oleju (po 1 minucie), cel otrzymuje 5 dodatkowych obrażeń od ognia. Możesz również opróżnić kolbę z olejem na ziemię, aby pokryć nim powierzchnię równą kwadratowi o boku 1,5 metra, pod warunkiem, że powierzchnia jest równa.</p>\n<p>Jeśli zapali się, olej płonie przez 2 rundy i zadaje 5 obrażeń od ognia każdemu stworzeniu, które wejdzie na obszar lub zakończy na tym obszarze swoją turę. Stworzenie może otrzymać te obrażenia raz na turę.</p>"
+        },
+        "Purple Worm Poison": {
+            "name": "Jad purpurowego czerwia",
+            "description": "<p>Tę truciznę można pozyskać z martwego lub obezwładnionego purpurowego czerwia. Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia otrzymuje [[/damage average]] obrażeń. Udany rzut zmniejsza obrażenia o połowę.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "q4RcCLeKviqgckqt": {
             "name": "Bukłak",
@@ -4510,6 +4648,15 @@
             "name": "Tuba na zwoje",
             "description": "<p>To cylindryczne skórzane etui może pomieścić do dziesięciu zwiniętych arkuszy papieru lub pięciu zwiniętych arkuszy pergaminu.</p>"
         },
+        "Serpent Venom": {
+            "name": "Jad węża",
+            "description": "<p>Tę truciznę można pozyskać z martwego lub obezwładnionego olbrzymiego jadowitego węża. Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia otrzymuje [[/damage average]] obrażeń. Udany rzut zmniejsza obrażenia o połowę.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
+        },
         "Shawm": {
             "name": "Szałamaja",
             "description": "<p>Szałamaja mająca wywołać podziw, zachwyt lub strach u twojej publiczności.</p>\n<p>Jeśli masz biegłość w danym instrumencie muzycznym, możesz dodać premię z biegłości do dowolnych testów cech, które wykonujesz, aby grać na instrumencie. Bard może używać instrumentu muzycznego do rzucania czarów. Każdy rodzaj instrumentu muzycznego wymaga odrębnej biegłości.</p>",
@@ -5100,6 +5247,20 @@
                 }
             }
         },
+        "Torpor": {
+            "name": "Drętwota",
+            "description": "<p>Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia staje się &Reference[poisoned apply=false]]{zatruta} na [[/r 4d6]] godzin. Zatruta istota staje się także &Reference[incapacitated apply=false]{obezwładniona}.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            },
+            "effects": {
+                "Poisoned & Incapacitated": {
+                    "name": "Zatruty i obezwładniony"
+                }
+            }
+        },
         "Totem": {
             "name": "Totem",
             "description": "<p>Totem zawierający pióra, futro, kości i zęby zwierzęcia świętego dla użytkownika. Ci, którzy odpowiadają na wezwanie natury, są w stanie wykorzystać totemy, by przywoływać potężne siły świata przyrody.</p>\n<p><strong>Magiczny fokus</strong>. Druidyczny fokus to specjalny przedmiot przeznaczony do skupiania mocy czarów z listy czarów druida. Druid może użyć takiego przedmiotu jako fokusu do rzucania czarów, używając go zamiast dowolnego składnika materialnego, który nie ma określonego kosztu.</p>"
@@ -5142,10 +5303,16 @@
         },
         "Truth Serum": {
             "name": "Serum prawdy",
-            "description": "<p>Istota poddana działaniu tej trucizny musi wykonać  [[/save]]{rzut obronny na Kondycję}. W przypadku niepowodzenia staje się &Reference[poisoned]{zatruta} na 1 godzinę. Zatruta istota nie może świadomie kłamać, tak jakby działał na nią czar @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Strefa prawdy}.</p>",
+            "description": "<p>Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia staje się &Reference[poisoned apply=false]]{zatruta} na 1 godzinę. Zatruta istota nie może świadomie kłamać, tak jakby działał na nią czar @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{strefa prawdy}.</p>",
             "activities": {
                 "save": {
                     "damageOnSave": "połowa"
+                }
+            },
+            "effects": {
+                "Can't Lie": {
+                    "name": "Serum prawdy",
+                    "description": "<p>Nie możesz świadomie kłamać, taj jakby działał na ciebie czar @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{strefa prawdy}.</p>"
                 }
             }
         },
@@ -5642,6 +5809,15 @@
         "Wooden Staff": {
             "name": "Drewniany kostur",
             "description": "<p>Sękata lub naturalnie gładka drewniana laska wydobyta z żywego drzewa. Ci, którzy słuchają zewu natury, mogą jej użyć, aby okiełznać niesamowitą moc natury.</p>\n<p><strong>Magiczny fokus</strong>. Druidyczny fokus to specjalny przedmiot przeznaczony do skupiania mocy czarów z listy czarów druida. Druid może użyć takiego przedmiotu jako fokusu do rzucania czarów, używając go zamiast dowolnego składnika materialnego, który nie ma określonego kosztu.</p>"
+        },
+        "Wyvern Poison": {
+            "name": "Jad wiwerny",
+            "description": "<p>Tę truciznę można pozyskać z martwej lub obezwładnionej wiwerny. Istota poddana działaniu tej trucizny musi wykonać rzut obronny [[/save]]. W przypadku niepowodzenia otrzymuje [[/damage average]] obrażeń. Udany rzut zmniejsza obrażenia o połowę.</p>",
+            "activities": {
+                "save": {
+                    "damageOnSave": "połowa"
+                }
+            }
         },
         "xWQopgOHbS6LjsZm": {
             "name": "Młot",
