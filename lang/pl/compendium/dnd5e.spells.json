@@ -4144,8 +4144,8 @@
                 },
                 "Enfeeblement Save": {
                     "name": "Rzut obronny przeciw osłabieniu",
-                    "condition": "Kiedy trafisz istotę tym czarem.",
-                    "activationCondition": "Kiedy trafisz istotę tym czarem.",
+                    "condition": "Kiedy stworzenie pod wpływem czaru kończy swoją turę.",
+                    "activationCondition": "Kiedy stworzenie pod wpływem czaru kończy swoją turę.",
                     "damageOnSave": "brak"
                 }
             },
