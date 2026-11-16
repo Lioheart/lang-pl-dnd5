@@ -11,6 +11,8 @@
     "characterPl": "Postacie graczy",
     "encounter": "Spotkanie",
     "encounterPl": "Spotkania",
+    "faction": "Frakcja",
+    "factionPl": "Frakcje",
     "group": "Grupa",
     "groupPl": "Grupy",
     "npc": "Postać NPC",
@@ -52,6 +54,8 @@
     "racePl": "Gatunki",
     "raceLegacy": "Rasa",
     "raceLegacyPl": "Rasy",
+    "renown": "Sława",
+    "renownPl": "Sławy",
     "spell": "Czar",
     "spellPl": "Czary",
     "subclass": "Podklasa",
@@ -62,12 +66,14 @@
     "weaponPl": "Bronie"
   },
   "TYPES.RegionBehavior": {
+    "dnd5e.antimagic": "Antymagia",
     "dnd5e.applyActiveEffect": "Zastosuj aktywny efekt (5e)",
     "dnd5e.difficultTerrain": "Trudny teren",
     "dnd5e.rotateArea": "Obróć obszar"
   },
   "TYPES.HINTS": {
     "RegionBehavior": {
+      "dnd5e.antimagic": "Uniemożliwia używanie wszelkich magicznych zdolności lub przedmiotów w obrębie regionu.",
       "dnd5e.applyActiveEffect": "Zastosuj Aktywne Efekty do tokenów, gdy znajdują się one w obrębie regionu i spełniają określone kryteria.",
       "dnd5e.difficultTerrain": "Oznacz region jako trudny teren, ustaw jego rodzaj i na kogo ma wypływ.",
       "dnd5e.rotateArea": "Obracaj tokeny, kafelki, ściany i inne obiekty wokół centralnego punktu obrotu."
@@ -683,6 +689,10 @@
       }
     },
     "ItemGrant": {
+      "DefaultTitle": {
+        "ClassFeatures": "Zdolności Klasy",
+        "SubclassFeatures": "Zdolności Podklasy"
+      },
       "Details": "Szczegóły przyznania",
       "DropHint": "Upuść przedmioty tutaj, aby dodać je do listy przyznawanej przez ten awans.",
       "FIELDS": {
@@ -1744,11 +1754,26 @@
     },
     "Activities": "Aktywności",
     "Button": {
-      "rollAttack": "Atak",
-      "rollCheck": "Test Cechy",
-      "rollDamage": "Obrażenia",
-      "rollFormula": "Rzut",
-      "rollSave": "Rzut obronny"
+      "rollAttack": {
+        "Full": "Atak",
+        "Short": "Atak"
+      },
+      "rollCheck": {
+        "Full": "Test Cechy",
+        "Short": "Test"
+      },
+      "rollDamage": {
+        "Full": "Obrażenia",
+        "Short": "Obrażenia"
+      },
+      "rollFormula": {
+        "Full": "Rzut",
+        "Short": "Rzut"
+      },
+      "rollSave": {
+        "Full": "Rzut obronny",
+        "Short": "Obrona"
+      }
     },
     "Deltas": {
       "Created": "Utworzono przedmiot",
@@ -1767,6 +1792,7 @@
     },
     "Row": {
       "Actions": "Akcje przedmiotu",
+      "Additional": "Dodatkowe akcje",
       "Items": "Przedmioty",
       "Properties": "Właściwości przedmiotu",
       "Roll": "Rzut kością",
@@ -1979,7 +2005,10 @@
   "DND5E.CONCENTRATION": {
     "Abbreviation": "C",
     "Action": {
-      "Break": "Przerwij koncentrację",
+      "Break": {
+        "Full": "Przerwij koncentrację",
+        "Short": "Przerwa"
+      },
       "End": "Zakończ koncentrację"
     },
     "Description": "Koncentrujesz się na efektach: \"{name}\" - {type}.",
@@ -2208,10 +2237,16 @@
       }
     },
     "Action": {
-      "ConsumeResource": "Zużycie zasobu",
+      "ConsumeResource": {
+        "Full": "Zużycie zasobu",
+        "Short": "Spożycie"
+      },
       "Create": "Utwórz cel zużycia",
       "Delete": "Usuń cel zużycia",
-      "RefundResource": "Przywróć zasób"
+      "RefundResource": {
+        "Full": "Przywróć zasób",
+        "Short": "Zwrot"
+      }
     },
     "Empty": "Brak powiązanego zużycia. Użyj przycisku <i class=\"fas fa-plus\"></i> powyżej, aby dodać cele zużycia.",
     "Scaling": {
@@ -2476,6 +2511,10 @@
       "Hint": "Te właściwości broni spowodują ignorowanie odporności na obrażenia fizyczne.",
       "Label": "Pominięcie odporności na obrażenia fizyczne"
     },
+    "Resistance": {
+      "Falling": "Spadający",
+      "UniqueCategory": "Wyjątkowe typy"
+    },
     "Scaling": {
       "Half": "Co drugi poziom",
       "HalfCantrip": "Połowiczne skalowanie sztuczek",
@@ -2520,7 +2559,7 @@
     },
     "State": {
       "active": "Zastosowano",
-      "downgrade": "Obniżono",
+      "downgrade": "Obniżony",
       "ignore": "Zignorowano"
     }
   },
@@ -2729,8 +2768,17 @@
       "Configuration": "Konfiguracja zmiany",
       "Group": {
         "Custom": "Niestandardowy",
+        "DamageApplicationOptions": "Opcje zastosowywania obrażeń",
         "Rules": "Zasady",
         "Standard": "Standardowy"
+      },
+      "Key": {
+        "Attack": "Testy ataku",
+        "Check": "Testy cech",
+        "D20": "Test K20",
+        "Damage": "Rzuty na obrażenia",
+        "Healing": "Rzuty na leczenie",
+        "Save": "Rzuty obronne"
       },
       "Label": "Zmień",
       "Title": "{effect}: zmiana #{number}",
@@ -2740,6 +2788,18 @@
         },
         "Bonus": {
           "Label": "Premia"
+        },
+        "DowngradeImmunityResistance": {
+          "Label": "Obniżenie niepodatności i odporności."
+        },
+        "IgnoreImmunity": {
+          "Label": "Ignoruj niepodatność"
+        },
+        "IgnoreResistance": {
+          "Label": "Ignoruj odporność"
+        },
+        "IgnoreVulnerability": {
+          "Label": "Ignoruj podatność"
         },
         "Maximum": {
           "Label": "Maksimum rzutu"
@@ -2818,6 +2878,7 @@
     },
     "Tab": "Efekty",
     "Warning": {
+      "DependentsWithoutGM": "Usunięcie {name} usunie także wszystkie związane przedmioty, aktywności i efekty. Wymaga aktywnego MP.",
       "RollCondition": "Warunki efektu nie mogą odwoływać się do właściwości 'roll.'. Przenieś ten warunek do poszczególnych zmian, aby efekt mógł zostać zastosowany.",
       "StatusCondition": "Efekty nadające statusy nie mogą jednocześnie zależeć od statusów. Przenieś ten warunek do poszczególnych zmian, aby można było zastosować efekt."
     }
@@ -2928,6 +2989,21 @@
       "magical": {
         "hint": "To zaklinanie jest magiczne i powinno zostać wyłączone, gdy magia jest niedostępna.",
         "label": "Magiczne"
+      },
+      "rider": {
+        "activities": {
+          "hint": "Te dodatkowe efekty zostaną dodane do zaklętego przedmiotu po dodaniu tego zaklęcia i usunięte po usunięciu zaklęcia.",
+          "label": "Dodatkowe aktywności"
+        },
+        "effects": {
+          "hint": "Te dodatkowe efekty zostaną dodane do zaklętego przedmiotu po dodaniu tego zaklęcia i usunięte po usunięciu zaklęcia.",
+          "label": "Dodatkowe efekty"
+        },
+        "items": {
+          "hint": "Te dodatkowe przedmioty zostaną dodane do ekwipunku istoty, gdy jeden z jej przedmiotów zostanie zaklęty. Zostaną usunięte, jeśli zaklęcie zostanie usunięte.",
+          "label": "Dodatkowe przedmioty"
+        },
+        "label": "Załączony"
       }
     },
     "Items": {
@@ -2939,6 +3015,9 @@
       "LongRest": "Długi Odpoczynek",
       "Never": "Nigdy",
       "ShortRest": "Krótki Odpoczynek"
+    },
+    "Rider": {
+      "Activity": "Aktywność jeźdźca zaklęcia"
     },
     "Transfer": {
       "DisabledTooltip": "To zaklinanie jest obecnie wybrane w co najmniej jednej aktywności zaklinania jego przedmiotu, dlatego nie może być nałożone bezpośrednio na ten przedmiot.",
@@ -3319,6 +3398,11 @@
       "Description": "Wydano rozkaz strukturze {link} {facilityType}: <strong>{order}</strong>."
     }
   },
+  "DND5E.FACTION": {
+    "Action": {
+      "AddMember": "Dodaj członka"
+    }
+  },
   "DND5E.FALLING": {
     "DamageFlavor": "Spadek z {distance}",
     "MovementAction": "Spadanie",
@@ -3392,8 +3476,11 @@
     },
     "Monster": "Zdolność potwora",
     "PietyTrait": "Cecha pobożności",
-    "Species": "Zdolność gatunkowa",
-    "SpeciesLegacy": "Zdolność rasowa",
+    "Species": {
+      "Label": "Zdolność gatunkowa",
+      "LabelLegacy": "Zdolność rasowa",
+      "Lineage": "Rodowód"
+    },
     "SupernaturalGift": {
       "Label": "Nadprzyrodzony dar",
       "Blessing": "Błogosławieństwo",
@@ -3450,8 +3537,9 @@
   "DND5E.Filter": "Filtr",
   "DND5E.FilterClear": "Wyczyść filtry",
   "DND5E.FilterGroupCategory": "Sortuj wg. kategorii",
-  "DND5E.FilterGroupOrigin": "Grupuj według źródła",
-  "DND5E.FilterGroupAction": "Grupuj wg. akcji",
+  "DND5E.FilterGroupFaction": "Sortuj wg. frakcji",
+  "DND5E.FilterGroupOrigin": "Sortuj wg. źródła",
+  "DND5E.FilterGroupAction": "Sortuj wg. akcji",
   "DND5E.FilterNoSpells": "Nie znaleziono czarów dla tego zestawu filtrów.",
   "DND5E.FILTER": {
     "Action": {
@@ -3582,8 +3670,8 @@
       }
     },
     "Warning": {
-      "PhysicalItemOnly": "Obsługiwane są tylko przedmioty fizyczne.",
-      "PlaceMembers": "Błąd przy dodawaniu tokenów do sceny."
+      "PlaceMembers": "Błąd przy dodawaniu tokenów do sceny.",
+      "SupportedItemOnly": "Obsługiwane są tylko przedmioty fizyczne i związane ze sławą."
     }
   },
   "DND5E.Habitat": {
@@ -3661,7 +3749,10 @@
         }
       }
     },
-    "HealingButton": "Leczenie",
+    "HealingButton": {
+      "Full": "Leczenie",
+      "Short": "Uleczenie"
+    },
     "HealingRoll": "Rzut na leczenie",
     "Hint": "Ulecz istotę",
     "Title": "Leczenie",
@@ -3860,10 +3951,12 @@
       "Focus": "Fokus",
       "Gear": "Wyposażenie",
       "Heavy": "Ciężka",
+      "Hydrating": "Nawadniający",
       "Light": "Lekka",
       "Loading": "Ładowanie",
       "Material": "Komponent",
       "Magical": "Magiczna",
+      "Nutritious": "Pożywny",
       "Reach": "Dalekosiężna",
       "Reload": "Przeładowanie",
       "Returning": "Powracająca",
@@ -3931,6 +4024,10 @@
       "Standard": "Języki standardowe"
     },
     "Communication": {
+      "Formatter": {
+        "Units": "Jednostki: {name}",
+        "Value": "Zasięg: {name}"
+      },
       "Label": "Komunikacja na odległość",
       "Telepathy": "Telepatia"
     },
@@ -3983,7 +4080,10 @@
   },
   "DND5E.LegendaryResistance": {
     "Action": {
-      "Resist": "Legendarna Odporność"
+      "Resist": {
+        "Full": "Legendarna Odporność",
+        "Short": "Oprzyj się"
+      }
     },
     "Label": "Legendarna Odporność",
     "LabelPl": "Legendarne Odporności",
@@ -4341,6 +4441,27 @@
         "RecursiveRegion": "Nie można obrócić tego samego obszaru, który zawiera to zachowanie."
       }
     }
+  },
+  "DND5E.RENOWN": {
+    "Action": {
+      "AddModifier": "Dodaj modyfikator ze sławy",
+      "DeleteModifier": "Usuń modyfikator ze sławy"
+    },
+    "Empty": "Brak modyfikatorów ze sławy. Użyj przycisku <i class=\"fas fa-plus\"></i> powyżej, aby dodać nowy.",
+    "FIELDS": {
+      "modifiers": {
+        "element": {
+          "faction.label": "Frakcja",
+          "value": {
+            "label": "Wartość",
+            "placeholder": "0"
+          }
+        },
+        "label": "Modyfikatory"
+      }
+    },
+    "Search": "Szukaj sławy",
+    "Unknown": "Nieznany"
   },
   "DND5E.Remaining": "Pozostało",
   "DND5E.RequiredMaterials": "Wymagane materiały",
@@ -4799,6 +4920,7 @@
     "Container": "Karta pojemnika D&D 5e",
     "DifficultTerrain": "Karta trudnego terenu D&D 5e",
     "Encounter": "Karta spotkania D&D 5e",
+    "Faction": "Karta frakcji D&D 5e",
     "Group": "Karta grupy D&D 5e",
     "Item": "Karta przedmiotu D&D 5e",
     "JournalEntry": "Karta wpisu do dziennika D&D 5e",
@@ -5306,6 +5428,9 @@
       "Label": "Zmiany w istocie",
       "Hint": "Zmiany, które zostaną wprowadzone w przywołanej istocie. Wszelkie odnośniki @ użyte w poniższych wzorach będą oparte na statystykach osoby przywołującej. Do statystyk przywołanych istot można odwoływać się za pomocą @summon (np. @summon.attributes.hd.max, aby odwołać się do liczby Kości Wytrzymałości istoty)."
     },
+    "DamageChanges": {
+      "Label": "Zmiany w obrażeniach"
+    },
     "Hint": "Przywołaj nową istotę do sceny.",
     "ItemChanges": {
       "Label": "Zmiany w przedmiotach",
@@ -5383,7 +5508,10 @@
   },
   "DND5E.TARGET": {
     "Action": {
-      "PlaceTemplate": "Umieść szablon pomiarowy"
+      "PlaceTemplate": {
+        "Full": "Umieść szablon pomiarowy",
+        "Short": "Obszar"
+      }
     },
     "Count": {
       "Any": "Dowolny",
@@ -6883,6 +7011,7 @@
     "VTTAdvice": "Porady VTT"
   },
   "EFFECT.DND5E": {
+    "StatusAntimagic": "Antymagia",
     "StatusBleeding": "Krwawienie",
     "StatusBloodied": "Zakrwawiony",
     "StatusBurning": "Palący się",
@@ -7241,6 +7370,10 @@
         "Hint": "Pozwól graczom na transformację ich własnych aktorów. Gracze muszą również posiadać uprawnienia do tworzenia aktorów i tokenów.",
         "Name": "Zezwalaj na transformację"
       }
+    },
+    "RENOWN": {
+      "Hint": "Włącz opcjonalne śledzenie sławy dla postaci graczy i grup.",
+      "Name": "Wartości sławy"
     },
     "RULESVERSION": {
       "Name": "Wersja zasad",
